@@ -607,8 +607,8 @@
     "output_tokens": 10782,
     "total_tokens": 19883
   },
-  "generated_at": "2026-07-20T14:50:40.009187+00:00",
-  "window_start": "2026-07-19T14:50:40.009187+00:00",
+  "generated_at": "2026-07-20T14:50:40+00:00",
+  "window_start": "2026-07-19T14:50:40+00:00",
   "candidate_count": 260,
   "source_errors": [
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
