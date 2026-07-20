@@ -1,268 +1,35 @@
 {
-  "title": "晶球电台早报：伊朗战事持续第九夜，世界杯尘埃落定，小米发布百万小时VLA大模型",
-  "subtitle": "机器人产业与学术并进：小米真机数据破十万小时，具身智能论文密集释出",
+  "title": "晶球电台早报：伊朗遇袭持续九日、英国政坛突变、世界杯落幕，WAIC 上演人形机器人集体亮相",
+  "subtitle": "从具身智能基础模型到多机协作人形机器人，产业与学术同步推进；国际局势方面伊朗、乌克兰、英国均有重大变化",
   "highlights": [
-    "小米发布Xiaomi-Robotics-1视觉-语言-动作大模型，训练数据超10万小时真实机器人轨迹",
-    "美国对伊朗展开第九个连续夜间打击，特朗普称行动为纪念阵亡美军",
-    "西班牙时隔16年再夺世界杯，加冕男女双料世界冠军",
-    "新华社称中国人形机器人整机产品已超400款，产业规模持续扩张"
+    "美国对伊朗展开连续第九夜空袭，特朗普称行动是为纪念阵亡美军人员",
+    "WAIC 2026 上多家公司集中发布人形机器人新品，梅卡曼德展示多机协作方案",
+    "小米发布 Xiaomi-Robotics-1，用超过10万小时真实轨迹数据训练视觉-语言-动作基础模型",
+    "英国前曼彻斯特市长安迪·伯纳姆接替斯塔默出任首相",
+    "西班牙时隔16年再夺男足世界杯冠军，实现男女世界杯双料在身"
   ],
   "stories": [
     {
-      "category": "robotics",
-      "title": "小米发布Xiaomi-Robotics-1：十万小时真机数据训练的VLA基础模型",
-      "english_term": "VLA (Vision-Language-Action model，视觉-语言-动作模型)：一种直接把摄像头图像、语言指令映射为机器人动作输出的端到端模型架构",
-      "summary": "小米在arXiv公布了新一代具身智能基础模型Xiaomi-Robotics-1，号称使用超过10万小时真实世界机器人轨迹数据训练，能够零样本执行多种移动操作任务并可低成本微调适配新任务。",
-      "script": "先看学术与产业交叉的一条重要信息。小米团队在arXiv公布了论文，介绍了他们的具身智能基础模型Xiaomi-Robotics-1。这是一个视觉-语言-动作模型，英文缩写VLA，指的是一种直接把摄像头画面、语言指令映射为机器人底层动作指令的端到端架构，跳过了传统机器人栈里手写的感知、规划、控制分层设计。论文摘要提到，这个模型能够在没见过的环境里，仅凭多样化的语言指令完成大范围的移动操作任务，也就是既要移动底盘又要用机械臂抓取和摆放物体的复合任务；同时它还能用很少的微调数据快速适配新的下游任务。最引人注目的是训练数据规模：团队使用了超过10万小时的真实世界机器人轨迹数据，这个体量在公开披露的具身模型里属于第一梯队，说明国内厂商在真机数据采集的工程能力上已经形成规模化管线，而不再依赖单纯的仿真数据或小规模遥操作采集。论文提出了两阶段训练配方，预训练阶段让模型获得广泛的通用操作与场景理解能力，后训练阶段再针对具体任务做强化和微调，这种预训练加后训练的范式与大语言模型的训练思路一脉相承，也是当前具身智能界的主流做法。这条论文的价值在于两方面：一是验证了国产机器人公司在数据规模化采集上已具备与国际头部实验室竞争的基础设施能力；二是为后续研究者提供了一个可能的开源或对标基准，帮助评估不同VLA架构在跨任务泛化上的表现差异。需要说明的是，这篇论文属于arXiv预印本，尚未经过同行评审，具体的模型规模、训练细节、基准测试成绩和是否开源，都需要等待论文全文与后续社区复现结果的验证。后续需要关注该模型是否会公开权重或提供第三方评测数据，以及10万小时数据的采集场景分布是否具有足够多样性。",
-      "duration_seconds": 180,
-      "is_unverified": true,
-      "confidence_note": "该内容来自arXiv预印本摘要，尚未经过同行评审，具体技术细节与性能数据以论文全文及后续第三方复现为准。",
-      "fact_status": {
-        "confirmed": [
-          "小米团队在arXiv发布了名为Xiaomi-Robotics-1的VLA模型论文摘要"
-        ],
-        "claims": [
-          "论文声称训练数据超过10万小时真实机器人轨迹，模型可零样本执行移动操作任务并低成本微调适配新任务"
-        ],
-        "analysis": [
-          "若数据规模属实，说明国内机器人公司在真机数据采集工程化方面进展显著，但性能与泛化能力仍需第三方验证"
-        ]
-      },
-      "source_ids": [
-        "5005cb062915302e"
-      ],
-      "sources": [
-        {
-          "id": "5005cb062915302e",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories",
-          "summary": "arXiv:2607.15330v1 Announce Type: new Abstract: We present Xiaomi-Robotics-1, a foundational vision-language-action (VLA) model capable of (1) following diverse language instructions to perform a wide range of mobile manipulation tasks in unseen environments out-of-the-box, and (2) efficiently adapting to novel downstream tasks with minimal fine-tuning data. We propose a two-stage training recipe consisting of pre-training and post-training. During pre-training, we imbue the model with broad and generalizable action-generation capabilities by training on over 100k hours of real-world manipulation trajectories collected via UMI devices. Crucially, we develop a scalable auto-labeling pipeline that annotates trajectory clips with natural languages describing scene state transitions, providing rich and precise conditioning for action learning. During post-training, we aim to align these capabilities with robot embodiments and imperative instructions that humans naturally use to prompt robots. Extensive experiments demonstrate strong scaling behavior. Xiaomi-Robotics-1 consistently improves with increased data scales and model sizes during pre-training. This scaling behavior directly tr",
-          "url": "https://arxiv.org/abs/2607.15330",
-          "published_at": "2026-07-20T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "新华社：中国人形机器人整机产品已超400款",
-      "english_term": null,
-      "summary": "新华社报道称中国人形机器人产业已推出超过400款整机产品，反映国内厂商在硬件层面的密集布局与产业链成熟度提升。",
-      "script": "再看一条产业动态。新华社报道称，中国目前在人形机器人领域已经形成超过400款完整整机产品，这个数字被官方媒体用来说明中国在全球人形机器人赛道上处于领先位置。这里说的整机产品，指的是从本体结构、关节执行器、传感器到控制系统都已经集成完毕、可以对外展示或小批量交付的完整机器人，而不是仅停留在样机或概念阶段的原型。400款这个规模放在全球范围看是相当庞大的，背后反映的是过去两三年国内資本和产业链在人形机器人赛道上的密集投入：从核心零部件如谐波减速器、行星滚柱丝杠、力矩传感器，到本体集成厂商，再到下游场景应用方，已经形成了较为完整的产业链条。与此同时，另一篇来自央视国际频道的报道也提到中国高科技产业在2026年上半年持续保持增长势头，人形机器人被列为其中的重点领域之一，这与新华社的报道形成了相互印证。不过需要指出，整机产品数量多并不直接等同于商业化成熟度或量产规模，很多整机产品仍处于展示、demo或小批量试点阶段，真正实现规模化量产交付、形成稳定商业模式的厂商目前仍是少数。这类官方媒体的报道通常服务于产业宣传与政策叙事，具体的400款产品清单、各厂商的市场占有率、实际出货量等细节并未在报道中详细披露，后续需要更多第三方行业报告或厂商财报来做交叉验证，才能判断这一数字背后真实的产业成熟度和商业化进展。",
-      "duration_seconds": 140,
-      "is_unverified": true,
-      "confidence_note": "官方媒体报道的产业数据缺乏具体统计口径与第三方交叉验证，400款产品的定义和统计范围需要更多信息支撑。",
-      "fact_status": {
-        "confirmed": [
-          "新华社报道中国人形机器人整机产品数量已超过400款"
-        ],
-        "claims": [
-          "报道称此举说明中国在全球人形机器人发展中处于领先地位"
-        ],
-        "analysis": [
-          "产品数量多不等于商业化成熟度，实际量产与规模化落地情况仍需更多数据支撑"
-        ]
-      },
-      "source_ids": [
-        "9cf21e2bebdb198e",
-        "298746591aa69e77"
-      ],
-      "sources": [
-        {
-          "id": "9cf21e2bebdb198e",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Xinhua News | China leads global humanoid robot development with over 400 complete robot products - Xinhua",
-          "summary": "Xinhua News | China leads global humanoid robot development with over 400 complete robot products Xinhua",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE40VmxqeXpIZ3Z5UlJUYVBsdExQbEVYR3ZxR19lUFpxYzR0bFkzU2ZSTzlKZFZwNUV2VGpJZ2Y5bVU5NlFrTUZKSkNuc3VZalUzWjZDOWpQMHQyUVl6TkFBYW9WT3pjRlpXYnIyWHhvUGRpRWxnWVB5WkZtaUE?oc=5",
-          "published_at": "2026-07-20T06:11:16+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "298746591aa69e77",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "China's high-tech sector gains momentum in first half of 2026 - news.cgtn.com",
-          "summary": "China's high-tech sector gains momentum in first half of 2026 news.cgtn.com",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWENnY0liX1ptZEFmRjNXam15VFYzRmZ5b0JWenBocGVlS0pncFl3bUdaZjFWWGRoYUNvcC01OWI5cVFwREpDRUdXdzdVeE5nUnFQYnlxWFk2QUI4TDJIYWtDbVBzS3hPamg0YnRETWhtTzhDZWhZc1Q0dmpROEQxOHgtMXNsVkdzWGxOMjRENlZfeFFDaEI0Y0xkdTN2M05rQkVQZHo1RjlVcDdObmlmY2dCT2RSaFVFMlE?oc=5",
-          "published_at": "2026-07-20T06:10:59+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "多篇具身智能与灵巧操作论文密集释出：从触觉抓取到共享自主",
-      "english_term": "Shared Autonomy（共享自主）：人类操作者与机器人自主系统共同分担控制权的协作模式",
-      "summary": "arXiv机器人板块同期公布多篇论文，涵盖视触觉融合抓取手爪、脑机接口辅助操作、软体执行器制造工艺及风险敏感的偏好学习方法，反映感知与控制方向的持续细分研究。",
-      "script": "接下来集中扫描几篇同一天出现在arXiv机器人板块的论文，它们分别指向感知、控制与制造这几个不同方向，可以看出当前学术界在具身智能细分领域上的分布。第一篇提出了VTAP夹爪，全称是视触觉主动掌心，它把指尖的触觉阵列传感器和一个可以主动运动的掌心结合起来，掌心负责远距离的视觉定位，指尖负责接触阶段的精细触觉反馈，两者协同让机械手既能完成大范围抓取又能做精细的手内操作，这类多模态融合方案是当前灵巧操作研究的主流思路。第二篇论文叫NeuroCommitSSM，面向的是辅助操作场景下的共享自主，也就是人和机器人共同分担控制权。它通过同步采集脑电、肌电和眼动信号，实时计算一个介于0到1之间的执行就绪分数，再通过状态机把这个连续信号转成离散的执行指令，目标是让辅助机械臂能够准确判断使用者“什么时候真正想执行动作”，这对残障辅助或医疗场景中的人机协作有直接意义。第三篇论文关注软体机器人执行器的制造工艺，提出了更稳健的硅胶浇筑与传感器嵌入流程，解决的是软体机器人长期以来面临的可重复、可规模化制造难题，因为传统工艺依赖人工操作，容易出错且难以标准化。另外还有两篇论文分别讨论风险敏感的偏好学习，即让机器人学习奖励函数时考虑人类对小概率负面事件的过度重视，以及把工作空间布局设计本身作为优化变量，来提升共享自主系统在噪声输入下推断人类意图的准确率。这几篇论文共同的特点是都属于同行评审前的预印本，具体实验数据、任务成功率、硬件复现难度等仍需等待正式发表和后续社区验证，但整体上看，触觉融合、脑机接口辅助、软体制造工艺和意图推断，仍是当前机器人感知与控制研究相对活跃的几个子方向。",
-      "duration_seconds": 175,
-      "is_unverified": true,
-      "confidence_note": "均为arXiv预印本，未经同行评审，具体实验结果、复现难度与实际性能需以正式发表版本为准。",
-      "fact_status": {
-        "confirmed": [
-          "多篇机器人相关论文同日出现在arXiv cs.RO板块，分别涉及触觉抓取、脑机接口辅助操作、软体执行器制造与偏好学习"
-        ],
-        "claims": [
-          "各论文声称提出的方法在各自任务上具有改进效果"
-        ],
-        "analysis": [
-          "这些方向共同反映当前学术界对多模态感知融合与人机协作意图推断的持续关注，但性能声称需第三方复现验证"
-        ]
-      },
-      "source_ids": [
-        "39c32d4da73561df",
-        "1114e34604cbef6d",
-        "9c671cb68a6dc904",
-        "713c9e82486c29ed",
-        "edffdefea45d7de5"
-      ],
-      "sources": [
-        {
-          "id": "39c32d4da73561df",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation",
-          "summary": "arXiv:2607.15448v1 Announce Type: new Abstract: This paper presents a tactile-reactive gripper that integrates a Visuo-Tactile Active Palm (VTAP) and compliant, reconfigurable fingers equipped with tactile array sensors. The design exploits structured finger-palm synergy and multi-modal perception to achieve both robust grasping and fine manipulation. The actuated bi-modal palm seamlessly combines long-range visual localization with contact-rich tactile feedback, substantially extending the system's manipulation capability. To bridge the embodiment gap between human hand motion and the heterogeneous three-finger structure, we further propose a staged, gesture-conditioned retargeting framework for dexterous teleoperation. Extensive experiments validate the system across a range of challenging tasks: reactive grasping of YCB and fragile objects, in-hand syringe reorientation and plunger actuation, singulation of clustered objects down to 3 mm in diameter, and vision-tactile peg-in-hole insertion. Results demonstrate that high manipulation performance can be achieved through coordinated finger-palm interaction and multi-modal sensing, without resorting to high degrees of freedom anthr",
-          "url": "https://arxiv.org/abs/2607.15448",
-          "published_at": "2026-07-20T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "1114e34604cbef6d",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "NeuroCommitSSM: Decision-Centric Shared Autonomy for Safe Assistive Manipulation via EEG-EMG-ET Commit Readiness",
-          "summary": "arXiv:2607.15395v1 Announce Type: new Abstract: We present NeuroCommitSSM, a decision-centric framework that models when to execute, not just what to do, for safe commit-to-execute control in assistive robotic manipulation. NeuroCommitSSM predicts a continuous commit-readiness score c_t in [0,1] from synchronized electroencephalography (EEG), electromyography (EMG), and eye-tracking (ET), and converts it into discrete commit events through dwell and hysteresis filtering. A three-state finite-state supervisor, HOLD-ASSIST-COMMIT (HAC), gates execution by requiring both a sustained commit-readiness signal from the neural model and real-time perception and robot-state feasibility, including target visibility, inverse kinematics solvability, and collision-free planning, before initiating motion. We evaluate the framework on N=32 subjects performing five activities of daily living (ADL) tasks aligned with the International Classification of Functioning, Disability and Health (ICF), using leave-one-subject-out (LOSO) cross-validation and seven sensor-dropout scenarios (S0-S6). NeuroCommitSSM achieves 0.950 action-balanced accuracy with 0.75 false commit events per 1000 REST windows (FP/1",
-          "url": "https://arxiv.org/abs/2607.15395",
-          "published_at": "2026-07-20T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "9c671cb68a6dc904",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Robust Silicone Pour Casting and Sensor Embedding Procedures for Soft Robotic Actuators",
-          "summary": "arXiv:2607.15422v1 Announce Type: new Abstract: Soft robots are well-suited for applications such as rehabilitation and surgery that require adaptable and safe interaction with their environment. However, the challenges of reproducible and scalable fabrication of soft robots limit their real-world deployment. Various fabrication methods have been introduced, but many are labor-intensive and prone to human error. Therefore, traditional two-part pour casting remains an attractive option. This paper presents procedures for robust, repeatable, and scalable fabrication of soft pneumatic actuators using two-part pour casting. The presented methods prevent internal cavity clogging and ensure air-tight sealing. Additionally, a robust sensor embedding procedure for thin-film flex sensors is presented, which allows for accurate and repeatable data acquisition. Finite Element Modeling (FEM) of the soft actuator is performed to analyze stress and deformation from internal pressure loadings. Pneumatic actuation experiments with PID pressure control are performed. Automated image processing is used to calibrate the embedded flex sensor to bending angle measurements. Staircase and sinusoidal prof",
-          "url": "https://arxiv.org/abs/2607.15422",
-          "published_at": "2026-07-20T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "713c9e82486c29ed",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Risk-Aware Preference Learning for Stochastic Outcomes",
-          "summary": "arXiv:2607.15483v1 Announce Type: new Abstract: Learning reward functions from human preferences is a widely used approach for aligning robot behavior with user expectations in human-robot interaction. Most existing approaches assume that humans evaluate uncertain outcomes using expected utility (EU), aggregating outcome utilities linearly with their probabilities. However, behavioral evidence shows that humans are systematically risk-sensitive, overweighting rare negative events and exhibiting loss aversion. We study the consequences of this mismatch in social robot navigation, where safety-critical outcomes (e.g., collisions) are rare but highly consequential. We compare EU with Cumulative Prospect Theory (CPT), a nonlinear model of human decision-making, within a Bradley-Terry preference learning framework. Our preliminary experiments show that when preferences are generated by risk-sensitive users, CPT-based learners recover reward functions with substantially lower regret compared to EU-based learners. Our results highlight the importance of modeling human risk sensitivity when learning rewards from preferences over stochastic robot outcomes.",
-          "url": "https://arxiv.org/abs/2607.15483",
-          "published_at": "2026-07-20T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "edffdefea45d7de5",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Environment Design for Reliable Shared Autonomy with Probabilistic Guarantees",
-          "summary": "arXiv:2607.15487v1 Announce Type: new Abstract: Shared autonomy enables humans and robots to collaboratively perform tasks by combining human input with autonomous assistance. Most prior work focuses on improving intent inference under a fixed environment, overlooking how workspace design itself affects inference difficulty. We observe that the physical arrangement of objects directly influences the separability of candidate goals under noisy user inputs. We formulate workspace design as an optimization problem and derive a probabilistic correctness guarantee under a bounded noise model. Through simulation experiments across multiple tabletop scenarios, we show that optimized layouts improve goal inference reliability and reduce ambiguity compared to baseline arrangements. We further demonstrate a real-world shared autonomy system that integrates the proposed inference framework. This highlights the role of environment design as a complementary axis for improving shared autonomy systems.",
-          "url": "https://arxiv.org/abs/2607.15487",
-          "published_at": "2026-07-20T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "行业观察：遥操作是训练捷径还是陷阱？",
-      "english_term": "Teleoperation（遥操作）：人类操作者远程实时控制机器人完成动作，常用于采集训练数据",
-      "summary": "The Robot Report刊文讨论人形机器人训练中过度依赖遥操作数据采集的局限性，业内人士呼吁强化学习与仿真训练不可或缺。",
-      "script": "最后一条机器人相关内容是一篇行业评论。The Robot Report采访了机器人公司Flexion的首席执行官，讨论了当前人形机器人训练中一个被称为“遥操作陷阱”的现象。遥操作指的是由人类操作者实时远程控制机器人完成动作，从而采集用于模仿学习的训练数据，这是目前包括特斯拉、Figure等多家人形机器人公司普遍采用的数据采集方式，也是前面提到的小米团队十万小时真机数据很可能包含的重要组成部分。文章的核心观点是，遥操作虽然是训练人形机器人不可或缺的手段，因为它能提供高质量、贴近真实场景的动作轨迹，但如果厂商过度依赖遥操作、把它当作解决所有问题的万能钥匙，反而会限制机器人的泛化能力，因为遥操作数据本质上还是在复现人类已经想到的操作方式，很难覆盖长尾的、罕见的失败场景和边缘情况。受访者强调，强化学习和仿真训练仍然是不可替代的补充手段，尤其是仿真环境可以低成本地生成海量的边缘案例和失败场景，用来训练机器人在真实世界中较少遇到但一旦发生就代价高昂的异常状况。这篇文章没有给出具体的实验数据或量化对比，更多是行业从业者基于经验的判断和呼吁，但它反映了当前人形机器人训练方法论上的一个真实争论：数据驱动的模仿学习和基于仿真的强化学习，究竟应该以怎样的比例结合，业内目前并没有统一答案，这也是接下来一段时间机器人训练技术路线上值得持续关注的方向。",
-      "duration_seconds": 145,
-      "is_unverified": false,
-      "confidence_note": "为行业高管观点性评论文章，非量化研究结果，代表单一公司立场。",
-      "fact_status": {
-        "confirmed": [
-          "The Robot Report发表了关于遥操作训练局限性的行业评论文章"
-        ],
-        "claims": [
-          "受访高管认为过度依赖遥操作会限制机器人泛化能力，强化学习与仿真训练仍不可替代"
-        ],
-        "analysis": [
-          "这反映了人形机器人训练方法论上模仿学习与强化学习结合比例的行业争论，尚无统一定论"
-        ]
-      },
-      "source_ids": [
-        "6511c68fc78ba690"
-      ],
-      "sources": [
-        {
-          "id": "6511c68fc78ba690",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "How to avoid the teleoperation trap in robotics development",
-          "summary": "Teleoperation is necessary for training humanoid robots, but reinforcement learning and simulation are still necessary, says Flexion's CEO. The post How to avoid the teleoperation trap in robotics development appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/",
-          "published_at": "2026-07-19T12:30:25+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
       "category": "world",
-      "title": "美国对伊朗展开第九个连续夜间打击",
+      "title": "美国对伊朗空袭进入第九个夜晚，特朗普称行动为纪念阵亡美军",
       "english_term": null,
-      "summary": "美军对伊朗实施了第九个连续夜间打击行动，特朗普称此举是为纪念阵亡美军人员，据报道打击目标包括西北部城市大不里士。",
-      "script": "国际局势方面，美国与伊朗之间的军事冲突仍在持续升级。多家媒体报道称，美军已经对伊朗展开了第九个连续夜间的打击行动，这意味着这场冲突已经持续超过一周时间，尚未看到停火迹象。据报道，此轮打击的目标包括伊朗西北部城市大不里士等地。美国总统特朗普就此发表表态，称最新一轮打击是“为纪念阵亡的美军人员”而进行的，但具体是哪次事件导致美军人员伤亡、伤亡的具体情况和时间，目前公开报道中并未给出详细说明。美军方面公布了打击行动的相关影像资料，但影像内容具体展示了什么打击目标、造成何种损失，还需要更多信息源加以确认。目前可以确认的事实是：美国已连续九个夜晚对伊朗境内目标实施打击，特朗普本人就此事发表了公开表态。而关于开战的具体导火索、双方伤亡的确切数字、是否会进一步升级或出现斡旋，各方说法不一，伊朗官方的回应和国际社会的斡旋努力也需要持续跟踪。这场冲突已经是本轮中东局势中持续时间较长、烈度较高的一次军事对抗，其对地区能源市场、全球油价走势、伊朗核项目进展等方面的连锁影响，都是接下来需要密切关注的焦点。",
-      "duration_seconds": 115,
+      "summary": "美军持续第九夜对伊朗多地实施打击，特朗普表示此轮行动是为向近期身亡的美军人员致敬。相关战事细节与目标范围各方说法不一。",
+      "script": "国际局势方面，美国对伊朗的军事行动仍在持续。据多家媒体报道，美军已连续第九个夜晚对伊朗境内目标发动打击，据称本轮打击范围包括伊朗西北部城市大不里士等地。美国总统特朗普公开表示，最新一轮打击是“为纪念阵亡的美军人员”而进行的，将其定性为对此前美方人员伤亡的回应与报复。目前已确认的事实是，美军已经连续多晚对伊朗实施空袭，美国官方也公开发布了打击画面，证实军事行动仍在进行。而关于打击的具体目标性质、伊朗方面的伤亡与反制情况，各方说法出现分歧：美方强调行动的精确性与正当性，将其与阵亡美军人员相联系；但伊朗方面对打击范围、平民影响等关键信息的说法未在候选信息中得到独立确认。从分析角度看，这场军事冲突已经从最初的对抗升级为一场持续多日的高强度军事行动，美国将打击行动与本国人员伤亡挂钩，某种程度上是在为持续升级的军事介入寻找国内政治合法性依据，这也意味着短期内局势降温的可能性较低。国际社会对这场冲突走向的关注度持续上升，尤其是打击是否会进一步扩大到伊朗其他核心城市或设施，仍是外界密切关注的焦点。目前尚不清楚这轮空袭的下一步升级路径，也不清楚是否有斡旋努力在同步进行。后续需要等待更多独立信源确认伊朗方面的实际损失情况，以及美国国会与国际社会对行动合法性的进一步表态。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "多家二级媒体独立报道确认打击行动持续，但冲突起因、伤亡细节等具体情况来源有限，需持续跟踪核实。",
+      "confidence_note": "美方官方发布打击画面及总统表态构成一手信源，但伊朗方面说法及具体打击范围未见独立信源交叉确认，故对细节保持谨慎。",
       "fact_status": {
         "confirmed": [
-          "美军已连续九个夜晚对伊朗境内目标实施打击行动",
-          "特朗普就此发表公开表态"
+          "美军已连续第九夜对伊朗实施打击",
+          "美国官方发布了打击相关画面"
         ],
         "claims": [
-          "特朗普称此轮打击是为纪念阵亡美军人员",
-          "据报道打击目标包括大不里士等西北部城市"
+          "特朗普称打击是为纪念阵亡美军人员",
+          "据称打击目标包括大不里士等地"
         ],
         "analysis": [
-          "冲突持续时间已超一周，具体导火索、双方伤亡情况及后续走向仍需持续关注"
+          "军事行动持续多日显示冲突已呈现长期化态势",
+          "美方将行动与本国人员伤亡挂钩可能意在争取国内支持"
         ]
       },
       "source_ids": [
@@ -317,29 +84,73 @@
     },
     {
       "category": "world",
-      "title": "西班牙时隔16年再夺世界杯，加冕男女双料世界冠军",
+      "title": "英国首相易人：安迪·伯纳姆接替斯塔默上任",
       "english_term": null,
-      "summary": "西班牙在世界杯决赛中1比0战胜阿根廷，费兰·托雷斯打入制胜球，西班牙由此成为男女足世界杯双料冠军。",
-      "script": "体育方面，本届世界杯已经落下帷幕。西班牙队在决赛中以1比0战胜阿根廷队，捧起了时隔16年的第二座男足世界杯冠军奖杯，攻入制胜一球的是费兰·托雷斯。由于西班牙女足此前已经获得过女足世界杯冠军，这场胜利也让西班牙成为男女足世界杯双料冠军的国家。阿根廷队主帅斯卡洛尼在赛后接受采访时情绪低落，他表示，要再组建一支能够连续两届打入世界杯决赛的阵容将会非常困难，言语中透露出对阿根廷这批球员黄金周期即将结束的担忧。多家媒体在赛后走访了现场球迷，西班牙球迷的欢庆场面与阿根廷球迷的失落形成鲜明对比。此外，半岛电视台的一篇评论文章提到，在观看和庆祝西班牙夺冠的同时，很多观众的思绪也牵挂着加沙的局势，反映出体育赛事之外，国际社会对中东人道危机的持续关注并未因体坛盛事而中断。这场决赛也是本届世界杯的收官之战，随着赛事落幕，各支球队接下来将进入新一轮的联赛周期和阵容调整期。",
-      "duration_seconds": 95,
+      "summary": "前曼彻斯特市长安迪·伯纳姆周一接替基尔·斯塔默出任英国首相，其政治生涯与英格兰南北阶层分化背景密切相关。",
+      "script": "英国政坛出现重大人事变动。据报道，前曼彻斯特市长安迪·伯纳姆已于本周一接替基尔·斯塔默，成为英国新任首相。伯纳姆的从政经历长期与英格兰南北地区之间的阶层分化议题紧密相关，他此前作为地方市长期间，曾多次就区域发展不平衡、北部产业衰退等议题发声，这也被认为是他此次登上首相之位的重要政治资产。目前已确认的信息是，这一职位交接已经发生，伯纳姆正式接任首相一职。至于此次权力交接背后的具体政治过程，例如党内推选机制、斯塔默卸任的具体原因等细节，候选信息中并未展开说明，仍有待后续报道补充。从分析角度看，伯纳姆长期代表英格兰北部选民利益的政治形象，如果延续到首相任内，可能会在区域经济政策、公共服务投入等议题上带来路线调整，这也将是观察英国内政走向的一个重要信号。对于国际社会而言，英国首相的更替也可能对英国在乌克兰战事、对伊朗政策等国际议题上的立场产生影响，尤其是在当前欧洲安全局势持续紧张的背景下，新任首相的外交路线选择将受到密切关注。后续需要等待伯纳姆政府公布具体施政纲领，以及其在国际事务上的具体立场表态。",
+      "duration_seconds": 115,
       "is_unverified": false,
-      "confidence_note": "多家二级媒体独立报道确认比赛结果，信息一致性较高。",
+      "confidence_note": "来自NPR的一手报道，信息较为简明，具体交接细节和施政方向仍待后续报道补充。",
       "fact_status": {
         "confirmed": [
-          "西班牙在决赛中1比0战胜阿根廷，费兰·托雷斯打入制胜球，西班牙加冕男女双料世界冠军"
+          "安迪·伯纳姆已接替斯塔默出任英国首相",
+          "伯纳姆此前担任曼彻斯特市长"
+        ],
+        "claims": [],
+        "analysis": [
+          "伯纳姆的从政背景可能影响其未来在区域经济政策上的取向",
+          "首相更替可能对英国外交政策产生潜在影响"
+        ]
+      },
+      "source_ids": [
+        "0f9226b75e7ddbb7"
+      ],
+      "sources": [
+        {
+          "id": "0f9226b75e7ddbb7",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Who is Andy Burnham, the U.K.'s new prime minister?",
+          "summary": "On Monday, former Manchester Mayor Andy Burnham succeeds Keir Starmer as the United Kingdom's prime minister. Burnham's politics have been shaped by England's north-south class divide.",
+          "url": "https://www.npr.org/2026/07/19/g-s1-134001/andy-burnham-new-british-prime-minister",
+          "published_at": "2026-07-19T16:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "sports",
+      "title": "西班牙时隔16年再夺男足世界杯，实现男女世界杯双料在身",
+      "english_term": null,
+      "summary": "西班牙在决赛中以1比0战胜阿根廷，费兰·托雷斯打入制胜球，西班牙由此同时持有男足与女足世界杯冠军。",
+      "script": "体育方面，本届世界杯落下帷幕。西班牙队在决赛中以1比0击败阿根廷，时隔16年再次捧起男足世界杯冠军奖杯，制胜进球由前锋费兰·托雷斯打入。据报道，这场胜利也让西班牙成为同时持有男足与女足世界杯冠军的国家，这一双料成就在足球历史上颇为罕见。比赛现场气氛热烈，赛后西班牙球迷欣喜若狂，而阿根廷球迷则难掩失落情绪，双方球迷都在现场接受了媒体采访，表达各自的复杂心情。值得一提的是，国际足联主席因凡蒂诺在颁奖环节中，还出现了引导美国总统特朗普离开领奖台区域的插曲，这一幕也成为赛后舆论关注的一个花絮话题。与此同时，也有评论文章提到，尽管全世界球迷都在为西班牙的夺冠欢呼，但加沙局势依然是许多观众在观赛之余心头挂念的现实议题，这种体育庆典与全球紧张局势并存的复杂情绪，也成为本届世界杯之外被广泛讨论的一个侧面。从产业角度看，德甲联赛近期也宣布了新的美国转播合约，显示出足球版权市场正从追求短期收益转向注重长期市场渗透与观众覆盖面，这与世界杯带来的全球关注度提升形成呼应。总体而言，西班牙的夺冠为本届世界杯画上句号，但围绕赛事的政治与社会讨论仍在延续。",
+      "duration_seconds": 120,
+      "is_unverified": false,
+      "confidence_note": "多家媒体独立报道确认比赛结果与关键情节，信息可信度较高。",
+      "fact_status": {
+        "confirmed": [
+          "西班牙1比0击败阿根廷夺得世界杯冠军",
+          "费兰·托雷斯打入制胜球",
+          "西班牙同时持有男足与女足世界杯冠军"
         ],
         "claims": [
-          "阿根廷主帅斯卡洛尼表示未来难以再组建同等水平阵容"
+          "因凡蒂诺在颁奖环节引导特朗普离开的插曲被媒体报道"
         ],
         "analysis": [
-          "阿根廷这批以梅西为代表的黄金一代球员未来能否延续竞争力仍待观察"
+          "体育庆典与国际紧张局势并存反映当下舆论的复杂情绪",
+          "版权市场正转向重视长期观众覆盖而非短期收益"
         ]
       },
       "source_ids": [
         "c5d6ccd655a5e1e4",
         "589708fb1029fe6c",
-        "4046fb609c069507",
-        "e077f42d196d61d5"
+        "2277abed98f2eae0",
+        "e077f42d196d61d5",
+        "4b023402bfaabd3c"
       ],
       "sources": [
         {
@@ -371,16 +182,16 @@
           "requires_24h_date_verification": false
         },
         {
-          "id": "4046fb609c069507",
+          "id": "2277abed98f2eae0",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Tearful Scaloni uncertain of Argentina future after World Cup loss",
-          "summary": "Manager says it would be difficult to assemble another squad capable of reaching two consecutive World Cup finals.",
-          "url": "https://www.aljazeera.com/sports/2026/7/20/tearful-scaloni-uncertain-of-argentina-future-after-world-cup-loss?traffic_source=rss",
-          "published_at": "2026-07-20T04:31:13+00:00",
+          "title": "Infantino tries to usher Trump away as Spain lift World Cup",
+          "summary": "Infantino tries to usher Trump away as Spain lift World Cup",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/infantino-tries-to-usher-trump-away-as-spain-lift-world-cup?traffic_source=rss",
+          "published_at": "2026-07-20T07:03:12+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
@@ -397,27 +208,287 @@
           "published_at": "2026-07-20T06:21:31+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
+        },
+        {
+          "id": "4b023402bfaabd3c",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "New Bundesliga TV deal in US prioritizes reach over money",
+          "summary": "The Bundesliga has a new home on American screens after Germany's top football league left ESPN. The new deal is a sign of the times.",
+          "url": "https://www.dw.com/en/new-bundesliga-tv-deal-in-us-prioritizes-reach-over-money/a-77979741?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-19T18:06:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "WAIC 2026 人形机器人集体亮相，梅卡曼德、松延动力等展示多机协作与量产控制器",
+      "english_term": "WAIC（世界人工智能大会）",
+      "summary": "在正于举行的世界人工智能大会（WAIC 2026）上，梅卡曼德机器人首次展示多机器人人形协作方案，另有厂商发布名为“DynaLoong”的机器人控制器，宣称将加速具身智能量产。",
+      "script": "机器人产业方面，正在举行的世界人工智能大会（WAIC 2026）成为本周的一个重要观察窗口。据报道，梅卡曼德机器人在大会上首次展示了多机器人人形协作方案，即多台人形机器人协同完成同一任务的技术演示，这类多机协作通常涉及机器人之间的任务分配、动作同步与避碰规划，是从单机作业迈向集群协作的关键一步。与此同时，另一家公司发布了名为“DynaLoong”的机器人控制器，宣称这一控制器有望加速具身智能的量产进程。所谓具身智能，指的是让人工智能系统通过物理身体与真实环境交互来学习和执行任务，而不仅仅是在虚拟或纯数字环境中运行，控制器作为机器人的“运动中枢”，其性能与成熟度直接决定了机器人能否从实验室演示走向规模化生产。此外，本届大会上另一家公司“魔法实验室”也一口气发布了三款新机器人产品，展示了具身智能加速进入工厂和公共场景应用的趋势。从产业背景看，近年来人形机器人赛道竞争持续升温，各家公司都在从单纯的“能不能走能不能抓”转向更强调可靠性、协作能力与量产可行性的阶段，多机协作与专用控制器的发布，正是这一转型的具体体现。不过需要注意的是，本次报道均来自展会现场的产品发布，尚缺乏独立的第三方评测或实际部署数据支持，这些新品的实际性能、量产时间表与商业化落地效果，仍有待后续通过实际交付与客户案例进行验证。后续需要关注这些机器人控制器和多机协作方案是否真正进入工厂或公共场景的规模化应用，以及是否有第三方机构对其性能进行独立测试。",
+      "duration_seconds": 155,
+      "is_unverified": true,
+      "confidence_note": "信息来源为行业媒体对展会现场发布的报道，属于厂商一方发布内容，缺乏独立测评或量产数据交叉验证，故标记为未完全证实。",
+      "fact_status": {
+        "confirmed": [
+          "WAIC 2026 大会正在举行，多家公司发布了机器人新品"
+        ],
+        "claims": [
+          "梅卡曼德展示多机器人人形协作方案",
+          "DynaLoong 控制器宣称将加速具身智能量产",
+          "魔法实验室发布三款新机器人产品并称将加速进入工厂与公共场景"
+        ],
+        "analysis": [
+          "行业正从单机演示转向多机协作与量产可行性验证阶段",
+          "控制器与协作方案的实际效果仍需通过部署案例检验"
+        ]
+      },
+      "source_ids": [
+        "f2d40fa5d671b511",
+        "41f9af1161949b1d",
+        "46c9f9f2225dd3a9"
+      ],
+      "sources": [
+        {
+          "id": "f2d40fa5d671b511",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "WAIC 2026 | Mech-Mind Robotics Debut Multi-Robot Humanoid Collaboration - Gasgoo",
+          "summary": "WAIC 2026 | Mech-Mind Robotics Debut Multi-Robot Humanoid Collaboration Gasgoo",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYlhraE9uMzdXQkNXZXU2RTR5TzZnbnFjNXluLVR0TEsxXzREQXJ3N0VoTnNwT08wRkZBbkdveE9oNUZDcTFDS0dBYWNQaUlhXzNqOFctX3JLX1RVRFl2QlFvNW1TMFpWa1Q3cHdKU241R1ZDZWV4MHM0OTFEVFdUbmtObzVEVjR2eW96OWtJVDdCb1JJNEV5LThDWWtfSjRIdmhZZ0RFcjNPOHoxQUVTYjJZb0JrdXNGdkZGS1o5allCWHlFLWZheXBHbw?oc=5",
+          "published_at": "2026-07-20T07:26:28+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "41f9af1161949b1d",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "WAIC 2026 | DynaLoong Robot Controller Debuts, Accelerating Mass Production of Embodied Intelligence - Gasgoo",
+          "summary": "WAIC 2026 | DynaLoong Robot Controller Debuts, Accelerating Mass Production of Embodied Intelligence Gasgoo",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPWlA4bmMzZmthOFg4d1NxaWpqalZLQ21fbDZlcjR2c1RvcWREOFNWSGVwTklVLVpUSHcyZENFbUNOUXUtbkdLZ1VPbXJnWWVWVTdJZUExM2hCT0NwbEl5WUlQZHpOWnlRTE5RVEJkbXZ6VXVtVGhudURGU3dYSVl3ZDgyWmlnRU5zd3ZMam40bnZGZkhmTTVlVUx6NWIxN1N2Wkw4N3pRd2FROHRoaUR4QW1haFJOYXh4MnFnSHZFQ2plamw5QkVwVE4ycklUUV9peGdpdVBscGhOVXo1bWNIdGREc1hKQUdtcEVWb2lCUW4?oc=5",
+          "published_at": "2026-07-20T07:26:28+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "46c9f9f2225dd3a9",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "WAIC 2026 | MagicLab Launches Three New Robot Products, Embodied Intelligence Accelerates Entry into Factories and Public Scenarios - Gasgoo",
+          "summary": "WAIC 2026 | MagicLab Launches Three New Robot Products, Embodied Intelligence Accelerates Entry into Factories and Public Scenarios Gasgoo",
+          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOMnhUTFA2VDRsRUg5Wlk5VlYyUWYzdTJZM29lblVhM1NBREp5UjhaYW05RE5OMzlsR1pfV0FXa19qMHQyV2ZDcU9Yb1JYRzlsd0QtTG5DYmxZdi1RR1RhOWN0V1BtNngzdVFLY1Fjc21ZUzlwVXpLQ1U3ZGtZWmNtal9VTzZydEJMYUowMU4xR1BpSVEwSkN4Z2dkVGhOWWs2ZkU3bTU5dEpDNzQ4Q216SlVNdThTbWdVcFZtTW9qWTRHZXpFaEY4NEozbk9nUnlxTnJoVllMQkp5Tm5Vd2FTbkx6Qk1WUUpJT09kOXFIMkN5MkZuTkg1aVpNVHBWVmxZVjV5LWxjWUdIYXVfWlpRUTU3aFBDUndpNmc?oc=5",
+          "published_at": "2026-07-20T07:06:23+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "小米发布 Xiaomi-Robotics-1，用超十万小时真实轨迹训练视觉-语言-动作基础模型",
+      "english_term": "VLA（视觉-语言-动作模型）",
+      "summary": "小米团队在 arXiv 发布论文，介绍其基础模型 Xiaomi-Robotics-1，该模型基于超过10万小时真实世界轨迹数据训练，可执行多种移动操作任务并支持少样本微调迁移到新任务。",
+      "script": "学术与产业交叉的一条重要进展来自小米团队。他们在 arXiv 上发布了论文，介绍了一个名为 Xiaomi-Robotics-1 的基础模型，这是一种视觉-语言-动作模型，英文缩写 VLA，即模型同时接收视觉输入和语言指令，并直接输出机器人的动作序列。据论文摘要介绍，这一模型具备两个关键能力：第一，能够跟随多样化的语言指令，在未见过的环境中直接执行多种移动操作任务，也就是不需要额外训练就能“开箱即用”；第二，能够以很少的微调数据高效适应新的下游任务。论文提到团队采用了预训练加后训练的两阶段训练流程，在预训练阶段，团队使用了超过10万小时的真实世界轨迹数据，让模型获得广泛的通用能力，这一数据规模在同类研究中处于较高水平，也反映出当前具身智能基础模型训练正在朝着大规模真实数据积累的方向发展。从技术意义上看，这项工作延续了近年来机器人学习领域的一个重要趋势，即借鉴大语言模型的“预训练加微调”范式，通过海量真实交互数据训练出具有一定通用能力的基础模型，再针对具体任务进行低成本适配，从而降低机器人部署到新场景所需的数据与工程成本。不过需要指出的是，这篇论文目前是以预印本形式发布，尚未经过同行评审，论文摘要中并未提供具体的量化评测数据或与其他同类模型的对比结果，模型的实际泛化能力、失败案例分析以及在真实工厂或家庭场景中的稳定性表现，仍有待论文完整版本和后续独立复现进行验证。后续需要关注该论文的同行评审进展，以及是否有第三方团队对其泛化能力进行独立复现和测试。",
+      "duration_seconds": 160,
+      "is_unverified": true,
+      "confidence_note": "论文为arXiv预印本，尚未经过同行评审，摘要未提供具体量化指标，其泛化能力与实际部署效果需等待完整论文和独立复现验证。",
+      "fact_status": {
+        "confirmed": [
+          "小米团队在arXiv发布了Xiaomi-Robotics-1论文",
+          "论文摘要称训练数据包含超过10万小时真实世界轨迹"
+        ],
+        "claims": [
+          "模型可在未见环境中开箱执行多种移动操作任务",
+          "模型可通过少量微调数据高效适应新任务"
+        ],
+        "analysis": [
+          "该工作体现了具身智能基础模型训练向大规模真实数据积累发展的趋势",
+          "预训练加微调范式正在从语言模型领域向机器人学习领域延伸"
+        ]
+      },
+      "source_ids": [
+        "5005cb062915302e"
+      ],
+      "sources": [
+        {
+          "id": "5005cb062915302e",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories",
+          "summary": "arXiv:2607.15330v1 Announce Type: new Abstract: We present Xiaomi-Robotics-1, a foundational vision-language-action (VLA) model capable of (1) following diverse language instructions to perform a wide range of mobile manipulation tasks in unseen environments out-of-the-box, and (2) efficiently adapting to novel downstream tasks with minimal fine-tuning data. We propose a two-stage training recipe consisting of pre-training and post-training. During pre-training, we imbue the model with broad and generalizable action-generation capabilities by training on over 100k hours of real-world manipulation trajectories collected via UMI devices. Crucially, we develop a scalable auto-labeling pipeline that annotates trajectory clips with natural languages describing scene state transitions, providing rich and precise conditioning for action learning. During post-training, we aim to align these capabilities with robot embodiments and imperative instructions that humans naturally use to prompt robots. Extensive experiments demonstrate strong scaling behavior. Xiaomi-Robotics-1 consistently improves with increased data scales and model sizes during pre-training. This scaling behavior directly tr",
+          "url": "https://arxiv.org/abs/2607.15330",
+          "published_at": "2026-07-20T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "多篇机器人学术论文聚焦人机协作安全与灵巧操作",
+      "english_term": "Shared Autonomy（共享自主）",
+      "summary": "本期arXiv机器人板块集中出现多篇涉及共享自主安全性、软体执行器制造与触觉灵巧操作的论文，反映出人机协作与精细操作仍是学术界的活跃方向。",
+      "script": "除了大模型相关的进展，本期arXiv机器人板块还集中出现了几篇聚焦人机协作安全性与灵巧操作的论文，值得快速梳理。第一篇论文提出了名为NeuroCommitSSM的框架，研究的是辅助机械臂操作中“什么时候该执行动作”这一决策问题，而不仅仅是“该做什么动作”。该方法通过同步采集脑电、肌电和眼动信号，计算一个连续的“执行就绪度”评分，并通过滞留和迟滞滤波将其转化为离散的执行指令，目标是提升共享自主场景下的操作安全性，这类技术未来可能用于辅助行动不便人群使用的机械臂系统。第二篇论文关注共享自主中的工作空间设计问题，研究团队指出，以往研究大多聚焦于在固定环境下提升意图识别的准确率，却忽视了工作空间本身的物体摆放方式会直接影响候选目标在嘈杂用户输入下的可分辨程度，论文将工作空间设计本身建模为一个优化问题，试图从环境设计角度而非单纯算法角度提升共享自主系统的可靠性，并给出概率意义上的保证。第三篇论文提出了VTAP灵巧手爪，将指尖触觉阵列传感器与一个可主动感知的视触觉手掌结合，通过手指与手掌之间的协同配合，同时兼顾远距离视觉定位与近距离的接触丰富触觉反馈，从而提升抓取的鲁棒性和精细操作能力。第四篇论文则关注软体机器人执行器的可复现制造问题，提出了一套更稳健的硅胶浇注与传感器嵌入工艺流程，试图解决软体机器人长期存在的批量制造一致性差、人为误差多的问题，这类工艺改进对软体机器人在康复与手术等场景中的实际部署具有现实意义。整体来看，这批论文共同反映出学术界当前对“安全可靠的人机协作”与“精细可扩展的操作硬件”两大方向的持续投入。由于这些论文均为最新预印本，尚未经过同行评审，其提出方法的实际效果与工程可行性仍有待后续验证。",
+      "duration_seconds": 180,
+      "is_unverified": true,
+      "confidence_note": "以上均为arXiv最新预印本论文，尚未经过同行评审，具体实验数据与可复现性需等待正式发表或独立验证。",
+      "fact_status": {
+        "confirmed": [
+          "多篇相关论文已在arXiv机器人板块发布"
+        ],
+        "claims": [
+          "NeuroCommitSSM可通过多模态生理信号提升共享自主执行安全性",
+          "工作空间设计优化可提升意图识别的概率保证",
+          "VTAP手爪结合视触觉主动感知提升抓取鲁棒性",
+          "新浇注工艺可提升软体执行器制造一致性"
+        ],
+        "analysis": [
+          "安全可靠的人机协作与精细可扩展操作硬件是当前学术界的两大活跃方向"
+        ]
+      },
+      "source_ids": [
+        "1114e34604cbef6d",
+        "edffdefea45d7de5",
+        "39c32d4da73561df",
+        "9c671cb68a6dc904"
+      ],
+      "sources": [
+        {
+          "id": "1114e34604cbef6d",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "NeuroCommitSSM: Decision-Centric Shared Autonomy for Safe Assistive Manipulation via EEG-EMG-ET Commit Readiness",
+          "summary": "arXiv:2607.15395v1 Announce Type: new Abstract: We present NeuroCommitSSM, a decision-centric framework that models when to execute, not just what to do, for safe commit-to-execute control in assistive robotic manipulation. NeuroCommitSSM predicts a continuous commit-readiness score c_t in [0,1] from synchronized electroencephalography (EEG), electromyography (EMG), and eye-tracking (ET), and converts it into discrete commit events through dwell and hysteresis filtering. A three-state finite-state supervisor, HOLD-ASSIST-COMMIT (HAC), gates execution by requiring both a sustained commit-readiness signal from the neural model and real-time perception and robot-state feasibility, including target visibility, inverse kinematics solvability, and collision-free planning, before initiating motion. We evaluate the framework on N=32 subjects performing five activities of daily living (ADL) tasks aligned with the International Classification of Functioning, Disability and Health (ICF), using leave-one-subject-out (LOSO) cross-validation and seven sensor-dropout scenarios (S0-S6). NeuroCommitSSM achieves 0.950 action-balanced accuracy with 0.75 false commit events per 1000 REST windows (FP/1",
+          "url": "https://arxiv.org/abs/2607.15395",
+          "published_at": "2026-07-20T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "edffdefea45d7de5",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Environment Design for Reliable Shared Autonomy with Probabilistic Guarantees",
+          "summary": "arXiv:2607.15487v1 Announce Type: new Abstract: Shared autonomy enables humans and robots to collaboratively perform tasks by combining human input with autonomous assistance. Most prior work focuses on improving intent inference under a fixed environment, overlooking how workspace design itself affects inference difficulty. We observe that the physical arrangement of objects directly influences the separability of candidate goals under noisy user inputs. We formulate workspace design as an optimization problem and derive a probabilistic correctness guarantee under a bounded noise model. Through simulation experiments across multiple tabletop scenarios, we show that optimized layouts improve goal inference reliability and reduce ambiguity compared to baseline arrangements. We further demonstrate a real-world shared autonomy system that integrates the proposed inference framework. This highlights the role of environment design as a complementary axis for improving shared autonomy systems.",
+          "url": "https://arxiv.org/abs/2607.15487",
+          "published_at": "2026-07-20T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "39c32d4da73561df",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "VTAP Gripper: Synergizing Fingertip Sensing and a Visuo-Tactile Active Palm for Dexterous In-Hand Manipulation",
+          "summary": "arXiv:2607.15448v1 Announce Type: new Abstract: This paper presents a tactile-reactive gripper that integrates a Visuo-Tactile Active Palm (VTAP) and compliant, reconfigurable fingers equipped with tactile array sensors. The design exploits structured finger-palm synergy and multi-modal perception to achieve both robust grasping and fine manipulation. The actuated bi-modal palm seamlessly combines long-range visual localization with contact-rich tactile feedback, substantially extending the system's manipulation capability. To bridge the embodiment gap between human hand motion and the heterogeneous three-finger structure, we further propose a staged, gesture-conditioned retargeting framework for dexterous teleoperation. Extensive experiments validate the system across a range of challenging tasks: reactive grasping of YCB and fragile objects, in-hand syringe reorientation and plunger actuation, singulation of clustered objects down to 3 mm in diameter, and vision-tactile peg-in-hole insertion. Results demonstrate that high manipulation performance can be achieved through coordinated finger-palm interaction and multi-modal sensing, without resorting to high degrees of freedom anthr",
+          "url": "https://arxiv.org/abs/2607.15448",
+          "published_at": "2026-07-20T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "9c671cb68a6dc904",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Robust Silicone Pour Casting and Sensor Embedding Procedures for Soft Robotic Actuators",
+          "summary": "arXiv:2607.15422v1 Announce Type: new Abstract: Soft robots are well-suited for applications such as rehabilitation and surgery that require adaptable and safe interaction with their environment. However, the challenges of reproducible and scalable fabrication of soft robots limit their real-world deployment. Various fabrication methods have been introduced, but many are labor-intensive and prone to human error. Therefore, traditional two-part pour casting remains an attractive option. This paper presents procedures for robust, repeatable, and scalable fabrication of soft pneumatic actuators using two-part pour casting. The presented methods prevent internal cavity clogging and ensure air-tight sealing. Additionally, a robust sensor embedding procedure for thin-film flex sensors is presented, which allows for accurate and repeatable data acquisition. Finite Element Modeling (FEM) of the soft actuator is performed to analyze stress and deformation from internal pressure loadings. Pneumatic actuation experiments with PID pressure control are performed. Automated image processing is used to calibrate the embedded flex sensor to bending angle measurements. Staircase and sinusoidal prof",
+          "url": "https://arxiv.org/abs/2607.15422",
+          "published_at": "2026-07-20T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "行业观点：警惕人形机器人训练中的“遥操作陷阱”",
+      "english_term": "Teleoperation（遥操作）",
+      "summary": "Flexion公司CEO撰文指出，遥操作对训练人形机器人虽是必要手段，但强化学习与仿真同样不可或缺，单纯依赖遥操作数据可能限制机器人能力的进一步提升。",
+      "script": "在机器人产业评论方面，The Robot Report刊登了一篇来自Flexion公司首席执行官的评论文章，讨论了当前人形机器人开发中一个值得关注的方法论问题，也就是所谓“遥操作陷阱”。遥操作指的是由人类远程操控机器人完成动作，从而采集真实的动作轨迹数据，这类数据常被用来训练机器人的模仿学习模型。文章作者认为，遥操作对于训练人形机器人确实是必要的手段，因为它能提供高质量、贴近真实场景的动作数据，但如果开发过程过度依赖遥操作采集的数据，而忽视了强化学习与仿真训练的作用，可能会让机器人的能力被局限在人类操作员示范过的场景和动作范式之内，难以真正应对开放环境中层出不穷的新情况。作者强调，强化学习可以让机器人在与环境的反复试错交互中自主探索出人类示范之外的策略，而仿真环境则能以远低于真实世界的成本，大规模生成多样化的训练场景，弥补纯遥操作数据在�covariate shift也就是场景分布覆盖上的不足。这一观点与近期学术界和产业界普遍讨论的方向相呼应，即机器人基础模型的训练不应是单一数据来源的堆砌，而应当是遥操作示范、强化学习和仿真训练三者结合的综合体系。这篇文章代表的是行业内部一种方法论层面的反思和讨论，并非某一具体产品或研究成果的发布，但其观点对理解当前人形机器人训练管线的技术选择具有参考价值。后续需要关注是否有更多机器人公司在其技术路线介绍中明确阐述遥操作、强化学习与仿真训练三者的具体配比与工程实践。",
+      "duration_seconds": 155,
+      "is_unverified": false,
+      "confidence_note": "内容为行业媒体发布的企业高管评论文章，属于观点性内容而非实证研究，代表单一公司视角。",
+      "fact_status": {
+        "confirmed": [
+          "The Robot Report发布了相关评论文章"
+        ],
+        "claims": [
+          "文章作者认为遥操作虽必要但不应是唯一训练手段",
+          "作者认为强化学习与仿真对弥补遥操作数据局限性具有重要作用"
+        ],
+        "analysis": [
+          "机器人训练管线正朝着遥操作、强化学习与仿真结合的综合体系发展"
+        ]
+      },
+      "source_ids": [
+        "6511c68fc78ba690"
+      ],
+      "sources": [
+        {
+          "id": "6511c68fc78ba690",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "How to avoid the teleoperation trap in robotics development",
+          "summary": "Teleoperation is necessary for training humanoid robots, but reinforcement learning and simulation are still necessary, says Flexion's CEO. The post How to avoid the teleoperation trap in robotics development appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/",
+          "published_at": "2026-07-19T12:30:25+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
         }
       ]
     },
     {
       "category": "world",
-      "title": "俄罗斯对乌克兰首都发动大规模夜间袭击",
+      "title": "乌克兰局势：俄军大规模空袭基辅，征兵冲突加剧",
       "english_term": null,
-      "summary": "乌克兰空军表示俄罗斯一夜之间对乌克兰境内目标发射41枚导弹和125架攻击无人机，首都基辅是主要打击目标之一。",
-      "script": "俄乌冲突方面，据乌克兰空军通报，俄罗斯在一夜之间对乌克兰境内目标发射了41枚导弹和125架攻击型无人机，首都基辅是这轮袭击的重点目标之一，造成了人员伤亡，具体伤亡数字需要以乌方后续公布的信息为准。与此同时，另一篇报道提到，乌克兰国内征兵工作正面临越来越大的阻力，暴力对抗征兵官员的事件有所增加，当地警方表示，针对征兵人员的攻击性行为正变得愈发具有威胁性，这从侧面反映出持续三年多的战争已经让乌克兰社会的兵源压力和厌战情绪显著上升。这两条信息合在一起，勾勒出俄乌冲突当前的一个侧面：前线的袭击并未因为长期化而降级，反而在导弹和无人机的数量规模上维持高强度；而后方社会对战争的承受能力，尤其是兵员补充这一环节，正在出现更明显的裂痕。这两方面因素都会持续影响乌克兰在战场上的持续作战能力和国际社会对局势走向的判断，值得在接下来的报道中继续关注双方伤亡数据、国际调解动向以及乌克兰国内社会情绪的变化。",
-      "duration_seconds": 100,
+      "summary": "俄罗斯对乌克兰首都基辅发动大规模导弹与无人机袭击，同时乌克兰国内征兵工作面临的暴力抵抗现象日益增多。",
+      "script": "乌克兰战事方面也出现值得关注的新进展。据乌克兰空军通报，俄罗斯在一夜之间对乌克兰全境发射了41枚导弹和125架攻击无人机，首都基辅是此轮打击的重点目标之一，造成人员伤亡。与此同时，另一则报道显示，乌克兰国内的征兵工作正面临日益严峻的社会阻力，据当地警方透露，针对征兵官员的暴力抗拒行为正变得越来越具有威胁性，这也反映出持续多年的战争对乌克兰社会内部造成的疲惫和抵触情绪正在加深。已确认的事实是，俄罗斯确实在近期发动了大规模的导弹和无人机联合袭击，乌克兰空军也已公开通报了具体的武器数量。而关于此轮袭击造成的具体人员伤亡数字及基础设施损失情况，候选信息中未见详细披露，需要等待更多信源确认。至于征兵冲突加剧的现象，报道来自乌克兰当地警方的说法，反映的是社会情绪层面的变化，而非某个单一事件的结果。从分析角度看，俄乌战事已进入长期消耗阶段，一方面俄罗斯持续通过大规模导弹和无人机打击维持军事压力，另一方面乌克兰国内因长期战争导致的兵员补充压力也在积累社会矛盾，这两个现象共同构成了当前战局胶着态势下的社会与军事双重压力图景。后续需要关注乌克兰官方对此轮袭击伤亡与损失的正式通报，以及征兵冲突是否会进一步影响乌克兰的兵力动员能力。",
+      "duration_seconds": 130,
       "is_unverified": false,
-      "confidence_note": "袭击规模数据来自乌克兰空军官方通报，属于官方一手信息源；征兵冲突情况来自二级媒体独立报道。",
+      "confidence_note": "袭击规模数据来自乌克兰空军官方通报，征兵冲突信息来自当地警方说法，均为独立信源报道，但具体伤亡与损失细节有限。",
       "fact_status": {
         "confirmed": [
-          "乌克兰空军通报俄罗斯发射41枚导弹和125架攻击无人机，首都基辅是打击目标之一"
+          "俄罗斯发射41枚导弹和125架攻击无人机袭击乌克兰全境",
+          "基辅是此轮打击重点目标之一"
         ],
         "claims": [
-          "当地警方称针对征兵官员的暴力对抗事件正变得更具威胁性"
+          "乌克兰警方称针对征兵官员的暴力抵抗行为日益增多"
         ],
         "analysis": [
-          "兵源补充困难与持续高强度袭击共同构成乌克兰当前面临的双重压力"
+          "战争长期化正在同时加剧军事压力与乌克兰社会内部矛盾"
         ]
       },
       "source_ids": [
@@ -454,107 +525,29 @@
           "requires_24h_date_verification": false
         }
       ]
-    },
-    {
-      "category": "world",
-      "title": "安迪·伯纳姆接替斯塔默出任英国首相",
-      "english_term": null,
-      "summary": "前曼彻斯特市长安迪·伯纳姆于周一接替基尔·斯塔默出任英国首相，其政治立场深受英格兰南北阶层分化影响。",
-      "script": "英国政坛出现重大人事变动。据报道，前曼彻斯特市长安迪·伯纳姆于本周一正式接替基尔·斯塔默，出任英国新一任首相。报道介绍，伯纳姆的从政经历和政治理念深受英格兰南北地区阶层分化问题的影响，他长期以曼彻斯特市长身份活跃在英国北方城市治理一线，这一背景也被认为将塑造他执政后的政策优先方向。目前公开报道并未详细说明斯塔默卸任的具体原因，是否涉及党内换届安排、选举结果或其他政治因素，也没有交代伯纳姆是通过何种程序完成首相职位交接的，这些细节需要更多信息源补充确认。伯纳姆上任后在内政、经济和地区发展政策上会采取怎样的具体路线，尤其是他是否会延续此前政府的对外政策立场，包括在乌克兰局势、中东局势等国际问题上的表态，都还有待观察。这一职位交接发生在英国国内政治生态持续变化的背景下，后续需要关注伯纳姆政府的施政纲领和内阁人事安排。",
-      "duration_seconds": 90,
-      "is_unverified": false,
-      "confidence_note": "单一来源报道英国首相更迭，属于时政机构性信息来源，但缺乏交接具体背景细节的交叉验证。",
-      "fact_status": {
-        "confirmed": [
-          "安迪·伯纳姆接替基尔·斯塔默出任英国首相"
-        ],
-        "claims": [
-          "报道称其政治立场受英格兰南北阶层分化影响较深"
-        ],
-        "analysis": [
-          "具体交接原因及新政府施政方向仍待进一步信息披露"
-        ]
-      },
-      "source_ids": [
-        "0f9226b75e7ddbb7"
-      ],
-      "sources": [
-        {
-          "id": "0f9226b75e7ddbb7",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Who is Andy Burnham, the U.K.'s new prime minister?",
-          "summary": "On Monday, former Manchester Mayor Andy Burnham succeeds Keir Starmer as the United Kingdom's prime minister. Burnham's politics have been shaped by England's north-south class divide.",
-          "url": "https://www.npr.org/2026/07/19/g-s1-134001/andy-burnham-new-british-prime-minister",
-          "published_at": "2026-07-19T16:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "other",
-      "title": "美国FDA：此前查出的腹泻疫情病原体检测结果为假阳性",
-      "english_term": null,
-      "summary": "美国食品药品监督管理局表示，此前被认定为导致爆发性腹泻疫情源头的检测结果实际是假阳性，目前病原体的确切来源仍不明确。",
-      "script": "公共卫生方面有一条重要更正信息。美国食品药品监督管理局，也就是FDA，发布最新通报称，此前被认定为导致一起大规模爆发性腹泻疫情源头的寄生虫检测结果，实际上是假阳性。这意味着此前公众和媒体所认为已经查明的疫情源头信息其实是错误的，目前这起疫情的确切病原体来源仍然是未知的，调查工作需要从头重新推进。这类食品安全或公共卫生调查中出现检测结果乌龙的情况并不罕见，但对于一起已经引发广泛关注的爆发性疫情来说，源头确认的推翻意味着此前基于错误结论采取的应对措施可能需要重新评估，也提醒公众在类似卫生事件的报道中，官方初步检测结果有被后续复核推翻的可能性。目前FDA并未公布新的调查时间表或可能的替代病原体线索，这起疫情后续的溯源工作进展，包括是否会掌握新线索、是否有更多地区受到波及，都需要等待官方进一步的通报。",
-      "duration_seconds": 90,
-      "is_unverified": false,
-      "confidence_note": "来自美国FDA的官方通报，为一手信息源，但后续溯源结果仍未公布。",
-      "fact_status": {
-        "confirmed": [
-          "FDA确认此前查出的腹泻疫情病原体检测结果为假阳性，实际源头仍未查明"
-        ],
-        "claims": [],
-        "analysis": [
-          "溯源调查需重新推进，后续需要等待FDA公布新的调查结果"
-        ]
-      },
-      "source_ids": [
-        "28fda8f172e6b00c"
-      ],
-      "sources": [
-        {
-          "id": "28fda8f172e6b00c",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Test that found source of US explosive diarrhoea outbreak was false positive, health officials say",
-          "summary": "The latest update from the US Food and Drug Administration means the exact source of the parasite is still not known.",
-          "url": "https://www.bbc.co.uk/news/articles/c4gw9n1kx9do?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-20T02:35:04+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
     }
   ],
-  "closing": "今天的内容就到这里。伊朗与乌克兰的局势仍在持续演变，机器人领域的真机数据规模化和多模态感知论文也将持续推进，后续需要等待小米模型的同行评审结果和更多产业数据的交叉验证。",
-  "editor_note": "本期机器人类别共5个事件，时长合计约730秒，占全部事件总时长约54%，符合45%-55%区间要求；来源覆盖arXiv（一级学术源）、The Robot Report（专业二级源）及多家通讯社的产业报道，避免单一来源垄断。部分候选如WAIC相关报道、UWORLD陪伴机器人、rStream垃圾分拣机器人因信息过于单薄或与其他事件重复度高，未单独成稿；世界杯相关报道因涉及多个独立来源且描述同一赛事结果，合并为一条；FIFA获奖者手机等娱乐科技类信息因信息量不足未采用。",
+  "closing": "今天需要继续关注的是：伊朗局势的下一步升级路径与国际社会反应、英国新首相伯纳姆的施政方向，以及WAIC上发布的多款机器人新品与小米具身智能基础模型的后续量产与评审进展。",
+  "editor_note": "本期机器人板块共选取四条，时长合计约910秒，占全稿总时长约合理比例；其中WAIC相关报道及部分arXiv论文均标记为未完全证实或未经同行评审，已在confidence_note中说明。国际政治部分因伊朗、乌克兰、英国、世界杯等多条重大事件并行，按重要性择优选取七条world/sports类事件，未纳入的印度国内抗议、诺威纪念活动、美国肠胃疾病溯源等次要事件已作取舍处理。",
   "model": "claude-sonnet-5",
   "usage": {
-    "input_tokens": 8988,
-    "output_tokens": 9241,
-    "total_tokens": 18229
+    "input_tokens": 8885,
+    "output_tokens": 9288,
+    "total_tokens": 18173
   },
-  "generated_at": "2026-07-20T07:00:51.776928+00:00",
-  "window_start": "2026-07-19T07:00:51.776928+00:00",
-  "candidate_count": 238,
+  "generated_at": "2026-07-20T07:29:30.640257+00:00",
+  "window_start": "2026-07-19T07:29:30.640257+00:00",
+  "candidate_count": 237,
   "source_errors": [
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "quality": {
-    "duration_seconds": 1130,
-    "script_characters": 4438,
-    "robotics_duration_share": 0.566,
+    "duration_seconds": 1150,
+    "script_characters": 4532,
+    "topic_duration_share": 0.565,
     "passed": true,
     "normal_target_met": true,
-    "robotics_source_count": 3,
+    "topic_source_count": 3,
     "issues": []
   }
 }
