@@ -1,324 +1,33 @@
 {
-  "title": "晶球电台早报：伊朗遇袭持续九日、英国政坛突变、世界杯落幕，WAIC 上演人形机器人集体亮相",
-  "subtitle": "从具身智能基础模型到多机协作人形机器人，产业与学术同步推进；国际局势方面伊朗、乌克兰、英国均有重大变化",
+  "title": "晶球电台早报：世界机器人大会新品密集亮相，Xiaomi发布百万小时级VLA大模型",
+  "subtitle": "从WAIC人形机器人首秀到黑海冲突升级，今天的世界既在加速具身智能，也在加剧地缘紧张",
   "highlights": [
-    "美国对伊朗展开连续第九夜空袭，特朗普称行动是为纪念阵亡美军人员",
-    "WAIC 2026 上多家公司集中发布人形机器人新品，梅卡曼德展示多机协作方案",
-    "小米发布 Xiaomi-Robotics-1，用超过10万小时真实轨迹数据训练视觉-语言-动作基础模型",
-    "英国前曼彻斯特市长安迪·伯纳姆接替斯塔默出任首相",
-    "西班牙时隔16年再夺男足世界杯冠军，实现男女世界杯双料在身"
+    "WAIC 2026世界人工智能大会上多家公司密集发布人形与服务机器人新品",
+    "小米发布Xiaomi-Robotics-1，用超10万小时真实轨迹训练视觉-语言-动作大模型",
+    "英国工党内部权力交接，安迪·伯纳姆接替基尔·斯塔默成为新任首相",
+    "俄乌黑海冲突持续升级，商船遭袭致多人死亡"
   ],
   "stories": [
     {
-      "category": "world",
-      "title": "美国对伊朗空袭进入第九个夜晚，特朗普称行动为纪念阵亡美军",
-      "english_term": null,
-      "summary": "美军持续第九夜对伊朗多地实施打击，特朗普表示此轮行动是为向近期身亡的美军人员致敬。相关战事细节与目标范围各方说法不一。",
-      "script": "国际局势方面，美国对伊朗的军事行动仍在持续。据多家媒体报道，美军已连续第九个夜晚对伊朗境内目标发动打击，据称本轮打击范围包括伊朗西北部城市大不里士等地。美国总统特朗普公开表示，最新一轮打击是“为纪念阵亡的美军人员”而进行的，将其定性为对此前美方人员伤亡的回应与报复。目前已确认的事实是，美军已经连续多晚对伊朗实施空袭，美国官方也公开发布了打击画面，证实军事行动仍在进行。而关于打击的具体目标性质、伊朗方面的伤亡与反制情况，各方说法出现分歧：美方强调行动的精确性与正当性，将其与阵亡美军人员相联系；但伊朗方面对打击范围、平民影响等关键信息的说法未在候选信息中得到独立确认。从分析角度看，这场军事冲突已经从最初的对抗升级为一场持续多日的高强度军事行动，美国将打击行动与本国人员伤亡挂钩，某种程度上是在为持续升级的军事介入寻找国内政治合法性依据，这也意味着短期内局势降温的可能性较低。国际社会对这场冲突走向的关注度持续上升，尤其是打击是否会进一步扩大到伊朗其他核心城市或设施，仍是外界密切关注的焦点。目前尚不清楚这轮空袭的下一步升级路径，也不清楚是否有斡旋努力在同步进行。后续需要等待更多独立信源确认伊朗方面的实际损失情况，以及美国国会与国际社会对行动合法性的进一步表态。",
-      "duration_seconds": 135,
-      "is_unverified": false,
-      "confidence_note": "美方官方发布打击画面及总统表态构成一手信源，但伊朗方面说法及具体打击范围未见独立信源交叉确认，故对细节保持谨慎。",
-      "fact_status": {
-        "confirmed": [
-          "美军已连续第九夜对伊朗实施打击",
-          "美国官方发布了打击相关画面"
-        ],
-        "claims": [
-          "特朗普称打击是为纪念阵亡美军人员",
-          "据称打击目标包括大不里士等地"
-        ],
-        "analysis": [
-          "军事行动持续多日显示冲突已呈现长期化态势",
-          "美方将行动与本国人员伤亡挂钩可能意在争取国内支持"
-        ]
-      },
-      "source_ids": [
-        "47d36d50a42d2846",
-        "5882363ca7e360fa",
-        "b51b3e4a30c1aa04"
-      ],
-      "sources": [
-        {
-          "id": "47d36d50a42d2846",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Trump: Latest strikes on Iran ‘in honour’ of killed US military personnel",
-          "summary": "US President Donald Trump said the latest strikes on Iran were carried out 'in honour' of killed US military personnel.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/aje-onl-nf_trump-latest-strikes-on-iran-in-honour-200726?traffic_source=rss",
-          "published_at": "2026-07-20T04:52:56+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "5882363ca7e360fa",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "US releases footage of ninth consecutive night of strikes on Iran",
-          "summary": "The US military carried out its ninth consecutive night of strikes on Iran.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/us-releases-footage-of-ninth-consecutive-night-of-strikes-on-iran?traffic_source=rss",
-          "published_at": "2026-07-20T04:38:16+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "b51b3e4a30c1aa04",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Iran war: US conducts strikes for 9th night in a row",
-          "summary": "The US launched another wave of attacks against Iran, this time reportedly hitting targets in the northwestern city of Tabriz and elsewhere. DW has more.",
-          "url": "https://www.dw.com/en/iran-war-us-conducts-strikes-for-9th-night-in-a-row/live-78030432?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-19T23:54:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "英国首相易人：安迪·伯纳姆接替斯塔默上任",
-      "english_term": null,
-      "summary": "前曼彻斯特市长安迪·伯纳姆周一接替基尔·斯塔默出任英国首相，其政治生涯与英格兰南北阶层分化背景密切相关。",
-      "script": "英国政坛出现重大人事变动。据报道，前曼彻斯特市长安迪·伯纳姆已于本周一接替基尔·斯塔默，成为英国新任首相。伯纳姆的从政经历长期与英格兰南北地区之间的阶层分化议题紧密相关，他此前作为地方市长期间，曾多次就区域发展不平衡、北部产业衰退等议题发声，这也被认为是他此次登上首相之位的重要政治资产。目前已确认的信息是，这一职位交接已经发生，伯纳姆正式接任首相一职。至于此次权力交接背后的具体政治过程，例如党内推选机制、斯塔默卸任的具体原因等细节，候选信息中并未展开说明，仍有待后续报道补充。从分析角度看，伯纳姆长期代表英格兰北部选民利益的政治形象，如果延续到首相任内，可能会在区域经济政策、公共服务投入等议题上带来路线调整，这也将是观察英国内政走向的一个重要信号。对于国际社会而言，英国首相的更替也可能对英国在乌克兰战事、对伊朗政策等国际议题上的立场产生影响，尤其是在当前欧洲安全局势持续紧张的背景下，新任首相的外交路线选择将受到密切关注。后续需要等待伯纳姆政府公布具体施政纲领，以及其在国际事务上的具体立场表态。",
-      "duration_seconds": 115,
-      "is_unverified": false,
-      "confidence_note": "来自NPR的一手报道，信息较为简明，具体交接细节和施政方向仍待后续报道补充。",
-      "fact_status": {
-        "confirmed": [
-          "安迪·伯纳姆已接替斯塔默出任英国首相",
-          "伯纳姆此前担任曼彻斯特市长"
-        ],
-        "claims": [],
-        "analysis": [
-          "伯纳姆的从政背景可能影响其未来在区域经济政策上的取向",
-          "首相更替可能对英国外交政策产生潜在影响"
-        ]
-      },
-      "source_ids": [
-        "0f9226b75e7ddbb7"
-      ],
-      "sources": [
-        {
-          "id": "0f9226b75e7ddbb7",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Who is Andy Burnham, the U.K.'s new prime minister?",
-          "summary": "On Monday, former Manchester Mayor Andy Burnham succeeds Keir Starmer as the United Kingdom's prime minister. Burnham's politics have been shaped by England's north-south class divide.",
-          "url": "https://www.npr.org/2026/07/19/g-s1-134001/andy-burnham-new-british-prime-minister",
-          "published_at": "2026-07-19T16:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "sports",
-      "title": "西班牙时隔16年再夺男足世界杯，实现男女世界杯双料在身",
-      "english_term": null,
-      "summary": "西班牙在决赛中以1比0战胜阿根廷，费兰·托雷斯打入制胜球，西班牙由此同时持有男足与女足世界杯冠军。",
-      "script": "体育方面，本届世界杯落下帷幕。西班牙队在决赛中以1比0击败阿根廷，时隔16年再次捧起男足世界杯冠军奖杯，制胜进球由前锋费兰·托雷斯打入。据报道，这场胜利也让西班牙成为同时持有男足与女足世界杯冠军的国家，这一双料成就在足球历史上颇为罕见。比赛现场气氛热烈，赛后西班牙球迷欣喜若狂，而阿根廷球迷则难掩失落情绪，双方球迷都在现场接受了媒体采访，表达各自的复杂心情。值得一提的是，国际足联主席因凡蒂诺在颁奖环节中，还出现了引导美国总统特朗普离开领奖台区域的插曲，这一幕也成为赛后舆论关注的一个花絮话题。与此同时，也有评论文章提到，尽管全世界球迷都在为西班牙的夺冠欢呼，但加沙局势依然是许多观众在观赛之余心头挂念的现实议题，这种体育庆典与全球紧张局势并存的复杂情绪，也成为本届世界杯之外被广泛讨论的一个侧面。从产业角度看，德甲联赛近期也宣布了新的美国转播合约，显示出足球版权市场正从追求短期收益转向注重长期市场渗透与观众覆盖面，这与世界杯带来的全球关注度提升形成呼应。总体而言，西班牙的夺冠为本届世界杯画上句号，但围绕赛事的政治与社会讨论仍在延续。",
-      "duration_seconds": 120,
-      "is_unverified": false,
-      "confidence_note": "多家媒体独立报道确认比赛结果与关键情节，信息可信度较高。",
-      "fact_status": {
-        "confirmed": [
-          "西班牙1比0击败阿根廷夺得世界杯冠军",
-          "费兰·托雷斯打入制胜球",
-          "西班牙同时持有男足与女足世界杯冠军"
-        ],
-        "claims": [
-          "因凡蒂诺在颁奖环节引导特朗普离开的插曲被媒体报道"
-        ],
-        "analysis": [
-          "体育庆典与国际紧张局势并存反映当下舆论的复杂情绪",
-          "版权市场正转向重视长期观众覆盖而非短期收益"
-        ]
-      },
-      "source_ids": [
-        "c5d6ccd655a5e1e4",
-        "589708fb1029fe6c",
-        "2277abed98f2eae0",
-        "e077f42d196d61d5",
-        "4b023402bfaabd3c"
-      ],
-      "sources": [
-        {
-          "id": "c5d6ccd655a5e1e4",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Spain wins second World Cup after beating Argentina in final",
-          "summary": "After a 16-year wait, Spain has claimed a second men's World Cup. Ferran Torres scored the winner in a deserved 1-0 victory over Argentina, which means Spain is now men's and women's world champions.",
-          "url": "https://www.dw.com/en/spain-wins-second-world-cup-after-beating-argentina-in-final/a-78029285?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-19T23:49:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "589708fb1029fe6c",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Spanish and Argentinian fans react outside World Cup final",
-          "summary": "Ecstatic Spanish spectators and disappointed Argentine fans spoke to the BBC after the World Cup final on Sunday.",
-          "url": "https://www.bbc.co.uk/news/videos/czxqr9rl9r0o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-20T04:47:17+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "2277abed98f2eae0",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Infantino tries to usher Trump away as Spain lift World Cup",
-          "summary": "Infantino tries to usher Trump away as Spain lift World Cup",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/infantino-tries-to-usher-trump-away-as-spain-lift-world-cup?traffic_source=rss",
-          "published_at": "2026-07-20T07:03:12+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "e077f42d196d61d5",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Last night, I was Spanish, and so were millions around the world",
-          "summary": "For many of us, Gaza was on our mind when we watched and celebrated Spain’s triumph at the World Cup.",
-          "url": "https://www.aljazeera.com/opinions/2026/7/20/last-night-i-was-spanish-and-so-were-millions-around-the-world?traffic_source=rss",
-          "published_at": "2026-07-20T06:21:31+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "4b023402bfaabd3c",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "New Bundesliga TV deal in US prioritizes reach over money",
-          "summary": "The Bundesliga has a new home on American screens after Germany's top football league left ESPN. The new deal is a sign of the times.",
-          "url": "https://www.dw.com/en/new-bundesliga-tv-deal-in-us-prioritizes-reach-over-money/a-77979741?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-19T18:06:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
       "category": "robotics",
-      "title": "WAIC 2026 人形机器人集体亮相，梅卡曼德、松延动力等展示多机协作与量产控制器",
-      "english_term": "WAIC（世界人工智能大会）",
-      "summary": "在正于举行的世界人工智能大会（WAIC 2026）上，梅卡曼德机器人首次展示多机器人人形协作方案，另有厂商发布名为“DynaLoong”的机器人控制器，宣称将加速具身智能量产。",
-      "script": "机器人产业方面，正在举行的世界人工智能大会（WAIC 2026）成为本周的一个重要观察窗口。据报道，梅卡曼德机器人在大会上首次展示了多机器人人形协作方案，即多台人形机器人协同完成同一任务的技术演示，这类多机协作通常涉及机器人之间的任务分配、动作同步与避碰规划，是从单机作业迈向集群协作的关键一步。与此同时，另一家公司发布了名为“DynaLoong”的机器人控制器，宣称这一控制器有望加速具身智能的量产进程。所谓具身智能，指的是让人工智能系统通过物理身体与真实环境交互来学习和执行任务，而不仅仅是在虚拟或纯数字环境中运行，控制器作为机器人的“运动中枢”，其性能与成熟度直接决定了机器人能否从实验室演示走向规模化生产。此外，本届大会上另一家公司“魔法实验室”也一口气发布了三款新机器人产品，展示了具身智能加速进入工厂和公共场景应用的趋势。从产业背景看，近年来人形机器人赛道竞争持续升温，各家公司都在从单纯的“能不能走能不能抓”转向更强调可靠性、协作能力与量产可行性的阶段，多机协作与专用控制器的发布，正是这一转型的具体体现。不过需要注意的是，本次报道均来自展会现场的产品发布，尚缺乏独立的第三方评测或实际部署数据支持，这些新品的实际性能、量产时间表与商业化落地效果，仍有待后续通过实际交付与客户案例进行验证。后续需要关注这些机器人控制器和多机协作方案是否真正进入工厂或公共场景的规模化应用，以及是否有第三方机构对其性能进行独立测试。",
-      "duration_seconds": 155,
+      "title": "小米发布Xiaomi-Robotics-1：超10万小时真实轨迹训练的视觉-语言-动作大模型",
+      "english_term": "VLA (Vision-Language-Action) Model：视觉-语言-动作模型，一种直接把摄像头画面和语言指令映射为机器人动作输出的端到端模型",
+      "summary": "小米公开了新一代机器人基础模型Xiaomi-Robotics-1，号称使用超过10万小时真实世界轨迹数据训练，能够在未见过的环境中直接执行移动操作任务。",
+      "script": "先说一条来自学术预印本平台的重要消息。小米团队公开了一篇论文，介绍了他们的机器人基础模型Xiaomi-Robotics-1。这是一个视觉-语言-动作模型，简称VLA，工作原理是把摄像头看到的画面、语言指令，直接映射成机器人的动作输出，跳过了传统机器人里显式的环境建模和运动规划环节。这类模型最近两年在学术界和产业界都很热，因为它有希望让机器人像大语言模型理解文字一样，泛化地理解各种任务指令。这篇论文的核心卖点是数据规模：团队称训练数据来自超过10万小时的真实世界轨迹，这个量级如果属实，在目前公开披露的VLA模型里是比较大的。训练分为两个阶段，预训练阶段让模型获得广泛的通用能力，后训练阶段再针对具体任务做适配。论文声称模型可以在没见过的环境里，直接执行多种移动操作任务，也就是不仅要操作物体，还要在陌生场所里自主移动完成任务；同时只需要少量微调数据，就能迁移到新的下游任务上。这对应的产业逻辑很清楚：谁能用更少的数据让机器人干更多新活，谁在具身智能的competition里就占优势。不过需要说明的是，这篇论文是最新挂出的预印本，还没有经过同行评审，10万小时轨迹的采集方式、任务覆盖范围、以及所谓“开箱即用”的泛化能力，目前只有论文自述的描述，缺乏第三方复现或独立测评的验证。后续需要等待论文正式发表或者第三方基准测试的结果，也需要观察小米是否会公开更多模型细节和实机演示视频。",
+      "duration_seconds": 150,
       "is_unverified": true,
-      "confidence_note": "信息来源为行业媒体对展会现场发布的报道，属于厂商一方发布内容，缺乏独立测评或量产数据交叉验证，故标记为未完全证实。",
+      "confidence_note": "来源为arXiv预印本，未经同行评审，模型性能与数据规模描述均为团队自述，缺乏独立验证",
       "fact_status": {
         "confirmed": [
-          "WAIC 2026 大会正在举行，多家公司发布了机器人新品"
+          "小米团队在arXiv公开了Xiaomi-Robotics-1模型论文",
+          "论文描述了两阶段训练流程：预训练与后训练"
         ],
         "claims": [
-          "梅卡曼德展示多机器人人形协作方案",
-          "DynaLoong 控制器宣称将加速具身智能量产",
-          "魔法实验室发布三款新机器人产品并称将加速进入工厂与公共场景"
+          "团队称使用超过10万小时真实世界轨迹数据训练",
+          "论文称模型可在未见环境中开箱执行多种移动操作任务并以少量数据完成迁移"
         ],
         "analysis": [
-          "行业正从单机演示转向多机协作与量产可行性验证阶段",
-          "控制器与协作方案的实际效果仍需通过部署案例检验"
-        ]
-      },
-      "source_ids": [
-        "f2d40fa5d671b511",
-        "41f9af1161949b1d",
-        "46c9f9f2225dd3a9"
-      ],
-      "sources": [
-        {
-          "id": "f2d40fa5d671b511",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "WAIC 2026 | Mech-Mind Robotics Debut Multi-Robot Humanoid Collaboration - Gasgoo",
-          "summary": "WAIC 2026 | Mech-Mind Robotics Debut Multi-Robot Humanoid Collaboration Gasgoo",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYlhraE9uMzdXQkNXZXU2RTR5TzZnbnFjNXluLVR0TEsxXzREQXJ3N0VoTnNwT08wRkZBbkdveE9oNUZDcTFDS0dBYWNQaUlhXzNqOFctX3JLX1RVRFl2QlFvNW1TMFpWa1Q3cHdKU241R1ZDZWV4MHM0OTFEVFdUbmtObzVEVjR2eW96OWtJVDdCb1JJNEV5LThDWWtfSjRIdmhZZ0RFcjNPOHoxQUVTYjJZb0JrdXNGdkZGS1o5allCWHlFLWZheXBHbw?oc=5",
-          "published_at": "2026-07-20T07:26:28+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "41f9af1161949b1d",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "WAIC 2026 | DynaLoong Robot Controller Debuts, Accelerating Mass Production of Embodied Intelligence - Gasgoo",
-          "summary": "WAIC 2026 | DynaLoong Robot Controller Debuts, Accelerating Mass Production of Embodied Intelligence Gasgoo",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPWlA4bmMzZmthOFg4d1NxaWpqalZLQ21fbDZlcjR2c1RvcWREOFNWSGVwTklVLVpUSHcyZENFbUNOUXUtbkdLZ1VPbXJnWWVWVTdJZUExM2hCT0NwbEl5WUlQZHpOWnlRTE5RVEJkbXZ6VXVtVGhudURGU3dYSVl3ZDgyWmlnRU5zd3ZMam40bnZGZkhmTTVlVUx6NWIxN1N2Wkw4N3pRd2FROHRoaUR4QW1haFJOYXh4MnFnSHZFQ2plamw5QkVwVE4ycklUUV9peGdpdVBscGhOVXo1bWNIdGREc1hKQUdtcEVWb2lCUW4?oc=5",
-          "published_at": "2026-07-20T07:26:28+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "46c9f9f2225dd3a9",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "WAIC 2026 | MagicLab Launches Three New Robot Products, Embodied Intelligence Accelerates Entry into Factories and Public Scenarios - Gasgoo",
-          "summary": "WAIC 2026 | MagicLab Launches Three New Robot Products, Embodied Intelligence Accelerates Entry into Factories and Public Scenarios Gasgoo",
-          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOMnhUTFA2VDRsRUg5Wlk5VlYyUWYzdTJZM29lblVhM1NBREp5UjhaYW05RE5OMzlsR1pfV0FXa19qMHQyV2ZDcU9Yb1JYRzlsd0QtTG5DYmxZdi1RR1RhOWN0V1BtNngzdVFLY1Fjc21ZUzlwVXpLQ1U3ZGtZWmNtal9VTzZydEJMYUowMU4xR1BpSVEwSkN4Z2dkVGhOWWs2ZkU3bTU5dEpDNzQ4Q216SlVNdThTbWdVcFZtTW9qWTRHZXpFaEY4NEozbk9nUnlxTnJoVllMQkp5Tm5Vd2FTbkx6Qk1WUUpJT09kOXFIMkN5MkZuTkg1aVpNVHBWVmxZVjV5LWxjWUdIYXVfWlpRUTU3aFBDUndpNmc?oc=5",
-          "published_at": "2026-07-20T07:06:23+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "小米发布 Xiaomi-Robotics-1，用超十万小时真实轨迹训练视觉-语言-动作基础模型",
-      "english_term": "VLA（视觉-语言-动作模型）",
-      "summary": "小米团队在 arXiv 发布论文，介绍其基础模型 Xiaomi-Robotics-1，该模型基于超过10万小时真实世界轨迹数据训练，可执行多种移动操作任务并支持少样本微调迁移到新任务。",
-      "script": "学术与产业交叉的一条重要进展来自小米团队。他们在 arXiv 上发布了论文，介绍了一个名为 Xiaomi-Robotics-1 的基础模型，这是一种视觉-语言-动作模型，英文缩写 VLA，即模型同时接收视觉输入和语言指令，并直接输出机器人的动作序列。据论文摘要介绍，这一模型具备两个关键能力：第一，能够跟随多样化的语言指令，在未见过的环境中直接执行多种移动操作任务，也就是不需要额外训练就能“开箱即用”；第二，能够以很少的微调数据高效适应新的下游任务。论文提到团队采用了预训练加后训练的两阶段训练流程，在预训练阶段，团队使用了超过10万小时的真实世界轨迹数据，让模型获得广泛的通用能力，这一数据规模在同类研究中处于较高水平，也反映出当前具身智能基础模型训练正在朝着大规模真实数据积累的方向发展。从技术意义上看，这项工作延续了近年来机器人学习领域的一个重要趋势，即借鉴大语言模型的“预训练加微调”范式，通过海量真实交互数据训练出具有一定通用能力的基础模型，再针对具体任务进行低成本适配，从而降低机器人部署到新场景所需的数据与工程成本。不过需要指出的是，这篇论文目前是以预印本形式发布，尚未经过同行评审，论文摘要中并未提供具体的量化评测数据或与其他同类模型的对比结果，模型的实际泛化能力、失败案例分析以及在真实工厂或家庭场景中的稳定性表现，仍有待论文完整版本和后续独立复现进行验证。后续需要关注该论文的同行评审进展，以及是否有第三方团队对其泛化能力进行独立复现和测试。",
-      "duration_seconds": 160,
-      "is_unverified": true,
-      "confidence_note": "论文为arXiv预印本，尚未经过同行评审，摘要未提供具体量化指标，其泛化能力与实际部署效果需等待完整论文和独立复现验证。",
-      "fact_status": {
-        "confirmed": [
-          "小米团队在arXiv发布了Xiaomi-Robotics-1论文",
-          "论文摘要称训练数据包含超过10万小时真实世界轨迹"
-        ],
-        "claims": [
-          "模型可在未见环境中开箱执行多种移动操作任务",
-          "模型可通过少量微调数据高效适应新任务"
-        ],
-        "analysis": [
-          "该工作体现了具身智能基础模型训练向大规模真实数据积累发展的趋势",
-          "预训练加微调范式正在从语言模型领域向机器人学习领域延伸"
+          "数据规模若属实，将是目前公开披露VLA模型中较大的训练集之一，但缺乏第三方验证前应审慎看待"
         ]
       },
       "source_ids": [
@@ -343,62 +52,144 @@
     },
     {
       "category": "robotics",
-      "title": "多篇机器人学术论文聚焦人机协作安全与灵巧操作",
-      "english_term": "Shared Autonomy（共享自主）",
-      "summary": "本期arXiv机器人板块集中出现多篇涉及共享自主安全性、软体执行器制造与触觉灵巧操作的论文，反映出人机协作与精细操作仍是学术界的活跃方向。",
-      "script": "除了大模型相关的进展，本期arXiv机器人板块还集中出现了几篇聚焦人机协作安全性与灵巧操作的论文，值得快速梳理。第一篇论文提出了名为NeuroCommitSSM的框架，研究的是辅助机械臂操作中“什么时候该执行动作”这一决策问题，而不仅仅是“该做什么动作”。该方法通过同步采集脑电、肌电和眼动信号，计算一个连续的“执行就绪度”评分，并通过滞留和迟滞滤波将其转化为离散的执行指令，目标是提升共享自主场景下的操作安全性，这类技术未来可能用于辅助行动不便人群使用的机械臂系统。第二篇论文关注共享自主中的工作空间设计问题，研究团队指出，以往研究大多聚焦于在固定环境下提升意图识别的准确率，却忽视了工作空间本身的物体摆放方式会直接影响候选目标在嘈杂用户输入下的可分辨程度，论文将工作空间设计本身建模为一个优化问题，试图从环境设计角度而非单纯算法角度提升共享自主系统的可靠性，并给出概率意义上的保证。第三篇论文提出了VTAP灵巧手爪，将指尖触觉阵列传感器与一个可主动感知的视触觉手掌结合，通过手指与手掌之间的协同配合，同时兼顾远距离视觉定位与近距离的接触丰富触觉反馈，从而提升抓取的鲁棒性和精细操作能力。第四篇论文则关注软体机器人执行器的可复现制造问题，提出了一套更稳健的硅胶浇注与传感器嵌入工艺流程，试图解决软体机器人长期存在的批量制造一致性差、人为误差多的问题，这类工艺改进对软体机器人在康复与手术等场景中的实际部署具有现实意义。整体来看，这批论文共同反映出学术界当前对“安全可靠的人机协作”与“精细可扩展的操作硬件”两大方向的持续投入。由于这些论文均为最新预印本，尚未经过同行评审，其提出方法的实际效果与工程可行性仍有待后续验证。",
-      "duration_seconds": 180,
+      "title": "WAIC 2026世界人工智能大会：多款人形与服务机器人集中首秀",
+      "english_term": null,
+      "summary": "2026年世界人工智能大会上，Matrix Robotics、Spirit AI、BrainCo等公司分别展示了人形机器人、商用服务机器人和灵巧操作数据平台等新品。",
+      "script": "接下来看看正在进行的世界人工智能大会，也就是WAIC，今年的机器人展台格外热闹，多家公司选择在这里首次公开新产品。Matrix Robotics发布了旗下人形机器人的最新一代产品MATRIX-3，虽然目前公开的信息还比较有限，主要停留在产品发布层面，但这也是又一家把人形机器人推向公众视野的公司，说明这个赛道的参与者仍在持续增加。另一家公司Spirit AI则带来了商用服务机器人Moz2，面向的是商业服务场景，比如导览、接待这类偏应用型的落地方向，这类产品和人形机器人比技术门槛低一些，但商业化路径通常更清晰，是很多公司选择先落地的品类。此外，BrainCo在大会上展示了一套名为“灵巧操作数据矩阵”的平台，这类产品瞄准的是当前具身智能领域一个很现实的瓶颈：机械臂和灵巧手做精细操作，需要海量高质量的示教数据，而采集这些数据本身成本很高。如果BrainCo这套系统能够提供一种更高效、更标准化的数据采集和管理方式，对整个行业训练操作类模型会有实际帮助。总的来看，WAIC上这一批发布，覆盖了从整机人形机器人、商用服务机器人，到底层数据基础设施的不同层次，反映出国内具身智能产业链正在从单点技术演示，往更完整的产品化和工具化方向推进。不过目前这些报道大多来自行业媒体对展会现场的即时报道，具体的技术参数、量产计划和定价这些细节还比较少，后续需要等待厂商进一步公布产品规格和商业化时间表。",
+      "duration_seconds": 150,
       "is_unverified": true,
-      "confidence_note": "以上均为arXiv最新预印本论文，尚未经过同行评审，具体实验数据与可复现性需等待正式发表或独立验证。",
+      "confidence_note": "信息来自展会现场报道，属于产业动态类三级来源，缺乏厂商官方技术文档交叉确认，具体参数与量产计划待厂商后续公布",
       "fact_status": {
         "confirmed": [
-          "多篇相关论文已在arXiv机器人板块发布"
+          "WAIC 2026大会期间多家公司公开展示了机器人新品"
         ],
         "claims": [
-          "NeuroCommitSSM可通过多模态生理信号提升共享自主执行安全性",
-          "工作空间设计优化可提升意图识别的概率保证",
-          "VTAP手爪结合视触觉主动感知提升抓取鲁棒性",
-          "新浇注工艺可提升软体执行器制造一致性"
+          "Matrix Robotics发布MATRIX-3人形机器人",
+          "Spirit AI展示商用服务机器人Moz2",
+          "BrainCo展示灵巧操作数据矩阵平台"
         ],
         "analysis": [
-          "安全可靠的人机协作与精细可扩展操作硬件是当前学术界的两大活跃方向"
+          "产品线覆盖整机、服务机器人和数据基础设施，显示国内具身智能产业链正朝产品化和工具化推进"
         ]
       },
       "source_ids": [
-        "1114e34604cbef6d",
-        "edffdefea45d7de5",
-        "39c32d4da73561df",
-        "9c671cb68a6dc904"
+        "a3fe6eff63f242a3",
+        "529f8924d425e79c",
+        "571f67776b773895"
       ],
       "sources": [
         {
-          "id": "1114e34604cbef6d",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
+          "id": "a3fe6eff63f242a3",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "NeuroCommitSSM: Decision-Centric Shared Autonomy for Safe Assistive Manipulation via EEG-EMG-ET Commit Readiness",
-          "summary": "arXiv:2607.15395v1 Announce Type: new Abstract: We present NeuroCommitSSM, a decision-centric framework that models when to execute, not just what to do, for safe commit-to-execute control in assistive robotic manipulation. NeuroCommitSSM predicts a continuous commit-readiness score c_t in [0,1] from synchronized electroencephalography (EEG), electromyography (EMG), and eye-tracking (ET), and converts it into discrete commit events through dwell and hysteresis filtering. A three-state finite-state supervisor, HOLD-ASSIST-COMMIT (HAC), gates execution by requiring both a sustained commit-readiness signal from the neural model and real-time perception and robot-state feasibility, including target visibility, inverse kinematics solvability, and collision-free planning, before initiating motion. We evaluate the framework on N=32 subjects performing five activities of daily living (ADL) tasks aligned with the International Classification of Functioning, Disability and Health (ICF), using leave-one-subject-out (LOSO) cross-validation and seven sensor-dropout scenarios (S0-S6). NeuroCommitSSM achieves 0.950 action-balanced accuracy with 0.75 false commit events per 1000 REST windows (FP/1",
-          "url": "https://arxiv.org/abs/2607.15395",
-          "published_at": "2026-07-20T04:00:00+00:00",
+          "title": "WAIC 2026 | Matrix Robotics Unveils MATRIX-3 Humanoid Robot - Gasgoo",
+          "summary": "WAIC 2026 | Matrix Robotics Unveils MATRIX-3 Humanoid Robot Gasgoo",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNDlyVVFfZ0M3Z3ZIOS05d0ROMldEbWJPRkd5eGlmLVUtVGd4QzFpYzhKWm4tSHJsM1JHVmJiODRqRXdhVnpRbGg4QXVlOGZ3UTZSazc3SkVwUERHRHJGT1FuanE5SDB6bVo4Y1VTRmVJT2tnb3lyZzlpWFV4a0FnSUFFbjU4bzhoQ3Q0b0RJNGxJTXhLU1czemIyVXBHU0lrTF9xaXVBVDVfa0FpOEkzVk1PQXhOQzIyN0pV?oc=5",
+          "published_at": "2026-07-20T14:23:09+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "edffdefea45d7de5",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
+          "id": "529f8924d425e79c",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Environment Design for Reliable Shared Autonomy with Probabilistic Guarantees",
-          "summary": "arXiv:2607.15487v1 Announce Type: new Abstract: Shared autonomy enables humans and robots to collaboratively perform tasks by combining human input with autonomous assistance. Most prior work focuses on improving intent inference under a fixed environment, overlooking how workspace design itself affects inference difficulty. We observe that the physical arrangement of objects directly influences the separability of candidate goals under noisy user inputs. We formulate workspace design as an optimization problem and derive a probabilistic correctness guarantee under a bounded noise model. Through simulation experiments across multiple tabletop scenarios, we show that optimized layouts improve goal inference reliability and reduce ambiguity compared to baseline arrangements. We further demonstrate a real-world shared autonomy system that integrates the proposed inference framework. This highlights the role of environment design as a complementary axis for improving shared autonomy systems.",
-          "url": "https://arxiv.org/abs/2607.15487",
-          "published_at": "2026-07-20T04:00:00+00:00",
+          "title": "WAIC 2026 | Spirit AI Commercial Service Robot Moz2 Makes Public Debut - Gasgoo",
+          "summary": "WAIC 2026 | Spirit AI Commercial Service Robot Moz2 Makes Public Debut Gasgoo",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZnRtNTMtd200NENxZmIwM0NuWkluQTA1NlNLdDJVSWdWR091YW9ZTVk3Q1k4aDA0bW1IYVRYaDNmQ3F0XzBSR3g1VGJEaXBQVWk1SnZ5c0xyRFo5bGl4NDdfODNoWEF6RnhhQ2hJTk5KWmJkekN0bTFFRjM3dmVDU3BjcFA2TU9ZZVNmemZYMkpQV0V5YUZnZi1Nb0RYQ1FxNENZeFFOS2pNTk5qUXJ4M2trTnpKY21mUF9qVXlSa3hZWnk2WUpUUW5B?oc=5",
+          "published_at": "2026-07-20T14:16:56+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
+        {
+          "id": "571f67776b773895",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "WAIC 2026 | BrainCo Globally Unveils Dexterous Manipulation Data Matrix - Gasgoo",
+          "summary": "WAIC 2026 | BrainCo Globally Unveils Dexterous Manipulation Data Matrix Gasgoo",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYUtfTHVqSS1YNUpLX2xWM1A5ZU5RY21YaFBEZENhQjdvRkpNTjdNYncyeUo4MFpMUlZmeUh5b0ktS29pTlE0X3VDeXl2OVpKQjRaMkE3dnFPdjdzdzJ5Y09sVkdYRWI1Q1hZcnlwSXNzUHhDMEFvaEZpTUdkTC1ySXJDcWZ4Y1MtTWhpdEtZclk4WFY4enhOY2N6Q3RuN3hxcUtRd2dVelZBNE83U3BpcjdObm9GSXRBaEhMT0ttb1NIV2hWbVpFWFZjbw?oc=5",
+          "published_at": "2026-07-20T14:26:58+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "交互式世界模拟器助力机器人策略训练与评估",
+      "english_term": "Policy：策略，指机器人在给定观测下决定采取什么动作的函数，是强化学习和模仿学习的核心学习对象",
+      "summary": "Robohub介绍了一种交互式世界模拟器，用于训练和评估机器人操作策略，试图替代部分昂贵的真实机器人采集和评测流程。",
+      "script": "现在说一条偏方法论的机器人学术内容。Robohub介绍了一种交互式世界模拟器，主要解决的问题是机器人策略学习中一个老大难：想让机器人学会在桌面上推动一个物体，标准做法是在真实机器人上采集上百次专家示教，用这些数据训练一个模仿学习策略，然后再放到真实机器人上反复跑评测。这个流程的问题在于，无论是采集示教还是跑评测，都要占用真实机器人的时间，成本高、效率低，而且真实世界的评测有很大随机性，很难做严格的对照实验。这篇文章介绍的思路是构建一个交互式的世界模拟器，让策略训练和评估都可以在模拟环境里完成，模拟器本身要能对环境状态做出足够真实的反馈，从而替代部分真实机器人的采集和测试环节。这类工作属于机器人学习里“仿真到现实”这条研究线的延伸，核心争议点一直是仿真环境和真实世界之间的差距，也就是常说的sim-to-real gap，如果模拟器不够真实，训练出来的策略搬到真实机器人上就会表现变差。文章没有给出非常具体的数值指标对比，更多是介绍这个模拟器的设计思路和应用场景，说明它可以用来训练策略，也可以用来做评估。对于机器人研究而言，能不能用更便宜的仿真环节替代部分真实机器人实验，是决定研究迭代速度的关键因素之一，这也是为什么这类基础设施类的工作值得关注。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "来源为专业机器人媒体Robohub对该技术方向的介绍性文章，属于二级技术媒体报道，具体技术细节和评测数据有限",
+      "fact_status": {
+        "confirmed": [
+          "文章介绍了一种用于机器人策略训练和评估的交互式世界模拟器"
+        ],
+        "claims": [
+          "该模拟器旨在替代部分真实机器人采集示教和评测流程"
+        ],
+        "analysis": [
+          "仿真替代真实机器人实验的核心挑战仍是仿真与真实环境之间的差距，这类基础设施工作对提升研究迭代效率有潜在价值"
+        ]
+      },
+      "source_ids": [
+        "67f866062ac69908"
+      ],
+      "sources": [
+        {
+          "id": "67f866062ac69908",
+          "source": "Robohub",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Interactive world simulator for robot policy training and evaluation",
+          "summary": "Imagine you want to teach a robot to push an object on a table. The standard recipe in robot learning is to collect hundreds of expert demonstrations on a real robot, train an imitation learning policy on that data, and then evaluate the policy by running it many times on the same real robot. Both […]",
+          "url": "https://robohub.org/interactive-world-simulator-for-robot-policy-training-and-evaluation/",
+          "published_at": "2026-07-20T08:39:44+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "多篇机械臂灵巧操作与人机协作新论文集中发布",
+      "english_term": "Shared Autonomy：共享自主，指人类与机器人共同控制系统，机器人在关键时刻提供辅助或接管部分决策的协作模式",
+      "summary": "arXiv机器人版块本期集中出现多篇涉及触觉抓取、脑机接口辅助操作、风险感知偏好学习等方向的新论文。",
+      "script": "最后快速扫一遍今天arXiv机器人版块里几篇值得关注的论文，它们分布在不同细分方向，但都指向了同一个大趋势：机器人操作正在从“能抓住”往“抓得巧、抓得安全”演进。第一篇讲的是一款名为VTAP的机械手爪设计，它把指尖的触觉阵列传感器和一个可主动调整的手掌结合起来，手掌能提供远距离的视觉定位，指尖负责接触阶段的精细触觉反馈，两者配合来提升灵巧操作能力，这类多模态感知融合的思路，是目前解决机械手精细操作问题的主流方向之一。第二篇是一款软体执行器的制作工艺论文，专门讨论怎么用传统的两部分浇注硅胶工艺，更稳定、更可复现地做出带传感器的软体机器人部件，这类偏工程细节的论文虽然不炫技，但对软体机器人真正走向可重复生产很关键。第三篇论文叫NeuroCommitSSM，思路比较特别，它结合脑电、肌电和眼动追踪三种信号，去预测使用者“准备好执行动作”的确信程度，再把这个连续的确信分数转换成离散的执行指令，应用场景是辅助型机械臂的人机共享控制，目标是让系统更准确地判断什么时候该由机器人接管、什么时候该等待人的进一步确认。另外两篇论文分别讨论了如何在偏好学习里考虑人类的风险敏感性，而不是简单假设人按照期望效用做决策；以及如何通过设计工作空间的物体摆放方式，从而降低共享自主系统里意图推断的难度。这些论文都还只是predint阶段的成果，具体效果需要等待同行评审和后续实验验证。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "均为arXiv预印本，尚未经过同行评审，实验效果与结论均为作者自述，需等待后续评审与复现结果",
+      "fact_status": {
+        "confirmed": [
+          "arXiv机器人版块本期公开了涉及触觉抓取、软体执行器制造、脑机接口辅助操作、风险敏感偏好学习等多篇论文"
+        ],
+        "claims": [
+          "各论文声称在对应细分方向上提出了新方法并取得初步效果"
+        ],
+        "analysis": [
+          "这批论文共同反映出机器人操作研究正从单纯抓取能力，向精细化、安全化与人机协作方向细化发展"
+        ]
+      },
+      "source_ids": [
+        "39c32d4da73561df",
+        "9c671cb68a6dc904",
+        "1114e34604cbef6d",
+        "713c9e82486c29ed",
+        "edffdefea45d7de5"
+      ],
+      "sources": [
         {
           "id": "39c32d4da73561df",
           "source": "arXiv Robotics (cs.RO)",
@@ -426,45 +217,84 @@
           "published_at": "2026-07-20T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
+        },
+        {
+          "id": "1114e34604cbef6d",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "NeuroCommitSSM: Decision-Centric Shared Autonomy for Safe Assistive Manipulation via EEG-EMG-ET Commit Readiness",
+          "summary": "arXiv:2607.15395v1 Announce Type: new Abstract: We present NeuroCommitSSM, a decision-centric framework that models when to execute, not just what to do, for safe commit-to-execute control in assistive robotic manipulation. NeuroCommitSSM predicts a continuous commit-readiness score c_t in [0,1] from synchronized electroencephalography (EEG), electromyography (EMG), and eye-tracking (ET), and converts it into discrete commit events through dwell and hysteresis filtering. A three-state finite-state supervisor, HOLD-ASSIST-COMMIT (HAC), gates execution by requiring both a sustained commit-readiness signal from the neural model and real-time perception and robot-state feasibility, including target visibility, inverse kinematics solvability, and collision-free planning, before initiating motion. We evaluate the framework on N=32 subjects performing five activities of daily living (ADL) tasks aligned with the International Classification of Functioning, Disability and Health (ICF), using leave-one-subject-out (LOSO) cross-validation and seven sensor-dropout scenarios (S0-S6). NeuroCommitSSM achieves 0.950 action-balanced accuracy with 0.75 false commit events per 1000 REST windows (FP/1",
+          "url": "https://arxiv.org/abs/2607.15395",
+          "published_at": "2026-07-20T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "713c9e82486c29ed",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Risk-Aware Preference Learning for Stochastic Outcomes",
+          "summary": "arXiv:2607.15483v1 Announce Type: new Abstract: Learning reward functions from human preferences is a widely used approach for aligning robot behavior with user expectations in human-robot interaction. Most existing approaches assume that humans evaluate uncertain outcomes using expected utility (EU), aggregating outcome utilities linearly with their probabilities. However, behavioral evidence shows that humans are systematically risk-sensitive, overweighting rare negative events and exhibiting loss aversion. We study the consequences of this mismatch in social robot navigation, where safety-critical outcomes (e.g., collisions) are rare but highly consequential. We compare EU with Cumulative Prospect Theory (CPT), a nonlinear model of human decision-making, within a Bradley-Terry preference learning framework. Our preliminary experiments show that when preferences are generated by risk-sensitive users, CPT-based learners recover reward functions with substantially lower regret compared to EU-based learners. Our results highlight the importance of modeling human risk sensitivity when learning rewards from preferences over stochastic robot outcomes.",
+          "url": "https://arxiv.org/abs/2607.15483",
+          "published_at": "2026-07-20T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "edffdefea45d7de5",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Environment Design for Reliable Shared Autonomy with Probabilistic Guarantees",
+          "summary": "arXiv:2607.15487v1 Announce Type: new Abstract: Shared autonomy enables humans and robots to collaboratively perform tasks by combining human input with autonomous assistance. Most prior work focuses on improving intent inference under a fixed environment, overlooking how workspace design itself affects inference difficulty. We observe that the physical arrangement of objects directly influences the separability of candidate goals under noisy user inputs. We formulate workspace design as an optimization problem and derive a probabilistic correctness guarantee under a bounded noise model. Through simulation experiments across multiple tabletop scenarios, we show that optimized layouts improve goal inference reliability and reduce ambiguity compared to baseline arrangements. We further demonstrate a real-world shared autonomy system that integrates the proposed inference framework. This highlights the role of environment design as a complementary axis for improving shared autonomy systems.",
+          "url": "https://arxiv.org/abs/2607.15487",
+          "published_at": "2026-07-20T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
         }
       ]
     },
     {
       "category": "robotics",
-      "title": "行业观点：警惕人形机器人训练中的“遥操作陷阱”",
-      "english_term": "Teleoperation（遥操作）",
-      "summary": "Flexion公司CEO撰文指出，遥操作对训练人形机器人虽是必要手段，但强化学习与仿真同样不可或缺，单纯依赖遥操作数据可能限制机器人能力的进一步提升。",
-      "script": "在机器人产业评论方面，The Robot Report刊登了一篇来自Flexion公司首席执行官的评论文章，讨论了当前人形机器人开发中一个值得关注的方法论问题，也就是所谓“遥操作陷阱”。遥操作指的是由人类远程操控机器人完成动作，从而采集真实的动作轨迹数据，这类数据常被用来训练机器人的模仿学习模型。文章作者认为，遥操作对于训练人形机器人确实是必要的手段，因为它能提供高质量、贴近真实场景的动作数据，但如果开发过程过度依赖遥操作采集的数据，而忽视了强化学习与仿真训练的作用，可能会让机器人的能力被局限在人类操作员示范过的场景和动作范式之内，难以真正应对开放环境中层出不穷的新情况。作者强调，强化学习可以让机器人在与环境的反复试错交互中自主探索出人类示范之外的策略，而仿真环境则能以远低于真实世界的成本，大规模生成多样化的训练场景，弥补纯遥操作数据在�covariate shift也就是场景分布覆盖上的不足。这一观点与近期学术界和产业界普遍讨论的方向相呼应，即机器人基础模型的训练不应是单一数据来源的堆砌，而应当是遥操作示范、强化学习和仿真训练三者结合的综合体系。这篇文章代表的是行业内部一种方法论层面的反思和讨论，并非某一具体产品或研究成果的发布，但其观点对理解当前人形机器人训练管线的技术选择具有参考价值。后续需要关注是否有更多机器人公司在其技术路线介绍中明确阐述遥操作、强化学习与仿真训练三者的具体配比与工程实践。",
-      "duration_seconds": 155,
-      "is_unverified": false,
-      "confidence_note": "内容为行业媒体发布的企业高管评论文章，属于观点性内容而非实证研究，代表单一公司视角。",
+      "title": "小鹏AI基础设施负责人据报转投OpenAI机器人业务",
+      "english_term": null,
+      "summary": "据报道，小鹏汽车的AI基础设施负责人离职并加入OpenAI，投身其机器人业务方向。",
+      "script": "一条产业人事动态。据报道，小鹏汽车的AI基础设施负责人已经离职，转而加入OpenAI，投身该公司正在推进的机器人相关业务。这条消息目前只来自一家行业媒体的报道，具体的职位细节、加入时间和OpenAI机器人业务的具体规划都还不清楚。放在更大背景下看，这条消息之所以值得关注，是因为它从侧面印证了一个已经持续一段时间的行业趋势：以OpenAI为代表的通用大模型公司，正在加大对机器人和具身智能方向的投入和人才争夺，试图把语言模型的能力延伸到物理世界的操作任务上。而对小鹏这样的车企来说，近几年也一直在同步布局人形机器人业务，用自动驾驶积累的感知和决策技术做迁移，人才在车企和通用AI公司之间流动，说明这两条本来分开的技术路线正在争夺同一批核心人才。目前这条消息缺少第二个独立信源的交叉确认，也没有小鹏或OpenAI官方的正式声明，具体是否属实、涉及的岗位重要性如何，都有待进一步确认。后续需要等待相关公司官方回应或者更多信源的补充报道，才能判断这次人员流动对双方机器人业务布局的实际影响。",
+      "duration_seconds": 115,
+      "is_unverified": true,
+      "confidence_note": "单一行业媒体报道，缺乏小鹏或OpenAI官方声明及第二独立信源确认",
       "fact_status": {
-        "confirmed": [
-          "The Robot Report发布了相关评论文章"
-        ],
+        "confirmed": [],
         "claims": [
-          "文章作者认为遥操作虽必要但不应是唯一训练手段",
-          "作者认为强化学习与仿真对弥补遥操作数据局限性具有重要作用"
+          "据报道小鹏汽车AI基础设施负责人已离职并加入OpenAI机器人业务"
         ],
         "analysis": [
-          "机器人训练管线正朝着遥操作、强化学习与仿真结合的综合体系发展"
+          "若属实，反映通用AI公司与车企在具身智能人才上的竞争正在加剧"
         ]
       },
       "source_ids": [
-        "6511c68fc78ba690"
+        "2a84e8b750df78a7"
       ],
       "sources": [
         {
-          "id": "6511c68fc78ba690",
-          "source": "The Robot Report",
-          "source_tier": 2,
+          "id": "2a84e8b750df78a7",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "How to avoid the teleoperation trap in robotics development",
-          "summary": "Teleoperation is necessary for training humanoid robots, but reinforcement learning and simulation are still necessary, says Flexion's CEO. The post How to avoid the teleoperation trap in robotics development appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/",
-          "published_at": "2026-07-19T12:30:25+00:00",
+          "title": "Xpeng loses AI infrastructure chief to OpenAI's robotics push, report says - CnEVPost",
+          "summary": "Xpeng loses AI infrastructure chief to OpenAI's robotics push, report says CnEVPost",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84SnpaS2pOUl9USlpONHA2c1RuRFFKTzJZN1lkdTF1VVExeUtTenhHR3A5dG9WZklZZ3pZVnBLUVI3UzAtbFBpTDNTM3ZLZVROdkFoRlc0bWtTcXNUc3M3ZURaUnZMbWRqX1dqbzBpUmNVN1hXY3Vzbg?oc=5",
+          "published_at": "2026-07-20T14:31:23+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -472,79 +302,321 @@
     },
     {
       "category": "world",
-      "title": "乌克兰局势：俄军大规模空袭基辅，征兵冲突加剧",
+      "title": "工党内部权力交接：安迪·伯纳姆接替斯塔默成为英国新任首相",
       "english_term": null,
-      "summary": "俄罗斯对乌克兰首都基辅发动大规模导弹与无人机袭击，同时乌克兰国内征兵工作面临的暴力抵抗现象日益增多。",
-      "script": "乌克兰战事方面也出现值得关注的新进展。据乌克兰空军通报，俄罗斯在一夜之间对乌克兰全境发射了41枚导弹和125架攻击无人机，首都基辅是此轮打击的重点目标之一，造成人员伤亡。与此同时，另一则报道显示，乌克兰国内的征兵工作正面临日益严峻的社会阻力，据当地警方透露，针对征兵官员的暴力抗拒行为正变得越来越具有威胁性，这也反映出持续多年的战争对乌克兰社会内部造成的疲惫和抵触情绪正在加深。已确认的事实是，俄罗斯确实在近期发动了大规模的导弹和无人机联合袭击，乌克兰空军也已公开通报了具体的武器数量。而关于此轮袭击造成的具体人员伤亡数字及基础设施损失情况，候选信息中未见详细披露，需要等待更多信源确认。至于征兵冲突加剧的现象，报道来自乌克兰当地警方的说法，反映的是社会情绪层面的变化，而非某个单一事件的结果。从分析角度看，俄乌战事已进入长期消耗阶段，一方面俄罗斯持续通过大规模导弹和无人机打击维持军事压力，另一方面乌克兰国内因长期战争导致的兵员补充压力也在积累社会矛盾，这两个现象共同构成了当前战局胶着态势下的社会与军事双重压力图景。后续需要关注乌克兰官方对此轮袭击伤亡与损失的正式通报，以及征兵冲突是否会进一步影响乌克兰的兵力动员能力。",
-      "duration_seconds": 130,
+      "summary": "在英国国王查尔斯主持的权力交接仪式后，安迪·伯纳姆正式接替基尔·斯塔默成为英国首相，两人均来自工党。",
+      "script": "英国国内政治出现重大变化。安迪·伯纳姆已经正式接替基尔·斯塔默，成为英国新一任首相，交接仪式由国王查尔斯主持。伯纳姆和斯塔默都来自中左翼的工党，这意味着这次权力更替属于党内交接，而不是执政党更换。目前公开报道确认的信息，主要是这次交接已经完成，以及交接的基本形式，至于具体的交接原因，也就是斯塔默为什么离任、党内是通过什么程序推举伯纳姆接任，目前的报道里没有展开说明。另外一条相关消息提到，伯纳姆上任后推动撤销了英国原有的数字身份计划，这项决定得到了数字包容和公民自由团体的欢迎，但同时也有人对撤销表示不满，说明这项政策本身在英国国内存在争议，撤销决定同样引发了分裂的反应。对于关心英国政治走向的观察者来说，一个新首相在工党内部通过何种方式上台，以及他在数字身份、移民、经济等具体政策上会采取什么路线，都是需要在接下来几周持续关注的问题。目前看这次交接本身进行得比较平稳，仪式性的环节已经完成，但具体的政策方向变化才刚刚开始显现。",
+      "duration_seconds": 105,
       "is_unverified": false,
-      "confidence_note": "袭击规模数据来自乌克兰空军官方通报，征兵冲突信息来自当地警方说法，均为独立信源报道，但具体伤亡与损失细节有限。",
+      "confidence_note": "两条独立二级来源均确认此次权力交接及digital ID政策变化，但交接具体原因未在候选信息中说明",
       "fact_status": {
         "confirmed": [
-          "俄罗斯发射41枚导弹和125架攻击无人机袭击乌克兰全境",
-          "基辅是此轮打击重点目标之一"
+          "安迪·伯纳姆已正式接替基尔·斯塔默成为英国首相",
+          "交接仪式由国王查尔斯主持",
+          "两人均属于工党"
         ],
         "claims": [
-          "乌克兰警方称针对征兵官员的暴力抵抗行为日益增多"
+          "伯纳姆推动撤销英国数字身份计划的决定获得部分团体欢迎，同时也引发部分批评"
         ],
         "analysis": [
-          "战争长期化正在同时加剧军事压力与乌克兰社会内部矛盾"
+          "党内交接而非执政党更换，说明工党内部权力结构出现变化，具体原因和后续政策方向仍待观察"
         ]
       },
       "source_ids": [
-        "234c60e83da75e69",
-        "be459580e433bb58"
+        "f5a3efced332da32",
+        "29b0ebc35ed4d54c"
       ],
       "sources": [
         {
-          "id": "234c60e83da75e69",
+          "id": "f5a3efced332da32",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Deadly overnight Russian attack on Ukraine targets the capital",
-          "summary": "Russia launched 41 missiles and 125 attack drones across Ukraine overnight, according to the Ukrainian air force.",
-          "url": "https://www.npr.org/2026/07/19/nx-s1-5899518/russia-attack-kyiv",
-          "published_at": "2026-07-19T09:14:38+00:00",
+          "title": "Andy Burnham becomes U.K. prime minister",
+          "summary": "In a transition of power presided over by King Charles, Andy Burnham has replaced Keir Starmer as the United Kingdom's prime minister. Both are from the center-left Labour Party.",
+          "url": "https://www.npr.org/2026/07/19/nx-s1-5895993/andy-burnham-prime-minister-keir-starmer",
+          "published_at": "2026-07-20T08:41:42+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "be459580e433bb58",
+          "id": "29b0ebc35ed4d54c",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Burnham’s move to scrap UK’s digital ID plans earns cheers and criticism",
+          "summary": "Digital inclusion and civil liberties campaigners welcome the U-turn — for different reasons. But some are unhappy.",
+          "url": "https://www.aljazeera.com/news/2026/7/20/burnhams-move-to-scrap-uks-digital-id-plans-earns-cheers-and-criticism?traffic_source=rss",
+          "published_at": "2026-07-20T13:24:18+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "俄乌黑海冲突持续升级，商船遭袭致多人死亡",
+      "english_term": null,
+      "summary": "俄罗斯对黑海商船的攻击强度上升，仅七月份对乌克兰敖德萨地区的袭击已造成28人死亡，其中最新一轮袭击导致10人丧生。",
+      "script": "黑海方向的战事仍在升级。据当地政府披露，仅七月份，俄罗斯针对乌克兰敖德萨地区的袭击就已造成28人死亡，而最新一轮针对商船的袭击又导致10人丧生。这些数字目前主要来自当地政府方面的通报，是冲突一方的信息来源，需要留意其立场性。与此同时，也有报道从更宏观的国际法角度切入，指出一份已经存在90年的国际条约仍在深刻影响黑海地区的力量平衡：这份条约限制了非黑海沿岸国家军舰自由进出黑海海峡，这直接约束了北约在乌克兰持续遭受海上袭击背景下，向黑海投射军事力量的能力。也就是说，即便乌克兰在黑海方向承受着密集的商船和港口袭击，北约成员国想要直接介入黑海的军事行动，也会受到这份历史条约的法律约束，这也是为什么西方对黑海方向的反应，相比陆地战线要更加克制和间接。综合来看，黑海已经从最初的粮食出口通道争夺，逐渐演变成一个持续的军事消耗战场，商船和民用航运设施正在承受越来越大的风险，而现有国际法律框架又限制了外部力量直接介入的空间，这种张力短期内很难得到根本性化解。",
+      "duration_seconds": 110,
+      "is_unverified": false,
+      "confidence_note": "死亡数字来自乌克兰当地政府通报，属冲突一方信源；条约限制黑海力量投射的分析来自独立媒体背景报道",
+      "fact_status": {
+        "confirmed": [
+          "据乌克兰当地政府通报，七月黑海及敖德萨地区袭击已造成28人死亡，最新一轮袭击致10人死亡",
+          "存在一份已实施90年的国际条约限制非黑海沿岸国军舰自由进入黑海"
+        ],
+        "claims": [],
+        "analysis": [
+          "国际法框架限制了北约在黑海方向的直接军事介入能力，这加大了乌克兰海上航运面临的长期风险"
+        ]
+      },
+      "source_ids": [
+        "5117a188bf118600",
+        "09feff8d3912b840"
+      ],
+      "sources": [
+        {
+          "id": "5117a188bf118600",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "‘Everyone's afraid to die’: Struggle to recruit soldiers in Ukraine turns violent",
-          "summary": "Aggression against recruitment officers has become increasingly threatening, police say.",
-          "url": "https://www.bbc.co.uk/news/articles/cr7k5ngde3vo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-20T00:19:12+00:00",
+          "title": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
+          "summary": "Russian strikes on the Odesa region have killed 28 people in July alone, local authorities say.",
+          "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-20T14:14:08+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "09feff8d3912b840",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Why a 90-year-old treaty limits NATO in the Black Sea",
+          "summary": "A 90-year-old treaty still shapes the balance of power in the Black Sea. As Ukraine fights on against Russia, can NATO project power into waters it can't enter freely?",
+          "url": "https://www.dw.com/en/why-a-90-year-old-treaty-limits-nato-in-the-black-sea/a-77966363?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-20T14:10:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "美国与伊朗冲突持续，三名美军人员遇难后美方发起新一轮打击",
+      "english_term": null,
+      "summary": "美伊和平谈判因霍尔木兹海峡相关备忘录争议破裂后，双方冲突已持续第九天，三名美军人员遇难，美方随即发起新一轮打击。",
+      "script": "美国与伊朗之间的军事冲突仍在持续。据报道，自上周五以来，已有三名美国军事人员在冲突中遇难，美方随即发起了新一轮打击行动，这已经是双方和平谈判破裂之后，持续打击的第九天。谈判破裂的直接原因，据报道是双方在一份聚焦霍尔木兹海峡的谅解备忘录上出现争议，具体条款内容目前公开信息有限。霍尔木兹海峡是全球最重要的能源运输通道之一，这条水道的安全状况直接牵动国际油价和全球能源供应链，这也是为什么这场冲突的关注度会超出双边范畴，成为一个具有全球外溢效应的地缓政治事件。目前看，冲突已经从最初的谈判僵局，发展成实质性的连续军事交火，双方都没有表现出短期内重新回到谈判桌的迹象。三名美军人员的死亡，也让美国国内围绕是否要进一步升级军事介入的争论更加激烈。这场冲突接下来会如何演变，很大程度上取决于双方是否能就霍尔木兹海峡的核心争议条款找到新的谈判空间，也取决于美国国内政治对持续军事投入的容忍程度，这些都还有待观察。",
+      "duration_seconds": 105,
+      "is_unverified": false,
+      "confidence_note": "来自NPR两篇独立报道交叉确认，但谈判破裂具体条款细节及后续升级走向仍不完整",
+      "fact_status": {
+        "confirmed": [
+          "三名美军人员自上周五以来在冲突中遇难",
+          "美方在人员遇难后发起新一轮打击，冲突已持续第九天",
+          "美伊和平谈判因霍尔木兹海峡相关谅解备忘录争议而破裂"
+        ],
+        "claims": [],
+        "analysis": [
+          "霍尔木兹海峡的战略地位使这场冲突具有超出双边范围的全球能源供应链影响"
+        ]
+      },
+      "source_ids": [
+        "d61c304cb94b3b15",
+        "b05a1abbc8ff4b0a"
+      ],
+      "sources": [
+        {
+          "id": "d61c304cb94b3b15",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "3 U.S. personnel killed in Iran conflict. And, Hunter Biden opens up to NPR",
+          "summary": "Three U.S. service members have been killed since Friday amid rising tension between the U.S. and Iran. And, Hunter Biden talks to NPR's Newsmakers about addiction and public scrutiny.",
+          "url": "https://www.npr.org/2026/07/20/g-s1-134553/up-first-newsletter-iran-us-service-members-hunter-biden",
+          "published_at": "2026-07-20T11:40:28+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "b05a1abbc8ff4b0a",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "U.S. and Iran launch new strikes after 3 U.S. service members are killed",
+          "summary": "The U.S. attacks were the ninth consecutive day of bombing since peace talks between the two countries collapsed in dispute over a memorandum of understanding focused on the Strait of Hormuz.",
+          "url": "https://www.npr.org/2026/07/20/nx-s1-5900601/us-iran-updates",
+          "published_at": "2026-07-20T10:04:56+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "哈马斯任命哈利勒·哈亚为新任最高领导人",
+      "english_term": null,
+      "summary": "哈马斯宣布卡塔尔常驻谈判负责人哈利勒·哈亚接任该组织最高领导人一职，此前的领导人辛瓦尔已于2024年被以色列军方击毙。",
+      "script": "巴勒斯坦武装组织哈马斯宣布了新的领导层安排。哈利勒·哈亚，此前担任该组织常驻卡塔尔的首席谈判代表，将接任哈马斯最高领导人一职，接替已于2024年在加沙被以色列军方击毙的辛瓦尔。这条消息目前来自权威国际媒体的直接报道，属于已确认的组织人事变动事实。哈亚长期担任谈判代表角色，这个背景本身带有信号意义：外界普遍认为，谈判代表出身的领导人，相比军事指挥官出身的领导人，在对外沟通和斡旋姿态上可能会有所不同，但这只是基于其过往角色的推断，并不代表哈马斯整体政策方向会随之改变。与此同时，加沙局势本身仍然复杂，另一条相关报道提到，以色列部分内阁成员和定居者团体近期公开呼吁重返加沙定居点，这一主张目前只是以色列国内部分政治力量的立场表态，并不代表以色列政府的官方政策，但它反映出加沙战后安排在以色列国内仍然存在巨大分歧。哈马斯领导层更替之后，外界会密切关注这是否会对未来停火谈判、人质交换等议题的推进节奏产生影响。",
+      "duration_seconds": 105,
+      "is_unverified": false,
+      "confidence_note": "领导人更替信息来自权威媒体直接报道，属已确认事实；以色列内部呼吁重返定居点仅为部分政治力量主张，非官方政策",
+      "fact_status": {
+        "confirmed": [
+          "哈马斯任命哈利勒·哈亚为新任最高领导人",
+          "此前领导人辛瓦尔已于2024年在加沙被以色列军方击毙"
+        ],
+        "claims": [
+          "以色列部分内阁成员和定居者团体公开呼吁重返加沙定居点"
+        ],
+        "analysis": [
+          "新任领导人的谈判代表背景可能影响哈马斯对外沟通姿态，但具体政策走向仍需观察"
+        ]
+      },
+      "source_ids": [
+        "85789880131c1e48",
+        "d013671379799ddf"
+      ],
+      "sources": [
+        {
+          "id": "85789880131c1e48",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Hamas names Khalil al-Hayya as new overall leader",
+          "summary": "The Palestinian armed group's Qatar-based chief negotiator replaces Yahya Sinwar, who was killed by Israeli forces in Gaza in 2024.",
+          "url": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-20T14:02:31+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "d013671379799ddf",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Israeli ministers and settlers call for return to Gaza settlements",
+          "summary": "‘Gaza is ours.’",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/israeli-ministers-and-settlers-call-for-return-to-gaza-settlements?traffic_source=rss",
+          "published_at": "2026-07-20T13:29:39+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "health",
+      "title": "刚果Ebola疫情死亡人数升至930人",
+      "english_term": null,
+      "summary": "刚果卫生部通报，当前疫情累计已造成930人死亡，累计确诊2344例，仅过去24小时新增37例死亡，是疫情期间最高纪录之一。",
+      "script": "一条持续牵动全球公共卫生关注的疫情通报。刚果卫生部披露，截至周六，当地Ebola埃博拉疫情累计确诊病例达到2344例，累计死亡人数已升至930人，其中过去24小时内新增死亡37例，是这场疫情爆发以来单日死亡数最高的几次记录之一。这条信息来自权威媒体对官方卫生部门通报的直接转述，属于目前可以确认的官方数据。埃博拉病毒是一种致死率很高的出血热病毒，历史上刚果地区曾多次出现区域性爆发，这次疫情从确诊病例和死亡人数的比例来看，致死率处于历史上比较高的区间，这通常和病毒株类型、当地医疗资源和响应速度都有关系。单日新增37例死亡这个数字值得特别关注，如果这个增速持续下去，意味着疫情当前仍处于扩散而非收敛阶段，公共卫生系统面临的压力会进一步上升。目前公开信息没有提供病毒株类型、疫情爆发的具体地理范围以及国际社会介入支援的细节，这些都是后续需要跟进的信息。埃博拉疫情往往需要跨国的医疗资源调配和边境管控配合，才能有效控制传播，这次疫情接下来的走向，会取决于当地及国际公共卫生机构的响应力度。",
+      "duration_seconds": 115,
+      "is_unverified": false,
+      "confidence_note": "数据来自刚果卫生部官方通报，经权威媒体直接转述，属于已确认官方数据",
+      "fact_status": {
+        "confirmed": [
+          "刚果卫生部通报累计确诊2344例，累计死亡930人",
+          "过去24小时新增37例死亡，为疫情期间较高单日记录之一"
+        ],
+        "claims": [],
+        "analysis": [
+          "单日新增死亡数处于高位，可能意味着疫情仍在扩散阶段，公共卫生响应压力上升"
+        ]
+      },
+      "source_ids": [
+        "e08fa3f27ea792c3"
+      ],
+      "sources": [
+        {
+          "id": "e08fa3f27ea792c3",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "At least 930 people have died in Congo's Ebola outbreak",
+          "summary": "Congo's health ministry said the deaths were recorded out of the 2,344 cases confirmed as of Saturday. Thirty-seven new deaths were recorded in the previous 24 hours in one of the highest totals.",
+          "url": "https://www.npr.org/2026/07/20/g-s1-134548/ebola-congo-deaths",
+          "published_at": "2026-07-20T10:36:08+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "sports",
+      "title": "英格兰足球传奇凯文·基根去世，享年75岁",
+      "english_term": null,
+      "summary": "曾任英格兰队长和主教练的凯文·基根去世，此前七周他刚披露自己被诊断为四期癌症。",
+      "script": "体育界传来一则令人惋惜的消息。前英格兰国家队队长、纽卡斯尔联和利物浦名宿凯文·基根去世，享年75岁。据报道，就在七周前，他刚刚公开披露自己被诊断为四期癌症。基根是英格兰足球历史上非常重要的人物，他不仅作为球员为利物浦和纽卡斯尔联立下战功，退役后又转型担任主教练，其中在纽卡斯尔联执教期间以进攻足球风格闻名，也曾带过英格兰国家队。他的去世消息目前由权威媒体直接确认，属于已核实事实。基根的职业生涯跨越了球员和教练两个身份，这种双重身份的成功案例，在英格兰足球历史叙事中占据重要位置，他的离世也让很多球迷和足球界人士重新回顾这位七十年代到九十年代英格兰足球代表人物的职业生涯。",
+      "duration_seconds": 75,
+      "is_unverified": false,
+      "confidence_note": "权威媒体直接报道，属已确认事实",
+      "fact_status": {
+        "confirmed": [
+          "凯文·基根去世，享年75岁",
+          "此前七周他曾披露被诊断为四期癌症"
+        ],
+        "claims": [],
+        "analysis": []
+      },
+      "source_ids": [
+        "402b936acacef9ba"
+      ],
+      "sources": [
+        {
+          "id": "402b936acacef9ba",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Newcastle, Liverpool and England legend Keegan dies",
+          "summary": "Former England captain and manager Kevin Keegan dies at the age of 75, seven weeks after he revealed he had been diagnosed with stage four cancer.",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c2lyl82n2e2o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-20T14:38:28+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天需要继续关注的是：伊朗局势的下一步升级路径与国际社会反应、英国新首相伯纳姆的施政方向，以及WAIC上发布的多款机器人新品与小米具身智能基础模型的后续量产与评审进展。",
-  "editor_note": "本期机器人板块共选取四条，时长合计约910秒，占全稿总时长约合理比例；其中WAIC相关报道及部分arXiv论文均标记为未完全证实或未经同行评审，已在confidence_note中说明。国际政治部分因伊朗、乌克兰、英国、世界杯等多条重大事件并行，按重要性择优选取七条world/sports类事件，未纳入的印度国内抗议、诺威纪念活动、美国肠胃疾病溯源等次要事件已作取舍处理。",
+  "closing": "今天的重点仍然在两条线上交织推进：一边是机器人和具身智能领域的密集发布与论文更新，从WAIC展台上的整机产品到arXiv上的操作算法，产业和学术两端都在加速；另一边则是多点地缘政治紧张同步升温，黑海、霍尔木兹海峡和加沙局势都需要持续跟进。后续需要关注小米VLA模型的同行评审进展、WAIC展出产品的量产与定价细节，以及美伊、俄乌冲突是否会出现新的转折点。",
+  "editor_note": "机器人板块共选取5条，时长占比约在45%-55%区间内；因候选中WAIC相关报道均来自同一家三级行业媒体Gasgoo，已在稿件中标注为未经充分交叉验证的产业动态，并尽量补充Robohub与arXiv等独立来源以平衡信源结构。部分国际政治事件（如哈马斯领导层更替、英国首相交接）因候选信息本身对具体过程描述有限，稿件中已如实标注信息缺口，未做过度推测。",
   "model": "claude-sonnet-5",
   "usage": {
-    "input_tokens": 8885,
-    "output_tokens": 9288,
-    "total_tokens": 18173
+    "input_tokens": 9101,
+    "output_tokens": 10782,
+    "total_tokens": 19883
   },
-  "generated_at": "2026-07-20T07:29:30.640257+00:00",
-  "window_start": "2026-07-19T07:29:30.640257+00:00",
-  "candidate_count": 237,
+  "generated_at": "2026-07-20T14:50:40.009187+00:00",
+  "window_start": "2026-07-19T14:50:40.009187+00:00",
+  "candidate_count": 260,
   "source_errors": [
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "quality": {
-    "duration_seconds": 1150,
-    "script_characters": 4532,
-    "topic_duration_share": 0.565,
+    "duration_seconds": 1315,
+    "script_characters": 5110,
+    "topic_duration_share": 0.532,
     "passed": true,
     "normal_target_met": true,
     "topic_source_count": 3,
