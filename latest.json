@@ -1,65 +1,65 @@
 {
-  "title": "晶球电台早报：Hyundai完成对Boston Dynamics收购，美伊冲突升级，AGIBOT在WAIC发布四款具身智能产品",
-  "subtitle": "机器人产业与学术并进，中东局势骤然紧张",
+  "title": "晶球电台早报：美伊冲突持续、机器人融资与学术前沿",
+  "subtitle": "英国人形机器人公司融资1.52亿美元，红海紧张局势升级，多篇腿足与感知论文上线",
   "highlights": [
-    "现代汽车正式完成对Boston Dynamics的收购，同日员工就Atlas项目发起罢工",
-    "美国对伊朗发动新一轮空袭，伊朗回应称打击了霍尔木兹海峡两艘船只及巴林、约旦目标",
-    "AGIBOT在WAIC世界人工智能大会发布四款具身智能新产品，聚焦真实场景部署"
+    "英国Humanoid公司完成1.52亿美元A轮融资，估值达13.5亿美元",
+    "美伊冲突进入第11个连续夜晚，红海航道紧张局势升级",
+    "arXiv多篇新论文聚焦人形运动规划、四足力矩控制与空地两栖机器人"
   ],
   "stories": [
     {
       "category": "world",
-      "title": "美国对伊朗发动新一轮空袭，中东局势急剧升级",
+      "title": "美伊冲突持续升级，红海航道紧张局势加剧",
       "english_term": null,
-      "summary": "美国对伊朗目标发动新一轮打击，特朗普警告将对造成美军士兵死亡的行为进行报复；伊朗方面称其打击了霍尔木兹海峡的两艘船只以及巴林、约旦境内的目标。",
-      "script": "中东局势在过去24小时内急剧恶化。据BBC报道，美国对伊朗发动了新一轮空袭，特朗普警告称，如果有美军士兵在冲突中死亡，美方将采取报复行动。伊朗方面则表示，已经对霍尔木兹海峡的两艘船只发动打击，同时对巴林和约旦境内的目标实施了攻击。霍尔木兹海峡是全球最重要的石油运输通道之一，每天有大量原油经此运往世界各地，任何针对该海峡航运安全的军事行动都可能对全球能源市场造成冲击。与此同时，据NPR报道，也门胡塞武装宣布，将对红海南端的另一处关键海峡——曼德海峡实施海上封锁。胡塞武装是与伊朗结盟的什叶派武装组织，这一表态被认为是伊朗阵营在美伊冲突背景下的联动反应，进一步扩大了中东地区海上通道的安全风险范围。目前，冲突双方的说法存在明显分歧：美方强调是对既有威胁的回应并保留反击权利，伊朗方面则将自己的军事行动定性为对美方打击的反制。国际社会普遍关注局势是否会进一步升级为更大范围的地区冲突，尤其是霍尔木兹海峡和曼德海峡两大能源与航运咽喉同时面临威胁，可能对全球油价和海运保险成本产生连锁影响。目前尚无法确认双方伤亡的具体规模，也没有独立信源证实伊朗所称打击的具体效果。后续需要等待联合国及其他国际机构对双方军事行动的核实，以及能源市场对海峡安全风险的具体反应。",
-      "duration_seconds": 135,
+      "summary": "美国与伊朗的攻击进入第11个连续夜晚，特朗普威胁打击伊朗地下核设施，红海航道紧张局势影响外交斡旋努力。",
+      "script": "国际局势方面，美国与伊朗之间的军事对抗仍在持续。据BBC报道，美国已经连续第11个夜晚对伊朗目标发动打击，特朗普总统同时放出威胁，称可能会打击伊朗一处关键的地下核设施。与此同时，NPR的报道指出，红海这条关键航道上的紧张态势正在升温，美伊双方的攻击行动仍在继续，这直接影响了原本在巴基斯坦进行的外交斡旋。据悉，一名伊朗高级官员当时正在巴基斯坦与相关方会谈，试图重启此前已经破裂的美伊停火协议，但持续的军事行动让这类努力蒙上阴影。已确认的事实是，双方的军事交火已经持续超过一周半，且巴基斯坦作为调解方之一在积极斡旋。伊朗方面的主张和美方的具体打击目标细节，目前报道中并未给出更多确认信息，仍属于各方表态层面。从分析角度看，红海是全球重要的能源和货物运输通道，任何军事冲突升级都可能波及国际航运保险成本和能源价格，值得持续关注局势是否会进一步外溢到周边水域的商业航运安全。此外，伊朗地下核设施若真的成为打击目标，将是这轮冲突中风险等级明显上升的信号，因为地下设施通常与更敏感的核能力相关联，一旦触及，谈判空间可能被进一步压缩。目前尚不清楚下一轮外交接触的具体时间表，后续需要等待巴基斯坦斡旋是否取得实质进展的官方消息。",
+      "duration_seconds": 130,
       "is_unverified": false,
-      "confidence_note": "基于BBC与NPR两个独立Tier 2来源交叉报道，但双方军事行动细节和伤亡情况尚未经过第三方独立核实，事件仍在发展中。",
+      "confidence_note": "BBC与NPR两个独立二级来源交叉确认冲突持续，但伊朗核设施打击的具体细节仅为特朗普威胁性表态，尚未证实执行。",
       "fact_status": {
         "confirmed": [
-          "美国对伊朗发动新一轮空袭",
-          "胡塞武装宣布封锁曼德海峡"
+          "美伊攻击已持续11个连续夜晚",
+          "巴基斯坦有伊朗高级官员参与斡旋会谈"
         ],
         "claims": [
-          "伊朗称打击了霍尔木兹海峡两艘船只及巴林、约旦目标",
-          "特朗普警告将对美军伤亡进行报复"
+          "特朗普威胁打击伊朗地下核设施",
+          "斡旋目标是重启此前的停火协议"
         ],
         "analysis": [
-          "局势可能进一步波及全球能源航运通道安全",
-          "双方军事行动存在明显叙事分歧，尚待独立核实"
+          "红海航运安全风险可能进一步上升",
+          "地下设施若被打击将标志冲突升级"
         ]
       },
       "source_ids": [
-        "5f70b69881b53100",
-        "de300318bf932687"
+        "bb4d798ae2600416",
+        "ba4c50fbb238fc3e"
       ],
       "sources": [
         {
-          "id": "5f70b69881b53100",
+          "id": "bb4d798ae2600416",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-          "summary": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
-          "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-21T09:48:20+00:00",
+          "title": "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
+          "summary": "The US president's threat to target a key Iranian nuclear site came ahead of the 11th consecutive night of attacks.",
+          "url": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-22T10:15:03+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "de300318bf932687",
+          "id": "ba4c50fbb238fc3e",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Amid U.S.-Iran war, Houthi rebels threaten to blockade another key strait",
-          "summary": "The Houthis, a Shiite militia in Yemen, which is aligned with Iran, have announced a naval blockade of a key waterway, the Bab Al-Mandeb Strait.",
-          "url": "https://www.npr.org/2026/07/21/nx-s1-5901846/us-iran-updates",
-          "published_at": "2026-07-21T10:21:43+00:00",
+          "title": "U.S. and Iranian attacks continue as tensions mount on a key waterway in the Red Sea",
+          "summary": "The attacks overshadowed diplomatic efforts in Pakistan, one of the conflict's mediators, where a senior Iranian official held talks potentially aimed at reviving a collapsed ceasefire between the United States and Iran.",
+          "url": "https://www.npr.org/2026/07/22/nx-s1-5902843/us-iran-updates",
+          "published_at": "2026-07-22T10:46:01+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -67,81 +67,40 @@
     },
     {
       "category": "robotics",
-      "title": "现代完成收购Boston Dynamics，员工同日就Atlas项目罢工",
-      "english_term": "Atlas（波士顿动力人形机器人产品线）",
-      "summary": "现代汽车正式完成对Boston Dynamics的收购交割，但同一天公司员工就Atlas人形机器人项目发起罢工。",
-      "script": "机器人产业今天出现了一则颇具戏剧性的新闻。据Tech Times报道，现代汽车正式完成了对Boston Dynamics的收购交割，这标志着这家全球知名的机器人公司在经历多轮易主之后，正式并入现代旗下的产业体系。然而就在同一天，Boston Dynamics的员工就Atlas人形机器人项目发起了罢工。Atlas是Boston Dynamics最具代表性的人形机器人产品线，长期以来以其高难度的动态运动能力著称，包括后空翻、跑酷等展示，是行业内技术标杆之一。报道并未详细说明罢工员工提出的具体诉求，但这一时间点的巧合格外引人关注——一边是母公司完成资本层面的整合，一边是核心产品线团队的内部矛盘公开化，反映出大型收购交易背后，技术团队与资本方之间可能存在的目标错位或整合阵痛。对于机器人行业而言，Boston Dynamics的技术路线一直是行业风向标之一，其人形机器人研发投入、产品商业化节奏，都会被广泛参照。现代汽车收购Boston Dynamics的初衷，被普遍认为是希望将其人形机器人及四足机器人技术与自身制造体系、汽车工厂自动化需求相结合，加速机器人在工业场景的落地应用。但从此次罢工事件来看，收购完成并不意味着团队整合已经顺利完成，具体的员工诉求、罢工规模、是否涉及裁员或研发方向调整，报道中均未披露详细信息。后续需要等待Boston Dynamics或现代汽车方面对罢工原因作出正式回应，也需要观察这一事件是否会影响Atlas项目后续的研发节奏和产品发布计划。",
-      "duration_seconds": 160,
-      "is_unverified": true,
-      "confidence_note": "仅有单一Tier 3来源报道，罢工具体诉求、规模等细节缺乏进一步来源交叉确认，需谨慎对待。",
-      "fact_status": {
-        "confirmed": [
-          "现代汽车完成对Boston Dynamics的收购交割"
-        ],
-        "claims": [
-          "员工同日就Atlas项目发起罢工"
-        ],
-        "analysis": [
-          "收购完成与罢工同日发生，可能反映团队整合中存在矛盾",
-          "事件对Atlas项目后续研发节奏的具体影响尚不明确"
-        ]
-      },
-      "source_ids": [
-        "0e91e626d1efd369"
-      ],
-      "sources": [
-        {
-          "id": "0e91e626d1efd369",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Hyundai Finalizes Boston Dynamics Takeover as Workers Strike Over Atlas on Same Day - Tech Times",
-          "summary": "Hyundai Finalizes Boston Dynamics Takeover as Workers Strike Over Atlas on Same Day Tech Times",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPazNGXzVyYllBTTcxTEtONzU2anNoQTlCTDlHLVBGS2l0d3oxa0Ixdjk5N3pFVHBUNHhydlhVUzFqc2prU2gzVUFGdUxLbTd6cUpxaDZUTkxaQWVLaXNIRGhRbVJwd0dCMzJZYjZldi11SXZlN1dRbE9lOVlnRzhDYjF2UEZFeFBpSE9ZdjBJZk1YTkJORHhnUkJ3WncxdXFyclNGck9hdEZMRGdYM0I2Ni1MTFBpcW0yWGdKc1E2SXYwR2JyOGVzZ2lVZFQ?oc=5",
-          "published_at": "2026-07-21T10:57:20+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "AGIBOT在WAIC发布四款具身智能新产品，聚焦真实场景落地",
-      "english_term": "具身智能（Embodied AI，指让AI系统通过物理身体与真实环境交互学习和行动的技术路线）",
-      "summary": "AGIBOT在世界人工智能大会（WAIC）上发布四款具身智能新产品，展示其将具身智能能力转化为可复用工作流程的进展。",
-      "script": "在产业应用层面，据The Robot Report报道，机器人公司AGIBOT在WAIC世界人工智能大会上一口气发布了四款具身智能新产品，主打面向真实场景的落地部署。具身智能，英文是Embodied AI，指的是让人工智能系统通过一个物理身体与真实环境持续交互、感知并行动，从而学习完成任务的技术路线，这与仅在虚拟数据上训练的传统AI模型形成对比，被认为是通向通用机器人能力的重要方向。AGIBOT表示，此次展示的演示案例和已经落地的工业部署，体现了公司把具身智能能力转化为可重复执行工作流程的进展。这意味着AGIBOT不仅仅是在展示技术demo，而是希望证明其机器人系统能够在实际工业场景中稳定、可重复地完成任务，而不是一次性的实验室演示。这一表态延续了近期具身智能行业的一个明显趋势：越来越多的公司开始强调从“能做到”转向“能稳定重复做到”，因为工业客户真正关心的是良品率、稳定性和可维护性，而不仅仅是单次任务的成功率。WAIC作为国内规模较大的人工智能行业展会之一，历来是各家机器人及AI公司集中展示阶段性成果的重要窗口。目前报道中并未透露AGIBOT此次发布的四款产品具体的技术参数、应用场景细分以及量产或商业化时间表，这些细节仍有待官方进一步披露。后续需要等待AGIBOT公布具体的产品规格、客户合作案例以及实际部署规模，以判断这些新产品是否真正实现了从演示到规模化应用的跨越。",
-      "duration_seconds": 150,
+      "title": "英国Humanoid公司完成1.52亿美元A轮融资，估值13.5亿美元",
+      "english_term": "Series A（A轮融资）",
+      "summary": "总部位于英国的人形机器人公司Humanoid宣布完成1.52亿美元A轮融资，估值达到13.5亿美元，用于扩展AI驱动的工业机器人商业化部署。",
+      "script": "产业动态方面，一家总部在英国的人形机器人公司Humanoid宣布完成A轮融资，金额达到1.52亿美元，公司估值随之升至13.5亿美元。这笔资金将用于扩展其AI驱动的工业机器人产品线，并推进商业化部署的规模化。根据The Robot Report的报道，Humanoid的定位聚焦在工业场景，希望把人形机器人从实验室或展示阶段推向实际工厂环境中的具体作业。人形机器人赛道近年持续吸引资本关注，核心原因在于其被视为通用具身智能的一种载体形态——理论上，一款能适应人类工作环境、使用人类工具和空间的机器人，具备更强的场景迁移能力，不需要为每个新任务重新设计末端执行器或工作站布局。但要把这种潜力转化为可靠的工业级产品，仍然涉及硬件成本、运动控制的鲁棒性、以及规模化制造等多重挑战。从企业融资节奏看，短短一轮就获得超过1.5亿美元，说明投资人对该公司在AI大模型与机器人控制结合方向上的路线图给予了较高预期，也反映出人形机器人赛道整体的资本热度仍在延续，尽管此前也有同类公司在商业化落地上遇到过较大阻力。目前公开信息中并未透露具体投资方名单及资金的详细分配计划，也没有说明当前已部署的机器人规模和具体客户行业。后续需要等待公司公布更详细的产品落地案例和客户名单，以判断这笔资金能否真正转化为规模化商业订单，而不仅停留在技术演示层面。",
+      "duration_seconds": 145,
       "is_unverified": false,
-      "confidence_note": "来自Tier 2专业机器人媒体The Robot Report的一手报道，但产品具体技术细节和量产计划尚未见官方文件披露，需等待更多信息。",
+      "confidence_note": "来自专业机器人产业媒体The Robot Report的一手报道，属于企业官方融资公告类信息，可信度较高，但缺少第二独立信源交叉确认具体估值方法。",
       "fact_status": {
         "confirmed": [
-          "AGIBOT在WAIC发布四款具身智能产品"
+          "Humanoid完成1.52亿美元A轮融资",
+          "公司估值达到13.5亿美元"
         ],
         "claims": [
-          "公司称演示与工业部署体现了将具身智能能力转化为可重复工作流程的进展"
+          "资金将用于扩展AI驱动工业机器人并扩大商业部署"
         ],
         "analysis": [
-          "行业正从单次任务演示转向强调稳定性与可重复性",
-          "具体产品参数与商业化节奏仍需官方进一步披露"
+          "人形机器人赛道融资热度延续，但工业级规模化落地仍面临验证"
         ]
       },
       "source_ids": [
-        "e32687426e7032d1"
+        "87172ec577ca2539"
       ],
       "sources": [
         {
-          "id": "e32687426e7032d1",
+          "id": "87172ec577ca2539",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "AGIBOT unveils four embodied AI products for real-world operations at WAIC",
-          "summary": "AGIBOT said its demoes and industrial deployments show its progress in turning embodied AI capabilities into repeatable workflows. The post AGIBOT unveils four embodied AI products for real-world operations at WAIC appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/agibot-unveils-four-embodied-ai-products-real-world-operations-waic/",
-          "published_at": "2026-07-20T15:18:07+00:00",
+          "title": "U.K.-based Humanoid secures $152M in Series A funding",
+          "summary": "Humanoid said it has reached a $1.35 billion valuation as it scales its AI-driven industrial robots and expands commercial deployments. The post U.K.-based Humanoid secures $152M in Series A funding appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/",
+          "published_at": "2026-07-21T23:43:12+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -149,40 +108,38 @@
     },
     {
       "category": "robotics",
-      "title": "BrainCo展示脑控机械臂AI平台，完成抓取苹果等精细动作",
-      "english_term": "脑机接口（Brain-Computer Interface，指直接读取大脑信号并转化为控制指令的技术）",
-      "summary": "BrainCo演示了一套脑控机器人AI平台，通过读取用户脑部信号，控制机械臂完成抓杯子、拿苹果等需要精确度的任务。",
-      "script": "在人机交互与辅助机器人领域，据The Robot Report报道，公司BrainCo展示了一套脑控机器人AI平台。在演示中，通过脑机接口技术控制的机械臂完成了抓取杯子、拿苹果等需要较高精确度的动作。脑机接口，英文是Brain-Computer Interface，指的是直接读取使用者大脑信号，并将其转化为设备控制指令的技术路径，长期以来被视为辅助运动障碍人群恢复自主操作能力的重要方向之一。此次演示的看点在于，机械臂完成的并非简单的开合或移动动作，而是需要连续、精细调整力度和角度的抓取任务，这对脑信号解码算法的实时性和准确性提出了较高要求。报道中并未详细说明BrainCo此次采用的具体脑信号采集方式，是侵入式电极还是非侵入式的头皮脑电图，也没有透露解码算法的技术细节，比如所采用的模型架构、训练数据规模等。从行业背景看,脑控机器人的核心难点通常在于脑信号本身存在较大的个体差异和噪声干扰，如何在保证响应速度的同时提升识别准确率，是这类系统能否走向实际临床或家用场景的关键。值得一提的是，与本次候选中另一篇论文提到的通过表面肌电信号（sEMG）遥控辅助机械臂的研究相比，脑机接口和肌电信号是两条不同的技术路径，前者直接解读大脑意图，后者依赖残存肌肉活动信号，二者在适用人群和技术成熟度上均有差异。后续需要等待BrainCo公布更详细的技术参数、临床或用户测试数据，以及该平台距离实际产品化还有多远。",
-      "duration_seconds": 155,
+      "title": "手术机器人公司Vicarious Surgical正式关停",
+      "english_term": "SPAC（特殊目的收购公司）",
+      "summary": "曾通过SPAC上市并融资约3亿美元的手术机器人公司Vicarious Surgical宣布正式关闭。",
+      "script": "机器人产业也有一则值得关注的负面消息：手术机器人公司Vicarious Surgical宣布正式关停。据The Robot Report报道，这家公司此前总计融资约3亿美元，其中大部分资金来自2021年通过SPAC，也就是特殊目的收购公司这种方式完成的上市交易。Vicarious Surgical此前的方向是研发用于微创手术的小型化机器人系统，希望通过更精细的操作臂设计减少手术创伤。但从这次关停结果看，公司未能将技术优势转化为可持续的商业收入，最终走向清算。手术机器人领域技术壁垒本身就相当高，需要同时满足医疗监管审批、临床安全性验证、以及医院采购决策周期长等多重条件，这使得资本市场对手术机器人公司的耐心往往被反复考验。此前不少通过SPAC方式上市的科技公司都曾因为业绩不及预期、现金消耗过快而陷入困境，Vicarious Surgical可以说是这一轮SPAC上市潮退潮后又一个案例。目前报道并未详细披露公司关停后员工安置、专利技术后续处置、以及是否有其他公司考虑收购其相关资产等信息。从行业角度看，这也提醒手术机器人赛道内其他参与者，仅凭技术故事和一级市场热度，并不足以支撑企业穿越漫长的临床验证与商业化周期。后续需要等待是否有更多细节披露，包括公司资产清算的具体安排。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "来自Tier 2专业媒体The Robot Report的演示报道，技术细节有限，且尚无第三方独立验证具体性能指标。",
+      "confidence_note": "来自专业机器人媒体The Robot Report的直接报道，为单一来源，但属于企业关停这一类事实性较强、争议较小的信息。",
       "fact_status": {
         "confirmed": [
-          "BrainCo展示了脑控机械臂完成抓取任务的演示"
+          "Vicarious Surgical正式关停",
+          "公司此前总计融资约3亿美元，大部分来自2021年SPAC上市"
         ],
-        "claims": [
-          "公司称该平台可实现精确度较高的抓取动作"
-        ],
+        "claims": [],
         "analysis": [
-          "脑控机器人技术走向实用仍需解决个体差异和噪声干扰问题",
-          "具体技术参数和临床验证数据尚待披露"
+          "手术机器人赛道商业化周期长，SPAC上市热潮退去后多家公司面临经营困境"
         ]
       },
       "source_ids": [
-        "5a37f339d202caf4"
+        "9f4e058c40c7224a"
       ],
       "sources": [
         {
-          "id": "5a37f339d202caf4",
+          "id": "9f4e058c40c7224a",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "BrainCo demonstrates brain-controlled robot AI platform",
-          "summary": "During BrainCo's demo, the mind-controlled robotic arm completed tasks that require precision, such as grasping a cup or picking up an apple. The post BrainCo demonstrates brain-controlled robot AI platform appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-platform/",
-          "published_at": "2026-07-20T18:14:11+00:00",
+          "title": "Vicarious Surgical officially shutting down",
+          "summary": "Vicarious Surgical raised about $300 million in total, most of that from a special purpose acquisition company (SPAC) merger in 2021. The post Vicarious Surgical officially shutting down appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/vicarious-surgical-officially-shutting-down/",
+          "published_at": "2026-07-21T23:12:18+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -190,70 +147,39 @@
     },
     {
       "category": "robotics",
-      "title": "多篇机器人学术新论文：导航记忆、终端遥控机械臂与地形建图",
-      "english_term": "扩散策略（Diffusion Policy，一种基于扩散模型生成动作序列的机器人控制方法）",
-      "summary": "arXiv今日集中出现多篇机器人学术论文，涉及持续学习导航记忆机制、表面肌电信号遥控机械臂，以及多模态地形建图等方向。",
-      "script": "学术方面，今天arXiv机器人板块集中出现了几篇值得关注的新论文。第一篇提出了HyperDCM方法，全称是双曲空间中的动态聚类记忆回放，用于解决视觉导航中的持续学习问题。持续学习是指机器人在不断适应新环境的过程中，容易出现灾难性遗忘，也就是学会新场景后反而忘记了之前学过的旧场景。HyperDCM在双曲空间中对场景进行结构化建模，通过提取RGB观测中的语义场景三元组，构建具有层级结构感知能力的记忆机制，并结合扩散策略这种基于扩散模型生成动作序列的控制方法，来提升导航策略在多样化场景之间迁移和记忆保持的能力。第二篇论文关注辅助机械臂的控制方式，研究团队使用一维卷积神经网络，基于表面肌电信号（sEMG）实现对辅助机械臂的实时遥控。这项工作针对的是上肢运动功能受限、难以自主完成物体操作的人群，通过非侵入式采集残存肌肉的电活动信号，解码出使用者的运动意图，从而控制机械臂完成日常任务，相比脑机接口，这种方式对硬件要求更低，但仍需要用户具备一定的肌肉活动能力。第三篇论文提出了PRISM系统，一种面向越野及非结构化环境的多模态地形建图方法。该系统将热成像与常规光学和深度传感器数据融合，用于提升机器人在陡坡、碎石等复杂地形中的可通行性判断能力，热成像的引入有助于区分肉眼和普通深度相机难以分辨的地表材质差异，从而提高路径规划算法的可靠性。以上三篇论文均为arXiv预印本，尚未经过同行评审，具体实验数据的严谨性和方法的普适性仍需学术界进一步检验。后续需要等待相关论文投稿会议或期刊后的评审结果。",
-      "duration_seconds": 165,
+      "title": "人形机器人运动规划新框架FARO：快速可行性检验与轨迹生成",
+      "english_term": "kino-dynamic framework（运动-动力学框架）",
+      "summary": "一篇新论文提出FARO框架，用于快速检验人形机器人在候选接触序列下的运动可行性，并生成动力学一致的轨迹。",
+      "script": "学术前沿方面，arXiv上出现一篇聚焦人形机器人运动规划的新论文，题为《FARO：面向可行性感知的机器人运动优化》。论文指出，在未见过的新场景中快速规划新颖行为，一直是机器人学的核心难题之一，尤其是人形机器人的loco-manipulation，也就是行走与操作相结合的行为，因为这类任务具有高维度、混合动力学、以及欠驱动的特性，长期以来难以被快速求解。研究团队提出了一种嵌套式的运动-动力学框架，给定一个候选的接触序列——也就是机器人手脚与环境接触的先后顺序方案，框架可以快速检验该序列是否可行，并生成与动力学规律保持一致的运动轨迹。这种嵌套结构的意义在于把检验是否可行和生成具体轨迹两个步骤结合起来，从而避免规划器在不可行的接触方案上浪费大量计算资源，理论上能提升在复杂地形或非结构化环境中人形机器人快速生成新行为的效率。论文摘要中并未透露具体的实验平台、成功率数值或与既有方法的对比数据，这些细节需要查阅论文全文以及后续的同行评审结果。作为一篇刚提交到arXiv的新论文，其方法尚未经过正式同行评审，实际性能和适用范围存在不确定性。从研究意义看，如果这类快速可行性检验方法能够在实际人形机器人上验证，将有助于减少人形机器人在真实复杂地形中运动规划的响应延迟。后续需要等待论文正式发表和相关开源代码或实验视频的公布。",
+      "duration_seconds": 145,
       "is_unverified": true,
-      "confidence_note": "三篇均为arXiv预印本，未经同行评审，实验设置、数据规模及对比基线的严谨性尚待学术界验证。",
+      "confidence_note": "论文来自arXiv预印本平台，尚未经过同行评审，具体实验数据和性能指标未在摘要中完整披露。",
       "fact_status": {
         "confirmed": [
-          "三篇论文均已在arXiv平台公开发布"
+          "论文提出了名为FARO的嵌套运动-动力学框架"
         ],
         "claims": [
-          "作者称各自方法在导航记忆保持、机械臂遥控精度、地形建图可靠性方面有提升"
+          "该框架可实现快速可行性检验与动力学一致的轨迹生成"
         ],
         "analysis": [
-          "三项研究分别代表持续学习、人机接口控制和多模态感知三个不同技术方向的渐进式进展",
-          "预印本阶段的结果需要经过同行评审才能被广泛认可"
+          "方法若验证有效，有望提升人形机器人复杂地形运动规划效率，但尚缺乏公开实验数据"
         ]
       },
       "source_ids": [
-        "343afff25f47cfad",
-        "f60f228f8f59ac33",
-        "5ac146e4dd7b4c82"
+        "23c6c0da69bc9fec"
       ],
       "sources": [
         {
-          "id": "343afff25f47cfad",
+          "id": "23c6c0da69bc9fec",
           "source": "arXiv Robotics (cs.RO)",
           "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "HyperDCM: Dynamic Cluster Memory Replay in Hyperbolic Space for Continual Robotic Navigation Across Scenes",
-          "summary": "arXiv:2607.16267v1 Announce Type: new Abstract: Continual learning in visual navigation remains challenging due to catastrophic forgetting and the difficulties associated with adapting to diverse and evolving environments. To address these issues, we propose Hyperbolic Dynamic Cluster Memory (HyperDCM), a structure-aware memory mechanism that enhances diffusion policy-based navigation through scene graph modeling and principled memory replay. HyperDCM extracts semantic scene triples from RGB observations using large vision-language models, encodes them into scene graph embeddings via a Relational Graph Convolutional Network (R-GCN), and projects the embeddings into hyperbolic space to enhance structural separability and retention in continual navigation. A dynamic clustering and structure-sensitive update strategy selects representative samples for memory replay, thereby preserving knowledge diversity and mitigating catastrophic forgetting. Experiments on multi-scene indoor and outdoor datasets demonstrate that HyperDCM achieves superior retention of past navigation capabilities and improved generalization compared to representative continual learning baselines adapted to diffusion",
-          "url": "https://arxiv.org/abs/2607.16267",
-          "published_at": "2026-07-21T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "f60f228f8f59ac33",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Real-Time sEMG-Based Telecontrol of an Assistive Robotic Arm Using a 1D Convolutional Neural Network",
-          "summary": "arXiv:2607.16310v1 Announce Type: new Abstract: Motor impairments affecting the upper limb significantly reduce autonomy in daily activities, particularly for tasks involving object manipulation. Assistive robotic arms offer a promising solution, provided they can be controlled in an intuitive, reliable, and responsive manner. Among human--machine interface approaches, surface electromyography (sEMG) enables non-invasive access to muscle activity and thus to the user's motor intentions. This work proposes a real-time sEMG-based interface for the teleoperation of an assistive robotic arm. The system relies on four-channel sEMG acquisition, signal preprocessing, segmentation into sliding windows, and classification using a one-dimensional convolutional neural network (CNN). Several real-time strategies are investigated, including threshold-based onset detection, a two-stage classification approach (rest vs movement followed by gesture recognition), and a single classifier handling both rest and five gestures. The complete pipeline is implemented and evaluated both in simulation and on a real robotic platform. The CNN-based approach achieves high classification performance, with a tes",
-          "url": "https://arxiv.org/abs/2607.16310",
-          "published_at": "2026-07-21T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "5ac146e4dd7b4c82",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "PRISM: Multimodal Terrain Mapping for Rover Navigation in Unstructured Environments",
-          "summary": "arXiv:2607.16366v1 Announce Type: new Abstract: Robotic navigation in unstructured environments requires robust situational awareness to safely traverse hazards such as steep slopes and rocky terrain. To address this challenge, perception systems increasingly rely on multimodal sensor fusion. Specifically, integrating thermal imagery with standard optical and depth sensors enhances terrain differentiation, directly improving the reliability of mapping algorithms. This paper presents PRISM, a multimodal perception system for terrain mapping in unstructured settings. PRISM leverages a custom sensor suite to capture aligned RGB, depth, and thermal (RGB-D-T) imagery. At its core is OmniUnet, a novel vision transformer-based network specifically designed for multimodal semantic terrain segmentation. We validated the proposed system using two newly annotated datasets (BASEPROD and LAENTIEC) and demonstrate its real-world applicability through physical field experiments. Deployed on a resource-constrained embedded computer, PRISM efficiently generates traversability maps that directly enable autonomous navigation via a rover's Guidance, Navigation, and Control (GNC) subsystem.",
-          "url": "https://arxiv.org/abs/2607.16366",
-          "published_at": "2026-07-21T04:00:00+00:00",
+          "title": "FARO: Feasibility-Aware Robot Motion Optimization",
+          "summary": "arXiv:2607.18362v1 Announce Type: new Abstract: Fast planning of novel behaviors in unseen scenarios remains a fundamental challenge in robotics. The high-dimensional, hybrid, and underactuated nature of humanoid loco-manipulation continues to hinder the realization of this goal. In this paper, we address this challenge by proposing a nested kino-dynamic framework for rapid feasibility checking and dynamically consistent trajectory generation given a candidate contact sequence. By integrating this module with a feasibility-guided tree search and a Large Language Model (LLM)-based contact plan sampling strategy, we demonstrate that the proposed framework can substantially improve the search process. Furthermore, we show that the generated trajectories can be tracked using a reinforcement learning (RL)-based controller and show that the resulting trajectories are of sufficiently high quality for execution in real-world loco-manipulation scenarios. A supplementary video is available at: https://youtu.be/R6qCHoCormQ.",
+          "url": "https://arxiv.org/abs/2607.18362",
+          "published_at": "2026-07-22T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -261,40 +187,39 @@
     },
     {
       "category": "robotics",
-      "title": "禾赛发布3D空间AI与600米激光雷达，面向机器人与自动驾驶",
-      "english_term": "激光雷达（LiDAR，通过发射激光并测量反射时间来获取周围环境三维距离信息的传感器）",
-      "summary": "激光雷达公司禾赛发布了面向机器人和自动驾驶的3D空间AI技术，以及探测距离达600米的新款激光雷达产品。",
-      "script": "感知硬件方面，据Imaging and Machine Vision Europe报道，激光雷达公司禾赛发布了面向真实世界机器人与自动驾驶场景的3D空间AI技术，以及一款探测距离达到600米的新款激光雷达产品。激光雷达，英文LiDAR，是通过发射激光脉冲并测量其反射回传的时间，来获取周围环境三维距离信息的传感器，是自动驾驶车辆和很多户外移动机器人感知系统中的核心部件之一。600米的探测距离在同类产品中属于较远水平,通常意味着系统能够在车辆或机器人高速移动时，提前更远距离识别潜在障碍物或道路情况，这对高速公路自动驾驶场景以及大范围户外机器人作业尤其重要。而所谓3D空间AI，通常指的是将激光雷达采集的点云数据与人工智能算法结合，实现更高层次的场景理解，比如物体识别、动态障碍物预测、场景语义分割等，而不仅仅是提供原始的距离测量数据。报道中并未详细披露该激光雷达具体的分辨率、扫描频率、以及3D空间AI技术所采用的具体算法架构，这些工程细节仍有待官方后续公布的技术白皮书或产品规格书说明。从产业角度看，激光雷达一直是自动驾驶和机器人感知领域成本和性能博弈的焦点之一，探测距离、点云密度、抗干扰能力和成本之间往往需要权衡。禾赛此次同时强调机器人和自动驾驶两大应用场景，也反映出激光雷达厂商正在寻求从单一汽车市场向更广泛的机器人硬件生态拓展的行业趋势。后续需要等待禾赛公布该产品的具体量产计划、定价以及首批合作客户信息。",
-      "duration_seconds": 155,
+      "title": "面向四足机器人运动的力矩驱动强化学习方法",
+      "english_term": "torque-driven RL（力矩驱动强化学习）",
+      "summary": "新论文探讨用力矩而非位置作为强化学习动作空间来训练四足机器人运动策略，减少对状态估计的依赖。",
+      "script": "另一篇arXiv新论文关注四足机器人的运动控制，题目是《面向四足运动的力矩驱动强化学习》。论文指出，目前用于腿足机器人的强化学习框架大多是基于位置的，也就是策略输出的是关节目标位置，这种做法虽然工程实现相对简单，但会让策略对地形类型的适应性变差，并且往往需要在观测空间里加入状态估计技术，比如估计机器人本体的线速度，这本身就是一项误差来源。研究团队提出转向力矩驱动的强化学习方案，也就是让策略直接输出关节力矩指令，这种方式更贴近机器人真实的动力学交互过程，理论上可以减少对额外状态估计模块的依赖，让控制策略与地形变化的耦合关系更直接。论文还提到，以往很多相关研究使用的是小型轻量四足机器人，这类平台在验证面向实际应用场景的可行性上存在局限，因此工作中特别关注了不同尺寸机器人平台上方法的适用性问题。从技术路线看，力矩驱动相比位置驱动通常对硬件的力矩控制精度和响应速度要求更高，同时训练过程中的探索难度也可能增加，因为力矩空间的动作噪声更容易导致不稳定的仿真物理表现。论文摘要未详细列出具体的实验对比数据和在真实机器人上的迁移效果，这些内容需要查阅论文正文。这篇论文同样是刚提交的预印本，尚未经过同行评审。后续需要等待作者公布更完整的实验结果和真实硬件测试视频，以判断该方法相比传统位置驱动方案的实际提升幅度。",
+      "duration_seconds": 140,
       "is_unverified": true,
-      "confidence_note": "单一Tier 3来源报道，产品具体技术参数及量产时间表尚未见官方文件详细披露。",
+      "confidence_note": "论文来自arXiv预印本平台，尚未经过同行评审，具体对比实验数据未在摘要中完整披露。",
       "fact_status": {
         "confirmed": [
-          "禾赛发布了3D空间AI技术及600米探测距离的激光雷达产品"
+          "论文提出了力矩驱动的强化学习框架用于四足机器人运动控制"
         ],
         "claims": [
-          "公司称新产品面向机器人和自动驾驶应用场景"
+          "该方法可减少对状态估计的依赖，提升对不同地形的适应性"
         ],
         "analysis": [
-          "激光雷达厂商正从汽车市场向更广泛机器人硬件生态拓展",
-          "具体技术参数和量产计划仍待官方进一步披露"
+          "力矩驱动对硬件控制精度要求更高，实际效果需等待完整实验数据验证"
         ]
       },
       "source_ids": [
-        "791a4869166a2661"
+        "ff2b4db77888a160"
       ],
       "sources": [
         {
-          "id": "791a4869166a2661",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
+          "id": "ff2b4db77888a160",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Hesai reveals 3D spatial AI and 600m lidar for real-world robotics and autonomous vehicles - Imaging and Machine Vision Europe",
-          "summary": "Hesai reveals 3D spatial AI and 600m lidar for real-world robotics and autonomous vehicles Imaging and Machine Vision Europe",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaW05TGJaY01MTUNMS2JCOGh0eTk3cUp4c1hFcTR4X010THplNjk1cWhPSG1yX2ZZeWkyWi01SmJUdDhTNDl3cDB3Y3hQRXk2akpBT1NfaldPNkVIbXZNQjhJczVTaW5hcHFEM2lWZlhwSkZaWWZfTHRDYm9HemRnR0lOU0RNSkxJaTh5Vkp5dXNhT2ZlaEFNYVN3TXdxNFFsNVBzY1hUSVZEYWRUUmk3NzNqRVZNZw?oc=5",
-          "published_at": "2026-07-21T10:31:54+00:00",
+          "title": "Towards Torque-Driven Reinforcement Learning for Quadruped Locomotion",
+          "summary": "arXiv:2607.18365v1 Announce Type: new Abstract: Reinforcement learning (RL) for legged robots is advancing locomotion, demonstrating its ability to adapt to new and challenging terrain. Traditionally, these RL locomotion frameworks are position-based, making the policy less adaptable to terrain types and requiring state estimation techniques in the observation space, i.e., linear velocity. Moreover, these RL frameworks often use small, lightweight quadrupeds that are limited in their viability for high-complexity tasks due to hardware constraints. This work explores an RL torque control framework for heavyweight high-torque quadrupeds. The RL framework in this paper can traverse rough terrain and effectively track a desired linear velocity without requiring knowledge of the agent's current velocity. Using Nvidia's Isaac Sim and Isaac Lab, simulation results of the RL torque control policy are shown on the Unitree B1 quadruped, achieving speeds of 3.5 m/s and 1.5 rad/s. In addition, the quadruped can walk up and down stairs without the aid of an exteroceptive sensor.",
+          "url": "https://arxiv.org/abs/2607.18365",
+          "published_at": "2026-07-22T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -302,166 +227,135 @@
     },
     {
       "category": "world",
-      "title": "黎巴嫩军队进驻以军撤离后的“试点区域”，中东局部局势现缓和迹象",
+      "title": "德国取消燃油税减免延期，企业破产数量攀升",
       "english_term": null,
-      "summary": "在美国斡旋达成的协议下，黎巴嫩军队开始进驻以色列此前占领区域中的一小片“试点区域”，黎巴嫩总统计划与特朗普会晤争取美方支持。",
-      "script": "在中东地区更广泛的紧张局势之外，也出现了一处局部缓和的迹象。据BBC报道，黎巴嫩军方表示，其部队已开始进驻一个“试点区域”，这是根据美国斡旋达成的协议，以色列军队从此前在黎巴嫩与真主党冲突期间占领的一小部分区域撤出后留下的空间。这一进展被视为黎以两国间脆弱缓和进程中的具体一步，尽管报道中提到这仅仅是一个规模有限的“试点”性质的区域，并非全面撤军。与此同时，据Al Jazeera报道，黎巴嫩总统约瑟夫·奥恩计划与特朗普会晤,寻求华盛顿方面对其施政议程的支持，其中包括与以色列方面的外交事务。这次会晤被认为将是黎巴嫩借助美方影响力，推动与以色列关系进一步稳定的重要外交尝试。需要指出的是，这一局部缓和进展是在美伊冲突急剧升级、地区整体局势高度紧张的大背景下发生的，两者形成了鲜明对比：一边是美伊及其地区盟友之间军事对抗的升级，另一边是黎以边境问题在美方斡旋下取得的、规模有限的渐进式进展。目前关于“试点区域”的具体范围、后续是否会扩大到更大区域、以及以色列全面撤军的时间表，报道均未给出明确细节。黎巴嫩总统此次访美会晤的具体议程和可能达成的成果，也仍有待官方进一步确认。后续需要等待黎以双方及美国官方对试点区域扩大计划的正式表态，以及奥恩总统与特朗普会晤后的联合声明或简报内容。",
+      "summary": "德国能源部长表示不会延长燃油税减免政策，同时德国企业破产数量正大幅上升，引发对经济增长前景的担忧。",
+      "script": "欧洲经济方面，德国传来两则相关消息。据DW报道，德国能源部长表示，此前为缓解伊朗战争对德国消费者影响而推出的燃油税减免措施，不会被延长，该政策已于六月底到期。这一决定意味着德国消费者在能源支出上将失去这部分补贴，短期内可能推高民众的生活成本感受。与此同时，另一则DW报道指出，德国企业破产数量正在大幅上升，报道提出一个值得思考的问题：这究竟是德国经济深层疲软的信号，还是一次市场自我修正、未来反而可能带来更健康增长的过程。已确认的事实是，德国的燃油税减免确实已经到期且当局明确表态不会延长，同时企业破产数量的上升趋势也是被报道确认的现象。至于这一趋势背后的具体原因，报道中提到了两种可能的解读方向，一种观点认为这反映出德国整体经济环境的深层弱点，比如能源成本高企、出口需求疲软等结构性问题；另一种观点则认为，一部分本就缺乏竞争力、依靠低利率环境维系运营的企业出清，从中长期看有助于释放资源、为更具竞争力的企业腾出发展空间。这两种解读目前都属于分析层面的观点，报道并未给出明确定论。从宏观影响看，德国作为欧元区最大经济体，其企业破产数据和能源价格政策的变化，往往会被市场视为观察欧洲整体经济健康度的重要窗口。后续需要等待德国官方统计部门公布更详细的季度破产数据，以及能源价格对消费者支出的实际影响评估。",
       "duration_seconds": 140,
       "is_unverified": false,
-      "confidence_note": "基于BBC和Al Jazeera两个独立Tier 2来源交叉报道，但试点区域具体范围及会晤议程细节有限。",
+      "confidence_note": "两条消息均来自DW的直接报道，为同一二级来源对德国经济不同侧面的报道，破产趋势的成因解读部分明确标注为报道中的分析视角而非定论。",
       "fact_status": {
         "confirmed": [
-          "黎巴嫩军队开始进驻以军撤离后的试点区域",
-          "黎巴嫩总统计划与特朗普会晤"
+          "德国燃油税减免已到期且不会延长",
+          "德国企业破产数量正在大幅上升"
         ],
-        "claims": [
-          "黎巴嫩总统寻求美方在对以外交议程上的支持"
-        ],
+        "claims": [],
         "analysis": [
-          "局部缓和进展与美伊地区冲突升级形成对比",
-          "试点区域后续扩大与否仍待观察"
+          "破产上升可能反映经济深层疲软，也可能是市场自我修正的过程，两种解读均未有定论"
         ]
       },
       "source_ids": [
-        "c6c4be9fefbae900",
-        "185e52ef30ae9c28"
+        "033fd4d42dbda30e",
+        "a8a7ee6251facbb2"
       ],
       "sources": [
         {
-          "id": "c6c4be9fefbae900",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
-          "summary": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah.",
-          "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-21T10:43:48+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "185e52ef30ae9c28",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Lebanon’s Joseph Aoun to meet Trump: What to expect",
-          "summary": "The Lebanese president is seeking Washington's support for his agenda, including diplomacy with Israel.",
-          "url": "https://www.aljazeera.com/news/2026/7/21/lebanons-joseph-aoun-to-meet-trump-what-to-expect?traffic_source=rss",
-          "published_at": "2026-07-21T10:27:31+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "中国与菲律宾在南海发生冲突，紧张局势升级于东盟峰会前夕",
-      "english_term": null,
-      "summary": "中国和菲律宾在南海争议海域发生海军人员的激烈冲突后互相指责，事件发生在马尼拉即将举行的重要外交峰会之前，加剧了地区紧张局势。",
-      "script": "据DW报道，中国和菲律宾在南海争议海域发生了一起涉及双方海军人员的激烈冲突事件，事后双方相互指责对方应对此负责。这一事件发生的时间点颇为敏感，恰逢东盟重要外交峰会即将在马尼拉举行前夕，进一步加剧了地区紧张气氛。南海争端长期以来是中国与菲律宾等东南亚国家关系中的焦点问题，双方在部分岛礁及海域主权归属上存在争议，此前也曾多次发生海上摩擦事件。报道中并未详细说明此次冲突的具体地点、涉及的具体舰船或人员伤亡情况，只提到这是一次“暴力性质”的海军人员之间的对峙。从各方表态看，中国和菲律宾均将责任归咎于对方，具体的冲突起因、经过和双方立场的详细陈述，报道并未给出更多细节。此类事件历来容易受到双方各自媒体和官方口径的影响，在没有第三方独立调查或视频影像佐证的情况下，很难判断冲突的具体性质和responsibility归属。值得关注的是，此次事件的时间点临近东盟峰会，可能会成为峰会期间南海议题讨论的焦点之一，也可能影响中国与东盟国家之间关于南海行为准则磋商的氛围。后续需要等待双方官方进一步公布事件细节，以及东盟峰会期间各方就此事的正式表态和外交磋商结果。",
-      "duration_seconds": 120,
-      "is_unverified": true,
-      "confidence_note": "仅有单一Tier 2来源报道，冲突具体细节、地点及伤亡情况缺乏独立信源交叉验证，双方各执一词。",
-      "fact_status": {
-        "confirmed": [
-          "中国和菲律宾在南海发生海军人员冲突事件",
-          "事件发生在东盟峰会前夕"
-        ],
-        "claims": [
-          "双方互相指责对方应对冲突负责"
-        ],
-        "analysis": [
-          "事件可能影响即将举行的东盟峰会南海议题讨论氛围",
-          "冲突具体细节尚待独立信源核实"
-        ]
-      },
-      "source_ids": [
-        "f3e0f40845986e2c"
-      ],
-      "sources": [
-        {
-          "id": "f3e0f40845986e2c",
+          "id": "033fd4d42dbda30e",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "China, Philippines clash in South China Sea ahead of ASEAN meeting",
-          "summary": "China and the Philippines traded accusations after a violent altercation between navy personnel in the disputed South China Sea. The incident heightened tensions ahead of a major diplomatic summit in Manila.",
-          "url": "https://www.dw.com/en/china-philippines-clash-in-south-china-sea-ahead-of-asean-meeting/a-78044915?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-21T08:50:00+00:00",
+          "title": "Germany News: Energy Minister says fuel tax relief not to be extended",
+          "summary": "The tax relief was introduced to mitigate the impact of the Iran war on German consumers but it expired at the end of June. Meanwhile, the story of Timmy the Whale continues with new DNA results. Follow DW for more.",
+          "url": "https://www.dw.com/en/germany-news-energy-minister-says-fuel-tax-relief-not-to-be-extended/live-78063298?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-22T10:55:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "a8a7ee6251facbb2",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Will surge in German business bankruptcies hit growth?",
+          "summary": "Company insolvencies in Germany are rising sharply. Is this a sign of deeper economic weakness, or just a market correction that could ultimately benefit future growth?",
+          "url": "https://www.dw.com/en/will-surge-in-german-business-bankruptcies-hit-growth/a-78037755?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-22T10:50:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "science",
-      "title": "NASA与GE航空航天完成兆瓦级混合电动飞行演示",
-      "english_term": "混合电动发动机（Hybrid-Electric Engine，结合传统燃油动力与电力驱动系统的航空发动机）",
-      "summary": "NASA与GE航空航天合作研发的兆瓦级混合电动发动机，在英国范堡罗航展上完成了公开飞行演示。",
-      "script": "航空科技方面，据NASA官方消息，一架搭载兆瓦级混合电动发动机的飞机完成了公开飞行演示，这款发动机由NASA与GE航空航天合作研发。混合电动发动机结合了传统燃油动力与电力驱动系统，兆瓦级则意味着其电力输出功率达到百万瓦特量级，属于相对大型的电动化航空动力系统。此次演示中，该发动机被安装在一架Saab 340B飞机上，并在英国范堡罗国际航空展上完成了首次公开飞行，这也是该技术路径的首次公开亮相。NASA方面表示，这项技术未来有望为新一代更节油的飞机动力系统提供参考。航空业长期以来面临降低碳排放和燃油消耗的压力，混合电动技术被视为在电池能量密度尚不足以支撑全电动大型客机之前的一条过渡路径，通过将燃油发动机与电力系统结合，在部分飞行阶段使用电力驱动，从而降低整体燃油消耗和排放。报道中并未详细披露此次飞行演示的具体持续时间、飞行高度、混合动力系统在燃油效率上具体提升的百分比等工程数据，这些细节有待NASA或GE后续发布更详细的技术报告。从长期产业影响看，这类演示项目通常需要经过多年的进一步测试、适航认证等流程，才可能逐步应用到商业航空器上。后续需要等待NASA和GE公布更详细的技术数据，以及该技术路线后续的适航认证和商业化时间表。",
-      "duration_seconds": 135,
-      "is_unverified": false,
-      "confidence_note": "来自Tier 1官方来源NASA的一手报道，但具体技术性能数据和后续商业化时间表尚未披露。",
+      "category": "world",
+      "title": "法国环境部长因农药法案辞职，马克龙拒绝接受",
+      "english_term": null,
+      "summary": "法国环境部长莫妮克·巴尔布特因农药法案重新引入而提交辞呈，但马克龙总统据报拒绝接受。",
+      "script": "法国国内政治方面，据DW报道，法国环境部长莫妮克·巴尔布特已经提交辞呈，原因是抗议政府重新引入某种农药的法案。科学界此前指出，这种农药不仅对人体健康有害，也会伤害蜜蜂种群。不过报道也提到，法国总统马克龙据悉拒绝接受这份辞呈。已确认的事实是，巴尔布特确实提交了辞职申请，理由与农药法案的重新引入直接相关；同时科学界此前已经就该农药对人体和蜂群的潜在危害发出过警告。至于总统是否最终会接受辞呈，目前报道用的是据悉拒绝这样的措辞，说明这一信息尚未得到完全实锤式的官方确认，仍属于报道层面的可信线索。从政治分析角度看，环境部长与总统在农药政策上的分歧，反映出法国国内在农业生产利益与环境健康诉求之间的持续张力：一方面部分农业生产者团体希望恢复使用某些被禁农药以应对病虫害或提高产量，另一方面环保和公共卫生方面的声音则担忧这类农药的长期健康与生态风险。如果马克龙最终坚持拒绝辞呈，可能意味着政府在农业游说压力下选择维持现有法案方向，这也可能在法国国内引发环保团体的进一步抗议。后续需要等待爱丽舍宫或环境部方面就此事发布正式声明，以确认部长去留的最终结果。",
+      "duration_seconds": 120,
+      "is_unverified": true,
+      "confidence_note": "关于马克龙拒绝接受辞呈的信息，报道中使用了不确定措辞，尚未有法国政府官方声明直接证实，需要谨慎对待。",
       "fact_status": {
         "confirmed": [
-          "NASA与GE航空航天合作研发的混合电动发动机完成公开飞行演示"
+          "法国环境部长莫妮克·巴尔布特提交辞呈",
+          "辞职原因与农药法案重新引入有关",
+          "科学界已警告该农药对人体健康和蜂群有害"
         ],
         "claims": [
-          "NASA称该技术可为新一代节油飞机动力系统提供参考"
+          "马克龙据报拒绝接受这份辞呈"
         ],
         "analysis": [
-          "混合电动技术被视为大型全电动客机技术成熟前的过渡方案",
-          "具体性能数据和商业化路径仍待后续披露"
+          "事件反映法国农业利益与环境健康诉求之间的政策张力"
         ]
       },
       "source_ids": [
-        "a87da29039d9de4f"
+        "ecbfd0f08001791f"
       ],
       "sources": [
         {
-          "id": "a87da29039d9de4f",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
+          "id": "ecbfd0f08001791f",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
           "language": "en",
-          "category_hint": "science",
-          "title": "NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration",
-          "summary": "An aircraft powered by a megawatt-class hybrid-electric engine developed in collaboration with NASA and built by GE Aerospace, demonstrated flight of an innovation that can inform new generations of fuel-saving aircraft power systems. Mounted to a Saab 340B aircraft, the engine flew at Farnborough International Air Show in the United Kingdom. It was the public […]",
-          "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
-          "published_at": "2026-07-20T18:54:44+00:00",
+          "category_hint": "world",
+          "title": "France: Environment minister quits over pesticide bill",
+          "summary": "Monique Barbut submitted her resignation in protest over the reintroduction of pesticides that scientists say harm human health as well as bee populations. But President Emmanuel Macron reportedly refused to accept it.",
+          "url": "https://www.dw.com/en/france-environment-minister-quits-over-pesticide-bill/a-78064991?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-22T10:48:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的早报中，中东局势的走向、Boston Dynamics内部整合的后续、以及机器人产业在具身智能和感知硬件上的进展，都值得继续关注。此外，多篇机器人学术预印本论文的同行评审结果，以及南海事件后东盟峰会期间各方的正式表态，也是接下来需要留意的方向。",
-  "editor_note": "本期机器人类内容涵盖产业动态（Boston Dynamics收购与罢工、AGIBOT新品、BrainCo脑控演示、禾赛激光雷达）与学术论文（arXiv三篇预印本），来源涵盖The Robot Report、arXiv及多家科技媒体，避免单一来源垄断。部分产业类消息（Boston Dynamics罢工、禾赛发布、AGIBOT产品细节）仅有单一Tier 2/3来源，已标注is_unverified并说明局限。arXiv论文均为预印本，未经同行评审，已在稿件及confidence_note中明确说明。国际政治部分因美伊冲突与南海事件重要性突出，适度增加篇幅；南海事件因仅单一来源报道，已标记为未核实。",
+  "closing": "今天的国际局势仍集中在美伊冲突与红海航道紧张态势，德国和法国的国内政策争议也值得留意；机器人产业则在人形机器人融资与学术论文方面持续活跃，同时也有手术机器人公司退出市场的案例。后续值得关注巴基斯坦斡旋能否取得进展、法国环境部长去留结果，以及几篇腿足与人形机器人论文的同行评审结果。",
+  "editor_note": "为使机器人时长占比回落到45%–55%区间，本次修订移除了Generative Bionics触觉机器人发布、DASH空地两栖机器人论文与三星机器人部门传闻这三条单一来源或证据薄弱的机器人条目，保留了证据相对充分的Humanoid融资、Vicarious Surgical关停及两篇力学与规划相关论文，并补齐世界类别中法国环境部长辞职事件以平衡篇幅。机器人四条合计时长550秒，占全部1310秒的约42%，其余世界类新闻共四条合计510秒；受限于候选池，体育、金融、娱乐等类别本期仍缺乏足够独立可信来源支撑重要事件，故未强行选入。",
   "model": "claude-sonnet-5",
+  "generation_usage": [
+    {
+      "input_tokens": 9113,
+      "output_tokens": 10004,
+      "total_tokens": 19117
+    },
+    {
+      "input_tokens": 11861,
+      "output_tokens": 7067,
+      "total_tokens": 18928
+    }
+  ],
   "usage": {
-    "input_tokens": 9397,
-    "output_tokens": 9992,
-    "total_tokens": 19389
+    "input_tokens": 20974,
+    "total_tokens": 38045,
+    "output_tokens": 17071
   },
-  "generated_at": "2026-07-21T11:12:41+00:00",
-  "window_start": "2026-07-20T11:12:41+00:00",
-  "candidate_count": 333,
+  "generated_at": "2026-07-22T11:00:27+00:00",
+  "window_start": "2026-07-21T11:00:27+00:00",
+  "candidate_count": 267,
   "source_errors": [
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
+  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1315,
-    "script_characters": 5148,
-    "topic_duration_share": 0.597,
+    "duration_seconds": 955,
+    "script_characters": 3745,
+    "topic_duration_share": 0.592,
     "passed": true,
-    "normal_target_met": true,
-    "topic_source_count": 3,
+    "normal_target_met": false,
+    "topic_source_count": 2,
     "issues": []
   }
 }
