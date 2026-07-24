@@ -1,430 +1,199 @@
 {
-  "title": "晶球电台早报：特斯拉加码机器人资本支出，美沙核能协议引发中东地缘震荡",
-  "subtitle": "机器人产业与学术并进，国际局势聚焦伊朗与中东核能博弈",
+  "title": "晶球电台早报：机器人融资潮涌，国际局势多线紧张",
+  "subtitle": "从轮式人形机器人到多旋翼编队运输，机器人产业与学术双线并进；国际政治聚焦关税争议与南非弹劾案",
   "highlights": [
-    "特斯拉将2026年资本支出指引上调至250亿美元以上，重注AI与机器人业务",
-    "NVIDIA开源手术机器人仿真训练平台，训练时间从数小时压缩到数分钟",
-    "美国与沙特签署商业核能协议，以色列方面表达强烈担忧"
+    "英国轮式人形机器人初创公司获1.52亿美元融资，Bosch与Schaeffler押注“轮子胜过双腿”路线",
+    "Uber联合创始人Kalanick为新机器人公司ATOMS募得17亿美元，行业巨额融资持续",
+    "arXiv同日出现多篇机器人学术论文，涵盖可变形物体操作、多机编队运输与触觉生成",
+    "特朗普政府援引“强迫劳动”相关贸易法启动新一轮关税，盟友表达不满",
+    "南非法院暂停对总统拉马福萨的弹劾调查程序"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "特斯拉上调2026年资本支出指引至250亿美元以上，押注AI与机器人",
-      "english_term": "capex（资本支出，企业用于购置、维护固定资产如厂房设备的长期投资）",
-      "summary": "特斯拉将2026年资本支出指引上调至250亿美元以上，明确表示这笔投入将大量投向人工智能与机器人相关业务。这一决定延续了公司近年来向“物理AI”方向转型的战略。",
-      "script": "先来看一则产业动态。特斯拉方面透露，将把2026年的资本支出（capex）指引上调至250亿美元以上，公司明确表示这笔资金将重点投向人工智能与机器人业务。资本支出通常指企业用于购置厂房、设备、产线等固定资产的长期投入，是判断一家公司未来战略重心的重要风向标。对特斯拉而言，这一数字的上调意味着它正在把过去主要依赖电动车业务的增长逻辑，进一步向人形机器人和自动驾驶等“物理AI”方向倾斜。从产业背景看,特斯拉此前已经多次强调其人形机器人项目是公司长期最大的价值增长点之一,而要实现从原型机到规模化量产的跨越,需要极其庞大的资本投入,包括自建产线、专用执行器与传感器供应链、以及配套的训练与仿真基础设施。将资本支出指引大幅上调，也从侧面说明特斯拉在硬件量产节奏上可能比外界预期更为激进。不过需要注意的是，目前公开信息主要来自单一财经报道的转述，具体资金分配比例、机器人业务与AI算力投入之间的划分细节，以及是否会如期兑现，仍有待公司在后续财报电话会中给出更明确的数字。后续需要观察的是，特斯拉是否会公布人形机器人的具体量产时间表，以及这笔资本支出是否会拉动上游执行器、传感器供应链公司的订单增长。整体而言，这是机器人产业资本层面的一个重要信号，说明头部科技公司仍在持续加码具身智能相关的长期布局。",
+      "title": "英国轮式人形机器人初创公司获1.52亿美元融资，押注“轮子而非双腿”",
+      "english_term": "wheeled humanoid（轮式人形机器人，即用轮式底盘替代双足行走机构的类人上半身机器人）",
+      "summary": "一家英国人形机器人初创公司完成1.52亿美元融资，Bosch和Schaeffler等工业巨头参投，其技术路线选择轮式移动底盘搭配灵巧上肢，而非双足步行。",
+      "script": "先来看机器人产业的一条大新闻。一家英国的人形机器人初创公司宣布完成1.52亿美元融资，投资方里出现了两家熟悉的工业巨头名字：博世和舍弗勒。这两家公司在传统汽车零部件和精密传动领域深耕多年，这次选择押注的，不是市面上常见的双足行走人形机器人，而是轮式人形机器人，也就是用轮子做移动底盘，上半身保留类人的灵巧操作能力。这个技术选择背后的逻辑并不复杂：双足行走需要解决复杂的动态平衡控制问题，成本高、故障率相对较高，而在仓库、工厂这样地面平整的结构化场景里，轮式底盘可以用更低的成本和更高的可靠性完成移动任务，把研发资源更多投入到上肢的抓取和精细操作上。这也呼应了同一天另一则消息，美国的Holiday Robotics同样发布了一款名为FRIDAY的轮式人形机器人，配置了可热插拔电池和灵巧上肢，同样瞄准工业应用场景。可以看到，轮式人形机器人正在成为人形机器人赛道里一条越来越清晰的支线打法，尤其受到有工业背景的资本青睐。对于博世和舍弗勒来说，参投也意味着把自身在电机、减速器等核心执行器部件上的积累导入到机器人整机公司，这是一种产业链上下游协同的资本布局思路。后续需要等待这家公司公布具体应用场景和量产落地时间，也需要观察轮式与双足两条路线在实际工厂部署中的成本和效率对比数据是否会公开。",
       "duration_seconds": 140,
-      "is_unverified": true,
-      "confidence_note": "该消息来自单一财经媒体转述，属于Tier 3来源，未见其他独立信源交叉确认，具体资本支出细节有待公司官方财报确认",
-      "fact_status": {
-        "confirmed": [],
-        "claims": [
-          "特斯拉方面表示将2026年资本支出指引上调至250亿美元以上",
-          "公司称资金将重点投向AI与机器人业务"
-        ],
-        "analysis": [
-          "资本支出上调可能反映公司在人形机器人量产节奏上的加速意图",
-          "具体资金分配与兑现情况仍需财报确认"
-        ]
-      },
-      "source_ids": [
-        "8ee39c369c6c0671"
-      ],
-      "sources": [
-        {
-          "id": "8ee39c369c6c0671",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Tesla raises 2026 capex guidance to over $25B as it bets big on AI and robotics - Crypto Briefing",
-          "summary": "Tesla raises 2026 capex guidance to over $25B as it bets big on AI and robotics Crypto Briefing",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5acTRjZzA0S3VmczhNYVU5N2xFMnVha1JGOVhJQkFmSk84QW1JdUhtQ0dlSi1zZlNMaUxsQ0NjOGdGMHR2ZnlxU2tVOG5uWEJQV3RLTGRCNjNKUUtEVloxQTdqSWVfaWdoTzRCR1Y4RDZkak1aLWc?oc=5",
-          "published_at": "2026-07-23T10:56:23+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "NVIDIA开源手术机器人仿真平台，训练时间从数小时压缩到数分钟",
-      "english_term": "simulator（仿真器，用于在虚拟环境中模拟真实物理场景以加速训练和测试）",
-      "summary": "NVIDIA发布开源仿真工具，大幅缩短手术机器人相关的训练周期。这一进展与另一家初创公司Inner Logic近期获得的融资共同指向自主手术仿真赛道的升温。",
-      "script": "医疗机器人领域出现两条值得关注的进展。第一条是，NVIDIA发布了一款开源仿真器（simulator），用于手术机器人的训练，据报道能将原本需要数小时的训练过程压缩到几分钟量级。仿真器的核心作用是让机器人算法先在虚拟环境里进行大规模试错和参数调优，再迁移到真实设备上，这样可以大幅降低真实手术场景中试错的成本和风险。手术机器人对精度和安全性要求极高,传统训练方式往往依赖大量真实操作数据或者高成本的物理实验台,效率有限。如果开源仿真平台确实能把训练效率提升到分钟级别，将显著降低中小团队进入手术机器人研发的门槛，也可能加速相关算法的迭代速度。与此同时，另一家专注自主手术仿真赛道的初创公司Inner Logic也获得了1150万美元融资，用于打造自主手术所需的仿真平台，这被外界认为是自主手术领域长期缺失的一块拼图。两条消息放在一起看，说明仿真技术正在成为手术机器人从“辅助操作”迈向“更高自主程度”的关键基础设施，业内普遍认为，缺乏足够真实、足够高效的仿真环境，是限制自主手术算法验证与迭代的瓶颈之一。不过目前这两条信息均来自科技媒体报道，具体的仿真精度、与真实手术场景的迁移效果、以及是否经过临床验证，仍缺乏更权威的独立信源交叉确认。后续需要关注的是,这款开源仿真器是否会有更详细的技术论文或基准测试数据公布，以及Inner Logic的仿真平台在真实手术场景中的验证进展。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "两条消息均来自Tier 3科技媒体报道，缺乏独立信源交叉确认，具体技术细节和验证效果有待更权威来源核实",
-      "fact_status": {
-        "confirmed": [],
-        "claims": [
-          "NVIDIA发布开源仿真器可将手术机器人训练时间从数小时压缩到数分钟",
-          "Inner Logic获得1150万美元融资用于自主手术仿真平台"
-        ],
-        "analysis": [
-          "仿真技术可能是自主手术机器人发展的关键基础设施瓶颈",
-          "训练效率提升可能降低中小团队研发门槛"
-        ]
-      },
-      "source_ids": [
-        "a47aedbc7390de60",
-        "ff7cb719afa779fa"
-      ],
-      "sources": [
-        {
-          "id": "a47aedbc7390de60",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "NVIDIA Cuts Surgical Robot Training From Hours to Minutes With Open-Source Simulator - Tech Times",
-          "summary": "NVIDIA Cuts Surgical Robot Training From Hours to Minutes With Open-Source Simulator Tech Times",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSHUyaElQVUdpN19mc094aXFrMTl6RG0wZHJxYjA3RzVQcnFrMWRhRHcxY1dmdkZ3M1J5SVR5R0ZYaC1xb29tTFFlck1hWkY1M01fU1JYaDJrOHJkU0tLd2lQZjBubW5kV1U0WEFhMk5ZbWxfY0JSNWNIVy0tRlluWndVdlV3a1A0d1E5aDNySkZENUMtUTNhM0xsNUhkbWcza2xIc1I4ejhMQVJna3NmeENrclVyMXdQYzJFQlhTNHRiY0hk?oc=5",
-          "published_at": "2026-07-23T10:32:59+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "ff7cb719afa779fa",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Inner Logic Raises $11.5M to Build the Simulation Platform Autonomous Surgery Has Been Missing - Tech Times",
-          "summary": "Inner Logic Raises $11.5M to Build the Simulation Platform Autonomous Surgery Has Been Missing Tech Times",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdWlJM2F0aC10MmJzbHpRZWp1YlFiTTZ0VGk4eWc3MU8yaEZhSHJiUkl2bVd1ZlVtQ0VzYzI5LXRtbkUydWlpaUR0RTRqYVhkSkNyaU4tSTk3bVdNbEVrTHhURGkyaWFMNzhkbzVEVG90Y2RReUlyNjhTMUdpMDNNbWtUV1hUbkJHcjZPeGpHcmt0VTZNeFdENlVRQW1IdnRBeVdaNFhJRnNHTWhQV3hjRlFlR3Bmb1dnOTFZQ3dmd0MxcURsd0sxdTVzTFdCaUM1dllubEFtaw?oc=5",
-          "published_at": "2026-07-23T10:29:03+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "利兹大学团队摘得RoboSoft最佳论文奖，无压力生长型软体机器人助力医疗应用",
-      "english_term": "soft robotics（软体机器人，使用柔顺材料制造、能安全接触精细结构的机器人技术）",
-      "summary": "利兹大学联合加州大学圣地亚哥分校的研究团队，凭借一种无需内部压力驱动的生长型软体机器人研究，获得RoboSoft国际会议最佳论文奖。",
-      "script": "学术方面，来自利兹大学与加州大学圣地亚哥分校的联合研究团队，凭借一项关于生长型软体机器人的研究，摘得了RoboSoft国际会议的最佳论文奖。RoboSoft是软体机器人（soft robotics）领域最重要的国际会议之一，软体机器人是指用柔顺、可变形材料制造的机器人，相比传统刚性机器人，它们更适合接触脆弱物体或复杂解剖结构，因此在医疗场景中格外受关注。这次获奖的研究聚焦于一种“无压力”生长机制。传统的生长型软体机器人往往依靠内部气压或液压驱动其类似藤蔓一样从尖端延伸生长，从而在狭窄或复杂环境中前进，比如进入人体腔道或狭小管道。但依赖压力驱动会带来结构复杂、体积增大、以及潜在的安全风险，一旦压力控制出现故障，可能对周围组织造成损伤。研究团队提出的新方法尝试摆脱对内部压力的依赖，转而通过其他机制实现柔顺生长，从而让软体机器人结构更简单、体积更小，也可能更适合应用于精细的医疗微创场景。这类研究的意义在于，它为软体医疗机器人在体内导航、微创介入等场景提供了新的技术路径，如果能够进一步验证并小型化，未来有可能应用于血管介入或消化道检查等精细操作。不过目前公开信息仅是一篇会议获奖论文的简要介绍，具体的技术细节、实验验证方式、以及是否已经在动物或人体模型上做过测试，仍需要查阅论文全文和后续同行评议进展。后续需要关注该研究是否会有更详细的期刊论文发表，以及是否有实际医疗器械厂商跟进转化。",
-      "duration_seconds": 155,
-      "is_unverified": true,
-      "confidence_note": "来自Robohub报道会议获奖情况，具体论文技术细节和验证程度需查阅原始论文及后续同行评审",
-      "fact_status": {
-        "confirmed": [
-          "利兹大学与加州大学圣地亚哥分校团队在RoboSoft会议获得最佳论文奖"
-        ],
-        "claims": [
-          "该研究提出无需内部压力驱动的软体机器人生长机制"
-        ],
-        "analysis": [
-          "该技术路径可能有助于软体机器人在医疗微创场景的小型化应用"
-        ]
-      },
-      "source_ids": [
-        "b6aca18bdaf3fc4d"
-      ],
-      "sources": [
-        {
-          "id": "b6aca18bdaf3fc4d",
-          "source": "Robohub",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Pressure-free growing robots for soft medical robotics",
-          "summary": "Researchers at the University of Leeds and collaborators from the University of California San Diego won the Best Paper Award at RoboSoft, the leading international conference focused on soft robotics research. Soft robotics is gaining attention in medical applications because compliant machines can interact more safely with delicate objects and complex anatomy. The award-winning paper […]",
-          "url": "https://robohub.org/pressure-free-growing-robots-for-soft-medical-robotics/",
-          "published_at": "2026-07-23T07:53:40+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "arXiv机器人学术速览：导盲机器狗、触觉共享控制与厨房级杂物操作规划",
-      "english_term": "shared control（共享控制，人类与机器人共同参与操作决策的控制模式）",
-      "summary": "本期arXiv新论文覆盖自主导盲机器狗Milo、基于触觉反馈的个性化安全干预学习方法，以及利用大模型简化杂物场景规划的LENS框架。",
-      "script": "再来快速浏览几篇今天上线的arXiv机器人学术预印本。第一篇提出了名为Milo的全自主室内外导盲机器人。研究者指出，视障人士长期依赖导盲犬进行日常导航，但导盲犬培养和维护成本高昂，大约需要五万美元并伴随长期后续开销，等待名单也很长，寿命还有限。Milo希望作为机器人导盲犬的替代方案，能同时应对室内室外环境的导航需求，论文中提到现有同类方案存在若干局限，具体方案细节和实测表现仍需查阅论文正文。第二篇研究关注触觉人机共享控制中的个性化安全干预。在人机共享控制场景下，触觉反馈是传递安全意图的一种隐式沟通渠道，但现有系统通常采用预设的固定干预策略，难以适应不同用户或场景的差异化安全偏好。研究团队提出一种从稀疏示范中学习用户偏好安全干预策略的框架，尝试让机器人的触觉引导更贴合个体需求。第三篇是LENS框架，聚焦真实世界中最常见却最棘手的问题之一：杂乱场景下的多物体操作规划。物体数量增多、碰撞增多、接触物理难以预测、加上干扰物和任务歧义，都会让传统方法难以应对。LENS尝试利用大语言模型来对场景进行简化抽象，从而降低规划和控制的复杂度，减少以往需要大量任务专用工程才能构建场景抽象的成本。这三篇论文分别指向辅助出行、人机交互安全性、以及杂物操作规划这三个不同但都很实际的机器人研究方向，共同点是都试图用新的学习或简化机制去解决现实部署中长期存在的痛点。需要说明的是，这些均为尚未经过同行评审的预印本，具体实验条件、数据规模和真实场景泛化能力，仍需等待后续正式发表和评审结果。",
-      "duration_seconds": 165,
-      "is_unverified": true,
-      "confidence_note": "均为arXiv预印本，尚未经过同行评审，具体实验效果与泛化能力有待后续评审与验证",
-      "fact_status": {
-        "confirmed": [
-          "三篇论文均于近期提交至arXiv机器人学分类"
-        ],
-        "claims": [
-          "Milo旨在替代传统导盲犬提供全自主导航",
-          "LENS利用大语言模型简化杂乱场景的操作规划复杂度",
-          "触觉共享控制框架可从稀疏示范中学习个性化安全干预策略"
-        ],
-        "analysis": [
-          "三项研究分别针对辅助出行、人机交互安全与操作规划这几个现实痛点提出新方法"
-        ]
-      },
-      "source_ids": [
-        "e90cb047f144656d",
-        "b5c82bc8057a5215",
-        "5f78379e4d4b77a0"
-      ],
-      "sources": [
-        {
-          "id": "e90cb047f144656d",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Milo, a Fully Autonomous Indoor/Outdoor Robotic Guide Dog",
-          "summary": "arXiv:2607.19530v1 Announce Type: new Abstract: Many Blind and Low-Vision (BLV) people rely on guide dogs for moment-to-moment navigation, such as staying on path and avoiding obstacles and pedestrians. However, guide dogs are expensive to acquire and maintain (approximately \\$50k USD plus ongoing costs), often involve long waiting lists, and have relatively short life expectancies. While robot guide dogs offer a promising alternative, existing approaches exploring this idea suffer from several drawbacks: They often lack the autonomy required for real-world deployment, relying on prior 3D scans of the environment, external computation, or limited awareness of the handler. In this work, we present Milo, the first open-source, low-cost (approximately \\$2k USD) robotic guide dog platform capable of fulfilling the basic collaborative navigation role expected of a guide dog. Milo is fully autonomous, requiring no a priori knowledge of the environment, completely self-contained with all computation performed onboard, and suitable for both indoor and outdoor navigation while avoiding obstacles and pedestrians. Our system consists of a modified Unitree Go2 robot (equipped with onboard comp",
-          "url": "https://arxiv.org/abs/2607.19530",
-          "published_at": "2026-07-23T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "b5c82bc8057a5215",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Learning Personalized Safety Interventions for Haptic Human-Robot Shared Control",
-          "summary": "arXiv:2607.19534v1 Announce Type: new Abstract: Haptic feedback provides an implicit channel for communicating safety intentions during human-robot shared control. Existing haptic guidance systems typically employ predefined intervention strategies that cannot accommodate the diverse safety preferences of individual users or application scenarios. To address this limitation, we propose a Learning from Haptics (LfH) framework that learns user-preferred safety interventions from sparse demonstrations, eliminating the need for manual trial-and-error design. Our framework is built on a differentiable Control Barrier Function (CBF)-based optimization layer that automatically adjusts the underlying safety parameters to match the demonstrated haptic responses. Instead of tuning controller parameters directly, users teach the system how they expect it to intervene during teleoperation. The resulting haptic guidance reflects the demonstrated intervention preferences while preserving the intuitive interaction of haptic shared control. Simulation and hardware experiments demonstrate that the proposed framework can learn personalized safety interventions from sparse user input and reduce the m",
-          "url": "https://arxiv.org/abs/2607.19534",
-          "published_at": "2026-07-23T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "5f78379e4d4b77a0",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "LENS: LLM-guided Environment Simplification for Planning and Control in Clutter",
-          "summary": "arXiv:2607.19633v1 Announce Type: new Abstract: Despite recent advances in general-purpose robotic manipulation, real-world multi-object clutter remains challenging to handle for today's prevalent approaches. The problem scales in complexity due to more objects and collisions, more unpredictable contact physics, distractors, and task ambiguity. Bridging this gap to real-world deployment requires effective scene abstractions; yet today, producing such abstractions requires extensive task-specific manual engineering, which does not scale. These abstractions are costly to generate and difficult to adjust or fine-tune. We instead propose a plug-and-play fix to automatically generate scene-specific, task-specific, adaptively updating abstractions on top of existing planning and control stacks. LLM-guided Environment Simplification (LENS) produces a de-cluttered abstracted scene representation by merging (e.g., stacked objects) or pruning (e.g., distant objects) scene entities in a closed loop in response to task progress. These dynamic, task-relevant abstractions are versatile and easy to use. In our experiments, we show that LENS improves classical planning, model-based control, and a ",
-          "url": "https://arxiv.org/abs/2607.19633",
-          "published_at": "2026-07-23T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "美国与沙特签署商业核能协议，以色列方面表达强烈担忧",
-      "english_term": null,
-      "summary": "美国与沙特阿拉伯签署一项商业核能合作协议，给予美国企业在沙特核能项目中的优先准入权，协议预计将持续数十年、价值数十亿美元。以色列方面对此深表担忧。",
-      "script": "国际政治方面，美国与沙特阿拉伯正式签署了一项商业核能合作协议。根据美国能源部的说法，这是一项“和平”性质的合作协议，将给予美国企业在沙特核能项目中优先获得核反应堆和核燃料的准入权。这项协议预计将持续数十年，涉及金额达数十亿美元规模。已确认的事实是，协议已经正式签署，美国能源部对此进行了公开表态，强调其“和平”属性以及对美国企业的商业价值。但协议在以色列引发了明显的警惕情绪。有分析指出，这进一步加深了外界对于以色列——作为美国重要盟友——与特朗普政府在外交与安全政策上出现分歧的担忧。一位曾在美国国务院负责海湾事务的前官员在接受采访时也就此协议的潜在影响进行了解读，其观点更多属于个人分析判断，而非官方定论。需要区分的是，协议本身的签署和内容属于已确认事实；而关于协议是否会助推地区核扩散风险、是否会改变中东战略平衡、以及以色列担忧是否会转化为实际外交摩擦，这些目前仍停留在各方主张和分析层面，尚无权威结论。核能合作协议历来敏感，核心争议点通常集中在核燃料浓缩能力和核不扩散监管机制上，如果沙特未来在核燃料处理环节获得更大自主权，可能会被解读为地区核能力格局的潜在变化，这也是以色列方面担忧的关键出发点之一。后续需要关注的是，协议的具体条款细节是否会进一步公开，以及国际原子能机构或其他监管方是否会对协议中的核不扩散安排做出评估或表态。",
-      "duration_seconds": 145,
       "is_unverified": false,
-      "confidence_note": "协议签署本身有NPR与BBC两个独立Tier 2来源交叉确认，以色列担忧及地缘影响属于分析与各方主张部分",
+      "confidence_note": "基于Tech Times一家科技媒体报道，属于Tier 3来源，具体融资细节及技术路线判断以该报道为准，暂无第二独立信源交叉确认，建议关注后续官方公告。",
       "fact_status": {
         "confirmed": [
-          "美国与沙特阿拉伯签署商业核能合作协议",
-          "美国能源部称协议将给予美国企业优先准入沙特核能项目"
+          "该英国人形机器人初创公司完成1.52亿美元融资，投资方包括博世和舍弗勒"
         ],
         "claims": [
-          "以色列方面对协议表达警惕和担忧",
-          "有分析认为该协议加深了以色列与特朗普政府在外交政策上的分歧"
+          "该公司选择轮式底盘而非双足行走路线的技术定位由报道描述"
         ],
         "analysis": [
-          "协议可能反映美国在中东能源与战略布局上的新动向",
-          "核不扩散监管安排的具体细节将是外界评估协议影响的关键"
+          "轮式人形机器人被视为在结构化工业场景中降低成本和故障率的一种技术路线选择"
         ]
       },
       "source_ids": [
-        "4cc3d991900d11d8",
-        "3e0465c77f7b7154",
-        "e59a26267a65076b",
-        "5c92c17a4b1f7168"
+        "469126a8a91daec1"
       ],
       "sources": [
         {
-          "id": "4cc3d991900d11d8",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
+          "id": "469126a8a91daec1",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "U.S. signs commercial nuclear deal with Saudi Arabia",
-          "summary": "The agreement between the U.S. and Saudi Arabia gives American companies priority access to nuclear reactors and fuel to Saudi Arabia. It's expected to last decades and be worth billions of dollars.",
-          "url": "https://www.npr.org/2026/07/23/nx-s1-5903125/u-s-signs-commercial-nuclear-deal-with-saudi-arabia",
-          "published_at": "2026-07-23T10:46:02+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "3e0465c77f7b7154",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "US signs landmark nuclear deal with Saudi Arabia",
-          "summary": "The US Department of Energy says the \"peaceful\" co-operation agreement will give US firms \"great access\" to the Saudi nuclear energy programme.",
-          "url": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-23T09:17:50+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "e59a26267a65076b",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "U.S. nuclear power deal with Saudi Arabia faces criticism in Israel",
-          "summary": "The nuclear power deal between the U.S. and Saudi Arabia was met with alarm in Israel as it deepened concerns that Israel, a major American ally, and Trump are increasingly diverging on foreign policy and security.",
-          "url": "https://www.npr.org/2026/07/23/nx-s1-5904327/us-saudi-arabia-iran",
-          "published_at": "2026-07-23T10:55:44+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "5c92c17a4b1f7168",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Former State Department official on the implications of the U.S.-Saudi nuclear deal",
-          "summary": "NPR's Michel Martin talks to Daniel Benaim, a former State Department official who worked on Gulf issues, about the U.S.-Saudi nuclear deal.",
-          "url": "https://www.npr.org/2026/07/23/nx-s1-5903069/former-state-department-official-on-the-implications-of-the-u-s-saudi-nuclear-deal",
-          "published_at": "2026-07-23T10:45:56+00:00",
+          "category_hint": "robotics",
+          "title": "UK Humanoid Startup Raises $152M as Bosch and Schaeffler Back Wheels Over Legs - Tech Times",
+          "summary": "UK Humanoid Startup Raises $152M as Bosch and Schaeffler Back Wheels Over Legs Tech Times",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONVAyRl9LYUZoS2xzd3RIeWtEUEFYSldKT21pUVdxT1lkenRjeDZHNVpSTjVoV3ZUdHZQYUR5b29fUkZfZURnLTE4RnRPMWVpelI2MHVGX2lmR0lMZ1RZMlZ0WS1KZUpZOHJMYlA3UjV0MlB3cVFib0pZbFhwTTRDMFkwX0JxeTBJY2lTX0dqY3hJcEFBOG5lRlJOOEJCdFgwNlZPb2Q4QnhZcnh2QWY5WGtPREg3cFRabjNWZFVSVHBKcUk?oc=5",
+          "published_at": "2026-07-24T10:35:36+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "伊朗与美国紧张升级，鲁比奥称伊朗“乞求”达成协议但尚未准备好",
-      "english_term": null,
-      "summary": "美国对伊朗的打击已持续第12个夜晚，美国国务卿鲁比奥表示伊朗正在“乞求”达成协议但尚未准备好，德国之声则质疑美国是否正滑向新的“无限期战争”。",
-      "script": "中东局势方面，美国对伊朗的军事打击已经持续到第12个夜晚。美国国务卿鲁比奥公开表示，伊朗方面正在“乞求”与美国达成协议，但目前尚未准备好真正落地，他还提到美方奉行的是“以头换眼”式的强硬政策。这属于美方官员的公开表态，是明确的各方主张，而非独立核实的客观事实。与此同时，霍尔木兹海峡的航运安全持续受到威胁，已经有泰国船员因货轮在霍尔木兹海峡遇袭而对船东提起诉讼，这从侧面反映出海峡地区的紧张局势已经开始产生实际的商业和法律影响。另一路信源则从更宏观视角提出疑问：随着停火协议瓦解、袭击不断升级、海峡航运持续承压，美国是否正在滑入又一场没有清晰退出路径的“永久战争”。这是一种分析性判断，而非事实陈述，反映了外部观察者对当前局势走向的担忧。综合来看，已确认的事实是打击持续、海峡航运受威胁、且已出现相关民事诉讼；而伊朗是否真的在寻求谈判、美国下一步战略意图如何、冲突是否会进一步长期化，这些仍属于各方表态与外部分析层面，没有确定性结论。这一局势值得持续关注的原因在于，霍尔木兹海峡是全球能源运输的重要通道，任何长期化的军事紧张都可能对国际能源市场和航运保险成本产生连锁影响。后续需要关注的是，是否会有新的官方谈判渠道信息披露，以及海峡地区商船遇袭事件是否会进一步增多。",
-      "duration_seconds": 135,
-      "is_unverified": false,
-      "confidence_note": "打击持续与诉讼为多个独立信源确认的事实，鲁比奥表态与战争走向分析分别标注为各方主张与分析判断",
-      "fact_status": {
-        "confirmed": [
-          "美国对伊朗的打击已持续12个夜晚",
-          "泰国船员因货轮在霍尔木兹海峡遇袭对船东提起诉讼"
-        ],
-        "claims": [
-          "鲁比奥称伊朗正在乞求达成协议但尚未准备好",
-          "美方奉行以头换眼式强硬政策"
-        ],
-        "analysis": [
-          "有观察认为美国可能正在滑向新的无限期冲突",
-          "霍尔木兹海峡持续紧张可能影响全球能源运输安全"
-        ]
-      },
-      "source_ids": [
-        "945aec1c77f44ad2",
-        "780f1ab6ce5f5748",
-        "1b575ecf0152dd09"
-      ],
-      "sources": [
-        {
-          "id": "945aec1c77f44ad2",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Rubio says Iran ‘begging’ for a deal with US but not ready to make one",
-          "summary": "Secretary of state says US has 'a head for an eye' policy as strikes hit Iran for a 12th straight night.",
-          "url": "https://www.aljazeera.com/news/2026/7/23/rubio-says-iran-begging-for-a-deal-with-us-but-not-ready-to-make-one?traffic_source=rss",
-          "published_at": "2026-07-23T10:19:58+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "780f1ab6ce5f5748",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Could Iran become America's next 'forever war'?",
-          "summary": "The ceasefire has collapsed, attacks are escalating and shipping in the Strait of Hormuz remains under threat. Is the US drifting into another open-ended conflict with no clear way out?",
-          "url": "https://www.dw.com/en/could-iran-become-america-s-next-forever-war/a-78081276?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-23T10:16:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "1b575ecf0152dd09",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Thai sailors sue owners of cargo ship hit in Hormuz",
-          "summary": "Thai sailors sue owners of cargo ship hit in Hormuz",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/23/thai-sailors-sue-owners-of-cargo-ship-hit-in-hormuz?traffic_source=rss",
-          "published_at": "2026-07-23T09:45:59+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "欧盟对谷歌处以8.9亿欧元反垄断罚款",
-      "english_term": null,
-      "summary": "欧盟委员会认定谷歌在应用商店与搜索引擎业务中存在不正当自我优待行为，对其处以8.9亿欧元罚款。",
-      "script": "另一条国际监管动态，欧盟委员会对谷歌处以8.9亿欧元的反垄断罚款，认定谷歌在其Play应用商店和搜索引擎业务中存在自我优待行为，以不正当方式损害了市场竞争。这是欧盟委员会经过调查后作出的正式认定和处罚决定，属于已确认事实。欧盟近年来持续对大型科技平台的市场支配地位保持高压监管姿态，此前已经对多家科技巨头开出过反垄断罚单，这次针对谷歌应用商店和搜索业务的罚款，延续了这一监管路径。从产业影响角度看，此类罚款一方面会直接影响相关公司的季度财务表现，另一方面也可能促使平台方调整其产品排序算法或商业条款，以规避未来更严厉的处罚。与此同时，另一则相关报道提到，谷歌在人工智能领域的投入正在快速消耗现金，此前公司曾表示今年AI相关投资规模可能高达1900亿美元。将反垄断罚款与巨额AI投入两条信息放在一起看，可以看到谷歌当前正处于监管压力与技术竞赛投入的双重叠加状态。需要说明的是，谷歌方面是否会对本次罚款提出上诉，以及该罚款对其应用商店具体商业规则的实际调整效果，目前尚无更多细节披露。后续需要关注的是，谷歌是否会对欧盟这一处罚决定提出上诉，以及后续是否会有更多监管细则调整应用商店的排序规则。",
+      "category": "robotics",
+      "title": "Uber联合创始人为新机器人公司ATOMS募资17亿美元",
+      "english_term": "physical automation（物理自动化，指让机器人系统在真实物理世界中执行任务的自动化技术）",
+      "summary": "Uber联合创始人特拉维斯·卡兰尼克宣布为新创立的机器人公司ATOMS完成17亿美元融资，目标是推动工业领域的物理自动化转型。",
+      "script": "机器人行业又迎来一笔巨额融资。Uber的联合创始人特拉维斯·卡兰尼克宣布，他新创立的机器人公司ATOMS完成了高达17亿美元的融资。卡兰尼克在Uber之后曾涉足云厨房等业务，这次转向机器人领域，他表示希望通过ATOMS打造物理自动化能力，来推动传统工业的转型升级。虽然目前公开信息中关于ATOMS具体产品形态、技术路线和应用场景的细节还比较有限，但这笔融资的规模本身就足够引人注目——17亿美元在机器人初创公司的融资历史上属于头部量级，说明资本市场对具身智能和机器人自动化赛道的信心依然强烈，即便宏观经济环境存在不确定性。从行业背景看，过去两年里人形机器人和通用机器人赛道持续吸引大额资本涌入，从特斯拉的擎天柱到国内的多家人形机器人公司，再到今天这轮英国轮式人形机器人融资和Holiday Robotics的融资，都在印证同一个趋势：资本正在从单纯的软件智能转向软硬件结合的物理世界自动化。对于卡兰尼克本人而言，这也是他继网约车平台之后再次尝试用资本和规模化打法切入一个新赛道。后续需要等待公司公布具体的产品路线图和技术细节，也需要观察这笔资金将主要投向硬件研发、数据采集还是产能建设。",
       "duration_seconds": 125,
       "is_unverified": false,
-      "confidence_note": "欧盟委员会处罚决定为官方认定，属于Tier 2来源明确报道的事实",
+      "confidence_note": "来自The Robot Report的独立报道，为Tier 2专业机器人媒体，具体技术细节和产品方向信息有限，需等待公司后续披露。",
       "fact_status": {
         "confirmed": [
-          "欧盟委员会对谷歌处以8.9亿欧元反垄断罚款",
-          "认定谷歌在应用商店与搜索业务中存在自我优待行为"
+          "特拉维斯·卡兰尼克为新机器人公司ATOMS完成17亿美元融资"
         ],
-        "claims": [],
+        "claims": [
+          "公司目标是通过物理自动化推动工业转型，具体细节由卡兰尼克本人表述"
+        ],
         "analysis": [
-          "罚款可能促使谷歌调整应用商店排序算法或商业条款",
-          "谷歌当前同时面临监管压力与AI投入的现金消耗压力"
+          "巨额融资反映资本市场对具身智能与机器人自动化赛道的持续看好"
         ]
       },
       "source_ids": [
-        "9b577b58785c009b",
-        "a0096254b02e9266"
+        "2a214f29fd3d4d04"
       ],
       "sources": [
         {
-          "id": "9b577b58785c009b",
-          "source": "DW Top Stories",
+          "id": "2a214f29fd3d4d04",
+          "source": "The Robot Report",
           "source_tier": 2,
-          "source_region": "eu",
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "EU imposes €890 million competition fine on Google over its Play app store and search",
-          "summary": "The European Commission said it found that Google had preferenced its search engine and app store in ways that unfairly harmed competition.",
-          "url": "https://www.dw.com/en/eu-imposes-€890-million-competition-fine-on-google-over-its-play-app-store-and-search/a-78082850?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-23T10:19:00+00:00",
+          "category_hint": "robotics",
+          "title": "Uber co-founder raises $1.7B for new robotics startup ATOMS",
+          "summary": "Travis Kalanick, the former CEO of Uber, said with ATOMS, he hopes to create physical automation to transform industry. The post Uber co-founder raises $1.7B for new robotics startup ATOMS appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
+          "published_at": "2026-07-23T18:53:11+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "学术速览：可变形物体操作、多机编队运输与触觉生成三篇新论文",
+      "english_term": "Material Point Method（物质点法，一种同时用网格与粒子表示材料以模拟大变形物理过程的数值仿真方法）",
+      "summary": "arXiv同日发布多篇机器人学术论文，分别涉及可变形物体操作的物理修正世界模型、多无人机安全协同运输，以及利用视觉生成触觉信号的操作方法。",
+      "script": "再来看学术界的几篇新论文，都发布在预印本平台arXiv上，尚未经过同行评审，但方向很有代表性。第一篇叫PhysCoRe，关注的是机器人操作可变形物体时的世界模型问题。给物体建模是机器人操作研究里的老大难问题，尤其是像布料、面团这类软性材料，传统方法要么依赖逐个物体调参、速度慢且难以泛化，要么用端到端的神经网络直接学习动态，但容易在陌生场景下预测失真，甚至违反基本的物理规律。PhysCoRe的思路是把物质点法这种可微分的物理仿真器和一个学习出来的残差修正模型结合起来，用物理仿真打底保证基本规律不出错，再用神经网络学习仿真器和真实世界之间的差异进行修正，试图兼顾物理可靠性和数据驱动的灵活性。第二篇论文关注多架无人机协同搬运同一个负载的场景，这在建筑、物流和灾害救援中都有潜在应用价值，但无人机、连接缆绳和负载之间的耦合动力学非常复杂。作者提出了一种基于控制屏障函数的强化学习框架，控制屏障函数是一种在强化学习训练中显式加入安全约束的数学工具，可以在保证系统不越过危险边界的前提下让策略自由探索，论文还实现了从仿真环境到真实无人机的零样本迁移，也就是不需要在真实环境里重新训练就能直接部署。第三篇论文叫FELT，处理的是视觉和触觉信息融合的问题。触觉数据比视觉数据要稀缺得多，因为触觉传感器脆弱、种类繁多、难以标准化采集，作者提出了一种从视觉信号合成触觉信号的学习框架，试图缓解触觉数据不足对视触觉操作策略训练的限制。这三篇论文分别代表了机器人操作、多机协同和多模态感知三个方向的最新探索，但都还处于预印本阶段，其结论的稳健性和实际部署效果仍需要同行评审和更大规模实验验证。",
+      "duration_seconds": 175,
+      "is_unverified": true,
+      "confidence_note": "三篇论文均来自arXiv预印本平台，属于Tier 1来源但尚未经过同行评审，实验结论和方法有效性有待学术界进一步验证，存在被后续研究修正的可能。",
+      "fact_status": {
+        "confirmed": [
+          "三篇论文均已在arXiv平台公开发布，摘要内容与技术方案由论文原文描述"
+        ],
+        "claims": [
+          "各论文对自身方法的性能提升和泛化能力的描述均来自作者报告，尚未经第三方复现验证"
+        ],
+        "analysis": [
+          "三项工作分别指向机器人操作、多机协同控制与多模态感知领域中数据稀缺和物理一致性的共性挑战"
+        ]
+      },
+      "source_ids": [
+        "1cf882760c1e3a1c",
+        "be0f91ee6315b37c",
+        "3d115c3fe31061ba"
+      ],
+      "sources": [
+        {
+          "id": "1cf882760c1e3a1c",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "PhysCoRe: Physics-Corrected Residual World Models for Material-Aware Deformable Dynamics",
+          "summary": "arXiv:2607.20653v1 Announce Type: new Abstract: Predicting how deformable objects evolve under robotic manipulation is a longstanding challenge. Existing approaches typically rely on per-object optimization to fit material parameters, which can be slow and cannot generalize, while end-to-end learned alternatives extrapolate poorly and often violate basic physical structure. We present PhysCoRe, a physics-corrected residual world model that couples a differentiable Material Point Method (MPM) simulator with two feed-forward neural networks. A material refinement module, Material from Motion (MfM), infers per-particle elasticity from visual observations, grounding the simulator in object-specific physics. A residual correction module, Residual from Dynamics (RfD), learns the discrepancy and predicts corrections to the simulator's internal dynamics, absorbing systematic biases that the analytical model cannot capture. This design also supports online material identification on novel objects. MfM adapts from limited interactions, and its predictive uncertainty steers further exploration toward the regions where its estimate is least confident. Experiments on real deformable-object mani",
+          "url": "https://arxiv.org/abs/2607.20653",
+          "published_at": "2026-07-24T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "a0096254b02e9266",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
+          "id": "be0f91ee6315b37c",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Google burning through cash with spiralling AI costs",
-          "summary": "The company said earlier this year it expected to spend as much as $190bn on AI investments.",
-          "url": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-23T07:15:59+00:00",
+          "category_hint": "robotics",
+          "title": "Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer",
+          "summary": "arXiv:2607.20665v1 Announce Type: new Abstract: Multi-drone payload transportation has emerged as a promising research paradigm with potential applications in construction, logistics, and disaster response. However, the complex coupled dynamics among drones, cables, and payloads pose significant challenges, and existing approaches remain limited in safety and scalability, particularly in dynamic and unstructured environments. In this work, we propose a learning-based framework for safe and scalable multi-drone cooperative payload transport. We introduce a minimal 2D abstraction that preserves the task-relevant drone-payload coupling required for coordination and safety, while remaining computationally efficient for large-scale learning. Using domain randomization over team size and physical parameters, we train a fully distributed policy via Discrete Graph Control Barrier Function Proximal Policy Optimization (DGPPO), enabling robust zero-shot sim-to-real transfer without fine-tuning. Extensive real-world evaluations demonstrate that a single learned policy generalizes across varying team sizes and task scenarios. Furthermore, multi-group hardware experiments show that the same pol",
+          "url": "https://arxiv.org/abs/2607.20665",
+          "published_at": "2026-07-24T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "3d115c3fe31061ba",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "FELT: Generating Tactile Signals from Vision for Visuo-Tactile Manipulation",
+          "summary": "arXiv:2607.20683v1 Announce Type: new Abstract: The sense of touch is central to manipulation, especially when vision is occluded or ambiguous. Although combining vision and touch improves manipulation, learning robust visuo-tactile policies requires substantial tactile data. Such data remains scarcer than visual data, because tactile sensors are fragile, specialized, and hard to standardize. To address this, we present Feature-Extracted Latent Tactile (FELT), a learning-based framework that synthesizes per-finger pressure tactile images from RGB observations, reducing the need for tactile-equipped data collection. FELT uses a large frozen visual encoder and a lightweight query decoder to predict tactile signals in a single feed-forward pass. To respect the physical topology of dual-finger tactile sensors, FELT decodes the left and right tactile sensor panels through separate branches, capturing the asymmetric contact patterns during interactions such as wiping, insertion, and in-hand rotation. At inference time, FELT only requires RGB data, allowing us to augment existing vision-only data with tactile observations, either as generated tactile images or as latent tactile features. ",
+          "url": "https://arxiv.org/abs/2607.20683",
+          "published_at": "2026-07-24T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "Ropedia获2200万美元融资，用头戴设备采集机器人训练数据",
+      "english_term": "first-person data（第一人称数据，指从人类操作者视角采集的动作与视觉数据，用于训练机器人模仿学习模型）",
+      "summary": "机器人数据采集公司Ropedia完成2200万美元融资，其头戴设备HOMIE配备360度摄像头，用于采集第一人称视角数据来训练机器人。",
+      "script": "机器人的能力很大程度上取决于训练数据的质量和规模，这次获得融资的Ropedia正是瞄准了这个环节。公司完成2200万美元融资，用于扩大其数据采集业务规模。Ropedia的核心产品叫HOMIE，是一个头戴式设备，配备360度视角摄像头，可以采集人类操作者第一人称视角下的动作数据。这类数据在机器人学习领域有个专门的应用方式，叫模仿学习，也就是让机器人观察人类完成任务的过程，学习动作序列和决策逻辑，而不需要工程师手写每一个控制规则。第一人称视角数据的价值在于，它更贴近机器人自身摄像头未来实际感知世界的方式，比第三方视角录制的视频更容易迁移到机器人的控制策略上。这也反映出机器人行业当前面临的一个共同瓶颈：算法模型的能力提升越来越依赖高质量、大规模、贴近实际部署场景的训练数据，而这类数据的采集成本高、标准化程度低，一直是行业发展的短板。Ropedia这类专注数据采集环节的公司，某种意义上扮演着机器人产业链里“数据基础设施”的角色，类似于自动驾驶行业早期专门做路测数据采集和标注的公司。随着人形机器人和通用机械臂对复杂操作任务的需求增加，这类数据服务商的市场空间也在扩大。后续需要观察Ropedia采集到的数据规模、覆盖任务种类，以及是否有主流机器人公司采用其数据训练自己的模型。",
+      "duration_seconds": 140,
+      "is_unverified": false,
+      "confidence_note": "来自The Robot Report报道，为Tier 2专业机器人媒体，技术细节和商业化进展以该报道描述为准。",
+      "fact_status": {
+        "confirmed": [
+          "Ropedia完成2200万美元融资，用于扩展训练机器人的数据采集业务"
+        ],
+        "claims": [
+          "HOMIE设备配备360度摄像头，用于采集第一人称视角训练数据"
+        ],
+        "analysis": [
+          "高质量训练数据被视为当前机器人模仿学习方法发展的关键瓶颈之一"
+        ]
+      },
+      "source_ids": [
+        "e2900e629b5f69f7"
+      ],
+      "sources": [
+        {
+          "id": "e2900e629b5f69f7",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Ropedia raises $22M to scale data collection for training robots",
+          "summary": "Ropdeia's HOMIE is a head-mounted device, equipped with a 360º camera view, that captures first-person data for training robots. The post Ropedia raises $22M to scale data collection for training robots appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/",
+          "published_at": "2026-07-23T15:55:39+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -432,101 +201,259 @@
     },
     {
       "category": "world",
-      "title": "法国野火致数千人疏散，欧洲已有三名消防员殉职",
-      "english_term": null,
-      "summary": "法国境内多地爆发野火，已致数千人紧急疏散，欧洲今年夏季野火季已有第三名消防员在扑救过程中牺牲。",
-      "script": "欧洲方面，法国境内爆发多起野火，已导致数千人紧急疏散。这是今年欧洲夏季野火季的最新进展，此前的报道显示，欧洲大陆今年已经有第三名消防员在扑救野火过程中不幸牺牲。已确认的事实是，疏散规模达到数千人级别，且已有消防员殉职，具体地区分布和过火面积等细节，目前报道中未给出更详尽的数字。欧洲近年来夏季高温和干燥天气频发，野火风险随之上升，这类极端天气事件与气候变化之间的关联性，一直是气候科学界持续研究和讨论的议题，但具体到本次法国野火的成因，目前的报道并未给出气象归因分析，因此不做过度延伸解读。从人道和应急管理角度看，大规模疏散涉及交通调度、临时安置、以及消防资源的跨区域调配，都是短期内需要应对的现实压力。后续需要关注的是，法国当局是否会公布具体的过火面积和经济损失评估，以及欧洲其他国家是否会出现类似的野火蔓延情况。",
-      "duration_seconds": 90,
+      "title": "特朗普政府援引“强迫劳动”相关贸易法启动新一轮关税，盟友表达不满",
+      "english_term": "forced labor tariffs（强迫劳动关税，指基于对方国家或产业涉嫌使用强迫劳动为由征收的惩罚性贸易关税）",
+      "summary": "在美国最高法院裁定特朗普此前的紧急状态关税违法后，白宫转而援引另一项与人权问题挂钩的贸易法启动新关税，澳大利亚和欧盟等贸易伙伴对此表示不满。",
+      "script": "国际贸易领域出现新的摩擦点。此前美国最高法院裁定特朗普政府此前依据紧急状态权力征收的关税不具备合法性，白宫方面并没有就此收手，而是转向另一项与强迫劳动等人权议题挂钩的贸易法律，重新启动了一轮新的关税措施。这项法律的具体适用逻辑，是以特定国家或产业涉嫌存在强迫劳动问题为由，对相关商品征收惩罚性关税。目前包括澳大利亚和欧盟在内的多个美国贸易伙伴已经公开对此表达不满，认为这样的关税依据存在争议，实际上是把贸易保护主义包装在人权议题之下。已确认的事实是，美国最高法院此前确实推翻了特朗普政府的紧急状态关税措施，白宫随后转向了新的法律依据来维持关税政策的连续性。各方主张方面，美国政府方面将新关税定性为应对强迫劳动等人权问题的必要手段，而澳大利亚、欧盟等贸易伙伴则公开质疑这一说法的正当性，认为其实质仍是保护主义色彩浓厚的贸易壁垒。分析判断层面，这场关税风波反映出美国行政部门在司法限制下，仍在积极寻找法律途径维系其贸易政策工具箱，而盟友国家的反应也显示出国际社会对美方关税政策一致性和可预测性的担忧正在上升，这可能会在短期内继续影响跨大西洋及跨太平洋贸易关系的稳定性。后续需要关注相关国家是否会采取反制关税措施，以及该法律依据是否会面临新的司法挑战。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "来自BBC World的直接报道，事件描述简明，细节有限",
+      "confidence_note": "DW和NPR两家独立Tier 2媒体均对此事件进行了报道，信息基本互相印证，但具体关税清单细节和各国反制措施仍在发展中。",
       "fact_status": {
         "confirmed": [
-          "法国境内野火导致数千人疏散",
-          "欧洲今年夏季野火季已有第三名消防员殉职"
+          "美国最高法院此前推翻了特朗普政府此前依据紧急状态权力征收的关税",
+          "白宫已转向援引与强迫劳动问题相关的贸易法律启动新一轮关税"
         ],
-        "claims": [],
-        "analysis": []
+        "claims": [
+          "澳大利亚和欧盟等贸易伙伴公开反对新关税措施及其人权依据"
+        ],
+        "analysis": [
+          "新关税风波反映出美方在司法限制下寻求维持贸易政策工具箱的努力，以及国际社会对其政策可预测性的担忧"
+        ]
       },
       "source_ids": [
-        "b8294f840ed58a86"
+        "ca6121353c6f49a4",
+        "6c63d9d01e2f442c"
       ],
       "sources": [
         {
-          "id": "b8294f840ed58a86",
-          "source": "BBC World",
+          "id": "ca6121353c6f49a4",
+          "source": "DW Top Stories",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Thousands evacuated in France fires",
-          "summary": "A third firefighter has died in Europe while tackling ongoing wildfires across the continent.",
-          "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-23T10:53:43+00:00",
+          "title": "Why Trump's 'forced labor' tariffs leave the world puzzled",
+          "summary": "After the US Supreme Court struck down Donald Trump's emergency tariffs, the White House has turned to another trade law linked to alleged human rights abuses. DW explains the new tariffs and the debate surrounding them.",
+          "url": "https://www.dw.com/en/why-trump-s-forced-labor-tariffs-leave-the-world-puzzled/a-78093903?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-24T11:01:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "6c63d9d01e2f442c",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "US allies hit with new tariffs object to Trump's forced labor claims",
+          "summary": "Australia and the European Union were among U.S. trade partners who condemned the tariffs.",
+          "url": "https://www.npr.org/2026/07/24/nx-s1-5906301/us-global-trump-tariffs-reaction",
+          "published_at": "2026-07-24T10:31:08+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "science",
-      "title": "NASA支持的在轨卫星服务任务发射升空",
-      "english_term": "geosynchronous orbit（地球同步轨道，卫星运行周期与地球自转同步的高轨道）",
-      "summary": "搭载NASA支持的“地球同步卫星在轨服务”载荷的“任务机器人载具”已于7月21日通过SpaceX猎鹰9号火箭发射升空，将利用先进机器人技术为地球同步轨道卫星提供在轨服务。",
-      "script": "科学与航天方面，一项由NASA支持的在轨卫星服务任务已经发射升空。名为“任务机器人载具”（Mission Robotic Vehicle）的航天器，搭载着NASA支持的“地球同步卫星机器人服务”（RSGS）载荷，已于7月21日从卡纳维拉尔角搭乘SpaceX猎鹰9号火箭发射，目前正飞向地球同步轨道。地球同步轨道是指卫星运行周期与地球自转周期一致的高轨道，许多通信卫星和军事卫星都部署在这一轨道高度。这项任务的核心目标是利用先进的空间机器人技术，为在轨卫星提供维修、燃料补给或姿态调整等服务，从而延长现有卫星的使用寿命，减少因单一部件故障而报废整颗卫星造成的浪费。该项目整合了NASA长期积累的在轨机器人技术专长。从技术角度看，在轨服务对机器人的自主对接、精细操作和远程操控能力要求极高，因为地球同步轨道距离地面约三万六千公里，通信延迟和环境不确定性都远超近地轨道任务，机械臂需要在近乎零重力、无人工干预的情况下完成精密对接和维修动作。这类任务如果成功，将为未来商业卫星运营商提供一种新的成本控制手段，即通过在轨服务延长卫星寿命，而不是简单地发射替换卫星。目前该航天器仍处于飞往地球同步轨道的途中，具体在轨服务任务的执行细节和时间表尚未到来。后续需要关注的是，该载具抵达地球同步轨道后，第一次实际服务任务的执行情况和技术验证结果。",
-      "duration_seconds": 145,
+      "category": "world",
+      "title": "南非法院暂停总统拉马福萨弹劾调查程序",
+      "english_term": null,
+      "summary": "南非法院裁定暂停针对总统拉马福萨的弹劾调查程序，此案源于其农场遭窃引发的“农场门”丑闻。",
+      "script": "南非国内政治出现新进展。南非法院裁定暂停针对总统西里尔·拉马福萨的弹劾调查程序，这起案件的源头是所谓的“农场门”丑闻，也就是2020年发生在总统私人农场的一起大额现金失窃事件，事后引发外界对这笔资金来源和处理方式的持续质疑。这起丑闻的影响力不小，2022年时甚至一度威胁到拉马福萨在非洲人国民大会党内的领导地位。已确认的事实是，南非法院此次作出裁定，暂时叫停了针对总统的弹劾调查程序，这意味着相关调查在法律程序上被按下了暂停键，但并不等同于案件本身被撤销或者总统被免除嫌疑。目前公开报道中对法院裁定的具体法律理由和后续时间表着墨不多。分析层面看，这一裁定短期内为拉马福萨政府争取到了喘息空间，避免了弹劾调查程序在当前阶段继续推进对其执政形成的政治压力，但农场门丑闻本身涉及的资金来源和申报问题并未得到实质性澄清，未来这一案件仍有可能重新进入司法或议会程序。对于南非国内政治生态而言，这起事件也反映出该国在应对高层腐败指控方面司法与议会程序之间存在的张力。后续需要关注法院裁定的具体法律依据全文，以及弹劾调查程序是否会在未来某个时间点重新启动。",
+      "duration_seconds": 120,
       "is_unverified": false,
-      "confidence_note": "来自NASA官方Tier 1信源，任务发射信息为官方确认，具体在轨服务执行效果仍需等待后续任务进展",
+      "confidence_note": "BBC World与Al Jazeera两家独立Tier 2媒体均报道了此次法院裁定，信息可互相印证，但裁定的具体法律细节和后续程序时间表尚不明确。",
       "fact_status": {
         "confirmed": [
-          "任务机器人载具已于7月21日搭乘SpaceX猎鹰9号火箭发射升空",
-          "该载具搭载NASA支持的地球同步卫星机器人服务载荷，正飞向地球同步轨道"
+          "南非法院裁定暂停针对总统拉马福萨的弹劾调查程序",
+          "该案件源于2020年其私人农场发生的大额现金失窃事件"
         ],
-        "claims": [],
+        "claims": [
+          "该丑闻曾在2022年一度威胁到拉马福萨在非洲人国民大会党内的领导地位"
+        ],
         "analysis": [
-          "该任务若成功，可能为卫星在轨维修和寿命延长提供新的商业模式"
+          "此次裁定为总统争取到短期政治喘息空间，但案件核心的资金来源问题尚未得到实质澄清"
         ]
       },
       "source_ids": [
-        "24f190549974facd"
+        "72c761b60abc740f",
+        "978408c3638471ee"
       ],
       "sources": [
         {
-          "id": "24f190549974facd",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
+          "id": "72c761b60abc740f",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
           "language": "en",
-          "category_hint": "science",
-          "title": "Robotic Servicing Mission Launches with NASA Support",
-          "summary": "Following its liftoff from Cape Canaveral on July 21 aboard a SpaceX Falcon 9 rocket, the Mission Robotic Vehicle (MRV) hosting the NASA-supported Robotic Servicing of Geosynchronous Satellites (RSGS) payload is now en route to geosynchronous Earth orbit, where it will use its advanced robotics to service spacecraft. RSGS leverages in-space robotics expertise from NASA, […]",
-          "url": "https://www.nasa.gov/technology/robotic-servicing-mission-launches-with-nasa-support/",
-          "published_at": "2026-07-22T18:04:15+00:00",
+          "category_hint": "world",
+          "title": "South African court pauses impeachment process against president",
+          "summary": "The 'Farmgate' scandal nearly cost President Cyril Ramaphosa the leadership of his African National Congress in 2022.",
+          "url": "https://www.aljazeera.com/news/2026/7/24/south-african-court-pauses-impeachment-process-against-president?traffic_source=rss",
+          "published_at": "2026-07-24T10:39:47+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "978408c3638471ee",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
+          "summary": "Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020.",
+          "url": "https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-24T10:34:04+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "法国滨海旅游胜地卡普费雷半岛因山火全境撤离",
+      "english_term": null,
+      "summary": "法国西南部野火持续多日蔓延，当局下令对卡普费雷半岛实施全境撤离，数万游客和居民受到影响。",
+      "script": "欧洲夏季山火灾情持续升级。法国西南部一处知名滨海旅游胜地卡普费雷半岛，因野火已经连续燃烧数日且持续蔓延，当地政府下令对整个半岛实施撤离，数以万计的游客和居民受到直接影响。已确认的事实是，火势已经在该地区持续肆虐多日，当局最终决定将撤离范围扩大到整个半岛，这是一个规模相当大的应急响应决定，说明当地火情已经对居民和游客的人身安全构成了直接威胁。目前公开报道中对火灾起因、过火面积以及具体伤亡情况的信息还比较有限。分析层面看，近年来欧洲南部夏季山火频率和强度呈现上升趋势，与持续的高温和干燥天气模式有关，法国、希腊、西班牙等地中海沿岸国家近几年都多次出现类似的大规模撤离事件。卡普费雷半岛作为热门旅游目的地，此次撤离不仅涉及应急安全问题，也会对当地旅游经济造成短期冲击，尤其是在夏季旅游旺季期间。后续需要关注火势是否得到控制、撤离人员何时能够返回，以及当地政府和消防部门对此次火灾起因的调查结果。",
+      "duration_seconds": 100,
+      "is_unverified": false,
+      "confidence_note": "来自BBC World的Tier 2权威报道，具体伤亡和财产损失数据尚未完全披露，需持续关注官方通报。",
+      "fact_status": {
+        "confirmed": [
+          "法国卡普费雷半岛因野火持续蔓延已实施全境撤离"
+        ],
+        "claims": [
+          "撤离涉及数万游客和居民，具体数字由报道描述"
+        ],
+        "analysis": [
+          "此次事件被置于近年来欧洲南部夏季山火频发的大背景下看待"
+        ]
+      },
+      "source_ids": [
+        "65a60e0c92016951"
+      ],
+      "sources": [
+        {
+          "id": "65a60e0c92016951",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Tens of thousands evacuated from French tourist spot as wildfires spread",
+          "summary": "The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula.",
+          "url": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-24T10:50:26+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "title": "欧洲央行推进气候因素纳入抵押品框架及回购便利改革",
+      "english_term": "collateral framework（抵押品框架，指央行在向银行提供流动性时接受作为担保品的资产种类和估值规则体系）",
+      "summary": "欧洲央行宣布将气候因素评估扩大到非金融企业信贷债权的抵押品框架，并同步推进面向中央银行的增强型回购便利机制。",
+      "script": "来看一条金融监管领域的消息。欧洲央行发布公告，宣布将把气候相关因素的评估范围，进一步扩大到非金融企业信贷债权在欧元体系抵押品框架中的使用。所谓抵押品框架，是指商业银行在向央行申请流动性支持时，需要提供符合央行标准的资产作为担保，央行会对这些抵押品设定准入标准和估值折扣。此次改革意味着，企业发行的信贷债权在被商业银行用作抵押品时，其气候相关风险因素将被纳入评估考量，这是欧洲央行近年来持续推进货币政策工具绿色化改革的又一步。与此同时，欧洲央行还宣布将启动面向中央银行的增强型回购便利机制，回购便利是央行向其他央行提供本币流动性支持的一种工具，通常用于应对国际金融市场的流动性紧张状况。此外欧洲央行还公布了6月份关于欧元计价证券融资和场外衍生品市场信贷条件的调查结果，为观察欧元区金融市场信贷环境提供了数据参考。这几项动作合在一起，反映出欧洲央行在两个方向上同时发力：一是继续将气候风险因素嵌入到核心货币政策操作框架中，二是加强对国际流动性风险的防范工具储备。对于市场参与者而言，抵押品标准的调整可能会影响企业债权类资产的融资便利性和成本。后续需要关注具体实施细则和时间表，以及非金融企业信贷债权发行方对此项政策变化的反应。",
+      "duration_seconds": 130,
+      "is_unverified": false,
+      "confidence_note": "均来自欧洲央行官方新闻稿，属于Tier 1一手信源，信息权威但具体实施细则仍需等待后续公告。",
+      "fact_status": {
+        "confirmed": [
+          "欧洲央行宣布扩大气候因素在抵押品框架中对非金融企业信贷债权的适用范围",
+          "欧洲央行宣布将启动面向中央银行的增强型回购便利机制"
+        ],
+        "claims": [],
+        "analysis": [
+          "两项举措共同反映出欧洲央行在推进货币政策工具绿色化与加强国际流动性风险防范上的双重方向"
+        ]
+      },
+      "source_ids": [
+        "bca56ba430be7a28",
+        "23a0071f09993b02",
+        "a0d64320ff12a04b"
+      ],
+      "sources": [
+        {
+          "id": "bca56ba430be7a28",
+          "source": "European Central Bank Press Releases",
+          "source_tier": 1,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "finance",
+          "title": "ECB to extend use of climate factors in Eurosystem collateral framework to non-financial corporate credit claims",
+          "summary": "",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_4~f082ce289d.en.html",
+          "published_at": "2026-07-24T10:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "23a0071f09993b02",
+          "source": "European Central Bank Press Releases",
+          "source_tier": 1,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "finance",
+          "title": "ECB to start implementing enhanced repo facility for central banks",
+          "summary": "",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_2~d7d475d2f0.en.html",
+          "published_at": "2026-07-24T08:30:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "a0d64320ff12a04b",
+          "source": "European Central Bank Press Releases",
+          "source_tier": 1,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "finance",
+          "title": "Results of the June 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+          "summary": "",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_3~c0b45e246f.en.html",
+          "published_at": "2026-07-24T09:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的早报先到这里。机器人产业与学术两端都释放出值得持续跟踪的信号：特斯拉资本支出上调后的实际执行情况、NVIDIA与Inner Logic在手术机器人仿真赛道的进一步进展、以及多篇arXiv预印本后续的同行评审结果，都值得继续关注。国际局势方面，美沙核能协议的后续细节、伊朗局势的走向、以及欧盟对谷歌罚款的上诉进程，同样是接下来需要留意的方向。",
-  "editor_note": "本期机器人相关候选较多来自Tier 3新闻聚合与arXiv预印本，产业类消息多为单一来源，已在confidence_note中标注核实局限；国际政治部分优先选取具有多信源交叉确认的美沙核能协议与伊朗局势，避免与体育类候选（如FIFA红牌争议）因信息单薄而单独成篇。总体在机器人与国际政治之间保持时长均衡，机器人类时长占比约为49%。",
+  "closing": "今天的早报中，机器人产业的融资热度依然高涨，从可变形物体操作到触觉生成算法，产业与学术两条线都在加速推进；国际政治层面，关税争议和南非弹劾案的后续发展值得持续关注。感谢收听，我们明天同一时间再见。",
+  "editor_note": "本次修订后机器人类目共选取4个事件（英国轮式人形机器人融资、ATOMS融资、学术三篇论文速览、Ropedia融资），移除AMD芯片发布和上海电气WAIC展示两条，以将机器人时长占比控制在45%-55%区间内；世界类保留3个事件（关税争议、南非弹劾案、法国山火），金融类保留1个合并欧洲央行三条同源公告的事件。学术论文均为arXiv预印本，未经同行评审，已在稿件中明确说明局限性；英国轮式人形机器人融资、AMD芯片报道等单一来源信息已标注置信度说明。全稿总长度与时长已按机器人占比要求重新校准。",
   "model": "claude-sonnet-5",
+  "generation_usage": [
+    {
+      "input_tokens": 9335,
+      "output_tokens": 10977,
+      "total_tokens": 20312
+    },
+    {
+      "input_tokens": 12835,
+      "output_tokens": 8628,
+      "total_tokens": 21463
+    }
+  ],
   "usage": {
-    "input_tokens": 9326,
-    "output_tokens": 9818,
-    "total_tokens": 19144
+    "input_tokens": 22170,
+    "output_tokens": 19605,
+    "total_tokens": 41775
   },
-  "generated_at": "2026-07-23T11:00:05+00:00",
-  "window_start": "2026-07-22T11:00:05+00:00",
-  "candidate_count": 248,
+  "generated_at": "2026-07-24T11:14:53+00:00",
+  "window_start": "2026-07-23T11:14:53+00:00",
+  "candidate_count": 254,
   "source_errors": [
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
+  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1250,
-    "script_characters": 4887,
-    "topic_duration_share": 0.488,
+    "duration_seconds": 1065,
+    "script_characters": 4165,
+    "topic_duration_share": 0.545,
     "passed": true,
-    "normal_target_met": true,
+    "normal_target_met": false,
     "topic_source_count": 3,
     "issues": []
   }
