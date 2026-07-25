@@ -1,255 +1,242 @@
 {
-  "title": "晶球电台早报：机器人融资潮涌，国际局势多线紧张",
-  "subtitle": "从轮式人形机器人到多旋翼编队运输，机器人产业与学术双线并进；国际政治聚焦关税争议与南非弹劾案",
+  "title": "晶球电台早报：石油破百、伊朗局势升级，机器人基座模型与人形机器人新动态",
+  "subtitle": "地缘政治风险急剧升温，机器人产业与学术并进：GEN-1支持多种末端执行器，NEURA与亚琛工大共建物理AI训练场",
   "highlights": [
-    "英国轮式人形机器人初创公司获1.52亿美元融资，Bosch与Schaeffler押注“轮子胜过双腿”路线",
-    "Uber联合创始人Kalanick为新机器人公司ATOMS募得17亿美元，行业巨额融资持续",
-    "arXiv同日出现多篇机器人学术论文，涵盖可变形物体操作、多机编队运输与触觉生成",
-    "特朗普政府援引“强迫劳动”相关贸易法启动新一轮关税，盟友表达不满",
-    "南非法院暂停对总统拉马福萨的弹劾调查程序"
+    "胡塞武装袭击沙特油轮，国际油价飙升至每桶100美元，特朗普威胁对伊朗发动大规模打击",
+    "机器人基础模型公司Generalist发布GEN-1更新，单一模型可适配多种机械手末端执行器",
+    "NEURA Robotics与德国亚琛工业大学共建物理AI训练场，欧洲人形机器人产学合作加深"
   ],
   "stories": [
     {
-      "category": "robotics",
-      "title": "英国轮式人形机器人初创公司获1.52亿美元融资，押注“轮子而非双腿”",
-      "english_term": "wheeled humanoid（轮式人形机器人，即用轮式底盘替代双足行走机构的类人上半身机器人）",
-      "summary": "一家英国人形机器人初创公司完成1.52亿美元融资，Bosch和Schaeffler等工业巨头参投，其技术路线选择轮式移动底盘搭配灵巧上肢，而非双足步行。",
-      "script": "先来看机器人产业的一条大新闻。一家英国的人形机器人初创公司宣布完成1.52亿美元融资，投资方里出现了两家熟悉的工业巨头名字：博世和舍弗勒。这两家公司在传统汽车零部件和精密传动领域深耕多年，这次选择押注的，不是市面上常见的双足行走人形机器人，而是轮式人形机器人，也就是用轮子做移动底盘，上半身保留类人的灵巧操作能力。这个技术选择背后的逻辑并不复杂：双足行走需要解决复杂的动态平衡控制问题，成本高、故障率相对较高，而在仓库、工厂这样地面平整的结构化场景里，轮式底盘可以用更低的成本和更高的可靠性完成移动任务，把研发资源更多投入到上肢的抓取和精细操作上。这也呼应了同一天另一则消息，美国的Holiday Robotics同样发布了一款名为FRIDAY的轮式人形机器人，配置了可热插拔电池和灵巧上肢，同样瞄准工业应用场景。可以看到，轮式人形机器人正在成为人形机器人赛道里一条越来越清晰的支线打法，尤其受到有工业背景的资本青睐。对于博世和舍弗勒来说，参投也意味着把自身在电机、减速器等核心执行器部件上的积累导入到机器人整机公司，这是一种产业链上下游协同的资本布局思路。后续需要等待这家公司公布具体应用场景和量产落地时间，也需要观察轮式与双足两条路线在实际工厂部署中的成本和效率对比数据是否会公开。",
-      "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "基于Tech Times一家科技媒体报道，属于Tier 3来源，具体融资细节及技术路线判断以该报道为准，暂无第二独立信源交叉确认，建议关注后续官方公告。",
-      "fact_status": {
-        "confirmed": [
-          "该英国人形机器人初创公司完成1.52亿美元融资，投资方包括博世和舍弗勒"
-        ],
-        "claims": [
-          "该公司选择轮式底盘而非双足行走路线的技术定位由报道描述"
-        ],
-        "analysis": [
-          "轮式人形机器人被视为在结构化工业场景中降低成本和故障率的一种技术路线选择"
-        ]
-      },
-      "source_ids": [
-        "469126a8a91daec1"
-      ],
-      "sources": [
-        {
-          "id": "469126a8a91daec1",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "UK Humanoid Startup Raises $152M as Bosch and Schaeffler Back Wheels Over Legs - Tech Times",
-          "summary": "UK Humanoid Startup Raises $152M as Bosch and Schaeffler Back Wheels Over Legs Tech Times",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONVAyRl9LYUZoS2xzd3RIeWtEUEFYSldKT21pUVdxT1lkenRjeDZHNVpSTjVoV3ZUdHZQYUR5b29fUkZfZURnLTE4RnRPMWVpelI2MHVGX2lmR0lMZ1RZMlZ0WS1KZUpZOHJMYlA3UjV0MlB3cVFib0pZbFhwTTRDMFkwX0JxeTBJY2lTX0dqY3hJcEFBOG5lRlJOOEJCdFgwNlZPb2Q4QnhZcnh2QWY5WGtPREg3cFRabjNWZFVSVHBKcUk?oc=5",
-          "published_at": "2026-07-24T10:35:36+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "Uber联合创始人为新机器人公司ATOMS募资17亿美元",
-      "english_term": "physical automation（物理自动化，指让机器人系统在真实物理世界中执行任务的自动化技术）",
-      "summary": "Uber联合创始人特拉维斯·卡兰尼克宣布为新创立的机器人公司ATOMS完成17亿美元融资，目标是推动工业领域的物理自动化转型。",
-      "script": "机器人行业又迎来一笔巨额融资。Uber的联合创始人特拉维斯·卡兰尼克宣布，他新创立的机器人公司ATOMS完成了高达17亿美元的融资。卡兰尼克在Uber之后曾涉足云厨房等业务，这次转向机器人领域，他表示希望通过ATOMS打造物理自动化能力，来推动传统工业的转型升级。虽然目前公开信息中关于ATOMS具体产品形态、技术路线和应用场景的细节还比较有限，但这笔融资的规模本身就足够引人注目——17亿美元在机器人初创公司的融资历史上属于头部量级，说明资本市场对具身智能和机器人自动化赛道的信心依然强烈，即便宏观经济环境存在不确定性。从行业背景看，过去两年里人形机器人和通用机器人赛道持续吸引大额资本涌入，从特斯拉的擎天柱到国内的多家人形机器人公司，再到今天这轮英国轮式人形机器人融资和Holiday Robotics的融资，都在印证同一个趋势：资本正在从单纯的软件智能转向软硬件结合的物理世界自动化。对于卡兰尼克本人而言，这也是他继网约车平台之后再次尝试用资本和规模化打法切入一个新赛道。后续需要等待公司公布具体的产品路线图和技术细节，也需要观察这笔资金将主要投向硬件研发、数据采集还是产能建设。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "来自The Robot Report的独立报道，为Tier 2专业机器人媒体，具体技术细节和产品方向信息有限，需等待公司后续披露。",
-      "fact_status": {
-        "confirmed": [
-          "特拉维斯·卡兰尼克为新机器人公司ATOMS完成17亿美元融资"
-        ],
-        "claims": [
-          "公司目标是通过物理自动化推动工业转型，具体细节由卡兰尼克本人表述"
-        ],
-        "analysis": [
-          "巨额融资反映资本市场对具身智能与机器人自动化赛道的持续看好"
-        ]
-      },
-      "source_ids": [
-        "2a214f29fd3d4d04"
-      ],
-      "sources": [
-        {
-          "id": "2a214f29fd3d4d04",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Uber co-founder raises $1.7B for new robotics startup ATOMS",
-          "summary": "Travis Kalanick, the former CEO of Uber, said with ATOMS, he hopes to create physical automation to transform industry. The post Uber co-founder raises $1.7B for new robotics startup ATOMS appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
-          "published_at": "2026-07-23T18:53:11+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "学术速览：可变形物体操作、多机编队运输与触觉生成三篇新论文",
-      "english_term": "Material Point Method（物质点法，一种同时用网格与粒子表示材料以模拟大变形物理过程的数值仿真方法）",
-      "summary": "arXiv同日发布多篇机器人学术论文，分别涉及可变形物体操作的物理修正世界模型、多无人机安全协同运输，以及利用视觉生成触觉信号的操作方法。",
-      "script": "再来看学术界的几篇新论文，都发布在预印本平台arXiv上，尚未经过同行评审，但方向很有代表性。第一篇叫PhysCoRe，关注的是机器人操作可变形物体时的世界模型问题。给物体建模是机器人操作研究里的老大难问题，尤其是像布料、面团这类软性材料，传统方法要么依赖逐个物体调参、速度慢且难以泛化，要么用端到端的神经网络直接学习动态，但容易在陌生场景下预测失真，甚至违反基本的物理规律。PhysCoRe的思路是把物质点法这种可微分的物理仿真器和一个学习出来的残差修正模型结合起来，用物理仿真打底保证基本规律不出错，再用神经网络学习仿真器和真实世界之间的差异进行修正，试图兼顾物理可靠性和数据驱动的灵活性。第二篇论文关注多架无人机协同搬运同一个负载的场景，这在建筑、物流和灾害救援中都有潜在应用价值，但无人机、连接缆绳和负载之间的耦合动力学非常复杂。作者提出了一种基于控制屏障函数的强化学习框架，控制屏障函数是一种在强化学习训练中显式加入安全约束的数学工具，可以在保证系统不越过危险边界的前提下让策略自由探索，论文还实现了从仿真环境到真实无人机的零样本迁移，也就是不需要在真实环境里重新训练就能直接部署。第三篇论文叫FELT，处理的是视觉和触觉信息融合的问题。触觉数据比视觉数据要稀缺得多，因为触觉传感器脆弱、种类繁多、难以标准化采集，作者提出了一种从视觉信号合成触觉信号的学习框架，试图缓解触觉数据不足对视触觉操作策略训练的限制。这三篇论文分别代表了机器人操作、多机协同和多模态感知三个方向的最新探索，但都还处于预印本阶段，其结论的稳健性和实际部署效果仍需要同行评审和更大规模实验验证。",
-      "duration_seconds": 175,
-      "is_unverified": true,
-      "confidence_note": "三篇论文均来自arXiv预印本平台，属于Tier 1来源但尚未经过同行评审，实验结论和方法有效性有待学术界进一步验证，存在被后续研究修正的可能。",
-      "fact_status": {
-        "confirmed": [
-          "三篇论文均已在arXiv平台公开发布，摘要内容与技术方案由论文原文描述"
-        ],
-        "claims": [
-          "各论文对自身方法的性能提升和泛化能力的描述均来自作者报告，尚未经第三方复现验证"
-        ],
-        "analysis": [
-          "三项工作分别指向机器人操作、多机协同控制与多模态感知领域中数据稀缺和物理一致性的共性挑战"
-        ]
-      },
-      "source_ids": [
-        "1cf882760c1e3a1c",
-        "be0f91ee6315b37c",
-        "3d115c3fe31061ba"
-      ],
-      "sources": [
-        {
-          "id": "1cf882760c1e3a1c",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "PhysCoRe: Physics-Corrected Residual World Models for Material-Aware Deformable Dynamics",
-          "summary": "arXiv:2607.20653v1 Announce Type: new Abstract: Predicting how deformable objects evolve under robotic manipulation is a longstanding challenge. Existing approaches typically rely on per-object optimization to fit material parameters, which can be slow and cannot generalize, while end-to-end learned alternatives extrapolate poorly and often violate basic physical structure. We present PhysCoRe, a physics-corrected residual world model that couples a differentiable Material Point Method (MPM) simulator with two feed-forward neural networks. A material refinement module, Material from Motion (MfM), infers per-particle elasticity from visual observations, grounding the simulator in object-specific physics. A residual correction module, Residual from Dynamics (RfD), learns the discrepancy and predicts corrections to the simulator's internal dynamics, absorbing systematic biases that the analytical model cannot capture. This design also supports online material identification on novel objects. MfM adapts from limited interactions, and its predictive uncertainty steers further exploration toward the regions where its estimate is least confident. Experiments on real deformable-object mani",
-          "url": "https://arxiv.org/abs/2607.20653",
-          "published_at": "2026-07-24T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "be0f91ee6315b37c",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer",
-          "summary": "arXiv:2607.20665v1 Announce Type: new Abstract: Multi-drone payload transportation has emerged as a promising research paradigm with potential applications in construction, logistics, and disaster response. However, the complex coupled dynamics among drones, cables, and payloads pose significant challenges, and existing approaches remain limited in safety and scalability, particularly in dynamic and unstructured environments. In this work, we propose a learning-based framework for safe and scalable multi-drone cooperative payload transport. We introduce a minimal 2D abstraction that preserves the task-relevant drone-payload coupling required for coordination and safety, while remaining computationally efficient for large-scale learning. Using domain randomization over team size and physical parameters, we train a fully distributed policy via Discrete Graph Control Barrier Function Proximal Policy Optimization (DGPPO), enabling robust zero-shot sim-to-real transfer without fine-tuning. Extensive real-world evaluations demonstrate that a single learned policy generalizes across varying team sizes and task scenarios. Furthermore, multi-group hardware experiments show that the same pol",
-          "url": "https://arxiv.org/abs/2607.20665",
-          "published_at": "2026-07-24T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "3d115c3fe31061ba",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "FELT: Generating Tactile Signals from Vision for Visuo-Tactile Manipulation",
-          "summary": "arXiv:2607.20683v1 Announce Type: new Abstract: The sense of touch is central to manipulation, especially when vision is occluded or ambiguous. Although combining vision and touch improves manipulation, learning robust visuo-tactile policies requires substantial tactile data. Such data remains scarcer than visual data, because tactile sensors are fragile, specialized, and hard to standardize. To address this, we present Feature-Extracted Latent Tactile (FELT), a learning-based framework that synthesizes per-finger pressure tactile images from RGB observations, reducing the need for tactile-equipped data collection. FELT uses a large frozen visual encoder and a lightweight query decoder to predict tactile signals in a single feed-forward pass. To respect the physical topology of dual-finger tactile sensors, FELT decodes the left and right tactile sensor panels through separate branches, capturing the asymmetric contact patterns during interactions such as wiping, insertion, and in-hand rotation. At inference time, FELT only requires RGB data, allowing us to augment existing vision-only data with tactile observations, either as generated tactile images or as latent tactile features. ",
-          "url": "https://arxiv.org/abs/2607.20683",
-          "published_at": "2026-07-24T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "Ropedia获2200万美元融资，用头戴设备采集机器人训练数据",
-      "english_term": "first-person data（第一人称数据，指从人类操作者视角采集的动作与视觉数据，用于训练机器人模仿学习模型）",
-      "summary": "机器人数据采集公司Ropedia完成2200万美元融资，其头戴设备HOMIE配备360度摄像头，用于采集第一人称视角数据来训练机器人。",
-      "script": "机器人的能力很大程度上取决于训练数据的质量和规模，这次获得融资的Ropedia正是瞄准了这个环节。公司完成2200万美元融资，用于扩大其数据采集业务规模。Ropedia的核心产品叫HOMIE，是一个头戴式设备，配备360度视角摄像头，可以采集人类操作者第一人称视角下的动作数据。这类数据在机器人学习领域有个专门的应用方式，叫模仿学习，也就是让机器人观察人类完成任务的过程，学习动作序列和决策逻辑，而不需要工程师手写每一个控制规则。第一人称视角数据的价值在于，它更贴近机器人自身摄像头未来实际感知世界的方式，比第三方视角录制的视频更容易迁移到机器人的控制策略上。这也反映出机器人行业当前面临的一个共同瓶颈：算法模型的能力提升越来越依赖高质量、大规模、贴近实际部署场景的训练数据，而这类数据的采集成本高、标准化程度低，一直是行业发展的短板。Ropedia这类专注数据采集环节的公司，某种意义上扮演着机器人产业链里“数据基础设施”的角色，类似于自动驾驶行业早期专门做路测数据采集和标注的公司。随着人形机器人和通用机械臂对复杂操作任务的需求增加，这类数据服务商的市场空间也在扩大。后续需要观察Ropedia采集到的数据规模、覆盖任务种类，以及是否有主流机器人公司采用其数据训练自己的模型。",
-      "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "来自The Robot Report报道，为Tier 2专业机器人媒体，技术细节和商业化进展以该报道描述为准。",
-      "fact_status": {
-        "confirmed": [
-          "Ropedia完成2200万美元融资，用于扩展训练机器人的数据采集业务"
-        ],
-        "claims": [
-          "HOMIE设备配备360度摄像头，用于采集第一人称视角训练数据"
-        ],
-        "analysis": [
-          "高质量训练数据被视为当前机器人模仿学习方法发展的关键瓶颈之一"
-        ]
-      },
-      "source_ids": [
-        "e2900e629b5f69f7"
-      ],
-      "sources": [
-        {
-          "id": "e2900e629b5f69f7",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Ropedia raises $22M to scale data collection for training robots",
-          "summary": "Ropdeia's HOMIE is a head-mounted device, equipped with a 360º camera view, that captures first-person data for training robots. The post Ropedia raises $22M to scale data collection for training robots appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/",
-          "published_at": "2026-07-23T15:55:39+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
       "category": "world",
-      "title": "特朗普政府援引“强迫劳动”相关贸易法启动新一轮关税，盟友表达不满",
-      "english_term": "forced labor tariffs（强迫劳动关税，指基于对方国家或产业涉嫌使用强迫劳动为由征收的惩罚性贸易关税）",
-      "summary": "在美国最高法院裁定特朗普此前的紧急状态关税违法后，白宫转而援引另一项与人权问题挂钩的贸易法启动新关税，澳大利亚和欧盟等贸易伙伴对此表示不满。",
-      "script": "国际贸易领域出现新的摩擦点。此前美国最高法院裁定特朗普政府此前依据紧急状态权力征收的关税不具备合法性，白宫方面并没有就此收手，而是转向另一项与强迫劳动等人权议题挂钩的贸易法律，重新启动了一轮新的关税措施。这项法律的具体适用逻辑，是以特定国家或产业涉嫌存在强迫劳动问题为由，对相关商品征收惩罚性关税。目前包括澳大利亚和欧盟在内的多个美国贸易伙伴已经公开对此表达不满，认为这样的关税依据存在争议，实际上是把贸易保护主义包装在人权议题之下。已确认的事实是，美国最高法院此前确实推翻了特朗普政府的紧急状态关税措施，白宫随后转向了新的法律依据来维持关税政策的连续性。各方主张方面，美国政府方面将新关税定性为应对强迫劳动等人权问题的必要手段，而澳大利亚、欧盟等贸易伙伴则公开质疑这一说法的正当性，认为其实质仍是保护主义色彩浓厚的贸易壁垒。分析判断层面，这场关税风波反映出美国行政部门在司法限制下，仍在积极寻找法律途径维系其贸易政策工具箱，而盟友国家的反应也显示出国际社会对美方关税政策一致性和可预测性的担忧正在上升，这可能会在短期内继续影响跨大西洋及跨太平洋贸易关系的稳定性。后续需要关注相关国家是否会采取反制关税措施，以及该法律依据是否会面临新的司法挑战。",
-      "duration_seconds": 135,
+      "title": "胡塞袭击沙特油轮致油价破百，特朗普威胁对伊朗发动大规模打击",
+      "english_term": null,
+      "summary": "伊朗支持的胡塞武装宣称对沙特发动导弹与袭船行动，国际油价飙升至每桶100美元；美国已对伊朗展开连续13个夜晚的空袭，特朗普称正考虑发动更大规模行动。",
+      "script": "国际局势方面，中东风险骤然升级。据BBC与NPR报道，伊朗支持的also门胡塞武装宣称对沙特阿拉伯发动了导弹袭击，同时在红海袭击了两艘沙特油轮。美军方面表示已经瘫痪了一艘试图突破美国对伊朗港口封锁的油轮。受此影响，国际油价一举突破每桶100美元，创下阶段性新高。与此同时，美国已经对伊朗展开了连续十三个夜晚的空袭行动，德黑兰方面也对美国在海湾地区的目标发动了报复性袭击。特朗普总统在采访中表示，自己正接近做出是否发动一场大规模打击的决定。已确认事实是：胡塞武装确认对沙特发动了袭击，美方确认对一艘油轮采取了瘫痪行动，国际油价已经涨至每桶100美元一线，美国对伊朗的空袭已持续十三个夜晚。各方主张方面，胡塞武装将行动定性为对以色列在加沙军事行动的回应性支持，美方则将自身空袭定性为对伊朗核与地区军事能力的必要遏制，特朗普本人多次公开表态考虑升级打击规模，但尚未明确具体时间与打击范围。分析判断认为，红海航运安全与霍尔木兹海峡局势的联动效应，是当前油价上涨的核心驱动因素之一，如果冲突进一步扩大，全球能源市场和地缘政治格局都可能受到连锁冲击。与此同时，特朗普政府近期还宣布以新一轮关税措施取代到期的旧关税安排，这也为全球贸易环境增添了新的不确定性。后续需要等待美方是否正式宣布升级打击的具体决定，也需要关注国际油价在冲突持续背景下的走势变化。",
+      "duration_seconds": 145,
       "is_unverified": false,
-      "confidence_note": "DW和NPR两家独立Tier 2媒体均对此事件进行了报道，信息基本互相印证，但具体关税清单细节和各国反制措施仍在发展中。",
+      "confidence_note": "美国广播公司BBC与NPR两家独立二级来源均报道了此事件的核心事实，包括油价数据与空袭持续天数，可信度较高；但关于是否会发动大规模打击，目前仅为特朗普本人的表态，尚无官方最终决定。",
       "fact_status": {
         "confirmed": [
-          "美国最高法院此前推翻了特朗普政府此前依据紧急状态权力征收的关税",
-          "白宫已转向援引与强迫劳动问题相关的贸易法律启动新一轮关税"
+          "胡塞武装宣称袭击沙特并称袭船",
+          "美方称瘫痪一艘油轮",
+          "国际油价升至每桶100美元",
+          "美国对伊朗空袭已持续13个夜晚"
         ],
         "claims": [
-          "澳大利亚和欧盟等贸易伙伴公开反对新关税措施及其人权依据"
+          "胡塞武装称行动与加沙局势相关",
+          "特朗普称正考虑发动大规模打击但未确认具体计划"
         ],
         "analysis": [
-          "新关税风波反映出美方在司法限制下寻求维持贸易政策工具箱的努力，以及国际社会对其政策可预测性的担忧"
+          "红海与霍尔木兹海峡局势联动可能是油价上涨主因",
+          "冲突升级存在扩大化地缘政治风险"
         ]
       },
       "source_ids": [
-        "ca6121353c6f49a4",
-        "6c63d9d01e2f442c"
+        "2f8de765c5eeed20",
+        "6b20924a7f566f50",
+        "bb57dbaa28cea106"
       ],
       "sources": [
         {
-          "id": "ca6121353c6f49a4",
-          "source": "DW Top Stories",
+          "id": "2f8de765c5eeed20",
+          "source": "BBC World",
           "source_tier": 2,
-          "source_region": "eu",
+          "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Why Trump's 'forced labor' tariffs leave the world puzzled",
-          "summary": "After the US Supreme Court struck down Donald Trump's emergency tariffs, the White House has turned to another trade law linked to alleged human rights abuses. DW explains the new tariffs and the debate surrounding them.",
-          "url": "https://www.dw.com/en/why-trump-s-forced-labor-tariffs-leave-the-world-puzzled/a-78093903?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-24T11:01:00+00:00",
+          "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+          "summary": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
+          "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-25T06:34:40+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "6c63d9d01e2f442c",
+          "id": "6b20924a7f566f50",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "US allies hit with new tariffs object to Trump's forced labor claims",
-          "summary": "Australia and the European Union were among U.S. trade partners who condemned the tariffs.",
-          "url": "https://www.npr.org/2026/07/24/nx-s1-5906301/us-global-trump-tariffs-reaction",
-          "published_at": "2026-07-24T10:31:08+00:00",
+          "title": "Oil surges to $100 per barrel. And, Trump imposes a new round of tariffs",
+          "summary": "Oil surged to $100 per barrel after Iran-backed Houthi rebels attacked two Saudi tankers in the Red Sea. And, President Trump overnight replaced expiring tariffs with a slew of new ones.",
+          "url": "https://www.npr.org/2026/07/24/g-s1-135418/up-first-newsletter-iran-war-oil-prices-tariffs-wisconsin-corey-ruiz",
+          "published_at": "2026-07-24T11:37:58+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "bb57dbaa28cea106",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Trump threatens a major escalation in Iran after 13 straight nights of strikes",
+          "summary": "The U.S. continued airstrikes in Iran while Tehran launched retaliatory attacks on U.S. targets in the Gulf, as President Trump said he was close to deciding whether to launch \"a massive attack.\"",
+          "url": "https://www.npr.org/2026/07/24/g-s1-135417/us-iran-war-updates",
+          "published_at": "2026-07-24T11:30:08+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "机器人基础模型公司Generalist更新GEN-1，支持多种机械手末端执行器",
+      "english_term": "foundation model（基础模型），end effector（末端执行器）",
+      "summary": "Generalist宣布其机器人基础模型GEN-1现已支持多种不同的机械手末端执行器，意味着单一基座模型可以跨越不同硬件平台学习感知运动策略。",
+      "script": "机器人产业方面，基础模型公司Generalist带来了一项值得关注的更新。据The Robot Report报道，Generalist宣布其机器人基础模型GEN-1现在已经支持多种不同的机械手末端执行器，也就是安装在机械臂末端、用于抓取和操作物体的执行部件，比如不同结构的夹爪或者仿人手。这意味着，同一个基座模型现在可以在配备不同末端执行器的机器人上，学习出对应的感知运动策略，也就是从传感器输入直接映射到动作输出的控制策略。这背后的技术逻辑，与近年来大模型在自然语言处理领域的路径类似：先训练一个具备通用能力的大模型，再针对不同下游任务或者不同硬件平台进行适配，而不需要为每一种机器人硬件从零开始训练一套独立的控制模型。对于机器人产业而言，末端执行器的多样性一直是限制通用机器人基础模型落地的瓶颈之一，因为不同厂商、不同应用场景往往采用完全不同的抓取机构，导致模型难以跨平台迁移。如果GEN-1这类基础模型真正能够做到跨末端执行器泛化，将大幅降低机器人厂商为新硬件重新训练控制策略的成本，也有助于推动具身智能在物流分拣、家庭服务、工业装配等不同场景中的规模化部署。目前该报道来自专业机器人媒体The Robot Report的一手报道，但公司具体的训练数据规模、跨硬件泛化的量化评测结果尚未见披露。后续需要等待Generalist公布更详细的技术报告或者第三方评测结果，以确认该基础模型在不同末端执行器之间迁移的实际效果与局限性。",
+      "duration_seconds": 155,
+      "is_unverified": false,
+      "confidence_note": "The Robot Report是机器人行业专业二级媒体，此为公司官方公告的一手报道，但缺乏第三方评测数据佐证其跨硬件泛化能力的实际效果。",
+      "fact_status": {
+        "confirmed": [
+          "Generalist宣布GEN-1模型现支持多种末端执行器"
+        ],
+        "claims": [
+          "公司称单一基座模型可学习不同机器人上的感知运动策略"
+        ],
+        "analysis": [
+          "跨末端执行器泛化若成立，有望降低机器人硬件适配成本，推动具身智能规模化落地"
+        ]
+      },
+      "source_ids": [
+        "090b3501ef32882d"
+      ],
+      "sources": [
+        {
+          "id": "090b3501ef32882d",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Generalist’s GEN-1 foundation model now supports a range of robot end effectors",
+          "summary": "By training GEN-1 to work with new hands, Generalist said a single base model can learn sensorimotor policies on different robots. The post Generalist’s GEN-1 foundation model now supports a range of robot end effectors appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/",
+          "published_at": "2026-07-24T18:23:42+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "NEURA Robotics与亚琛工业大学共建物理AI训练场",
+      "english_term": "physical AI（物理AI，指具备物理世界交互能力的智能系统）",
+      "summary": "德国人形机器人公司NEURA Robotics宣布与亚琛工业大学合作建立NEURA Gym RWTH Aachen，作为全球十个物理AI训练设施之一。",
+      "script": "欧洲人形机器人产业方面，德国公司NEURA Robotics传来产学合作新进展。据The Robot Report报道，NEURA Robotics宣布与德国亚琛工业大学合作，共同建立名为NEURA Gym RWTH Aachen的训练设施，这是该公司计划在全球布局的十个物理AI训练场地之一。所谓物理AI，指的是那些需要在真实物理世界中进行感知、决策和动作执行的人工智能系统，与只处理文本或图像的传统AI模型不同，物理AI必须应对真实世界中的摩擦、重力、接触力等复杂物理约束，这也是当前人形机器人和具身智能研究的核心难点之一。这类训练场通常会配备真实的机器人硬件、丰富的传感器阵列以及可控的实验环境，用于采集大规模的真实交互数据，支撑机器人在操作、行走、抓取等任务上的技能学习和策略优化。此次合作值得关注的背景在于，欧洲此前在人形机器人领域的产业化进度相对北美和东亚略显滞后，而德国作为传统工业强国，近年来正在通过NEURA、以及此前IEEE Spectrum报道的意大利人形机器人项目等案例，加快在人形机器人整机与核心技术上的追赶步伐。与高校合作建立专用训练场，既能够为公司提供长期稳定的算法与数据积累渠道，也能够为高校的机器人及人工智能研究提供真实产业场景的实验平台，是一种较为常见的产学研协同模式。目前该报道未披露具体的投资规模、训练场建成时间表以及首批研究方向。后续需要等待NEURA Robotics或亚琛工业大学公布更详细的建设进度与合作细则。",
+      "duration_seconds": 160,
+      "is_unverified": false,
+      "confidence_note": "The Robot Report为机器人行业专业媒体的一手报道，信息来自公司公告，具体细节如投资规模等尚未披露。",
+      "fact_status": {
+        "confirmed": [
+          "NEURA Robotics与亚琛工业大学建立NEURA Gym RWTH Aachen训练设施"
+        ],
+        "claims": [
+          "公司称该设施是全球十个物理AI训练场地之一"
+        ],
+        "analysis": [
+          "产学合作有助于欧洲在人形机器人核心技术上追赶北美与东亚同行"
+        ]
+      },
+      "source_ids": [
+        "ceae8e0f47bb3850"
+      ],
+      "sources": [
+        {
+          "id": "ceae8e0f47bb3850",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI",
+          "summary": "NEURA Robotics has partnered with a German university for NEURA Gym RWTH Aachen, one of 10 facilities for training physical AI. The post NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/",
+          "published_at": "2026-07-24T12:30:42+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "IEEE Spectrum一周机器人视频精选：意大利人形机器人亮相",
+      "english_term": "humanoid robot（人形机器人）",
+      "summary": "IEEE Spectrum本周的机器人视频精选栏目介绍了一款新公开的意大利人形机器人，并列出近期重要机器人学术会议日程，包括IROS 2026与首尔人形机器人峰会。",
+      "script": "学术与会议动态方面，权威机器人媒体IEEE Spectrum照例发布了每周精选机器人视频栏目Video Friday，本期焦点是一款新公开亮相的意大利人形机器人项目。虽然具体技术参数在摘要中未详细展开，但IEEE Spectrum同时列出了近期一系列值得关注的机器人学术活动日程：包括将于7月29日至8月4日在布拉格举行的多机器人系统暑期学校，8月18日至19日在旧金山举行的Actuate 2026产业会议，9月27日至10月1日在匹兹堡举行的国际智能机器人与系统大会IROS 2026，以及9月22日至23日在首尔举行的人形机器人峰会。IROS作为机器人与自动化领域的顶级学术会议之一，每年都会汇聚全球在感知、控制、强化学习、仿真、执行器等各个子方向上的最新研究成果，是观察学术界研究热点走向的重要窗口。而首尔人形机器人峰会与旧金山的Actuate大会则更偏向产业界视角，聚焦人形机器人在实际部署中的商业化路径和技术挑战。这些会议日程的密集程度，也从侧面反映出当前全球机器人产业和学术界围绕人形机器人与物理AI的投入热度持续高涨。目前关于意大利人形机器人项目本身的具体性能指标、研发团队信息尚未见更详细的独立报道。后续需要关注IROS 2026等会议上是否会有更多关于人形机器人控制、感知融合等方向的重要论文发布。",
+      "duration_seconds": 140,
+      "is_unverified": false,
+      "confidence_note": "IEEE Spectrum为机器人领域权威专业媒体，此为其常规周报栏目，关于意大利人形机器人的具体细节信息有限。",
+      "fact_status": {
+        "confirmed": [
+          "IEEE Spectrum发布本周机器人视频精选，列出近期机器人学术与产业会议日程"
+        ],
+        "claims": [
+          "报道提及一款意大利人形机器人项目亮相，具体细节未展开"
+        ],
+        "analysis": [
+          "密集的会议日程反映全球机器人产业与学术界对人形机器人和物理AI的持续高投入"
+        ]
+      },
+      "source_ids": [
+        "b12b50267da4d00d"
+      ],
+      "sources": [
+        {
+          "id": "b12b50267da4d00d",
+          "source": "IEEE Spectrum Robotics",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Video Friday: An Italian Humanoid Comes to Life",
+          "summary": "Your weekly selection of awesome robot videos Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Summer School on Multi-Robot Systems : 29 July–4 August 2026, PRAGUE Actuate 2026 : 18–19 August 2026, SAN FRANCISCO IROS 2026 : 27 September–1 October 2026, PITTSBURGH Humanoids Summit Seoul : 22–23 September 2026, SEOUL Enjoy today’s videos! In just six months, our team turned GENE.01 into a fully functional humanoid platform that can walk, sense and interact. Its full-body multimodal skin perceives touch, proximity, force and temperature, bringing Physical AI closer to safe and natural collaboration with people. Not a render. Not a concept. This is GENE.01. The future of Physical AI is taking its first steps. [ Generative Bionics ] Why create robot intelligence for just one hand, when we could have it learn from many? GEN-1, our latest embodied foundation model, now supports a broad range of end effectors from 5-finger hands, to specialized tools, and everything in between. Each hand is a diff",
+          "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
+          "published_at": "2026-07-24T15:30:01+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "时序数据库助力机器人实时感知数据管理",
+      "english_term": "time series database（时序数据库）",
+      "summary": "The Robot Report撰文介绍时序数据库如何帮助机器人团队管理高吞吐量传感器数据，支撑实时AI推理与大规模系统运维。",
+      "script": "机器人基础设施方面，The Robot Report近期发表了一篇技术解读文章，探讨了时序数据库在机器人系统中的应用价值。所谓时序数据库，是一类专门针对带时间戳的数据流进行优化存储和查询的数据库系统，相比传统关系型数据库，它在处理高频率、大吞吐量的连续数据写入和时间范围查询方面具有明显优势。文章指出，机器人系统通常会产生大量来自激光雷达、摄像头、惯性测量单元等多种传感器的高频数据流，这类数据具有典型的时间序列特征，如果采用传统数据库架构，往往难以满足实时性和存储效率的双重要求。而借助时序数据库，机器人团队可以更高效地实现传感器数据的实时写入、历史数据回溯分析，以及为下游的人工智能模型提供结构化的数据支撑，从而更好地支持故障诊断、性能监控和策略优化等工作。这一话题虽然不涉及具体的算法突破，但反映出当前机器人产业界对底层数据基础设施重要性的关注正在上升，尤其是在大规模机器人集群部署和长期运维场景下，数据管理效率直接影响系统的可扩展性与可靠性。这类基础设施层面的技术演进，往往是支撑机器人感知、控制与强化学习等上层技术能够规模化落地的重要前提条件。文章未披露具体厂商产品对比或性能基准测试数据。后续需要关注是否有具体机器人公司公开其时序数据库选型和实际部署效果的案例分享。",
+      "duration_seconds": 140,
+      "is_unverified": false,
+      "confidence_note": "The Robot Report为专业机器人媒体的技术科普性文章，未涉及具体量化基准测试数据，属于行业基础设施趋势介绍。",
+      "fact_status": {
+        "confirmed": [
+          "The Robot Report发表关于时序数据库在机器人领域应用的技术文章"
+        ],
+        "claims": [
+          "文章认为时序数据库有助于机器人团队管理高频传感器数据并支撑实时AI推理"
+        ],
+        "analysis": [
+          "底层数据基础设施的演进是机器人系统规模化部署的重要支撑条件"
+        ]
+      },
+      "source_ids": [
+        "1d26de1e421bd8ee"
+      ],
+      "sources": [
+        {
+          "id": "1d26de1e421bd8ee",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "How time series databases unlock real-time data for robotics",
+          "summary": "Discover how time series databases help robotics teams manage high-volume sensor data, power AI insights, and keep systems running at scale. The post How time series databases unlock real-time data for robotics appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/how-time-series-databases-unlock-real-time-data-for-robotics/",
+          "published_at": "2026-07-24T16:28:39+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -257,204 +244,251 @@
     },
     {
       "category": "world",
-      "title": "南非法院暂停总统拉马福萨弹劾调查程序",
+      "title": "ICC成员国投票罢免首席检察官卡里姆·汗",
       "english_term": null,
-      "summary": "南非法院裁定暂停针对总统拉马福萨的弹劾调查程序，此案源于其农场遭窃引发的“农场门”丑闻。",
-      "script": "南非国内政治出现新进展。南非法院裁定暂停针对总统西里尔·拉马福萨的弹劾调查程序，这起案件的源头是所谓的“农场门”丑闻，也就是2020年发生在总统私人农场的一起大额现金失窃事件，事后引发外界对这笔资金来源和处理方式的持续质疑。这起丑闻的影响力不小，2022年时甚至一度威胁到拉马福萨在非洲人国民大会党内的领导地位。已确认的事实是，南非法院此次作出裁定，暂时叫停了针对总统的弹劾调查程序，这意味着相关调查在法律程序上被按下了暂停键，但并不等同于案件本身被撤销或者总统被免除嫌疑。目前公开报道中对法院裁定的具体法律理由和后续时间表着墨不多。分析层面看，这一裁定短期内为拉马福萨政府争取到了喘息空间，避免了弹劾调查程序在当前阶段继续推进对其执政形成的政治压力，但农场门丑闻本身涉及的资金来源和申报问题并未得到实质性澄清，未来这一案件仍有可能重新进入司法或议会程序。对于南非国内政治生态而言，这起事件也反映出该国在应对高层腐败指控方面司法与议会程序之间存在的张力。后续需要关注法院裁定的具体法律依据全文，以及弹劾调查程序是否会在未来某个时间点重新启动。",
-      "duration_seconds": 120,
+      "summary": "国际刑事法院成员国投票罢免首席检察官卡里姆·汗，此前他曾面临性行为不端指控，美国政府表示将尽力削弱该法院。",
+      "script": "国际司法领域，一项重要人事变动值得关注。据NPR报道，国际刑事法院（ICC）成员国于上周五投票，正式罢免了首席检察官卡里姆·汗的职务。这一决定距离针对他的性行为不端指控首次曝光，已经过去了将近两年时间。国际刑事法院的监督机构宣布了这一投票结果。与此同时，NPR报道称，美国特朗普政府已表态将尽一切可能削弱这一国际司法机构。已确认事实是，ICC成员国投票通过了罢免卡里姆·汗的决定，相关指控最早于近两年前浮出水面。各方主张方面，美国政府将此事作为其一贯批评和削弱ICC的又一论据，明确表态将采取行动限制该机构的运作能力，但报道中未详细说明具体会采取哪些措施。分析判断认为，此次人事变动发生在ICC本已因美国等多国的政治压力而处于艰难运作环境的背景下，首席检察官的职位空缺可能进一步影响该机构在推进相关国际案件调查工作上的连续性和效率。值得一提的是，几乎在同一时期，联合国大会也以144票赞成、10票反对的结果，批准联合国人权事务高级专员图尔克获得新一届四年任期，尽管美国、以色列和俄罗斯对此表示反对。这两起事件都从不同侧面反映出，当前国际多边机构在大国博弈加剧的背景下，其人事任免和职能运作正面临更为复杂的政治压力。后续需要等待ICC公布继任检察官人选，以及美国政府是否会采取具体的限制性措施。",
+      "duration_seconds": 140,
       "is_unverified": false,
-      "confidence_note": "BBC World与Al Jazeera两家独立Tier 2媒体均报道了此次法院裁定，信息可互相印证，但裁定的具体法律细节和后续程序时间表尚不明确。",
+      "confidence_note": "NPR为独立二级来源，两篇报道均确认了投票罢免的核心事实；关于美方具体将采取何种限制措施，报道中表述较为笼统。",
       "fact_status": {
         "confirmed": [
-          "南非法院裁定暂停针对总统拉马福萨的弹劾调查程序",
-          "该案件源于2020年其私人农场发生的大额现金失窃事件"
+          "ICC成员国投票罢免首席检察官卡里姆·汗",
+          "相关指控最早于近两年前曝光"
         ],
         "claims": [
-          "该丑闻曾在2022年一度威胁到拉马福萨在非洲人国民大会党内的领导地位"
+          "美国政府表态将尽力削弱ICC"
         ],
         "analysis": [
-          "此次裁定为总统争取到短期政治喘息空间，但案件核心的资金来源问题尚未得到实质澄清"
+          "职位空缺可能影响ICC相关案件调查的连续性",
+          "反映大国博弈下国际多边机构运作压力上升"
         ]
       },
       "source_ids": [
-        "72c761b60abc740f",
-        "978408c3638471ee"
+        "41e6c524a33b1f34",
+        "c236b647da571e1b"
       ],
       "sources": [
         {
-          "id": "72c761b60abc740f",
+          "id": "41e6c524a33b1f34",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "ICC member states vote to remove chief prosecutor Karim Khan",
+          "summary": "The International Criminal Court voted to remove the global tribunal's chief prosecutor on Friday, nearly two years after sexual misconduct allegations against him first emerged, the court's oversight body announced.",
+          "url": "https://www.npr.org/2026/07/24/g-s1-135498/icc-court-prosecutor-karim-khan-vote",
+          "published_at": "2026-07-24T21:37:37+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "c236b647da571e1b",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "ICC member nations vote to remove chief prosecutor",
+          "summary": "Member nations voted to remove chief prosecutor Karim Khan on Friday and the Trump administration is vowing to do whatever it can to dismantle the court.",
+          "url": "https://www.npr.org/2026/07/24/nx-s1-5901054/icc-member-nations-vote-to-remove-chief-prosecutor",
+          "published_at": "2026-07-24T20:25:58+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "欧洲多国山火肆虐，20万人被迫撤离",
+      "english_term": null,
+      "summary": "法国、西班牙、意大利持续遭受高温干旱天气与强风影响，山火蔓延导致约20万人被迫撤离家园，多国已宣布进入紧急状态。",
+      "script": "欧洲气候与灾害方面，据DW报道，法国、西班牙和意大利近期持续遭受炎热干燥天气和强风的双重影响，山火在多地蔓延，摧毁了大片土地，迫使当局采取大规模疏散措施。报道指出，目前已有约20万人被迫离开家园，多个国家已经宣布进入国家紧急状态，而危险状况仍在持续。已确认事实是，法国、西班牙、意大利三国均出现山火蔓延情况，约20万人已被迫撤离，多国宣布进入紧急状态。分析判断认为，持续的高温干旱天气叠加强风条件，是导致今年欧洲南部山火强度和蔓延速度显著上升的直接气象原因，而这种极端天气模式近年来在南欧夏季呈现出常态化的趋势。大规模山火不仅直接威胁人员生命安全和财产损失，也会对当地生态系统、空气质量以及旅游业等经济活动造成较长时间的负面影响，此外森林碳汇能力的短期损失也会对区域乃至全球的碳排放平衡产生一定影响。从应对层面看，此次多国同时宣布紧急状态并组织大规模撤离，反映出相关国家已经建立起较为成熟的灾害预警和应急响应机制，但也说明单一国家层面的资源调配在应对跨境规模的极端天气事件时仍面临压力，这也是近年来欧盟层面持续讨论加强跨国应急协调机制的现实背景之一。报道未详细说明具体火灾造成的人员伤亡数据以及经济损失评估。后续需要等待相关国家官方机构公布最终的受灾面积统计和撤离人员安置进展。",
+      "duration_seconds": 140,
+      "is_unverified": false,
+      "confidence_note": "DW为独立二级来源，报道了三国山火与撤离规模的基本事实，但未提供具体伤亡与经济损失的量化数据。",
+      "fact_status": {
+        "confirmed": [
+          "法国、西班牙、意大利均出现山火蔓延",
+          "约20万人被迫撤离",
+          "多国宣布进入紧急状态"
+        ],
+        "claims": [],
+        "analysis": [
+          "高温干旱叠加强风是山火加剧的直接气象因素",
+          "反映欧洲南部极端天气常态化趋势及跨国应急协调压力"
+        ]
+      },
+      "source_ids": [
+        "6887e1f9c6b60f6c"
+      ],
+      "sources": [
+        {
+          "id": "6887e1f9c6b60f6c",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Europe wildfires rage on, forcing 200,000 from homes",
+          "summary": "Hot, arid weather and strong winds have continued to fuel wildfires in France, Spain and Italy, devastating huge swaths of land and forcing mass evacuations. As national emergencies are declared, the danger remains.",
+          "url": "https://www.dw.com/en/europe-wildfires-rage-on-forcing-200-000-from-homes/a-78109406?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-25T08:17:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "印度教育部长在“蟑螂”抗议持续数周后辞职",
+      "english_term": null,
+      "summary": "印度教育部长达尔门德拉·普拉丹在被称为“蟑螂”的全国性抗议持续数周后宣布辞职，这是莫迪政府面对示威作出的首个重大让步。",
+      "script": "南亚政治方面，据半岛电视台报道，印度教育部长达尔门德拉·普拉丹已宣布辞职，此前印度全国爆发了持续数周、被抗议者称为“蟑螂”运动的示威活动。报道称，这是印度总理莫迪政府在此轮全国性示威压力下作出的首个重大让步。已确认事实是，达尔门德拉·普拉丹已经正式辞去教育部长职务，此前全国范围内已持续数周相关抗议活动。各方主张方面，抗议者一方将此次抗议定性为对教育政策或相关治理问题的不满表达，具体诉求细节在摘要中未详细展开；而政府方面接受部长辞职，被媒体解读为一种政治让步姿态，但莫迪政府本身尚未就抗议核心诉求做出全面回应。分析判断认为，一位内阁部长在全国性抗议压力下辞职，通常被视为执政党在面对社会压力时愿意做出有限度调整的信号，但这并不必然意味着抗议所涉及的深层政策问题已经得到根本解决，教育部后续人事安排以及具体政策走向仍有待观察。这一事件也反映出，即便是在议会多数稳固的执政环境下，大规模、持续性的社会抗议依然能够对具体官员的政治前途产生实质影响。报道未详细说明抗议运动“蟑螂”这一名称的具体来源和抗议者的核心诉求清单。后续需要等待印度政府公布继任教育部长人选，以及抗议活动是否会因这一让步而降温。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "半岛电视台为独立二级来源，报道确认了辞职事实，但对抗议运动具体诉求和名称来源的背景说明有限。",
+      "fact_status": {
+        "confirmed": [
+          "印度教育部长达尔门德拉·普拉丹宣布辞职",
+          "此前已发生持续数周的全国性抗议"
+        ],
+        "claims": [
+          "报道称这是莫迪政府面对抗议的首个重大让步"
+        ],
+        "analysis": [
+          "部长辞职是政治让步信号，但抗议核心诉求是否解决仍待观察"
+        ]
+      },
+      "source_ids": [
+        "d052c0e3d164697c"
+      ],
+      "sources": [
+        {
+          "id": "d052c0e3d164697c",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "South African court pauses impeachment process against president",
-          "summary": "The 'Farmgate' scandal nearly cost President Cyril Ramaphosa the leadership of his African National Congress in 2022.",
-          "url": "https://www.aljazeera.com/news/2026/7/24/south-african-court-pauses-impeachment-process-against-president?traffic_source=rss",
-          "published_at": "2026-07-24T10:39:47+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "978408c3638471ee",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
-          "summary": "Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020.",
-          "url": "https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-24T10:34:04+00:00",
+          "title": "India’s education minister resigns after weeks of ‘Cockroach’ protests",
+          "summary": "Dharmendra Pradhan quits in first major concession from PM Narendra Modi's government after nationwide demonstrations.",
+          "url": "https://www.aljazeera.com/news/2026/7/25/indias-education-minister-resigns-after-weeks-of-cockroach-protests?traffic_source=rss",
+          "published_at": "2026-07-25T08:54:20+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "法国滨海旅游胜地卡普费雷半岛因山火全境撤离",
-      "english_term": null,
-      "summary": "法国西南部野火持续多日蔓延，当局下令对卡普费雷半岛实施全境撤离，数万游客和居民受到影响。",
-      "script": "欧洲夏季山火灾情持续升级。法国西南部一处知名滨海旅游胜地卡普费雷半岛，因野火已经连续燃烧数日且持续蔓延，当地政府下令对整个半岛实施撤离，数以万计的游客和居民受到直接影响。已确认的事实是，火势已经在该地区持续肆虐多日，当局最终决定将撤离范围扩大到整个半岛，这是一个规模相当大的应急响应决定，说明当地火情已经对居民和游客的人身安全构成了直接威胁。目前公开报道中对火灾起因、过火面积以及具体伤亡情况的信息还比较有限。分析层面看，近年来欧洲南部夏季山火频率和强度呈现上升趋势，与持续的高温和干燥天气模式有关，法国、希腊、西班牙等地中海沿岸国家近几年都多次出现类似的大规模撤离事件。卡普费雷半岛作为热门旅游目的地，此次撤离不仅涉及应急安全问题，也会对当地旅游经济造成短期冲击，尤其是在夏季旅游旺季期间。后续需要关注火势是否得到控制、撤离人员何时能够返回，以及当地政府和消防部门对此次火灾起因的调查结果。",
-      "duration_seconds": 100,
+      "category": "science",
+      "title": "NASA火星探测器ESCAPADE拍摄地月合影，任务持续推进",
+      "english_term": "ESCAPADE（逃逸与等离子体加速动力学探测器）",
+      "summary": "NASA两颗火星探测器之一在飞往火星途中拍摄了地球与月球的合影，同时NASA还宣布了新的月球轨道技术演示任务与新一批国际空间站乘组成员的到访。",
+      "script": "航天科学方面，NASA本周发布了多条任务进展消息。首先，据NASA官方报道，其两颗火星探测器之一，也就是ESCAPADE探测器，也就是逃逸与等离子体加速动力学探测器，在7月3日拍摄到了一张地球与月球的合影，同时使用了可见光和热红外两种波段。当时探测器距离地球约36.3万英里，距离月球约11.6万英里，由于距离原因，月球在照片中显得相对更小。这类深空影像虽然不直接产生科学数据突破，但对于任务团队校验相机成像系统、确认探测器姿态和轨道状态具有重要的工程验证意义。与此同时，NASA还宣布了一项新的月球轨道技术演示任务，将与工业界合作推进阿尔忒弥斯计划下一阶段的月球轨道基础设施建设，其中包括授予Advanced Space公司的CAPSTONE 02任务合同，该任务将演示交会与近距离操作、自主导航以及月地通信能力，同时继续开展相关轨道特性研究。此外，NASA还与蓝色起源公司达成协议，将在NASA斯坦尼斯航天中心的B-2测试台，为蓝色起源的新格伦火箭开展第二级热试车测试，这也是双方今年早些时候签署的一份可报销太空法案协议的补充条款。另外，国际空间站方面，来自俄罗斯联邦航天局的安娜·基基娜、彼得·杜布罗夫，以及NASA的阿尼尔·梅农三名航天员，已于7月14日抵达国际空间站，成为第74远征队的新任飞行工程师。这些消息共同勾勒出当前美国及其国际合作伙伴在近地轨道运营、月球基础设施建设和深空探测三条线上同步推进的整体图景。后续需要等待CAPSTONE 02任务具体发射时间表的公布，以及新格伦火箭热试车测试的实际进展。",
+      "duration_seconds": 170,
       "is_unverified": false,
-      "confidence_note": "来自BBC World的Tier 2权威报道，具体伤亡和财产损失数据尚未完全披露，需持续关注官方通报。",
+      "confidence_note": "全部信息均来自NASA官方一手发布，为一级权威来源，可信度高。",
       "fact_status": {
         "confirmed": [
-          "法国卡普费雷半岛因野火持续蔓延已实施全境撤离"
-        ],
-        "claims": [
-          "撤离涉及数万游客和居民，具体数字由报道描述"
-        ],
-        "analysis": [
-          "此次事件被置于近年来欧洲南部夏季山火频发的大背景下看待"
-        ]
-      },
-      "source_ids": [
-        "65a60e0c92016951"
-      ],
-      "sources": [
-        {
-          "id": "65a60e0c92016951",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Tens of thousands evacuated from French tourist spot as wildfires spread",
-          "summary": "The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula.",
-          "url": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-24T10:50:26+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "finance",
-      "title": "欧洲央行推进气候因素纳入抵押品框架及回购便利改革",
-      "english_term": "collateral framework（抵押品框架，指央行在向银行提供流动性时接受作为担保品的资产种类和估值规则体系）",
-      "summary": "欧洲央行宣布将气候因素评估扩大到非金融企业信贷债权的抵押品框架，并同步推进面向中央银行的增强型回购便利机制。",
-      "script": "来看一条金融监管领域的消息。欧洲央行发布公告，宣布将把气候相关因素的评估范围，进一步扩大到非金融企业信贷债权在欧元体系抵押品框架中的使用。所谓抵押品框架，是指商业银行在向央行申请流动性支持时，需要提供符合央行标准的资产作为担保，央行会对这些抵押品设定准入标准和估值折扣。此次改革意味着，企业发行的信贷债权在被商业银行用作抵押品时，其气候相关风险因素将被纳入评估考量，这是欧洲央行近年来持续推进货币政策工具绿色化改革的又一步。与此同时，欧洲央行还宣布将启动面向中央银行的增强型回购便利机制，回购便利是央行向其他央行提供本币流动性支持的一种工具，通常用于应对国际金融市场的流动性紧张状况。此外欧洲央行还公布了6月份关于欧元计价证券融资和场外衍生品市场信贷条件的调查结果，为观察欧元区金融市场信贷环境提供了数据参考。这几项动作合在一起，反映出欧洲央行在两个方向上同时发力：一是继续将气候风险因素嵌入到核心货币政策操作框架中，二是加强对国际流动性风险的防范工具储备。对于市场参与者而言，抵押品标准的调整可能会影响企业债权类资产的融资便利性和成本。后续需要关注具体实施细则和时间表，以及非金融企业信贷债权发行方对此项政策变化的反应。",
-      "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "均来自欧洲央行官方新闻稿，属于Tier 1一手信源，信息权威但具体实施细则仍需等待后续公告。",
-      "fact_status": {
-        "confirmed": [
-          "欧洲央行宣布扩大气候因素在抵押品框架中对非金融企业信贷债权的适用范围",
-          "欧洲央行宣布将启动面向中央银行的增强型回购便利机制"
+          "ESCAPADE探测器于7月3日拍摄地月合影",
+          "NASA与Advanced Space签署CAPSTONE 02合同",
+          "NASA与蓝色起源达成新格伦火箭热试车测试协议",
+          "三名新航天员于7月14日抵达国际空间站"
         ],
         "claims": [],
         "analysis": [
-          "两项举措共同反映出欧洲央行在推进货币政策工具绿色化与加强国际流动性风险防范上的双重方向"
+          "多线任务并进反映美国航天在近地轨道、月球基础设施与深空探测领域的同步布局"
         ]
       },
       "source_ids": [
-        "bca56ba430be7a28",
-        "23a0071f09993b02",
-        "a0d64320ff12a04b"
+        "26ebf675beff2f93",
+        "f08f32f46ca8e1ce",
+        "7df811ab5cc16146",
+        "3dad5df200b6a1f3"
       ],
       "sources": [
         {
-          "id": "bca56ba430be7a28",
-          "source": "European Central Bank Press Releases",
+          "id": "26ebf675beff2f93",
+          "source": "NASA",
           "source_tier": 1,
-          "source_region": "eu",
+          "source_region": "us",
           "language": "en",
-          "category_hint": "finance",
-          "title": "ECB to extend use of climate factors in Eurosystem collateral framework to non-financial corporate credit claims",
-          "summary": "",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_4~f082ce289d.en.html",
-          "published_at": "2026-07-24T10:00:00+00:00",
+          "category_hint": "science",
+          "title": "NASA’s ESCAPADE Snaps Family Portrait of Earth, Moon",
+          "summary": "On July 3, one of NASA’s two Mars-destined ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft captured photos of Earth and the Moon in visible and thermal infrared light. At the time, the spacecraft was 363,250 miles (584,600 kilometers) from Earth and 115,600 miles (186,100 kilometers) from the Moon, making the Moon appear relatively […]",
+          "url": "https://science.nasa.gov/image-article/centers-and-facilities/goddard/nasas-escapade-snaps-family-portrait-of-earth-moon/",
+          "published_at": "2026-07-24T17:47:06+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "23a0071f09993b02",
-          "source": "European Central Bank Press Releases",
+          "id": "f08f32f46ca8e1ce",
+          "source": "NASA",
           "source_tier": 1,
-          "source_region": "eu",
+          "source_region": "us",
           "language": "en",
-          "category_hint": "finance",
-          "title": "ECB to start implementing enhanced repo facility for central banks",
-          "summary": "",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_2~d7d475d2f0.en.html",
-          "published_at": "2026-07-24T08:30:00+00:00",
+          "category_hint": "science",
+          "title": "NASA Announces New Spacecraft Technology Demonstration Mission at Moon",
+          "summary": "NASA is working with industry to advance the next phase of cislunar infrastructure for the agency’s Artemis program and Moon Base, including orbital assets and demonstrations. Under a contract awarded to Advanced Space, the agency’s CAPSTONE 02 mission will demonstrate rendezvous and proximity operations, autonomous navigation, and cislunar communication capabilities while continuing to characterize the […]",
+          "url": "https://www.nasa.gov/directorates/armd/nasa-announces-new-spacecraft-technology-demonstration-mission-at-moon/",
+          "published_at": "2026-07-24T16:35:46+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "a0d64320ff12a04b",
-          "source": "European Central Bank Press Releases",
+          "id": "7df811ab5cc16146",
+          "source": "NASA",
           "source_tier": 1,
-          "source_region": "eu",
+          "source_region": "us",
           "language": "en",
-          "category_hint": "finance",
-          "title": "Results of the June 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
-          "summary": "",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_3~c0b45e246f.en.html",
-          "published_at": "2026-07-24T09:00:00+00:00",
+          "category_hint": "science",
+          "title": "NASA to Support Blue Origin New Glenn Rocket Testing, Advance Artemis",
+          "summary": "NASA and Blue Origin announced Friday they recently agreed to conduct second stage hot fire testing for the company’s New Glenn rocket on the B-2 test stand at the agency’s Stennis Space Center near Bay St. Louis, Mississippi. The annex to a reimbursable Space Act Agreement signed earlier this month highlights NASA’s commitment to working […]",
+          "url": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/",
+          "published_at": "2026-07-24T15:30:21+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "3dad5df200b6a1f3",
+          "source": "NASA",
+          "source_tier": 1,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "science",
+          "title": "New Crew Members Welcomed to International Space Station",
+          "summary": "From left, Expedition 74 flight engineers Anna Kikina and Pyotr Dubrov of Roscosmos, and Anil Menon of NASA pose for a July 18, 2026, photo while holding a cake celebrating their recent arrival aboard the International Space Station. The trio arrived at the space station on July 14, 2026, after launching from the Baikonur Cosmodrome […]",
+          "url": "https://www.nasa.gov/image-article/new-crew-members-welcomed-to-international-space-station/",
+          "published_at": "2026-07-24T16:43:02+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的早报中，机器人产业的融资热度依然高涨，从可变形物体操作到触觉生成算法，产业与学术两条线都在加速推进；国际政治层面，关税争议和南非弹劾案的后续发展值得持续关注。感谢收听，我们明天同一时间再见。",
-  "editor_note": "本次修订后机器人类目共选取4个事件（英国轮式人形机器人融资、ATOMS融资、学术三篇论文速览、Ropedia融资），移除AMD芯片发布和上海电气WAIC展示两条，以将机器人时长占比控制在45%-55%区间内；世界类保留3个事件（关税争议、南非弹劾案、法国山火），金融类保留1个合并欧洲央行三条同源公告的事件。学术论文均为arXiv预印本，未经同行评审，已在稿件中明确说明局限性；英国轮式人形机器人融资、AMD芯片报道等单一来源信息已标注置信度说明。全稿总长度与时长已按机器人占比要求重新校准。",
+  "closing": "今天需要继续关注的是：中东局势能否进一步降温，国际油价走势如何演变；机器人基础模型跨硬件泛化能力是否会有更多第三方评测结果公布；IROS 2026等即将召开的学术会议是否会带来新的机器人核心技术突破。",
+  "editor_note": "本期机器人类候选中，多条PETA机器狗相关报道内容重复且价值有限（Tier 3来源、多家地方媒体转载同一事件），已合并舍弃，未单独成稿；标题党类内容（如“Dry Begging”“Geppy-X动画评测”）与机器人科技无实质关联，已剔除。机器人部分选取了三个独立来源（The Robot Report两篇、IEEE Spectrum一篇），覆盖了产业（基础模型、产学合作）与基础设施技术两个方向，人形机器人学术会议动态作为补充。ECB相关金融类候选因摘要为空、缺乏具体内容支撑，未单独成稿。OpenAI黑客事件因仅有BBC一家来源且细节存疑，评估后未选入以避免单一来源支撑重大结论。",
   "model": "claude-sonnet-5",
-  "generation_usage": [
-    {
-      "input_tokens": 9335,
-      "output_tokens": 10977,
-      "total_tokens": 20312
-    },
-    {
-      "input_tokens": 12835,
-      "output_tokens": 8628,
-      "total_tokens": 21463
-    }
-  ],
   "usage": {
-    "input_tokens": 22170,
-    "output_tokens": 19605,
-    "total_tokens": 41775
+    "input_tokens": 8772,
+    "output_tokens": 9922,
+    "total_tokens": 18694
   },
-  "generated_at": "2026-07-24T11:14:53+00:00",
-  "window_start": "2026-07-23T11:14:53+00:00",
-  "candidate_count": 254,
+  "generated_at": "2026-07-25T11:13:31+00:00",
+  "window_start": "2026-07-24T11:13:31+00:00",
+  "candidate_count": 179,
   "source_errors": [
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
-  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1065,
-    "script_characters": 4165,
-    "topic_duration_share": 0.545,
+    "duration_seconds": 1315,
+    "script_characters": 5154,
+    "topic_duration_share": 0.452,
     "passed": true,
-    "normal_target_met": false,
-    "topic_source_count": 3,
+    "normal_target_met": true,
+    "topic_source_count": 2,
     "issues": []
   }
 }
