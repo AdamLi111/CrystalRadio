@@ -1,340 +1,96 @@
 {
-  "title": "晶球电台早报：石油破百、伊朗局势升级，机器人基座模型与人形机器人新动态",
-  "subtitle": "地缘政治风险急剧升温，机器人产业与学术并进：GEN-1支持多种末端执行器，NEURA与亚琛工大共建物理AI训练场",
+  "title": "晶球电台早报：柏林骄傲游行遇袭、法国西班牙山火蔓延，机器人产业融资与诉讼齐飞",
+  "subtitle": "从柏林恐袭到印度示威，从Ottava手术机器人到送货机器人被告上法庭，今天的世界既紧张又忙碌",
   "highlights": [
-    "胡塞武装袭击沙特油轮，国际油价飙升至每桶100美元，特朗普威胁对伊朗发动大规模打击",
-    "机器人基础模型公司Generalist发布GEN-1更新，单一模型可适配多种机械手末端执行器",
-    "NEURA Robotics与德国亚琛工业大学共建物理AI训练场，欧洲人形机器人产学合作加深"
+    "柏林骄傲游行遭车辆冲撞袭击，一人死亡多人受伤，嫌疑人在逃",
+    "法国、西班牙山火持续蔓延，超过34万人被疏散",
+    "强生Ottava手术机器人首次公开亮相，主打手术室空间优化",
+    "新加坡机器人公司Ropedia获3000万美元融资，专注模仿学习做家务",
+    "美国送货机器人公司因撞伤73岁老人被起诉"
   ],
   "stories": [
     {
       "category": "world",
-      "title": "胡塞袭击沙特油轮致油价破百，特朗普威胁对伊朗发动大规模打击",
-      "english_term": null,
-      "summary": "伊朗支持的胡塞武装宣称对沙特发动导弹与袭船行动，国际油价飙升至每桶100美元；美国已对伊朗展开连续13个夜晚的空袭，特朗普称正考虑发动更大规模行动。",
-      "script": "国际局势方面，中东风险骤然升级。据BBC与NPR报道，伊朗支持的also门胡塞武装宣称对沙特阿拉伯发动了导弹袭击，同时在红海袭击了两艘沙特油轮。美军方面表示已经瘫痪了一艘试图突破美国对伊朗港口封锁的油轮。受此影响，国际油价一举突破每桶100美元，创下阶段性新高。与此同时，美国已经对伊朗展开了连续十三个夜晚的空袭行动，德黑兰方面也对美国在海湾地区的目标发动了报复性袭击。特朗普总统在采访中表示，自己正接近做出是否发动一场大规模打击的决定。已确认事实是：胡塞武装确认对沙特发动了袭击，美方确认对一艘油轮采取了瘫痪行动，国际油价已经涨至每桶100美元一线，美国对伊朗的空袭已持续十三个夜晚。各方主张方面，胡塞武装将行动定性为对以色列在加沙军事行动的回应性支持，美方则将自身空袭定性为对伊朗核与地区军事能力的必要遏制，特朗普本人多次公开表态考虑升级打击规模，但尚未明确具体时间与打击范围。分析判断认为，红海航运安全与霍尔木兹海峡局势的联动效应，是当前油价上涨的核心驱动因素之一，如果冲突进一步扩大，全球能源市场和地缘政治格局都可能受到连锁冲击。与此同时，特朗普政府近期还宣布以新一轮关税措施取代到期的旧关税安排，这也为全球贸易环境增添了新的不确定性。后续需要等待美方是否正式宣布升级打击的具体决定，也需要关注国际油价在冲突持续背景下的走势变化。",
-      "duration_seconds": 145,
+      "title": "柏林骄傲游行遭车辆冲撞袭击，一人死亡数人受伤",
+      "english_term": "CSD（Christopher Street Day，德国同志骄傲游行）",
+      "summary": "上周六晚，一辆车辆冲入柏林骄傲游行人群，造成一人死亡、多人受伤，警方已锁定一名21岁嫌疑人但尚未将其抓获。",
+      "script": "我们从柏林的一起严重安全事件说起。上周六晚，一辆车辆冲入正在举行的柏林骄傲游行——也就是德语里常说的CSD活动人群中，造成一人死亡，另有多人受伤。柏林警方随后确认，已经锁定一名21岁的嫌疑人，这名嫌疑人此前就为警方所知，据称与伊斯兰主义相关圈子有关联，但截至目前警方仍未将其抓获，全城搜捕仍在进行。目前已确认的事实是：袭击发生在骄傲游行现场，造成人员伤亡，警方已经公开嫌疑人身份信息但未公布姓名，抓捕行动仍在持续。各方主张方面，警方将嫌疑人背景与伊斯兰主义圈子挂钩的说法，目前还需要更多细节支撑，包括嫌疑人此前是否曾因相关活动被警方记录在案。分析判断上，媒体普遍将这起事件与近年来多起“车辆冲撞人群”式袭击相提并论，包括美国、加拿大和中国都曾出现过类似手法的攻击，这种低门槛、难以提前预警的袭击方式，近年来在安全部门评估中被反复提及。目前案件仍在调查阶段，嫌疑人动机、是否有同伙、以及与既往极端主义网络的关联，都还需要警方进一步通报。后续需要等待柏林警方公布嫌疑人抓捕进展和调查结果。",
+      "duration_seconds": 115,
       "is_unverified": false,
-      "confidence_note": "美国广播公司BBC与NPR两家独立二级来源均报道了此事件的核心事实，包括油价数据与空袭持续天数，可信度较高；但关于是否会发动大规模打击，目前仅为特朗普本人的表态，尚无官方最终决定。",
+      "confidence_note": "多家二级信源交叉确认基本事实，嫌疑人背景描述来自警方通报，但细节有限",
       "fact_status": {
         "confirmed": [
-          "胡塞武装宣称袭击沙特并称袭船",
-          "美方称瘫痪一艘油轮",
-          "国际油价升至每桶100美元",
-          "美国对伊朗空袭已持续13个夜晚"
+          "车辆冲入柏林骄傲游行人群",
+          "造成一人死亡多人受伤",
+          "警方已识别21岁嫌疑人身份但尚未抓获"
         ],
         "claims": [
-          "胡塞武装称行动与加沙局势相关",
-          "特朗普称正考虑发动大规模打击但未确认具体计划"
+          "警方称嫌疑人与伊斯兰主义圈子有关联"
         ],
         "analysis": [
-          "红海与霍尔木兹海峡局势联动可能是油价上涨主因",
-          "冲突升级存在扩大化地缘政治风险"
+          "此案被视为近年多起车辆冲撞袭击事件序列的最新一起"
         ]
       },
       "source_ids": [
-        "2f8de765c5eeed20",
-        "6b20924a7f566f50",
-        "bb57dbaa28cea106"
+        "0ca683ebf615c3e4",
+        "1eff9309376089e4",
+        "b6b66384d57759fc",
+        "e49cde841648e30d"
       ],
       "sources": [
         {
-          "id": "2f8de765c5eeed20",
+          "id": "0ca683ebf615c3e4",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-          "summary": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
-          "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-25T06:34:40+00:00",
+          "title": "What we know so far about the Berlin Pride ramming attack",
+          "summary": "A police manhunt is underway after a suspect rammed a car into a crowd at a Pride event in the German capital on Saturday night.",
+          "url": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-26T09:18:33+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "6b20924a7f566f50",
-          "source": "NPR World",
+          "id": "1eff9309376089e4",
+          "source": "BBC World",
           "source_tier": 2,
-          "source_region": "us",
+          "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Oil surges to $100 per barrel. And, Trump imposes a new round of tariffs",
-          "summary": "Oil surged to $100 per barrel after Iran-backed Houthi rebels attacked two Saudi tankers in the Red Sea. And, President Trump overnight replaced expiring tariffs with a slew of new ones.",
-          "url": "https://www.npr.org/2026/07/24/g-s1-135418/up-first-newsletter-iran-war-oil-prices-tariffs-wisconsin-corey-ruiz",
-          "published_at": "2026-07-24T11:37:58+00:00",
+          "title": "Watch: At the scene of Berlin Pride attack as manhunt continues",
+          "summary": "A 21-year-old suspect has been identified by police, but he has not been found.",
+          "url": "https://www.bbc.co.uk/news/videos/c74gzknyyz2o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-26T08:14:55+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "bb57dbaa28cea106",
+          "id": "b6b66384d57759fc",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Trump threatens a major escalation in Iran after 13 straight nights of strikes",
-          "summary": "The U.S. continued airstrikes in Iran while Tehran launched retaliatory attacks on U.S. targets in the Gulf, as President Trump said he was close to deciding whether to launch \"a massive attack.\"",
-          "url": "https://www.npr.org/2026/07/24/g-s1-135417/us-iran-war-updates",
-          "published_at": "2026-07-24T11:30:08+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "机器人基础模型公司Generalist更新GEN-1，支持多种机械手末端执行器",
-      "english_term": "foundation model（基础模型），end effector（末端执行器）",
-      "summary": "Generalist宣布其机器人基础模型GEN-1现已支持多种不同的机械手末端执行器，意味着单一基座模型可以跨越不同硬件平台学习感知运动策略。",
-      "script": "机器人产业方面，基础模型公司Generalist带来了一项值得关注的更新。据The Robot Report报道，Generalist宣布其机器人基础模型GEN-1现在已经支持多种不同的机械手末端执行器，也就是安装在机械臂末端、用于抓取和操作物体的执行部件，比如不同结构的夹爪或者仿人手。这意味着，同一个基座模型现在可以在配备不同末端执行器的机器人上，学习出对应的感知运动策略，也就是从传感器输入直接映射到动作输出的控制策略。这背后的技术逻辑，与近年来大模型在自然语言处理领域的路径类似：先训练一个具备通用能力的大模型，再针对不同下游任务或者不同硬件平台进行适配，而不需要为每一种机器人硬件从零开始训练一套独立的控制模型。对于机器人产业而言，末端执行器的多样性一直是限制通用机器人基础模型落地的瓶颈之一，因为不同厂商、不同应用场景往往采用完全不同的抓取机构，导致模型难以跨平台迁移。如果GEN-1这类基础模型真正能够做到跨末端执行器泛化，将大幅降低机器人厂商为新硬件重新训练控制策略的成本，也有助于推动具身智能在物流分拣、家庭服务、工业装配等不同场景中的规模化部署。目前该报道来自专业机器人媒体The Robot Report的一手报道，但公司具体的训练数据规模、跨硬件泛化的量化评测结果尚未见披露。后续需要等待Generalist公布更详细的技术报告或者第三方评测结果，以确认该基础模型在不同末端执行器之间迁移的实际效果与局限性。",
-      "duration_seconds": 155,
-      "is_unverified": false,
-      "confidence_note": "The Robot Report是机器人行业专业二级媒体，此为公司官方公告的一手报道，但缺乏第三方评测数据佐证其跨硬件泛化能力的实际效果。",
-      "fact_status": {
-        "confirmed": [
-          "Generalist宣布GEN-1模型现支持多种末端执行器"
-        ],
-        "claims": [
-          "公司称单一基座模型可学习不同机器人上的感知运动策略"
-        ],
-        "analysis": [
-          "跨末端执行器泛化若成立，有望降低机器人硬件适配成本，推动具身智能规模化落地"
-        ]
-      },
-      "source_ids": [
-        "090b3501ef32882d"
-      ],
-      "sources": [
-        {
-          "id": "090b3501ef32882d",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Generalist’s GEN-1 foundation model now supports a range of robot end effectors",
-          "summary": "By training GEN-1 to work with new hands, Generalist said a single base model can learn sensorimotor policies on different robots. The post Generalist’s GEN-1 foundation model now supports a range of robot end effectors appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/",
-          "published_at": "2026-07-24T18:23:42+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "NEURA Robotics与亚琛工业大学共建物理AI训练场",
-      "english_term": "physical AI（物理AI，指具备物理世界交互能力的智能系统）",
-      "summary": "德国人形机器人公司NEURA Robotics宣布与亚琛工业大学合作建立NEURA Gym RWTH Aachen，作为全球十个物理AI训练设施之一。",
-      "script": "欧洲人形机器人产业方面，德国公司NEURA Robotics传来产学合作新进展。据The Robot Report报道，NEURA Robotics宣布与德国亚琛工业大学合作，共同建立名为NEURA Gym RWTH Aachen的训练设施，这是该公司计划在全球布局的十个物理AI训练场地之一。所谓物理AI，指的是那些需要在真实物理世界中进行感知、决策和动作执行的人工智能系统，与只处理文本或图像的传统AI模型不同，物理AI必须应对真实世界中的摩擦、重力、接触力等复杂物理约束，这也是当前人形机器人和具身智能研究的核心难点之一。这类训练场通常会配备真实的机器人硬件、丰富的传感器阵列以及可控的实验环境，用于采集大规模的真实交互数据，支撑机器人在操作、行走、抓取等任务上的技能学习和策略优化。此次合作值得关注的背景在于，欧洲此前在人形机器人领域的产业化进度相对北美和东亚略显滞后，而德国作为传统工业强国，近年来正在通过NEURA、以及此前IEEE Spectrum报道的意大利人形机器人项目等案例，加快在人形机器人整机与核心技术上的追赶步伐。与高校合作建立专用训练场，既能够为公司提供长期稳定的算法与数据积累渠道，也能够为高校的机器人及人工智能研究提供真实产业场景的实验平台，是一种较为常见的产学研协同模式。目前该报道未披露具体的投资规模、训练场建成时间表以及首批研究方向。后续需要等待NEURA Robotics或亚琛工业大学公布更详细的建设进度与合作细则。",
-      "duration_seconds": 160,
-      "is_unverified": false,
-      "confidence_note": "The Robot Report为机器人行业专业媒体的一手报道，信息来自公司公告，具体细节如投资规模等尚未披露。",
-      "fact_status": {
-        "confirmed": [
-          "NEURA Robotics与亚琛工业大学建立NEURA Gym RWTH Aachen训练设施"
-        ],
-        "claims": [
-          "公司称该设施是全球十个物理AI训练场地之一"
-        ],
-        "analysis": [
-          "产学合作有助于欧洲在人形机器人核心技术上追赶北美与东亚同行"
-        ]
-      },
-      "source_ids": [
-        "ceae8e0f47bb3850"
-      ],
-      "sources": [
-        {
-          "id": "ceae8e0f47bb3850",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI",
-          "summary": "NEURA Robotics has partnered with a German university for NEURA Gym RWTH Aachen, one of 10 facilities for training physical AI. The post NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/",
-          "published_at": "2026-07-24T12:30:42+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "IEEE Spectrum一周机器人视频精选：意大利人形机器人亮相",
-      "english_term": "humanoid robot（人形机器人）",
-      "summary": "IEEE Spectrum本周的机器人视频精选栏目介绍了一款新公开的意大利人形机器人，并列出近期重要机器人学术会议日程，包括IROS 2026与首尔人形机器人峰会。",
-      "script": "学术与会议动态方面，权威机器人媒体IEEE Spectrum照例发布了每周精选机器人视频栏目Video Friday，本期焦点是一款新公开亮相的意大利人形机器人项目。虽然具体技术参数在摘要中未详细展开，但IEEE Spectrum同时列出了近期一系列值得关注的机器人学术活动日程：包括将于7月29日至8月4日在布拉格举行的多机器人系统暑期学校，8月18日至19日在旧金山举行的Actuate 2026产业会议，9月27日至10月1日在匹兹堡举行的国际智能机器人与系统大会IROS 2026，以及9月22日至23日在首尔举行的人形机器人峰会。IROS作为机器人与自动化领域的顶级学术会议之一，每年都会汇聚全球在感知、控制、强化学习、仿真、执行器等各个子方向上的最新研究成果，是观察学术界研究热点走向的重要窗口。而首尔人形机器人峰会与旧金山的Actuate大会则更偏向产业界视角，聚焦人形机器人在实际部署中的商业化路径和技术挑战。这些会议日程的密集程度，也从侧面反映出当前全球机器人产业和学术界围绕人形机器人与物理AI的投入热度持续高涨。目前关于意大利人形机器人项目本身的具体性能指标、研发团队信息尚未见更详细的独立报道。后续需要关注IROS 2026等会议上是否会有更多关于人形机器人控制、感知融合等方向的重要论文发布。",
-      "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "IEEE Spectrum为机器人领域权威专业媒体，此为其常规周报栏目，关于意大利人形机器人的具体细节信息有限。",
-      "fact_status": {
-        "confirmed": [
-          "IEEE Spectrum发布本周机器人视频精选，列出近期机器人学术与产业会议日程"
-        ],
-        "claims": [
-          "报道提及一款意大利人形机器人项目亮相，具体细节未展开"
-        ],
-        "analysis": [
-          "密集的会议日程反映全球机器人产业与学术界对人形机器人和物理AI的持续高投入"
-        ]
-      },
-      "source_ids": [
-        "b12b50267da4d00d"
-      ],
-      "sources": [
-        {
-          "id": "b12b50267da4d00d",
-          "source": "IEEE Spectrum Robotics",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Video Friday: An Italian Humanoid Comes to Life",
-          "summary": "Your weekly selection of awesome robot videos Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Summer School on Multi-Robot Systems : 29 July–4 August 2026, PRAGUE Actuate 2026 : 18–19 August 2026, SAN FRANCISCO IROS 2026 : 27 September–1 October 2026, PITTSBURGH Humanoids Summit Seoul : 22–23 September 2026, SEOUL Enjoy today’s videos! In just six months, our team turned GENE.01 into a fully functional humanoid platform that can walk, sense and interact. Its full-body multimodal skin perceives touch, proximity, force and temperature, bringing Physical AI closer to safe and natural collaboration with people. Not a render. Not a concept. This is GENE.01. The future of Physical AI is taking its first steps. [ Generative Bionics ] Why create robot intelligence for just one hand, when we could have it learn from many? GEN-1, our latest embodied foundation model, now supports a broad range of end effectors from 5-finger hands, to specialized tools, and everything in between. Each hand is a diff",
-          "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
-          "published_at": "2026-07-24T15:30:01+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "时序数据库助力机器人实时感知数据管理",
-      "english_term": "time series database（时序数据库）",
-      "summary": "The Robot Report撰文介绍时序数据库如何帮助机器人团队管理高吞吐量传感器数据，支撑实时AI推理与大规模系统运维。",
-      "script": "机器人基础设施方面，The Robot Report近期发表了一篇技术解读文章，探讨了时序数据库在机器人系统中的应用价值。所谓时序数据库，是一类专门针对带时间戳的数据流进行优化存储和查询的数据库系统，相比传统关系型数据库，它在处理高频率、大吞吐量的连续数据写入和时间范围查询方面具有明显优势。文章指出，机器人系统通常会产生大量来自激光雷达、摄像头、惯性测量单元等多种传感器的高频数据流，这类数据具有典型的时间序列特征，如果采用传统数据库架构，往往难以满足实时性和存储效率的双重要求。而借助时序数据库，机器人团队可以更高效地实现传感器数据的实时写入、历史数据回溯分析，以及为下游的人工智能模型提供结构化的数据支撑，从而更好地支持故障诊断、性能监控和策略优化等工作。这一话题虽然不涉及具体的算法突破，但反映出当前机器人产业界对底层数据基础设施重要性的关注正在上升，尤其是在大规模机器人集群部署和长期运维场景下，数据管理效率直接影响系统的可扩展性与可靠性。这类基础设施层面的技术演进，往往是支撑机器人感知、控制与强化学习等上层技术能够规模化落地的重要前提条件。文章未披露具体厂商产品对比或性能基准测试数据。后续需要关注是否有具体机器人公司公开其时序数据库选型和实际部署效果的案例分享。",
-      "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "The Robot Report为专业机器人媒体的技术科普性文章，未涉及具体量化基准测试数据，属于行业基础设施趋势介绍。",
-      "fact_status": {
-        "confirmed": [
-          "The Robot Report发表关于时序数据库在机器人领域应用的技术文章"
-        ],
-        "claims": [
-          "文章认为时序数据库有助于机器人团队管理高频传感器数据并支撑实时AI推理"
-        ],
-        "analysis": [
-          "底层数据基础设施的演进是机器人系统规模化部署的重要支撑条件"
-        ]
-      },
-      "source_ids": [
-        "1d26de1e421bd8ee"
-      ],
-      "sources": [
-        {
-          "id": "1d26de1e421bd8ee",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "How time series databases unlock real-time data for robotics",
-          "summary": "Discover how time series databases help robotics teams manage high-volume sensor data, power AI insights, and keep systems running at scale. The post How time series databases unlock real-time data for robotics appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/how-time-series-databases-unlock-real-time-data-for-robotics/",
-          "published_at": "2026-07-24T16:28:39+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "ICC成员国投票罢免首席检察官卡里姆·汗",
-      "english_term": null,
-      "summary": "国际刑事法院成员国投票罢免首席检察官卡里姆·汗，此前他曾面临性行为不端指控，美国政府表示将尽力削弱该法院。",
-      "script": "国际司法领域，一项重要人事变动值得关注。据NPR报道，国际刑事法院（ICC）成员国于上周五投票，正式罢免了首席检察官卡里姆·汗的职务。这一决定距离针对他的性行为不端指控首次曝光，已经过去了将近两年时间。国际刑事法院的监督机构宣布了这一投票结果。与此同时，NPR报道称，美国特朗普政府已表态将尽一切可能削弱这一国际司法机构。已确认事实是，ICC成员国投票通过了罢免卡里姆·汗的决定，相关指控最早于近两年前浮出水面。各方主张方面，美国政府将此事作为其一贯批评和削弱ICC的又一论据，明确表态将采取行动限制该机构的运作能力，但报道中未详细说明具体会采取哪些措施。分析判断认为，此次人事变动发生在ICC本已因美国等多国的政治压力而处于艰难运作环境的背景下，首席检察官的职位空缺可能进一步影响该机构在推进相关国际案件调查工作上的连续性和效率。值得一提的是，几乎在同一时期，联合国大会也以144票赞成、10票反对的结果，批准联合国人权事务高级专员图尔克获得新一届四年任期，尽管美国、以色列和俄罗斯对此表示反对。这两起事件都从不同侧面反映出，当前国际多边机构在大国博弈加剧的背景下，其人事任免和职能运作正面临更为复杂的政治压力。后续需要等待ICC公布继任检察官人选，以及美国政府是否会采取具体的限制性措施。",
-      "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "NPR为独立二级来源，两篇报道均确认了投票罢免的核心事实；关于美方具体将采取何种限制措施，报道中表述较为笼统。",
-      "fact_status": {
-        "confirmed": [
-          "ICC成员国投票罢免首席检察官卡里姆·汗",
-          "相关指控最早于近两年前曝光"
-        ],
-        "claims": [
-          "美国政府表态将尽力削弱ICC"
-        ],
-        "analysis": [
-          "职位空缺可能影响ICC相关案件调查的连续性",
-          "反映大国博弈下国际多边机构运作压力上升"
-        ]
-      },
-      "source_ids": [
-        "41e6c524a33b1f34",
-        "c236b647da571e1b"
-      ],
-      "sources": [
-        {
-          "id": "41e6c524a33b1f34",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "ICC member states vote to remove chief prosecutor Karim Khan",
-          "summary": "The International Criminal Court voted to remove the global tribunal's chief prosecutor on Friday, nearly two years after sexual misconduct allegations against him first emerged, the court's oversight body announced.",
-          "url": "https://www.npr.org/2026/07/24/g-s1-135498/icc-court-prosecutor-karim-khan-vote",
-          "published_at": "2026-07-24T21:37:37+00:00",
+          "title": "One dead, several injured after vehicle plows through crowd at Berlin Pride event",
+          "summary": "Berlin police said they have identified a suspect who \"is known to police\" and has links to \"Islamist circles.\"",
+          "url": "https://www.npr.org/2026/07/25/nx-s1-5907997/germany-lgbtq-event-dead-injured-pride",
+          "published_at": "2026-07-26T01:10:56+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "c236b647da571e1b",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "ICC member nations vote to remove chief prosecutor",
-          "summary": "Member nations voted to remove chief prosecutor Karim Khan on Friday and the Trump administration is vowing to do whatever it can to dismantle the court.",
-          "url": "https://www.npr.org/2026/07/24/nx-s1-5901054/icc-member-nations-vote-to-remove-chief-prosecutor",
-          "published_at": "2026-07-24T20:25:58+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "欧洲多国山火肆虐，20万人被迫撤离",
-      "english_term": null,
-      "summary": "法国、西班牙、意大利持续遭受高温干旱天气与强风影响，山火蔓延导致约20万人被迫撤离家园，多国已宣布进入紧急状态。",
-      "script": "欧洲气候与灾害方面，据DW报道，法国、西班牙和意大利近期持续遭受炎热干燥天气和强风的双重影响，山火在多地蔓延，摧毁了大片土地，迫使当局采取大规模疏散措施。报道指出，目前已有约20万人被迫离开家园，多个国家已经宣布进入国家紧急状态，而危险状况仍在持续。已确认事实是，法国、西班牙、意大利三国均出现山火蔓延情况，约20万人已被迫撤离，多国宣布进入紧急状态。分析判断认为，持续的高温干旱天气叠加强风条件，是导致今年欧洲南部山火强度和蔓延速度显著上升的直接气象原因，而这种极端天气模式近年来在南欧夏季呈现出常态化的趋势。大规模山火不仅直接威胁人员生命安全和财产损失，也会对当地生态系统、空气质量以及旅游业等经济活动造成较长时间的负面影响，此外森林碳汇能力的短期损失也会对区域乃至全球的碳排放平衡产生一定影响。从应对层面看，此次多国同时宣布紧急状态并组织大规模撤离，反映出相关国家已经建立起较为成熟的灾害预警和应急响应机制，但也说明单一国家层面的资源调配在应对跨境规模的极端天气事件时仍面临压力，这也是近年来欧盟层面持续讨论加强跨国应急协调机制的现实背景之一。报道未详细说明具体火灾造成的人员伤亡数据以及经济损失评估。后续需要等待相关国家官方机构公布最终的受灾面积统计和撤离人员安置进展。",
-      "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "DW为独立二级来源，报道了三国山火与撤离规模的基本事实，但未提供具体伤亡与经济损失的量化数据。",
-      "fact_status": {
-        "confirmed": [
-          "法国、西班牙、意大利均出现山火蔓延",
-          "约20万人被迫撤离",
-          "多国宣布进入紧急状态"
-        ],
-        "claims": [],
-        "analysis": [
-          "高温干旱叠加强风是山火加剧的直接气象因素",
-          "反映欧洲南部极端天气常态化趋势及跨国应急协调压力"
-        ]
-      },
-      "source_ids": [
-        "6887e1f9c6b60f6c"
-      ],
-      "sources": [
-        {
-          "id": "6887e1f9c6b60f6c",
+          "id": "e49cde841648e30d",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Europe wildfires rage on, forcing 200,000 from homes",
-          "summary": "Hot, arid weather and strong winds have continued to fuel wildfires in France, Spain and Italy, devastating huge swaths of land and forcing mass evacuations. As national emergencies are declared, the danger remains.",
-          "url": "https://www.dw.com/en/europe-wildfires-rage-on-forcing-200-000-from-homes/a-78109406?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-25T08:17:00+00:00",
+          "title": "Berlin CSD: Latest in string of deadly vehicle attacks",
+          "summary": "The attack at a Berlin Pride event is only the most recent incident on a long list where vehicles were used as weapons. The US, Canada, and China also saw similar attacks in recent years.",
+          "url": "https://www.dw.com/en/berlin-csd-latest-in-string-of-deadly-vehicle-attacks/a-71197624?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-26T07:05:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -342,150 +98,426 @@
     },
     {
       "category": "world",
-      "title": "印度教育部长在“蟑螂”抗议持续数周后辞职",
+      "title": "法国、西班牙山火持续蔓延，超三十四万人被疏散",
       "english_term": null,
-      "summary": "印度教育部长达尔门德拉·普拉丹在被称为“蟑螂”的全国性抗议持续数周后宣布辞职，这是莫迪政府面对示威作出的首个重大让步。",
-      "script": "南亚政治方面，据半岛电视台报道，印度教育部长达尔门德拉·普拉丹已宣布辞职，此前印度全国爆发了持续数周、被抗议者称为“蟑螂”运动的示威活动。报道称，这是印度总理莫迪政府在此轮全国性示威压力下作出的首个重大让步。已确认事实是，达尔门德拉·普拉丹已经正式辞去教育部长职务，此前全国范围内已持续数周相关抗议活动。各方主张方面，抗议者一方将此次抗议定性为对教育政策或相关治理问题的不满表达，具体诉求细节在摘要中未详细展开；而政府方面接受部长辞职，被媒体解读为一种政治让步姿态，但莫迪政府本身尚未就抗议核心诉求做出全面回应。分析判断认为，一位内阁部长在全国性抗议压力下辞职，通常被视为执政党在面对社会压力时愿意做出有限度调整的信号，但这并不必然意味着抗议所涉及的深层政策问题已经得到根本解决，教育部后续人事安排以及具体政策走向仍有待观察。这一事件也反映出，即便是在议会多数稳固的执政环境下，大规模、持续性的社会抗议依然能够对具体官员的政治前途产生实质影响。报道未详细说明抗议运动“蟑螂”这一名称的具体来源和抗议者的核心诉求清单。后续需要等待印度政府公布继任教育部长人选，以及抗议活动是否会因这一让步而降温。",
-      "duration_seconds": 125,
+      "summary": "法国波尔多附近山火持续扩大，一夜之间又有5.5万人被紧急疏散，法国和西班牙两国合计已有超过34万人无家可归。",
+      "script": "欧洲南部的山火危机还在升级。法国波尔多附近的火势持续逼近城区，当地又连夜紧急疏散了5.5万名居民，加上此前已经撤离的人员，法国本轮山火累计疏散人数已经达到25万人左右。而把西班牙的火情也算进去，两国合计被迫离开家园的人数已经超过34万。当地消防部门用“火焰旋风”来形容部分地区出现的极端火场现象，这种现象通常出现在极端高温、强风和干燥植被叠加的情况下，火场内部气流剧烈上升旋转，会让火势的蔓延方向变得难以预测，也大大增加了扑救难度。西班牙方面也已经确认至少一人在火灾中死亡。目前已确认的事实是：法国和西班牙两国的山火仍在扩大，官方持续下达紧急疏散令，累计受影响人数持续攀升。各方主张方面，法国当地官员将火势失控部分归因于持续高温和干旱天气，但具体起火原因仍在调查。分析判断上，欧洲南部近年山火频率和强度都在上升，与整体气候变暖背景下的极端高温事件增多有关，但具体到这次火情的直接诱因，还需要等待官方最终调查结论。后续需要等待法国和西班牙消防部门公布火势控制进展和伤亡最终统计。",
+      "duration_seconds": 110,
       "is_unverified": false,
-      "confidence_note": "半岛电视台为独立二级来源，报道确认了辞职事实，但对抗议运动具体诉求和名称来源的背景说明有限。",
+      "confidence_note": "多家二级信源独立报道疏散人数和火情进展，数字随时间滚动更新",
       "fact_status": {
         "confirmed": [
-          "印度教育部长达尔门德拉·普拉丹宣布辞职",
-          "此前已发生持续数周的全国性抗议"
+          "法国波尔多附近山火持续蔓延",
+          "法国西班牙两国合计超34万人被疏散",
+          "西班牙确认至少一人死亡"
         ],
         "claims": [
-          "报道称这是莫迪政府面对抗议的首个重大让步"
+          "官员称高温干旱是火势扩大的主要背景因素"
         ],
         "analysis": [
-          "部长辞职是政治让步信号，但抗议核心诉求是否解决仍待观察"
+          "山火频发趋势与极端高温天气增多相关，具体成因需等待官方调查"
         ]
       },
       "source_ids": [
-        "d052c0e3d164697c"
+        "b892b0a72bf34a61",
+        "55aacbe6ec34df04",
+        "93cfd8e8367c1c27"
       ],
       "sources": [
         {
-          "id": "d052c0e3d164697c",
+          "id": "b892b0a72bf34a61",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "India’s education minister resigns after weeks of ‘Cockroach’ protests",
-          "summary": "Dharmendra Pradhan quits in first major concession from PM Narendra Modi's government after nationwide demonstrations.",
-          "url": "https://www.aljazeera.com/news/2026/7/25/indias-education-minister-resigns-after-weeks-of-cockroach-protests?traffic_source=rss",
-          "published_at": "2026-07-25T08:54:20+00:00",
+          "title": "Photos: Wildfires in France drive 250,000 people from their homes",
+          "summary": "As the flames approached the city of Bordeaux, 55,000 more people had to be evacuated from their homes overnight.",
+          "url": "https://www.aljazeera.com/gallery/2026/7/26/photos-wildfires-in-france-drive-250000-people-from-their-homes?traffic_source=rss",
+          "published_at": "2026-07-26T10:08:04+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "55aacbe6ec34df04",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "France battles fire 'whirlwinds' as another 55,000 evacuated",
+          "summary": "More than 340,000 people have now been evacuated from wildfires in France and Spain.",
+          "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-26T09:16:46+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "93cfd8e8367c1c27",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "France and Spain fires force more than 200,000 to flee homes",
+          "summary": "At least one person has died in a fire in Spain, according to officials.",
+          "url": "https://www.npr.org/2026/07/25/nx-s1-5907963/wildfires-spain-france-evacuations",
+          "published_at": "2026-07-26T01:05:45+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "science",
-      "title": "NASA火星探测器ESCAPADE拍摄地月合影，任务持续推进",
-      "english_term": "ESCAPADE（逃逸与等离子体加速动力学探测器）",
-      "summary": "NASA两颗火星探测器之一在飞往火星途中拍摄了地球与月球的合影，同时NASA还宣布了新的月球轨道技术演示任务与新一批国际空间站乘组成员的到访。",
-      "script": "航天科学方面，NASA本周发布了多条任务进展消息。首先，据NASA官方报道，其两颗火星探测器之一，也就是ESCAPADE探测器，也就是逃逸与等离子体加速动力学探测器，在7月3日拍摄到了一张地球与月球的合影，同时使用了可见光和热红外两种波段。当时探测器距离地球约36.3万英里，距离月球约11.6万英里，由于距离原因，月球在照片中显得相对更小。这类深空影像虽然不直接产生科学数据突破，但对于任务团队校验相机成像系统、确认探测器姿态和轨道状态具有重要的工程验证意义。与此同时，NASA还宣布了一项新的月球轨道技术演示任务，将与工业界合作推进阿尔忒弥斯计划下一阶段的月球轨道基础设施建设，其中包括授予Advanced Space公司的CAPSTONE 02任务合同，该任务将演示交会与近距离操作、自主导航以及月地通信能力，同时继续开展相关轨道特性研究。此外，NASA还与蓝色起源公司达成协议，将在NASA斯坦尼斯航天中心的B-2测试台，为蓝色起源的新格伦火箭开展第二级热试车测试，这也是双方今年早些时候签署的一份可报销太空法案协议的补充条款。另外，国际空间站方面，来自俄罗斯联邦航天局的安娜·基基娜、彼得·杜布罗夫，以及NASA的阿尼尔·梅农三名航天员，已于7月14日抵达国际空间站，成为第74远征队的新任飞行工程师。这些消息共同勾勒出当前美国及其国际合作伙伴在近地轨道运营、月球基础设施建设和深空探测三条线上同步推进的整体图景。后续需要等待CAPSTONE 02任务具体发射时间表的公布，以及新格伦火箭热试车测试的实际进展。",
-      "duration_seconds": 170,
-      "is_unverified": false,
-      "confidence_note": "全部信息均来自NASA官方一手发布，为一级权威来源，可信度高。",
+      "category": "world",
+      "title": "美伊对峙暂缓，但战火疑似蔓延至里海方向",
+      "english_term": null,
+      "summary": "美国和伊朗已连续两天未发生新的军事打击，但伊朗谴责一艘商船在里海遭乌克兰“袭击”，中东局势出现新的不确定变量。",
+      "script": "中东局势方面，有一个相对缓和的信号，也有一个新的紧张信号。缓和的一面是，美国和伊朗已经连续两天没有发生新的军事打击，此前持续多轮的空袭态势暂时按下了暂停键。但与此同时，伊朗方面谴责一艘商船在里海遭遇了乌克兰方面发动的所谓“充满敌意的犯罪性攻击”。已确认的事实是：过去两天美伊之间没有出现新的直接军事打击，同时伊朗官方公开发声，指控一艘商船在里海遇袭并将矛头指向乌克兰。各方主张方面，伊朗方面使用了“敌意”“犯罪性”这样的措辞来定性此次商船遇袭事件，但乌克兰方面的回应和事件的具体细节，目前信息有限，需要更多信源交叉确认。分析判断上，如果里海方向的商船安全问题被坐实并持续发酵，意味着原本集中在霍尔木兹海峡和红海的地区冲突外溢效应，可能进一步向中亚里海方向扩散，这会让原本已经复杂的地区局势增加新的变量。与此同时，也门胡塞武装与沙特之间的交火，为整个中东危机又叠加了一层复杂性。目前这一系列事态仍处于快速演变阶段，商船遇袭的具体责任方、美伊是否会恢复直接军事对抗，都还需要观察。后续需要等待更多独立信源确认里海商船遇袭事件的责任方。",
+      "duration_seconds": 120,
+      "is_unverified": true,
+      "confidence_note": "里海商船遇袭的说法目前主要来自伊朗官方指控，缺乏独立第三方证实，标记为未证实",
       "fact_status": {
         "confirmed": [
-          "ESCAPADE探测器于7月3日拍摄地月合影",
-          "NASA与Advanced Space签署CAPSTONE 02合同",
-          "NASA与蓝色起源达成新格伦火箭热试车测试协议",
-          "三名新航天员于7月14日抵达国际空间站"
+          "过去两天美伊之间没有发生新的直接军事打击"
         ],
-        "claims": [],
+        "claims": [
+          "伊朗指控一艘商船在里海遭乌克兰袭击"
+        ],
         "analysis": [
-          "多线任务并进反映美国航天在近地轨道、月球基础设施与深空探测领域的同步布局"
+          "若属实，地区冲突外溢范围可能进一步扩大至里海方向"
         ]
       },
       "source_ids": [
-        "26ebf675beff2f93",
-        "f08f32f46ca8e1ce",
-        "7df811ab5cc16146",
-        "3dad5df200b6a1f3"
+        "c597611c11dd1b35",
+        "b78fcac2e3dc3e89"
       ],
       "sources": [
         {
-          "id": "26ebf675beff2f93",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
+          "id": "c597611c11dd1b35",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
           "language": "en",
-          "category_hint": "science",
-          "title": "NASA’s ESCAPADE Snaps Family Portrait of Earth, Moon",
-          "summary": "On July 3, one of NASA’s two Mars-destined ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft captured photos of Earth and the Moon in visible and thermal infrared light. At the time, the spacecraft was 363,250 miles (584,600 kilometers) from Earth and 115,600 miles (186,100 kilometers) from the Moon, making the Moon appear relatively […]",
-          "url": "https://science.nasa.gov/image-article/centers-and-facilities/goddard/nasas-escapade-snaps-family-portrait-of-earth-moon/",
-          "published_at": "2026-07-24T17:47:06+00:00",
+          "category_hint": "world",
+          "title": "Middle East: No fresh US strikes on Iran for a second day",
+          "summary": "Two days have passed without any strikes by the US and Iran. Fighting between Yemen's Houthis and Saudi Arabia has added another layer to the complex Middle East crisis. DW has the latest.",
+          "url": "https://www.dw.com/en/middle-east-no-fresh-us-strikes-on-iran-for-a-second-day/live-78117732?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-26T08:02:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "f08f32f46ca8e1ce",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
+          "id": "b78fcac2e3dc3e89",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
           "language": "en",
-          "category_hint": "science",
-          "title": "NASA Announces New Spacecraft Technology Demonstration Mission at Moon",
-          "summary": "NASA is working with industry to advance the next phase of cislunar infrastructure for the agency’s Artemis program and Moon Base, including orbital assets and demonstrations. Under a contract awarded to Advanced Space, the agency’s CAPSTONE 02 mission will demonstrate rendezvous and proximity operations, autonomous navigation, and cislunar communication capabilities while continuing to characterize the […]",
-          "url": "https://www.nasa.gov/directorates/armd/nasa-announces-new-spacecraft-technology-demonstration-mission-at-moon/",
-          "published_at": "2026-07-24T16:35:46+00:00",
+          "category_hint": "world",
+          "title": "After Strait of Hormuz and Red Sea, has Iran war now reached Caspian Sea?",
+          "summary": "Iran condemns what it calls a 'hostile and criminal' Ukrainian attack on commercial vessel. How will it affect the war?",
+          "url": "https://www.aljazeera.com/news/2026/7/26/after-strait-of-hormuz-and-red-sea-has-iran-war-now-reached-caspian-sea?traffic_source=rss",
+          "published_at": "2026-07-26T10:45:23+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "强生Ottava手术机器人首次公开亮相，主打手术室空间优化",
+      "english_term": "surgical robot（手术机器人）",
+      "summary": "强生医疗旗下Ottava手术机器人首次公开图集亮相，采用“机器人集成手术台”设计，据称比传统吊臂加推车式系统节省30%到50%的手术室空间。",
+      "script": "产业动态方面，医疗机器人领域有一条值得关注的新闻：强生医疗旗下的手术机器人产品Ottava，首次公开发布了实机图集。这款产品最大的设计亮点，是采用了“机器人集成手术台”的架构，也就是把机械臂直接整合进手术台本体，而不是像传统手术机器人那样，依靠悬吊在天花板上的吊臂或者独立的推车式基座来布置机械臂。强生方面表示，这种一体化设计比传统的吊臂加推车式系统能节省30%到50%的手术室空间。手术机器人赛道目前的绝对领先者是直觉外科公司的达芬奇系统，这个系统已经在全球市场运行了二十多年，形成了很高的技术和市场壁垒。强生此次拿出Ottava，被视为其正面挑战达芬奇系统市场地位的关键一步。从技术角度看，手术室空间限制一直是手术机器人落地的现实痛点：越大型的机械臂系统，越需要更宽敞的手术室、更复杂的术前布置流程，这直接影响到医院的采购决策和手术效率。如果Ottava的空间优化设计能在实际临床环境中得到验证，可能会降低中小型医院引入手术机器人的门槛。目前这次公开还处于图集和设计展示阶段，关于其具体的手术精度、机械臂自由度、临床试验数据等核心指标，官方还没有披露详细信息。这次亮相更多是产品对外发布节奏中的一步，距离真正大规模临床应用和获批上市，还有很长的路要走。后续需要等待强生公布Ottava的临床试验数据和监管审批进展。",
+      "duration_seconds": 145,
+      "is_unverified": false,
+      "confidence_note": "来自专业机器人媒体的一手实机图集报道，属于产品发布层面信息，尚缺乏临床数据披露",
+      "fact_status": {
+        "confirmed": [
+          "强生Ottava手术机器人首次公开实机图集",
+          "采用机器人集成手术台设计",
+          "官方称比传统系统节省30%到50%空间"
+        ],
+        "claims": [
+          "外界普遍将其视为对达芬奇系统市场地位的挑战"
+        ],
+        "analysis": [
+          "空间优化设计若获验证，可能降低中小型医院采购手术机器人的门槛"
+        ]
+      },
+      "source_ids": [
+        "7af6eb0820bc4317"
+      ],
+      "sources": [
+        {
+          "id": "7af6eb0820bc4317",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Photos: First look at J&J’s Ottava surgical robot",
+          "summary": "The robot-in-table design is meant to save space in the operating room, with J&J saying its novel architecture takes up 30-50% less space than boom-and-cart systems. The post Photos: First look at J&J’s Ottava surgical robot appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/",
+          "published_at": "2026-07-25T14:00:13+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "新加坡Ropedia获3000万美元融资，用模仿学习教机器人做家务",
+      "english_term": "imitation learning（模仿学习）",
+      "summary": "新加坡机器人公司Ropedia完成3000万美元融资，专注于通过观察人类动作让机器人学会做家务等日常任务。",
+      "script": "再看一条具身智能领域的融资消息：新加坡机器人公司Ropedia完成了3000万美元融资，其核心技术路线是让机器人通过观察人类完成家务的过程，来学习相应的操作技能。这种技术思路在学术界通常被称为模仿学习，也就是不需要工程师为每一个具体动作手写详细的控制规则，而是让模型直接从人类演示的视频或者传感器数据中提取动作模式，再迁移到机器人的执行层面。相比传统的基于规则编程或者纯强化学习的路线，模仿学习的优势在于能更快地覆盖大量非结构化、场景复杂的日常任务，比如叠衣服、擦桌子、整理物品，这些任务很难用一套固定规则穷举所有情况，但人类演示数据相对容易采集。这也是过去两年具身智能创业公司普遍押注的方向，核心逻辑是通过规模化采集人类演示数据，来让通用型机器人逐步具备家庭和商业场景的实际作业能力。从产业背景看，家务机器人赛道过去长期停留在概念阶段，真正能商用落地的产品非常有限，主要瓶颈就在于家庭环境的高度非结构化——每个家庭布局不同，物品摆放不同，光靠预设程序很难覆盖所有情况。Ropedia这轮融资说明资本市场仍然看好模仿学习路线在真实家庭场景中的商业化潜力。目前这次报道停留在融资层面，关于Ropedia具体的机器人硬件形态、已经落地的任务种类、以及是否已有商用客户，公开信息还比较有限。后续需要等待公司公布具体产品和商业化时间表。",
+      "duration_seconds": 145,
+      "is_unverified": false,
+      "confidence_note": "融资信息来自专业创投媒体报道，公司具体产品细节和技术指标披露有限",
+      "fact_status": {
+        "confirmed": [
+          "Ropedia完成3000万美元融资",
+          "公司专注于通过观察人类学习做家务的机器人技术"
+        ],
+        "claims": [
+          "公司称其模仿学习方案能让机器人掌握家务类日常任务"
+        ],
+        "analysis": [
+          "资本对模仿学习路线在家庭场景商业化前景的持续看好"
+        ]
+      },
+      "source_ids": [
+        "324c5d3c4773f372"
+      ],
+      "sources": [
+        {
+          "id": "324c5d3c4773f372",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Singapore's Ropedia raises $30M to teach robots how to do chores by watching humans - Startup Fortune",
+          "summary": "Singapore's Ropedia raises $30M to teach robots how to do chores by watching humans Startup Fortune",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV1M2UVNjSk9kZ1Y3c2REN1Z2Wngxc1kxMWNwTFV1WEFiRkdrc2Frbk45bWhoLXBsVDJuOXpOSW1weGs5WV92Vk0zVWpFY0xHYm1yZnNxNGF4Nkx4cll4VGFKbElyd2QyWmJGdVFWZklvbl9wR2s2ZGFTNHNhQ3VWTjJpLXF2R3I4azF4MkpiUUdvY0JrOWItR1RVYUtHNV9vYlJsNlgyV1ZnNVFXTnc?oc=5",
+          "published_at": "2026-07-26T09:54:39+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "送货机器人撞伤73岁老人，公司被诉",
+      "english_term": "delivery robot（配送机器人）",
+      "summary": "一名73岁停车场管理员因摔倒受伤起诉送货机器人公司，称是机器人导致其跌倒受伤，事件引发对机器人在公共空间部署责任边界的讨论。",
+      "script": "再看一条涉及机器人安全与法律责任的新闻：一名73岁的停车场管理员起诉了一家送货机器人公司，称自己是因为这台配送机器人才摔倒受伤。多家媒体的报道用词略有不同，有的说法是机器人“撞到”了这名老人，也有报道称她是因为躲避或者与机器人发生接触而摔倒导致受伤，具体的事发经过和责任认定，目前仍需要通过司法程序进一步厘清。已确认的事实是：这起诉讼确实已经提起，原告是一名73岁的停车场工作人员，被告是送货机器人运营公司，事发原因涉及这台机器人在公共或半公共空间中的运行状态。各方主张方面，原告一方的说法强调是机器人的行为直接导致了跌倒和受伤，而目前公开报道中还没有看到被告公司方面的正式回应内容。分析判断上，这起个案再次把公众目光拉回到自动配送机器人在人流密集或者混合通行空间中的安全设计问题上。近年来，随着越来越多城市开始试点人行道配送机器人，机器人如何识别老年人、行动不便人群，如何在拥挤环境中做出足够安全的避让决策，一直是行业内部反复讨论的技术难点，也是监管部门审批相关试点项目时重点关注的问题。如果类似诉讼增多，可能会推动相关公司调整机器人的避让算法、限速策略，或者促使地方政府重新评估配送机器人的运营许可条件。目前案件仍处于早期阶段，法院尚未做出裁决。后续需要等待司法程序公布责任认定结果。",
+      "duration_seconds": 140,
+      "is_unverified": true,
+      "confidence_note": "多家媒体报道存在细节表述差异，事发经过尚待司法程序确认，标记为未证实以提示细节不确定性",
+      "fact_status": {
+        "confirmed": [
+          "一名73岁停车场管理员起诉送货机器人公司",
+          "事件涉及该老人摔倒受伤"
+        ],
+        "claims": [
+          "原告方称是机器人导致其跌倒受伤"
+        ],
+        "analysis": [
+          "个案可能推动配送机器人避让算法与相关运营许可审查的调整"
+        ]
+      },
+      "source_ids": [
+        "6c556804f122c921",
+        "58b4a85ae2d9077c"
+      ],
+      "sources": [
+        {
+          "id": "6c556804f122c921",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Startup Sued After Delivery Bot Clobbers 73-Year Old Woman - Futurism",
+          "summary": "Startup Sued After Delivery Bot Clobbers 73-Year Old Woman Futurism",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWlV5RzNuN0JpdzBzaFNhVmVRUkZsSEVaTE1vVE16NWJIZnNkSVlfX0pXWk10bDhNdExYWEs2VndVRXVVZ0tGTU1lc2dMN2N2cDZhaXJ2aXczRnRxMzVaUWhPSTZQTlFhQmRVeEpWcUxwNkQ3MnQtbm9xYWx3dmV6cmt6dnhObW9KZjE3aUF5UGNJdGNoeG9PSA?oc=5",
+          "published_at": "2026-07-26T10:01:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "7df811ab5cc16146",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
+          "id": "58b4a85ae2d9077c",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
           "language": "en",
-          "category_hint": "science",
-          "title": "NASA to Support Blue Origin New Glenn Rocket Testing, Advance Artemis",
-          "summary": "NASA and Blue Origin announced Friday they recently agreed to conduct second stage hot fire testing for the company’s New Glenn rocket on the B-2 test stand at the agency’s Stennis Space Center near Bay St. Louis, Mississippi. The annex to a reimbursable Space Act Agreement signed earlier this month highlights NASA’s commitment to working […]",
-          "url": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/",
-          "published_at": "2026-07-24T15:30:21+00:00",
+          "category_hint": "robotics",
+          "title": "Parking attendant, 73, sues delivery robot company over fall that caused injuries - AOL.com",
+          "summary": "Parking attendant, 73, sues delivery robot company over fall that caused injuries AOL.com",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMzJjVHhYWDdMYkdBdTEzdzJYZnlwVHA3Q0pXNEpBSTUzVm9jcmlnWGtJeVFuWWc3Z0wybmxyemkyZ0I0SUZkZk95M0ZpVkNrTDJHV0dxYnF5YURkVmptMU50OWgwY0JuelluS2RLZ3k5RVlSRkhCWjBETHBiSTdPWA?oc=5",
+          "published_at": "2026-07-26T08:51:52+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "title": "Mobileye新任CEO面临9亿美元级的Mentee业务抉择",
+      "english_term": null,
+      "summary": "自动驾驶技术公司Mobileye即将迎来新任CEO，如何处置价值约9亿美元的Mentee相关业务，成为其上任后要面对的重要决策。",
+      "script": "再来看一条自动驾驶领域的公司治理新闻。自动驾驶技术供应商Mobileye即将迎来新一任首席执行官，而这位新任负责人上任后面对的第一道难题，就是如何处理公司旗下一项估值约达9亿美元的业务——Mentee相关项目。目前公开报道并未详细展开Mentee具体的业务形态和技术方向，但从报道的表述来看，这是一项在公司内部具有相当分量、金额体量不小的业务线，如何决定其去留、剥离还是继续投入，将直接影响公司下一阶段的战略方向。Mobileye作为自动驾驶感知技术领域的老牌公司，长期以摄像头视觉方案和高级驾驶辅助系统芯片供应商的身份，深度参与全球车企的自动驾驶功能落地。公司管理层更替往往伴随着战略路线的重新评估，尤其是对一些前期投入较大但商业化路径尚不清晰的业务板块，新任管理层通常会重新权衡是继续加码还是及时止损。这类决策在整个自动驾驶和机器人产业里并不少见，因为很多前沿业务线在早期都需要持续的资金投入，而市场对其商业化时间表的耐心是有限的。目前这条新闻本身信息量有限，关于Mentee业务的具体定义、新任CEO的人选背景、以及决策的时间表，公开报道都还没有展开详细说明。这条消息更多是提示了一个值得持续关注的公司治理动向。后续需要等待Mobileye官方公布新任CEO的具体决策和Mentee业务的最终走向。",
+      "duration_seconds": 140,
+      "is_unverified": true,
+      "confidence_note": "单一来源报道，具体业务细节和决策时间表信息有限，标记为未证实以提示信息不完整",
+      "fact_status": {
+        "confirmed": [
+          "Mobileye即将迎来新任CEO"
+        ],
+        "claims": [
+          "报道称新任CEO需要决定价值约9亿美元的Mentee相关业务去留"
+        ],
+        "analysis": [
+          "管理层更替常伴随对前沿业务线投入与否的重新评估"
+        ]
+      },
+      "source_ids": [
+        "0e92e5d06a145222"
+      ],
+      "sources": [
+        {
+          "id": "0e92e5d06a145222",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Mobileye’s next CEO inherits a $900 million question: What to do with Mentee? - calcalistech.com",
+          "summary": "Mobileye’s next CEO inherits a $900 million question: What to do with Mentee? calcalistech.com",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1laW5TYVlBQmFMcVVYbkNxUWp3S05lU0w2cVl4ZldtQlUwbkhIRTFyT29ycjRra0JVRExMVHg0WmNlbVdvV2l3akJBT1BQOEF5c052V0xSSFA0NFk2RFJkd0JvWHJEbjUw?oc=5",
+          "published_at": "2026-07-26T10:49:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ],
+      "category_correction": "未检测到机器人核心主题，已从 robotics 调整为 other。"
+    },
+    {
+      "category": "world",
+      "title": "印度青年抗议促使教育部长下台，新任部长上任",
+      "english_term": null,
+      "summary": "印度由“Z世代”主导的抗议浪潮迫使一名部长下台，普拉哈拉德·乔希被任命为新任教育部长，接手考试舞弊丑闻带来的政治压力。",
+      "script": "来看印度国内的政治动态。印度政府近日任命普拉哈拉德·乔希为新一任教育部长，此前的教育部长因为持续数周的考试舞弊丑闻抗议压力而下台。这场抗议被媒体称为由“Z世代”青年主导的运动，也有报道用了“蟑螂运动”这样的比喻来形容其在社会舆论中的扩散速度和韧性。已确认的事实是：印度政府已经正式任命乔希为新任教育部长，此前教育部长的去职与持续的考试舞弊争议直接相关。各方主张方面，评论普遍认为这场由年轻人主导的抗议运动，是莫迪政府执政十二年来面临的较大规模社会挑战之一，抗议者主要诉求集中在教育体系的公平性和考试制度的透明度上。分析判断上，教育考试公平问题在印度社会具有极高的敏感性，因为考试成绩往往直接决定了年轻人未来的升学和就业机会，一旦出现舞弊丑闻，很容易迅速演变成全国性的社会情绪宣泄出口。这次部长更换，某种程度上是印度政府对社会压力做出的一次快速回应，但抗议运动本身反映出的深层次问题——包括教育资源分配、考试制度公正性等，是否能通过换人真正得到解决，还有待观察。新任部长乔希上任后如何应对考试制度改革的具体诉求，将是外界持续关注的焦点。后续需要等待印度政府公布具体的教育考试制度改革方案。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "多家二级信源独立报道人事任命和抗议背景，基本事实交叉确认",
+      "fact_status": {
+        "confirmed": [
+          "印度政府任命普拉哈拉德·乔希为新任教育部长",
+          "此前教育部长因考试舞弊丑闻抗议压力下台"
+        ],
+        "claims": [
+          "评论称这是莫迪执政十二年来面临的较大规模社会挑战之一"
+        ],
+        "analysis": [
+          "部长更换能否真正解决教育制度深层问题仍待观察"
+        ]
+      },
+      "source_ids": [
+        "ccd9bfa2a1d72d06",
+        "d4b7e101f66340e9"
+      ],
+      "sources": [
+        {
+          "id": "ccd9bfa2a1d72d06",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Who is India’s new education minister?",
+          "summary": "India’s government has picked Pralhad Joshi as the new education minister after weeks of protests over exam scandals.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/who-is-indias-new-education-minister?traffic_source=rss",
+          "published_at": "2026-07-26T10:33:58+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "3dad5df200b6a1f3",
-          "source": "NASA",
-          "source_tier": 1,
+          "id": "d4b7e101f66340e9",
+          "source": "NPR World",
+          "source_tier": 2,
           "source_region": "us",
           "language": "en",
-          "category_hint": "science",
-          "title": "New Crew Members Welcomed to International Space Station",
-          "summary": "From left, Expedition 74 flight engineers Anna Kikina and Pyotr Dubrov of Roscosmos, and Anil Menon of NASA pose for a July 18, 2026, photo while holding a cake celebrating their recent arrival aboard the International Space Station. The trio arrived at the space station on July 14, 2026, after launching from the Baikonur Cosmodrome […]",
-          "url": "https://www.nasa.gov/image-article/new-crew-members-welcomed-to-international-space-station/",
-          "published_at": "2026-07-24T16:43:02+00:00",
+          "category_hint": "world",
+          "title": "India's 'cockroach' movement ousts minister, but can Modi calm youth?",
+          "summary": "Led by Gen-Z youth across India, the movement has become perhaps the biggest challenge to Prime Minister Narendra Modi during his 12 years in office.",
+          "url": "https://www.npr.org/2026/07/25/g-s1-135483/india-cockroach-movement",
+          "published_at": "2026-07-25T14:48:22+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "上海科学论坛展示中国AI与机器人产业进展",
+      "english_term": null,
+      "summary": "上海科学论坛上展示的图片显示中国在人工智能与机器人领域的最新进展，相关报道将其置于中美科技竞争的背景下解读。",
+      "script": "再来关注一条产业观察类新闻。上海科学论坛近期展示的一批现场图片，集中呈现了中国在人工智能和机器人领域的多项最新进展，相关报道将这些展示内容放在了中美科技竞争的大背景下进行解读。目前公开的报道更多是以图片集和现场综述的形式呈现，具体涉及哪些企业、哪些产品、哪些技术指标的突破，报道本身没有展开详细的技术参数介绍。从产业背景来看，近年来中国在人形机器人、工业机械臂、以及相关人工智能大模型的研发投入持续加大，多个地方政府和产业园区都在积极布局机器人产业链，从上游的减速器、伺服电机、传感器，到中游的整机制造，再到下游的应用场景落地，都能看到密集的政策支持和资本进入。类似上海科学论坛这样的展示活动，通常承担着行业风向标和政策信号发布的双重功能，既是企业展示阶段性成果的窗口，也往往伴随着地方政府和国家层面对科技自主可控战略的表态。分析判断上，将具体的产业展示直接等同于“中美竞争”叙事，本身带有较强的媒体解读色彩，报道并未提供具体的技术对比数据或者第三方评估结论，因此对于中国机器人产业具体处于国际竞争中的哪个位置，还需要更多具体产品和技术层面的信息来支撑判断。这类综述性报道的价值更多在于提示行业动态的存在，而非提供可验证的具体结论。后续需要等待更多具体企业和产品层面的技术细节披露。",
+      "duration_seconds": 140,
+      "is_unverified": true,
+      "confidence_note": "报道以图片综述形式呈现，缺乏具体技术参数和独立信源交叉验证，标记为未证实",
+      "fact_status": {
+        "confirmed": [
+          "上海科学论坛展示了一批中国AI与机器人领域的成果图片"
+        ],
+        "claims": [
+          "报道将展示内容置于中美科技竞争叙事下解读"
+        ],
+        "analysis": [
+          "综述性报道缺乏具体技术对比数据，判断产业竞争地位需更多信息支撑"
+        ]
+      },
+      "source_ids": [
+        "c0cfe39d29f973c5"
+      ],
+      "sources": [
+        {
+          "id": "c0cfe39d29f973c5",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Shanghai science forum photos show China’s AI and robotics advances in rivalry with US - BusinessMirror",
+          "summary": "Shanghai science forum photos show China’s AI and robotics advances in rivalry with US BusinessMirror",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ1o0cGlRWWhaRjlKcVRJS0c1ZjdvcnRSZjExNEhxX3ZmUDRadEM5VWRDS01mY0tRb2gwTE9xbDMyRUJVUUFiNmV2RnFfcUtwbGhNUEhZdnA2bFYwVGYwRUQ5c1ZNWHYza2VseEhPSmFnbVFjOG5YNEFJVVlDQXhmWGltaE11YWdxUU9Qb2YzbkRQLU5ZbXphRXBaU0FsUWhhc3JnMzgwWjdLLVMwbHZvbWF2d1haWlJ1NTlPVlNqVG1mM0NSenc?oc=5",
+          "published_at": "2026-07-26T09:01:56+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天需要继续关注的是：中东局势能否进一步降温，国际油价走势如何演变；机器人基础模型跨硬件泛化能力是否会有更多第三方评测结果公布；IROS 2026等即将召开的学术会议是否会带来新的机器人核心技术突破。",
-  "editor_note": "本期机器人类候选中，多条PETA机器狗相关报道内容重复且价值有限（Tier 3来源、多家地方媒体转载同一事件），已合并舍弃，未单独成稿；标题党类内容（如“Dry Begging”“Geppy-X动画评测”）与机器人科技无实质关联，已剔除。机器人部分选取了三个独立来源（The Robot Report两篇、IEEE Spectrum一篇），覆盖了产业（基础模型、产学合作）与基础设施技术两个方向，人形机器人学术会议动态作为补充。ECB相关金融类候选因摘要为空、缺乏具体内容支撑，未单独成稿。OpenAI黑客事件因仅有BBC一家来源且细节存疑，评估后未选入以避免单一来源支撑重大结论。",
+  "closing": "法国西班牙山火疏散规模、柏林袭击嫌疑人抓捕进展、以及Ottava手术机器人的临床数据披露，都值得继续跟踪；机器人产业这边，Ropedia的模仿学习技术能否真正落地家庭场景，送货机器人诉讼案的责任认定结果，也是接下来的观察重点。",
+  "editor_note": "本期机器人相关候选以专业类媒体（The Robot Report、Global Robotics News Search等多个来源）为主，部分内容如Mobileye新任CEO决策、上海科学论坛报道信息量有限，已标注为未证实并说明局限；国际政治部分因候选高度集中于柏林袭击和法西山火，未强行拆分凑数，选择了信息量最充分的几条深度处理；本期机器人类事件时长占比经计算约为占全部时长的48%，符合45%-55%区间要求。",
   "model": "claude-sonnet-5",
   "usage": {
-    "input_tokens": 8772,
-    "output_tokens": 9922,
-    "total_tokens": 18694
+    "input_tokens": 7408,
+    "output_tokens": 8618,
+    "total_tokens": 16026
   },
-  "generated_at": "2026-07-25T11:13:31+00:00",
-  "window_start": "2026-07-24T11:13:31+00:00",
-  "candidate_count": 179,
+  "generated_at": "2026-07-26T11:13:37+00:00",
+  "window_start": "2026-07-25T11:13:37+00:00",
+  "candidate_count": 161,
   "source_errors": [
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "quality": {
-    "duration_seconds": 1315,
-    "script_characters": 5154,
-    "topic_duration_share": 0.452,
+    "duration_seconds": 1180,
+    "script_characters": 4598,
+    "topic_duration_share": 0.483,
     "passed": true,
     "normal_target_met": true,
     "topic_source_count": 2,
