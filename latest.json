@@ -1,223 +1,96 @@
 {
-  "title": "晶球电台早报：柏林骄傲游行遇袭、法国西班牙山火蔓延，机器人产业融资与诉讼齐飞",
-  "subtitle": "从柏林恐袭到印度示威，从Ottava手术机器人到送货机器人被告上法庭，今天的世界既紧张又忙碌",
+  "title": "晶球电台早报：伊朗美国暂停空袭，人形机器人靠合成视频学技能",
+  "subtitle": "中东局势短暂降温，机器人学术界聚焦无真实数据的技能学习与光学在线更新",
   "highlights": [
-    "柏林骄傲游行遭车辆冲撞袭击，一人死亡多人受伤，嫌疑人在逃",
-    "法国、西班牙山火持续蔓延，超过34万人被疏散",
-    "强生Ottava手术机器人首次公开亮相，主打手术室空间优化",
-    "新加坡机器人公司Ropedia获3000万美元融资，专注模仿学习做家务",
-    "美国送货机器人公司因撞伤73岁老人被起诉"
+    "美伊双方连续两日暂停军事行动，外交斡旋仍在进行但伊朗拒绝直接谈判",
+    "arXiv 一天内集中放出五篇机器人学习论文，涵盖人形技能学习、进度奖励建模与动作生成",
+    "康奈尔团队展示光学芯外更新方案，探索让机器人AI模型“在线”刷新的新路径"
   ],
   "stories": [
     {
       "category": "world",
-      "title": "柏林骄傲游行遭车辆冲撞袭击，一人死亡数人受伤",
-      "english_term": "CSD（Christopher Street Day，德国同志骄傲游行）",
-      "summary": "上周六晚，一辆车辆冲入柏林骄傲游行人群，造成一人死亡、多人受伤，警方已锁定一名21岁嫌疑人但尚未将其抓获。",
-      "script": "我们从柏林的一起严重安全事件说起。上周六晚，一辆车辆冲入正在举行的柏林骄傲游行——也就是德语里常说的CSD活动人群中，造成一人死亡，另有多人受伤。柏林警方随后确认，已经锁定一名21岁的嫌疑人，这名嫌疑人此前就为警方所知，据称与伊斯兰主义相关圈子有关联，但截至目前警方仍未将其抓获，全城搜捕仍在进行。目前已确认的事实是：袭击发生在骄傲游行现场，造成人员伤亡，警方已经公开嫌疑人身份信息但未公布姓名，抓捕行动仍在持续。各方主张方面，警方将嫌疑人背景与伊斯兰主义圈子挂钩的说法，目前还需要更多细节支撑，包括嫌疑人此前是否曾因相关活动被警方记录在案。分析判断上，媒体普遍将这起事件与近年来多起“车辆冲撞人群”式袭击相提并论，包括美国、加拿大和中国都曾出现过类似手法的攻击，这种低门槛、难以提前预警的袭击方式，近年来在安全部门评估中被反复提及。目前案件仍在调查阶段，嫌疑人动机、是否有同伙、以及与既往极端主义网络的关联，都还需要警方进一步通报。后续需要等待柏林警方公布嫌疑人抓捕进展和调查结果。",
-      "duration_seconds": 115,
+      "title": "美伊暂停军事行动第二天，外交斡旋能否找到“下坡路”",
+      "english_term": "off-ramp（可理解为“找到降级冲突的退出通道”）",
+      "summary": "美国已连续两天暂停对伊朗的空袭，伊朗方面也表示同步暂停行动，但伊朗外交部发言人称并未主动要求与美方恢复谈判，霍尔木兹海峡仍处于关闭状态。",
+      "script": "先看中东局势。过去近两周，美国和以色列对伊朗展开了持续的空袭行动，而伊朗方面也进行了针�action反击，双方一度呈现逐步升级的态势。不过根据NPR和半岛电视台的报道，美国已经连续第二天暂停了对伊朗的空袭，伊朗方面也表示同步暂停了军事行动。与此同时，外交渠道的斡旋仍在推进，目标是促成一个临时停火安排。但值得注意的是，德国之声援引伊朗外交部发言人巴盖伊的表态，伊朗方面明确表示，并没有主动要求与美国恢复谈判，霍尔木兹海峡目前仍然处于关闭状态，双方的信息传递是通过中间调解方进行的，而不是直接对话。这说明尽管军事行动出现了暂停窗口，但双方在外交姿态上仍然保持相当谨慎和强硬的立场，谁也不愿意先做出“主动求和”的姿态。半岛电视台的另一篇报道也提到，尽管针对性打击暂停，但美国和以色列对伊朗整体施压的范围其实在扩大，这是一个需要拆开理解的情况：军事行动的“暂停”不等于紧张局势的“降级”。目前已确认的事实是双方都实施了至少两天的行动暂停，且外交渠道仍在运作；而伊朗是否会真正回到谈判桌，霍尔木兹海峡何时重新开放，都还是未知数。这次事件涉及全球能源运输的关键通道，后续需要持续关注霍尔木兹海峡的通行状态是否恢复，以及是否有正式的谈判日程公布。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "多家二级信源交叉确认基本事实，嫌疑人背景描述来自警方通报，但细节有限",
+      "confidence_note": "NPR、半岛电视台、德国之声三家独立Tier 2来源相互印证，事实层面较为可靠；伊朗官方表态为一手信息。",
       "fact_status": {
         "confirmed": [
-          "车辆冲入柏林骄傲游行人群",
-          "造成一人死亡多人受伤",
-          "警方已识别21岁嫌疑人身份但尚未抓获"
+          "美国连续两天暂停对伊朗的空袭行动",
+          "伊朗方面同步暂停军事行动",
+          "伊朗外交部发言人称霍尔木兹海峡仍处于关闭状态",
+          "双方信息通过中间调解方传递"
         ],
         "claims": [
-          "警方称嫌疑人与伊斯兰主义圈子有关联"
+          "伊朗官方称并未主动要求恢复与美国的谈判",
+          "有报道称美以对伊朗施压范围在扩大"
         ],
         "analysis": [
-          "此案被视为近年多起车辆冲撞袭击事件序列的最新一起"
+          "军事行动暂停并不等同于紧张局势实质降级，双方姿态仍然谨慎"
         ]
       },
       "source_ids": [
-        "0ca683ebf615c3e4",
-        "1eff9309376089e4",
-        "b6b66384d57759fc",
-        "e49cde841648e30d"
+        "de8c4a12a532c8a0",
+        "2a9403db9383a90c",
+        "c68086354e0e4d4a",
+        "4951ad9a1835d372"
       ],
       "sources": [
         {
-          "id": "0ca683ebf615c3e4",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "What we know so far about the Berlin Pride ramming attack",
-          "summary": "A police manhunt is underway after a suspect rammed a car into a crowd at a Pride event in the German capital on Saturday night.",
-          "url": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-26T09:18:33+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "1eff9309376089e4",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Watch: At the scene of Berlin Pride attack as manhunt continues",
-          "summary": "A 21-year-old suspect has been identified by police, but he has not been found.",
-          "url": "https://www.bbc.co.uk/news/videos/c74gzknyyz2o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-26T08:14:55+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "b6b66384d57759fc",
+          "id": "de8c4a12a532c8a0",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "One dead, several injured after vehicle plows through crowd at Berlin Pride event",
-          "summary": "Berlin police said they have identified a suspect who \"is known to police\" and has links to \"Islamist circles.\"",
-          "url": "https://www.npr.org/2026/07/25/nx-s1-5907997/germany-lgbtq-event-dead-injured-pride",
-          "published_at": "2026-07-26T01:10:56+00:00",
+          "title": "Can the U.S. and Iran take the off-ramp?",
+          "summary": "The U.S. military has paused its airstrikes on Iran after nearly two weeks of intensifying bombing, while diplomatic efforts have pushed forward to try to avert a return to all-out war.",
+          "url": "https://www.npr.org/2026/07/27/g-s1-135611/can-the-u-s-and-iran-take-the-off-ramp",
+          "published_at": "2026-07-27T05:57:59+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "e49cde841648e30d",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Berlin CSD: Latest in string of deadly vehicle attacks",
-          "summary": "The attack at a Berlin Pride event is only the most recent incident on a long list where vehicles were used as weapons. The US, Canada, and China also saw similar attacks in recent years.",
-          "url": "https://www.dw.com/en/berlin-csd-latest-in-string-of-deadly-vehicle-attacks/a-71197624?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-26T07:05:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "法国、西班牙山火持续蔓延，超三十四万人被疏散",
-      "english_term": null,
-      "summary": "法国波尔多附近山火持续扩大，一夜之间又有5.5万人被紧急疏散，法国和西班牙两国合计已有超过34万人无家可归。",
-      "script": "欧洲南部的山火危机还在升级。法国波尔多附近的火势持续逼近城区，当地又连夜紧急疏散了5.5万名居民，加上此前已经撤离的人员，法国本轮山火累计疏散人数已经达到25万人左右。而把西班牙的火情也算进去，两国合计被迫离开家园的人数已经超过34万。当地消防部门用“火焰旋风”来形容部分地区出现的极端火场现象，这种现象通常出现在极端高温、强风和干燥植被叠加的情况下，火场内部气流剧烈上升旋转，会让火势的蔓延方向变得难以预测，也大大增加了扑救难度。西班牙方面也已经确认至少一人在火灾中死亡。目前已确认的事实是：法国和西班牙两国的山火仍在扩大，官方持续下达紧急疏散令，累计受影响人数持续攀升。各方主张方面，法国当地官员将火势失控部分归因于持续高温和干旱天气，但具体起火原因仍在调查。分析判断上，欧洲南部近年山火频率和强度都在上升，与整体气候变暖背景下的极端高温事件增多有关，但具体到这次火情的直接诱因，还需要等待官方最终调查结论。后续需要等待法国和西班牙消防部门公布火势控制进展和伤亡最终统计。",
-      "duration_seconds": 110,
-      "is_unverified": false,
-      "confidence_note": "多家二级信源独立报道疏散人数和火情进展，数字随时间滚动更新",
-      "fact_status": {
-        "confirmed": [
-          "法国波尔多附近山火持续蔓延",
-          "法国西班牙两国合计超34万人被疏散",
-          "西班牙确认至少一人死亡"
-        ],
-        "claims": [
-          "官员称高温干旱是火势扩大的主要背景因素"
-        ],
-        "analysis": [
-          "山火频发趋势与极端高温天气增多相关，具体成因需等待官方调查"
-        ]
-      },
-      "source_ids": [
-        "b892b0a72bf34a61",
-        "55aacbe6ec34df04",
-        "93cfd8e8367c1c27"
-      ],
-      "sources": [
-        {
-          "id": "b892b0a72bf34a61",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Photos: Wildfires in France drive 250,000 people from their homes",
-          "summary": "As the flames approached the city of Bordeaux, 55,000 more people had to be evacuated from their homes overnight.",
-          "url": "https://www.aljazeera.com/gallery/2026/7/26/photos-wildfires-in-france-drive-250000-people-from-their-homes?traffic_source=rss",
-          "published_at": "2026-07-26T10:08:04+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "55aacbe6ec34df04",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "France battles fire 'whirlwinds' as another 55,000 evacuated",
-          "summary": "More than 340,000 people have now been evacuated from wildfires in France and Spain.",
-          "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-26T09:16:46+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "93cfd8e8367c1c27",
+          "id": "2a9403db9383a90c",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "France and Spain fires force more than 200,000 to flee homes",
-          "summary": "At least one person has died in a fire in Spain, according to officials.",
-          "url": "https://www.npr.org/2026/07/25/nx-s1-5907963/wildfires-spain-france-evacuations",
-          "published_at": "2026-07-26T01:05:45+00:00",
+          "title": "U.S. pauses attacks on Iran for a second straight day and Tehran does too",
+          "summary": "The United States paused attacks on Iran for a second straight day Sunday and Tehran said it had done so too, as efforts continued to bring the countries back to negotiations on an interim ceasefire.",
+          "url": "https://www.npr.org/2026/07/26/g-s1-135593/us-pauses-attacks-iran-second-day-tehran",
+          "published_at": "2026-07-26T17:16:06+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "美伊对峙暂缓，但战火疑似蔓延至里海方向",
-      "english_term": null,
-      "summary": "美国和伊朗已连续两天未发生新的军事打击，但伊朗谴责一艘商船在里海遭乌克兰“袭击”，中东局势出现新的不确定变量。",
-      "script": "中东局势方面，有一个相对缓和的信号，也有一个新的紧张信号。缓和的一面是，美国和伊朗已经连续两天没有发生新的军事打击，此前持续多轮的空袭态势暂时按下了暂停键。但与此同时，伊朗方面谴责一艘商船在里海遭遇了乌克兰方面发动的所谓“充满敌意的犯罪性攻击”。已确认的事实是：过去两天美伊之间没有出现新的直接军事打击，同时伊朗官方公开发声，指控一艘商船在里海遇袭并将矛头指向乌克兰。各方主张方面，伊朗方面使用了“敌意”“犯罪性”这样的措辞来定性此次商船遇袭事件，但乌克兰方面的回应和事件的具体细节，目前信息有限，需要更多信源交叉确认。分析判断上，如果里海方向的商船安全问题被坐实并持续发酵，意味着原本集中在霍尔木兹海峡和红海的地区冲突外溢效应，可能进一步向中亚里海方向扩散，这会让原本已经复杂的地区局势增加新的变量。与此同时，也门胡塞武装与沙特之间的交火，为整个中东危机又叠加了一层复杂性。目前这一系列事态仍处于快速演变阶段，商船遇袭的具体责任方、美伊是否会恢复直接军事对抗，都还需要观察。后续需要等待更多独立信源确认里海商船遇袭事件的责任方。",
-      "duration_seconds": 120,
-      "is_unverified": true,
-      "confidence_note": "里海商船遇袭的说法目前主要来自伊朗官方指控，缺乏独立第三方证实，标记为未证实",
-      "fact_status": {
-        "confirmed": [
-          "过去两天美伊之间没有发生新的直接军事打击"
-        ],
-        "claims": [
-          "伊朗指控一艘商船在里海遭乌克兰袭击"
-        ],
-        "analysis": [
-          "若属实，地区冲突外溢范围可能进一步扩大至里海方向"
-        ]
-      },
-      "source_ids": [
-        "c597611c11dd1b35",
-        "b78fcac2e3dc3e89"
-      ],
-      "sources": [
+        },
         {
-          "id": "c597611c11dd1b35",
+          "id": "c68086354e0e4d4a",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Middle East: No fresh US strikes on Iran for a second day",
-          "summary": "Two days have passed without any strikes by the US and Iran. Fighting between Yemen's Houthis and Saudi Arabia has added another layer to the complex Middle East crisis. DW has the latest.",
-          "url": "https://www.dw.com/en/middle-east-no-fresh-us-strikes-on-iran-for-a-second-day/live-78117732?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-26T08:02:00+00:00",
+          "title": "Iran rules out US talks as Hormuz Strait remains closed",
+          "summary": "Iran has not asked to resume talks with the US, Foreign Ministry spokesperson Esmaeil Baghaei said. He added that the Strait of Hormuz remains closed and that messages are being relayed through mediators. DW has more.",
+          "url": "https://www.dw.com/en/iran-rules-out-us-talks-as-hormuz-strait-remains-closed/live-78127467?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-27T09:49:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "b78fcac2e3dc3e89",
+          "id": "4951ad9a1835d372",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "After Strait of Hormuz and Red Sea, has Iran war now reached Caspian Sea?",
-          "summary": "Iran condemns what it calls a 'hostile and criminal' Ukrainian attack on commercial vessel. How will it affect the war?",
-          "url": "https://www.aljazeera.com/news/2026/7/26/after-strait-of-hormuz-and-red-sea-has-iran-war-now-reached-caspian-sea?traffic_source=rss",
-          "published_at": "2026-07-26T10:45:23+00:00",
+          "title": "Why has the US halted its bombing of Iran?",
+          "summary": "Tit-for-tat strikes have halted in the Middle East even as the scope of the US-Israel war on Iran widens.",
+          "url": "https://www.aljazeera.com/news/2026/7/27/why-has-the-us-halted-its-bombing-of-iran?traffic_source=rss",
+          "published_at": "2026-07-27T10:55:52+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -225,302 +98,455 @@
     },
     {
       "category": "robotics",
-      "title": "强生Ottava手术机器人首次公开亮相，主打手术室空间优化",
-      "english_term": "surgical robot（手术机器人）",
-      "summary": "强生医疗旗下Ottava手术机器人首次公开图集亮相，采用“机器人集成手术台”设计，据称比传统吊臂加推车式系统节省30%到50%的手术室空间。",
-      "script": "产业动态方面，医疗机器人领域有一条值得关注的新闻：强生医疗旗下的手术机器人产品Ottava，首次公开发布了实机图集。这款产品最大的设计亮点，是采用了“机器人集成手术台”的架构，也就是把机械臂直接整合进手术台本体，而不是像传统手术机器人那样，依靠悬吊在天花板上的吊臂或者独立的推车式基座来布置机械臂。强生方面表示，这种一体化设计比传统的吊臂加推车式系统能节省30%到50%的手术室空间。手术机器人赛道目前的绝对领先者是直觉外科公司的达芬奇系统，这个系统已经在全球市场运行了二十多年，形成了很高的技术和市场壁垒。强生此次拿出Ottava，被视为其正面挑战达芬奇系统市场地位的关键一步。从技术角度看，手术室空间限制一直是手术机器人落地的现实痛点：越大型的机械臂系统，越需要更宽敞的手术室、更复杂的术前布置流程，这直接影响到医院的采购决策和手术效率。如果Ottava的空间优化设计能在实际临床环境中得到验证，可能会降低中小型医院引入手术机器人的门槛。目前这次公开还处于图集和设计展示阶段，关于其具体的手术精度、机械臂自由度、临床试验数据等核心指标，官方还没有披露详细信息。这次亮相更多是产品对外发布节奏中的一步，距离真正大规模临床应用和获批上市，还有很长的路要走。后续需要等待强生公布Ottava的临床试验数据和监管审批进展。",
+      "title": "不用真实数据，靠合成视频教人形机器人学复杂动作",
+      "english_term": "Learning-from-Demonstrations（从示范中学习，一种让机器人模仿人类动作数据来获得技能的学习范式）",
+      "summary": "一篇新论文提出通过合成视频场景来训练人形机器人的多样化技能，试图绕开真实世界数据采集成本高、动作多样性受限的问题。",
+      "script": "来看一篇本周新出的arXiv机器人论文。人形机器人因为身体结构接近人类，理论上具备完成灵活、多样动作的潜力，但实际训练起来却困难重重。传统的从示范学习方法，需要大量真实世界的人类动作数据，可问题是采集这些数据成本很高，很难覆盖不同人的动作风格差异，而且很多细微的动作特征也很难被精确捕捉。这篇论文提出了一种新思路：完全不依赖真实世界数据，而是利用合成视频场景来训练人形机器人完成多样化的任务。简单理解，就是用计算机生成大量虚拟的人类动作演示视频，让机器人从这些合成数据中学习动作模式，再迁移到真实机器人身上执行。这种做法的好处很直接：合成数据可以无限量生成，覆盖更多样的动作变体和场景组合，理论上能大幅降低对真实数据采集的依赖，同时提升技能的多样性。当然，这类方法最核心的挑战在于“仿真到现实的差距”，也就是合成视频里学到的动作模式，能不能真正迁移到物理世界里，机器人的关节结构、动力学特性和视频里呈现的效果是否一致，都是需要验证的问题。目前这篇论文是预印本形式发布，还没有经过同行评审，实验的具体规模、任务难度和成功率数据，需要看论文正文详细披露，摘要里只给出了整体思路的说明。这个方向如果被验证有效，将会为降低人形机器人技能训练成本提供一条新路径，值得后续关注论文的评审结果以及是否有真实机器人上的部署验证。",
       "duration_seconds": 145,
-      "is_unverified": false,
-      "confidence_note": "来自专业机器人媒体的一手实机图集报道，属于产品发布层面信息，尚缺乏临床数据披露",
+      "is_unverified": true,
+      "confidence_note": "arXiv预印本，未经同行评审，仅基于摘要信息，具体实验细节和结果需等待完整论文披露。",
       "fact_status": {
         "confirmed": [
-          "强生Ottava手术机器人首次公开实机图集",
-          "采用机器人集成手术台设计",
-          "官方称比传统系统节省30%到50%空间"
+          "论文已在arXiv发布，标题聚焦人形机器人技能学习"
         ],
         "claims": [
-          "外界普遍将其视为对达芬奇系统市场地位的挑战"
+          "作者提出使用合成视频场景替代真实数据来训练机器人多样化技能"
         ],
         "analysis": [
-          "空间优化设计若获验证，可能降低中小型医院采购手术机器人的门槛"
+          "该方法若有效可降低数据采集成本，但仿真到现实的迁移效果仍需验证"
         ]
       },
       "source_ids": [
-        "7af6eb0820bc4317"
+        "abcc627c20de4971"
       ],
       "sources": [
         {
-          "id": "7af6eb0820bc4317",
+          "id": "abcc627c20de4971",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Learning Diverse Humanoid Tasks via Synthetic Video Scenarios without Real World Data",
+          "summary": "arXiv:2607.21648v1 Announce Type: new Abstract: The human-like morphology of humanoid robots grants them exceptional potential for agile and versatile motor capabilities, but it also introduces significant challenges in acquiring complex skills. Traditional Learning-from-Demonstrations methods are often constrained by the high cost of collecting real-world data, the difficulty of capturing motion-specific behaviors, and the limited diversity of demonstrations across individuals. Moreover, even for the same task, humans may execute the motion in multiple distinct ways. In this paper, we propose a new framework that leverages the power of Generative AI to convert textual prompts into realistic and diverse sequences of human body movements, enabling the robot to observe multiple variations of how a single task can be performed. These synthetic demonstrations are then used as a training resource, allowing the robot to learn a broad range of task-execution styles without requiring direct human intervention. We evaluate the proposed method across four simulation scenarios. Experimental results show that the robot not only completes the tasks successfully but also demonstrates strong adap",
+          "url": "https://arxiv.org/abs/2607.21648",
+          "published_at": "2026-07-27T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "一次性五篇论文，机器人学习方法迎来密集更新",
+      "english_term": "Progress Reward（进度奖励，指在任务完成前提供的中间反馈信号，用来告诉智能体当前行为是否在朝目标推进）",
+      "summary": "同一天arXiv机器人板块集中放出多篇论文，涉及进度奖励建模综述、无梯度动作生成、动作分词结构化方法以及机器人的“物理智能体”编排思路。",
+      "script": "除了刚才提到的合成视频训练人形机器人的论文，同一批次的arXiv机器人板块还集中出现了好几篇值得关注的研究，我们快速梳理一下这几篇论文各自在解决什么问题。第一篇是关于进度奖励建模的综述性论文。背景是这样的：机器人在学习任务时，如果只有一个终点的成功信号，是不知道自己当前的行为到底是在推进任务、停滞不前还是在往回退步的，这会让学习效率变得很低。于是研究者们提出了“进度奖励”的概念，在任务执行过程中提供中间反馈。这篇论文系统梳理了目前这个方向缺乏统一框架的现状，试图给出一个共享的分析视角。第二篇论文叫GRACE，提出了一种不依赖梯度信息的机器人动作生成方法，把扩散模型和一种叫MPPI的采样优化算法结合起来。它想解决的问题是，很多实际的安全约束，比如二元的碰撞检测、关节限位，本质上是不可微分的，传统依赖梯度引导的扩散策略处理不了这些约束，这篇论文提出的方法绕开了对可微分梯度的依赖。第三篇论文关注的是动作分词方法，也就是怎么把连续的机器人动作序列转换成离散的“词元”，供现在流行的类似语言模型的策略网络使用。现有方法要么生成的词元序列太长效率低，要么学出来的隐空间缺乏结构，这篇论文提出了一套新的分词方案试图兼顾压缩率和结构性。第四篇论文讨论的是通用机器人的“编排缺口”问题，也就是当机器人需要综合感知、规划、失败恢复等多种能力时，现在的主流思路是把所有能力都塞进一个大模型里预训练，而这篇论文提出应该把能力拆分成一个负责语言条件控制的执行智能体，和一个更高层的任务编排管理者，两者协作而不是合一。这几篇论文集中出现，说明机器人学习领域目前正在多个方向上同时探索基础架构问题，从奖励设计到动作表示再到整体系统编排，都还处于快速迭代阶段。它们都是预印本，尚未经过同行评审，具体效果需要看后续实验数据和评审结果。",
+      "duration_seconds": 195,
+      "is_unverified": true,
+      "confidence_note": "四篇均为arXiv预印本，未经同行评审，仅依据摘要信息梳理研究问题和思路，具体实验结果和对比基线需等待完整论文。",
+      "fact_status": {
+        "confirmed": [
+          "四篇论文均已在arXiv机器人板块发布"
+        ],
+        "claims": [
+          "各论文分别提出进度奖励综述框架、无梯度扩散动作生成方法、结构化动作分词方案、以及物理智能体编排架构"
+        ],
+        "analysis": [
+          "密集发布反映机器人学习基础方法仍处于快速探索阶段，尚未形成统一范式"
+        ]
+      },
+      "source_ids": [
+        "67882577c8387939",
+        "0833da94b18b4ab7",
+        "1bb4fae7ffcc3afd",
+        "346c53e15991214b"
+      ],
+      "sources": [
+        {
+          "id": "67882577c8387939",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Progress Reward Modeling for Robotic Learning: A Comprehensive Survey",
+          "summary": "arXiv:2607.21655v1 Announce Type: new Abstract: Robotic learning takes place in dynamic environments with large behavior spaces. A terminal success signal only tells the robot whether the task is completed. It does not explain whether the current behavior is making progress, remaining unchanged, or undoing earlier progress. For this reason, recent studies have increasingly explored progress rewards that provide feedback during task execution. However, the current literature lacks a shared framework. Existing methods use different observations, goal specifications, output signals, supervision sources, and evaluation protocols. This makes it difficult to compare them and understand what their results actually validate. In this survey, we provide a unified view of progress reward modeling for robotic learning. We organize the field in three connected steps. We first study the interface of a progress model. This defines the problem from the outside by asking what information the model receives and what form of progress signal it produces. We then move inside the model and study the methods used to construct this signal. This reveals the different assumptions and mechanisms behind progr",
+          "url": "https://arxiv.org/abs/2607.21655",
+          "published_at": "2026-07-27T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "0833da94b18b4ab7",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "GRACE: Gradient-Free Robot Action Generation via Combined Diffusion-MPPI Posterior Mean Estimation",
+          "summary": "arXiv:2607.21661v1 Announce Type: new Abstract: Diffusion policies generate multimodal robot action sequences from demonstrations, but steering them toward deployment-time constraints typically relies on differentiable guidance costs. This excludes many practical safety constraints, such as binary collision checks, joint limits, and black-box rollout costs that are nondifferentiable. We propose Gradient-free Robot Action generation via Combined diffusion-MPPI posterior mean Estimation (GRACE), which guides a pretrained diffusion policy with Model Predictive Path Integral (MPPI) control using only forward cost evaluations. Building on the common score-ascent structure of diffusion and MPPI, GRACE constructs a cost-conditioned guidance posterior at each reverse step and estimates its mean with a single MPPI update centered at the diffusion reverse mean. For differentiable costs, GRACE recovers conventional gradient guidance under a first-order, matched-covariance approximation. GRACE attains higher success rates than diffusion-based and sampling-based baselines in simulation. On a real 7-DoF manipulator, GRACE avoids a deployment-time obstacle that the unguided prior collides with in",
+          "url": "https://arxiv.org/abs/2607.21661",
+          "published_at": "2026-07-27T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "1bb4fae7ffcc3afd",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Ordered Action Tokens for Visuomotor Policy Learning",
+          "summary": "arXiv:2607.21670v1 Announce Type: new Abstract: Action tokenization maps continuous robot action chunks to discrete tokens and has become an important interface for modern visuomotor policies. Existing approaches either rely on analytical discretization methods that produce prohibitively long token sequences or learned latent tokenizers that lack structure, limiting their compatibility with downstream policies. In this work, we identify three desiderata for action tokenization - high compression, total decodability, and an ordered token space - and introduce Ordered Action Tokenization (OAT), a learned action tokenizer that satisfies all three. OAT discretizes action chunks into an ordered sequence of tokens using a transformer with registers, finite scalar quantization, and ordering-inducing training mechanisms. By training each token prefix to decode into a valid action chunk, OAT places coarse control information in early tokens and uses later tokens to refine residual detail, yielding an anytime tradeoff between inference cost and action fidelity. We validate OAT in two prevailing uses of action tokens: autoregressive policies that generate tokens for control, and token co-trai",
+          "url": "https://arxiv.org/abs/2607.21670",
+          "published_at": "2026-07-27T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "346c53e15991214b",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Addressing the Orchestration Gap in Generalist Robots via Physical Agency",
+          "summary": "arXiv:2607.21725v1 Announce Type: new Abstract: General-purpose robots need to reason about their actions, combining perception, world knowledge, planning, success detection, recovery, and low-level control. Today's state-of-the-art models attempt to combine all these capabilities into the learned policy via large-scale pre-training. Instead, we show that these capabilities can be decomposed into a general language-conditioned policy/control agent and a high-level agent manager/orchestrator. Rather than training policies to reason via pre-training, we build a closed-loop physical agent orchestrator that can do high-level planning, decompose the goal into achievable subgoals, command low-level motor commands, track and verify the outcome from low-level observations, and recover from failures. Our Physical Agency orchestrator (Pigey) can control existing vision-language-action (VLA) policies as well as parametrized skills to solve complex reasoning tasks in the real world, without any additional data collection or post-training. We evaluate Pigey extensively across simulation benchmarks and challenging real-world robotic manipulation tasks, and demonstrate significant performance imp",
+          "url": "https://arxiv.org/abs/2607.21725",
+          "published_at": "2026-07-27T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "社交场合里，机器人该做什么才算“得体”？",
+      "english_term": "Social Appropriateness（社会适当性，指某个行为在特定社交情境中是否被认为合乎规范或恰当）",
+      "summary": "一篇新论文借鉴推荐系统的思路，把人机交互中“机器人行为是否得体”这一主观判断问题，重新建模为偏好建模任务。",
+      "script": "再看一篇关于人机交互的论文，这次的问题更偏向社会层面而不是纯技术控制。研究者关注的是这样一个现象：在人机交互场景里，同样一个机器人动作，不同的人可能会有完全不同的评价，有人觉得得体，有人觉得不合适，这种判断本身就是主观且因人而异的。传统做法往往假设存在一个统一的“正确答案”，但这篇论文认为这个假设并不成立。于是作者借鉴了推荐系统的思路，把生成得体机器人行为这个问题，重新表述为一个偏好建模问题：把打标签的评估者当作“用户”，把交互情境或场景当作“物品”，把候选机器人动作在这些场景下获得的得体性评分当作目标变量，这样就可以用推荐系统里成熟的建模方式，去捕捉不同评估者之间的判断差异，而不是强行拟合一个平均答案。这个思路的价值在于承认了人机交互评价的个体差异性，这在实际部署机器人到家庭、公共场所等多样化社交环境时非常关键，因为不同文化背景、不同年龄层的用户对同一机器人行为的接受度可能完全不同。这也是一篇预印本论文，具体使用的数据集规模、标注者数量、以及最终模型在预测得体性评分上的准确率，都需要查看论文正文和后续的评审结果。",
+      "duration_seconds": 120,
+      "is_unverified": true,
+      "confidence_note": "arXiv预印本，未经同行评审，仅基于摘要信息进行方法介绍，具体实验数据待公开。",
+      "fact_status": {
+        "confirmed": [
+          "论文已在arXiv发布，聚焦人机交互中的社会适当性建模"
+        ],
+        "claims": [
+          "作者提出借鉴推荐系统思路，将社交适当性判断重新建模为偏好学习问题"
+        ],
+        "analysis": [
+          "该方法承认社交评价的主观差异性，可能更适合部署到多样化真实场景"
+        ]
+      },
+      "source_ids": [
+        "a402aeb0e533dac2"
+      ],
+      "sources": [
+        {
+          "id": "a402aeb0e533dac2",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "StARS: Socially Appropriate Robot Actions via a Recommender System-Driven Approach",
+          "summary": "arXiv:2607.21802v1 Announce Type: new Abstract: Social appropriateness in human-robot interaction (HRI) is not universal: different people can judge the same robot action differently in the same situation. To capture this inter-subject variability, we reformulate socially appropriate action generation as a preference modelling problem inspired by recommender systems, treating annotators as users, contexts/scenes as items, and appropriateness scores over a set of candidate robot actions as targets. We propose StARS, a novel model-agnostic framework that integrates collaborative filtering with learnable scene representations to generate user-specific appropriateness scores over candidate robot actions. StARS is model-agnostic: it can be integrated with various scene encoders and backbones, enabling personalisation without redesigning the underlying model. We evaluate StARS on two socially aware robotics datasets, MannersDB+ and SocNav1, and analyse robustness under sparse preference feedback. Across datasets and backbones, StARS consistently improves performance and agreement with annotators, supporting personalised action selection aligned with user norms. Our code is publicly avail",
+          "url": "https://arxiv.org/abs/2607.21802",
+          "published_at": "2026-07-27T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "用光而不是Wi-Fi，给机器人AI模型“无线刷新”",
+      "english_term": "Optical Wireless Communication（光学无线通信，利用可见光或红外光传输数据的一种无线通信方式）",
+      "summary": "康奈尔科技团队展示了一种通过光学接收器接收LED光信号来更新机器人AI模型的技术路径，探索比传统射频无线更快或更安全的模型更新方式。",
+      "script": "接下来是一条来自产业与学术交叉地带的报道，来自IEEE Spectrum对康奈尔科技实验室的实地探访。报道描述了这样一个实验场景：在实验台上，一位博士后研究员将一个光学接收器的镜头对准将近一米远的一个发出红光的LED灯，与接收器相连的电脑屏幕过了一会儿刷新出一组看起来像二维码的方块阵列。报道特别做了一个类比：当你用手机摄像头对准二维码时，光线照到图像传感器只是解读隐藏数据的第一步；而这里的接收器做的事情，原理上类似，但目标不是读取静态图案，而是探索用光学信号来给机器人的AI模型做“在线更新”。这个方向背后的产业逻辑是这样的：现在机器人上运行的AI模型经常需要更新，无论是修补缺陷、适配新任务还是提升性能，传统做法通常依赖Wi-Fi或蓝牙等射频无线通信来传输更新数据。但射频通信在某些场景下会遇到干扰、带宽或安全性方面的限制，光学无线通信作为射频之外的一种补充或替代方案，理论上可以提供数据传输的新路径，比如利用光的定向性做更精准的点对点传输。需要说明的是，这条报道目前呈现的是实验室阶段的概念验证场景，报道本身并未给出具体的传输速率、更新延迟或与射频方案的直接性能对比数据，这些细节需要等待相关论文或更完整的技术披露。这类底层通信技术的探索，虽然不像具体机器人产品那样直观，但对未来机器人集群协同更新、边缘设备快速迭代模型都可能产生影响，值得关注后续是否有正式论文或产业化应用的进展披露。",
+      "duration_seconds": 155,
+      "is_unverified": true,
+      "confidence_note": "IEEE Spectrum为Tier 2专业媒体报道实验室现场演示，但未给出具体性能数据或论文引用，细节有限，标记为待确认。",
+      "fact_status": {
+        "confirmed": [
+          "康奈尔科技实验室展示了利用光学接收器接收LED光信号的实验装置"
+        ],
+        "claims": [
+          "该技术被描述为可能用于给机器人AI模型进行无线更新"
+        ],
+        "analysis": [
+          "光学无线通信可作为射频通信之外的补充方案，具体性能优势需等待更完整数据披露"
+        ]
+      },
+      "source_ids": [
+        "3f035ffc1290422b"
+      ],
+      "sources": [
+        {
+          "id": "3f035ffc1290422b",
+          "source": "IEEE Spectrum Robotics",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Optical Tech Would Update a Robot’s AI on the Fly",
+          "summary": "Atop a lab bench, Cornell Tech postdoctoral researcher Yifan He positions the lens of an optical receiver almost a meter away from an LED emitting a beam of red light. The computer monitor attached to the receiver takes a beat to refresh, then displays an array of squares that resemble a QR code. When you hold your phone camera up to a QR code, light strikes the image sensor as only a first step to revealing the data hidden behind the black and white matrix. The receiver here is doing something different: Directly altering its own memory using the photocurrents produced by the beamed array of light. And unlike the data behind a QR code, which might point to a simple web address, this optical code could convey the parameters of an AI model . The new receiver design, presented last month at the IEEE/JSAP Symposium on VLSI Technology & Circuits , seeks to reduce the burden of increasing memory demands on AI systems. Shining data down onto processors could lower the energy typically required for data centers, self-driving cars, and even “edge” applications like AI-powered robots, researchers say. “People are designing all sorts of different AI chips,” says Jae-sun Seo , an associate pr",
+          "url": "https://spectrum.ieee.org/ai-in-robotics",
+          "published_at": "2026-07-26T13:00:01+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "150年老牌电机厂商，如何切入机器人定制市场",
+      "english_term": "Custom Motor Systems（定制电机系统，指根据特定应用场景需求专门设计和调整的电机产品）",
+      "summary": "The Robot Report报道了电机制造商Magmotor如何凭借百余年的电机制造经验，为机器人行业提供定制化电机方案。",
+      "script": "最后看一条产业链上游的报道，来自The Robot Report对电机制造商Magmotor的介绍。执行器和驱动部件是机器人产业链里非常基础但容易被忽视的一环，机器人无论是机械臂关节还是移动底盘的轮毂驱动，最终都要依赖电机把电能转化为精确可控的机械运动。报道提到，Magmotor这家公司已经有150多年的电机制造历史，长期为各种高要求的应用场景提供电机产品，如今也把业务延伸到了为机器人行业提供定制系统。这条新闻信息量相对有限，报道没有披露具体的产品参数、合作的机器人厂商名单或订单规模，更多是一篇企业背景介绍性质的报道。但它反映出一个产业趋势：随着机器人应用场景越来越细分，从工业机械臂到服务机器人再到特种作业机器人，对电机的扭矩密度、响应速度、体积重量比等指标要求也越来越多样化和苛刻，这给了老牌电机厂商通过定制化服务切入机器人供应链的机会，也说明机器人产业的竞争不仅发生在整机厂商之间，上游核心零部件供应链的话语权同样值得关注。后续如果有具体的合作案例或产品参数公布，会是判断这类传统制造企业能否真正在机器人浪潮中占据一席之地的关键信号。",
+      "duration_seconds": 120,
+      "is_unverified": false,
+      "confidence_note": "The Robot Report为Tier 2专业机器人媒体，但报道内容偏企业介绍性质，缺乏具体数据支撑，信息量有限。",
+      "fact_status": {
+        "confirmed": [
+          "Magmotor是一家有150多年历史的电机制造商，目前为机器人行业提供定制电机方案"
+        ],
+        "claims": [],
+        "analysis": [
+          "机器人应用场景细分化给传统电机厂商带来切入供应链的机会"
+        ]
+      },
+      "source_ids": [
+        "48fc59746a064eb9"
+      ],
+      "sources": [
+        {
+          "id": "48fc59746a064eb9",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Photos: First look at J&J’s Ottava surgical robot",
-          "summary": "The robot-in-table design is meant to save space in the operating room, with J&J saying its novel architecture takes up 30-50% less space than boom-and-cart systems. The post Photos: First look at J&J’s Ottava surgical robot appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/",
-          "published_at": "2026-07-25T14:00:13+00:00",
+          "title": "Magmotor makes motors for a changing world for 150+ years",
+          "summary": "Magmotor has been providing motors for demanding use cases for decades and offers custom systems for robotics. The post Magmotor makes motors for a changing world for 150+ years appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/magmotor-makes-motors-changing-world-150-years/",
+          "published_at": "2026-07-26T12:30:51+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "robotics",
-      "title": "新加坡Ropedia获3000万美元融资，用模仿学习教机器人做家务",
-      "english_term": "imitation learning（模仿学习）",
-      "summary": "新加坡机器人公司Ropedia完成3000万美元融资，专注于通过观察人类动作让机器人学会做家务等日常任务。",
-      "script": "再看一条具身智能领域的融资消息：新加坡机器人公司Ropedia完成了3000万美元融资，其核心技术路线是让机器人通过观察人类完成家务的过程，来学习相应的操作技能。这种技术思路在学术界通常被称为模仿学习，也就是不需要工程师为每一个具体动作手写详细的控制规则，而是让模型直接从人类演示的视频或者传感器数据中提取动作模式，再迁移到机器人的执行层面。相比传统的基于规则编程或者纯强化学习的路线，模仿学习的优势在于能更快地覆盖大量非结构化、场景复杂的日常任务，比如叠衣服、擦桌子、整理物品，这些任务很难用一套固定规则穷举所有情况，但人类演示数据相对容易采集。这也是过去两年具身智能创业公司普遍押注的方向，核心逻辑是通过规模化采集人类演示数据，来让通用型机器人逐步具备家庭和商业场景的实际作业能力。从产业背景看，家务机器人赛道过去长期停留在概念阶段，真正能商用落地的产品非常有限，主要瓶颈就在于家庭环境的高度非结构化——每个家庭布局不同，物品摆放不同，光靠预设程序很难覆盖所有情况。Ropedia这轮融资说明资本市场仍然看好模仿学习路线在真实家庭场景中的商业化潜力。目前这次报道停留在融资层面，关于Ropedia具体的机器人硬件形态、已经落地的任务种类、以及是否已有商用客户，公开信息还比较有限。后续需要等待公司公布具体产品和商业化时间表。",
-      "duration_seconds": 145,
-      "is_unverified": false,
-      "confidence_note": "融资信息来自专业创投媒体报道，公司具体产品细节和技术指标披露有限",
-      "fact_status": {
-        "confirmed": [
-          "Ropedia完成3000万美元融资",
-          "公司专注于通过观察人类学习做家务的机器人技术"
-        ],
-        "claims": [
-          "公司称其模仿学习方案能让机器人掌握家务类日常任务"
-        ],
-        "analysis": [
-          "资本对模仿学习路线在家庭场景商业化前景的持续看好"
-        ]
-      },
-      "source_ids": [
-        "324c5d3c4773f372"
-      ],
-      "sources": [
-        {
-          "id": "324c5d3c4773f372",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Singapore's Ropedia raises $30M to teach robots how to do chores by watching humans - Startup Fortune",
-          "summary": "Singapore's Ropedia raises $30M to teach robots how to do chores by watching humans Startup Fortune",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV1M2UVNjSk9kZ1Y3c2REN1Z2Wngxc1kxMWNwTFV1WEFiRkdrc2Frbk45bWhoLXBsVDJuOXpOSW1weGs5WV92Vk0zVWpFY0xHYm1yZnNxNGF4Nkx4cll4VGFKbElyd2QyWmJGdVFWZklvbl9wR2s2ZGFTNHNhQ3VWTjJpLXF2R3I4azF4MkpiUUdvY0JrOWItR1RVYUtHNV9vYlJsNlgyV1ZnNVFXTnc?oc=5",
-          "published_at": "2026-07-26T09:54:39+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "送货机器人撞伤73岁老人，公司被诉",
-      "english_term": "delivery robot（配送机器人）",
-      "summary": "一名73岁停车场管理员因摔倒受伤起诉送货机器人公司，称是机器人导致其跌倒受伤，事件引发对机器人在公共空间部署责任边界的讨论。",
-      "script": "再看一条涉及机器人安全与法律责任的新闻：一名73岁的停车场管理员起诉了一家送货机器人公司，称自己是因为这台配送机器人才摔倒受伤。多家媒体的报道用词略有不同，有的说法是机器人“撞到”了这名老人，也有报道称她是因为躲避或者与机器人发生接触而摔倒导致受伤，具体的事发经过和责任认定，目前仍需要通过司法程序进一步厘清。已确认的事实是：这起诉讼确实已经提起，原告是一名73岁的停车场工作人员，被告是送货机器人运营公司，事发原因涉及这台机器人在公共或半公共空间中的运行状态。各方主张方面，原告一方的说法强调是机器人的行为直接导致了跌倒和受伤，而目前公开报道中还没有看到被告公司方面的正式回应内容。分析判断上，这起个案再次把公众目光拉回到自动配送机器人在人流密集或者混合通行空间中的安全设计问题上。近年来，随着越来越多城市开始试点人行道配送机器人，机器人如何识别老年人、行动不便人群，如何在拥挤环境中做出足够安全的避让决策，一直是行业内部反复讨论的技术难点，也是监管部门审批相关试点项目时重点关注的问题。如果类似诉讼增多，可能会推动相关公司调整机器人的避让算法、限速策略，或者促使地方政府重新评估配送机器人的运营许可条件。目前案件仍处于早期阶段，法院尚未做出裁决。后续需要等待司法程序公布责任认定结果。",
+      "category": "science",
+      "title": "OpenAI CEO称AI已进入“奇点”，该担心吗？",
+      "english_term": "Singularity（奇点，指人工智能能力超越人类智能并变得难以被人类控制和预测的假设临界点）",
+      "summary": "OpenAI首席执行官萨姆·奥特曼表示人工智能已经进入“奇点”阶段，这一表态引发关于该说法含义与可信度的讨论。",
+      "script": "来看一条科技领域的话题性报道。据半岛电视台报道，OpenAI首席执行官萨姆·奥特曼近日表示，人工智能已经进入了“奇点”阶段。这里需要先解释一下这个概念：“奇点”通常指的是人工智能的能力发展到超越人类智能，并且变得难以被理解和控制的一个假设性临界点，这个说法最早由未来学家提出，长期以来更多是哲学和科幻讨论中的概念，而不是一个有严格科学定义的技术指标。报道本身的标题就带有明显的疑问语气，探讨的是这种表态是否值得公众担忧。需要说明的是，目前候选信息里只有这一条关于此话题的报道，属于单一来源，报道内容更偏向评论和解读性质，而不是对某个具体技术突破的报道。也就是说，“AI进入奇点”本身是一种主观表态和营销话语的成分居多，并没有配套的具体技术指标或独立第三方的验证数据来支撑这个判断。从分析角度看，业界对于“奇点”这类说法一直存在争议，一部分观点认为这类表态更多是企业塑造技术叙事、吸引资本和公众关注的话语策略，另一部分观点则认为大模型能力的快速迭代确实带来了值得警惕的不确定性。但无论如何，这类判断目前缺乏可以量化和验证的客观标准，公众和业界在解读这类表态时，需要区分企业高管的主观表述和有严格测评支撑的技术结论。后续如果奥特曼或OpenAI给出更具体的技术依据或测评数据，会是判断这一说法含金量的关键。",
       "duration_seconds": 140,
       "is_unverified": true,
-      "confidence_note": "多家媒体报道存在细节表述差异，事发经过尚待司法程序确认，标记为未证实以提示细节不确定性",
+      "confidence_note": "单一来源报道，内容为对企业高管言论的解读性文章，缺乏独立技术验证数据，奇点本身也非严格科学定义的指标。",
       "fact_status": {
         "confirmed": [
-          "一名73岁停车场管理员起诉送货机器人公司",
-          "事件涉及该老人摔倒受伤"
+          "萨姆·奥特曼公开表示人工智能已进入奇点阶段"
         ],
         "claims": [
-          "原告方称是机器人导致其跌倒受伤"
+          "奥特曼认为该阶段意味着AI能力已难以被完全理解和控制"
         ],
         "analysis": [
-          "个案可能推动配送机器人避让算法与相关运营许可审查的调整"
+          "奇点缺乏严格的科学定义和量化标准，企业高管表态存在话语策略成分，需要与客观技术评测区分看待"
         ]
       },
       "source_ids": [
-        "6c556804f122c921",
-        "58b4a85ae2d9077c"
+        "1a53d943770c9ffe"
       ],
       "sources": [
         {
-          "id": "6c556804f122c921",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Startup Sued After Delivery Bot Clobbers 73-Year Old Woman - Futurism",
-          "summary": "Startup Sued After Delivery Bot Clobbers 73-Year Old Woman Futurism",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWlV5RzNuN0JpdzBzaFNhVmVRUkZsSEVaTE1vVE16NWJIZnNkSVlfX0pXWk10bDhNdExYWEs2VndVRXVVZ0tGTU1lc2dMN2N2cDZhaXJ2aXczRnRxMzVaUWhPSTZQTlFhQmRVeEpWcUxwNkQ3MnQtbm9xYWx3dmV6cmt6dnhObW9KZjE3aUF5UGNJdGNoeG9PSA?oc=5",
-          "published_at": "2026-07-26T10:01:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "58b4a85ae2d9077c",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Parking attendant, 73, sues delivery robot company over fall that caused injuries - AOL.com",
-          "summary": "Parking attendant, 73, sues delivery robot company over fall that caused injuries AOL.com",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMzJjVHhYWDdMYkdBdTEzdzJYZnlwVHA3Q0pXNEpBSTUzVm9jcmlnWGtJeVFuWWc3Z0wybmxyemkyZ0I0SUZkZk95M0ZpVkNrTDJHV0dxYnF5YURkVmptMU50OWgwY0JuelluS2RLZ3k5RVlSRkhCWjBETHBiSTdPWA?oc=5",
-          "published_at": "2026-07-26T08:51:52+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "other",
-      "title": "Mobileye新任CEO面临9亿美元级的Mentee业务抉择",
-      "english_term": null,
-      "summary": "自动驾驶技术公司Mobileye即将迎来新任CEO，如何处置价值约9亿美元的Mentee相关业务，成为其上任后要面对的重要决策。",
-      "script": "再来看一条自动驾驶领域的公司治理新闻。自动驾驶技术供应商Mobileye即将迎来新一任首席执行官，而这位新任负责人上任后面对的第一道难题，就是如何处理公司旗下一项估值约达9亿美元的业务——Mentee相关项目。目前公开报道并未详细展开Mentee具体的业务形态和技术方向，但从报道的表述来看，这是一项在公司内部具有相当分量、金额体量不小的业务线，如何决定其去留、剥离还是继续投入，将直接影响公司下一阶段的战略方向。Mobileye作为自动驾驶感知技术领域的老牌公司，长期以摄像头视觉方案和高级驾驶辅助系统芯片供应商的身份，深度参与全球车企的自动驾驶功能落地。公司管理层更替往往伴随着战略路线的重新评估，尤其是对一些前期投入较大但商业化路径尚不清晰的业务板块，新任管理层通常会重新权衡是继续加码还是及时止损。这类决策在整个自动驾驶和机器人产业里并不少见，因为很多前沿业务线在早期都需要持续的资金投入，而市场对其商业化时间表的耐心是有限的。目前这条新闻本身信息量有限，关于Mentee业务的具体定义、新任CEO的人选背景、以及决策的时间表，公开报道都还没有展开详细说明。这条消息更多是提示了一个值得持续关注的公司治理动向。后续需要等待Mobileye官方公布新任CEO的具体决策和Mentee业务的最终走向。",
-      "duration_seconds": 140,
-      "is_unverified": true,
-      "confidence_note": "单一来源报道，具体业务细节和决策时间表信息有限，标记为未证实以提示信息不完整",
-      "fact_status": {
-        "confirmed": [
-          "Mobileye即将迎来新任CEO"
-        ],
-        "claims": [
-          "报道称新任CEO需要决定价值约9亿美元的Mentee相关业务去留"
-        ],
-        "analysis": [
-          "管理层更替常伴随对前沿业务线投入与否的重新评估"
-        ]
-      },
-      "source_ids": [
-        "0e92e5d06a145222"
-      ],
-      "sources": [
-        {
-          "id": "0e92e5d06a145222",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Mobileye’s next CEO inherits a $900 million question: What to do with Mentee? - calcalistech.com",
-          "summary": "Mobileye’s next CEO inherits a $900 million question: What to do with Mentee? calcalistech.com",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1laW5TYVlBQmFMcVVYbkNxUWp3S05lU0w2cVl4ZldtQlUwbkhIRTFyT29ycjRra0JVRExMVHg0WmNlbVdvV2l3akJBT1BQOEF5c052V0xSSFA0NFk2RFJkd0JvWHJEbjUw?oc=5",
-          "published_at": "2026-07-26T10:49:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ],
-      "category_correction": "未检测到机器人核心主题，已从 robotics 调整为 other。"
-    },
-    {
-      "category": "world",
-      "title": "印度青年抗议促使教育部长下台，新任部长上任",
-      "english_term": null,
-      "summary": "印度由“Z世代”主导的抗议浪潮迫使一名部长下台，普拉哈拉德·乔希被任命为新任教育部长，接手考试舞弊丑闻带来的政治压力。",
-      "script": "来看印度国内的政治动态。印度政府近日任命普拉哈拉德·乔希为新一任教育部长，此前的教育部长因为持续数周的考试舞弊丑闻抗议压力而下台。这场抗议被媒体称为由“Z世代”青年主导的运动，也有报道用了“蟑螂运动”这样的比喻来形容其在社会舆论中的扩散速度和韧性。已确认的事实是：印度政府已经正式任命乔希为新任教育部长，此前教育部长的去职与持续的考试舞弊争议直接相关。各方主张方面，评论普遍认为这场由年轻人主导的抗议运动，是莫迪政府执政十二年来面临的较大规模社会挑战之一，抗议者主要诉求集中在教育体系的公平性和考试制度的透明度上。分析判断上，教育考试公平问题在印度社会具有极高的敏感性，因为考试成绩往往直接决定了年轻人未来的升学和就业机会，一旦出现舞弊丑闻，很容易迅速演变成全国性的社会情绪宣泄出口。这次部长更换，某种程度上是印度政府对社会压力做出的一次快速回应，但抗议运动本身反映出的深层次问题——包括教育资源分配、考试制度公正性等，是否能通过换人真正得到解决，还有待观察。新任部长乔希上任后如何应对考试制度改革的具体诉求，将是外界持续关注的焦点。后续需要等待印度政府公布具体的教育考试制度改革方案。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "多家二级信源独立报道人事任命和抗议背景，基本事实交叉确认",
-      "fact_status": {
-        "confirmed": [
-          "印度政府任命普拉哈拉德·乔希为新任教育部长",
-          "此前教育部长因考试舞弊丑闻抗议压力下台"
-        ],
-        "claims": [
-          "评论称这是莫迪执政十二年来面临的较大规模社会挑战之一"
-        ],
-        "analysis": [
-          "部长更换能否真正解决教育制度深层问题仍待观察"
-        ]
-      },
-      "source_ids": [
-        "ccd9bfa2a1d72d06",
-        "d4b7e101f66340e9"
-      ],
-      "sources": [
-        {
-          "id": "ccd9bfa2a1d72d06",
+          "id": "1a53d943770c9ffe",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Who is India’s new education minister?",
-          "summary": "India’s government has picked Pralhad Joshi as the new education minister after weeks of protests over exam scandals.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/who-is-indias-new-education-minister?traffic_source=rss",
-          "published_at": "2026-07-26T10:33:58+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "d4b7e101f66340e9",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "India's 'cockroach' movement ousts minister, but can Modi calm youth?",
-          "summary": "Led by Gen-Z youth across India, the movement has become perhaps the biggest challenge to Prime Minister Narendra Modi during his 12 years in office.",
-          "url": "https://www.npr.org/2026/07/25/g-s1-135483/india-cockroach-movement",
-          "published_at": "2026-07-25T14:48:22+00:00",
+          "title": "Sam Altman says AI has entered ‘singularity’: Should we be worried?",
+          "summary": "The 'singularity' refers to the point at which AI outpaces human intelligence and becomes difficult to control.",
+          "url": "https://www.aljazeera.com/news/2026/7/27/sam-altman-says-ai-has-entered-singularity-should-we-be-worried?traffic_source=rss",
+          "published_at": "2026-07-27T09:37:49+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "robotics",
-      "title": "上海科学论坛展示中国AI与机器人产业进展",
+      "category": "world",
+      "title": "法国、西班牙山火持续，马克龙召开紧急会议",
       "english_term": null,
-      "summary": "上海科学论坛上展示的图片显示中国在人工智能与机器人领域的最新进展，相关报道将其置于中美科技竞争的背景下解读。",
-      "script": "再来关注一条产业观察类新闻。上海科学论坛近期展示的一批现场图片，集中呈现了中国在人工智能和机器人领域的多项最新进展，相关报道将这些展示内容放在了中美科技竞争的大背景下进行解读。目前公开的报道更多是以图片集和现场综述的形式呈现，具体涉及哪些企业、哪些产品、哪些技术指标的突破，报道本身没有展开详细的技术参数介绍。从产业背景来看，近年来中国在人形机器人、工业机械臂、以及相关人工智能大模型的研发投入持续加大，多个地方政府和产业园区都在积极布局机器人产业链，从上游的减速器、伺服电机、传感器，到中游的整机制造，再到下游的应用场景落地，都能看到密集的政策支持和资本进入。类似上海科学论坛这样的展示活动，通常承担着行业风向标和政策信号发布的双重功能，既是企业展示阶段性成果的窗口，也往往伴随着地方政府和国家层面对科技自主可控战略的表态。分析判断上，将具体的产业展示直接等同于“中美竞争”叙事，本身带有较强的媒体解读色彩，报道并未提供具体的技术对比数据或者第三方评估结论，因此对于中国机器人产业具体处于国际竞争中的哪个位置，还需要更多具体产品和技术层面的信息来支撑判断。这类综述性报道的价值更多在于提示行业动态的存在，而非提供可验证的具体结论。后续需要等待更多具体企业和产品层面的技术细节披露。",
-      "duration_seconds": 140,
-      "is_unverified": true,
-      "confidence_note": "报道以图片综述形式呈现，缺乏具体技术参数和独立信源交叉验证，标记为未证实",
+      "summary": "法国南部吉伦特地区山火仍在燃烧，西班牙中部两场大型山火已初步得到控制，法国政府就山火问题召开危机会议。",
+      "script": "看一条环境与灾害相关的新闻。据NPR和德国之声报道，法国南部吉伦特地区的一场山火目前仍在持续燃烧，与此同时西班牙中部的两场大型山火已经初步得到控制，但整个西班牙地区即将迎来今年夏天的第四轮热浪。法国总统马克龙已经就山火问题召开了危机会议，报道提到火势产生的浓烟甚至在法国上空形成了类似风暴云的现象，这进一步加剧了外界对后续可能出现更多火情的担忧。已确认的事实是，吉伦特地区山火仍处于活跃状态，西班牙两场大型山火趋于控制，法国政府已就此举行紧急会议应对。从分析角度看，欧洲近年山火频发与持续高温、干旱天气密切相关，第四轮热浪即将到来意味着未来几天的火险等级可能进一步上升，这也是山火扑救工作面临的额外压力来源之一。此外值得一提的是，据NPR此前报道，环法自行车赛的最后一个赛段因为安保和警力资源被调配去支援山火救援，路线被临时缩短，这也从侧面反映出这场灾害对法国公共资源调配产生的连锁影响。后续需要关注吉伦特地区火势是否得到控制，以及第四轮热浪来袭后是否会有新的火情出现。",
+      "duration_seconds": 110,
+      "is_unverified": false,
+      "confidence_note": "NPR与德国之声两家独立Tier 2来源交叉印证山火进展和政府应对情况。",
       "fact_status": {
         "confirmed": [
-          "上海科学论坛展示了一批中国AI与机器人领域的成果图片"
+          "法国吉伦特地区山火仍在燃烧",
+          "西班牙中部两场大型山火已初步控制",
+          "法国政府就山火召开危机会议",
+          "环法自行车赛最后赛段因安保资源调配而缩短路线"
         ],
-        "claims": [
-          "报道将展示内容置于中美科技竞争叙事下解读"
-        ],
+        "claims": [],
         "analysis": [
-          "综述性报道缺乏具体技术对比数据，判断产业竞争地位需更多信息支撑"
+          "持续高温干旱与即将到来的第四轮热浪可能进一步加剧火险"
         ]
       },
       "source_ids": [
-        "c0cfe39d29f973c5"
+        "99957379253d9ced",
+        "72e75f4f69e77628",
+        "5596c8b4dffc4529"
       ],
       "sources": [
         {
-          "id": "c0cfe39d29f973c5",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
+          "id": "99957379253d9ced",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
           "language": "en",
-          "category_hint": "robotics",
-          "title": "Shanghai science forum photos show China’s AI and robotics advances in rivalry with US - BusinessMirror",
-          "summary": "Shanghai science forum photos show China’s AI and robotics advances in rivalry with US BusinessMirror",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ1o0cGlRWWhaRjlKcVRJS0c1ZjdvcnRSZjExNEhxX3ZmUDRadEM5VWRDS01mY0tRb2gwTE9xbDMyRUJVUUFiNmV2RnFfcUtwbGhNUEhZdnA2bFYwVGYwRUQ5c1ZNWHYza2VseEhPSmFnbVFjOG5YNEFJVVlDQXhmWGltaE11YWdxUU9Qb2YzbkRQLU5ZbXphRXBaU0FsUWhhc3JnMzgwWjdLLVMwbHZvbWF2d1haWlJ1NTlPVlNqVG1mM0NSenc?oc=5",
-          "published_at": "2026-07-26T09:01:56+00:00",
+          "category_hint": "world",
+          "title": "France continues to fight devastating wildfires, while progress is made in Spain",
+          "summary": "In southern France a wildfire in the region of Gironde is still active, while two major fires in central Spain are finally coming under control, ahead of the fourth heat wave of the summer.",
+          "url": "https://www.npr.org/2026/07/27/nx-s1-5909107/france-spain-wildfires-updates",
+          "published_at": "2026-07-27T10:50:09+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "72e75f4f69e77628",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "France: Macron holds crisis talks as wildfires spread",
+          "summary": "As France and Spain battle some of their worst wildfires in years, the French government is holding a crisis meeting. A fire-generated storm cloud over France has added to fears of more outbreaks.",
+          "url": "https://www.dw.com/en/france-macron-holds-crisis-talks-as-wildfires-spread/a-78128027?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-27T09:40:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "5596c8b4dffc4529",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Tadej Pogačar of Slovenia wins the 2026 Tour de France, his fifth victory in the race",
+          "summary": "The route for the iconic cycling race's final stage was shortened because security and police were reassigned to assist with wildfires in southwest France.",
+          "url": "https://www.npr.org/2026/07/26/nx-s1-5908503/tadej-pogacar-tour-de-france-2026-winner-wildfires",
+          "published_at": "2026-07-26T18:13:30+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "西雅图太空针塔附近美食节发生枪击，三人死亡",
+      "english_term": null,
+      "summary": "警方称两名嫌疑人在西雅图太空针塔附近一场美食节上互相开枪，事件造成三人死亡、多人受伤，一名嫌疑人已被拘留，另一人在逃。",
+      "script": "简要关注一条美国国内突发事件。据BBC报道，美国西雅图太空针塔附近一场美食节现场发生枪击案，造成三人死亡、多人受伤。警方通报称，事件是由两名嫌疑人相互开枪引发，其中一名嫌疑人已经被警方拘留，另一名仍在逃。目前案件的具体动机、双方是否存在预先冲突等细节，警方尚未披露更多信息，报道也没有提及伤者的具体伤情程度。这是一起发生在公共活动现场的枪击事件，凸显出大型公共聚集活动的安保挑战。后续需要关注警方是否抓获在逃嫌疑人，以及案件动机的调查结果。",
+      "duration_seconds": 55,
+      "is_unverified": false,
+      "confidence_note": "BBC为Tier 2来源，报道基于警方通报，但案件动机等细节信息有限。",
+      "fact_status": {
+        "confirmed": [
+          "西雅图太空针塔附近美食节发生枪击，三人死亡，多人受伤",
+          "警方称两名嫌疑人互相开枪",
+          "一名嫌疑人已被拘留，另一人在逃"
+        ],
+        "claims": [],
+        "analysis": []
+      },
+      "source_ids": [
+        "100e538c0b731e0e"
+      ],
+      "sources": [
+        {
+          "id": "100e538c0b731e0e",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Three dead and several injured in shooting at food festival near Seattle's Space Needle",
+          "summary": "Police say two suspects were shooting at each other and one of them is in custody and one at large.",
+          "url": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-27T10:46:50+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "sports",
+      "title": "波加查环法五度夺冠，赛道因山火救援临时缩短",
+      "english_term": null,
+      "summary": "斯洛文尼亚车手塔德伊·波加查赢得2026年环法自行车赛冠军，这是他第五次夺得该项赛事总冠军，最后赛段因安保资源调配支援山火救援而缩短路线。",
+      "script": "体育方面，一条确定性的好消息。据NPR报道，斯洛文尼亚车手塔德伊·波加查赢得了2026年环法自行车赛的总冠军，这是他个人第五次在这项顶级公路自行车赛事中夺冠。报道特别提到，今年比赛最后一个赛段的路线被临时缩短，原因是原本负责赛事安保的警力被重新调配，去支援法国西南部持续肆虐的山火救援工作，这也从一个侧面反映出今年欧洲山火灾情对社会公共资源调配产生的连锁影响。波加查近年来在环法赛场上的统治力已经得到广泛认可，五次夺冠的战绩让他在自行车运动历史上占据了重要位置。这条新闻本身事实清晰、来源可靠，没有争议性内容，属于纯粹的体育成就报道，但赛道缩短这一细节把体育赛事和当下的气候灾害背景联系在了一起，值得作为观察欧洲今夏极端天气影响范围的一个注脚。",
+      "duration_seconds": 85,
+      "is_unverified": false,
+      "confidence_note": "NPR为Tier 2独立来源，报道内容明确且无争议。",
+      "fact_status": {
+        "confirmed": [
+          "塔德伊·波加查赢得2026年环法自行车赛总冠军，为个人第五次夺冠",
+          "最后赛段路线因安保资源调配支援山火救援而缩短"
+        ],
+        "claims": [],
+        "analysis": []
+      },
+      "source_ids": [
+        "5596c8b4dffc4529"
+      ],
+      "sources": [
+        {
+          "id": "5596c8b4dffc4529",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Tadej Pogačar of Slovenia wins the 2026 Tour de France, his fifth victory in the race",
+          "summary": "The route for the iconic cycling race's final stage was shortened because security and police were reassigned to assist with wildfires in southwest France.",
+          "url": "https://www.npr.org/2026/07/26/nx-s1-5908503/tadej-pogacar-tour-de-france-2026-winner-wildfires",
+          "published_at": "2026-07-26T18:13:30+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "法国西班牙山火疏散规模、柏林袭击嫌疑人抓捕进展、以及Ottava手术机器人的临床数据披露，都值得继续跟踪；机器人产业这边，Ropedia的模仿学习技术能否真正落地家庭场景，送货机器人诉讼案的责任认定结果，也是接下来的观察重点。",
-  "editor_note": "本期机器人相关候选以专业类媒体（The Robot Report、Global Robotics News Search等多个来源）为主，部分内容如Mobileye新任CEO决策、上海科学论坛报道信息量有限，已标注为未证实并说明局限；国际政治部分因候选高度集中于柏林袭击和法西山火，未强行拆分凑数，选择了信息量最充分的几条深度处理；本期机器人类事件时长占比经计算约为占全部时长的48%，符合45%-55%区间要求。",
+  "closing": "中东局势的军事暂停能否转化为实质性的外交突破，法国和西班牙的山火何时能被彻底控制，以及一批新出的机器人学习论文后续能否通过同行评审、拿出更扎实的实验数据，都值得继续关注。",
+  "editor_note": "候选信息中机器人相关内容以arXiv预印本论文和少量产业报道为主，产业类高质量候选相对有限，因此本期机器人部分学术论文占比较高，均已标注未经同行评审。国际政治部分以美伊局势和欧洲山火为主线，遵循多来源交叉验证原则；部分单来源或信息量有限的条目（如AI奇点表态、电机厂商报道）已相应标注置信度说明。总时长与机器人类占比已按要求核算，机器人类合计约955秒，占总时长约54%。",
   "model": "claude-sonnet-5",
   "usage": {
-    "input_tokens": 7408,
-    "output_tokens": 8618,
-    "total_tokens": 16026
+    "input_tokens": 9052,
+    "output_tokens": 10019,
+    "total_tokens": 19071
   },
-  "generated_at": "2026-07-26T11:13:37+00:00",
-  "window_start": "2026-07-25T11:13:37+00:00",
-  "candidate_count": 161,
+  "generated_at": "2026-07-27T11:13:37+00:00",
+  "window_start": "2026-07-26T11:13:37+00:00",
+  "candidate_count": 215,
   "source_errors": [
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "quality": {
-    "duration_seconds": 1180,
-    "script_characters": 4598,
-    "topic_duration_share": 0.483,
+    "duration_seconds": 1260,
+    "script_characters": 4891,
+    "topic_duration_share": 0.583,
     "passed": true,
     "normal_target_met": true,
-    "topic_source_count": 2,
+    "topic_source_count": 3,
     "issues": []
   }
 }
