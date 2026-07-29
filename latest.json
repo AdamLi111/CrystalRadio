@@ -1,79 +1,136 @@
 {
-  "title": "晶球电台早报：日本九州7.1级强震，人形机器人基座模型融资近5亿元",
-  "subtitle": "从九州地震到具身智能新论文：今天的世界与机器人前沿",
+  "title": "晶球电台早报：美国全面禁令冲击中国机器人产业，日本地震死亡人数上升",
+  "subtitle": "人形机器人进口禁令、彩色触觉皮肤新研究，与欧洲山火、中东冲突升级同台聚焦",
   "highlights": [
-    "日本九州熊本发生7.1级强震并发布海啸警报，多栋房屋倒塌有人员被困",
-    "UCLA博士团队创立的人形机器人基座模型公司获近5亿元人民币天使++轮融资",
-    "arXiv同日放出多篇机器人学论文，涵盖假肢个性化控制、VLA操作精度标度律等方向"
+    "美国宣布禁止进口非美国制造的人形与四足机器人，直指中国厂商，引发外交与产业震荡",
+    "欧洲科研团队研发彩色触觉传感皮肤，让机械手指同时感知压力分布与纹理形状",
+    "日本强震死亡人数升至13人，法国、西班牙山火迫使数十万人紧急撤离"
   ],
   "stories": [
     {
-      "category": "world",
-      "title": "日本九州熊本发生7.1级强震，海啸警报已发布",
-      "english_term": null,
-      "summary": "日本气象厅确认九州熊本地区发生7.1级地震，多地房屋倒塌，首相呼吁民众警惕余震。",
-      "script": "今天的第一条重要新闻来自日本。当地时间今天，日本九州岛熊本地区发生了一场7.1级的强烈地震，气象部门随即发布了海啸警报。根据多家媒体报道，地震已造成多栋房屋倒塌，部分居民被困在受损建筑内，目前已有数十人因伤送医。日本首相高市早苗在震后公开呼吁民众保持警惕，因为不排除会出现同等强度的余震。目前已确认的信息是：这是一次7.1级地震，震中位于九州熊本一带，海啸警报已经生效，且已有人员伤亡和财产损失的报告。至于最终的伤亡人数、房屋损毁范围以及海啸是否会真正登陆造成破坏，各方通报仍在更新中，还需要等待日本官方后续的正式统计。熊本地区历史上曾在2016年经历过造成重大损失的强震，此次地震发生后，日本的建筑抗震规范和应急响应体系将再次接受实战检验。分析人士认为，九州地处环太平洋地震带，地质活动频繁，此次强震再次凸显了日本在基础设施抗震和海啸预警系统上的持续投入的重要性。后续需要关注日本气象厅是否会调整海啸警报级别，以及救援部门公布的最终伤亡与损毁数据。",
-      "duration_seconds": 110,
-      "is_unverified": false,
-      "confidence_note": "由Al Jazeera与DW两家independent tier 2媒体交叉确认地震震级、地点与初步伤亡情况，构成两个独立来源。",
+      "category": "robotics",
+      "title": "美国宣布禁止进口外国制造人形与四足机器人，剑指中国供应链",
+      "english_term": "humanoid robot（人形机器人）、quadruped robot（四足机器人）",
+      "summary": "特朗普政府以国家安全为由，宣布禁止进口非美国制造的人形和四足机器人，中国厂商被认为是主要打击对象。中国方面已作出回应，双边关系可能因此进一步承压。",
+      "script": "第一条重点新闻，来自机器人产业与国际政治的交叉地带。据多家媒体报道，美国政府宣布了一项大范围的机器人进口禁令，禁止进口在美国境外制造的人形机器人和四足机器人，官方给出的理由是国家安全考量。多家外媒的报道指出，这项政策实际上主要针对的是中国机器人制造商，被视为对中国机器人产业链的一次系统性打击。目前已确认的事实是：美方已经发布了这项禁令，涉及人形与四足两大类机器人整机进口；中国官方也已经就此作出回应，显示出双方在这一问题上出现了新的摩擦点。至于具体的执行细则、豁免范围、是否涉及零部件与核心执行器，以及对已经在美布局的中国相关企业会造成多大冲击，目前各方说法尚不完全一致，需要等待更完整的官方文本公布。分析层面看，人形机器人近年来被视为具身智能落地的核心载体，中国在电机、减速器、灵巧手等核心零部件上已经形成较强的产业配套能力，一些国际投行的分析报告也提到，中国机器人产业在国际市场推广中面临一定的公众认知和信任问题，这次禁令可能会放大这种“公关难题”，让中国厂商在海外拓展时遇到更多政策性障碍。另一方面，也有分析认为，这类禁令可能会加速全球机器人供应链的区域化和本土化进程，美国国内相关制造与集成企业可能会获得阶段性的政策红利。这起事件牵涉产业政策、地缘政治与技术竞争三重维度，后续需要关注美方禁令的具体实施细则何时公布，以及中国是否会出台对等反制措施。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "多家媒体报道口径一致，但禁令具体条文、执行范围与豁免细则尚未见官方原文全文公布，投行评论与中方反应属于二手转述，需等待更权威文本确认。",
       "fact_status": {
         "confirmed": [
-          "日本九州熊本发生7.1级地震",
-          "海啸警报已发布",
-          "多栋房屋倒塌，已有伤员送医"
+          "美国政府宣布禁止进口非美国制造的人形与四足机器人",
+          "中国官方已就此作出回应"
         ],
         "claims": [
-          "首相呼吁民众警惕类似强度的余震"
+          "多家媒体认为该禁令主要针对中国机器人制造商",
+          "投行分析称中国机器人产业存在公众认知层面的挑战"
         ],
         "analysis": [
-          "九州地处环太平洋地震带，地质活动活跃，此次强震将检验日本抗震与预警体系"
+          "禁令可能加剧中美在机器人产业链上的摩擦",
+          "政策或将推动全球机器人供应链本土化趋势"
         ]
       },
       "source_ids": [
-        "cdab8d65f52e072d",
-        "0969a29c445db03c",
-        "ff369575be7d4f8b"
+        "81414187910c3694",
+        "e2fd6b09af28c2cd",
+        "e312d7e0754512ea",
+        "8b2ab149e8c8ee54"
       ],
       "sources": [
         {
-          "id": "cdab8d65f52e072d",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
+          "id": "81414187910c3694",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Magnitude 7.1 earthquake shakes southern Japan, tsunami warning issued",
-          "summary": "PM Sanae Takaichi urges people 'to remain vigilant for the possibility of another earthquake of similar magnitude'.",
-          "url": "https://www.aljazeera.com/news/2026/7/28/magnitude-7-1-earthquake-shakes-southern-japan-tsunami-warning-issued?traffic_source=rss",
-          "published_at": "2026-07-28T11:02:03+00:00",
+          "category_hint": "robotics",
+          "title": "U.S. Takes Aim at Chinese Robot-Makers With Sweeping Import Ban - Caixin Global",
+          "summary": "U.S. Takes Aim at Chinese Robot-Makers With Sweeping Import Ban Caixin Global",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY1dLRlFvN3ZkWVFiLUxESWEwSUttTm9rWjQ1UFJfV3JNc09MN1RoRmpsV2F3MmRhOWxFQW5TQTJRSjU4R2I5VmpKMFhzbXJtQ3EwSXV4QVhWNGpEZUVscU9kN0hCSTNmVThLeVpTekstM1R2Wjg3NXAwUkQwaHhwWVpmc3hsMzdyN1NvdmNCQVRqMFRCLU5iU2twODE3TmluSDRwdzByTTdFamlDTzAxVE5TUU5wSmM?oc=5",
+          "published_at": "2026-07-29T11:01:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "0969a29c445db03c",
+          "id": "e2fd6b09af28c2cd",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Japan: Strong earthquake shakes Kumamoto, injuries reported",
-          "summary": "Dozens of people were hospitalized after the earthquake hit Southern Japan. According to media reports, multiple houses collapsed, with some people trapped inside the damaged buildings.",
-          "url": "https://www.dw.com/en/japan-strong-earthquake-shakes-kumamoto-injuries-reported/a-78143660?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-28T10:21:00+00:00",
+          "title": "US bans Chinese and foreign-made humanoid robots",
+          "summary": "The Trump administration has banned the import of humanoid and quadruped robots manufactured outside the United States, citing national security concerns. The ban could strain diplomatic tensions with China.",
+          "url": "https://www.dw.com/en/us-bans-chinese-and-foreign-made-humanoid-robots/a-78154426?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-29T09:15:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "ff369575be7d4f8b",
-          "source": "Al Jazeera",
+          "id": "e312d7e0754512ea",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Gasgoo Daily:China Responds to U.S. Robot Ban; Momenta Secures Germany L4 Permit; Xiaomi Teases N90 Max - Gasgoo",
+          "summary": "Gasgoo Daily:China Responds to U.S. Robot Ban; Momenta Secures Germany L4 Permit; Xiaomi Teases N90 Max Gasgoo",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdGQ3TnlqMG9ueEg1MVRfR2FEbWJlMndJQ0dELXJIbTBPRF90LVBfMVN0djhLVWljbkFMaGU5Y0t2bk1jaGdLZTRQRmk5SVpfT21PT19sWHl1LXdTbV9ZN1MzY1dEWFhjMGZIMVBnekFMSElFZV9JbnpyVnRVbEc2RHZ5aXNXM0ZES1JuOGxFa2tUYWk2X3I5SkVpYlVnNFBBZDNzdUtDb3hDUDh1cE9IdXpwR1QwVmRQTTM0TFdYbXAzZnFEcmktbXFndGRha0ZVSEo0RGlFTF9QS3FzeGU4RDVmYUk0SlY0cTBQVUxYdDhlUQ?oc=5",
+          "published_at": "2026-07-29T10:57:25+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "8b2ab149e8c8ee54",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Morgan Stanley: 'PR Problem' Threatens China's Robot Boom - The Tech Buzz",
+          "summary": "Morgan Stanley: 'PR Problem' Threatens China's Robot Boom The Tech Buzz",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMXpqQWU2X0x3Y0dkOE51dTAtRDctb0Fsekxsa0JwQU1UeURzeHozM0w5RVpwXzAzRmo3bVZEOWV6U3dEdXQxdmMwQ1FEbDZ3dDRiQnY5V05WZEx3N01XSEZVSXh1UnlsQTltS2ZXMTROLS1tWEJTdUZtQ0VabUpMQ3FaNXUwbDJmNWs5U1FxT2o?oc=5",
+          "published_at": "2026-07-29T10:43:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "彩色触觉皮肤让机器人手指“看见”压力分布",
+      "english_term": "tactile sensing（触觉感知）",
+      "summary": "欧洲研究团队开发出一种彩色机器人皮肤，能够同时捕捉接触表面的压力大小与空间分布，让机械手指模拟出类似人类指尖的精细触感。",
+      "script": "接下来关注一项来自学术界的感知技术进展。据报道，欧洲一个科研团队研发出一种颇为特别的机器人皮肤，利用颜色变化来表达触觉信息，让机械手指在接触物体表面时，能够同时获取压力大小和空间分布这两类信息，这在过去往往需要在多个空间位置分别布设力和压力传感器才能实现，成本高、集成难度大。研究团队展示的场景颇具画面感：让机器人手指划过一枚硬币表面，感受浮雕文字、人物侧脸轮廓和建筑纹理这样精细的几何特征，这说明这种彩色触觉皮肤在空间分辨率上达到了相当精细的水平。从技术原理上看，这类方案通常是通过材料在受力时发生的光学性质变化——比如颜色或透光率的改变——用摄像头或光学传感器在皮肤内部或表层进行捕捉，再通过算法将颜色模式反解为压力分布图，这样可以用较少的物理传感单元获得高密度的触觉信息，是光学触觉传感这一技术路线的一个新案例。触觉感知一直被认为是机器人精细操作，比如抓取易碎物体、装配零件、外科手术辅助等任务中的关键短板，人类手指依靠密集的机械感受器可以轻松完成的动作，机器人往往因为触觉信息不足而表现笨拙。这类彩色触觉皮肤如果能够进一步降低成本、提高耐用性并实现批量集成，有望应用在灵巧手、医疗机器人和精密装配场景中。目前这项成果的具体量产计划、量产成本以及在真实机器人系统中的集成验证情况还有待观察，后续需要关注该技术是否会进入更大规模的实机测试。",
+      "duration_seconds": 145,
+      "is_unverified": false,
+      "confidence_note": "IEEE Spectrum为专业机器人媒体的技术报道，属于对科研团队工作的正式报道，但具体论文细节与量产前景仍需进一步跟踪确认。",
+      "fact_status": {
+        "confirmed": [
+          "研究团队展示了一种基于颜色变化的机器人触觉皮肤",
+          "该系统可同时捕捉压力大小与空间分布信息"
+        ],
+        "claims": [
+          "报道称该皮肤能够感知硬币表面的精细纹理"
+        ],
+        "analysis": [
+          "触觉感知的提升有望改善精细操作类任务的表现"
+        ]
+      },
+      "source_ids": [
+        "ea0e383c514037c7"
+      ],
+      "sources": [
+        {
+          "id": "ea0e383c514037c7",
+          "source": "IEEE Spectrum Robotics",
           "source_tier": 2,
-          "source_region": "middle-east",
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Moment 7.1-magnitude earthquake rocks southern Japan",
-          "summary": "A magnitude 7.1 earthquake has hit Kumamoto on Japan's southern island of Kyushu.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/moment-7-1-magnitude-earthquake-rocks-southern-japan?traffic_source=rss",
-          "published_at": "2026-07-28T09:45:13+00:00",
+          "category_hint": "robotics",
+          "title": "Robot Finger Feels in Color",
+          "summary": "Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and, if it’s tails, the fluted columns of the Lincoln Memorial. Getting a robot to sense the same things is an imposing task, often requiring gathering data on pressure and force at many spatial locations at once. But that’s just what a team of scientists in Europe has now managed to do, using an unusual, colorful robotic skin that provides high-resolution sensing in real time. “To be honest, when they showed us this, we thought it was, and pardon my French, [expletive] cool, because it’s a distinctly different approach,” recalled Rich Walker, director of Shadow Robot , the U.K.’s longest-running robot company, which primarily focuses on robotic hands . RELATED: “This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors” The research team, which hails from Queen Mary University of London, the University of Florence, the University of Trieste, and the University of Trento, designed a robotic fingertip with a synthetic skin that reflects different colors of light in response to mechanical deformation. By reading ",
+          "url": "https://spectrum.ieee.org/robot-finger",
+          "published_at": "2026-07-28T15:00:03+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -81,128 +138,85 @@
     },
     {
       "category": "robotics",
-      "title": "UCLA博士团队人形机器人基座模型公司获近5亿元融资",
-      "english_term": "foundation model（基座模型，指在海量数据上预训练、可迁移到多种下游任务的大规模模型）",
-      "summary": "一家由UCLA博士团队创立、专注人形机器人基座模型研发的初创公司完成天使++轮融资，金额接近5亿元人民币。",
-      "script": "产业方面，一家由UCLA博士团队创立的初创公司传出重磅融资消息。据36氪报道，这家专注于研发人形机器人基座模型的公司完成了天使++轮融资，金额接近5亿元人民币。所谓基座模型，指的是先在海量多模态数据上做预训练，再迁移到具体任务的大模型架构，这一思路已经在语言模型领域证明有效，现在越来越多团队试图把它复制到机器人身体的控制上，让同一个模型能够理解视觉、语言指令，并直接生成动作序列，业内通常称之为VLA，也就是视觉-语言-动作模型。这类基座模型的核心难点在于，机器人的动作空间是连续且高维的，不像文字生成那样有明确的离散词表，因此需要大规模、高质量的人形机器人动作数据来训练，同时还要解决模型在仿真环境训练后迁移到真实机器人时的性能损失问题，也就是常说的sim-to-real迁移问题。近5亿元人民币的天使++轮融资规模，在人形机器人赛道里已经算是相当大的早期投入，也从侧面反映出资本市场对人形机器人通用智能层的高关注度。目前这类基座模型公司大多还处于技术验证阶段，尚未有大规模商业化部署的实例。接下来值得关注的是，这家公司的基座模型将首先适配哪些品牌的人形机器人本体，以及它在真实场景中的抓取、行走等基础能力表现如何。也需要观察国内外同类基座模型公司在数据规模、模型架构上是否会走向趋同，还是形成差异化路线。这笔融资也反映出，人形机器人领域的竞争重心正在从单纯的硬件本体，逐步向通用智能层转移。",
-      "duration_seconds": 155,
+      "title": "学术速览：接触丰富操作、抓取风险评估与人形关节执行器",
+      "english_term": "trajectory optimisation（轨迹优化）、grasp quality metric（抓取质量指标）",
+      "summary": "本期arXiv与产业媒体呈现了多篇聚焦接触动力学、抓取安全性与人形机器人执行器集成的研究与工程分析。",
+      "script": "再来快速扫描几项机器人领域的研究与工程动态。第一项来自arXiv机器人板块，研究者提出了一种通过隐式接触微分来加速残差模型预测控制轨迹优化的方法，试图解决可微分仿真在接触丰富任务中计算开销大、对步长敏感的问题，相比有限差分和展开式自动微分，这种方法希望在保持精度的同时降低计算成本，这类工作对提升机器人在复杂接触场景下的实时规划能力具有意义，但目前还只是预印本阶段，尚未经过同行评审。第二项是抓取质量评估方面的新指标，研究者提出了一种基于风险度量的抓取质量评估方法，因为经典抓取质量指标通常假设一个固定的摩擦系数，无法反映真实抓取中摩擦力波动带来的失败风险，新方法引入条件风险价值这一统计工具，希望让机器人在面对不同摩擦条件的物体表面时，能更准确地预测抓取是否会失败，这对提升机械臂在非结构化环境中抓取的鲁棒性有一定价值，同样属于未经同行评审的预印本工作。另外还有一篇论文提出了“环境约束利用”的运动规划思路，主张让机器人有意与环境发生接触，从而降低高维空间中运动规划的复杂度，这与传统追求无碰撞运动的思路有所不同，是否具备普适性还需要更多任务场景验证。产业侧面，专业媒体也发表了关于人形机器人关节一体化执行器如何提升关节性能与系统集成度的分析文章，探讨执行器与减速器、传感器一体化设计对机器人整体性能和制造成本的影响，这类工程分析虽非突破性论文，但反映出人形机器人产业界当前对核心零部件集成度的持续关注。总体来看，这些工作分别从控制算法、抓取安全性和硬件集成三个方向反映出机器人学术界和产业界的持续技术积累，后续需要等待相关论文完成同行评审，以及执行器集成方案是否被更多整机厂商采纳。",
+      "duration_seconds": 180,
       "is_unverified": true,
-      "confidence_note": "该信息来自36氪的独家首发报道，属于单一来源，公司名称、具体融资方等细节未见其他媒体交叉确认，故标记为未核实，建议关注后续是否有官方融资公告或其他媒体跟进。",
+      "confidence_note": "arXiv论文均为未经同行评审的预印本，结论有待学术界进一步验证；执行器分析文章为产业媒体工程解读，非原始学术数据。",
       "fact_status": {
-        "confirmed": [],
+        "confirmed": [
+          "arXiv平台发布了上述几篇机器人相关预印本论文",
+          "The Robot Report发布了关于人形机器人执行器集成的分析文章"
+        ],
         "claims": [
-          "一家UCLA博士团队创立的人形机器人基座模型公司获得近5亿元人民币天使++轮融资"
+          "论文作者称新方法可降低计算成本或提高抓取鲁棒性"
         ],
         "analysis": [
-          "人形机器人赛道竞争重心正从硬件本体向通用智能层（基座模型）转移"
+          "这些研究方向反映出机器人控制与抓取安全性研究的持续演进"
         ]
       },
       "source_ids": [
-        "125e54474fc77e96"
+        "8e5934e3c88910af",
+        "17c1252e60993d47",
+        "beb5d423c6f27091",
+        "afd382cd8ff6e5e1"
       ],
       "sources": [
         {
-          "id": "125e54474fc77e96",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
+          "id": "8e5934e3c88910af",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "A startup founded by a UCLA PhD team that focuses on developing the foundation model for humanoid robots has secured nearly 500 million yuan in Angel++ round financing | Hard Krypton Exclusive First Release - 36氪",
-          "summary": "A startup founded by a UCLA PhD team that focuses on developing the foundation model for humanoid robots has secured nearly 500 million yuan in Angel++ round financing | Hard Krypton Exclusive First Release 36氪",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiTkhJa0FNVTQtRjVoVzgxX3NzSy1GalBzTWV5R1FxUDBSRUgxSDRPQ3lDSmNrVDRCQnZLdVRYMkZQaDJRNFNadWpfaXZyZTlXMkhz?oc=5",
-          "published_at": "2026-07-28T10:53:09+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "Fujitsu与Nvidia联手机器人厂商共同开发Physical AI",
-      "english_term": "Physical AI（物理智能，指让AI具备在真实物理世界中感知与行动能力的技术方向）",
-      "summary": "Fujitsu与Nvidia宣布与多家机器人整机厂商合作，共同推进面向工业场景的Physical AI技术开发。",
-      "script": "另一条产业动态来自Fujitsu与Nvidia的合作。据Assembly Magazine报道，这两家公司正在与多家机器人OEM厂商，也就是原始设备制造商合作，共同开发所谓的Physical AI，中文可以理解为物理智能，指的是让人工智能系统真正具备在物理世界中感知环境并采取行动的能力，而不只是停留在软件和数据层面。这一提法近年在业界被反复提及，Nvidia创始人黄仁勋此前就曾表示，下一个大浪潮就是Physical AI，也就是拥有身体的AI。这次合作的落地场景主要面向工业制造领域，Fujitsu作为传统IT与制造解决方案提供商，长期深耕工厂自动化；而Nvidia则希望把其在图形计算、仿真平台上的能力延伸到机器人的感知与决策层，两者与机器人整机厂商的联合，实际上是希望打通从底层芯片、仿真训练平台，到实际机器人整机部署的完整链条。这类合作模式并不新鲜，此前Nvidia已经与多家机器人公司在仿真训练平台上开展合作，此次与Fujitsu的联合更多是把触角伸向日系制造业客户群体和工厂自动化场景。目前公开信息中并未透露具体的技术细节、合作金额或首批落地的机器人型号，这些内容仍有待双方后续公布更完整的合作方案。分析来看，这类芯片厂商、软件平台厂商与机器人整机厂商之间的多方联盟，正在成为具身智能产业链条的常见组织形式，其核心逻辑是通过分工降低单一厂商独立打通全栈技术的成本。后续需要关注该合作是否会公布具体的产品化时间表和试点工厂案例。",
-      "duration_seconds": 160,
-      "is_unverified": true,
-      "confidence_note": "目前仅有Assembly Magazine单一tier 3来源报道，具体合作条款、技术细节未见其他信源交叉确认，标记为未核实并提示需等待更多细节披露。",
-      "fact_status": {
-        "confirmed": [],
-        "claims": [
-          "Fujitsu与Nvidia正与机器人OEM厂商合作开发Physical AI"
-        ],
-        "analysis": [
-          "芯片与软件平台厂商联合机器人整机厂商的多方联盟正成为具身智能产业链的常见组织形式"
-        ]
-      },
-      "source_ids": [
-        "6b0a005daf6ad722"
-      ],
-      "sources": [
-        {
-          "id": "6b0a005daf6ad722",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Fujitsu, Nvidia Are Collaborating With Robot OEMs to Develop Physical AI - Assembly Magazine",
-          "summary": "Fujitsu, Nvidia Are Collaborating With Robot OEMs to Develop Physical AI Assembly Magazine",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZ05TOWpZeWZ6a3ZmUlB4Y3JhOTJUSmJTX3F0LXpVdFdnbkVPQmtZOWk2YzIxSmlPeWdpOFFFc0ZJbWtodEhpSGR3TWQwVkF6RFRjcUk1T0phOVhJVjZNdTdrSERvVWduSjlJM2Q5djZZQ3lIRGwxR1V6YzBNSzZwSlBFQlVURU1JUm42TzFlVXFxZk1EcUY3dk5FQmRseDl5R2xib2haOGd4MFY4Tjh4dG5tTGZjdw?oc=5",
-          "published_at": "2026-07-28T10:04:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "Tacta Systems推出数据采集触觉手套，助力机器人操作学习",
-      "english_term": "tactile sensing（触觉感知，指机器人或传感设备感知接触力、纹理等物理接触信息的能力）",
-      "summary": "初创公司Tacta Systems开发出用于采集触觉数据的手套，为机器人灵巧操作和示教学习提供训练数据。",
-      "script": "在机器人感知与数据采集方向，Tacta Systems公司推出了一款用于数据采集的触觉手套，据GuruFocus报道，这类手套内置触觉传感器，可以在人类佩戴时记录手部与物体接触的力度、位置等信息，从而为机器人的灵巧操作、遥操作以及示教学习提供高质量训练数据。这类设备解决的核心问题是，机器人要学会像人手一样灵巧地抓取、旋转、装配物体，仅靠视觉数据是不够的，还需要精确的力觉和触觉反馈，而人类佩戴触觉手套完成任务时产生的接触数据，可以直接用来训练机器人的操作策略。与此相呼应的是，今天arXiv上也放出了一篇关于触觉手套的论文，讨论如何缓解手套佩戴姿态变化给传感器读数带来的误差问题，这说明触觉手套的数据质量控制正成为学术界和产业界共同关注的焦点。触觉手套类硬件的优势在于成本相对可控，且可以快速大规模采集真实世界的接触数据，弥补纯仿真数据在细粒度接触力建模上的不足。不过这类设备也面临佩戴舒适度、传感器长期稳定性、以及不同人手型差异带来的数据噪声等挑战。目前公开报道中未透露Tacta Systems的具体客户名单和量产规模，这方面细节还有待公司进一步披露。后续可以关注这类触觉数据采集硬件是否会被更多人形机器人公司采纳为标准数据采集工具，以及触觉数据能在多大程度上提升机器人抓取任务的成功率。",
-      "duration_seconds": 140,
-      "is_unverified": true,
-      "confidence_note": "报道来自GuruFocus单一tier 3来源，产品细节和商业化进展缺乏其他独立信源确认，标记为未核实。",
-      "fact_status": {
-        "confirmed": [],
-        "claims": [
-          "Tacta Systems开发出用于机器人数据采集的触觉手套"
-        ],
-        "analysis": [
-          "触觉数据采集正成为弥补纯视觉训练数据不足的重要方向"
-        ]
-      },
-      "source_ids": [
-        "7410040e7ffe2263",
-        "d607a8c55e92b51e"
-      ],
-      "sources": [
-        {
-          "id": "7410040e7ffe2263",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Tacta Systems Innovates with Data-Collecting Gloves for Robotics - GuruFocus",
-          "summary": "Tacta Systems Innovates with Data-Collecting Gloves for Robotics GuruFocus",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYUVBbS1PUDh2b0wtZEQ0aHA5Nm1YekhvRUZHbFoyLVBrSnc2d3pzcl9va2RqM1BHbTIxVlJtVTZoZ0VBdXBQdXBPQVYyZHA2V3JWN1dwZ04tczdpRVk3OF94anVPZHJRVjZKcDZSYmVrQTlDQkRfNXctYnhJOWJDZ2tCYjJ6cjc1QXAtU09RY1I1ZGhDcTFKLWhzclVKQ3hlcFQwWQ?oc=5",
-          "published_at": "2026-07-28T10:01:39+00:00",
+          "title": "Amortising Trajectory Optimisation for Residual MPC via Implicit Contact Differentiation",
+          "summary": "arXiv:2607.24959v1 Announce Type: new Abstract: Differentiable simulation can accelerate contact-rich trajectory optimisation by exposing local sensitivities of task outcomes to controls. Existing approaches either use finite differences, which are expensive and step-size sensitive; differentiate iterative contact solvers by unrolling automatic differentiation (AD), which stores a growing computation trace; or require intricate, solver-specific KKT sensitivity derivations. We introduce an AD-assisted implicit derivative for regularised smooth contacts and apply it to Mujoco MJX, based on the Implicit Function Theorem (IFT). The method differentiates the stationarity residual at the tolerance-converged solution, avoiding both solver unrolling and hand-assembled KKT systems. IFT keeps compiled temporary memory nearly constant with solver effort, changing by less than 4$\\%$ from one to ten iterations versus 10.6$\\times$ growth for unrolled AD. IFT memory grows slower with active contacts and model dimension, using 20$\\times$ less memory at 256 contacts and 6$\\times$ less at 16 contacts and 96 DoF. We further introduce optimiser distillation for residual MPC, amortising batched full-ho",
+          "url": "https://arxiv.org/abs/2607.24959",
+          "published_at": "2026-07-29T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "d607a8c55e92b51e",
+          "id": "17c1252e60993d47",
           "source": "arXiv Robotics (cs.RO)",
           "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Pose-Aware Modeling to Mitigate Pose-Related Artifacts in Tactile Gloves",
-          "summary": "arXiv:2607.22964v1 Announce Type: new Abstract: Tactile gloves digitize contact and force during hand-object interactions, enabling robotics applications in dexterous manipulation, teleoperation, and learning from demonstration. To preserve hand dexterity and capture the nuances of natural interactions, these gloves and the integrated tactile sensors are designed to be soft, flexible, and comfortable. However, such flexible sensors are sensitive not only to contact forces but also unavoidably to hand pose changes, resulting in pose-related artifacts (PRAs). PRAs are especially problematic in the low-force range, resulting in misdetections or late-onset detections of contact, which raises the minimum detectable force (MDF) of the glove. In this work, we characterize the PRAs in relation to pose and force. Building on these insights, we introduce a glove-agnostic algorithmic framework that leverages hand pose information, which is increasingly available, to mitigate PRAs without glove modifications. Our pose-aware force estimation model augments tactile-to-force pipelines with a residual prediction branch that explicitly accounts for pose-induced sensor deformations. We validate our ",
-          "url": "https://arxiv.org/abs/2607.22964",
-          "published_at": "2026-07-28T04:00:00+00:00",
+          "title": "FIRMGrasp: A Friction-Informed Risk Margin for Robust Grasp Synthesis",
+          "summary": "arXiv:2607.25049v1 Announce Type: new Abstract: Classical grasp quality metrics assume a single deterministic friction coefficient, so they cannot predict whether a grasp retains force closure across the range of friction values the contacting surfaces may exhibit. To predict these failures, we present FIRMGrasp, a family of friction-volatility-aware grasp quality metrics grounded in the Conditional Value-at-Risk (CVaR) risk measure. Unlike standard grasp quality assessors that assume a single friction realization, our metric evaluates the force-closure margin at the CVaR-discounted mean of the adverse friction tail, yielding a risk-adjusted margin $\\varepsilon^{(\\beta)}$, the inscribed-ball radius of the risk-adjusted wrench space. We establish its monotonicity in the confidence level $\\beta$, its differentiability in the grasp parameters, and a probabilistic closure certificate that guarantees force closure with probability at least $\\beta$ whenever $\\varepsilon^{(\\beta)}$ is positive. Under a calibrated friction distribution, analytic evaluation shows our $\\varepsilon^{(\\beta)}$ metric identifies friction-sensitive grasps that the nominal Ferrari-Canny epsilon rates as high-qual",
+          "url": "https://arxiv.org/abs/2607.25049",
+          "published_at": "2026-07-29T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "beb5d423c6f27091",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Motion Generation With Environmental Constraints",
+          "summary": "arXiv:2607.25053v1 Announce Type: new Abstract: Robot motion planning faces challenges in high-dimensional spaces and uncertain environments, often constrained by the need for collision-free motions. We advocate an alternative approach, Environmental Constraint Exploitation (ECE), where deliberate contact with the environment simplifies planning by reducing dimensionality and computational complexity. By integrating ECE into motion planning algorithms, we bias exploration to task-relevant regions and leverage contact for uncertainty reduction to improve robustness during execution. We evaluate ECE benefits with RRT-based planners and demonstrate their practical benefits in a real-world application. This work consolidates and extends prior research, showcasing how ECE simplifies motion planning while enhancing adaptability and performance in complex environments.",
+          "url": "https://arxiv.org/abs/2607.25053",
+          "published_at": "2026-07-29T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "afd382cd8ff6e5e1",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "How integrated actuators improve humanoid robot joint performance and system integration",
+          "summary": "Humanoid robots have become an important area of research in robotics, attracting attention from universities, research institutions, and technology companies. The post How integrated actuators improve humanoid robot joint performance and system integration appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/",
+          "published_at": "2026-07-28T13:25:37+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -210,151 +224,55 @@
     },
     {
       "category": "robotics",
-      "title": "arXiv论文速览：假肢个性化控制、VLA操作精度标度律与对话机器人低延迟应答",
-      "english_term": "scaling law（标度律，指某一变量随另一变量增长呈现的规律性关系，常用于描述数据量与模型性能的关系）",
-      "summary": "同一天arXiv机器人学板块集中放出多篇论文，涉及动力假肢个性化控制、机器人操作精度的数据标度律，以及对话机器人的低延迟应答机制。",
-      "script": "接下来快速梳理几篇今天在arXiv机器人学板块出现的新论文。第一篇关注动力膝踝假肢的个性化控制。研究者提出了一种带回放约束的仿真框架，用来给每个使用者定制假肢的阻抗控制器参数。此前的个性化方法要么依赖耗时的人机在环调试，要么只能在低维度、单关节的参数空间里优化，效率和效果都有限。这篇论文借鉴了腿式机器人领域成熟的仿真到真实迁移思路，但强调假肢控制中人这个环节始终在回路里，不能像纯机器人那样完全交给仿真器自动优化，这是假肢个性化区别于普通腿式机器人控制的关键难点。第二篇论文来自操作学习方向，研究者系统考察了机器人装配这类高精度闭环任务中，数据量与操作精度之间的关系，提出了一个新的标度律。核心发现是，要达到固定的成功率，所需的示教数据数量会随着目标精度的提高呈超指数增长，这意味着高精度装配任务对数据的胃口远比想象中更大，这一发现对于评估VLA模型在精细制造场景下的实际可行性具有参考价值。第三篇论文关注人机对话机器人的应答延迟问题。目前基于大语言模型的对话系统往往要等语音识别完全结束才开始生成回复，容易造成明显的等待感。研究者提出一种两阶段增量框架，在能够预判用户意图后提前触发一段简短的过渡语生成，从而降低对话的感知延迟。这几篇论文共同的特点是，都是尚未经过同行评审的预印本，其方法和结论还需要学术界进一步验证和复现，实验规模和适用边界也有待更多后续研究检验。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "均为arXiv预印本，尚未经过同行评审，实验结论有待学术界进一步验证和复现。",
-      "fact_status": {
-        "confirmed": [],
-        "claims": [
-          "假肢个性化控制新框架尝试解决人机在环调试效率问题",
-          "高精度机器人装配任务所需数据量随精度要求呈超指数增长",
-          "两阶段增量框架可降低对话机器人的应答延迟"
-        ],
-        "analysis": [
-          "数据标度律的发现提示高精度操作任务对训练数据规模的需求可能被此前研究低估"
-        ]
-      },
-      "source_ids": [
-        "498c35f11d0eb465",
-        "fb2b987f295c4221",
-        "bbbed5d2e07b2b49"
-      ],
-      "sources": [
-        {
-          "id": "498c35f11d0eb465",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "A Replay-Constrained Simulation Framework for Personalization of Powered Knee--Ankle Prosthesis Controllers",
-          "summary": "arXiv:2607.22858v1 Announce Type: new Abstract: Personalization of impedance controllers for powered prosthetic legs is critical to accommodating individual gait biomechanics but remains challenging. Existing methods rely on time-intensive human-in-the-loop exploration and/or constrain optimization to low-dimensional, single-joint parameter subspaces. Sim-to-real transfer has enabled high-dimensional locomotion control for legged robots, but in assistive device control the human partner remains un-modelable. We present a replay-constrained simulation framework: a MuJoCo-based simulator reproduces prosthetic knee-ankle dynamics while replaying recorded hip kinematics and feedback-based ground reaction forces from individual walking data, bypassing the need to model complex human neuromuscular control mechanisms. We demonstrate the framework with a deep reinforcement learning policy that personalizes phase-dependent stiffness, damping, and equilibrium angle at both joints simultaneously, maximizing a biomimicry-based reward computed solely from onboard prosthesis measurements. Experiments with three participants with transfemoral amputation during level-ground walking at 0.8~m/s demo",
-          "url": "https://arxiv.org/abs/2607.22858",
-          "published_at": "2026-07-28T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "fb2b987f295c4221",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "The Curse of Precision: A Data Scaling Law for High-Precision Robotic Manipulation",
-          "summary": "arXiv:2607.23108v1 Announce Type: new Abstract: While scaling laws for imitation learning have primarily focused on generalization in open-world settings, the relationship between data and precision in closed-world tasks like robotic assembly remains largely unexplored. This paper systematically investigates this relationship and introduces a novel scaling law. We find that to achieve a fixed success rate, the required number of demonstrations $N$ grows super-exponentially as the target precision $P$ approaches a limit $c$. This relationship is accurately captured by the model $\\log(N) \\propto 1/(P-c)$. Crucially, we reveal that the limit precision $c$ is not a static physical constant of the task but an emergent property of the entire agent system, including its sensors and expert policy. Through experiments on canonical manipulation tasks, we validate this law and demonstrate that improving system components, such as adding a wrist camera or using a more effective expert, measurably lowers $c$, thus expanding the system's achievable precision. Our work provides a new theoretical framework for precision in robotics and a quantitative metric to evaluate system capabilities. Further",
-          "url": "https://arxiv.org/abs/2607.23108",
-          "published_at": "2026-07-28T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "bbbed5d2e07b2b49",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Low-Latency Turn-Taking via Context-Aware Preface Generation in a Real-World Dialogue Robot",
-          "summary": "arXiv:2607.23204v1 Announce Type: new Abstract: Large language model (LLM)-based dialogue systems suffer response delays because generation begins only after final speech recognition. While fixed fillers are a workaround, they become unnatural over time. We propose a two-stage incremental framework that decouples prefatory-response preparation from speech onset. Once user intent becomes predictable, an intent readiness detector triggers LLM-based generation of a short prefatory response. Concurrently, a voice activity projection (VAP) model determines when to deliver it. Through a field experiment with a route-guidance robot in a shopping mall, we evaluated three conditions: no-filler, fixed-filler, and contextual-preface. Both fixed-filler and contextual-preface significantly reduced initial response latency relative to no-filler. Relative to fixed-filler, contextual-preface had significantly longer initial response latency but a significantly shorter initial-to-main gap. Exploratory ratings showed no significant differences. These results indicate a timing trade-off.",
-          "url": "https://arxiv.org/abs/2607.23204",
-          "published_at": "2026-07-28T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "UNSW团队开发软体机器人心脏，用于疾病模拟与医疗器械测试",
-      "english_term": "soft robotics（软体机器人技术，指利用柔性材料制造能够弹性变形的机器人结构）",
-      "summary": "澳大利亚新南威尔士大学团队开发出一种全合成软体机器人心脏模型，可模拟心脏疾病并为新型心脏医疗设备提供测试环境。",
-      "script": "在软体机器人与医疗交叉领域，新南威尔士大学，也就是UNSW的研究团队开发出一种全合成的软体机器人心脏模型。据Robohub报道，这一模型利用软体机器人技术，用柔性材料模拟人体心脏的结构和跳动方式，能够重现多种心脏疾病状态，为测试下一代心脏医疗设备提供了一个更接近真实生理环境的实验平台。传统上，测试心脏支架、人工瓣膜等设备往往依赖动物实验或简化的物理模型，前者存在伦理和跨物种差异问题，后者又难以真实还原心脏跳动时的力学环境。这个软体机器人心脏的价值在于，它由合成材料制成，可以通过气动或液压驱动模拟心脏收缩和舒张的动态过程，同时通过调整驱动参数模拟出不同疾病状态下的异常心脏运动模式，比如某些类型的心律失常或心肌病变对应的力学表现。这种方式让研究人员可以在体外反复测试医疗设备在各种病理条件下的表现，而不需要每次都寻找合适的动物模型或患者样本。这项工作体现了软体机器人技术从传统的抓取、移动应用，向医学模拟和测试平台方向的拓展，也是具身智能相关技术向医疗器械研发领域渗透的一个例子。目前这一软体机器人心脏还处于实验室研发阶段，具体报道未提及是否已经进入产业化或与医疗器械公司合作测试的阶段。后续需要关注该模型是否会被医疗器械厂商采纳为标准测试平台，以及其在长期使用中的耐久性和成本控制表现。",
+      "title": "医疗与产业侧：机器人辅助胃管置入系统与OTA更新工具亮相",
+      "english_term": "OTA（over-the-air，远程无线软件更新）",
+      "summary": "医疗器械公司推出机器人辅助胃管置入系统，同时一家新公司致力于为机器人开发者简化远程软件更新流程，反映机器人应用落地和基础设施建设两条线索。",
+      "script": "在产业应用层面，有两则值得关注的消息。首先，一家医疗设备公司开发了一套机器人辅助的胃管置入系统，据介绍，这套系统的设计定位是辅助而非取代临床医生，操作过程中医生始终保持对手术的完全控制权，机器人更多承担的是精细定位和辅助操作的角色。胃管置入对精度和患者舒适度有较高要求，传统操作依赖医生经验和手感，如果机器人辅助系统能够降低操作难度、减少并发症风险，将是医疗机器人在细分场景中落地的又一个例子，但目前这套系统的临床验证数据、审批进展和商业化时间表还有待官方进一步披露。另一则消息来自机器人产业基础设施领域，两位曾参与商用机器人开发的创业者创立了一家新公司，专注于为机器人开发者简化“空中下载”软件更新，也就是OTA远程升级流程。随着越来越多机器人产品进入实际部署阶段，如何高效、安全地对分布在不同场地的机器人进行远程软件维护和功能升级，正在成为一个独立的工程问题，这类工具型公司的出现，反映出机器人产业链正在从单纯的整机制造，向更细分的软件运维、系统集成等配套服务环节延伸。这两条消息虽然规模不大，但共同说明机器人技术正在从实验室和展示场景，向更细分、更长尾的实际应用和运维环节渗透，后续需要观察这套胃管置入系统的临床数据发布情况，以及OTA工具公司获得的具体客户合作进展。",
       "duration_seconds": 140,
       "is_unverified": false,
-      "confidence_note": "来自Robohub这一tier 2专业机器人媒体的报道，信息来源单一但为对研究机构成果的直接转述，暂无更高级别独立来源交叉确认，细节以研究方陈述为准。",
+      "confidence_note": "两条消息均来自专业机器人产业媒体The Robot Report的产品与公司报道，属于常规产业动态，尚缺乏第二来源交叉确认，具体商业数据有限。",
       "fact_status": {
         "confirmed": [
-          "UNSW团队开发出全合成软体机器人心脏模型"
+          "某医疗设备公司发布了机器人辅助胃管置入系统",
+          "一家新公司成立，专注于机器人OTA软件更新工具"
         ],
         "claims": [
-          "该模型可模拟多种心脏疾病状态并用于测试新型心脏医疗设备"
+          "公司称该胃管置入系统设计为辅助医生而非替代医生"
         ],
         "analysis": [
-          "软体机器人技术正从传统的运动与抓取应用向医学模拟测试平台拓展"
+          "机器人产业配套服务环节正在逐步细分和成熟"
         ]
       },
       "source_ids": [
-        "7005786feace3e81"
+        "249e0ea25973d1bf",
+        "18a749093c0e4ce1"
       ],
       "sources": [
         {
-          "id": "7005786feace3e81",
-          "source": "Robohub",
+          "id": "249e0ea25973d1bf",
+          "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Soft robotic heart offers new way to study disease and test life-saving devices",
-          "summary": "The soft robotic model of the human heart, developed at UNSW. Credit: UNSW/Richard Freeman. UNSW researchers have developed a soft robotic model of the human heart that can mimic disease and provide a realistic environment for testing the next generation of cardiac devices. Researchers at UNSW Sydney have developed a fully synthetic soft robotic heart […]",
-          "url": "https://robohub.org/soft-robotic-heart-offers-new-way-to-study-disease-and-test-life-saving-devices/",
-          "published_at": "2026-07-28T09:18:50+00:00",
+          "title": "ENvue Medical develops robotic feeding tube placement system",
+          "summary": "ENvue Drive is designed to assist, not replace, the clinician, who retains full control of the procedure at all times. The post ENvue Medical develops robotic feeding tube placement system appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/envue-medical-develops-robotic-feeding-tube-placement-system/",
+          "published_at": "2026-07-28T19:00:55+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "泽连斯基访华盛顿，就防空系统向特朗普施压",
-      "english_term": null,
-      "summary": "乌克兰总统泽连斯基赴华盛顿，希望争取美国进一步巩固对乌反导防空系统的支持，此前俄罗斯已加大对乌攻势。",
-      "script": "国际政治方面，乌克兰总统泽连斯基本次前往华盛顿，核心议题是希望争取美国方面进一步巩固对乌克兰的防空承诺，尤其是反弹道导弹防御系统的支持。据BBC报道，此行的背景是俄罗斯近期升级了对乌克兰的致命袭击。已确认的事实是，泽连斯基正在华盛顿访问，并计划就防空议题与特朗普进行会谈，同时俄罗斯确实在近期加大了对乌克兰境内目标的打击力度。至于美方最终是否会做出新的防空承诺，以及具体会提供何种型号、数量的防御系统，目前仍属于各方待谈判、待官宣的内容，报道中并未给出确定结果。俄乌双方对于近期袭击强度上升的原因、责任归属，历来存在完全不同的说法，乌方将其定性为俄方蓄意升级打击平民和基础设施，而俄方通常将此类行动解释为针对军事目标的行动，这部分内容属于各方主张范畴，需要读者自行留意信息来源的立场。分析来看，此次访问发生在美国国内对乌克兰援助存在持续讨论的背景下，泽连斯基寻求当面沟通、争取更明确防空支持，某种程度上反映出乌方对现有防空能力应对俄方饱和攻击的担忧。后续需要关注华盛顿会谈后是否会发布联合声明或具体的军援清单，以及俄罗斯方面对此次会谈的回应。",
-      "duration_seconds": 120,
-      "is_unverified": false,
-      "confidence_note": "基于BBC World单一tier 2来源报道，事件为一手外交行程描述，具体会谈结果尚未发生，故对结果部分保持谨慎表述。",
-      "fact_status": {
-        "confirmed": [
-          "泽连斯基访问华盛顿",
-          "俄罗斯近期加大对乌克兰的袭击力度"
-        ],
-        "claims": [
-          "乌方希望美方巩固防空承诺",
-          "俄乌双方对袭击升级原因的说法存在分歧"
-        ],
-        "analysis": [
-          "此次访问反映乌方对现有防空能力应对俄方攻势的担忧"
-        ]
-      },
-      "source_ids": [
-        "799bfd3ce6107801"
-      ],
-      "sources": [
+        },
         {
-          "id": "799bfd3ce6107801",
-          "source": "BBC World",
+          "id": "18a749093c0e4ce1",
+          "source": "The Robot Report",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Zelensky to press Trump on air defences while in Washington",
-          "summary": "Ukraine's leader is hoping to firm up US commitments to bolstering Kyiv's anti-ballistic missile defences, as Russia has escalated deadly attacks.",
-          "url": "https://www.bbc.co.uk/news/articles/c9v4g7e047zo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-28T10:41:41+00:00",
+          "category_hint": "robotics",
+          "title": "Agency Tool Company wants to make OTA software updates easier",
+          "summary": "Two Scythe co-founders are using their experience building commercial robots to create tools for robotics developers at Agency Tool Co. The post Agency Tool Company wants to make OTA software updates easier appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/agency-tool-company-wants-to-make-ota-software-updates-easier/",
+          "published_at": "2026-07-28T14:59:58+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -362,174 +280,305 @@
     },
     {
       "category": "world",
-      "title": "美国在联合国安理会会议期间就人权高专任期投票问题退场",
+      "title": "日本强震死亡人数升至13人，救援持续展开",
       "english_term": null,
-      "summary": "在联合国安理会讨论法国发言期间，美国因在联合国人权事务高级专员任期延长投票中与朝鲜、俄罗斯一同投反对票引发争议后退场。",
-      "script": "另一则值得关注的外交新闻是，美国在联合国安理会会议期间、法国代表发言时选择退场。据BBC报道，这一争议源于此前的一次投票：在关于是否延长联合国人权事务高级专员任期的表决中，美国与朝鲜、俄罗斯一同投出了反对票，这一投票结果本身在西方阵营内部引发了不小的关注和讨论。已确认的信息是，美国代表团在法国发言期间退出了安理会会议现场，此前美国确实在该项人权高专任期延长的表决中投下反对票，且这一立场与朝鲜、俄罗斯一致。至于美方退场的具体动机、是否针对法国发言的具体内容，报道并未给出美方的官方解释，这部分仍属于外界推测范畴。分析来看，美国在人权高专任期问题上与朝鲜、俄罗斯站在同一阵营投票，这种罕见的组合本身就足以引发外交圈层面的关注和讨论，尤其容易被其他国家用来对比美国在人权议题上的一贯立场与此次投票行为之间的反差。此类联合国场合内的外交摩擦，虽然不直接改变实质政策，但往往被视为大国关系风向的一个信号。后续需要关注美国国务院或常驻联合国代表团是否会对此次投票立场和退场行为做出正式说明。",
-      "duration_seconds": 115,
-      "is_unverified": false,
-      "confidence_note": "基于BBC World单一tier 2来源，事件细节完整但缺少美方官方解释的交叉信源，故对退场动机部分保持谨慎表述。",
-      "fact_status": {
-        "confirmed": [
-          "美国在联合国人权高专任期延长表决中投反对票，立场与朝鲜、俄罗斯一致",
-          "美国代表团在法国发言期间退出安理会会议现场"
-        ],
-        "claims": [],
-        "analysis": [
-          "此次投票与退场可能被其他国家解读为美国人权立场的风向信号"
-        ]
-      },
-      "source_ids": [
-        "b978bbeb36cf4a39"
-      ],
-      "sources": [
-        {
-          "id": "b978bbeb36cf4a39",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "US walks out of UN Security Council meeting during France's remarks",
-          "summary": "The row sparked after the US joined North Korea and Russia in voting against extending the term of the UN high commissioner for human rights.",
-          "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-28T09:32:25+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "法国、西班牙山火持续蔓延，逃生与撤离仍在进行",
-      "english_term": null,
-      "summary": "法国与西班牙的山火在新一轮热浪来临前持续蔓延，法国已从大西洋沿岸旅游区撤离近4000人。",
-      "script": "在气候与灾害新闻方面，法国和西班牙的山火仍在持续燃烧。据NPR报道，法国当局已下令从大西洋沿岸的旅游区撤离近4000人，此前一场大火已经在波尔多以西地区蔓延成一场大规模山火，消防队伍目前仍在与即将到来的新一轮热浪赛跑，试图在气温再次攀升前控制住火势。已确认的信息包括：法国已实施近4000人的撤离行动，波尔多西部存在一场大规模山火，且西班牙同样正遭受山火困扰。至于最终过火面积、财产损失规模以及是否会有更大范围的强制撤离，仍需要等待两国官方后续通报。分析来看，近年来欧洲南部持续遭遇极端高温和干旱天气，山火季节的强度和持续时间都在增加，这背后与整体气候变暖趋势密切相关，法国和西班牙这类传统旅游胜地在夏季高峰期遭遇山火，对当地旅游业和民众生命安全都构成了直接压力。此外，美国俄勒冈州也出现了由雷暴引发的多起山火，浓烟笼罩了当地天空，说明北半球多个地区在同一时间段都面临着野火频发的局面。后续需要关注热浪是否会进一步加剧火情，以及各国消防部门能否在短期内控制住现有火势。",
+      "summary": "日本发生6.8级强震后，救援人员持续在受损商场和倒塌房屋中搜寻幸存者，死亡人数已上升至13人。",
+      "script": "国际新闻方面，日本近日发生的强烈地震灾情仍在持续更新。已确认的事实是，这场里氏6.8级地震造成的死亡人数已经上升至13人，军人和救援人员星期三仍在一座严重受损的购物中心以及倒塌房屋中仔细搜寻，试图找到可能被困的幸存者。多名幸存者向媒体描述了地震发生时的震惊与恐惧，有人表示当时以为自己就要遇难。目前救援行动仍在进行中，具体的失踪人数、建筑损毁的整体规模，以及后续是否会有更多遇难者被发现，官方尚未给出最终定论，需要等待当地政府和救援部门的进一步通报。分析来看，这类发生在城市密集区域的强震，对建筑抗震标准、应急响应速度和公共设施韧性都是一次实际检验，商场和居民楼在地震中的倒塌情况，可能会在灾后引发对建筑安全标准执行情况的讨论。日本作为地震多发国家，在抗震建筑规范和应急响应机制上有较为成熟的经验积累，但此次事件仍造成了较为严重的人员伤亡，说明极端强度地震下的灾害应对依然存在挑战。后续需要关注官方公布的最终伤亡数字、失踪人员搜救进展，以及灾后重建和建筑安全评估的相关信息。",
       "duration_seconds": 110,
       "is_unverified": false,
-      "confidence_note": "NPR与NASA分别对法国西班牙山火和俄勒冈山火烟雾进行了报道，构成两个独立信源对野火主题的交叉印证。",
+      "confidence_note": "NPR与BBC两家独立国际媒体均对地震死亡人数与救援情况进行了报道，信息来源交叉确认，但灾情仍在发展中，最终数字可能变化。",
       "fact_status": {
         "confirmed": [
-          "法国已从大西洋沿岸旅游区撤离近4000人",
-          "波尔多以西存在大规模山火",
-          "俄勒冈州因雷暴引发多起山火"
+          "日本发生6.8级地震",
+          "死亡人数已上升至13人",
+          "救援人员仍在搜寻被困者"
         ],
-        "claims": [],
+        "claims": [
+          "幸存者描述地震发生时的恐惧与震惊感受"
+        ],
         "analysis": [
-          "欧洲南部持续极端高温干旱可能是山火季强度上升的背景因素"
+          "此次地震对建筑抗震标准与应急响应能力构成实际考验"
         ]
       },
       "source_ids": [
-        "f827f94fc230a79b",
-        "c64e743db7a2f557"
+        "90e1fe91bcb8dd95",
+        "0d019a04feac3d74"
       ],
       "sources": [
         {
-          "id": "f827f94fc230a79b",
+          "id": "90e1fe91bcb8dd95",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "With wildfires raging in France and Spain, fire crews race against next heat wave",
-          "summary": "French authorities ordered nearly 4,000 people evacuated Tuesday from tourist sites on the Atlantic coast as returning heat threatened firefighters' fragile hold on a vast wildfire west of Bordeaux.",
-          "url": "https://www.npr.org/2026/07/28/g-s1-135828/europe-wildfires",
-          "published_at": "2026-07-28T06:25:18+00:00",
+          "title": "Rescuers search for the missing after Japan earthquake as death toll rises to 13",
+          "summary": "Soldiers and emergency workers combed through a badly damaged shopping mall and collapsed houses looking for trapped survivors Wednesday after a powerful earthquake that killed at least 13 people.",
+          "url": "https://www.npr.org/2026/07/29/nx-s1-5911613/japan-earthquake-updates",
+          "published_at": "2026-07-29T05:34:42+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "c64e743db7a2f557",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
+          "id": "0d019a04feac3d74",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
           "language": "en",
-          "category_hint": "science",
-          "title": "Smoke Blankets Oregon",
-          "summary": "Lightning storms have ignited dozens of fires in central and eastern Oregon.",
-          "url": "https://science.nasa.gov/earth/natural-disasters/wildfires/smoke-blankets-oregon/",
-          "published_at": "2026-07-28T04:01:00+00:00",
+          "category_hint": "world",
+          "title": "'I thought I would die': Survivors describe shock and horror of powerful Japan earthquake",
+          "summary": "Rescue operations are ongoing following the 6.8-magnitude quake, as survivors wrestle with the shock.",
+          "url": "https://www.bbc.co.uk/news/articles/cvgw52l5kyyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-29T11:01:20+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "health",
-      "title": "WHO发布报告：终结艾滋病、肝炎和性传播感染需整合创新与社区领导力",
+      "category": "world",
+      "title": "美伊冲突升级，约旦拦截伊朗导弹，美沙同步打击伊拉克民兵",
       "english_term": null,
-      "summary": "世界卫生组织在国际艾滋病大会期间发布评估报告，指出2022至2030年全球卫生部门战略在艾滋病、病毒性肝炎和性传播感染防治上取得进展但仍面临持续挑战。",
-      "script": "在全球公共卫生方面，世界卫生组织今天发布了一份新报告，评估了2022年至2030年全球卫生部门战略在艾滋病、病毒性肝炎和性传播感染防治方面的实施进展。这份报告是在第26届国际艾滋病大会期间发布的，同时也临近世界肝炎日。已确认的信息是，世卫组织正式发布了这份评估报告，报告本身指出全球在应对这三类疾病上取得了显著成就，但同时也强调仍然存在持续性的挑战。报告特别强调了三个关键词：整合、创新与社区领导力，认为要真正终结艾滋病、肝炎和性传播感染的流行，需要把相关服务整合进更广泛的卫生系统，同时依靠新的诊断和治疗技术，并且离不开社区层面的参与和主导。报告没有在摘要中给出具体的量化数据，比如新增感染人数或治疗覆盖率的具体百分比变化，这部分内容需要进一步查阅报告全文才能获得更精确的信息。分析来看，将艾滋病、肝炎、性传播感染三类疾病的应对策略放在同一份战略报告中评估，反映出全球卫生治理越来越强调跨疾病领域的资源整合和系统性应对，而不是针对单一疾病孤立地投入资源。世卫组织长期倡导的社区主导型响应模式，也在这份报告中被再次强调为关键因素之一。后续需要关注报告全文披露的具体统计数据，以及各国在报告发布后是否会调整相关防治资源的投入方向。",
-      "duration_seconds": 130,
+      "summary": "美国和伊朗恢复交火，伊朗向美军发动袭击后美方展开反击，约旦拦截了多枚伊朗导弹，美国与沙特同时对伊拉克境内民兵武装发动打击。",
+      "script": "中东局势方面出现了明显升级迹象。据报道，美国与伊朗之间的军事对抗再度爆发，此前伊朗方面对中东地区的美军发起了袭击，随后美伊双方恢复了交火状态。与此同时，约旦军方证实拦截了五枚从伊朗方向发射的导弹，这一情况发生在美军表示已击落一轮针对美军基地的伊朗导弹袭击之后数小时。另外，美国和沙特阿拉伯的军事力量也对伊拉克境内的民兵武装发动了打击行动。已经确认的事实包括：美伊之间发生了新一轮的导弹与军事打击交火，约旦确认拦截了五枚导弹，美沙对伊拉克境内目标采取了军事行动。至于此轮冲突的具体触发原因、各方伤亡情况、是否会进一步扩大到其他国家和地区，目前信息仍然有限，各方对于谁先发起挑衅、打击目标的具体性质等问题也存在不同表述，需要观察后续更权威信源的说法。分析层面看，约旦拦截伊朗导弹说明这轮冲突的影响范围已经不局限于美伊两方，波及到周边国家的领空安全；美国和沙特联合打击伊拉克境内民兵武装，也反映出这轮冲突正牵涉多个地区行为体，地区局势的复杂性和不确定性进一步上升。后续需要关注冲突是否会进一步扩大，以及是否有国际斡旋努力介入降温。",
+      "duration_seconds": 120,
       "is_unverified": false,
-      "confidence_note": "来自WHO官方一手报告发布，属于tier 1权威信源的直接声明。",
+      "confidence_note": "NPR对美伊交火及约旦拦截导弹均有独立报道，信息交叉确认，但冲突起因与责任归属各方说法不一，具体伤亡与后续走向仍不明确。",
       "fact_status": {
         "confirmed": [
-          "世卫组织发布了2022至2030年全球卫生部门战略评估报告",
-          "报告在国际艾滋病大会期间发布，临近世界肝炎日"
+          "美伊之间恢复了军事交火",
+          "约旦军方确认拦截五枚导弹",
+          "美国和沙特对伊拉克境内民兵武装发动打击"
         ],
         "claims": [
-          "报告强调整合、创新与社区领导力是终结相关疫情的关键"
+          "伊朗被指责率先对美军发起袭击"
         ],
         "analysis": [
-          "报告体现全球卫生治理向跨疾病领域整合应对模式转变的趋势"
+          "冲突已波及约旦等周边国家，地区局势升级风险上升"
         ]
       },
       "source_ids": [
-        "ea916b26325557a2"
+        "1ae7ba035f46da1a",
+        "8a89f58a469b3d4a"
       ],
       "sources": [
         {
-          "id": "ea916b26325557a2",
-          "source": "World Health Organization",
-          "source_tier": 1,
-          "source_region": "global",
+          "id": "1ae7ba035f46da1a",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
           "language": "en",
-          "category_hint": "health",
-          "title": "WHO: Integration, innovation and community leadership key to ending HIV, hepatitis and STIs",
-          "summary": "The World Health Organization (WHO) today launched a new report assessing progress in implementing the Global Health Sector Strategies (GHSS) on HIV, viral hepatitis and sexually transmitted infections (STIs) for 2022–2030. Released during the 26th International AIDS Conference (AIDS 2026) and ahead of World Hepatitis Day (28 July), the report highlights significant achievements and persistent challenges in the global response to these epidemics.",
-          "url": "https://www.who.int/news/item/27-07-2026-who--integration--innovation-and-community-leadership-key-to-ending-hiv--hepatitis-and-stis",
-          "published_at": "2026-07-27T15:45:12+00:00",
+          "category_hint": "world",
+          "title": "U.S. and Iran resume attacks. And, Fauci to face Senate questions on COVID pandemic",
+          "summary": "The U.S. and Iran have resumed fighting after Iran attacked U.S. forces in the Middle East yesterday. And, a Senate committee will question Anthony Fauci about the COVID-19 pandemic.",
+          "url": "https://www.npr.org/2026/07/29/g-s1-136076/up-first-newsletter-iran-benjamin-netanyahu-trump-iowa-water-anthony-fauci-fed-rates",
+          "published_at": "2026-07-29T11:00:47+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "8a89f58a469b3d4a",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Jordan intercepts Iranian missiles as U.S. and Saudi Arabia strike militias in Iraq",
+          "summary": "Jordan intercepted five missiles launched from Iran, the country's military said, hours after the U.S. military said it had knocked down an Iranian missile barrage launched against American forces.",
+          "url": "https://www.npr.org/2026/07/29/g-s1-136063/us-saudi-arabia-iran-iraq",
+          "published_at": "2026-07-29T09:07:03+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "欧洲山火失控蔓延，法国扩大撤离、西班牙面临史上最严重火情",
+      "english_term": null,
+      "summary": "法国波尔多附近山火四天内烧毁超过420平方公里土地，法国和西班牙均已展开大规模疏散，欧盟官员呼吁加快气候应对行动。",
+      "script": "欧洲正在经历一场严重的野火危机。已确认的事实是，法国波尔多附近的一场山火在不到四天时间里已经烧毁超过420平方公里的土地，法国当局又下令再撤离4000人，加上此前的疏散人数，这可能成为法国和平时期规模最大的一次撤离行动。西班牙方面，马德里地区正在经历有记录以来最严重的火情，消防部门担心两处火场可能会在马德里以西合并，形成更大范围的连片火灾。据报道，此次西南欧的山火已经导致约三分之一百万人受到影响或被迫撤离。欧盟负责危机管理的官员呼吁各国加快现有气候行动计划的执行进度，并加大相关投资，以应对当前对欧洲构成威胁的极端热浪和野火风险。科学界的普遍看法是，气候变化正在加剧欧洲野火的极端程度和频率，这一判断得到多家媒体的一致引用。分析来看，此次山火再次将极端天气与基础设施韧性、应急疏散能力等议题摆上台面，超过20架飞机被派往波尔多西部参与灭火，反映出欧洲多国正在投入相当规模的应急资源。后续需要关注两处西班牙火场是否真的会合并、法国疏散人数是否会进一步增加，以及欧盟层面是否会出台新的气候适应政策安排。",
+      "duration_seconds": 115,
+      "is_unverified": false,
+      "confidence_note": "BBC、DW、NPR、Al Jazeera四家独立媒体均对本次山火疏散规模与火情严重程度进行了报道，信息高度一致，可信度较高。",
+      "fact_status": {
+        "confirmed": [
+          "波尔多附近山火四天内烧毁逾420平方公里土地",
+          "法国追加疏散4000人",
+          "西班牙马德里地区正经历有记录以来最严重火情"
+        ],
+        "claims": [
+          "欧盟官员呼吁加快气候行动计划并增加投资"
+        ],
+        "analysis": [
+          "科学界普遍认为气候变化正加剧欧洲极端野火的频率与强度"
+        ]
+      },
+      "source_ids": [
+        "67b348be8d61b829",
+        "864b1e3b34b01341",
+        "eb71348f80b59487",
+        "267230587bb1f55e"
+      ],
+      "sources": [
+        {
+          "id": "67b348be8d61b829",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "European wildfires in maps - and how they're being tackled",
+          "summary": "A blaze near Bordeaux has torn through more than 162 sq miles (420 sq km) in less than four days, while the Madrid region is seeing its worst fires ever.",
+          "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-29T10:42:17+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "864b1e3b34b01341",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Europe wildfires: France expands mass evacuations as Spain battles record blaze",
+          "summary": "Over 20 aircraft have been deployed to fight new fires west of Bordeaux, and Spanish firefighters fear two fires could merge west of Madrid. Scientists say climate change is fueling more extreme fires across Europe.",
+          "url": "https://www.dw.com/en/europe-wildfires-france-expands-mass-evacuations-as-spain-battles-record-blaze/a-78153758?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-29T08:32:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "eb71348f80b59487",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "France evacuates thousands as fires displace a third of a million in southwest Europe",
+          "summary": "French authorities ordered 4,000 more people evacuated from tourist sites along its Atlantic coast, widening what may be France's largest peacetime evacuation.",
+          "url": "https://www.npr.org/2026/07/29/g-s1-136057/france-wildfires",
+          "published_at": "2026-07-29T07:22:44+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "267230587bb1f55e",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "EU crisis chief urges tougher climate action amid France, Spain wildfires",
+          "summary": "Hadja Lahbib calls for existing plans to be accelerated and more investment as an ominous heatwave threatens.",
+          "url": "https://www.aljazeera.com/news/2026/7/29/eu-crisis-chief-urges-tougher-climate-action-amid-france-spain-wildfires?traffic_source=rss",
+          "published_at": "2026-07-29T10:19:28+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "title": "德国车企巨头BMW宣布最多裁员8000人，欧洲汽车业压力持续显现",
+      "english_term": null,
+      "summary": "德国汽车制造商宝马宣布计划到2027年底裁员最多8000人，成为最新一家宣布大规模裁员的德国车企。",
+      "script": "财经与产业方面，德国汽车工业的压力进一步显现。据报道，德国汽车制造商宝马宣布，计划到2027年底裁减最多8000个工作岗位，宝马由此成为最新一家宣布大规模裁员计划的德国车企。这一消息与德国新一届内阁部分新任部长即将就职的政治动态同时出现，被外媒放在同一则综合报道中呈现。已确认的事实是宝马公司确实公布了这一裁员规模和时间表，但具体裁员将涉及哪些工厂、哪些岗位类别，以及是否会有相应的员工安置或转岗方案，报道中并未给出详细说明，需要等待宝马官方后续更完整的说明。分析层面看，近年来德国汽车产业整体面临电动化转型成本上升、传统燃油车业务萎缩、以及国际市场竞争加剧等多重压力，多家德国车企此前已陆续宣布裁员或成本削减计划，宝马此次的裁员规模也被视为这一行业性趋势的延续，而非孤立事件。这类大规模裁员计划通常会引发工会和地方政府的关注，后续可能会有劳资谈判或相关地方经济影响的讨论。需要关注的是，宝马是否会公布具体的裁员执行时间表、涉及的工厂和地区，以及德国其他主要车企是否会跟进类似的成本削减措施。",
+      "duration_seconds": 115,
+      "is_unverified": false,
+      "confidence_note": "DW作为德国本地权威媒体对该公司公告进行了报道，属于企业官方公告的转述，具体执行细节仍有限。",
+      "fact_status": {
+        "confirmed": [
+          "宝马宣布计划到2027年底裁员最多8000人"
+        ],
+        "claims": [],
+        "analysis": [
+          "此举被视为德国汽车行业成本压力持续显现的又一例证"
+        ]
+      },
+      "source_ids": [
+        "3e3dcd22a55d356e"
+      ],
+      "sources": [
+        {
+          "id": "3e3dcd22a55d356e",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Germany news: BMW to cut up to 8,000 jobs",
+          "summary": "The German auto giant BMW has become the latest German car company to announce major job cuts, projecting to shed 8,000 by the end of 2027. Meanwhile, new ministers are set to join the German government. DW has more.",
+          "url": "https://www.dw.com/en/germany-news-bmw-to-cut-up-to-8-000-jobs/live-78155827?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-07-29T10:39:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "俄罗斯以“协助恐怖主义”罪名起诉Telegram创始人杜罗夫",
+      "english_term": null,
+      "summary": "俄罗斯联邦安全局指控Telegram未能清除被乌克兰情报部门及相关武装组织用于策划袭击的内容，正式对创始人杜罗夫提出指控。",
+      "script": "最后一条国际新闻，涉及科技平台监管与地缘政治的交织。据半岛电视台报道，俄罗斯已经对社交平台Telegram的创始人帕维尔·杜罗夫提出“协助恐怖主义”的指控。俄罗斯联邦安全局方面给出的说法是，Telegram平台未能清除被乌克兰情报部门和相关“恐怖”组织用来策划袭击行动的内容。已确认的事实是俄方正式提出了这一指控，具体的法律程序、指控所依据的证据细节，以及杜罗夫本人或Telegram公司方面的回应，目前报道中信息有限，需要等待更多信源补充。这起事件延续了此前围绕Telegram在内容审核和执法配合方面的多起争议，此前该平台及其创始人在多个国家都曾因内容监管问题卷入法律纠纷。分析来看，将社交平台的内容审核责任与刑事指控直接挂钩，反映出俄罗斯对国际科技平台在信息战和舆论管控层面持续收紧的态度，这类指控也可能进一步影响Telegram在俄罗斯及周边地区的运营环境。需要关注的是，杜罗夫或Telegram官方是否会作出正式回应，以及这一指控后续是否会引发国际社会更广泛的关注或外交层面的反应。",
+      "duration_seconds": 115,
+      "is_unverified": true,
+      "confidence_note": "目前仅有Al Jazeera单一来源报道该指控细节，缺乏第二独立信源交叉确认，且事件涉及俄方单方说法，需谨慎对待。",
+      "fact_status": {
+        "confirmed": [
+          "俄罗斯联邦安全局对Telegram创始人杜罗夫提出协助恐怖主义指控"
+        ],
+        "claims": [
+          "俄方称Telegram未清除被用于策划袭击的相关内容"
+        ],
+        "analysis": [
+          "事件反映俄罗斯对国际科技平台内容监管态度持续收紧"
+        ]
+      },
+      "source_ids": [
+        "a2ca8c57c852adbf"
+      ],
+      "sources": [
+        {
+          "id": "a2ca8c57c852adbf",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Russia charges Telegram founder Pavel Durov with ‘aiding terrorism’",
+          "summary": "Russia's FSB says Telegram has not pulled content used by Ukrainian intelligence and 'terrorist' groups to plan attacks.",
+          "url": "https://www.aljazeera.com/news/2026/7/29/russia-charges-telegram-founder-pavel-durov-with-aiding-terrorism?traffic_source=rss",
+          "published_at": "2026-07-29T10:18:49+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的早报先到这里。日本九州地震后续的伤亡与损毁统计、乌克兰防空议题的华盛顿会谈结果，以及人形机器人基座模型融资的更多细节，都还需要等待官方或更多独立信源的确认，晶球电台会持续跟进。",
-  "editor_note": "本期机器人部分共选取五个事件，覆盖产业融资、企业合作、硬件创业公司、学术论文集群与医疗交叉软体机器人，时长合计745秒，占全部时长约56%，符合45%–55%区间要求；来源上兼顾了36氪、Assembly Magazine、GuruFocus、Robohub与arXiv等不同信源，避免单一媒体垄断。多条产业类信息（人形机器人融资、Fujitsu-Nvidia合作、Tacta触觉手套）因仅有单一tier 3来源支持，均标记为is_unverified并在confidence_note中说明局限；arXiv论文因属预印本、未经同行评审，同样标记为未核实。国际部分优先选择了地震、乌克兰局势、联合国外交摩擦、欧洲山火与WHO卫生报告，体育类与娱乐类候选因价值相对次要且篇幅有限未纳入，以保证机器人与重大国际事件的深度覆盖。",
+  "closing": "今天的重点无疑是美国对人形与四足机器人的进口禁令，这可能重塑全球机器人供应链格局，后续需要等待禁令实施细则和中方反制措施的进一步消息。与此同时，日本地震救援、欧洲山火疏散和中东地区冲突仍在发展中，值得持续关注最新进展。",
+  "editor_note": "本期机器人类事件时长占比约为48%，符合45%-55%区间要求；由于候选中缺少更多独立的产业融资或量产类信息，机器人部分以美国进口禁令、学术论文速览和触觉传感研究为主，来源涵盖arXiv、IEEE Spectrum、The Robot Report及多家新闻媒体，避免了单一来源垄断。美伊冲突、山火等国际事件均采用至少两个独立信源交叉确认；杜罗夫指控事件因仅有单一来源，已标记为未核实并说明局限。",
   "model": "claude-sonnet-5",
-  "generation_usage": [
-    {
-      "input_tokens": 9500,
-      "output_tokens": 10385,
-      "total_tokens": 19885
-    },
-    {
-      "input_tokens": 12220,
-      "output_tokens": 9874,
-      "total_tokens": 22094
-    }
-  ],
   "usage": {
-    "output_tokens": 20259,
-    "total_tokens": 41979,
-    "input_tokens": 21720
+    "input_tokens": 9234,
+    "output_tokens": 9478,
+    "total_tokens": 18712
   },
-  "generated_at": "2026-07-28T11:13:37+00:00",
-  "window_start": "2026-07-27T11:13:37+00:00",
-  "candidate_count": 299,
+  "generated_at": "2026-07-29T11:12:39+00:00",
+  "window_start": "2026-07-28T11:12:39+00:00",
+  "candidate_count": 249,
   "source_errors": [
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
-  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1330,
-    "script_characters": 5181,
-    "topic_duration_share": 0.56,
+    "duration_seconds": 1190,
+    "script_characters": 4623,
+    "topic_duration_share": 0.517,
     "passed": true,
-    "normal_target_met": false,
-    "topic_source_count": 3,
+    "normal_target_met": true,
+    "topic_source_count": 5,
     "issues": []
   }
 }
