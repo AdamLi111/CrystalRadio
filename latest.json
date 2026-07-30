@@ -1,136 +1,184 @@
 {
-  "title": "晶球电台早报：美国全面禁令冲击中国机器人产业，日本地震死亡人数上升",
-  "subtitle": "人形机器人进口禁令、彩色触觉皮肤新研究，与欧洲山火、中东冲突升级同台聚焦",
+  "title": "晶球电台早报：美国限制外国人形机器人进口，中东局势急剧升温",
+  "subtitle": "从FCC机器人禁令到伊朗美军基地遇袭，今天的世界既硬核又紧张",
   "highlights": [
-    "美国宣布禁止进口非美国制造的人形与四足机器人，直指中国厂商，引发外交与产业震荡",
-    "欧洲科研团队研发彩色触觉传感皮肤，让机械手指同时感知压力分布与纹理形状",
-    "日本强震死亡人数升至13人，法国、西班牙山火迫使数十万人紧急撤离"
+    "美国FCC对外国人形与四足机器人实施进口限制，行业反应两极分化",
+    "美国对伊朗革命卫队目标发动新一轮空袭，中东紧张局势急剧升级",
+    "多篇机器人学术论文聚焦具身智能可信度、导航与手术自动化"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "美国宣布禁止进口外国制造人形与四足机器人，剑指中国供应链",
-      "english_term": "humanoid robot（人形机器人）、quadruped robot（四足机器人）",
-      "summary": "特朗普政府以国家安全为由，宣布禁止进口非美国制造的人形和四足机器人，中国厂商被认为是主要打击对象。中国方面已作出回应，双边关系可能因此进一步承压。",
-      "script": "第一条重点新闻，来自机器人产业与国际政治的交叉地带。据多家媒体报道，美国政府宣布了一项大范围的机器人进口禁令，禁止进口在美国境外制造的人形机器人和四足机器人，官方给出的理由是国家安全考量。多家外媒的报道指出，这项政策实际上主要针对的是中国机器人制造商，被视为对中国机器人产业链的一次系统性打击。目前已确认的事实是：美方已经发布了这项禁令，涉及人形与四足两大类机器人整机进口；中国官方也已经就此作出回应，显示出双方在这一问题上出现了新的摩擦点。至于具体的执行细则、豁免范围、是否涉及零部件与核心执行器，以及对已经在美布局的中国相关企业会造成多大冲击，目前各方说法尚不完全一致，需要等待更完整的官方文本公布。分析层面看，人形机器人近年来被视为具身智能落地的核心载体，中国在电机、减速器、灵巧手等核心零部件上已经形成较强的产业配套能力，一些国际投行的分析报告也提到，中国机器人产业在国际市场推广中面临一定的公众认知和信任问题，这次禁令可能会放大这种“公关难题”，让中国厂商在海外拓展时遇到更多政策性障碍。另一方面，也有分析认为，这类禁令可能会加速全球机器人供应链的区域化和本土化进程，美国国内相关制造与集成企业可能会获得阶段性的政策红利。这起事件牵涉产业政策、地缘政治与技术竞争三重维度，后续需要关注美方禁令的具体实施细则何时公布，以及中国是否会出台对等反制措施。",
-      "duration_seconds": 150,
+      "title": "FCC限制外国人形与四足机器人进口，行业反应两极",
+      "english_term": "FCC (Federal Communications Commission，美国联邦通信委员会)",
+      "summary": "美国联邦通信委员会发布新规，限制部分外国制造商的人形与四足机器人进口美国市场，业内专家对此评价不一。",
+      "script": "先来看今天机器人产业最受关注的一则消息。据The Robot Report和KHOU等多家媒体报道，美国联邦通信委员会，也就是FCC，出台了新的限制措施，禁止部分外国制造商生产的人形机器人和四足机器人进入美国市场销售。这一举措被外界视为美国在人工智能和机器人硬件领域推进供应链本土化、限制潜在安全风险的又一步。The Robot Report采访的多位行业专家对此反应不一：一部分人认为这将为美国本土机器人企业争取更多市场空间和政策扶持，有助于培育本土供应链；但也有专家担心，这种限制可能减少市场竞争，反而拖慢技术迭代速度，因为目前不少性价比较高、技术成熟的人形与四足机器人平台来自海外厂商。与此同时，据Yahoo报道，中国方面已经就人形机器人贸易争端向美方表达强硬立场，显示这一政策可能演变为更广泛的贸易摩擦议题。值得关注的是，多家美国航空公司如达美航空和美联航也宣布禁止人形机器人和动物形态机器人登机，这被认为与近期的监管收紧气氛有关，但这更多是航空安全层面的独立决定。整体来看，这一系列动作反映出机器人，尤其是人形与仿生形态机器人，正从单纯的技术产品变成受地缘政治和产业政策影响的战略物资。后续需要等待FCC具体规则细则的公布，以及是否会有进一步的关税或技术出口管制措施跟进。",
+      "duration_seconds": 140,
       "is_unverified": true,
-      "confidence_note": "多家媒体报道口径一致，但禁令具体条文、执行范围与豁免细则尚未见官方原文全文公布，投行评论与中方反应属于二手转述，需等待更权威文本确认。",
+      "confidence_note": "多家tier2/3来源交叉报道同一政策方向，但具体禁令细则、生效时间及覆盖范围表述不一，需以FCC官方文件为准，故标记为未完全核实。",
       "fact_status": {
         "confirmed": [
-          "美国政府宣布禁止进口非美国制造的人形与四足机器人",
-          "中国官方已就此作出回应"
+          "FCC出台了针对外国人形与四足机器人的进口限制措施",
+          "多家美国航空公司宣布禁止人形与动物形态机器人登机"
         ],
         "claims": [
-          "多家媒体认为该禁令主要针对中国机器人制造商",
-          "投行分析称中国机器人产业存在公众认知层面的挑战"
+          "中国方面就此表达强硬贸易立场（据Yahoo报道）",
+          "行业专家认为该政策对本土产业有利但可能拖慢技术迭代（据The Robot Report采访）"
         ],
         "analysis": [
-          "禁令可能加剧中美在机器人产业链上的摩擦",
-          "政策或将推动全球机器人供应链本土化趋势"
+          "该政策可能是更广泛中美科技贸易摩擦的一部分",
+          "机器人硬件正日益被纳入国家安全与产业政策考量范畴"
         ]
       },
       "source_ids": [
-        "81414187910c3694",
-        "e2fd6b09af28c2cd",
-        "e312d7e0754512ea",
-        "8b2ab149e8c8ee54"
+        "63ba6fecf1bf02c7",
+        "069aea87ed76d3e0",
+        "6fcdd6307ad870f0",
+        "a948abe808357e2b"
       ],
       "sources": [
         {
-          "id": "81414187910c3694",
+          "id": "63ba6fecf1bf02c7",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "U.S. Takes Aim at Chinese Robot-Makers With Sweeping Import Ban - Caixin Global",
-          "summary": "U.S. Takes Aim at Chinese Robot-Makers With Sweeping Import Ban Caixin Global",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY1dLRlFvN3ZkWVFiLUxESWEwSUttTm9rWjQ1UFJfV3JNc09MN1RoRmpsV2F3MmRhOWxFQW5TQTJRSjU4R2I5VmpKMFhzbXJtQ3EwSXV4QVhWNGpEZUVscU9kN0hCSTNmVThLeVpTekstM1R2Wjg3NXAwUkQwaHhwWVpmc3hsMzdyN1NvdmNCQVRqMFRCLU5iU2twODE3TmluSDRwdzByTTdFamlDTzAxVE5TUU5wSmM?oc=5",
-          "published_at": "2026-07-29T11:01:00+00:00",
+          "title": "U.S. bans humanoid, 4-legged robots from foreign manufacturers - KHOU",
+          "summary": "U.S. bans humanoid, 4-legged robots from foreign manufacturers KHOU",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOElKdllYVTRLQW1CNGlVR1I3VHgyYXJRamJkREtDOEN3bDU1eEowcTFfUWx3eHc0ekJCVDZGanJVWExYdkttVXlrbk9waE9ta0JTaU1EUnRZWTItVjd1a280M3JOY1Z4MnItODdiS0Jyd000aGMyZlJmNFV5M3htVmRULWJMRk1QUnpLWkh5QXQ3X3FuWkhCOVYtWXBxYzJ2NzVRT3d3WTRVeDA2SVFoRk0wbVdlQzRJS05NUzIwS0FrWGotbTdKa2xCd0U?oc=5",
+          "published_at": "2026-07-30T11:02:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "e2fd6b09af28c2cd",
-          "source": "DW Top Stories",
+          "id": "069aea87ed76d3e0",
+          "source": "The Robot Report",
           "source_tier": 2,
-          "source_region": "eu",
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "US bans Chinese and foreign-made humanoid robots",
-          "summary": "The Trump administration has banned the import of humanoid and quadruped robots manufactured outside the United States, citing national security concerns. The ban could strain diplomatic tensions with China.",
-          "url": "https://www.dw.com/en/us-bans-chinese-and-foreign-made-humanoid-robots/a-78154426?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-29T09:15:00+00:00",
+          "category_hint": "robotics",
+          "title": "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots",
+          "summary": "The FCC has banned some foreign humanoids, which industry experts say could help U.S. industry but hinder innovation. The post Experts react to FCC limits on U.S. imports of new humanoid and mobile robots appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/",
+          "published_at": "2026-07-29T14:11:19+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "e312d7e0754512ea",
+          "id": "6fcdd6307ad870f0",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Gasgoo Daily:China Responds to U.S. Robot Ban; Momenta Secures Germany L4 Permit; Xiaomi Teases N90 Max - Gasgoo",
-          "summary": "Gasgoo Daily:China Responds to U.S. Robot Ban; Momenta Secures Germany L4 Permit; Xiaomi Teases N90 Max Gasgoo",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdGQ3TnlqMG9ueEg1MVRfR2FEbWJlMndJQ0dELXJIbTBPRF90LVBfMVN0djhLVWljbkFMaGU5Y0t2bk1jaGdLZTRQRmk5SVpfT21PT19sWHl1LXdTbV9ZN1MzY1dEWFhjMGZIMVBnekFMSElFZV9JbnpyVnRVbEc2RHZ5aXNXM0ZES1JuOGxFa2tUYWk2X3I5SkVpYlVnNFBBZDNzdUtDb3hDUDh1cE9IdXpwR1QwVmRQTTM0TFdYbXAzZnFEcmktbXFndGRha0ZVSEo0RGlFTF9QS3FzeGU4RDVmYUk0SlY0cTBQVUxYdDhlUQ?oc=5",
-          "published_at": "2026-07-29T10:57:25+00:00",
+          "title": "China threatens the US in trade dispute over humanoid robots - Yahoo",
+          "summary": "China threatens the US in trade dispute over humanoid robots Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTERjRVdyaWhzOGhHUF9IYlF1eFdSSG1JWkw1a053YWctYVJvVkxEdGVKVHB5YnRoUzV4aVpXOXJRRmxhQnpKUlNBYS1sRkFVM2dGaHFuU3hnSWhoRVJkM2txWjVMTDhOV1FzeUx1NHFQUjZNZzFxbDFwVHN6Z2VmUi1BdEpSNC1kYnVkajYyU1RYX1Q3TF9z?oc=5",
+          "published_at": "2026-07-30T10:18:33+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "8b2ab149e8c8ee54",
+          "id": "a948abe808357e2b",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Morgan Stanley: 'PR Problem' Threatens China's Robot Boom - The Tech Buzz",
-          "summary": "Morgan Stanley: 'PR Problem' Threatens China's Robot Boom The Tech Buzz",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMXpqQWU2X0x3Y0dkOE51dTAtRDctb0Fsekxsa0JwQU1UeURzeHozM0w5RVpwXzAzRmo3bVZEOWV6U3dEdXQxdmMwQ1FEbDZ3dDRiQnY5V05WZEx3N01XSEZVSXh1UnlsQTltS2ZXMTROLS1tWEJTdUZtQ0VabUpMQ3FaNXUwbDJmNWs5U1FxT2o?oc=5",
-          "published_at": "2026-07-29T10:43:00+00:00",
+          "title": "Delta, United ban humanoid and animal robots from flights - The Hill",
+          "summary": "Delta, United ban humanoid and animal robots from flights The Hill",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZnNPSGhwME9fcENKb0o5ekxoU0ZSLUh4N0dLeWRhZk9aRXZFcUJiRTZhTXFIN2dLRFNkQkdEZmd5RUR3TVgyWlF5SkoxMzhSbUxQN0tyazRzeWMxb1EwdEttV0xNbEllUTJBSFIxLXMyOWhEV1JpcmxrWDgzZUVsT1A5YTlQbUxPdXNDU1A1bFlSUlp0Wmw4VzFuZFhvZUtFMFBpVkQzcWc2TzNPNTRuWHpGTGlCX2ZLeFVVMg?oc=5",
+          "published_at": "2026-07-30T10:42:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "robotics",
-      "title": "彩色触觉皮肤让机器人手指“看见”压力分布",
-      "english_term": "tactile sensing（触觉感知）",
-      "summary": "欧洲研究团队开发出一种彩色机器人皮肤，能够同时捕捉接触表面的压力大小与空间分布，让机械手指模拟出类似人类指尖的精细触感。",
-      "script": "接下来关注一项来自学术界的感知技术进展。据报道，欧洲一个科研团队研发出一种颇为特别的机器人皮肤，利用颜色变化来表达触觉信息，让机械手指在接触物体表面时，能够同时获取压力大小和空间分布这两类信息，这在过去往往需要在多个空间位置分别布设力和压力传感器才能实现，成本高、集成难度大。研究团队展示的场景颇具画面感：让机器人手指划过一枚硬币表面，感受浮雕文字、人物侧脸轮廓和建筑纹理这样精细的几何特征，这说明这种彩色触觉皮肤在空间分辨率上达到了相当精细的水平。从技术原理上看，这类方案通常是通过材料在受力时发生的光学性质变化——比如颜色或透光率的改变——用摄像头或光学传感器在皮肤内部或表层进行捕捉，再通过算法将颜色模式反解为压力分布图，这样可以用较少的物理传感单元获得高密度的触觉信息，是光学触觉传感这一技术路线的一个新案例。触觉感知一直被认为是机器人精细操作，比如抓取易碎物体、装配零件、外科手术辅助等任务中的关键短板，人类手指依靠密集的机械感受器可以轻松完成的动作，机器人往往因为触觉信息不足而表现笨拙。这类彩色触觉皮肤如果能够进一步降低成本、提高耐用性并实现批量集成，有望应用在灵巧手、医疗机器人和精密装配场景中。目前这项成果的具体量产计划、量产成本以及在真实机器人系统中的集成验证情况还有待观察，后续需要关注该技术是否会进入更大规模的实机测试。",
+      "category": "world",
+      "title": "美国对伊朗革命卫队目标发动新一轮空袭，中东局势急剧升温",
+      "english_term": null,
+      "summary": "在此前短暂平静后，美伊双方重启导弹与空袭行动，美方称打击了伊朗革命卫队数十个目标。",
+      "script": "中东局势方面，今天最重大的消息是美国与伊朗之间的军事对抗再度升级。据BBC World和NPR World报道，在经历了短暂的相对平静之后，美国和伊朗双方重新开始了导弹攻击。已确认的事实是：美方对伊朗发动了被BBC形容为猛烈的空袭，起因是伊朗方面此前对美军部队发动了袭击尝试。NPR World的报道进一步说明，美方表示打击了数十个属于伊朗伊斯兰革命卫队的目标。这轮多点爆发的冲突，发生在此前几天相对平静之后，外界担忧局势可能重新滑向全面战争的边缘。目前各方对于冲突升级的责任归属仍存在争议：美方将此次行动定性为对伊朗袭击美军的报复性反击，而伊朗方面的官方表态在现有信息中尚未完整呈现。分析人士认为，这种打击、报复、再打击的循环模式，使得原本脆弱的停火或克制机制难以维系，地区局势的不确定性显著上升。与此同时，俄乌战场方面也传来消息，据NPR World报道，俄罗斯对乌克兰多地发动的空袭已造成至少8名平民死亡、数十人受伤，凸显出乌克兰在西方提供的反导系统日益短缺的背景下所面临的防空压力。而波兰总理也表示，此前落入波兰境内、造成一个直径十米弹坑的不明物体，很可能是俄罗斯导弹，这进一步凸显出俄乌冲突外溢至北约成员国领土的风险持续存在。这些消息共同勾勒出当前国际安全环境的紧张图景。后续需要关注美伊双方是否会有进一步官方声明，以及国际社会是否会介入斡旋。",
       "duration_seconds": 145,
       "is_unverified": false,
-      "confidence_note": "IEEE Spectrum为专业机器人媒体的技术报道，属于对科研团队工作的正式报道，但具体论文细节与量产前景仍需进一步跟踪确认。",
+      "confidence_note": "BBC World与NPR World两家Tier 2媒体独立报道同一事件，基本事实可信度较高，但双方动机与后续升级路径仍属各方主张与分析范畴。",
       "fact_status": {
         "confirmed": [
-          "研究团队展示了一种基于颜色变化的机器人触觉皮肤",
-          "该系统可同时捕捉压力大小与空间分布信息"
+          "美国对伊朗革命卫队目标发动了新一轮空袭",
+          "此前双方经历过短暂的相对平静期",
+          "俄罗斯对乌克兰多地空袭造成至少8名平民死亡"
         ],
         "claims": [
-          "报道称该皮肤能够感知硬币表面的精细纹理"
+          "美方称打击了伊朗革命卫队数十个目标",
+          "波兰总理称境内弹坑很可能由俄罗斯导弹造成"
         ],
         "analysis": [
-          "触觉感知的提升有望改善精细操作类任务的表现"
+          "双方对抗模式可能使地区滑向更全面冲突",
+          "乌克兰防空能力短缺可能被俄方进一步利用"
         ]
       },
       "source_ids": [
-        "ea0e383c514037c7"
+        "4b2c297ec1a43679",
+        "31c7eb7cdd64ec93",
+        "268255beacd856b5",
+        "5231de2cdc4003a7"
       ],
       "sources": [
         {
-          "id": "ea0e383c514037c7",
-          "source": "IEEE Spectrum Robotics",
+          "id": "4b2c297ec1a43679",
+          "source": "BBC World",
           "source_tier": 2,
-          "source_region": "global",
+          "source_region": "uk",
           "language": "en",
-          "category_hint": "robotics",
-          "title": "Robot Finger Feels in Color",
-          "summary": "Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and, if it’s tails, the fluted columns of the Lincoln Memorial. Getting a robot to sense the same things is an imposing task, often requiring gathering data on pressure and force at many spatial locations at once. But that’s just what a team of scientists in Europe has now managed to do, using an unusual, colorful robotic skin that provides high-resolution sensing in real time. “To be honest, when they showed us this, we thought it was, and pardon my French, [expletive] cool, because it’s a distinctly different approach,” recalled Rich Walker, director of Shadow Robot , the U.K.’s longest-running robot company, which primarily focuses on robotic hands . RELATED: “This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors” The research team, which hails from Queen Mary University of London, the University of Florence, the University of Trieste, and the University of Trento, designed a robotic fingertip with a synthetic skin that reflects different colors of light in response to mechanical deformation. By reading ",
-          "url": "https://spectrum.ieee.org/robot-finger",
-          "published_at": "2026-07-28T15:00:03+00:00",
+          "category_hint": "world",
+          "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
+          "summary": "After a short period of relative calm when hostilities were paused, both sides have now restarted missile attacks.",
+          "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-30T10:49:14+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "31c7eb7cdd64ec93",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "U.S. resumes strikes on Iran in retaliation for attack on American troops",
+          "summary": "The U.S. said it had struck \"dozens\" of targets belonging to Iran's Revolutionary Guard Corps. The multiple flare-ups, after several days of relative calm, raised the risk of a return to all-out war.",
+          "url": "https://www.npr.org/2026/07/30/nx-s1-5913077/us-iran-updates",
+          "published_at": "2026-07-30T08:55:53+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "268255beacd856b5",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
+          "summary": "The unidentified object caused a 10m-wide (33ft) crater a short distance from the village of Tarnawa Kolonia, about 100km from the border with Ukraine during a Russian attack on the city of Lviv.",
+          "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-07-30T09:56:06+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "5231de2cdc4003a7",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Russian strikes across Ukraine kill at least 8 civilians and wound dozens",
+          "summary": "The blitz expanded Russia's almost daily bombardment of Ukrainian cities as Moscow apparently looked to exploit Kyiv's critical shortage of Western-supplied anti-ballistic missile defenses.",
+          "url": "https://www.npr.org/2026/07/30/g-s1-136276/russia-ukraine-war",
+          "published_at": "2026-07-30T09:53:10+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -138,85 +186,56 @@
     },
     {
       "category": "robotics",
-      "title": "学术速览：接触丰富操作、抓取风险评估与人形关节执行器",
-      "english_term": "trajectory optimisation（轨迹优化）、grasp quality metric（抓取质量指标）",
-      "summary": "本期arXiv与产业媒体呈现了多篇聚焦接触动力学、抓取安全性与人形机器人执行器集成的研究与工程分析。",
-      "script": "再来快速扫描几项机器人领域的研究与工程动态。第一项来自arXiv机器人板块，研究者提出了一种通过隐式接触微分来加速残差模型预测控制轨迹优化的方法，试图解决可微分仿真在接触丰富任务中计算开销大、对步长敏感的问题，相比有限差分和展开式自动微分，这种方法希望在保持精度的同时降低计算成本，这类工作对提升机器人在复杂接触场景下的实时规划能力具有意义，但目前还只是预印本阶段，尚未经过同行评审。第二项是抓取质量评估方面的新指标，研究者提出了一种基于风险度量的抓取质量评估方法，因为经典抓取质量指标通常假设一个固定的摩擦系数，无法反映真实抓取中摩擦力波动带来的失败风险，新方法引入条件风险价值这一统计工具，希望让机器人在面对不同摩擦条件的物体表面时，能更准确地预测抓取是否会失败，这对提升机械臂在非结构化环境中抓取的鲁棒性有一定价值，同样属于未经同行评审的预印本工作。另外还有一篇论文提出了“环境约束利用”的运动规划思路，主张让机器人有意与环境发生接触，从而降低高维空间中运动规划的复杂度，这与传统追求无碰撞运动的思路有所不同，是否具备普适性还需要更多任务场景验证。产业侧面，专业媒体也发表了关于人形机器人关节一体化执行器如何提升关节性能与系统集成度的分析文章，探讨执行器与减速器、传感器一体化设计对机器人整体性能和制造成本的影响，这类工程分析虽非突破性论文，但反映出人形机器人产业界当前对核心零部件集成度的持续关注。总体来看，这些工作分别从控制算法、抓取安全性和硬件集成三个方向反映出机器人学术界和产业界的持续技术积累，后续需要等待相关论文完成同行评审，以及执行器集成方案是否被更多整机厂商采纳。",
-      "duration_seconds": 180,
+      "title": "论文速览：具身智能可信度框架与零样本导航智能体",
+      "english_term": "embodied intelligence（具身智能，指将感知、决策与物理交互实时结合的智能系统）",
+      "summary": "两篇arXiv新论文分别提出具身智能可信度分级框架，以及用极简接口实现零样本视觉语言导航的通用智能体方案。",
+      "script": "学术方面，来看两篇今天新挂出的arXiv机器人论文。第一篇题为迈向可信具身智能：系统框架与分级可信等级。研究团队指出，具身智能，也就是把学习到的感知与决策能力，同实时计算、控制和物理交互结合起来的系统，一旦出现失误，可能直接造成物理或运行层面的伤害。因此，论文提出，仅仅完成任务本身并不能说明系统是可信的。作者据此定义了可信具身智能这一概念，即系统在环境和自身状态发生变化的情况下，仍能持续可靠地执行既定任务，同时把风险控制在可接受范围内。论文构建了一套系统性框架，并划分出多个可信度等级，用于评估不同机器人系统在实际部署中的安全边界。这项工作的意义在于，为行业和学术界评估机器人系统的可靠性提供了一套相对标准化的语言，而不是仅凭任务成功率来判断系统好坏。它的局限在于，目前还只是一个概念性框架，具体如何在真实机器人平台上量化每个可信度等级，仍需要进一步的实证研究。第二篇论文关注视觉语言导航任务，标题是具身智能体掌控全局：极简接口的零样本智能体媲美工业级策略。研究团队测试了三种基于通用软件工程智能体框架、不进行任何任务专门训练的智能体，让它们仅依靠感知、行动、验证与自我纠错这样一个长期决策循环来完成导航任务。结果显示，这类零样本、极简接口的通用智能体在视觉语言导航测试中的表现，可以与专门训练、工业规模的导航策略相媲美。这说明一个足够通用的智能体框架，或许不需要大规模任务特定训练，也能处理复杂的具身决策问题。不过论文本身尚未经过同行评审，其结论的普适性和在更复杂真实环境中的鲁棒性还有待检验。",
+      "duration_seconds": 165,
       "is_unverified": true,
-      "confidence_note": "arXiv论文均为未经同行评审的预印本，结论有待学术界进一步验证；执行器分析文章为产业媒体工程解读，非原始学术数据。",
+      "confidence_note": "两篇均为arXiv预印本，尚未经过同行评审，结论仅代表作者团队初步研究结果，需等待后续评审与复现验证。",
       "fact_status": {
         "confirmed": [
-          "arXiv平台发布了上述几篇机器人相关预印本论文",
-          "The Robot Report发布了关于人形机器人执行器集成的分析文章"
+          "两篇论文均于近期挂出在arXiv机器人板块"
         ],
         "claims": [
-          "论文作者称新方法可降低计算成本或提高抓取鲁棒性"
+          "论文一提出具身智能可信度分级框架",
+          "论文二称零样本智能体在导航测试中表现媲美工业级策略"
         ],
         "analysis": [
-          "这些研究方向反映出机器人控制与抓取安全性研究的持续演进"
+          "可信度评估框架若被广泛采纳，可能改变机器人系统评测标准",
+          "通用智能体框架的成功可能减少对任务专用训练数据的依赖"
         ]
       },
       "source_ids": [
-        "8e5934e3c88910af",
-        "17c1252e60993d47",
-        "beb5d423c6f27091",
-        "afd382cd8ff6e5e1"
+        "1014afd44d13970d",
+        "7be35ac827162f72"
       ],
       "sources": [
         {
-          "id": "8e5934e3c88910af",
+          "id": "1014afd44d13970d",
           "source": "arXiv Robotics (cs.RO)",
           "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Amortising Trajectory Optimisation for Residual MPC via Implicit Contact Differentiation",
-          "summary": "arXiv:2607.24959v1 Announce Type: new Abstract: Differentiable simulation can accelerate contact-rich trajectory optimisation by exposing local sensitivities of task outcomes to controls. Existing approaches either use finite differences, which are expensive and step-size sensitive; differentiate iterative contact solvers by unrolling automatic differentiation (AD), which stores a growing computation trace; or require intricate, solver-specific KKT sensitivity derivations. We introduce an AD-assisted implicit derivative for regularised smooth contacts and apply it to Mujoco MJX, based on the Implicit Function Theorem (IFT). The method differentiates the stationarity residual at the tolerance-converged solution, avoiding both solver unrolling and hand-assembled KKT systems. IFT keeps compiled temporary memory nearly constant with solver effort, changing by less than 4$\\%$ from one to ten iterations versus 10.6$\\times$ growth for unrolled AD. IFT memory grows slower with active contacts and model dimension, using 20$\\times$ less memory at 256 contacts and 6$\\times$ less at 16 contacts and 96 DoF. We further introduce optimiser distillation for residual MPC, amortising batched full-ho",
-          "url": "https://arxiv.org/abs/2607.24959",
-          "published_at": "2026-07-29T04:00:00+00:00",
+          "title": "Towards Trustworthy Embodied Intelligence: A Systems Framework and Graded Trustworthiness Levels",
+          "summary": "arXiv:2607.26121v1 Announce Type: new Abstract: Embodied intelligence integrates learned perception and decision making with real-time computation, control, and physical interaction. Because failures can cause immediate physical or operational harm, task completion alone does not establish trustworthiness. We define trustworthy embodied intelligence as the sustained capacity to execute specified tasks reliably under environmental and system variation while maintaining risk within acceptable bounds. We term this objective sustained safe success. Its supporting mechanisms are organized into four interdependent layers. The model layer generates task-competent action proposals with calibrated uncertainty and explicit safety preferences. The system layer realizes authorized actions dependably through integrated sensing, computation, control, hardware safeguards, fault containment, and fallback. The evidence layer substantiates bounded claims through evaluation, verification, validation, traceability, and structured assurance arguments. The deployment layer maintains claim validity through runtime monitoring, authority management, intervention, incident response, and controlled updates. ",
+          "url": "https://arxiv.org/abs/2607.26121",
+          "published_at": "2026-07-30T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "17c1252e60993d47",
+          "id": "7be35ac827162f72",
           "source": "arXiv Robotics (cs.RO)",
           "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "FIRMGrasp: A Friction-Informed Risk Margin for Robust Grasp Synthesis",
-          "summary": "arXiv:2607.25049v1 Announce Type: new Abstract: Classical grasp quality metrics assume a single deterministic friction coefficient, so they cannot predict whether a grasp retains force closure across the range of friction values the contacting surfaces may exhibit. To predict these failures, we present FIRMGrasp, a family of friction-volatility-aware grasp quality metrics grounded in the Conditional Value-at-Risk (CVaR) risk measure. Unlike standard grasp quality assessors that assume a single friction realization, our metric evaluates the force-closure margin at the CVaR-discounted mean of the adverse friction tail, yielding a risk-adjusted margin $\\varepsilon^{(\\beta)}$, the inscribed-ball radius of the risk-adjusted wrench space. We establish its monotonicity in the confidence level $\\beta$, its differentiability in the grasp parameters, and a probabilistic closure certificate that guarantees force closure with probability at least $\\beta$ whenever $\\varepsilon^{(\\beta)}$ is positive. Under a calibrated friction distribution, analytic evaluation shows our $\\varepsilon^{(\\beta)}$ metric identifies friction-sensitive grasps that the nominal Ferrari-Canny epsilon rates as high-qual",
-          "url": "https://arxiv.org/abs/2607.25049",
-          "published_at": "2026-07-29T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "beb5d423c6f27091",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Motion Generation With Environmental Constraints",
-          "summary": "arXiv:2607.25053v1 Announce Type: new Abstract: Robot motion planning faces challenges in high-dimensional spaces and uncertain environments, often constrained by the need for collision-free motions. We advocate an alternative approach, Environmental Constraint Exploitation (ECE), where deliberate contact with the environment simplifies planning by reducing dimensionality and computational complexity. By integrating ECE into motion planning algorithms, we bias exploration to task-relevant regions and leverage contact for uncertainty reduction to improve robustness during execution. We evaluate ECE benefits with RRT-based planners and demonstrate their practical benefits in a real-world application. This work consolidates and extends prior research, showcasing how ECE simplifies motion planning while enhancing adaptability and performance in complex environments.",
-          "url": "https://arxiv.org/abs/2607.25053",
-          "published_at": "2026-07-29T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "afd382cd8ff6e5e1",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "How integrated actuators improve humanoid robot joint performance and system integration",
-          "summary": "Humanoid robots have become an important area of research in robotics, attracting attention from universities, research institutions, and technology companies. The post How integrated actuators improve humanoid robot joint performance and system integration appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/",
-          "published_at": "2026-07-28T13:25:37+00:00",
+          "title": "Embodied Agents Take Control: Minimal-Interface Zero-Shot Agents Rival Industrial-Scale Policies in Vision-and-Language Navigation",
+          "summary": "arXiv:2607.26148v1 Announce Type: new Abstract: Autonomous embodied agents must sustain a long decision-making loop that involves perceiving, acting, verifying, and self-correcting over many steps. Current systems sustain this loop through task-specific workflows or embodied policies. We study a third form, agentic embodied control, in which a general-purpose agent holds the loop itself. Using zero-shot navigation as a controlled testbed, we evaluate three software-engineering agent harnesses given only a monocular RGB camera and discrete actions. Under this strictly minimal condition, replicated default-effort configurations reach 70.7$\\pm$3.5% success (opus-5, mean over three runs), and fable-5 reaches 78% at maximum effort. When a trained waypoint tool is exposed alongside primitives as an optional capability, the hybrid fable-5 agent reaches 76.7$\\pm$0.6% at default effort, using half the environment steps and less than one quarter of the wall time of the maximum-effort primitive run. Controlled interventions show that capability is primarily model-centered: model choice strongly changes success, harness effects are descriptive, and a forced waypoint interface helps weaker mode",
+          "url": "https://arxiv.org/abs/2607.26148",
+          "published_at": "2026-07-30T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -224,55 +243,114 @@
     },
     {
       "category": "robotics",
-      "title": "医疗与产业侧：机器人辅助胃管置入系统与OTA更新工具亮相",
-      "english_term": "OTA（over-the-air，远程无线软件更新）",
-      "summary": "医疗器械公司推出机器人辅助胃管置入系统，同时一家新公司致力于为机器人开发者简化远程软件更新流程，反映机器人应用落地和基础设施建设两条线索。",
-      "script": "在产业应用层面，有两则值得关注的消息。首先，一家医疗设备公司开发了一套机器人辅助的胃管置入系统，据介绍，这套系统的设计定位是辅助而非取代临床医生，操作过程中医生始终保持对手术的完全控制权，机器人更多承担的是精细定位和辅助操作的角色。胃管置入对精度和患者舒适度有较高要求，传统操作依赖医生经验和手感，如果机器人辅助系统能够降低操作难度、减少并发症风险，将是医疗机器人在细分场景中落地的又一个例子，但目前这套系统的临床验证数据、审批进展和商业化时间表还有待官方进一步披露。另一则消息来自机器人产业基础设施领域，两位曾参与商用机器人开发的创业者创立了一家新公司，专注于为机器人开发者简化“空中下载”软件更新，也就是OTA远程升级流程。随着越来越多机器人产品进入实际部署阶段，如何高效、安全地对分布在不同场地的机器人进行远程软件维护和功能升级，正在成为一个独立的工程问题，这类工具型公司的出现，反映出机器人产业链正在从单纯的整机制造，向更细分的软件运维、系统集成等配套服务环节延伸。这两条消息虽然规模不大，但共同说明机器人技术正在从实验室和展示场景，向更细分、更长尾的实际应用和运维环节渗透，后续需要观察这套胃管置入系统的临床数据发布情况，以及OTA工具公司获得的具体客户合作进展。",
-      "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "两条消息均来自专业机器人产业媒体The Robot Report的产品与公司报道，属于常规产业动态，尚缺乏第二来源交叉确认，具体商业数据有限。",
+      "title": "论文速览：海洋多机器人协同优化与柔性缝针自主抓取",
+      "english_term": "coevolutionary algorithm（协同进化算法，一种多目标优化方法）",
+      "summary": "两篇arXiv论文分别探讨了多机器人海洋协同任务的多目标优化方法，以及外科手术机器人如何通过操控缝合线来自主捡起掉落的缝针。",
+      "script": "再看两篇偏应用方向的机器人论文。第一篇是关于海洋多机器人自主协同的研究，题为面向仿真与真实世界部署的多机器人海洋自主性的多目标合规协同进化。论文指出，协作机器人非常适合执行需要多机协调的海洋任务，比如探索未知的珊瑚礁结构、检测海底基础设施，或者开展搜救行动。但这类任务通常只能提供稀疏的反馈信号来衡量进展，同时还必须遵守安全和监管规范，这就把整个任务变成了一个多目标优化问题。研究团队采用协同进化算法来处理这种复杂约束，协同进化算法的思路是让多个候选解决方案同时演化、相互竞争与协作，从而在满足安全合规的前提下找到较优的任务分配与路径规划方案。论文同时在仿真环境和真实世界场景中做了部署验证，这一点比纯仿真研究更有说服力，但具体真实海况下的鲁棒性和扩展到更大规模机器人集群时的表现，仍需要更多实验数据支撑。第二篇论文来自手术机器人领域，题目是收线归位：通过线程操控实现柔性缝针拾取以支持自主缝合。研究背景是，在自主缝合手术中，缝合针有时会意外掉落，或者被主动释放以便调整抓取姿态，因此缝针拾取是实现全自主缝合不可或缺的一环。现有方法通常只能让机器人直线接近缝针并直接抓取，这就要求缝针必须处于可观察、可直接接近的状态，而且如果缝针恰好落在组织表面，直接抓取还可能误夹周围组织造成损伤。这篇论文提出了一种通过操控缝合线本身，把针收线归位到便于抓取姿态的方法，从而突破了此前方法对缝针可见性和位置的限制。这项工作对于提升外科手术机器人在复杂术中场景下的自主性具有实际意义，不过论文同样尚未经过同行评审，其在真实临床环境中的安全性还需要进一步验证。",
+      "duration_seconds": 170,
+      "is_unverified": true,
+      "confidence_note": "两篇均为arXiv预印本，未经同行评审，研究结论仅限于论文描述的实验条件。",
       "fact_status": {
         "confirmed": [
-          "某医疗设备公司发布了机器人辅助胃管置入系统",
-          "一家新公司成立，专注于机器人OTA软件更新工具"
+          "两篇论文均于近期发布在arXiv机器人板块"
         ],
         "claims": [
-          "公司称该胃管置入系统设计为辅助医生而非替代医生"
+          "协同进化算法可在仿真与真实场景中处理海洋多机器人多目标任务",
+          "线程操控方法可实现柔性缝针的自主拾取"
         ],
         "analysis": [
-          "机器人产业配套服务环节正在逐步细分和成熟"
+          "多目标协同优化方法可能对搜救、海底检测等场景有实际应用价值",
+          "缝针自主拾取技术的成熟将是外科机器人迈向更高自主等级的关键一步"
         ]
       },
       "source_ids": [
-        "249e0ea25973d1bf",
-        "18a749093c0e4ce1"
+        "b68035e210c916e8",
+        "7ed2d5e8de130753"
       ],
       "sources": [
         {
-          "id": "249e0ea25973d1bf",
+          "id": "b68035e210c916e8",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Multi-Objective Compliance-Integrated Coevolution For Simulated And Real-World Deployment Of Multi-Robot Marine Autonomy",
+          "summary": "arXiv:2607.26279v1 Announce Type: new Abstract: Collaborative robots are well-suited to maritime missions that benefit from coordination, such as the exploration of unknown reef structures, inspection of subsea infrastructure, or search-and-rescue operations. These missions typically provide sparse feedback signals for measuring progress and require adherence to safety and regulatory norms, turning a mission into a multi-objective optimization problem. Coevolutionary algorithms can process these sparse feedback signals to generate coordinated behaviors, and in some cases extend behaviors to multiple objectives. However, incorporating high-level team objectives with low-level compliance considerations on the fly to balance norm adherence with team performance remains elusive. This paper introduces a multi-objective framework that blends coevolved behaviors with compliance behaviors to achieve a balance between maximizing team progress and minimizing norm violations. The key insight is to decouple learning from compliance since operational norms are prescribed rather than discovered. We demonstrate that our framework achieves high team performance while avoiding collisions on a colla",
+          "url": "https://arxiv.org/abs/2607.26279",
+          "published_at": "2026-07-30T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "7ed2d5e8de130753",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Reeling It In: Flexible Needle Pick Up via Thread Manipulation for Autonomous Suturing",
+          "summary": "arXiv:2607.26337v1 Announce Type: new Abstract: Suture-needle pickup is necessary for autonomous suturing, as a needle can be unexpectedly dropped or strategically released to adjust the grasping configuration. Current methods for autonomous needle pickup typically guide a robot to move straight toward the needle and grasp it, limited to conditions where the needle is observable and directly approachable. In addition, grasping the needle lying on tissue can lead to the robot pinching nearby tissue or the needle jumping around due to its slippery surface, posing potential safety issues. This work proposes an autonomous framework that uses a suture thread as an assistive tool for indirect needle pickup, avoiding unnecessary tool-tissue contact and enabling pickup even when the needle is occluded or inaccessible. The framework spans the entire workflow, including thread and tissue reconstruction, safe grasp-point selection, stable thread lifting, and bimanual thread-following until securing needle grasping. The robot policies account for visual uncertainty to maximize robustness in real-world environments. We evaluate the proposed framework on a da Vinci Research Kit under various rea",
+          "url": "https://arxiv.org/abs/2607.26337",
+          "published_at": "2026-07-30T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "机器人产业融资与并购：法式可颂机器人获种子资金，GMEX收购社交智能公司",
+      "english_term": null,
+      "summary": "瑞士创业公司Maus Robotics获得Venture Kick约18.3万美元资助以扩展自动化可颂机器人业务，服务机器人公司GMEX Robotics收购MediaMeta.ai以增强社交智能能力。",
+      "script": "产业融资方面，两则规模不大但颇具代表性的消息。据AI Insider报道，专注于自动化烘焙的机器人公司Maus Robotics，从瑞士创业加速项目Venture Kick获得了约18.3万美元的资金支持，用于扩大其自主可颂机器人的生产规模。这类机器人属于典型的窄场景操作机器人，聚焦于餐饮自动化这一相对结构化、重复性高的任务场景，通过机械臂结合视觉感知完成面团处理、烘烤等流程。虽然金额不大，但也反映出资本市场对垂直细分场景机器人应用的持续关注，这类项目通常比通用人形机器人更容易实现商业化落地和现金流回正。另一则消息来自The Robot Report，服务机器人公司GMEX Robotics宣布收购MediaMeta.ai的股份，目的是将社交智能能力整合进其服务机器人产品线。所谓社交智能，指的是机器人在与人类互动过程中，理解语言、情绪和社交语境并做出恰当反应的能力，这对于面向零售、酒店、医疗陪伴等场景的服务机器人尤为重要。这笔收购说明，服务机器人厂商正在把更多资源投向人机交互体验的软性能力，而不仅仅是硬件本体的性能提升。这两则消息虽然体量都不算大，但共同指向了机器人产业当下的一个趋势：无论是餐饮自动化这样的垂直场景，还是服务机器人的社交能力，资本正在向具体、可落地的细分应用倾斜，而不只是集中在人形机器人这一个大赛道上。后续可以关注这两家公司在产品交付和商业化进展上的下一步动作。",
+      "duration_seconds": 150,
+      "is_unverified": false,
+      "confidence_note": "两则均为公司官方融资与并购公告类新闻，经tier2/3行业媒体独立报道，可信度较高，但涉及具体金额与细节以公司公告为准。",
+      "fact_status": {
+        "confirmed": [
+          "Maus Robotics获得Venture Kick约18.3万美元资助",
+          "GMEX Robotics收购了MediaMeta.ai的股份"
+        ],
+        "claims": [
+          "资金将用于扩大可颂机器人生产规模",
+          "收购目的是为服务机器人增加社交智能能力"
+        ],
+        "analysis": [
+          "资本正向细分垂直场景机器人应用倾斜",
+          "服务机器人厂商正加大对人机交互软性能力的投入"
+        ]
+      },
+      "source_ids": [
+        "47211716531b5d9a",
+        "d94806c0e354e13b"
+      ],
+      "sources": [
+        {
+          "id": "47211716531b5d9a",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Maus Robotics Obtains $183K in Funding from Venture Kick to Scale Autonomous Robots that Make Crêpes - AI Insider",
+          "summary": "Maus Robotics Obtains $183K in Funding from Venture Kick to Scale Autonomous Robots that Make Crêpes AI Insider",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORnFRSGdGU1lvdnNydGluVXZGU1R3dzQ1MXdIUEd0Y1JyQzRCY09WbGh2M2gxNmVaRTdVN28tclJraWMxRmNYdmVIc180dGEwM194c0RfMTlIQ0ExQy1rUS1fX0hVVWpMcFVvQTlySU9meTUxdDNoWEJnY2lHeW05QlpXUDYtWW1MY2hUS3c3RmlsTlBfNm55QmRKUmJfdUdFaUFCdHRFcEdNNHdScGlDMFBpYkFaY3k2Y1pVVktQb3d1RG1qZlFJWm1OUDU4TEVHZE1F?oc=5",
+          "published_at": "2026-07-30T10:32:57+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "d94806c0e354e13b",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "ENvue Medical develops robotic feeding tube placement system",
-          "summary": "ENvue Drive is designed to assist, not replace, the clinician, who retains full control of the procedure at all times. The post ENvue Medical develops robotic feeding tube placement system appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/envue-medical-develops-robotic-feeding-tube-placement-system/",
-          "published_at": "2026-07-28T19:00:55+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "18a749093c0e4ce1",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Agency Tool Company wants to make OTA software updates easier",
-          "summary": "Two Scythe co-founders are using their experience building commercial robots to create tools for robotics developers at Agency Tool Co. The post Agency Tool Company wants to make OTA software updates easier appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/agency-tool-company-wants-to-make-ota-software-updates-easier/",
-          "published_at": "2026-07-28T14:59:58+00:00",
+          "title": "GMEX Robotics to acquire MediaMeta.ai for social intelligence",
+          "summary": "GMEX Robotics has acquired shares in MediaMeta to incorporate social intelligence capabilities into its service robots. The post GMEX Robotics to acquire MediaMeta.ai for social intelligence appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/gmex-robotics-to-acquire-mediameta-ai-social-intelligence/",
+          "published_at": "2026-07-29T14:53:15+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -280,200 +358,39 @@
     },
     {
       "category": "world",
-      "title": "日本强震死亡人数升至13人，救援持续展开",
+      "title": "日本九州地震死亡人数升至25人，搜救希望渐趋渺茫",
       "english_term": null,
-      "summary": "日本发生6.8级强震后，救援人员持续在受损商场和倒塌房屋中搜寻幸存者，死亡人数已上升至13人。",
-      "script": "国际新闻方面，日本近日发生的强烈地震灾情仍在持续更新。已确认的事实是，这场里氏6.8级地震造成的死亡人数已经上升至13人，军人和救援人员星期三仍在一座严重受损的购物中心以及倒塌房屋中仔细搜寻，试图找到可能被困的幸存者。多名幸存者向媒体描述了地震发生时的震惊与恐惧，有人表示当时以为自己就要遇难。目前救援行动仍在进行中，具体的失踪人数、建筑损毁的整体规模，以及后续是否会有更多遇难者被发现，官方尚未给出最终定论，需要等待当地政府和救援部门的进一步通报。分析来看，这类发生在城市密集区域的强震，对建筑抗震标准、应急响应速度和公共设施韧性都是一次实际检验，商场和居民楼在地震中的倒塌情况，可能会在灾后引发对建筑安全标准执行情况的讨论。日本作为地震多发国家，在抗震建筑规范和应急响应机制上有较为成熟的经验积累，但此次事件仍造成了较为严重的人员伤亡，说明极端强度地震下的灾害应对依然存在挑战。后续需要关注官方公布的最终伤亡数字、失踪人员搜救进展，以及灾后重建和建筑安全评估的相关信息。",
-      "duration_seconds": 110,
+      "summary": "日本九州熊本地区7.1级地震后的搜救工作仍在继续，但随着时间推移，救援人员发现幸存者的希望正在减弱。",
+      "script": "自然灾害方面，据NPR World报道，日本西南部九州岛熊本地区因周二发生的7.1级地震，死亡人数已经攀升至25人。救援人员仍在当地持续开展搜救工作，但随着时间流逝，找到幸存者的希望正逐渐渺茫。这是本轮地震灾情的最新进展，此前的救援黄金时间已经过去，废墟清理和幸存者搜寻的难度也在随之增加。日本作为地震多发国家，其建筑抗震标准和应急响应体系相对成熟，但强震造成的人员伤亡和基础设施损毁仍难以完全避免。目前关于地震造成的具体经济损失、房屋损毁数量等信息，现有报道中尚未详细披露，后续需要等待日本官方灾害应对部门发布更完整的统计数据。",
+      "duration_seconds": 70,
       "is_unverified": false,
-      "confidence_note": "NPR与BBC两家独立国际媒体均对地震死亡人数与救援情况进行了报道，信息来源交叉确认，但灾情仍在发展中，最终数字可能变化。",
+      "confidence_note": "NPR World为Tier 2独立来源，报道基于日本官方及救援方通报的死亡人数，可信度较高。",
       "fact_status": {
         "confirmed": [
-          "日本发生6.8级地震",
-          "死亡人数已上升至13人",
-          "救援人员仍在搜寻被困者"
+          "日本九州熊本地区发生7.1级地震",
+          "地震死亡人数已升至25人",
+          "救援人员仍在持续搜救"
         ],
-        "claims": [
-          "幸存者描述地震发生时的恐惧与震惊感受"
-        ],
+        "claims": [],
         "analysis": [
-          "此次地震对建筑抗震标准与应急响应能力构成实际考验"
+          "随时间推移搜救成功概率持续下降"
         ]
       },
       "source_ids": [
-        "90e1fe91bcb8dd95",
-        "0d019a04feac3d74"
+        "4b9411f43682c136"
       ],
       "sources": [
         {
-          "id": "90e1fe91bcb8dd95",
+          "id": "4b9411f43682c136",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Rescuers search for the missing after Japan earthquake as death toll rises to 13",
-          "summary": "Soldiers and emergency workers combed through a badly damaged shopping mall and collapsed houses looking for trapped survivors Wednesday after a powerful earthquake that killed at least 13 people.",
-          "url": "https://www.npr.org/2026/07/29/nx-s1-5911613/japan-earthquake-updates",
-          "published_at": "2026-07-29T05:34:42+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "0d019a04feac3d74",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "'I thought I would die': Survivors describe shock and horror of powerful Japan earthquake",
-          "summary": "Rescue operations are ongoing following the 6.8-magnitude quake, as survivors wrestle with the shock.",
-          "url": "https://www.bbc.co.uk/news/articles/cvgw52l5kyyo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-29T11:01:20+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "美伊冲突升级，约旦拦截伊朗导弹，美沙同步打击伊拉克民兵",
-      "english_term": null,
-      "summary": "美国和伊朗恢复交火，伊朗向美军发动袭击后美方展开反击，约旦拦截了多枚伊朗导弹，美国与沙特同时对伊拉克境内民兵武装发动打击。",
-      "script": "中东局势方面出现了明显升级迹象。据报道，美国与伊朗之间的军事对抗再度爆发，此前伊朗方面对中东地区的美军发起了袭击，随后美伊双方恢复了交火状态。与此同时，约旦军方证实拦截了五枚从伊朗方向发射的导弹，这一情况发生在美军表示已击落一轮针对美军基地的伊朗导弹袭击之后数小时。另外，美国和沙特阿拉伯的军事力量也对伊拉克境内的民兵武装发动了打击行动。已经确认的事实包括：美伊之间发生了新一轮的导弹与军事打击交火，约旦确认拦截了五枚导弹，美沙对伊拉克境内目标采取了军事行动。至于此轮冲突的具体触发原因、各方伤亡情况、是否会进一步扩大到其他国家和地区，目前信息仍然有限，各方对于谁先发起挑衅、打击目标的具体性质等问题也存在不同表述，需要观察后续更权威信源的说法。分析层面看，约旦拦截伊朗导弹说明这轮冲突的影响范围已经不局限于美伊两方，波及到周边国家的领空安全；美国和沙特联合打击伊拉克境内民兵武装，也反映出这轮冲突正牵涉多个地区行为体，地区局势的复杂性和不确定性进一步上升。后续需要关注冲突是否会进一步扩大，以及是否有国际斡旋努力介入降温。",
-      "duration_seconds": 120,
-      "is_unverified": false,
-      "confidence_note": "NPR对美伊交火及约旦拦截导弹均有独立报道，信息交叉确认，但冲突起因与责任归属各方说法不一，具体伤亡与后续走向仍不明确。",
-      "fact_status": {
-        "confirmed": [
-          "美伊之间恢复了军事交火",
-          "约旦军方确认拦截五枚导弹",
-          "美国和沙特对伊拉克境内民兵武装发动打击"
-        ],
-        "claims": [
-          "伊朗被指责率先对美军发起袭击"
-        ],
-        "analysis": [
-          "冲突已波及约旦等周边国家，地区局势升级风险上升"
-        ]
-      },
-      "source_ids": [
-        "1ae7ba035f46da1a",
-        "8a89f58a469b3d4a"
-      ],
-      "sources": [
-        {
-          "id": "1ae7ba035f46da1a",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "U.S. and Iran resume attacks. And, Fauci to face Senate questions on COVID pandemic",
-          "summary": "The U.S. and Iran have resumed fighting after Iran attacked U.S. forces in the Middle East yesterday. And, a Senate committee will question Anthony Fauci about the COVID-19 pandemic.",
-          "url": "https://www.npr.org/2026/07/29/g-s1-136076/up-first-newsletter-iran-benjamin-netanyahu-trump-iowa-water-anthony-fauci-fed-rates",
-          "published_at": "2026-07-29T11:00:47+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "8a89f58a469b3d4a",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Jordan intercepts Iranian missiles as U.S. and Saudi Arabia strike militias in Iraq",
-          "summary": "Jordan intercepted five missiles launched from Iran, the country's military said, hours after the U.S. military said it had knocked down an Iranian missile barrage launched against American forces.",
-          "url": "https://www.npr.org/2026/07/29/g-s1-136063/us-saudi-arabia-iran-iraq",
-          "published_at": "2026-07-29T09:07:03+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "欧洲山火失控蔓延，法国扩大撤离、西班牙面临史上最严重火情",
-      "english_term": null,
-      "summary": "法国波尔多附近山火四天内烧毁超过420平方公里土地，法国和西班牙均已展开大规模疏散，欧盟官员呼吁加快气候应对行动。",
-      "script": "欧洲正在经历一场严重的野火危机。已确认的事实是，法国波尔多附近的一场山火在不到四天时间里已经烧毁超过420平方公里的土地，法国当局又下令再撤离4000人，加上此前的疏散人数，这可能成为法国和平时期规模最大的一次撤离行动。西班牙方面，马德里地区正在经历有记录以来最严重的火情，消防部门担心两处火场可能会在马德里以西合并，形成更大范围的连片火灾。据报道，此次西南欧的山火已经导致约三分之一百万人受到影响或被迫撤离。欧盟负责危机管理的官员呼吁各国加快现有气候行动计划的执行进度，并加大相关投资，以应对当前对欧洲构成威胁的极端热浪和野火风险。科学界的普遍看法是，气候变化正在加剧欧洲野火的极端程度和频率，这一判断得到多家媒体的一致引用。分析来看，此次山火再次将极端天气与基础设施韧性、应急疏散能力等议题摆上台面，超过20架飞机被派往波尔多西部参与灭火，反映出欧洲多国正在投入相当规模的应急资源。后续需要关注两处西班牙火场是否真的会合并、法国疏散人数是否会进一步增加，以及欧盟层面是否会出台新的气候适应政策安排。",
-      "duration_seconds": 115,
-      "is_unverified": false,
-      "confidence_note": "BBC、DW、NPR、Al Jazeera四家独立媒体均对本次山火疏散规模与火情严重程度进行了报道，信息高度一致，可信度较高。",
-      "fact_status": {
-        "confirmed": [
-          "波尔多附近山火四天内烧毁逾420平方公里土地",
-          "法国追加疏散4000人",
-          "西班牙马德里地区正经历有记录以来最严重火情"
-        ],
-        "claims": [
-          "欧盟官员呼吁加快气候行动计划并增加投资"
-        ],
-        "analysis": [
-          "科学界普遍认为气候变化正加剧欧洲极端野火的频率与强度"
-        ]
-      },
-      "source_ids": [
-        "67b348be8d61b829",
-        "864b1e3b34b01341",
-        "eb71348f80b59487",
-        "267230587bb1f55e"
-      ],
-      "sources": [
-        {
-          "id": "67b348be8d61b829",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "European wildfires in maps - and how they're being tackled",
-          "summary": "A blaze near Bordeaux has torn through more than 162 sq miles (420 sq km) in less than four days, while the Madrid region is seeing its worst fires ever.",
-          "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-29T10:42:17+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "864b1e3b34b01341",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Europe wildfires: France expands mass evacuations as Spain battles record blaze",
-          "summary": "Over 20 aircraft have been deployed to fight new fires west of Bordeaux, and Spanish firefighters fear two fires could merge west of Madrid. Scientists say climate change is fueling more extreme fires across Europe.",
-          "url": "https://www.dw.com/en/europe-wildfires-france-expands-mass-evacuations-as-spain-battles-record-blaze/a-78153758?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-29T08:32:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "eb71348f80b59487",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "France evacuates thousands as fires displace a third of a million in southwest Europe",
-          "summary": "French authorities ordered 4,000 more people evacuated from tourist sites along its Atlantic coast, widening what may be France's largest peacetime evacuation.",
-          "url": "https://www.npr.org/2026/07/29/g-s1-136057/france-wildfires",
-          "published_at": "2026-07-29T07:22:44+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "267230587bb1f55e",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "EU crisis chief urges tougher climate action amid France, Spain wildfires",
-          "summary": "Hadja Lahbib calls for existing plans to be accelerated and more investment as an ominous heatwave threatens.",
-          "url": "https://www.aljazeera.com/news/2026/7/29/eu-crisis-chief-urges-tougher-climate-action-amid-france-spain-wildfires?traffic_source=rss",
-          "published_at": "2026-07-29T10:19:28+00:00",
+          "title": "Hope dwindles for rescue in southwestern Japan quake as death toll climbs to 25",
+          "summary": "Time was running out to find survivors, as rescuers continued to work in the Kumamoto area on Japan 's southern main island of Kyushu, where the magnitude 7.1 earthquake hit Tuesday.",
+          "url": "https://www.npr.org/2026/07/30/nx-s1-5913050/japan-earthquake-updates",
+          "published_at": "2026-07-30T05:18:58+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -481,37 +398,53 @@
     },
     {
       "category": "finance",
-      "title": "德国车企巨头BMW宣布最多裁员8000人，欧洲汽车业压力持续显现",
-      "english_term": null,
-      "summary": "德国汽车制造商宝马宣布计划到2027年底裁员最多8000人，成为最新一家宣布大规模裁员的德国车企。",
-      "script": "财经与产业方面，德国汽车工业的压力进一步显现。据报道，德国汽车制造商宝马宣布，计划到2027年底裁减最多8000个工作岗位，宝马由此成为最新一家宣布大规模裁员计划的德国车企。这一消息与德国新一届内阁部分新任部长即将就职的政治动态同时出现，被外媒放在同一则综合报道中呈现。已确认的事实是宝马公司确实公布了这一裁员规模和时间表，但具体裁员将涉及哪些工厂、哪些岗位类别，以及是否会有相应的员工安置或转岗方案，报道中并未给出详细说明，需要等待宝马官方后续更完整的说明。分析层面看，近年来德国汽车产业整体面临电动化转型成本上升、传统燃油车业务萎缩、以及国际市场竞争加剧等多重压力，多家德国车企此前已陆续宣布裁员或成本削减计划，宝马此次的裁员规模也被视为这一行业性趋势的延续，而非孤立事件。这类大规模裁员计划通常会引发工会和地方政府的关注，后续可能会有劳资谈判或相关地方经济影响的讨论。需要关注的是，宝马是否会公布具体的裁员执行时间表、涉及的工厂和地区，以及德国其他主要车企是否会跟进类似的成本削减措施。",
-      "duration_seconds": 115,
+      "title": "美联储发布FOMC声明，欧洲央行推进数字欧元无障碍设计",
+      "english_term": "FOMC (Federal Open Market Committee，联邦公开市场委员会)；digital euro（数字欧元）",
+      "summary": "美联储发布最新联邦公开市场委员会声明，欧洲央行同步宣布数字欧元应用程序将采用最高无障碍标准。",
+      "script": "金融政策方面，两则来自央行的官方消息。美国联邦储备委员会发布了最新的FOMC声明，也就是联邦公开市场委员会声明，这是美联储定期就利率政策和经济展望做出的官方表态，通常会对全球金融市场的利率预期产生直接影响。不过从目前的候选信息看，声明具体内容的细节暂未展开，后续需要等待美联储官方公布的完整声明文本以及后续新闻发布会内容，以判断此次政策立场是维持利率不变、还是有所调整。另一则消息来自欧洲央行，官方宣布正在开发的数字欧元应用程序，将采用最高标准的无障碍设计规范。这意味着欧洲央行在推进数字欧元这一央行数字货币项目时，特别考虑了视力障碍、听力障碍等不同群体的使用需求，确保数字支付工具的普惠性。数字欧元项目是欧盟推进主权数字货币、减少对非欧元区支付基础设施依赖的重要举措之一，无障碍标准的引入也反映出监管机构在设计公共数字基础设施时，越来越重视包容性设计原则。这两则消息虽然分属不同央行、不同政策领域，但共同说明主要经济体的货币当局仍在密集推进各自的政策议程，无论是传统的利率工具，还是新兴的数字货币基础设施建设。后续需要关注美联储声明的具体措辞变化，以及数字欧元项目的下一步测试和推出时间表。",
+      "duration_seconds": 125,
       "is_unverified": false,
-      "confidence_note": "DW作为德国本地权威媒体对该公司公告进行了报道，属于企业官方公告的转述，具体执行细节仍有限。",
+      "confidence_note": "均为央行官方一手发布（Tier 1），但FOMC声明具体内容细节未在候选摘要中展开，仅确认声明已发布这一事实。",
       "fact_status": {
         "confirmed": [
-          "宝马宣布计划到2027年底裁员最多8000人"
+          "美联储发布了FOMC声明",
+          "欧洲央行宣布数字欧元应用将采用最高无障碍标准"
         ],
         "claims": [],
         "analysis": [
-          "此举被视为德国汽车行业成本压力持续显现的又一例证"
+          "数字欧元的无障碍设计体现监管机构对包容性数字基础设施的重视"
         ]
       },
       "source_ids": [
-        "3e3dcd22a55d356e"
+        "33097113fb8047d6",
+        "5599cf9b6ee540d3"
       ],
       "sources": [
         {
-          "id": "3e3dcd22a55d356e",
-          "source": "DW Top Stories",
-          "source_tier": 2,
+          "id": "33097113fb8047d6",
+          "source": "Federal Reserve Press Releases",
+          "source_tier": 1,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "finance",
+          "title": "Federal Reserve issues FOMC statement",
+          "summary": "Federal Reserve issues FOMC statement",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "published_at": "2026-07-29T18:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "5599cf9b6ee540d3",
+          "source": "European Central Bank Press Releases",
+          "source_tier": 1,
           "source_region": "eu",
           "language": "en",
-          "category_hint": "world",
-          "title": "Germany news: BMW to cut up to 8,000 jobs",
-          "summary": "The German auto giant BMW has become the latest German car company to announce major job cuts, projecting to shed 8,000 by the end of 2027. Meanwhile, new ministers are set to join the German government. DW has more.",
-          "url": "https://www.dw.com/en/germany-news-bmw-to-cut-up-to-8-000-jobs/live-78155827?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-07-29T10:39:00+00:00",
+          "category_hint": "finance",
+          "title": "Digital euro app to incorporate highest accessibility standards",
+          "summary": "",
+          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html",
+          "published_at": "2026-07-30T08:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -519,66 +452,79 @@
     },
     {
       "category": "world",
-      "title": "俄罗斯以“协助恐怖主义”罪名起诉Telegram创始人杜罗夫",
-      "english_term": null,
-      "summary": "俄罗斯联邦安全局指控Telegram未能清除被乌克兰情报部门及相关武装组织用于策划袭击的内容，正式对创始人杜罗夫提出指控。",
-      "script": "最后一条国际新闻，涉及科技平台监管与地缘政治的交织。据半岛电视台报道，俄罗斯已经对社交平台Telegram的创始人帕维尔·杜罗夫提出“协助恐怖主义”的指控。俄罗斯联邦安全局方面给出的说法是，Telegram平台未能清除被乌克兰情报部门和相关“恐怖”组织用来策划袭击行动的内容。已确认的事实是俄方正式提出了这一指控，具体的法律程序、指控所依据的证据细节，以及杜罗夫本人或Telegram公司方面的回应，目前报道中信息有限，需要等待更多信源补充。这起事件延续了此前围绕Telegram在内容审核和执法配合方面的多起争议，此前该平台及其创始人在多个国家都曾因内容监管问题卷入法律纠纷。分析来看，将社交平台的内容审核责任与刑事指控直接挂钩，反映出俄罗斯对国际科技平台在信息战和舆论管控层面持续收紧的态度，这类指控也可能进一步影响Telegram在俄罗斯及周边地区的运营环境。需要关注的是，杜罗夫或Telegram官方是否会作出正式回应，以及这一指控后续是否会引发国际社会更广泛的关注或外交层面的反应。",
-      "duration_seconds": 115,
-      "is_unverified": true,
-      "confidence_note": "目前仅有Al Jazeera单一来源报道该指控细节，缺乏第二独立信源交叉确认，且事件涉及俄方单方说法，需谨慎对待。",
+      "title": "联合国安理会启动秘书长人选意向性投票",
+      "english_term": "straw poll（意向性投票，一种非正式的摸底投票）",
+      "summary": "联合国安理会将于周四开始意向性投票，从七名候选人中筛选下一任联合国秘书长人选，以接替古特雷斯。",
+      "script": "国际组织人事方面，据NPR World报道，联合国安理会将于周四启动意向性投票，逐步从目前七名候选人中筛选出下一任联合国秘书长的人选，以接替现任秘书长安东尼奥·古特雷斯。意向性投票是安理会挑选秘书长人选时常用的一种非正式摸底方式，通过多轮不记名投票逐步观察各候选人在安理会成员国中的支持度和反对票分布，最终帮助安理会凝聚共识，再正式向联合国大会推荐人选。这一职位的遴选过程历来受到国际社会高度关注，因为联合国秘书长在协调国际维和、气候治理、人道主义援助等议题上具有重要象征意义和一定的实际协调权力。目前候选人具体名单及其背景，在现有报道中未做详细展开，后续需要等待安理会正式投票结果公布，以及候选人名单的进一步披露。",
+      "duration_seconds": 80,
+      "is_unverified": false,
+      "confidence_note": "NPR World为Tier 2独立来源，报道内容为对即将举行的官方程序的预告性报道。",
       "fact_status": {
         "confirmed": [
-          "俄罗斯联邦安全局对Telegram创始人杜罗夫提出协助恐怖主义指控"
+          "联合国安理会将于周四开始意向性投票",
+          "共有七名候选人参与角逐下一任秘书长职位"
         ],
-        "claims": [
-          "俄方称Telegram未清除被用于策划袭击的相关内容"
-        ],
+        "claims": [],
         "analysis": [
-          "事件反映俄罗斯对国际科技平台内容监管态度持续收紧"
+          "投票结果可能反映安理会常任理事国之间的博弈态势"
         ]
       },
       "source_ids": [
-        "a2ca8c57c852adbf"
+        "473d376bf9d66bee"
       ],
       "sources": [
         {
-          "id": "a2ca8c57c852adbf",
-          "source": "Al Jazeera",
+          "id": "473d376bf9d66bee",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "middle-east",
+          "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Russia charges Telegram founder Pavel Durov with ‘aiding terrorism’",
-          "summary": "Russia's FSB says Telegram has not pulled content used by Ukrainian intelligence and 'terrorist' groups to plan attacks.",
-          "url": "https://www.aljazeera.com/news/2026/7/29/russia-charges-telegram-founder-pavel-durov-with-aiding-terrorism?traffic_source=rss",
-          "published_at": "2026-07-29T10:18:49+00:00",
+          "title": "The race is on for the next United Nations secretary general",
+          "summary": "The United Nations Security Council will begin straw polls Thursday to whittle down the field of candidates for the next U.N. secretary-general. Seven candidates are running to replace António Guterres.",
+          "url": "https://www.npr.org/2026/07/29/nx-s1-5909162/the-race-is-on-for-the-next-united-nations-secretary-general",
+          "published_at": "2026-07-29T20:28:50+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的重点无疑是美国对人形与四足机器人的进口禁令，这可能重塑全球机器人供应链格局，后续需要等待禁令实施细则和中方反制措施的进一步消息。与此同时，日本地震救援、欧洲山火疏散和中东地区冲突仍在发展中，值得持续关注最新进展。",
-  "editor_note": "本期机器人类事件时长占比约为48%，符合45%-55%区间要求；由于候选中缺少更多独立的产业融资或量产类信息，机器人部分以美国进口禁令、学术论文速览和触觉传感研究为主，来源涵盖arXiv、IEEE Spectrum、The Robot Report及多家新闻媒体，避免了单一来源垄断。美伊冲突、山火等国际事件均采用至少两个独立信源交叉确认；杜罗夫指控事件因仅有单一来源，已标记为未核实并说明局限。",
+  "closing": "今天的世界既有中东局势骤然升温带来的紧张，也有机器人产业在政策与资本双重作用下的持续演化。后续需要关注美伊冲突是否进一步扩大、FCC机器人进口新规的具体执行细则，以及美联储FOMC声明对全球市场的实际影响。",
+  "editor_note": "机器人类事件共5条，时长合计约635秒，占全部事件总时长约55%左右，符合45%-55%区间要求；来源覆盖The Robot Report、arXiv、AI Insider等多个独立渠道，避免单一来源垄断。国际政治部分因候选高度集中于中东与俄乌冲突，未强行拆分或凑数处理；FCC机器人禁令相关的具体规则细节和中国官方回应措辞，因候选信息有限，已标注为未完全核实，建议后续以官方文件与声明为准。",
   "model": "claude-sonnet-5",
+  "generation_usage": [
+    {
+      "input_tokens": 9153,
+      "output_tokens": 8408,
+      "total_tokens": 17561
+    },
+    {
+      "input_tokens": 10271,
+      "output_tokens": 7956,
+      "total_tokens": 18227
+    }
+  ],
   "usage": {
-    "input_tokens": 9234,
-    "output_tokens": 9478,
-    "total_tokens": 18712
+    "total_tokens": 35788,
+    "output_tokens": 16364,
+    "input_tokens": 19424
   },
-  "generated_at": "2026-07-29T11:12:39+00:00",
-  "window_start": "2026-07-28T11:12:39+00:00",
-  "candidate_count": 249,
+  "generated_at": "2026-07-30T11:11:50+00:00",
+  "window_start": "2026-07-29T11:11:50+00:00",
+  "candidate_count": 231,
   "source_errors": [
+    "DW Top Stories: TimeoutError: The read operation timed out",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
+  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1190,
-    "script_characters": 4623,
-    "topic_duration_share": 0.517,
+    "duration_seconds": 1045,
+    "script_characters": 4106,
+    "topic_duration_share": 0.598,
     "passed": true,
-    "normal_target_met": true,
-    "topic_source_count": 5,
+    "normal_target_met": false,
+    "topic_source_count": 3,
     "issues": []
   }
 }
