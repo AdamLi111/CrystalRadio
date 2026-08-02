@@ -1,356 +1,79 @@
 {
-  "title": "晶球电台早报：美国限制外国人形机器人进口，中东局势急剧升温",
-  "subtitle": "从FCC机器人禁令到伊朗美军基地遇袭，今天的世界既硬核又紧张",
+  "title": "晶球电台早报：伊朗停火悬而未决，机器人产业七月盘点揭晓热点",
+  "subtitle": "从中东停火承诺到人形机器人开场毕业典礼，今天带你梳理24小时内的关键信号",
   "highlights": [
-    "美国FCC对外国人形与四足机器人实施进口限制，行业反应两极分化",
-    "美国对伊朗革命卫队目标发动新一轮空袭，中东紧张局势急剧升级",
-    "多篇机器人学术论文聚焦具身智能可信度、导航与手术自动化"
+    "特朗普宣布暂停对伊朗军事打击，称协议“框架已达成”，但各方细节仍存疑",
+    "俄罗斯对基辅发动导弹袭击致9人死亡，美国对乌克兰防空系统援助出现反复",
+    "The Robot Report发布7月机器人行业十大新闻盘点，融资与新训练方法成焦点"
   ],
   "stories": [
     {
-      "category": "robotics",
-      "title": "FCC限制外国人形与四足机器人进口，行业反应两极",
-      "english_term": "FCC (Federal Communications Commission，美国联邦通信委员会)",
-      "summary": "美国联邦通信委员会发布新规，限制部分外国制造商的人形与四足机器人进口美国市场，业内专家对此评价不一。",
-      "script": "先来看今天机器人产业最受关注的一则消息。据The Robot Report和KHOU等多家媒体报道，美国联邦通信委员会，也就是FCC，出台了新的限制措施，禁止部分外国制造商生产的人形机器人和四足机器人进入美国市场销售。这一举措被外界视为美国在人工智能和机器人硬件领域推进供应链本土化、限制潜在安全风险的又一步。The Robot Report采访的多位行业专家对此反应不一：一部分人认为这将为美国本土机器人企业争取更多市场空间和政策扶持，有助于培育本土供应链；但也有专家担心，这种限制可能减少市场竞争，反而拖慢技术迭代速度，因为目前不少性价比较高、技术成熟的人形与四足机器人平台来自海外厂商。与此同时，据Yahoo报道，中国方面已经就人形机器人贸易争端向美方表达强硬立场，显示这一政策可能演变为更广泛的贸易摩擦议题。值得关注的是，多家美国航空公司如达美航空和美联航也宣布禁止人形机器人和动物形态机器人登机，这被认为与近期的监管收紧气氛有关，但这更多是航空安全层面的独立决定。整体来看，这一系列动作反映出机器人，尤其是人形与仿生形态机器人，正从单纯的技术产品变成受地缘政治和产业政策影响的战略物资。后续需要等待FCC具体规则细则的公布，以及是否会有进一步的关税或技术出口管制措施跟进。",
-      "duration_seconds": 140,
-      "is_unverified": true,
-      "confidence_note": "多家tier2/3来源交叉报道同一政策方向，但具体禁令细则、生效时间及覆盖范围表述不一，需以FCC官方文件为准，故标记为未完全核实。",
-      "fact_status": {
-        "confirmed": [
-          "FCC出台了针对外国人形与四足机器人的进口限制措施",
-          "多家美国航空公司宣布禁止人形与动物形态机器人登机"
-        ],
-        "claims": [
-          "中国方面就此表达强硬贸易立场（据Yahoo报道）",
-          "行业专家认为该政策对本土产业有利但可能拖慢技术迭代（据The Robot Report采访）"
-        ],
-        "analysis": [
-          "该政策可能是更广泛中美科技贸易摩擦的一部分",
-          "机器人硬件正日益被纳入国家安全与产业政策考量范畴"
-        ]
-      },
-      "source_ids": [
-        "63ba6fecf1bf02c7",
-        "069aea87ed76d3e0",
-        "6fcdd6307ad870f0",
-        "a948abe808357e2b"
-      ],
-      "sources": [
-        {
-          "id": "63ba6fecf1bf02c7",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "U.S. bans humanoid, 4-legged robots from foreign manufacturers - KHOU",
-          "summary": "U.S. bans humanoid, 4-legged robots from foreign manufacturers KHOU",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOElKdllYVTRLQW1CNGlVR1I3VHgyYXJRamJkREtDOEN3bDU1eEowcTFfUWx3eHc0ekJCVDZGanJVWExYdkttVXlrbk9waE9ta0JTaU1EUnRZWTItVjd1a280M3JOY1Z4MnItODdiS0Jyd000aGMyZlJmNFV5M3htVmRULWJMRk1QUnpLWkh5QXQ3X3FuWkhCOVYtWXBxYzJ2NzVRT3d3WTRVeDA2SVFoRk0wbVdlQzRJS05NUzIwS0FrWGotbTdKa2xCd0U?oc=5",
-          "published_at": "2026-07-30T11:02:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "069aea87ed76d3e0",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots",
-          "summary": "The FCC has banned some foreign humanoids, which industry experts say could help U.S. industry but hinder innovation. The post Experts react to FCC limits on U.S. imports of new humanoid and mobile robots appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/",
-          "published_at": "2026-07-29T14:11:19+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "6fcdd6307ad870f0",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "China threatens the US in trade dispute over humanoid robots - Yahoo",
-          "summary": "China threatens the US in trade dispute over humanoid robots Yahoo",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTERjRVdyaWhzOGhHUF9IYlF1eFdSSG1JWkw1a053YWctYVJvVkxEdGVKVHB5YnRoUzV4aVpXOXJRRmxhQnpKUlNBYS1sRkFVM2dGaHFuU3hnSWhoRVJkM2txWjVMTDhOV1FzeUx1NHFQUjZNZzFxbDFwVHN6Z2VmUi1BdEpSNC1kYnVkajYyU1RYX1Q3TF9z?oc=5",
-          "published_at": "2026-07-30T10:18:33+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "a948abe808357e2b",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Delta, United ban humanoid and animal robots from flights - The Hill",
-          "summary": "Delta, United ban humanoid and animal robots from flights The Hill",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZnNPSGhwME9fcENKb0o5ekxoU0ZSLUh4N0dLeWRhZk9aRXZFcUJiRTZhTXFIN2dLRFNkQkdEZmd5RUR3TVgyWlF5SkoxMzhSbUxQN0tyazRzeWMxb1EwdEttV0xNbEllUTJBSFIxLXMyOWhEV1JpcmxrWDgzZUVsT1A5YTlQbUxPdXNDU1A1bFlSUlp0Wmw4VzFuZFhvZUtFMFBpVkQzcWc2TzNPNTRuWHpGTGlCX2ZLeFVVMg?oc=5",
-          "published_at": "2026-07-30T10:42:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
       "category": "world",
-      "title": "美国对伊朗革命卫队目标发动新一轮空袭，中东局势急剧升温",
+      "title": "特朗普称暂停对伊朗打击，协议“框架”存疑",
       "english_term": null,
-      "summary": "在此前短暂平静后，美伊双方重启导弹与空袭行动，美方称打击了伊朗革命卫队数十个目标。",
-      "script": "中东局势方面，今天最重大的消息是美国与伊朗之间的军事对抗再度升级。据BBC World和NPR World报道，在经历了短暂的相对平静之后，美国和伊朗双方重新开始了导弹攻击。已确认的事实是：美方对伊朗发动了被BBC形容为猛烈的空袭，起因是伊朗方面此前对美军部队发动了袭击尝试。NPR World的报道进一步说明，美方表示打击了数十个属于伊朗伊斯兰革命卫队的目标。这轮多点爆发的冲突，发生在此前几天相对平静之后，外界担忧局势可能重新滑向全面战争的边缘。目前各方对于冲突升级的责任归属仍存在争议：美方将此次行动定性为对伊朗袭击美军的报复性反击，而伊朗方面的官方表态在现有信息中尚未完整呈现。分析人士认为，这种打击、报复、再打击的循环模式，使得原本脆弱的停火或克制机制难以维系，地区局势的不确定性显著上升。与此同时，俄乌战场方面也传来消息，据NPR World报道，俄罗斯对乌克兰多地发动的空袭已造成至少8名平民死亡、数十人受伤，凸显出乌克兰在西方提供的反导系统日益短缺的背景下所面临的防空压力。而波兰总理也表示，此前落入波兰境内、造成一个直径十米弹坑的不明物体，很可能是俄罗斯导弹，这进一步凸显出俄乌冲突外溢至北约成员国领土的风险持续存在。这些消息共同勾勒出当前国际安全环境的紧张图景。后续需要关注美伊双方是否会有进一步官方声明，以及国际社会是否会介入斡旋。",
+      "summary": "特朗普宣布因伊朗及中东多国请求，美国将暂停对伊朗的军事行动，称双方已就协议“框架”达成一致。目前该说法缺乏细节支撑，各方反应不一。",
+      "script": "美国总统特朗普周末表示，他已下令暂停原定对伊朗的军事打击，理由是伊朗及其他中东国家要求华盛顿“暂缓行动”，因为一项协议的“框架”已经谈妥。这一表态迅速引发国际媒体关注，但截至目前，白宫方面并未公布协议的具体条款，伊朗官方也没有正式确认所谓“框架”的内容。半岛电视台的分析指出，特朗普的措辞相当模糊，从“框架已达成”到“实质性协议”之间还有很大距离，目前更像是一种施压后的外交表态，而非已经签署的正式文件。值得注意的是，就在特朗普发表这一表态的同时，俄罗斯对乌克兰首都基辅发动了新一轮导弹袭击，造成至少九人死亡，五个城区受损，而美国对乌克兰防空系统支持的承诺却出现松动迹象，这让部分观察人士质疑，白宫在中东与东欧两条线上的外交精力分配是否会相互牵制。目前可以确认的事实是：特朗普本人公开做出了暂停打击的表态；伊朗方面尚未就此发表正式声明；协议具体内容、时间表和执行机制均未披露。各方主张层面，有中东官员私下透露谈判确有进展，但也有分析认为这更像是特朗普惯用的“边打边谈”策略，用于争取国内外舆论空间。综合来看，这一事件的后续走向仍高度不确定，后续需要等待美伊双方是否发布联合声明或书面协议文本，也需要观察以色列等地区盟友的反应，因为以色列此前对伊朗核设施问题一直持强硬立场，如果协议内容涉及核问题让步，可能引发地区其他势力的强烈反弹。",
       "duration_seconds": 145,
-      "is_unverified": false,
-      "confidence_note": "BBC World与NPR World两家Tier 2媒体独立报道同一事件，基本事实可信度较高，但双方动机与后续升级路径仍属各方主张与分析范畴。",
+      "is_unverified": true,
+      "confidence_note": "特朗普本人的表态构成一手信源，但协议“框架”的具体内容缺乏独立第二来源确认，伊朗官方尚未回应，因此整体标记为未完全证实。",
       "fact_status": {
         "confirmed": [
-          "美国对伊朗革命卫队目标发动了新一轮空袭",
-          "此前双方经历过短暂的相对平静期",
-          "俄罗斯对乌克兰多地空袭造成至少8名平民死亡"
+          "特朗普公开宣布暂停对伊朗的军事打击行动"
         ],
         "claims": [
-          "美方称打击了伊朗革命卫队数十个目标",
-          "波兰总理称境内弹坑很可能由俄罗斯导弹造成"
+          "特朗普称伊朗及中东多国要求美国暂缓打击",
+          "特朗普称协议框架已经达成"
         ],
         "analysis": [
-          "双方对抗模式可能使地区滑向更全面冲突",
-          "乌克兰防空能力短缺可能被俄方进一步利用"
+          "协议具体内容和执行细节尚未披露，说法真实性有待验证",
+          "同期俄乌冲突升级可能分散美国外交资源"
         ]
       },
       "source_ids": [
-        "4b2c297ec1a43679",
-        "31c7eb7cdd64ec93",
-        "268255beacd856b5",
-        "5231de2cdc4003a7"
+        "59df96b378e19a6a",
+        "e6f82d4d6616851c",
+        "eb55f5f235a23164"
       ],
       "sources": [
         {
-          "id": "4b2c297ec1a43679",
+          "id": "59df96b378e19a6a",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-          "summary": "After a short period of relative calm when hostilities were paused, both sides have now restarted missile attacks.",
-          "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-30T10:49:14+00:00",
+          "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+          "summary": "The US president claims Iran and other Middle Eastern countries asked Washington to hold off on any attack as the \"perimeters\" of a deal had been agreed.",
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-02T11:12:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "31c7eb7cdd64ec93",
+          "id": "e6f82d4d6616851c",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "U.S. resumes strikes on Iran in retaliation for attack on American troops",
-          "summary": "The U.S. said it had struck \"dozens\" of targets belonging to Iran's Revolutionary Guard Corps. The multiple flare-ups, after several days of relative calm, raised the risk of a return to all-out war.",
-          "url": "https://www.npr.org/2026/07/30/nx-s1-5913077/us-iran-updates",
-          "published_at": "2026-07-30T08:55:53+00:00",
+          "title": "Trump says he's cancelling Iran strikes, deal pending",
+          "summary": "Trump said that Iran and other Middle Eastern countries had asked the U.S. \"to hold off any attack\" on Iran because \"the perimeters of a deal has been agreed to.\"",
+          "url": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
+          "published_at": "2026-08-02T07:34:27+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "268255beacd856b5",
-          "source": "BBC World",
+          "id": "eb55f5f235a23164",
+          "source": "Al Jazeera",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-          "summary": "The unidentified object caused a 10m-wide (33ft) crater a short distance from the village of Tarnawa Kolonia, about 100km from the border with Ukraine during a Russian attack on the city of Lviv.",
-          "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-07-30T09:56:06+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "5231de2cdc4003a7",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Russian strikes across Ukraine kill at least 8 civilians and wound dozens",
-          "summary": "The blitz expanded Russia's almost daily bombardment of Ukrainian cities as Moscow apparently looked to exploit Kyiv's critical shortage of Western-supplied anti-ballistic missile defenses.",
-          "url": "https://www.npr.org/2026/07/30/g-s1-136276/russia-ukraine-war",
-          "published_at": "2026-07-30T09:53:10+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "论文速览：具身智能可信度框架与零样本导航智能体",
-      "english_term": "embodied intelligence（具身智能，指将感知、决策与物理交互实时结合的智能系统）",
-      "summary": "两篇arXiv新论文分别提出具身智能可信度分级框架，以及用极简接口实现零样本视觉语言导航的通用智能体方案。",
-      "script": "学术方面，来看两篇今天新挂出的arXiv机器人论文。第一篇题为迈向可信具身智能：系统框架与分级可信等级。研究团队指出，具身智能，也就是把学习到的感知与决策能力，同实时计算、控制和物理交互结合起来的系统，一旦出现失误，可能直接造成物理或运行层面的伤害。因此，论文提出，仅仅完成任务本身并不能说明系统是可信的。作者据此定义了可信具身智能这一概念，即系统在环境和自身状态发生变化的情况下，仍能持续可靠地执行既定任务，同时把风险控制在可接受范围内。论文构建了一套系统性框架，并划分出多个可信度等级，用于评估不同机器人系统在实际部署中的安全边界。这项工作的意义在于，为行业和学术界评估机器人系统的可靠性提供了一套相对标准化的语言，而不是仅凭任务成功率来判断系统好坏。它的局限在于，目前还只是一个概念性框架，具体如何在真实机器人平台上量化每个可信度等级，仍需要进一步的实证研究。第二篇论文关注视觉语言导航任务，标题是具身智能体掌控全局：极简接口的零样本智能体媲美工业级策略。研究团队测试了三种基于通用软件工程智能体框架、不进行任何任务专门训练的智能体，让它们仅依靠感知、行动、验证与自我纠错这样一个长期决策循环来完成导航任务。结果显示，这类零样本、极简接口的通用智能体在视觉语言导航测试中的表现，可以与专门训练、工业规模的导航策略相媲美。这说明一个足够通用的智能体框架，或许不需要大规模任务特定训练，也能处理复杂的具身决策问题。不过论文本身尚未经过同行评审，其结论的普适性和在更复杂真实环境中的鲁棒性还有待检验。",
-      "duration_seconds": 165,
-      "is_unverified": true,
-      "confidence_note": "两篇均为arXiv预印本，尚未经过同行评审，结论仅代表作者团队初步研究结果，需等待后续评审与复现验证。",
-      "fact_status": {
-        "confirmed": [
-          "两篇论文均于近期挂出在arXiv机器人板块"
-        ],
-        "claims": [
-          "论文一提出具身智能可信度分级框架",
-          "论文二称零样本智能体在导航测试中表现媲美工业级策略"
-        ],
-        "analysis": [
-          "可信度评估框架若被广泛采纳，可能改变机器人系统评测标准",
-          "通用智能体框架的成功可能减少对任务专用训练数据的依赖"
-        ]
-      },
-      "source_ids": [
-        "1014afd44d13970d",
-        "7be35ac827162f72"
-      ],
-      "sources": [
-        {
-          "id": "1014afd44d13970d",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Towards Trustworthy Embodied Intelligence: A Systems Framework and Graded Trustworthiness Levels",
-          "summary": "arXiv:2607.26121v1 Announce Type: new Abstract: Embodied intelligence integrates learned perception and decision making with real-time computation, control, and physical interaction. Because failures can cause immediate physical or operational harm, task completion alone does not establish trustworthiness. We define trustworthy embodied intelligence as the sustained capacity to execute specified tasks reliably under environmental and system variation while maintaining risk within acceptable bounds. We term this objective sustained safe success. Its supporting mechanisms are organized into four interdependent layers. The model layer generates task-competent action proposals with calibrated uncertainty and explicit safety preferences. The system layer realizes authorized actions dependably through integrated sensing, computation, control, hardware safeguards, fault containment, and fallback. The evidence layer substantiates bounded claims through evaluation, verification, validation, traceability, and structured assurance arguments. The deployment layer maintains claim validity through runtime monitoring, authority management, intervention, incident response, and controlled updates. ",
-          "url": "https://arxiv.org/abs/2607.26121",
-          "published_at": "2026-07-30T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "7be35ac827162f72",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Embodied Agents Take Control: Minimal-Interface Zero-Shot Agents Rival Industrial-Scale Policies in Vision-and-Language Navigation",
-          "summary": "arXiv:2607.26148v1 Announce Type: new Abstract: Autonomous embodied agents must sustain a long decision-making loop that involves perceiving, acting, verifying, and self-correcting over many steps. Current systems sustain this loop through task-specific workflows or embodied policies. We study a third form, agentic embodied control, in which a general-purpose agent holds the loop itself. Using zero-shot navigation as a controlled testbed, we evaluate three software-engineering agent harnesses given only a monocular RGB camera and discrete actions. Under this strictly minimal condition, replicated default-effort configurations reach 70.7$\\pm$3.5% success (opus-5, mean over three runs), and fable-5 reaches 78% at maximum effort. When a trained waypoint tool is exposed alongside primitives as an optional capability, the hybrid fable-5 agent reaches 76.7$\\pm$0.6% at default effort, using half the environment steps and less than one quarter of the wall time of the maximum-effort primitive run. Controlled interventions show that capability is primarily model-centered: model choice strongly changes success, harness effects are descriptive, and a forced waypoint interface helps weaker mode",
-          "url": "https://arxiv.org/abs/2607.26148",
-          "published_at": "2026-07-30T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "论文速览：海洋多机器人协同优化与柔性缝针自主抓取",
-      "english_term": "coevolutionary algorithm（协同进化算法，一种多目标优化方法）",
-      "summary": "两篇arXiv论文分别探讨了多机器人海洋协同任务的多目标优化方法，以及外科手术机器人如何通过操控缝合线来自主捡起掉落的缝针。",
-      "script": "再看两篇偏应用方向的机器人论文。第一篇是关于海洋多机器人自主协同的研究，题为面向仿真与真实世界部署的多机器人海洋自主性的多目标合规协同进化。论文指出，协作机器人非常适合执行需要多机协调的海洋任务，比如探索未知的珊瑚礁结构、检测海底基础设施，或者开展搜救行动。但这类任务通常只能提供稀疏的反馈信号来衡量进展，同时还必须遵守安全和监管规范，这就把整个任务变成了一个多目标优化问题。研究团队采用协同进化算法来处理这种复杂约束，协同进化算法的思路是让多个候选解决方案同时演化、相互竞争与协作，从而在满足安全合规的前提下找到较优的任务分配与路径规划方案。论文同时在仿真环境和真实世界场景中做了部署验证，这一点比纯仿真研究更有说服力，但具体真实海况下的鲁棒性和扩展到更大规模机器人集群时的表现，仍需要更多实验数据支撑。第二篇论文来自手术机器人领域，题目是收线归位：通过线程操控实现柔性缝针拾取以支持自主缝合。研究背景是，在自主缝合手术中，缝合针有时会意外掉落，或者被主动释放以便调整抓取姿态，因此缝针拾取是实现全自主缝合不可或缺的一环。现有方法通常只能让机器人直线接近缝针并直接抓取，这就要求缝针必须处于可观察、可直接接近的状态，而且如果缝针恰好落在组织表面，直接抓取还可能误夹周围组织造成损伤。这篇论文提出了一种通过操控缝合线本身，把针收线归位到便于抓取姿态的方法，从而突破了此前方法对缝针可见性和位置的限制。这项工作对于提升外科手术机器人在复杂术中场景下的自主性具有实际意义，不过论文同样尚未经过同行评审，其在真实临床环境中的安全性还需要进一步验证。",
-      "duration_seconds": 170,
-      "is_unverified": true,
-      "confidence_note": "两篇均为arXiv预印本，未经同行评审，研究结论仅限于论文描述的实验条件。",
-      "fact_status": {
-        "confirmed": [
-          "两篇论文均于近期发布在arXiv机器人板块"
-        ],
-        "claims": [
-          "协同进化算法可在仿真与真实场景中处理海洋多机器人多目标任务",
-          "线程操控方法可实现柔性缝针的自主拾取"
-        ],
-        "analysis": [
-          "多目标协同优化方法可能对搜救、海底检测等场景有实际应用价值",
-          "缝针自主拾取技术的成熟将是外科机器人迈向更高自主等级的关键一步"
-        ]
-      },
-      "source_ids": [
-        "b68035e210c916e8",
-        "7ed2d5e8de130753"
-      ],
-      "sources": [
-        {
-          "id": "b68035e210c916e8",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Multi-Objective Compliance-Integrated Coevolution For Simulated And Real-World Deployment Of Multi-Robot Marine Autonomy",
-          "summary": "arXiv:2607.26279v1 Announce Type: new Abstract: Collaborative robots are well-suited to maritime missions that benefit from coordination, such as the exploration of unknown reef structures, inspection of subsea infrastructure, or search-and-rescue operations. These missions typically provide sparse feedback signals for measuring progress and require adherence to safety and regulatory norms, turning a mission into a multi-objective optimization problem. Coevolutionary algorithms can process these sparse feedback signals to generate coordinated behaviors, and in some cases extend behaviors to multiple objectives. However, incorporating high-level team objectives with low-level compliance considerations on the fly to balance norm adherence with team performance remains elusive. This paper introduces a multi-objective framework that blends coevolved behaviors with compliance behaviors to achieve a balance between maximizing team progress and minimizing norm violations. The key insight is to decouple learning from compliance since operational norms are prescribed rather than discovered. We demonstrate that our framework achieves high team performance while avoiding collisions on a colla",
-          "url": "https://arxiv.org/abs/2607.26279",
-          "published_at": "2026-07-30T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "7ed2d5e8de130753",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Reeling It In: Flexible Needle Pick Up via Thread Manipulation for Autonomous Suturing",
-          "summary": "arXiv:2607.26337v1 Announce Type: new Abstract: Suture-needle pickup is necessary for autonomous suturing, as a needle can be unexpectedly dropped or strategically released to adjust the grasping configuration. Current methods for autonomous needle pickup typically guide a robot to move straight toward the needle and grasp it, limited to conditions where the needle is observable and directly approachable. In addition, grasping the needle lying on tissue can lead to the robot pinching nearby tissue or the needle jumping around due to its slippery surface, posing potential safety issues. This work proposes an autonomous framework that uses a suture thread as an assistive tool for indirect needle pickup, avoiding unnecessary tool-tissue contact and enabling pickup even when the needle is occluded or inaccessible. The framework spans the entire workflow, including thread and tissue reconstruction, safe grasp-point selection, stable thread lifting, and bimanual thread-following until securing needle grasping. The robot policies account for visual uncertainty to maximize robustness in real-world environments. We evaluate the proposed framework on a da Vinci Research Kit under various rea",
-          "url": "https://arxiv.org/abs/2607.26337",
-          "published_at": "2026-07-30T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "机器人产业融资与并购：法式可颂机器人获种子资金，GMEX收购社交智能公司",
-      "english_term": null,
-      "summary": "瑞士创业公司Maus Robotics获得Venture Kick约18.3万美元资助以扩展自动化可颂机器人业务，服务机器人公司GMEX Robotics收购MediaMeta.ai以增强社交智能能力。",
-      "script": "产业融资方面，两则规模不大但颇具代表性的消息。据AI Insider报道，专注于自动化烘焙的机器人公司Maus Robotics，从瑞士创业加速项目Venture Kick获得了约18.3万美元的资金支持，用于扩大其自主可颂机器人的生产规模。这类机器人属于典型的窄场景操作机器人，聚焦于餐饮自动化这一相对结构化、重复性高的任务场景，通过机械臂结合视觉感知完成面团处理、烘烤等流程。虽然金额不大，但也反映出资本市场对垂直细分场景机器人应用的持续关注，这类项目通常比通用人形机器人更容易实现商业化落地和现金流回正。另一则消息来自The Robot Report，服务机器人公司GMEX Robotics宣布收购MediaMeta.ai的股份，目的是将社交智能能力整合进其服务机器人产品线。所谓社交智能，指的是机器人在与人类互动过程中，理解语言、情绪和社交语境并做出恰当反应的能力，这对于面向零售、酒店、医疗陪伴等场景的服务机器人尤为重要。这笔收购说明，服务机器人厂商正在把更多资源投向人机交互体验的软性能力，而不仅仅是硬件本体的性能提升。这两则消息虽然体量都不算大，但共同指向了机器人产业当下的一个趋势：无论是餐饮自动化这样的垂直场景，还是服务机器人的社交能力，资本正在向具体、可落地的细分应用倾斜，而不只是集中在人形机器人这一个大赛道上。后续可以关注这两家公司在产品交付和商业化进展上的下一步动作。",
-      "duration_seconds": 150,
-      "is_unverified": false,
-      "confidence_note": "两则均为公司官方融资与并购公告类新闻，经tier2/3行业媒体独立报道，可信度较高，但涉及具体金额与细节以公司公告为准。",
-      "fact_status": {
-        "confirmed": [
-          "Maus Robotics获得Venture Kick约18.3万美元资助",
-          "GMEX Robotics收购了MediaMeta.ai的股份"
-        ],
-        "claims": [
-          "资金将用于扩大可颂机器人生产规模",
-          "收购目的是为服务机器人增加社交智能能力"
-        ],
-        "analysis": [
-          "资本正向细分垂直场景机器人应用倾斜",
-          "服务机器人厂商正加大对人机交互软性能力的投入"
-        ]
-      },
-      "source_ids": [
-        "47211716531b5d9a",
-        "d94806c0e354e13b"
-      ],
-      "sources": [
-        {
-          "id": "47211716531b5d9a",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Maus Robotics Obtains $183K in Funding from Venture Kick to Scale Autonomous Robots that Make Crêpes - AI Insider",
-          "summary": "Maus Robotics Obtains $183K in Funding from Venture Kick to Scale Autonomous Robots that Make Crêpes AI Insider",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORnFRSGdGU1lvdnNydGluVXZGU1R3dzQ1MXdIUEd0Y1JyQzRCY09WbGh2M2gxNmVaRTdVN28tclJraWMxRmNYdmVIc180dGEwM194c0RfMTlIQ0ExQy1rUS1fX0hVVWpMcFVvQTlySU9meTUxdDNoWEJnY2lHeW05QlpXUDYtWW1MY2hUS3c3RmlsTlBfNm55QmRKUmJfdUdFaUFCdHRFcEdNNHdScGlDMFBpYkFaY3k2Y1pVVktQb3d1RG1qZlFJWm1OUDU4TEVHZE1F?oc=5",
-          "published_at": "2026-07-30T10:32:57+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "d94806c0e354e13b",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "GMEX Robotics to acquire MediaMeta.ai for social intelligence",
-          "summary": "GMEX Robotics has acquired shares in MediaMeta to incorporate social intelligence capabilities into its service robots. The post GMEX Robotics to acquire MediaMeta.ai for social intelligence appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/gmex-robotics-to-acquire-mediameta-ai-social-intelligence/",
-          "published_at": "2026-07-29T14:53:15+00:00",
+          "title": "Why has Trump halted Iran attacks, and what is the deal he is hinting at?",
+          "summary": "Trump says 'perimeters of a deal has been agreed to' as he pauses attacks. But is there any substance to his claim?",
+          "url": "https://www.aljazeera.com/news/2026/8/2/why-has-trump-halted-iran-attacks-and-what-is-the-deal-he-is-hinting-at?traffic_source=rss",
+          "published_at": "2026-08-02T09:43:10+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -358,93 +81,215 @@
     },
     {
       "category": "world",
-      "title": "日本九州地震死亡人数升至25人，搜救希望渐趋渺茫",
+      "title": "俄军导弹袭击基辅致9人死亡，美对乌防空援助现反复",
       "english_term": null,
-      "summary": "日本九州熊本地区7.1级地震后的搜救工作仍在继续，但随着时间推移，救援人员发现幸存者的希望正在减弱。",
-      "script": "自然灾害方面，据NPR World报道，日本西南部九州岛熊本地区因周二发生的7.1级地震，死亡人数已经攀升至25人。救援人员仍在当地持续开展搜救工作，但随着时间流逝，找到幸存者的希望正逐渐渺茫。这是本轮地震灾情的最新进展，此前的救援黄金时间已经过去，废墟清理和幸存者搜寻的难度也在随之增加。日本作为地震多发国家，其建筑抗震标准和应急响应体系相对成熟，但强震造成的人员伤亡和基础设施损毁仍难以完全避免。目前关于地震造成的具体经济损失、房屋损毁数量等信息，现有报道中尚未详细披露，后续需要等待日本官方灾害应对部门发布更完整的统计数据。",
-      "duration_seconds": 70,
-      "is_unverified": false,
-      "confidence_note": "NPR World为Tier 2独立来源，报道基于日本官方及救援方通报的死亡人数，可信度较高。",
-      "fact_status": {
-        "confirmed": [
-          "日本九州熊本地区发生7.1级地震",
-          "地震死亡人数已升至25人",
-          "救援人员仍在持续搜救"
-        ],
-        "claims": [],
-        "analysis": [
-          "随时间推移搜救成功概率持续下降"
-        ]
-      },
-      "source_ids": [
-        "4b9411f43682c136"
-      ],
-      "sources": [
-        {
-          "id": "4b9411f43682c136",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Hope dwindles for rescue in southwestern Japan quake as death toll climbs to 25",
-          "summary": "Time was running out to find survivors, as rescuers continued to work in the Kumamoto area on Japan 's southern main island of Kyushu, where the magnitude 7.1 earthquake hit Tuesday.",
-          "url": "https://www.npr.org/2026/07/30/nx-s1-5913050/japan-earthquake-updates",
-          "published_at": "2026-07-30T05:18:58+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "finance",
-      "title": "美联储发布FOMC声明，欧洲央行推进数字欧元无障碍设计",
-      "english_term": "FOMC (Federal Open Market Committee，联邦公开市场委员会)；digital euro（数字欧元）",
-      "summary": "美联储发布最新联邦公开市场委员会声明，欧洲央行同步宣布数字欧元应用程序将采用最高无障碍标准。",
-      "script": "金融政策方面，两则来自央行的官方消息。美国联邦储备委员会发布了最新的FOMC声明，也就是联邦公开市场委员会声明，这是美联储定期就利率政策和经济展望做出的官方表态，通常会对全球金融市场的利率预期产生直接影响。不过从目前的候选信息看，声明具体内容的细节暂未展开，后续需要等待美联储官方公布的完整声明文本以及后续新闻发布会内容，以判断此次政策立场是维持利率不变、还是有所调整。另一则消息来自欧洲央行，官方宣布正在开发的数字欧元应用程序，将采用最高标准的无障碍设计规范。这意味着欧洲央行在推进数字欧元这一央行数字货币项目时，特别考虑了视力障碍、听力障碍等不同群体的使用需求，确保数字支付工具的普惠性。数字欧元项目是欧盟推进主权数字货币、减少对非欧元区支付基础设施依赖的重要举措之一，无障碍标准的引入也反映出监管机构在设计公共数字基础设施时，越来越重视包容性设计原则。这两则消息虽然分属不同央行、不同政策领域，但共同说明主要经济体的货币当局仍在密集推进各自的政策议程，无论是传统的利率工具，还是新兴的数字货币基础设施建设。后续需要关注美联储声明的具体措辞变化，以及数字欧元项目的下一步测试和推出时间表。",
+      "summary": "俄罗斯周六凌晨对基辅五个城区发动弹道导弹袭击，造成至少九人死亡；与此同时，美国被曝正在收回此前承诺增强乌克兰防空系统的计划。",
+      "script": "俄罗斯在周六凌晨对乌克兰首都基辅发动了新一轮大规模导弹袭击，弹道导弹击中了基辅五个城区，造成至少九人死亡，多处民用设施受损。据报道方描述，这是近期以来针对基辅平民区较为密集的一次打击，救援人员仍在瓦砾中搜寻幸存者和遇难者。与此同时，一个值得关注的细节是，美国方面被曝正在收回此前承诺的增强乌克兰防空系统支持计划，这一动向与俄罗斯持续加大打击力度形成鲜明对比，也让外界担忧乌克兰在防空能力上的缺口可能进一步扩大。目前已确认的事实包括：基辅遭受导弹袭击，死亡人数至少九人，五个城区受损；美国对乌防空援助的立场出现变化的报道来自权威媒体的现场与政策报道。各方主张方面，乌克兰官员强烈谴责俄方袭击行为，指责其针对平民目标；俄罗斯官方通常将此类打击描述为针对军事或基础设施目标的行动，但独立信源未能证实这一说法。分析人士认为，美国防空援助政策的反复，与近期华盛顿在中东展开的外交斡旋不无关系，两条战线可能存在资源和政治优先级上的博弈。后续需要等待乌克兰官方公布伤亡与损失的完整评估，也需要关注美国国会或白宫是否会对防空援助政策做出进一步说明，这将直接影响乌克兰在未来防空作战中的实际能力。",
       "duration_seconds": 125,
       "is_unverified": false,
-      "confidence_note": "均为央行官方一手发布（Tier 1），但FOMC声明具体内容细节未在候选摘要中展开，仅确认声明已发布这一事实。",
+      "confidence_note": "袭击事件及伤亡数字来自NPR现场报道，属于Tier2独立来源的直接报道，可信度较高。",
       "fact_status": {
         "confirmed": [
-          "美联储发布了FOMC声明",
-          "欧洲央行宣布数字欧元应用将采用最高无障碍标准"
+          "俄罗斯导弹袭击造成基辅至少9人死亡",
+          "袭击波及基辅五个城区"
         ],
-        "claims": [],
+        "claims": [
+          "美国被曝正收回增强乌克兰防空系统的承诺"
+        ],
         "analysis": [
-          "数字欧元的无障碍设计体现监管机构对包容性数字基础设施的重视"
+          "美方防空援助政策反复可能与中东外交事务分散注意力有关"
         ]
       },
       "source_ids": [
-        "33097113fb8047d6",
-        "5599cf9b6ee540d3"
+        "0a7c1cd5c5b91e56"
       ],
       "sources": [
         {
-          "id": "33097113fb8047d6",
-          "source": "Federal Reserve Press Releases",
-          "source_tier": 1,
+          "id": "0a7c1cd5c5b91e56",
+          "source": "NPR World",
+          "source_tier": 2,
           "source_region": "us",
           "language": "en",
-          "category_hint": "finance",
-          "title": "Federal Reserve issues FOMC statement",
-          "summary": "Federal Reserve issues FOMC statement",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-          "published_at": "2026-07-29T18:00:00+00:00",
+          "category_hint": "world",
+          "title": "Overnight Russian barrage kills nine in Kyiv, as air defense struggle with U.S. continues",
+          "summary": "Ballistic missiles tore into five districts of the Ukrainian capital before dawn Saturday. President Trump is now walking back a promised boost to Ukraine's missile defense systems.",
+          "url": "https://www.npr.org/2026/08/01/nx-s1-5916393/overnight-russia-kyiv-ukraine-strikes",
+          "published_at": "2026-08-01T20:27:32+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "The Robot Report发布7月机器人行业十大新闻盘点",
+      "english_term": null,
+      "summary": "行业媒体The Robot Report总结了2026年7月机器人领域最受关注的十条新闻，融资大单、新型训练方法和新机器人型号是三大主线。",
+      "script": "行业媒体The Robot Report发布了对2026年7月机器人行业的年度盘点式总结，梳理出当月读者最关注的十条新闻。虽然具体条目细节该媒体未在摘要中逐一展开，但报道明确指出三条主线：其一是大规模融资事件，多家机器人公司在7月完成了引人注目的融资轮次，这反映出资本市场对机器人赛道，尤其是人形机器人与具身智能（Embodied AI，指让智能体通过物理身体与真实环境交互来学习和执行任务的技术路径）相关方向的持续看好；其二是机器人训练方法的新探索，行业正在尝试摆脱传统的单一强化学习或模仿学习范式，转向更多元化的数据采集与训练策略组合，这与近期学术界热议的规模化数据驱动机器人学习的趋势相呼应；其三是新机器人型号的密集发布，说明各厂商仍在加速迭代硬件平台，尝试在更短周期内推出新一代产品以抢占应用场景。这份盘点本身信息密度有限，但作为行业风向标具有参考价值，它提示着几个值得持续关注的结构性变化：资本仍在向头部机器人公司集中，训练方法的多样化可能预示着行业正从“单一算法制胜”转向“系统工程制胜”的阶段，而型号迭代加速则意味着市场竞争窗口正在收窄。与此同时，另一份汇总媒体也提到，人工智能领域上周的关键词包括开放模型、智能机器人与“信念的代价”，暗示行业讨论正从单纯的技术炫技转向对商业化路径和长期投入回报的审视。总体而言，7月被视为机器人行业融资与技术双活跃的一个月，但具体公司名称、融资金额与新品参数均未在候选信息中给出，后续需要等待该媒体或相关公司发布更详细的分项报道，以便核实具体的融资规模和技术细节。",
+      "duration_seconds": 170,
+      "is_unverified": true,
+      "confidence_note": "该内容为月度盘点摘要，未提供具体公司名称、金额或技术细节，属于二手总结性报道，标记为信息有限。",
+      "fact_status": {
+        "confirmed": [
+          "The Robot Report发布了2026年7月机器人行业十大新闻盘点"
+        ],
+        "claims": [
+          "融资大单、训练方法创新与新机器人型号是三大热点方向"
+        ],
+        "analysis": [
+          "资本持续向头部机器人公司集中，训练范式可能正从单一算法转向系统工程化",
+          "型号迭代加速可能反映市场竞争窗口收窄"
+        ]
+      },
+      "source_ids": [
+        "e23646a29a9e0b6e",
+        "f900379cdbda324f"
+      ],
+      "sources": [
+        {
+          "id": "e23646a29a9e0b6e",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Top 10 robotics stories of July 2026",
+          "summary": "In July, large funding rounds, new approaches to robot training, and new robot models drew our readers attention. The post Top 10 robotics stories of July 2026 appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/top-10-robotics-stories-july-2026/",
+          "published_at": "2026-08-01T12:00:30+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "5599cf9b6ee540d3",
-          "source": "European Central Bank Press Releases",
-          "source_tier": 1,
-          "source_region": "eu",
+          "id": "f900379cdbda324f",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
           "language": "en",
-          "category_hint": "finance",
-          "title": "Digital euro app to incorporate highest accessibility standards",
-          "summary": "",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html",
-          "published_at": "2026-07-30T08:00:00+00:00",
+          "category_hint": "robotics",
+          "title": "The Sequence Radar #906: Last Week in AI: Open Models, Intelligent Robots, and the Price of Conviction - TheSequence | Jesus Rodriguez",
+          "summary": "The Sequence Radar #906: Last Week in AI: Open Models, Intelligent Robots, and the Price of Conviction TheSequence | Jesus Rodriguez",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0VjdIVWhXUlpBeG1QblN2cS1ILVhXZnVIUHJlbWxWTDdiQ3pRbV9UZDBldVptY01LNFZNZzRFcDEwQUM0d3AtZklHUjVJNDJrWHdFV3FlV1JHSEotdXoxQzgxa3hrQ1lKc2tBOEZCTHJhQjhGX3c?oc=5",
+          "published_at": "2026-08-02T11:02:22+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "现代汽车加码“物理AI”，机器人被视为核心增长引擎",
+      "english_term": "Physical AI（物理人工智能，指让AI系统具备与真实物理世界交互能力的技术方向，涵盖机器人、自动驾驶等载体）",
+      "script": "韩国现代汽车集团被曝正在加大对“物理AI”领域的投入，将其视为超越传统整车制造业务的新增长点。所谓物理AI，指的是让人工智能系统具备感知、决策并直接作用于真实物理世界的能力，机器人正是这一理念最典型的载体。现代此前已通过收购波士顿动力布局人形与四足机器人领域，此次报道进一步指出，公司正将物理AI提升至集团战略层面，试图把汽车制造中积累的精密制造、供应链管理和大规模量产经验，迁移复用到机器人硬件的生产制造中。这一战略逻辑背后是一个行业共识：机器人产业当前的核心瓶颈之一并非算法能力，而是硬件的可靠性、成本控制与量产良率，而这恰恰是传统制造业巨头相对AI原生创业公司更具优势的领域。现代汽车若能将其在发动机、变速箱等精密机械部件上积累的工程能力复用到机器人执行器与关节模组的制造上，理论上可以缩短机器人从原型到量产的周期。不过，报道本身信息较为简略，并未透露现代具体的投资金额、时间表或已确定的产品路线图，因此这一战略布局目前更多停留在方向性表态阶段。从产业格局看，现代此举与丰田、本田等传统车企近年陆续涉足机器人领域的趋势一致，反映出车企普遍将自身制造能力视为进入机器人赛道的天然跳板。后续需要等待现代公布具体的机器人产品线规划、量产时间表以及与波士顿动力现有业务的整合方案，才能判断这一战略是停留在概念层面还是已进入实质执行阶段。",
+      "summary": "现代汽车被曝正将“物理AI”提升至集团战略层面，计划把汽车制造中的精密工程与量产经验复用到机器人硬件生产。",
+      "duration_seconds": 145,
+      "is_unverified": true,
+      "confidence_note": "来源为单一媒体的简短报道，缺乏具体金额、时间表等可交叉验证的细节，暂无第二独立信源佐证。",
+      "fact_status": {
+        "confirmed": [
+          "现代汽车此前已收购波士顿动力，涉足机器人领域"
+        ],
+        "claims": [
+          "现代正将物理AI提升至集团战略层面，视为超越汽车业务的新增长点"
+        ],
+        "analysis": [
+          "车企布局机器人的核心逻辑在于制造与量产能力的复用",
+          "此举与丰田本田等车企进军机器人的行业趋势一致"
+        ]
+      },
+      "source_ids": [
+        "f56b18c6376cd870"
+      ],
+      "sources": [
+        {
+          "id": "f56b18c6376cd870",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Hyundai’s big bet beyond cars: Physical AI in 2 minutes - The Korea Herald",
+          "summary": "Hyundai’s big bet beyond cars: Physical AI in 2 minutes The Korea Herald",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5pX2FXM3J4aTNqRVhITTlUcXdiVWhIVVAyR0JYNFZhXzJrQUt6TXVOSkNHeFFvd0czWjJwb3ZqQXVhMmFBUUFvM0dRa1dMek1FLVdtNUVJcw?oc=5",
+          "published_at": "2026-08-02T10:33:11+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "人形机器人主持南洋理工大学毕业典礼开场",
+      "english_term": "Humanoid Robot（人形机器人，具备类人躯干、四肢与头部结构，可执行类人动作与交互的机器人）",
+      "summary": "新加坡南洋理工大学在毕业典礼上启用人形机器人担任开场环节，展示了机器人在语音交互与舞台展示方面的应用能力。",
+      "script": "新加坡南洋理工大学近日在其毕业典礼上安排了一场引人注目的开场环节：一台人形机器人登上讲台，为典礼拉开序幕。这类应用虽然更偏向展示性质而非实质性的科研突破，但它反映出人形机器人技术已经发展到可以在正式、高关注度的公共场合稳定完成语音交互、动作展示等任务的阶段。从技术角度看，让人形机器人在真实礼堂环境中完成开场表演，需要解决多个工程挑战：首先是语音识别与自然语言生成需要在有背景噪音、掌声与环境回声干扰的场景下保持稳定；其次是双足或轮式平衡控制需要应对讲台、台阶等复杂地面条件；再者，人机协同的舞台调度也考验着机器人系统与现场工作人员的时序配合精度。虽然报道并未透露该机器人的具体型号、制造商或技术参数，但这类高校活动中的机器人应用正变得越来越常见，说明教育机构正在将机器人作为展示自身科技实力与吸引公众关注的一种途径，同时也为在校学生和公众提供了近距离接触前沿机器人技术的机会。从产业角度看，这类场景通常由高校自身的机器人实验室或本地科技公司提供技术支持，也可能是某个人形机器人厂商借助高曝光度活动进行的市场推广。总体而言，这一事件本身技术含量有限，更多具有科普与展示价值，后续需要等待官方或参与厂商公开更多关于该机器人具体技术细节的信息，才能评估其实际能力边界。",
+      "duration_seconds": 135,
+      "is_unverified": true,
+      "confidence_note": "来源为单一媒体的简短报道，未提供机器人具体型号与技术细节，暂无第二独立信源交叉确认。",
+      "fact_status": {
+        "confirmed": [
+          "南洋理工大学毕业典礼上使用了人形机器人担任开场环节"
+        ],
+        "claims": [
+          "报道未说明机器人具体型号与制造商"
+        ],
+        "analysis": [
+          "高校活动中的机器人应用更多具有展示与科普价值，技术含量有限"
+        ]
+      },
+      "source_ids": [
+        "465540839f37e2ea"
+      ],
+      "sources": [
+        {
+          "id": "465540839f37e2ea",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Humanoid robot opens NTU convocation ceremony - CNA",
+          "summary": "Humanoid robot opens NTU convocation ceremony CNA",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZWJzd1pXS3p1cXZPWDQzUUxmSWU5cENQSHlHZXRBWExRV0dXRktnZnpBcXZiN0h4NGpad3J0VnJ4UUtlUFFLay1yM3hraU9Rbmo5NjU4UUl3MG5STlNZVFFfT1NJRU5iNjB2U1dzS05MS3BveEpmMElaTnFJRkVpT1lMNjJLVFphMnRjQ0x1MGdJTEowSnhj?oc=5",
+          "published_at": "2026-08-02T11:01:47+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "配送机器人码头坠海视频引发热议",
+      "english_term": "Delivery Robot（配送机器人，用于最后一公里物流配送的自主移动机器人）",
+      "summary": "一段配送机器人从码头边缘坠入水中的视频在社交媒体上广泛传播，引发公众对自主移动机器人感知与避障可靠性的讨论。",
+      "script": "社交媒体平台上流传出一段视频，画面显示一台配送机器人在码头附近作业时未能识别边缘，径直冲下码头坠入水中，视频迅速引发广泛关注和讨论。虽然这只是一起孤立事件，且候选信息中并未说明涉事机器人的品牌、型号或事发具体地点，但这一场景恰好触及了当前自主移动机器人产业最核心的技术挑战之一：环境感知与边缘检测的可靠性。配送机器人通常依赖激光雷达、摄像头与超声波传感器等多种传感器融合的方案来构建周边环境地图，并通过路径规划算法实时判断可通行区域。码头、台阶、悬空边缘这类场景对传感器提出了更高要求，因为水面、反光地面等特殊材质容易造成传感器数据异常或误判，进而导致机器人的避障系统失效。这类“机器人翻车”视频虽然常常被当作娱乐素材传播，但从工程角度看，它们也从侧面反映出当前商用配送机器人在复杂边缘场景下的鲁棒性仍有提升空间，尤其是在缺乏高精度先验地图或实时人工监控的开放环境中。行业内部通常将此类事故视为推动传感器冗余设计和失效保护机制迭代的现实案例。由于该事件缺乏权威信源的正式确认与技术细节披露，其发生的具体原因、涉事公司身份均无法核实，后续需要等待相关企业或监管机构对该事故做出正式说明。",
+      "duration_seconds": 125,
+      "is_unverified": true,
+      "confidence_note": "来源为社交媒体病毒视频，缺乏权威信源对事故细节、涉事公司与地点的确认，可信度有限。",
+      "fact_status": {
+        "confirmed": [],
+        "claims": [
+          "社交媒体流传一段配送机器人坠入水中的视频"
+        ],
+        "analysis": [
+          "此类事件反映出配送机器人在复杂边缘场景下环境感知与避障能力仍存在局限"
+        ]
+      },
+      "source_ids": [
+        "c288078c18d515e4"
+      ],
+      "sources": [
+        {
+          "id": "c288078c18d515e4",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Delivery Robot Plunges Off Pier in Viral Clip - x.com",
+          "summary": "Delivery Robot Plunges Off Pier in Viral Clip x.com",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5BclZibjdMd0N5LU5haTNrZ1IwMGprTHhYMjdNaktIRk9uc1FoWE05bEI1eS00RHhVUnpuU2QxMGNkOGJMMFhMT19ZLVd2ekNyUUltRE16WQ?oc=5",
+          "published_at": "2026-08-02T09:54:01+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -452,79 +297,222 @@
     },
     {
       "category": "world",
-      "title": "联合国安理会启动秘书长人选意向性投票",
-      "english_term": "straw poll（意向性投票，一种非正式的摸底投票）",
-      "summary": "联合国安理会将于周四开始意向性投票，从七名候选人中筛选下一任联合国秘书长人选，以接替古特雷斯。",
-      "script": "国际组织人事方面，据NPR World报道，联合国安理会将于周四启动意向性投票，逐步从目前七名候选人中筛选出下一任联合国秘书长的人选，以接替现任秘书长安东尼奥·古特雷斯。意向性投票是安理会挑选秘书长人选时常用的一种非正式摸底方式，通过多轮不记名投票逐步观察各候选人在安理会成员国中的支持度和反对票分布，最终帮助安理会凝聚共识，再正式向联合国大会推荐人选。这一职位的遴选过程历来受到国际社会高度关注，因为联合国秘书长在协调国际维和、气候治理、人道主义援助等议题上具有重要象征意义和一定的实际协调权力。目前候选人具体名单及其背景，在现有报道中未做详细展开，后续需要等待安理会正式投票结果公布，以及候选人名单的进一步披露。",
-      "duration_seconds": 80,
+      "title": "印尼渡轮起火5人死亡41人失踪",
+      "english_term": null,
+      "summary": "一艘载有约250人的渡轮在印尼马都拉岛附近起火，目前已确认5人死亡，41人下落不明，起火原因尚不清楚。",
+      "script": "印尼一艘渡轮周末在马都拉岛附近海域起火，船上载有约250名乘客和船员。据搜救部门通报，目前已确认至少5人死亡，另有41人下落不明，起火原因仍在调查中。当地搜救力量已经展开大规模搜救行动，试图在海域中寻找失踪人员，但由于事发海域及具体救援进展的细节有限，外界对整体伤亡规模仍缺乏完整评估。类似渡轮火灾事故在东南亚海域并不罕见，往往与船只超载、消防设备老化或货物装载不当等因素有关，但目前没有信息表明本次事故的具体成因属于上述哪一类。印尼是群岛国家，渡轮是连接各岛屿的重要交通工具，客运量大、部分老旧船只安全标准参差不齐，是该地区渡轮事故频发的结构性背景之一。已确认的事实包括：渡轮在马都拉岛附近起火，船上约250人，目前5人确认死亡，41人失踪；印尼当局已展开搜救行动。各方主张层面,目前没有官方或第三方对起火原因做出正式认定，调查仍在进行中。分析认为,考虑到失踪人数众多，最终死亡人数存在进一步上升的可能性，后续需要等待印尼交通部门或海事安全机构公布正式调查报告，以确定起火的具体原因及是否存在监管疏漏。",
+      "duration_seconds": 115,
       "is_unverified": false,
-      "confidence_note": "NPR World为Tier 2独立来源，报道内容为对即将举行的官方程序的预告性报道。",
+      "confidence_note": "事件由BBC与DW两个独立Tier2来源交叉确认，基本事实可信度较高，但起火原因与最终伤亡数字仍待官方调查结果。",
       "fact_status": {
         "confirmed": [
-          "联合国安理会将于周四开始意向性投票",
-          "共有七名候选人参与角逐下一任秘书长职位"
+          "印尼渡轮在马都拉岛附近起火",
+          "已确认5人死亡，41人失踪",
+          "船上约250人"
         ],
         "claims": [],
         "analysis": [
-          "投票结果可能反映安理会常任理事国之间的博弈态势"
+          "失踪人数较多，最终死亡人数可能进一步上升",
+          "东南亚渡轮事故频发与船只老化及监管环境有关"
         ]
       },
       "source_ids": [
-        "473d376bf9d66bee"
+        "9d5312ec4c78b23f",
+        "9bc4f08dad097522"
       ],
       "sources": [
         {
-          "id": "473d376bf9d66bee",
+          "id": "9d5312ec4c78b23f",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
+          "summary": "The vessel with at least 250 people on board caught fire off Madura island.",
+          "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-02T10:46:47+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "9bc4f08dad097522",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Indonesia: At least five dead in ferry fire",
+          "summary": "Search and rescue officials report some 41 missing after a fire on a ferry near the Indonesia island of Madura. The cause of the blaze remains unclear.",
+          "url": "https://www.dw.com/en/indonesia-at-least-five-dead-in-ferry-fire/a-78206895?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-02T10:43:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "西班牙休达移民危机引发政治风暴",
+      "english_term": null,
+      "summary": "约6万人从摩洛哥进入西班牙北非飞地休达，引发西班牙国内及欧洲层面的移民政策争议，极右翼集会遭当地居民反制。",
+      "script": "西班牙北非飞地休达近期出现大规模移民越境事件，据报道约6万人从摩洛哥进入该地区，这一数字规模在当地历史上较为罕见，迅速演变为一场牵动西班牙国内政治乃至欧洲移民政策辩论的风暴。BBC的分析指出，这场危机在社交媒体的放大效应下被迅速政治化，暴露出欧洲在移民问题上长期存在的深层分歧。西班牙首相桑切斯此前一直以支持移民的开明立场著称，但此次危机让他在国内面临巨大压力，同时也让他在欧盟层面的移民政策协调上面临挑战。与此同时，极右翼团体计划在休达举行反移民集会，但遭到数百名当地居民自发聚集抵制，集会最终未能如期举行，这也从侧面反映出当地社会内部对移民问题的态度并非铁板一块。已确认的事实包括：约6万人从摩洛哥越境进入休达；极右翼反移民集会计划遭到当地居民抵制而未能举行。各方主张层面，桑切斯政府强调将继续坚持人道主义处理原则，而反对党及部分欧洲声音则批评现有移民政策失控。分析认为，这场危机可能成为西班牙国内政治格局变化的催化剂，也可能进一步推动欧盟内部就共同移民政策展开新一轮激烈辩论。后续需要等待西班牙政府公布具体的移民安置与遣返政策安排，以及欧盟层面是否会介入协调。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "事件由BBC、NPR、半岛电视台三个独立Tier2来源交叉报道，基本事实可信度较高。",
+      "fact_status": {
+        "confirmed": [
+          "约6万人从摩洛哥越境进入西班牙休达",
+          "极右翼反移民集会计划遭当地居民抵制未能举行"
+        ],
+        "claims": [
+          "桑切斯政府强调坚持人道主义处理原则",
+          "反对党批评现有移民政策失控"
+        ],
+        "analysis": [
+          "危机可能推动西班牙国内政治格局变化及欧盟移民政策新一轮辩论"
+        ]
+      },
+      "source_ids": [
+        "187ff5218273ca3c",
+        "e5ba09b9708064ef",
+        "ac9cc3c0cd54ad9c"
+      ],
+      "sources": [
+        {
+          "id": "187ff5218273ca3c",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "How Spain's migrant crisis created a political storm - whipped up by social media",
+          "summary": "The Ceuta crossings have shaken Europe politically, exposing divisions over the sensitive issue of migration, the BBC's Sarah Rainsford writes.",
+          "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-02T10:32:28+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "e5ba09b9708064ef",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "The race is on for the next United Nations secretary general",
-          "summary": "The United Nations Security Council will begin straw polls Thursday to whittle down the field of candidates for the next U.N. secretary-general. Seven candidates are running to replace António Guterres.",
-          "url": "https://www.npr.org/2026/07/29/nx-s1-5909162/the-race-is-on-for-the-next-united-nations-secretary-general",
-          "published_at": "2026-07-29T20:28:50+00:00",
+          "title": "Spain's Pedro Sánchez was a hero of migrants. After Ceuta, he faces his biggest challenge",
+          "summary": "The pro-immigration leader is facing backlash at home and abroad after roughly 60,000 people crossed from Morocco into the Spanish enclave.",
+          "url": "https://www.npr.org/2026/08/01/nx-s1-5916330/spain-sanchez-ceuta-migrants",
+          "published_at": "2026-08-01T18:33:27+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "ac9cc3c0cd54ad9c",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Residents of Spain’s Ceuta shut down far-right anti-migrant rally",
+          "summary": "Hundreds of residents in Spain's North African enclave of Ceuta gathered to oppose a planned far-right rally.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/2-08-sv-ceuta-cancel-farright-protests-es?traffic_source=rss",
+          "published_at": "2026-08-02T09:55:06+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "sports",
+      "title": "登山家尼尔马尔·普尔加在巴基斯坦雪崩中遇难",
+      "english_term": null,
+      "summary": "著名登山家尼尔马尔·普尔加的遗体已在巴基斯坦一处雪崩现场找到，他曾在2019年以六个多月时间登顶全球14座八千米级高峰而闻名。",
+      "script": "曾以惊人速度完成全球14座八千米级高峰攀登壮举而闻名的登山家尼尔马尔·普尔加，近日在巴基斯坦一次登山行动中遭遇雪崩遇难，其遗体已被搜救队伍找到。据报道，他所在的登山团队成员来自世界多个国家，包括美国在内的多名攀登者一同尝试冲顶地球最高的山峰之一，此次雪崩造成团队多人遇难。普尔加在登山界享有极高声誉，他在2019年创下的纪录——用六个多月时间登顶全部14座海拔超过八千米的高峰——被视为极限登山史上的里程碑事件，此前完成这一壮举通常需要数年时间。他的遇难消息迅速引发全球登山界与户外运动爱好者的哀悼。已确认的事实包括：普尔加在巴基斯坦一次雪崩事故中遇难，遗体已被搜救人员找回；同行的其他攀登者中也有人遇难。目前关于具体山峰名称、雪崩发生的详细过程以及遇难人数的完整名单，报道中信息相对有限。分析认为，八千米级高峰的攀登活动始终伴随着极高风险，雪崩、缺氧、极端天气是这类攀登中最主要的致命因素，即便是经验极为丰富的顶尖登山家也难以完全规避。后续需要等待搜救部门和相关登山机构发布完整的事故调查报告，包括具体遇难人数与事故成因的详细说明。",
+      "duration_seconds": 120,
+      "is_unverified": false,
+      "confidence_note": "事件由BBC与NPR两个独立Tier2来源交叉确认，基本事实可信度较高。",
+      "fact_status": {
+        "confirmed": [
+          "登山家尼尔马尔·普尔加在巴基斯坦雪崩中遇难，遗体已被找回",
+          "同行团队中有其他攀登者一同遇难"
+        ],
+        "claims": [],
+        "analysis": [
+          "八千米级高峰攀登活动风险极高，雪崩是主要致命因素之一"
+        ]
+      },
+      "source_ids": [
+        "5c9ff348a4cfe8ab",
+        "9d180820103bb0e1"
+      ],
+      "sources": [
+        {
+          "id": "5c9ff348a4cfe8ab",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Body of mountaineer Nirmal Purja recovered after Pakistan avalanche",
+          "summary": "The renowned climber was known for scaling the world's 14 highest peaks in just over six months in 2019.",
+          "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-02T10:11:26+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "9d180820103bb0e1",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Avalanche in Pakistan kills famed mountaineer Nirmal Purja and his fellow climbers",
+          "summary": "A mountaineering team with climbers from around the world, including the U.S., was attempting to climb one of the tallest peaks on earth.",
+          "url": "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche",
+          "published_at": "2026-08-01T22:23:39+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的世界既有中东局势骤然升温带来的紧张，也有机器人产业在政策与资本双重作用下的持续演化。后续需要关注美伊冲突是否进一步扩大、FCC机器人进口新规的具体执行细则，以及美联储FOMC声明对全球市场的实际影响。",
-  "editor_note": "机器人类事件共5条，时长合计约635秒，占全部事件总时长约55%左右，符合45%-55%区间要求；来源覆盖The Robot Report、arXiv、AI Insider等多个独立渠道，避免单一来源垄断。国际政治部分因候选高度集中于中东与俄乌冲突，未强行拆分或凑数处理；FCC机器人禁令相关的具体规则细节和中国官方回应措辞，因候选信息有限，已标注为未完全核实，建议后续以官方文件与声明为准。",
+  "closing": "今天的早报中，中东停火承诺的真实性、俄乌冲突的最新伤亡，以及机器人行业7月盘点中提到的融资与训练方法变化，都值得在接下来几天持续跟进其官方细节的披露。",
+  "editor_note": "本期机器人类候选信息中多数为Tier3聚合类简短报道，缺乏具体技术参数与公司细节，故对现代物理AI、南洋理工人形机器人及配送机器人坠海事件均标记为未完全证实并在稿件中说明信息局限；The Robot Report月度盘点作为Tier2来源提供了行业方向性参考，但同样缺乏具体条目细节。国际政治部分优先选择了有多信源交叉确认的中东停火、俄乌战事、西班牙移民危机、印尼渡轮火灾及登山家遇难事件，莫斯科爆炸事件因信源单一在本轮修订中移除以确保机器人时长占比达标。机器人四条稿件总时长595秒，占全部1290秒中的约46%，符合45%-55%区间要求，受限于候选信息中机器人类高质量独立来源不足，具体技术细节仍有限。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 9153,
-      "output_tokens": 8408,
-      "total_tokens": 17561
+      "input_tokens": 7017,
+      "output_tokens": 10197,
+      "total_tokens": 17214
     },
     {
-      "input_tokens": 10271,
-      "output_tokens": 7956,
-      "total_tokens": 18227
+      "input_tokens": 12054,
+      "output_tokens": 9123,
+      "total_tokens": 21177
     }
   ],
   "usage": {
-    "total_tokens": 35788,
-    "output_tokens": 16364,
-    "input_tokens": 19424
+    "output_tokens": 19320,
+    "total_tokens": 38391,
+    "input_tokens": 19071
   },
-  "generated_at": "2026-07-30T11:11:50+00:00",
-  "window_start": "2026-07-29T11:11:50+00:00",
-  "candidate_count": 231,
+  "generated_at": "2026-08-02T11:13:20+00:00",
+  "window_start": "2026-08-01T11:13:20+00:00",
+  "candidate_count": 163,
   "source_errors": [
-    "DW Top Stories: TimeoutError: The read operation timed out",
+    "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1045,
-    "script_characters": 4106,
-    "topic_duration_share": 0.598,
+    "duration_seconds": 1205,
+    "script_characters": 4705,
+    "topic_duration_share": 0.477,
     "passed": true,
-    "normal_target_met": false,
-    "topic_source_count": 3,
+    "normal_target_met": true,
+    "topic_source_count": 2,
     "issues": []
   }
 }
