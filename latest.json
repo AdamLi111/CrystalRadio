@@ -1,176 +1,64 @@
 {
-  "title": "晶球电台早报：伊朗停火悬而未决，机器人产业七月盘点揭晓热点",
-  "subtitle": "从中东停火承诺到人形机器人开场毕业典礼，今天带你梳理24小时内的关键信号",
+  "title": "晶球电台早报：DeepMind发布Gemini Robotics 2，美国限制外国机器人进口",
+  "subtitle": "全身控制机器人大模型登场，四足与人形机器人综述论文回顾行业挑战，国际局势多线紧张",
   "highlights": [
-    "特朗普宣布暂停对伊朗军事打击，称协议“框架已达成”，但各方细节仍存疑",
-    "俄罗斯对基辅发动导弹袭击致9人死亡，美国对乌克兰防空系统援助出现反复",
-    "The Robot Report发布7月机器人行业十大新闻盘点，融资与新训练方法成焦点"
+    "Google DeepMind发布Gemini Robotics 2，宣称实现机器人全身控制并迈向“物理AGI”",
+    "美国出台外国先进机器人进口限制措施，对中国影响被评估为有限",
+    "前DeepMind应用机器人团队创立Reimagine Robotics，主打“边工作边学习”的机器人系统",
+    "苏丹发生无人机袭击致35人死亡，摩洛哥与西班牙边境死亡人数逼近百人"
   ],
   "stories": [
     {
-      "category": "world",
-      "title": "特朗普称暂停对伊朗打击，协议“框架”存疑",
-      "english_term": null,
-      "summary": "特朗普宣布因伊朗及中东多国请求，美国将暂停对伊朗的军事行动，称双方已就协议“框架”达成一致。目前该说法缺乏细节支撑，各方反应不一。",
-      "script": "美国总统特朗普周末表示，他已下令暂停原定对伊朗的军事打击，理由是伊朗及其他中东国家要求华盛顿“暂缓行动”，因为一项协议的“框架”已经谈妥。这一表态迅速引发国际媒体关注，但截至目前，白宫方面并未公布协议的具体条款，伊朗官方也没有正式确认所谓“框架”的内容。半岛电视台的分析指出，特朗普的措辞相当模糊，从“框架已达成”到“实质性协议”之间还有很大距离，目前更像是一种施压后的外交表态，而非已经签署的正式文件。值得注意的是，就在特朗普发表这一表态的同时，俄罗斯对乌克兰首都基辅发动了新一轮导弹袭击，造成至少九人死亡，五个城区受损，而美国对乌克兰防空系统支持的承诺却出现松动迹象，这让部分观察人士质疑，白宫在中东与东欧两条线上的外交精力分配是否会相互牵制。目前可以确认的事实是：特朗普本人公开做出了暂停打击的表态；伊朗方面尚未就此发表正式声明；协议具体内容、时间表和执行机制均未披露。各方主张层面，有中东官员私下透露谈判确有进展，但也有分析认为这更像是特朗普惯用的“边打边谈”策略，用于争取国内外舆论空间。综合来看，这一事件的后续走向仍高度不确定，后续需要等待美伊双方是否发布联合声明或书面协议文本，也需要观察以色列等地区盟友的反应，因为以色列此前对伊朗核设施问题一直持强硬立场，如果协议内容涉及核问题让步，可能引发地区其他势力的强烈反弹。",
-      "duration_seconds": 145,
-      "is_unverified": true,
-      "confidence_note": "特朗普本人的表态构成一手信源，但协议“框架”的具体内容缺乏独立第二来源确认，伊朗官方尚未回应，因此整体标记为未完全证实。",
-      "fact_status": {
-        "confirmed": [
-          "特朗普公开宣布暂停对伊朗的军事打击行动"
-        ],
-        "claims": [
-          "特朗普称伊朗及中东多国要求美国暂缓打击",
-          "特朗普称协议框架已经达成"
-        ],
-        "analysis": [
-          "协议具体内容和执行细节尚未披露，说法真实性有待验证",
-          "同期俄乌冲突升级可能分散美国外交资源"
-        ]
-      },
-      "source_ids": [
-        "59df96b378e19a6a",
-        "e6f82d4d6616851c",
-        "eb55f5f235a23164"
-      ],
-      "sources": [
-        {
-          "id": "59df96b378e19a6a",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-          "summary": "The US president claims Iran and other Middle Eastern countries asked Washington to hold off on any attack as the \"perimeters\" of a deal had been agreed.",
-          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-02T11:12:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "e6f82d4d6616851c",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Trump says he's cancelling Iran strikes, deal pending",
-          "summary": "Trump said that Iran and other Middle Eastern countries had asked the U.S. \"to hold off any attack\" on Iran because \"the perimeters of a deal has been agreed to.\"",
-          "url": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
-          "published_at": "2026-08-02T07:34:27+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "eb55f5f235a23164",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Why has Trump halted Iran attacks, and what is the deal he is hinting at?",
-          "summary": "Trump says 'perimeters of a deal has been agreed to' as he pauses attacks. But is there any substance to his claim?",
-          "url": "https://www.aljazeera.com/news/2026/8/2/why-has-trump-halted-iran-attacks-and-what-is-the-deal-he-is-hinting-at?traffic_source=rss",
-          "published_at": "2026-08-02T09:43:10+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "俄军导弹袭击基辅致9人死亡，美对乌防空援助现反复",
-      "english_term": null,
-      "summary": "俄罗斯周六凌晨对基辅五个城区发动弹道导弹袭击，造成至少九人死亡；与此同时，美国被曝正在收回此前承诺增强乌克兰防空系统的计划。",
-      "script": "俄罗斯在周六凌晨对乌克兰首都基辅发动了新一轮大规模导弹袭击，弹道导弹击中了基辅五个城区，造成至少九人死亡，多处民用设施受损。据报道方描述，这是近期以来针对基辅平民区较为密集的一次打击，救援人员仍在瓦砾中搜寻幸存者和遇难者。与此同时，一个值得关注的细节是，美国方面被曝正在收回此前承诺的增强乌克兰防空系统支持计划，这一动向与俄罗斯持续加大打击力度形成鲜明对比，也让外界担忧乌克兰在防空能力上的缺口可能进一步扩大。目前已确认的事实包括：基辅遭受导弹袭击，死亡人数至少九人，五个城区受损；美国对乌防空援助的立场出现变化的报道来自权威媒体的现场与政策报道。各方主张方面，乌克兰官员强烈谴责俄方袭击行为，指责其针对平民目标；俄罗斯官方通常将此类打击描述为针对军事或基础设施目标的行动，但独立信源未能证实这一说法。分析人士认为，美国防空援助政策的反复，与近期华盛顿在中东展开的外交斡旋不无关系，两条战线可能存在资源和政治优先级上的博弈。后续需要等待乌克兰官方公布伤亡与损失的完整评估，也需要关注美国国会或白宫是否会对防空援助政策做出进一步说明，这将直接影响乌克兰在未来防空作战中的实际能力。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "袭击事件及伤亡数字来自NPR现场报道，属于Tier2独立来源的直接报道，可信度较高。",
-      "fact_status": {
-        "confirmed": [
-          "俄罗斯导弹袭击造成基辅至少9人死亡",
-          "袭击波及基辅五个城区"
-        ],
-        "claims": [
-          "美国被曝正收回增强乌克兰防空系统的承诺"
-        ],
-        "analysis": [
-          "美方防空援助政策反复可能与中东外交事务分散注意力有关"
-        ]
-      },
-      "source_ids": [
-        "0a7c1cd5c5b91e56"
-      ],
-      "sources": [
-        {
-          "id": "0a7c1cd5c5b91e56",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Overnight Russian barrage kills nine in Kyiv, as air defense struggle with U.S. continues",
-          "summary": "Ballistic missiles tore into five districts of the Ukrainian capital before dawn Saturday. President Trump is now walking back a promised boost to Ukraine's missile defense systems.",
-          "url": "https://www.npr.org/2026/08/01/nx-s1-5916393/overnight-russia-kyiv-ukraine-strikes",
-          "published_at": "2026-08-01T20:27:32+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
       "category": "robotics",
-      "title": "The Robot Report发布7月机器人行业十大新闻盘点",
-      "english_term": null,
-      "summary": "行业媒体The Robot Report总结了2026年7月机器人领域最受关注的十条新闻，融资大单、新型训练方法和新机器人型号是三大主线。",
-      "script": "行业媒体The Robot Report发布了对2026年7月机器人行业的年度盘点式总结，梳理出当月读者最关注的十条新闻。虽然具体条目细节该媒体未在摘要中逐一展开，但报道明确指出三条主线：其一是大规模融资事件，多家机器人公司在7月完成了引人注目的融资轮次，这反映出资本市场对机器人赛道，尤其是人形机器人与具身智能（Embodied AI，指让智能体通过物理身体与真实环境交互来学习和执行任务的技术路径）相关方向的持续看好；其二是机器人训练方法的新探索，行业正在尝试摆脱传统的单一强化学习或模仿学习范式，转向更多元化的数据采集与训练策略组合，这与近期学术界热议的规模化数据驱动机器人学习的趋势相呼应；其三是新机器人型号的密集发布，说明各厂商仍在加速迭代硬件平台，尝试在更短周期内推出新一代产品以抢占应用场景。这份盘点本身信息密度有限，但作为行业风向标具有参考价值，它提示着几个值得持续关注的结构性变化：资本仍在向头部机器人公司集中，训练方法的多样化可能预示着行业正从“单一算法制胜”转向“系统工程制胜”的阶段，而型号迭代加速则意味着市场竞争窗口正在收窄。与此同时，另一份汇总媒体也提到，人工智能领域上周的关键词包括开放模型、智能机器人与“信念的代价”，暗示行业讨论正从单纯的技术炫技转向对商业化路径和长期投入回报的审视。总体而言，7月被视为机器人行业融资与技术双活跃的一个月，但具体公司名称、融资金额与新品参数均未在候选信息中给出，后续需要等待该媒体或相关公司发布更详细的分项报道，以便核实具体的融资规模和技术细节。",
-      "duration_seconds": 170,
-      "is_unverified": true,
-      "confidence_note": "该内容为月度盘点摘要，未提供具体公司名称、金额或技术细节，属于二手总结性报道，标记为信息有限。",
+      "title": "Google DeepMind发布Gemini Robotics 2，称迈向“物理AGI”",
+      "english_term": "Physical AGI（物理通用人工智能，指能在真实物理世界中像通用智能体一样感知、推理并行动的系统）",
+      "summary": "DeepMind宣布Gemini Robotics 2具备全身控制能力，可让机器人对每一个动作进行推理规划，官方称这是迈向物理AGI的重要一步。",
+      "script": "Google DeepMind近日发布了新一代机器人基础模型Gemini Robotics 2，官方表示这一模型实现了对机器人全身（full body）的控制能力，也就是说模型不再只是给出单一动作指令，而是能够对机器人整个身体在每一个时刻的运动进行统一推理和规划。DeepMind方面用了一个颇具野心的说法，称这是迈向“物理AGI”的重要一步，也就是让人工智能不仅在数字世界里聪明，也能在真实物理世界中像通用智能体一样感知环境、做出判断并执行复杂动作。从技术路线看，这类模型通常建立在视觉-语言-动作模型，也就是VLA（Vision-Language-Action）架构之上，把大语言模型的推理能力和机器人的运动控制打通，让机器人能够理解自然语言指令，并将其转化为一连串协调的关节动作，而不需要针对每一个具体任务单独编程。全身控制能力被认为是人形机器人走向通用化的关键短板之一，此前很多机器人模型只能较好地控制单只机械臂或末端执行器，而对涉及躯干、双腿协同的整体动作规划能力有限。如果Gemini Robotics 2真的能让机器人在复杂动作中保持全身协调，这将直接影响人形机器人在搬运、装配、甚至一些体育化任务中的表现。不过目前这些说法主要来自DeepMind官方发布和科技媒体报道，具体的基准测试数据、开放评测结果以及第三方复现情况还有待观察，“物理AGI”这一表述本身也更多是公司市场化语言，而非严格的学术定义。后续需要等待更多独立测评和实际机器人部署案例来验证这一模型在真实场景下的稳定性和泛化能力。",
+      "duration_seconds": 165,
+      "is_unverified": false,
+      "confidence_note": "基于The Robot Report与TechRound两个独立科技媒体的报道交叉确认，但具体技术细节和评测数据主要来自DeepMind官方口径，“物理AGI”为公司表述而非行业公认术语。",
       "fact_status": {
         "confirmed": [
-          "The Robot Report发布了2026年7月机器人行业十大新闻盘点"
+          "DeepMind发布了Gemini Robotics 2模型",
+          "官方宣称该模型支持机器人全身控制"
         ],
         "claims": [
-          "融资大单、训练方法创新与新机器人型号是三大热点方向"
+          "DeepMind称该模型是迈向物理AGI的重要一步"
         ],
         "analysis": [
-          "资本持续向头部机器人公司集中，训练范式可能正从单一算法转向系统工程化",
-          "型号迭代加速可能反映市场竞争窗口收窄"
+          "全身协调控制被视为人形机器人通用化的关键技术难点之一，实际效果需第三方验证"
         ]
       },
       "source_ids": [
-        "e23646a29a9e0b6e",
-        "f900379cdbda324f"
+        "8974c5a9f2faaa69",
+        "eab51d3d0e4ca61c"
       ],
       "sources": [
         {
-          "id": "e23646a29a9e0b6e",
+          "id": "8974c5a9f2faaa69",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Top 10 robotics stories of July 2026",
-          "summary": "In July, large funding rounds, new approaches to robot training, and new robot models drew our readers attention. The post Top 10 robotics stories of July 2026 appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/top-10-robotics-stories-july-2026/",
-          "published_at": "2026-08-01T12:00:30+00:00",
+          "title": "Google DeepMind says Gemini Robotics 2 enables full body control",
+          "summary": "Gemini Robotics 2 enables robots to reason through every movement, unlocking a broad range of tasks, DeepMind said. The post Google DeepMind says Gemini Robotics 2 enables full body control appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/google-deepmind-says-gemini-robotics-2-enables-full-body-control/",
+          "published_at": "2026-08-02T12:31:32+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "f900379cdbda324f",
+          "id": "eab51d3d0e4ca61c",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "The Sequence Radar #906: Last Week in AI: Open Models, Intelligent Robots, and the Price of Conviction - TheSequence | Jesus Rodriguez",
-          "summary": "The Sequence Radar #906: Last Week in AI: Open Models, Intelligent Robots, and the Price of Conviction TheSequence | Jesus Rodriguez",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0VjdIVWhXUlpBeG1QblN2cS1ILVhXZnVIUHJlbWxWTDdiQ3pRbV9UZDBldVptY01LNFZNZzRFcDEwQUM0d3AtZklHUjVJNDJrWHdFV3FlV1JHSEotdXoxQzgxa3hrQ1lKc2tBOEZCTHJhQjhGX3c?oc=5",
-          "published_at": "2026-08-02T11:02:22+00:00",
+          "title": "Why Is Google DeepMind Calling Gemini Robotics 2 A Step Toward Physical AGI? - TechRound",
+          "summary": "Why Is Google DeepMind Calling Gemini Robotics 2 A Step Toward Physical AGI? TechRound",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ2lVQ0VzNGdFZWJOSFNSN2FoX09CSE5HczM5b0ZLekZSNXRfdlVZVXg4UTBqYXZMOFJTRjI0M1dQbGlWaGEtQl9Jd1FmTmFIcTU2TjlkRXJLMEF3Z3FxVUhlSFpINmdPbFNDaEFUZnoyNVJram5YNUdQZkpTd1BSYXNIUzRyd2NyX3JsLWxwNV94Vmc0T1g0RE9tU2lpMXJTbVA2c0ZabGxXMXQ0MEJvdzBaMWptbzYtcWkzZG1JYW5JZw?oc=5",
+          "published_at": "2026-08-03T11:05:22+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -178,40 +66,39 @@
     },
     {
       "category": "robotics",
-      "title": "现代汽车加码“物理AI”，机器人被视为核心增长引擎",
-      "english_term": "Physical AI（物理人工智能，指让AI系统具备与真实物理世界交互能力的技术方向，涵盖机器人、自动驾驶等载体）",
-      "script": "韩国现代汽车集团被曝正在加大对“物理AI”领域的投入，将其视为超越传统整车制造业务的新增长点。所谓物理AI，指的是让人工智能系统具备感知、决策并直接作用于真实物理世界的能力，机器人正是这一理念最典型的载体。现代此前已通过收购波士顿动力布局人形与四足机器人领域，此次报道进一步指出，公司正将物理AI提升至集团战略层面，试图把汽车制造中积累的精密制造、供应链管理和大规模量产经验，迁移复用到机器人硬件的生产制造中。这一战略逻辑背后是一个行业共识：机器人产业当前的核心瓶颈之一并非算法能力，而是硬件的可靠性、成本控制与量产良率，而这恰恰是传统制造业巨头相对AI原生创业公司更具优势的领域。现代汽车若能将其在发动机、变速箱等精密机械部件上积累的工程能力复用到机器人执行器与关节模组的制造上，理论上可以缩短机器人从原型到量产的周期。不过，报道本身信息较为简略，并未透露现代具体的投资金额、时间表或已确定的产品路线图，因此这一战略布局目前更多停留在方向性表态阶段。从产业格局看，现代此举与丰田、本田等传统车企近年陆续涉足机器人领域的趋势一致，反映出车企普遍将自身制造能力视为进入机器人赛道的天然跳板。后续需要等待现代公布具体的机器人产品线规划、量产时间表以及与波士顿动力现有业务的整合方案，才能判断这一战略是停留在概念层面还是已进入实质执行阶段。",
-      "summary": "现代汽车被曝正将“物理AI”提升至集团战略层面，计划把汽车制造中的精密工程与量产经验复用到机器人硬件生产。",
-      "duration_seconds": 145,
+      "title": "美国限制外国先进机器人进口，评估对中国影响有限",
+      "english_term": null,
+      "summary": "美国出台针对外国先进机器人产品进口的限制措施，市场分析认为此举对中国相关产业的实际冲击相对有限。",
+      "script": "美国近日出台了一项限制外国先进机器人产品进口的措施，这被视为在人工智能和先进制造领域持续收紧对外国技术依赖的又一动作。根据财经媒体Investing.com的报道，尽管这项限制被普遍认为主要针对中国相关的机器人供应链，但市场分析人士评估认为，实际对中国厂商的冲击相对有限。原因主要有几个方面：一是全球机器人产业链高度分散，核心零部件比如精密减速器、伺服电机、控制器等来自多个国家和地区，限制进口整机并不能完全切断技术和零部件的流通；二是中国机器人厂商近年来在国内市场的份额持续提升，尤其是在工业机器人和服务机器人领域，对美国市场的直接出口依赖度本身也在下降；三是限制措施的具体执行范围、认定标准以及豁免条款等细节，目前公开信息还比较有限，实际执行力度有待观察。这类贸易限制措施的出台背景，通常与更广泛的科技脱钩和供应链安全考量相关，机器人作为兼具民用和潜在军事应用价值的关键技术领域，一直是中美科技竞争中的焦点之一。不过需要注意的是，目前这条信息主要来自单一财经媒体的报道，尚未看到美国官方公告的具体条文内容或者中国官方的正式回应，因此关于限制的具体范围、生效时间和执行细则，还需要等待更权威的信息源进一步确认。后续需要关注美国相关部门是否会发布正式的规则文本，以及中方是否会作出对等回应措施。",
+      "duration_seconds": 140,
       "is_unverified": true,
-      "confidence_note": "来源为单一媒体的简短报道，缺乏具体金额、时间表等可交叉验证的细节，暂无第二独立信源佐证。",
+      "confidence_note": "仅有单一财经媒体来源（Investing.com转载），缺乏美国官方公告原文或中方回应的交叉确认，标记为未核实，具体政策细节有待官方信息补充。",
       "fact_status": {
         "confirmed": [
-          "现代汽车此前已收购波士顿动力，涉足机器人领域"
+          "有报道称美国出台了外国先进机器人进口限制措施"
         ],
         "claims": [
-          "现代正将物理AI提升至集团战略层面，视为超越汽车业务的新增长点"
+          "市场分析认为对中国相关产业冲击有限"
         ],
         "analysis": [
-          "车企布局机器人的核心逻辑在于制造与量产能力的复用",
-          "此举与丰田本田等车企进军机器人的行业趋势一致"
+          "机器人供应链高度全球化，整机进口限制难以完全阻断技术流通"
         ]
       },
       "source_ids": [
-        "f56b18c6376cd870"
+        "0c1d9faebd050677"
       ],
       "sources": [
         {
-          "id": "f56b18c6376cd870",
+          "id": "0c1d9faebd050677",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Hyundai’s big bet beyond cars: Physical AI in 2 minutes - The Korea Herald",
-          "summary": "Hyundai’s big bet beyond cars: Physical AI in 2 minutes The Korea Herald",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5pX2FXM3J4aTNqRVhITTlUcXdiVWhIVVAyR0JYNFZhXzJrQUt6TXVOSkNHeFFvd0czWjJwb3ZqQXVhMmFBUUFvM0dRa1dMek1FLVdtNUVJcw?oc=5",
-          "published_at": "2026-08-02T10:33:11+00:00",
+          "title": "US restricts foreign advanced robot imports, China impact seen limited By Investing.com - Investing.com Canada",
+          "summary": "US restricts foreign advanced robot imports, China impact seen limited By Investing.com Investing.com Canada",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObUZLaG5mV1dkLVlnanJ5TUhCVW9mZ2FTb3RUV2s4TVhiS0NhcWt4Z2RoWkRERWpXUkx6cVM4RzUwQ1VPZ1g4R3Q4eElhU09zM1VqcVM3YkVJMHJjcC1zaEI1NXJiNUxfMWQyRkxYeUgxYUpRZmNGcWl1LWI2OUVxRTBhSUxRSUZBR015c2RRdUNJTWd1NDJzVVltbmJiTVJOQ0M1NkJoaExBQllQQTlhQTBKMldacU1aVWg1Ym9nWGJVZW5sbjNfeFRB?oc=5",
+          "published_at": "2026-08-03T11:06:45+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -219,39 +106,40 @@
     },
     {
       "category": "robotics",
-      "title": "人形机器人主持南洋理工大学毕业典礼开场",
-      "english_term": "Humanoid Robot（人形机器人，具备类人躯干、四肢与头部结构，可执行类人动作与交互的机器人）",
-      "summary": "新加坡南洋理工大学在毕业典礼上启用人形机器人担任开场环节，展示了机器人在语音交互与舞台展示方面的应用能力。",
-      "script": "新加坡南洋理工大学近日在其毕业典礼上安排了一场引人注目的开场环节：一台人形机器人登上讲台，为典礼拉开序幕。这类应用虽然更偏向展示性质而非实质性的科研突破，但它反映出人形机器人技术已经发展到可以在正式、高关注度的公共场合稳定完成语音交互、动作展示等任务的阶段。从技术角度看，让人形机器人在真实礼堂环境中完成开场表演，需要解决多个工程挑战：首先是语音识别与自然语言生成需要在有背景噪音、掌声与环境回声干扰的场景下保持稳定；其次是双足或轮式平衡控制需要应对讲台、台阶等复杂地面条件；再者，人机协同的舞台调度也考验着机器人系统与现场工作人员的时序配合精度。虽然报道并未透露该机器人的具体型号、制造商或技术参数，但这类高校活动中的机器人应用正变得越来越常见，说明教育机构正在将机器人作为展示自身科技实力与吸引公众关注的一种途径，同时也为在校学生和公众提供了近距离接触前沿机器人技术的机会。从产业角度看，这类场景通常由高校自身的机器人实验室或本地科技公司提供技术支持，也可能是某个人形机器人厂商借助高曝光度活动进行的市场推广。总体而言，这一事件本身技术含量有限，更多具有科普与展示价值，后续需要等待官方或参与厂商公开更多关于该机器人具体技术细节的信息，才能评估其实际能力边界。",
-      "duration_seconds": 135,
-      "is_unverified": true,
-      "confidence_note": "来源为单一媒体的简短报道，未提供机器人具体型号与技术细节，暂无第二独立信源交叉确认。",
+      "title": "前DeepMind团队创立Reimagine Robotics，主打“边工作边学习”机器人",
+      "english_term": null,
+      "summary": "由前Google DeepMind应用机器人团队负责人创立的Reimagine Robotics正式浮出水面，宣称其机器人系统无需专门程序员即可在实际工作中持续学习。",
+      "script": "一家名为Reimagine Robotics的新公司近日结束隐身状态，正式对外公布其技术方向。根据The Robot Report的报道，这家公司由多位前Google DeepMind应用机器人团队的负责人创立，目标是打造能够“在工作中学习”的机器人系统，也就是机器人不再依赖工程师为每一个新任务编写专门的控制程序，而是能够通过与环境和任务的持续交互，自主积累经验并提升执行能力。这种思路和当前机器人学术界及产业界都在探索的方向高度契合，核心逻辑是把机器人的能力获取过程从传统的“工程师手写规则加调参”转变为“模型自主学习加持续适应”，这背后往往涉及模仿学习、强化学习以及基础模型微调等多种技术路径的结合。创始团队来自DeepMind应用机器人部门，说明这批技术骨干将大模型研究经验和真实机器人部署经验结合，试图解决当前机器人行业普遍存在的一个痛点：每当机器人需要执行新任务或适应新环境时，往往需要大量的人工编程和调试成本，这严重限制了机器人在中小规模、多品种场景下的落地效率。如果Reimagine Robotics的技术路线能够真正降低机器人部署的边际成本，将对仓储物流、柔性制造等领域的自动化改造产生实际影响。不过目前公开信息还比较有限，包括具体产品形态、目标应用场景、融资规模等细节均未披露，这类初创公司在“结束隐身”阶段的宣传，往往需要观察后续是否有实际产品发布和客户案例来验证其技术成熟度。",
+      "duration_seconds": 155,
+      "is_unverified": false,
+      "confidence_note": "来自专业机器人媒体The Robot Report的报道，为单一来源，但属于公司官方对外公布信息，可信度较高，具体技术细节和产品化进展仍需后续观察。",
       "fact_status": {
         "confirmed": [
-          "南洋理工大学毕业典礼上使用了人形机器人担任开场环节"
+          "Reimagine Robotics公司结束隐身状态并公开技术方向",
+          "创始团队来自前Google DeepMind应用机器人部门"
         ],
         "claims": [
-          "报道未说明机器人具体型号与制造商"
+          "公司宣称其机器人系统无需专门程序员即可持续学习"
         ],
         "analysis": [
-          "高校活动中的机器人应用更多具有展示与科普价值，技术含量有限"
+          "降低机器人部署边际成本是行业普遍痛点，实际效果需产品落地验证"
         ]
       },
       "source_ids": [
-        "465540839f37e2ea"
+        "641c2da6e0a7da40"
       ],
       "sources": [
         {
-          "id": "465540839f37e2ea",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
+          "id": "641c2da6e0a7da40",
+          "source": "The Robot Report",
+          "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Humanoid robot opens NTU convocation ceremony - CNA",
-          "summary": "Humanoid robot opens NTU convocation ceremony CNA",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZWJzd1pXS3p1cXZPWDQzUUxmSWU5cENQSHlHZXRBWExRV0dXRktnZnpBcXZiN0h4NGpad3J0VnJ4UUtlUFFLay1yM3hraU9Rbmo5NjU4UUl3MG5STlNZVFFfT1NJRU5iNjB2U1dzS05MS3BveEpmMElaTnFJRkVpT1lMNjJLVFphMnRjQ0x1MGdJTEowSnhj?oc=5",
-          "published_at": "2026-08-02T11:01:47+00:00",
+          "title": "Reimagine Robotics emerges from stealth with robots that ‘learn on the job’",
+          "summary": "Reimagine Robotics, founded by former Google DeepMind Applied Robotics leaders, is developing systems that do not require specialized programmers. The post Reimagine Robotics emerges from stealth with robots that ‘learn on the job’ appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/",
+          "published_at": "2026-08-03T07:00:51+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -259,37 +147,110 @@
     },
     {
       "category": "robotics",
-      "title": "配送机器人码头坠海视频引发热议",
-      "english_term": "Delivery Robot（配送机器人，用于最后一公里物流配送的自主移动机器人）",
-      "summary": "一段配送机器人从码头边缘坠入水中的视频在社交媒体上广泛传播，引发公众对自主移动机器人感知与避障可靠性的讨论。",
-      "script": "社交媒体平台上流传出一段视频，画面显示一台配送机器人在码头附近作业时未能识别边缘，径直冲下码头坠入水中，视频迅速引发广泛关注和讨论。虽然这只是一起孤立事件，且候选信息中并未说明涉事机器人的品牌、型号或事发具体地点，但这一场景恰好触及了当前自主移动机器人产业最核心的技术挑战之一：环境感知与边缘检测的可靠性。配送机器人通常依赖激光雷达、摄像头与超声波传感器等多种传感器融合的方案来构建周边环境地图，并通过路径规划算法实时判断可通行区域。码头、台阶、悬空边缘这类场景对传感器提出了更高要求，因为水面、反光地面等特殊材质容易造成传感器数据异常或误判，进而导致机器人的避障系统失效。这类“机器人翻车”视频虽然常常被当作娱乐素材传播，但从工程角度看，它们也从侧面反映出当前商用配送机器人在复杂边缘场景下的鲁棒性仍有提升空间，尤其是在缺乏高精度先验地图或实时人工监控的开放环境中。行业内部通常将此类事故视为推动传感器冗余设计和失效保护机制迭代的现实案例。由于该事件缺乏权威信源的正式确认与技术细节披露，其发生的具体原因、涉事公司身份均无法核实，后续需要等待相关企业或监管机构对该事故做出正式说明。",
-      "duration_seconds": 125,
+      "title": "综述论文回顾人形与四足机器人现状与开放挑战",
+      "english_term": null,
+      "summary": "一篇新的arXiv综述论文系统评估了人形与四足机器人在硬件、运动控制、自主性、数据与应用方面的现状，并指出走向大规模应用仍需克服的关键难题。",
+      "script": "一篇发表在arXiv上的综述论文，对人形机器人（humanoid robots）和四足机器人（quadrupedal robots）的发展现状做了系统性梳理。论文作者指出，这两类腿式机器人具备改变人类工作、互动乃至与智能机器共存方式的潜力，因此有必要评估它们目前在硬件、运动控制（locomotion）、自主性（autonomy）、数据积累以及实际应用这五个维度上的能力边界。论文首先总结了近年来的关键进展，包括更轻量化和更高扭矩密度的执行器设计、基于强化学习的复杂地形运动控制策略，以及依托大规模仿真环境进行的训练流程等，这些进步共同推动了腿式机器人在动态平衡、崎岖地形行走等方面能力的显著提升。与此同时，论文也系统列出了当前阻碍大规模应用的关键开放性挑战，例如机器人在真实世界长时间自主运行的可靠性不足，训练数据的规模和多样性相对于视觉、语言等领域仍然稀缺，硬件成本和维护复杂度限制了商业化落地节奏，此外机器人在非结构化、开放环境中的泛化能力也远未达到实用化门槛。这篇综述的价值在于，它没有停留在单点技术突破的报道层面，而是试图给出一个相对全面的行业能力坐标系，帮助研究者和从业者判断当前腿式机器人整体处在什么发展阶段，哪些方向仍是瓶颈。需要说明的是，这是一篇新发布的预印本论文，尚未经过同行评审，其中的观点总结和趋势判断反映的是作者团队的视角，具体结论的严谨性和覆盖面还需要学术界进一步检验和讨论。后续需要关注该综述在同行评审阶段是否会有实质性修改，以及其提出的开放挑战是否会被后续研究逐一验证或反驳。",
+      "duration_seconds": 165,
       "is_unverified": true,
-      "confidence_note": "来源为社交媒体病毒视频，缺乏权威信源对事故细节、涉事公司与地点的确认，可信度有限。",
+      "confidence_note": "来自arXiv的预印本论文，尚未经过同行评审，内容为综述性质，观点总结代表作者团队视角，需注意其结论的时效性和覆盖范围局限。",
       "fact_status": {
-        "confirmed": [],
+        "confirmed": [
+          "arXiv上发布了一篇关于人形与四足机器人现状的综述论文"
+        ],
         "claims": [
-          "社交媒体流传一段配送机器人坠入水中的视频"
+          "论文作者认为当前存在数据稀缺、可靠性不足等多项开放挑战"
         ],
         "analysis": [
-          "此类事件反映出配送机器人在复杂边缘场景下环境感知与避障能力仍存在局限"
+          "综述类论文有助于把握行业整体发展阶段，但具体判断需要同行评审和后续研究检验"
         ]
       },
       "source_ids": [
-        "c288078c18d515e4"
+        "03034aa01af5c4c8"
       ],
       "sources": [
         {
-          "id": "c288078c18d515e4",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
+          "id": "03034aa01af5c4c8",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Delivery Robot Plunges Off Pier in Viral Clip - x.com",
-          "summary": "Delivery Robot Plunges Off Pier in Viral Clip x.com",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5BclZibjdMd0N5LU5haTNrZ1IwMGprTHhYMjdNaktIRk9uc1FoWE05bEI1eS00RHhVUnpuU2QxMGNkOGJMMFhMT19ZLVd2ekNyUUltRE16WQ?oc=5",
-          "published_at": "2026-08-02T09:54:01+00:00",
+          "title": "Advances, challenges, and opportunities for legged robots",
+          "summary": "arXiv:2607.28952v1 Announce Type: new Abstract: Humanoid and quadrupedal robots have the potential to revolutionize the way we work, interact, and coexist with intelligent machines. To understand their effects on society and how they can enable scientific discovery, we assess the current capabilities of these systems along hardware, locomotion, autonomy, data, and applications. We identify recent advances and key open challenges that must be overcome to enable widespread adoption and new use cases for legged robots. Last, we provide an outlook on the future of legged robots, exploring their ethical considerations, economic potential, policy implications, and broader societal effects.",
+          "url": "https://arxiv.org/abs/2607.28952",
+          "published_at": "2026-08-03T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "多篇arXiv新论文聚焦操作鲁棒性、多机协同与自动驾驶世界模型",
+      "english_term": "World Action Model（世界动作模型，联合建模机器人动作与未来视觉状态变化的模型）",
+      "summary": "本期arXiv机器人板块集中出现多篇论文，分别探讨视觉分布偏移下的操作鲁棒性、异构多机器人协同、以及自动驾驶中的潜在意图建模等方向。",
+      "script": "除了综述性论文，这一期arXiv机器人板块还集中出现了几篇聚焦具体技术问题的新论文，覆盖了操作鲁棒性、多机器人协同和自动驾驶世界模型等方向。第一篇论文提出了ST-WAM方法，关注的问题是世界动作模型（World Action Model）在视觉分布发生偏移时的鲁棒性下降现象。研究者观察到，当模型依赖像素级的未来画面生成作为监督信号时，容易把与任务无关的视觉内容和真正影响动作决策的状态变化混杂在一起，作者将这种现象称为“训练分布幻觉”，也就是模型在面对视觉条件变化后的场景时，生成的未来预测会失真，进而影响动作决策的可靠性。第二篇论文提出D-VLC，是一种面向异构机器人集群的去中心化视觉-语言协同框架，试图解决传统基于规则的多机器人协同方法难以理解复杂语义指令、且协调不同类型机器人能力较弱的问题，论文借助大语言模型的语言理解和任务推理能力，让不同类型的机器人能够更灵活地根据自然语言指令进行分工协作。第三篇论文Auto-JEPA把联合嵌入预测（Joint-Embedding Predictive Architecture，简称JEPA）的思路引入自动驾驶领域，核心观点是自动驾驶的路径规划并不需要重建完整的未来场景视频或占据栅格，而只需要关注真正影响自车未来动作的关键特征，这种以动作为导向的潜在世界模型有望降低计算开销并提升规划的针对性。这几篇论文虽然方向不同，但共同体现了当前机器人和自动驾驶领域一个较为一致的研究趋势：从追求逼真的像素级未来预测，转向更聚焦于任务相关特征的高效表征学习。需要指出的是，这些均为新发布的预印本论文，尚未经过同行评审，具体实验设置、基准对比和复现情况还有待学术界进一步检验。",
+      "duration_seconds": 180,
+      "is_unverified": true,
+      "confidence_note": "均来自arXiv预印本，尚未经过同行评审，具体量化结果和实验对比需等待正式发表或第三方复现验证。",
+      "fact_status": {
+        "confirmed": [
+          "三篇论文均已在arXiv公开发布"
+        ],
+        "claims": [
+          "作者认为现有像素生成式世界模型存在训练分布幻觉问题",
+          "作者认为动作导向的潜在世界模型可提升自动驾驶规划效率"
+        ],
+        "analysis": [
+          "从像素级预测转向任务相关特征表征是当前机器人与自动驾驶研究的共同趋势之一"
+        ]
+      },
+      "source_ids": [
+        "3c85574908c4944e",
+        "f22d68c624fc48a2",
+        "3b21b80935291651"
+      ],
+      "sources": [
+        {
+          "id": "3c85574908c4944e",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts",
+          "summary": "arXiv:2607.28993v1 Announce Type: new Abstract: World Action Models (WAMs) have emerged as a promising paradigm by jointly modeling robot actions and future visual dynamics. However, their reliance on pixel-generative future supervision can entangle action-relevant state transitions with task-irrelevant visual content, limiting robustness under visual distribution shifts. We identify Training-Distribution Hallucination, a recurring phenomenon in which futures conditioned on visually shifted observations hallucinate training-domain content rather than remain faithful to the current scene. A controlled frame-triplet diagnosis further shows that DINOv3 features remain more stable across visual shifts while better preserving task-state distinctions than Wan-VAE latents. Rather than correcting the predicted futures, we propose Semantic-Temporal WAM (ST-WAM) to improve action robustness by using DINOv3 as a shared semantic representation for future prediction and history retrieval while retaining fine-grained VAE dynamics. Its Dual-Space Future Experts (DSFE) jointly predict future VAE latents and DINO features, while Current-Anchored Intent Retrieval (CAIR) retrieves task-relevant evide",
+          "url": "https://arxiv.org/abs/2607.28993",
+          "published_at": "2026-08-03T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "f22d68c624fc48a2",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "D-VLC: Decentralized Vision-Language Collaboration for Heterogeneous Embodied Multi-Robot Systems in Unknown Environments",
+          "summary": "arXiv:2607.29009v1 Announce Type: new Abstract: Multi-robot systems, particularly heterogeneous robot swarms, can improve the efficiency of complex task execution through parallel collaboration and complementary capabilities. However, conventional rule-based methods rely on predefined task models and specialized decision making programs, making it difficult to understand complex semantic instructions and coordinate heterogeneous robots. LLMs introduce strong language understanding and task reasoning capabilities, allowing multi-robot systems to interpret instructions, decompose tasks, and assign roles according to task semantics. VLMs further incorporate visual perception, enabling robots to reason about objects, regions, and spatial relationships in physical environments. Nevertheless, existing LLM/VLM based methods often depend on known maps, centralized and synchronized decision making, limiting their generalization to heterogeneous robots and unseen tasks. We therefore propose a framework that combines decentralized asynchronous reasoning, lightweight information sharing, capability aware collaboration, and a unified action interface, enabling general purpose VLMs to generate r",
+          "url": "https://arxiv.org/abs/2607.29009",
+          "published_at": "2026-08-03T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "3b21b80935291651",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving",
+          "summary": "arXiv:2607.29031v1 Announce Type: new Abstract: Existing autonomous-driving world models typically perform dense prediction of future videos, occupancy states, BEV representations, or agent motion. We argue that planning need not reconstruct the complete future world, but only focus on scene features that affect future ego action. Based on this perspective, we propose Auto-JEPA, an action-oriented latent world model that learns continuous future driving intent through joint-embedding prediction. Given visual observations, egomotion history, and navigation commands, Auto-JEPA predicts an intent embedding aligned with the latent representation of the future ego trajectory. The predicted intent retrieves executable trajectories from a fixed trajectory memory, which are then ranked by a scene-conditioned candidate selection module. Auto-JEPA keeps the visual encoder frozen, requires no explicit perception annotations, and uses no learned trajectory generator. By optimizing only task-specific modules for trajectory representation, intent prediction, and candidate selection, Auto-JEPA achieves 91.3 PDMS on NAVSIM v1 and 89.1 EPDMS on NAVSIM v2. Semantic occlusion experiments show that ma",
+          "url": "https://arxiv.org/abs/2607.29031",
+          "published_at": "2026-08-03T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -297,222 +258,270 @@
     },
     {
       "category": "world",
-      "title": "印尼渡轮起火5人死亡41人失踪",
+      "title": "苏丹无人机袭击法庭现场致35人死亡",
       "english_term": null,
-      "summary": "一艘载有约250人的渡轮在印尼马都拉岛附近起火，目前已确认5人死亡，41人下落不明，起火原因尚不清楚。",
-      "script": "印尼一艘渡轮周末在马都拉岛附近海域起火，船上载有约250名乘客和船员。据搜救部门通报，目前已确认至少5人死亡，另有41人下落不明，起火原因仍在调查中。当地搜救力量已经展开大规模搜救行动，试图在海域中寻找失踪人员，但由于事发海域及具体救援进展的细节有限，外界对整体伤亡规模仍缺乏完整评估。类似渡轮火灾事故在东南亚海域并不罕见，往往与船只超载、消防设备老化或货物装载不当等因素有关，但目前没有信息表明本次事故的具体成因属于上述哪一类。印尼是群岛国家，渡轮是连接各岛屿的重要交通工具，客运量大、部分老旧船只安全标准参差不齐，是该地区渡轮事故频发的结构性背景之一。已确认的事实包括：渡轮在马都拉岛附近起火，船上约250人，目前5人确认死亡，41人失踪；印尼当局已展开搜救行动。各方主张层面,目前没有官方或第三方对起火原因做出正式认定，调查仍在进行中。分析认为,考虑到失踪人数众多，最终死亡人数存在进一步上升的可能性，后续需要等待印尼交通部门或海事安全机构公布正式调查报告，以确定起火的具体原因及是否存在监管疏漏。",
-      "duration_seconds": 115,
-      "is_unverified": false,
-      "confidence_note": "事件由BBC与DW两个独立Tier2来源交叉确认，基本事实可信度较高，但起火原因与最终伤亡数字仍待官方调查结果。",
+      "summary": "人权组织称苏丹军方对一处准军事部队控制村庄的法庭审判现场发动无人机袭击，造成35人死亡，苏丹军方尚未回应相关指控。",
+      "script": "苏丹持续的武装冲突再度出现严重平民伤亡事件。据人权组织指控，苏丹军方对一处由准军事部队控制的村庄内正在进行的法庭审判现场发动了无人机袭击，导致35人死亡。目前苏丹军方尚未就袭击中是否造成平民死亡的指控作出公开回应。苏丹自冲突爆发以来，军方与快速支援部队之间的对抗持续升级，无人机已经成为双方交战中日益重要的武器装备，这类低成本无人机被广泛用于侦察和打击，但也因其精度和使用规范问题频频引发平民伤亡争议。此次袭击目标是一处法庭审判场所，这类具有明显民事属性的场所遭到打击，进一步凸显了当前苏丹冲突中区分军事目标和平民设施的困难，也可能加剧国际社会对交战双方是否遵守国际人道法的关切。目前关于此次事件的信息主要来自人权组织的调查通报，苏丹军方官方立场尚未披露，因此关于袭击的具体军事意图、是否存在预先情报误判等细节，仍有待多方进一步核实。苏丹冲突自爆发以来已经造成大规模人道主义危机，包括大量人口流离失所和粮食安全问题，此次事件也将成为国际社会持续关注苏丹局势的又一个焦点。后续需要关注苏丹军方是否会对袭击指控作出正式回应，以及是否有独立国际机构介入核实伤亡情况。",
+      "duration_seconds": 125,
+      "is_unverified": true,
+      "confidence_note": "伤亡数字和责任归属主要来自人权组织的单方指控，苏丹军方尚未回应，需等待更多独立信源交叉确认。",
       "fact_status": {
         "confirmed": [
-          "印尼渡轮在马都拉岛附近起火",
-          "已确认5人死亡，41人失踪",
-          "船上约250人"
+          "苏丹一处法庭审判现场遭无人机袭击"
         ],
-        "claims": [],
+        "claims": [
+          "人权组织称袭击造成35人死亡，指向苏丹军方所为"
+        ],
         "analysis": [
-          "失踪人数较多，最终死亡人数可能进一步上升",
-          "东南亚渡轮事故频发与船只老化及监管环境有关"
+          "无人机在苏丹冲突中的广泛使用增加了平民伤亡风险和责任认定难度"
         ]
       },
       "source_ids": [
-        "9d5312ec4c78b23f",
-        "9bc4f08dad097522"
+        "ee67b97bb817b26f"
       ],
       "sources": [
         {
-          "id": "9d5312ec4c78b23f",
+          "id": "ee67b97bb817b26f",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
-          "summary": "The vessel with at least 250 people on board caught fire off Madura island.",
-          "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-02T10:46:47+00:00",
+          "title": "Sudan army drone strike on court session kills 35, rights group says",
+          "summary": "The army has not commented on claims that civilians died in the attack on a paramilitary-held village.",
+          "url": "https://www.bbc.co.uk/news/articles/ce85097leydo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-03T10:29:24+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "摩洛哥否认对休达边境事件负责，死亡人数逼近百人",
+      "english_term": null,
+      "summary": "数万移民四天前从摩洛哥涌入西班牙飞地休达，事件死亡人数持续攀升接近百人，摩洛哥方面否认对此负责。",
+      "script": "西班牙北非飞地休达附近发生的大规模移民越境事件持续引发关注，事件已经过去四天，死亡人数仍在攀升，目前已经接近一百人。据报道，数万名移民在短时间内从摩洛哥一侧涌入这一西班牙领土，造成了严重的人员踩踏和边境管控冲突，摩洛哥政府方面已经公开否认对事件中出现的死伤情况承担责任。休达长期以来都是非洲大陆移民试图进入欧洲的重要通道之一，其特殊的地理位置使其成为摩洛哥与西班牙、乃至摩洛哥与整个欧盟之间移民管控政策的敏感前沿。此类大规模越境事件往往涉及复杂的推力因素，包括原籍国的经济状况、地区冲突，以及沿途人口贩运网络的组织行为，而边境两侧的安保应对方式，也常常成为人道组织和人权机构关注和批评的焦点。目前关于死亡人数持续上升的具体原因，包括是踩踏、冲突还是其他因素导致，以及摩洛哥和西班牙两国官方各自的说法是否存在出入，报道中的细节还比较有限。摩洛哥方面的否认表态，说明这一事件背后存在明显的责任归属争议，西班牙及欧盟层面是否会介入调查或者提出正式交涉，也是需要观察的后续动向。这类事件也再次将欧洲移民政策与非洲移民流动之间的长期张力摆上台面。后续需要关注西班牙官方通报的最终死亡人数，以及摩洛哥与西班牙两国是否会启动联合调查。",
+      "duration_seconds": 130,
+      "is_unverified": true,
+      "confidence_note": "死亡人数为持续更新中的统计数字，摩洛哥官方否认责任，西班牙及独立机构的核实结果尚未完全披露，需持续关注官方通报。",
+      "fact_status": {
+        "confirmed": [
+          "数万移民四天前从摩洛哥进入西班牙飞地休达",
+          "事件死亡人数持续攀升"
+        ],
+        "claims": [
+          "摩洛哥政府否认对事件死伤负责"
+        ],
+        "analysis": [
+          "责任归属存在争议，事件反映欧洲与北非移民管控长期存在的结构性张力"
+        ]
+      },
+      "source_ids": [
+        "af90bb116e2f111e"
+      ],
+      "sources": [
+        {
+          "id": "af90bb116e2f111e",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Morocco denies responsibility for events at its border with Spain, as deaths near 100",
+          "summary": "Four days after tens of thousands of migrants crossed from Morocco into the small Spanish territory of Ceuta, the death toll continues to rise -- nearing 100.",
+          "url": "https://www.npr.org/2026/08/03/nx-s1-5915771/morocco-denies-responsibility-for-events-at-its-border-with-spain-as-deaths-near-100",
+          "published_at": "2026-08-03T08:44:09+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "翁山素季首次证实的对外接触照片释出，家人重燃希望",
+      "english_term": null,
+      "summary": "缅甸军政府公布翁山素季会见红十字国际委员会官员的照片，这是两年半来首次证实的外部接触，其子表示这带来了希望。",
+      "script": "缅甸军政府近日公布了一组照片，显示前国务资政、诺贝尔和平奖得主翁山素季与红十字国际委员会代表阿尔诺·德巴埃克会面的画面。这是自2021年军事政变以来，两年半时间里首次被证实的、她与外部人士的接触，照片中81岁的翁山素季看起来健康状况良好。翁山素季自2021年政变后被军方拘押，此后外界关于她具体健康状况和拘押条件的信息一直非常有限，此次军政府主动释出会面照片，被外界解读为一个值得关注的信号，但对于其背后的政治考量，各方解读不一。她的儿子金·阿里斯在接受采访时表示，这些照片让他“第一次有了希望”，这也从侧面反映出此前家属长期处于信息真空、对其母亲状况深感忧虑的处境。红十字国际委员会作为中立人道组织，其代表能够获准探视，通常被视为在拘押人道待遇监督方面具有一定的象征意义，但这并不等同于对其法律地位或政治处境的实质性改变。目前关于此次会面的具体内容、探视频率安排以及缅甸军政府是否会进一步放开外部接触，官方披露的信息仍然有限。缅甸自政变以来局势持续动荡，翁山素季的处境也一直是国际社会关注缅甸人权状况的重要风向标之一。后续需要关注红十字国际委员会是否会有进一步的探视安排，以及缅甸军政府对她未来处境是否会有更多公开说明。",
+      "duration_seconds": 130,
+      "is_unverified": false,
+      "confidence_note": "由BBC、NPR和DW三家独立媒体交叉报道，均引用缅甸军政府发布的官方照片及家属采访，可信度较高。",
+      "fact_status": {
+        "confirmed": [
+          "缅甸军政府公布翁山素季与红十字国际委员会官员会面的照片",
+          "这是两年半来首次证实的对外接触"
+        ],
+        "claims": [
+          "其子表示这些照片带来了希望"
+        ],
+        "analysis": [
+          "军政府主动公开会面信息可能具有政治信号意义，但不等同于其处境发生实质变化"
+        ]
+      },
+      "source_ids": [
+        "4e23474e12330d52",
+        "cb3fcbf29da96c09",
+        "4d2a3496d6614612"
+      ],
+      "sources": [
+        {
+          "id": "4e23474e12330d52",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Aung San Suu Kyi appears healthy in first confirmed outside contact for 2.5 years",
+          "summary": "Photos newly released by Myanmar's military government show Suu Kyi meeting with an ICRC official.",
+          "url": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-03T10:58:48+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "9bc4f08dad097522",
+          "id": "cb3fcbf29da96c09",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Rare photos of ex-Myanmar leader Aung San Suu Kyi give her family hope",
+          "summary": "Kim Aris, son of Aung San Suu Kyi, told NPR that photographs of his mother meeting a foreign official gave him \"a reason to hope\" for the first time since the military coup that ousted her in 2021.",
+          "url": "https://www.npr.org/2026/08/03/nx-s1-5917915/aung-san-suu-kyi-myanmar-rare-photos-kim-aris",
+          "published_at": "2026-08-03T09:42:04+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "4d2a3496d6614612",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Indonesia: At least five dead in ferry fire",
-          "summary": "Search and rescue officials report some 41 missing after a fire on a ferry near the Indonesia island of Madura. The cause of the blaze remains unclear.",
-          "url": "https://www.dw.com/en/indonesia-at-least-five-dead-in-ferry-fire/a-78206895?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-02T10:43:00+00:00",
+          "title": "Myanmar: Aung San Suu Kyi meets Red Cross official, junta says",
+          "summary": "Myanmar’s military-led government released images from the 81-year-old Nobel laureate’s meeting with ICRC’s resident representative for Myanmar, Arnaud de Baecque.",
+          "url": "https://www.dw.com/en/myanmar-aung-san-suu-kyi-meets-red-cross-official-junta-says/a-78211532?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-03T08:28:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "西班牙休达移民危机引发政治风暴",
+      "category": "finance",
+      "title": "美日联合干预汇市支撑日元",
       "english_term": null,
-      "summary": "约6万人从摩洛哥进入西班牙北非飞地休达，引发西班牙国内及欧洲层面的移民政策争议，极右翼集会遭当地居民反制。",
-      "script": "西班牙北非飞地休达近期出现大规模移民越境事件，据报道约6万人从摩洛哥进入该地区，这一数字规模在当地历史上较为罕见，迅速演变为一场牵动西班牙国内政治乃至欧洲移民政策辩论的风暴。BBC的分析指出，这场危机在社交媒体的放大效应下被迅速政治化，暴露出欧洲在移民问题上长期存在的深层分歧。西班牙首相桑切斯此前一直以支持移民的开明立场著称，但此次危机让他在国内面临巨大压力，同时也让他在欧盟层面的移民政策协调上面临挑战。与此同时，极右翼团体计划在休达举行反移民集会，但遭到数百名当地居民自发聚集抵制，集会最终未能如期举行，这也从侧面反映出当地社会内部对移民问题的态度并非铁板一块。已确认的事实包括：约6万人从摩洛哥越境进入休达；极右翼反移民集会计划遭到当地居民抵制而未能举行。各方主张层面，桑切斯政府强调将继续坚持人道主义处理原则，而反对党及部分欧洲声音则批评现有移民政策失控。分析认为，这场危机可能成为西班牙国内政治格局变化的催化剂，也可能进一步推动欧盟内部就共同移民政策展开新一轮激烈辩论。后续需要等待西班牙政府公布具体的移民安置与遣返政策安排，以及欧盟层面是否会介入协调。",
-      "duration_seconds": 125,
+      "summary": "美国和日本两国领导人确认已联合干预外汇市场以支撑日元汇率，美元兑日元随后走弱。",
+      "script": "外汇市场出现了一次值得关注的政策性联动。据报道，美国和日本两国领导人确认，双方已经联合采取行动干预外汇市场，以支撑近期持续走弱的日元汇率，受此消息影响，美元兑日元汇率随后走弱。汇率干预通常是指一国或多国货币当局直接在外汇市场上买卖本币或外币，以达到影响汇率走势的目的，这种操作往往被视为在市场自发力量难以扭转某种趋势时，官方出手校正的信号。日元近年来持续承压，背景包括日美两国货币政策的利差、全球资金避险偏好变化，以及日本国内长期的低利率环境等多重因素叠加。此次美国主动参与联合干预，而不仅是日本单方面行动，说明美方也认为日元过度贬值可能对全球金融市场稳定和贸易关系产生不利影响，这种跨国协调干预在外汇市场历史上并不常见，通常需要双方在政策层面达成较高程度的共识。市场对此类联合干预消息通常反应敏感，短期内可能带来汇率的明显波动，但能否形成趋势性扭转，还要看后续是否有持续的政策配合，包括利率决策、口头干预频率等因素。目前报道中关于具体干预规模、操作时间和资金量等细节披露有限，这类信息通常出于市场敏感性考虑不会被官方完全披露。后续需要关注美元兑日元汇率的持续走势，以及两国央行是否会有进一步的政策跟进动作。",
+      "duration_seconds": 130,
       "is_unverified": false,
-      "confidence_note": "事件由BBC、NPR、半岛电视台三个独立Tier2来源交叉报道，基本事实可信度较高。",
+      "confidence_note": "基于NPR报道，信息来自两国领导人的官方确认，属于一手信息来源，但具体操作细节有限。",
       "fact_status": {
         "confirmed": [
-          "约6万人从摩洛哥越境进入西班牙休达",
-          "极右翼反移民集会计划遭当地居民抵制未能举行"
-        ],
-        "claims": [
-          "桑切斯政府强调坚持人道主义处理原则",
-          "反对党批评现有移民政策失控"
-        ],
-        "analysis": [
-          "危机可能推动西班牙国内政治格局变化及欧盟移民政策新一轮辩论"
-        ]
-      },
-      "source_ids": [
-        "187ff5218273ca3c",
-        "e5ba09b9708064ef",
-        "ac9cc3c0cd54ad9c"
-      ],
-      "sources": [
-        {
-          "id": "187ff5218273ca3c",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "How Spain's migrant crisis created a political storm - whipped up by social media",
-          "summary": "The Ceuta crossings have shaken Europe politically, exposing divisions over the sensitive issue of migration, the BBC's Sarah Rainsford writes.",
-          "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-02T10:32:28+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "e5ba09b9708064ef",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Spain's Pedro Sánchez was a hero of migrants. After Ceuta, he faces his biggest challenge",
-          "summary": "The pro-immigration leader is facing backlash at home and abroad after roughly 60,000 people crossed from Morocco into the Spanish enclave.",
-          "url": "https://www.npr.org/2026/08/01/nx-s1-5916330/spain-sanchez-ceuta-migrants",
-          "published_at": "2026-08-01T18:33:27+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "ac9cc3c0cd54ad9c",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Residents of Spain’s Ceuta shut down far-right anti-migrant rally",
-          "summary": "Hundreds of residents in Spain's North African enclave of Ceuta gathered to oppose a planned far-right rally.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/2-08-sv-ceuta-cancel-farright-protests-es?traffic_source=rss",
-          "published_at": "2026-08-02T09:55:06+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "sports",
-      "title": "登山家尼尔马尔·普尔加在巴基斯坦雪崩中遇难",
-      "english_term": null,
-      "summary": "著名登山家尼尔马尔·普尔加的遗体已在巴基斯坦一处雪崩现场找到，他曾在2019年以六个多月时间登顶全球14座八千米级高峰而闻名。",
-      "script": "曾以惊人速度完成全球14座八千米级高峰攀登壮举而闻名的登山家尼尔马尔·普尔加，近日在巴基斯坦一次登山行动中遭遇雪崩遇难，其遗体已被搜救队伍找到。据报道，他所在的登山团队成员来自世界多个国家，包括美国在内的多名攀登者一同尝试冲顶地球最高的山峰之一，此次雪崩造成团队多人遇难。普尔加在登山界享有极高声誉，他在2019年创下的纪录——用六个多月时间登顶全部14座海拔超过八千米的高峰——被视为极限登山史上的里程碑事件，此前完成这一壮举通常需要数年时间。他的遇难消息迅速引发全球登山界与户外运动爱好者的哀悼。已确认的事实包括：普尔加在巴基斯坦一次雪崩事故中遇难，遗体已被搜救人员找回；同行的其他攀登者中也有人遇难。目前关于具体山峰名称、雪崩发生的详细过程以及遇难人数的完整名单，报道中信息相对有限。分析认为，八千米级高峰的攀登活动始终伴随着极高风险，雪崩、缺氧、极端天气是这类攀登中最主要的致命因素，即便是经验极为丰富的顶尖登山家也难以完全规避。后续需要等待搜救部门和相关登山机构发布完整的事故调查报告，包括具体遇难人数与事故成因的详细说明。",
-      "duration_seconds": 120,
-      "is_unverified": false,
-      "confidence_note": "事件由BBC与NPR两个独立Tier2来源交叉确认，基本事实可信度较高。",
-      "fact_status": {
-        "confirmed": [
-          "登山家尼尔马尔·普尔加在巴基斯坦雪崩中遇难，遗体已被找回",
-          "同行团队中有其他攀登者一同遇难"
+          "美国和日本领导人确认联合干预外汇市场",
+          "美元兑日元汇率随后走弱"
         ],
         "claims": [],
         "analysis": [
-          "八千米级高峰攀登活动风险极高，雪崩是主要致命因素之一"
+          "联合干预反映双方对日元过度贬值可能影响全球金融稳定的共同关切"
         ]
       },
       "source_ids": [
-        "5c9ff348a4cfe8ab",
-        "9d180820103bb0e1"
+        "8063e258fc96eb1d"
       ],
       "sources": [
         {
-          "id": "5c9ff348a4cfe8ab",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Body of mountaineer Nirmal Purja recovered after Pakistan avalanche",
-          "summary": "The renowned climber was known for scaling the world's 14 highest peaks in just over six months in 2019.",
-          "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-02T10:11:26+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "9d180820103bb0e1",
+          "id": "8063e258fc96eb1d",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Avalanche in Pakistan kills famed mountaineer Nirmal Purja and his fellow climbers",
-          "summary": "A mountaineering team with climbers from around the world, including the U.S., was attempting to climb one of the tallest peaks on earth.",
-          "url": "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche",
-          "published_at": "2026-08-01T22:23:39+00:00",
+          "title": "U.S. steps in to help shore up Japanese yen",
+          "summary": "The U.S. dollar weakened against the Japanese yen Monday after the leaders of both countries confirmed they intervened in the markets to help shore up Japan's currency.",
+          "url": "https://www.npr.org/2026/08/03/nx-s1-5917867/u-s-steps-in-to-help-shore-up-japanese-yen",
+          "published_at": "2026-08-03T08:44:24+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "entertainment",
+      "title": "阿丽亚娜·格兰德将在巡演结束后暂别公众生活",
+      "english_term": null,
+      "summary": "美国歌手阿丽亚娜·格兰德的代表宣布，她将在下月世界巡演结束后暂时退出公众视野，以应对持续不断的舆论关注。",
+      "script": "美国流行歌手阿丽亚娜·格兰德，现年33岁，其代表近日宣布，她将在下个月世界巡演结束之后，从公众视野中暂时退出可见性，也就是暂时告别高强度的公众曝光和媒体关注。代表方面用“无休止”来形容她近期所承受的舆论审视压力，这也从侧面反映出当红艺人长期处于媒体聚光灯下所面临的心理和生活压力。阿丽亚娜·格兰德近年来在音乐和影视领域都保持着较高的曝光度，其个人生活也长期是娱乐媒体和社交平台关注的焦点，这种持续的公众关注往往会给艺人本身带来相当大的心理负担，公众人物阶段性淡出视野以调整个人生活节奏，在娱乐行业内也并非首次出现。目前关于她具体会暂停多长时间、是否会完全停止音乐和演艺工作，还是仅仅减少公开露面和媒体互动，代表方面的声明中并没有给出十分明确的细节和时间表。这一消息发布的时间点，正值她世界巡演进入尾声阶段，这也被解读为一种阶段性的、经过深思熟虑的安排，而非临时性的仓促决定。后续需要关注她本人是否会有进一步的公开声明，说明具体的复出计划或者长期规划。",
+      "duration_seconds": 110,
+      "is_unverified": false,
+      "confidence_note": "来自BBC对其经纪代表官方声明的报道，信息来源明确，但具体细节和后续安排仍有限。",
+      "fact_status": {
+        "confirmed": [
+          "阿丽亚娜·格兰德代表宣布她将在巡演结束后暂别公众视野"
+        ],
+        "claims": [],
+        "analysis": [
+          "公众人物阶段性淡出以应对舆论压力在娱乐行业内并不罕见"
+        ]
+      },
+      "source_ids": [
+        "53534b5ff1e9f791"
+      ],
+      "sources": [
+        {
+          "id": "53534b5ff1e9f791",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Ariana Grande to take a break from public life amid 'endless' scrutiny",
+          "summary": "The US singer, 33, will \"step back from visibility\" at the end of her world tour next month, her representative says.",
+          "url": "https://www.bbc.co.uk/news/articles/c80ngjjvevyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-03T10:59:12+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的早报中，中东停火承诺的真实性、俄乌冲突的最新伤亡，以及机器人行业7月盘点中提到的融资与训练方法变化，都值得在接下来几天持续跟进其官方细节的披露。",
-  "editor_note": "本期机器人类候选信息中多数为Tier3聚合类简短报道，缺乏具体技术参数与公司细节，故对现代物理AI、南洋理工人形机器人及配送机器人坠海事件均标记为未完全证实并在稿件中说明信息局限；The Robot Report月度盘点作为Tier2来源提供了行业方向性参考，但同样缺乏具体条目细节。国际政治部分优先选择了有多信源交叉确认的中东停火、俄乌战事、西班牙移民危机、印尼渡轮火灾及登山家遇难事件，莫斯科爆炸事件因信源单一在本轮修订中移除以确保机器人时长占比达标。机器人四条稿件总时长595秒，占全部1290秒中的约46%，符合45%-55%区间要求，受限于候选信息中机器人类高质量独立来源不足，具体技术细节仍有限。",
+  "closing": "今天的内容中，机器人领域呈现出大模型与具体产业动作并行的态势，Gemini Robotics 2的全身控制能力和美国的进口限制措施，都还需要更多细节和第三方验证来判断其真实影响；国际局势方面，苏丹、休达边境和美伊谈判等多条线索仍在发展中，具体走向有待官方信息进一步披露。",
+  "editor_note": "本期机器人部分覆盖产业（DeepMind、美国进口限制、Reimagine Robotics）与学术（arXiv综述及多篇新论文）两端，来源包含The Robot Report、arXiv、TechRound等不同专业媒体，避免单一来源垄断；部分内容如美国进口限制措施和苏丹无人机袭击细节因缺乏官方或多方交叉确认，已标注为未核实。为满足总时长上限，已删除美伊谈判段落，将篇幅压缩至五个机器人条目并适度精简各条时长，确保机器人时长占比在45%-55%区间内，总时长控制在18-22分钟目标范围。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 7017,
-      "output_tokens": 10197,
-      "total_tokens": 17214
+      "input_tokens": 9073,
+      "output_tokens": 11380,
+      "total_tokens": 20453
     },
     {
-      "input_tokens": 12054,
-      "output_tokens": 9123,
-      "total_tokens": 21177
+      "input_tokens": 13207,
+      "output_tokens": 9993,
+      "total_tokens": 23200
     }
   ],
   "usage": {
-    "output_tokens": 19320,
-    "total_tokens": 38391,
-    "input_tokens": 19071
+    "input_tokens": 22280,
+    "total_tokens": 43653,
+    "output_tokens": 21373
   },
-  "generated_at": "2026-08-02T11:13:20+00:00",
-  "window_start": "2026-08-01T11:13:20+00:00",
-  "candidate_count": 163,
+  "generated_at": "2026-08-03T11:11:26+00:00",
+  "window_start": "2026-08-02T11:11:26+00:00",
+  "candidate_count": 236,
   "source_errors": [
-    "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
+    "European Central Bank Press Releases: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "Robohub: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1205,
-    "script_characters": 4705,
-    "topic_duration_share": 0.477,
+    "duration_seconds": 1430,
+    "script_characters": 5594,
+    "topic_duration_share": 0.563,
     "passed": true,
-    "normal_target_met": true,
-    "topic_source_count": 2,
+    "normal_target_met": false,
+    "topic_source_count": 3,
     "issues": []
   }
 }
