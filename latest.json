@@ -1,102 +1,80 @@
 {
-  "title": "晶球电台早报：中美人形机器人贸易摩擦升级，Toyota携手初创押注实用型人形机器人",
-  "subtitle": "从关税壁垒到仿生控制算法，机器人产业与学术前沿的一天",
+  "title": "晶球电台早报：Zoox量产机器人出租车亮相，人形机器人安全认证难题浮现",
+  "subtitle": "俄乌空袭致基辅地区17人死亡，人形机器人成本与安全认证成产业焦点",
   "highlights": [
-    "美国限制外国产人形机器人进口，中国威胁反制措施，人形机器人贸易摩擦升级",
-    "丰田与初创公司Walden Robotics合作，押注更务实的人形机器人商业化路径",
-    "多篇机器人学术论文聚焦漂移控制、移动操作与仿生感知，展现具身智能研究广度"
+    "亚马逊子公司Zoox发布量产版无人驾驶出租车设计，加速美国市场扩张",
+    "多篇机器人学术论文聚焦人形机器人复杂地形行走、遥操作触觉反馈与功能安全认证难题",
+    "俄罗斯对基辅地区导弹与无人机袭击造成至少17人死亡，泽连斯基称拦截系统不足是致命短板"
   ],
   "stories": [
     {
-      "category": "robotics",
-      "title": "美国限制外国产人形机器人进口，中国威胁反制",
-      "english_term": "humanoid robot（人形机器人）",
-      "summary": "美国近期宣布对外国制造的人形机器人实施进口限制，中方随即表态将采取反制措施，双方在新兴机器人产业上的摩擦进一步升级。",
-      "script": "先看一条可能牵动全球机器人产业格局的消息。据报道，美国对新一批外国产人形机器人实施了进口限制，中国方面已表态将采取反制措施。目前公开报道中，关于限制的具体法律依据、涉及哪些型号、以及是否类似此前对无人机、电动车电池的国家安全审查机制，细节仍不完全清晰，需要等待美方官方文件进一步确认。人形机器人产业这两年经历了从概念验证到商业化冲刺的阶段，中国厂商在核心零部件如减速器、伺服电机、传感器上成本优势明显，一些美国及欧洲厂商长期依赖中国供应链组装整机或采购关键部件。如果限制措施落地，短期内将直接影响那些依赖进口整机或核心组件的美国机器人公司的产品交付和成本结构。从产业逻辑看，这类限制通常打着数据安全、供应链自主的旗号，实质也是在为本土机器人产业争取发展窗口期，类似此前光伏、半导体领域的贸易保护逻辑正在复制到人形机器人赛道。值得注意的是，这也与另一条新闻形成呼应——有美国初创公司专门宣称打造了“几乎不含中国零部件”的机器人，说明供应链本土化已经成为部分企业主动布局的方向，而不仅仅是被动应对政策。中方的反制表态目前还停留在口头声明层面，具体措施尚未披露，可能涉及关键原材料出口管制、反倾销调查或对等的准入限制。这场摩擦的走向，将直接影响全球人形机器人供应链的成本结构和技术路线选择，尤其是减速器、灵巧手等中国厂商占优势的环节。后续需要等待美方公布限制措施的具体清单和法律文本，也需要等待中方是否会出台对等反制的实质性政策。",
-      "duration_seconds": 155,
-      "is_unverified": true,
-      "confidence_note": "消息来源为行业媒体Robotics & Automation News，属Tier 3来源，尚缺乏美国官方一手文件或中国官方声明的直接印证，具体政策细节需等待权威确认。",
+      "category": "world",
+      "title": "俄罗斯对基辅地区发起大规模袭击，至少17人死亡",
+      "english_term": null,
+      "summary": "俄罗斯导弹与无人机对基辅及周边地区发起夜间袭击，造成至少17人死亡、44人受伤，泽连斯基称防空拦截系统不足是导致伤亡的关键原因。",
+      "script": "俄乌战场传来最新消息。俄罗斯军方对基辅及周边地区发动了一轮导弹与无人机联合袭击，造成至少十七人死亡，四十四人受伤。乌克兰总统泽连斯基表示，如果拦截系统数量足够，这些伤亡本可以避免。已确认的事实是，袭击发生在周三凌晨，俄罗斯国防部方面的说法是打击了基辅及周边地区的后勤枢纽与补给中心，属于军事目标。而乌克兰方面的说法是，此次袭击主要造成的是民用伤亡，进一步凸显了乌克兰防空体系的薄弱环节。据美国媒体报道，乌克兰目前极度缺乏美制“爱国者”防空导弹，而这类系统正是拦截俄罗斯弹道导弹的关键装备。从战场态势看，乌克兰在多条战线上守住了阵地，但俄罗斯的弹道导弹攻击始终是防御体系中难以补上的缺口。分析认为，这种防空能力的不对等，短期内很难通过乌克兰自身产能解决，是否能获得更多西方援助的“爱国者”系统，将直接影响未来类似袭击造成的人员损失规模。目前俄乌双方仍在各说各话，战场信息的核实存在延迟，具体袭击目标性质与双方伤亡数字仍需要后续更多独立信源确认。",
+      "duration_seconds": 110,
+      "is_unverified": false,
+      "confidence_note": "多家二级信源（BBC、NPR、DW）交叉确认袭击造成17人死亡的核心事实，各方对袭击目标性质的定性存在分歧。",
       "fact_status": {
         "confirmed": [
-          "有报道称美国对外国产人形机器人实施了进口限制"
+          "俄罗斯对基辅及周边地区发动导弹与无人机袭击",
+          "袭击造成至少17人死亡、44人受伤"
         ],
         "claims": [
-          "中方威胁采取反制措施，但具体内容未披露"
+          "俄罗斯称打击的是后勤枢纽与补给中心",
+          "泽连斯基称拦截系统不足导致本可避免的伤亡"
         ],
         "analysis": [
-          "该摩擦可能加速人形机器人供应链本土化趋势，尤其在核心零部件领域"
+          "乌克兰防空体系对弹道导弹拦截能力不足是当前战场的主要短板",
+          "西方对乌克兰爱国者系统的供应规模将直接影响未来袭击的伤亡结果"
         ]
       },
       "source_ids": [
-        "db0c25d460d642bb",
-        "7614fb5639a078a8"
+        "2e74087184972402",
+        "698ac952c834aeb2",
+        "556291faaf61d454"
       ],
       "sources": [
         {
-          "id": "db0c25d460d642bb",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
+          "id": "2e74087184972402",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
           "language": "en",
-          "category_hint": "robotics",
-          "title": "China threatens retaliation after US restricts imports of new foreign-made humanoid robots - Robotics & Automation News",
-          "summary": "China threatens retaliation after US restricts imports of new foreign-made humanoid robots Robotics & Automation News",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeVl1N0d3YUZ6OVAzS0lOMkZhRXVEdGItS3pndXV6X0o4UlNULWcwMm5WS1o1OFVIREdRUk1GTFdtMTRfbEtMb1hxU0dmWDhNT2ZPWEtnWTBnLWd2QjRSWlpRVFo2SDhFWE9EX1lvdGFYT2xmMmJaRnE0elZMU3IwbXNBRUVTMVpYNDFKX0dQRE1YeW5sV2V2VkJGMVAwTGU4OGZKV1pMVFVPLVdkY1NGLXRHOEtMOGFkazNHR3hCaWROaWlSSUdZQWNyRFJya19kQnJ2R3Y1bS1uaVJUSDdqTg?oc=5",
-          "published_at": "2026-08-04T11:01:01+00:00",
+          "category_hint": "world",
+          "title": "Russian strike kills at least 17 as Zelensky says interceptors could have saved lives",
+          "summary": "The Russia defence ministry said it had struck logistics hubs and supply centres in Kyiv and the surrounding region.",
+          "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-05T10:49:41+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "7614fb5639a078a8",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
+          "id": "698ac952c834aeb2",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
           "language": "en",
-          "category_hint": "robotics",
-          "title": "How One Startup Built a (Mostly) China-Free Robot - wired.com",
-          "summary": "How One Startup Built a (Mostly) China-Free Robot wired.com",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWTBKZFF0STNpelZFa2tQR28wSUJjUFRScHoteGgteUtRYXBUOFpXQjQzYlgwWHNjdzZDS25EWjhab29ESnVyUTBGTnEtOXY2YlZTem9zMEprMURmMmR6Q0NMbmI5ZjlNZVNvLVc4N2VaQkV3ZkF6cnlPRFBCODRXSWh3?oc=5",
-          "published_at": "2026-08-04T10:45:00+00:00",
+          "category_hint": "world",
+          "title": "Russian missile and drone barrage in Ukrainian capital region kills 17",
+          "summary": "Russian missile and drone strikes on Kyiv and the surrounding region killed 17 people and wounded 44 others overnight into Wednesday, Ukraine's President Volodymyr Zelenskyy said.",
+          "url": "https://www.npr.org/2026/08/05/nx-s1-5921194/russian-missile-drone-barrage",
+          "published_at": "2026-08-05T10:15:44+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "丰田携手初创Walden Robotics，押注更务实的人形机器人路线",
-      "english_term": "humanoid robot practicality（人形机器人实用性）",
-      "summary": "在人形机器人行业经历了前几年的概念热潮后，丰田选择与初创公司Walden Robotics合作，聚焦真正能落地的应用场景而非单纯的技术展示。",
-      "script": "人形机器人赛道过去两三年经历了一轮近乎狂热的扩张期，几乎所有能做双足行走和灵巧手的团队都在做人形机器人，很大程度上是因为技术上可行、资本也愿意买单，但很多项目缺乏清晰的近期落地目标。IEEE Spectrum的报道指出，这种狂热正在退潮，行业开始出现一种整体性的冷静，创业公司和投资人开始追问：这些机器人到底能不能干活、值不值这个价钱。在这个背景下，丰田选择与初创公司Walden Robotics合作开发人形机器人，被视为一个信号——大型制造企业希望绕开单纯的技术炫技，直接切入实际应用场景。丰田本身在工业自动化和精益制造上有深厚积累，选择与初创公司合作而非完全自研，说明其更看重初创团队在特定技术路径上的灵活性和速度，同时希望借助自身在制造工艺、供应链管理上的经验帮助技术加快落地。目前公开信息中，双方合作的具体应用场景、机器人技术规格、商业化时间表等细节还比较有限，报道更多聚焦在“务实”这个方向性判断上，而非具体的产品参数。从行业角度看，这种“大厂加初创”的组合模式此前在自动驾驶、无人机等领域已有先例，通常是大厂提供资金、场景和供应链背书，初创公司提供技术敏捷性。对于人形机器人行业而言，这次合作释放的信号可能比合作本身的技术细节更重要：它提示行业正从“能不能做出来”转向“能不能真正解决一个具体问题并实现商业闭环”。后续需要等待双方公布具体的合作细节、应用场景选择和阶段性里程碑。",
-      "duration_seconds": 150,
-      "is_unverified": false,
-      "confidence_note": "来源为IEEE Spectrum Robotics，属Tier 2专业机器人媒体，报道较为可信，但双方合作细节仍有限。",
-      "fact_status": {
-        "confirmed": [
-          "丰田与初创公司Walden Robotics建立了合作关系，聚焦人形机器人开发"
-        ],
-        "claims": [
-          "行业观察认为人形机器人赛道正从技术炫技转向注重实际应用价值"
-        ],
-        "analysis": [
-          "大厂与初创公司组合模式可能加快人形机器人商业化落地速度"
-        ]
-      },
-      "source_ids": [
-        "112d646f7dc40ea9"
-      ],
-      "sources": [
+        },
         {
-          "id": "112d646f7dc40ea9",
-          "source": "IEEE Spectrum Robotics",
+          "id": "556291faaf61d454",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "global",
+          "source_region": "us",
           "language": "en",
-          "category_hint": "robotics",
-          "title": "Walden Robotics Partners With Toyota on Practical Humanoids",
-          "summary": "For a while there, it seemed as though robotics as a whole was stuck in a mad rush towards building humanoid robots mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first couple of years of the humanoid explosion has stuck around, but there’s also been an industry-wide sobering leading to pointed questions about practicality and value . In other words, starting a commercial humanoid company now is a much different proposition than it would have been just a few years ago. On 15 July, Walden Robotics emerged from stealth with US $300 million in funding at a valuation of $1.1 billion. Walden is a spinout of Toyota Research Institute (TRI), and it’s spent the last 10 or so years working on hard problems in robotics with the goal of transitioning from research to real-world applications. That seems like the amount of time and experience that it might reasonably take to develop a practical and value-driven approach to deploying general-purpose humanoid robots, and Walden has chosen an excellent starting point by skipping the legs. “It’s ironic,” says Walden co-founder and CEO Russ T",
-          "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
-          "published_at": "2026-08-03T16:05:39+00:00",
+          "category_hint": "world",
+          "title": "Ukraine's air defenses are proving to be a weak point",
+          "summary": "Ukraine's defenses have held the line on most fronts, but there's one glaring weakness -- Russian ballistic missiles. Ukraine is desperately short of U.S.-made Patriot air defense missiles needed to defend against the Russians.",
+          "url": "https://www.npr.org/2026/08/04/nx-s1-5909140/ukraines-air-defenses-are-proving-to-be-a-weak-point",
+          "published_at": "2026-08-04T20:16:33+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -104,233 +82,253 @@
     },
     {
       "category": "other",
-      "title": "学术前沿扫描：漂移控制、移动操作与仿生感知的多项新研究",
-      "english_term": "model predictive control（模型预测控制）、reinforcement learning（强化学习）",
-      "summary": "本期学术候选覆盖了自动驾驶漂移控制、移动操作臂开门、球形接触建模、环境场定位与仿生注意力感知等多个方向的新论文。",
-      "script": "再来看学术圈的几项新进展，覆盖面比较广，涉及控制、感知和具身智能的不同侧面。第一项研究关注一个很有意思的问题：如何让自动驾驶车辆学会像拉力赛车手一样漂移过弯。在一级方程式赛车中，车手会在轮胎抓地力极限内找最优路线，但拉力赛车手却会主动打破抓地力去漂移，从而更快调整车身角度冲出弯道。这篇论文提出一种结合赛道引导和分层强化学习的方法，同时处理漂移动力学的高度非线性和圈速最小化这两个目标，试图让自动驾驶系统学会这种反直觉的驾驶技巧。第二项研究解决移动机械臂开门过门的问题，这是机器人在人类环境中作业的一个基础能力，需要底盘和机械臂的动作高度协调。研究团队提出了一种基于模型预测控制的运动规划框架，把机器人和门作为一个耦合动力学系统建模，生成动态可行且无碰撞的轨迹，同时支持推拉两种类型的门。第三项研究提出了一种新的接触建模方法，叫做“柔顺球格接触”，用于以球体堆叠表示的机器人模型。传统的球体表示虽然计算高效、便于碰撞检测，但无法捕捉接触面积、压力分布这些更细腻的物理特性，这项工作试图在计算效率和物理准确性之间找平衡。第四项研究提出利用受偏微分方程支配的时空场作为定位信号，考虑了浅水方程和平流扩散方程两类场景，可能用于水面或水下机器人的定位。最后一项研究是关于人机交互中的注意力估计，基于InMoov开源机器人头设计了一套混合感知流程，把快速的几何感知层和基于视觉语言模型的语义感知层结合起来，用于提升机器人对人类注意力状态的判断能力。这些论文都还处在预印本阶段，尚未经过同行评审，具体效果和适用范围有待进一步验证。",
-      "duration_seconds": 170,
-      "is_unverified": true,
-      "confidence_note": "所有论文均来自arXiv预印本平台，尚未经过同行评审，实验结果和方法有效性需等待评审确认。",
-      "fact_status": {
-        "confirmed": [
-          "五篇论文已在arXiv平台公开发布，涉及漂移控制、移动操作、接触建模、场定位和人机交互感知"
-        ],
-        "claims": [
-          "各论文作者声称其方法在对应任务上取得有效结果，具体数据需查阅论文原文"
-        ],
-        "analysis": [
-          "这批研究反映出机器人学术界在控制、感知、具身智能等方向上的多线并进"
-        ]
-      },
-      "source_ids": [
-        "946ccfb6bac1e671",
-        "01ae43bbc6420e5c",
-        "5e8eb30b985ead59",
-        "bf5418e790870df7",
-        "7a60d39ad9f966bb"
-      ],
-      "sources": [
-        {
-          "id": "946ccfb6bac1e671",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Track-Guided Hierarchical Reinforcement Learning for Autonomous Vehicle Drifting with Minimum-Lap-Time Planning",
-          "summary": "arXiv:2608.00113v1 Announce Type: new Abstract: In Formula 1, drivers optimize racing lines within tire grip limits to minimize lap times; however, in rally racing, drivers intentionally break traction to drift on loose surfaces. This maneuver rapidly aligns the vehicle for corner exits, ultimately reducing lap time. Autonomously executing such maneuvers formulates a complex dual-objective control problem: stabilizing highly nonlinear drift dynamics while strictly minimizing lap time. Addressing this challenge motivates the development of advanced Minimum-Lap-Time (MLT) drift control architectures. This paper proposes a planning-control framework specifically designed for MLT drifting scenario. First, we formulate an optimal control problem to generate a MLT drift planning trajectory, which is used as prior data to train a deep reinforcement learning drift controller. Given that drifting involves extremely large sideslip angles and is therefore challenging to learn directly, a Track-guided Reinforcement Learning (TgRL) drift control method is proposed to enable progressive training in a step-by-step manner, from drift control policy, to drift corner policy, and finally to a compreh",
-          "url": "https://arxiv.org/abs/2608.00113",
-          "published_at": "2026-08-04T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "01ae43bbc6420e5c",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Motion Planning for Mobile Manipulators Navigating Doorways via Model Predictive Control",
-          "summary": "arXiv:2608.00206v1 Announce Type: new Abstract: Navigating doorways is a fundamental capability for mobile manipulators operating in human environments, requiring coordinated motion between the mobile base and manipulator arm. This paper presents a motion planning framework that generates dynamically feasible and collision-free trajectories for autonomously opening and traversing both push and pull doors. The proposed method formulates the robot and door as a coupled dynamical system within a nonlinear Model Predictive Control (MPC) optimization framework. Manipulation feasibility is enforced through a penalty-based constraint, avoiding explicit arm kinematic modeling in the planner. Simulations and a hardware experiment demonstrate that the approach successfully plans feasible trajectories for door traversal.",
-          "url": "https://arxiv.org/abs/2608.00206",
-          "published_at": "2026-08-04T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "5e8eb30b985ead59",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Compliant Sphere Lattice Contact: Distributed Contact Modeling for Sphere-Based Robot Representations",
-          "summary": "arXiv:2608.00263v1 Announce Type: new Abstract: Contact planning in robotics requires models that are both computationally efficient and physically accurate. Sphere-based robot representations satisfy the first requirement by enabling fast collision checking and differentiable geometry, but sacrifice physical accuracy by relying on point contact which cannot capture contact patch area, pressure distributions, rotational stiffness, or frictional moments. We introduce Compliant Sphere Lattice Contact (CSLC), a distributed contact model that operates natively on sphere representations by modeling the robot interface as a compliant lattice of surface spheres connected through anchor and lateral springs. When pressed against an object, the lattice deforms to produce a spatially distributed contact patch that improves the physical accuracy of sphere-based contact. We validate CSLC across two independent solvers and show preliminary results demonstrating contact patch formation and improved grasp stability.",
-          "url": "https://arxiv.org/abs/2608.00263",
-          "published_at": "2026-08-04T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "bf5418e790870df7",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Localization in Spatiotemporal Fields via Environmental PDEs",
-          "summary": "arXiv:2608.00272v1 Announce Type: new Abstract: This paper proposes a localization framework that uses spatiotemporal fields governed by partial differential equations (PDEs) as localization signatures. Two PDE classes are considered: the shallow water equations, which describe free-surface flows in coastal and riverine environments, and the advection-diffusion equation, which models the transport and mixing of scalar quantities such as temperature, salinity, and dissolved oxygen. A numerical PDE solver provides predicted fields over the domain, and multiple field channels are fused as multimodal measurements to improve localization accuracy. We formulate the problem within a Rao-Blackwellized particle filter (RBPF) that partitions the vehicle state into a nonlinear component sampled by particles and a linear sensor bias component tracked analytically via per-particle Kalman filters. This factorization reduces the required number of particles compared to a standard particle filter while accounting for realistic sensor drift. Simulation studies on both PDE scenarios show that the RBPF consistently outperforms a standard particle filter in terms of final position error and Root Mean ",
-          "url": "https://arxiv.org/abs/2608.00272",
-          "published_at": "2026-08-04T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "7a60d39ad9f966bb",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Hybrid Attention Estimation Pipeline for Adaptive HRI Using an Expressive Robotic Head",
-          "summary": "arXiv:2608.00284v1 Announce Type: new Abstract: This paper presents an applied case study on hybrid visual attention estimation for human-robot interaction using an expressive robotic head based on the InMoov ecosystem. The proposed pipeline combines a fast geometric perception layer with an independent semantic perception layer based on a vision-language model. The geometric layer provides high-frequency face and head-pose information for temporal regulation, while the semantic layer receives only raw egocentric camera frames and produces contextual attention labels related to attention toward the robot, phone use, or attention elsewhere. These signals are integrated through a finite state machine that regulates adaptive interaction behavior, including activation, waiting, interaction resumption, and return to rest. The system was evaluated with 10 participants across 40 trials covering baseline and adaptive interaction conditions. Results show reliable interaction start across all trials, consistent pause behavior in the adaptive distraction condition, and non-redundant semantic information between the geometric and semantic outputs.",
-          "url": "https://arxiv.org/abs/2608.00284",
-          "published_at": "2026-08-04T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ],
-      "category_correction": "未检测到机器人核心主题，已从 robotics 调整为 other。"
-    },
-    {
-      "category": "robotics",
-      "title": "仿生鸟类机器人抗风控制系统研究进展",
-      "english_term": "bio-inspired robot（仿生机器人）",
-      "summary": "研究人员开发出一套控制系统，帮助仿鸟类飞行机器人在大风环境下保持飞行稳定，为微型飞行器的户外应用提供新思路。",
-      "script": "接下来一条学术与工程交叉的新闻。据Robotics & Automation News报道，研究人员开发了一套控制系统，用于帮助仿鸟类设计的飞行机器人在大风条件下保持稳定飞行。鸟类飞行器一直是仿生机器人研究的热门方向，因为鸟类翅膀在复杂气流中展现出的敏捷性和稳定性远超传统固定翼或旋翼无人机，尤其是在阵风、湍流等非结构化环境中。这类机器人通常采用扑翼或柔性翼设计来模仿鸟类的空气动力学特性，但控制系统的设计难度也因此大幅提升——需要实时应对高度非线性且难以精确建模的气动扰动。报道中提到的这套控制系统具体采用了怎样的传感与反馈机制，是基于视觉、气压还是惯性测量单元的组合感知，公开信息目前还比较有限，报道本身也较为简短，没有给出充分的技术细节和实验数据。从应用前景看，能在强风环境下稳定飞行的小型仿生机器人，对于户外监测、灾害现场侦察、农业巡检等场景有直接价值，因为这些场景往往无法保证风力条件理想。传统无人机在大风天气中往往需要停飞或大幅降低作业效率，如果仿生扑翼机器人能够通过更贴近生物力学的控制策略提升抗风能力，将拓宽微型飞行器的可用天气窗口。不过目前这条新闻的信息密度偏低，缺乏具体的实验平台、风速测试范围和量化的稳定性提升数据，其可信度和技术成熟度还需要更多信源交叉印证。后续需要关注该研究是否有对应的学术论文发布，以提供更详细的方法描述和实验验证。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "来源为Tier 3行业媒体，报道简短且缺乏具体技术细节和数据支撑，需要更多信源或对应论文交叉验证。",
-      "fact_status": {
-        "confirmed": [
-          "有报道称研究人员开发了帮助仿鸟机器人抗风稳定的控制系统"
-        ],
-        "claims": [
-          "该系统被称可以提升飞行器在大风环境中的稳定性，具体效果未量化"
-        ],
-        "analysis": [
-          "若技术成熟，可能拓宽微型飞行器在恶劣天气条件下的应用场景"
-        ]
-      },
-      "source_ids": [
-        "a448373aae52696e"
-      ],
-      "sources": [
-        {
-          "id": "a448373aae52696e",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Researchers develop control system that helps bird-inspired robots stay stable in windy conditions - Robotics & Automation News",
-          "summary": "Researchers develop control system that helps bird-inspired robots stay stable in windy conditions Robotics & Automation News",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOMDR4cFp6M2FwUFNmVldHZmc5NnZMaU9NYWVfYW5tSXlSckxXRWV0MGNIcnY0THRNd1pJU3Vid1lMZlZ2NWxhQnEtSHJuUzNiVVJXOHR1YkpfY2tVZ0I5MkxtS1FDbEppUV9FWFVGUzFXR0ptTUV6NWVkT3M5YzRReldZX2lKa21pS1A4VUxyc1lEUVAzXzBIN0dJR19jLVdVdklDX09SZC10N3VtQnNEOFkwQUg1aTJDcHgwUW0wVVNkTzJMZXVuajgyLVhKdk9jSWVmRkoyV1NXQ0JVMjhKV2VHNFNUV29SSjlF?oc=5",
-          "published_at": "2026-08-04T10:37:47+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "工业机器人配件与太空探索硬件领域两项产业进展",
-      "english_term": "actuator（执行器）",
-      "summary": "igus推出可600度旋转的工业机器人能量链新品，HEBI Robotics则获得NASA SBIR资助开发微型化执行器。",
-      "script": "两条偏产业侧的机器人硬件消息。首先，工业自动化零部件厂商igus推出了一款新的“twisterchain”能量链产品，支持600度旋转，主要面向码垛等对电缆管理要求较高的工业机器人应用场景。能量链是工业机器人和自动化设备中用来保护和引导电缆、气管等线缆的柔性导管结构，在机械臂高速往复运动或大角度旋转时，普通线缆容易磨损、缠绕甚至断裂，能量链的作用就是让这些线缆在运动中始终保持有序排布、减少疲劳损伤。600度旋转能力意味着这款产品可以适应比传统能量链更大范围的旋转动作，这对于需要频繁大角度转身的码垛机械臂而言，可以减少线缆维护成本、延长使用寿命。这类产品虽然不像人形机器人整机那样吸引眼球，但却是工业机器人稳定运行的基础保障部件，直接影响产线的故障率和维护周期。第二条消息是执行器企业HEBI Robotics获得了NASA的SBIR资助，即“小企业创新研究”计划的一笔经费，用于加速微型化执行器的研发。SBIR是美国政府支持中小企业开展早期高风险技术研发的资助机制，此次拿到的是第一阶段资助，属于概念验证性质的资金支持，公司同时也表示会继续推进现有执行器硬件产品线的开发。执行器是机器人的“肌肉”，其功率密度、体积和精度直接决定了机器人本体的性能上限，尤其在空间受限的太空探测机器人和精密操作场景中，微型化执行器往往是限制整机设计的瓶颈之一。这两条消息虽然规模不大，但都反映了机器人产业链上游零部件环节的持续迭代，是支撑整机性能提升的基础工作。后续需要关注igus新品的市场反馈以及HEBI后续阶段资助的进展情况。",
-      "duration_seconds": 170,
+      "title": "亚马逊子公司Zoox发布量产版无人驾驶出租车，加速美国市场扩张",
+      "english_term": "Robotaxi（无人驾驶出租车）",
+      "summary": "亚马逊旗下自动驾驶公司Zoox公布了最终量产设计的无人出租车，并在乘坐舒适性上做了细节调整，同时扩大测试范围以推进美国市场落地。",
+      "script": "自动驾驶领域一个值得关注的产业动态：亚马逊旗下的自动驾驶公司Zoox，正式公布了其量产版无人驾驶出租车的最终设计。这款车型此前经历过多轮原型迭代，这次官方强调的是“量产就绪”，意味着设计已经从概念验证阶段进入到可批量制造的工程阶段。据The Robot Report报道，Zoox对车辆做了一次细微的重新设计，主要目的是提升乘坐舒适性，具体包括座舱布局、悬挂调校等方面的优化，这类调整看似不起眼，但对于一款没有方向盘、乘客只能被动接受行驶体验的车辆来说，舒适性直接关系到用户接受度。Zoox的技术路线是典型的对称双向车厢设计，车辆没有传统的驾驶位，乘客可以面对面就坐，这与Waymo等公司改装现有车型的路线不同，Zoox选择的是从零开始设计专用无人车。伴随量产设计的公布，公司同步扩大了在美国的测试范围，这通常意味着接下来会在更多城市申请路测和商业化运营许可。目前无人驾驶出租车赛道竞争激烈，Waymo已经在多个美国城市开展商业化运营，而Zoox背靠亚马逊的资金与物流网络，被视为潜在的强力竞争者。但量产设计公布只是商业化路径上的一步，接下来需要观察的是车辆能否通过各州监管审批、实际运营成本能否控制在可持续区间，以及亚马逊是否会将其与自身的物流配送网络进行整合。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "两条消息均来自The Robot Report，属Tier 2专业机器人媒体，信息较为具体可信。",
+      "confidence_note": "来自专业机器人产业媒体The Robot Report的直接报道，为单一来源但属于公司官方产品发布信息，可信度较高。",
       "fact_status": {
         "confirmed": [
-          "igus发布了支持600度旋转的twisterchain能量链新品",
-          "HEBI Robotics获得NASA SBIR第一阶段资助用于微型化执行器研发"
+          "Zoox公布了量产就绪的无人驾驶出租车最终设计",
+          "公司对车辆进行了提升乘坐舒适性的重新设计并扩大测试"
         ],
         "claims": [],
         "analysis": [
-          "零部件环节的持续迭代是机器人整机性能提升的基础支撑"
+          "量产设计发布是商业化的重要一步，但监管审批与运营成本仍是后续关键变量",
+          "Zoox背靠亚马逊资源，可能与物流网络产生协同"
         ]
       },
       "source_ids": [
-        "639d0a2fcfc059cc",
-        "37d78cb069ce2618"
+        "90205e76521f43d3"
       ],
       "sources": [
         {
-          "id": "639d0a2fcfc059cc",
+          "id": "90205e76521f43d3",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "igus launches energy chain with 600-degree rotation for industrial robots",
-          "summary": "igus says its new twisterchain energy chain provides cable management for challenging industrial robotics applications such as palletizing. The post igus launches energy chain with 600-degree rotation for industrial robots appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/",
-          "published_at": "2026-08-03T21:06:07+00:00",
+          "title": "Zoox unveils production-ready robotaxi for U.S. expansion",
+          "summary": "Amazon subsidiary Zoox unveiled its final production-ready robotaxi design and expanded testing following a subtle redesign to improve rider comfort. The post Zoox unveils production-ready robotaxi for U.S. expansion appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/zoox-unveils-production-ready-robotaxi-for-u-s-expansion/",
+          "published_at": "2026-08-04T19:40:40+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "学术聚焦：人形机器人复杂地形行走新方法，单一策略实现全身感知运动",
+      "english_term": "Whole-Body Locomotion（全身运动控制）",
+      "summary": "一篇新论文提出名为Light-Loco-Parkour的感知式全身运动系统，用单一可部署策略让人形机器人在复杂地形中同时协调四肢与躯干完成类似跑酷的动作。",
+      "script": "在人形机器人控制领域，一篇新公布的论文提出了一个有意思的方案，叫做Light-Loco-Parkour，简称LLP。这项研究要解决的问题是，现有的人形机器人全身控制系统存在一个明显短板：要么能够跟踪很丰富的全身动作参考轨迹，但缺乏对地形变化的泛化能力；要么能对地形做出在线的实时反应，但这种反应往往只调整腿部动作，手臂、躯干和膝关节这些身体部位基本处于闲置状态，没有真正参与到整体的运动协调中。而人类穿越复杂地面时，是全身协同发力的，比如跨越障碍时会自然地摆动手臂来维持平衡、调整躯干姿态来适应地形起伏。研究团队提出的LLP系统，核心思路是通过多技能蒸馏，也就是把多种专项运动技能提炼、融合进一个统一的策略网络里，最终形成一个端到端、可直接部署的感知式全身运动策略。这个策略只依赖有限的感知输入，就能让机器人像人类一样，在杂乱地形中同时协调四肢、躯干和膝关节完成类似跑酷的越障动作。这类研究的意义在于，它把人形机器人在真实非结构化环境中的移动能力向前推进了一步，如果机器人未来要走进仓库、工地或者家庭这类地面不平整、障碍物多的环境，全身协同的运动能力是绕不开的基础技术。不过这项工作目前是预印本形式发布，具体在真实硬件上的稳定性、鲁棒性表现，以及是否能在不同体型的人形机器人平台上迁移，还需要等待同行评审与更多实机验证的结果。",
+      "duration_seconds": 145,
+      "is_unverified": true,
+      "confidence_note": "该研究来自arXiv预印本平台，尚未经过同行评审，实际性能与泛化能力需等待后续验证。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了名为LLP的感知式全身运动控制系统",
+          "该系统使用单一策略网络融合多种运动技能"
+        ],
+        "claims": [
+          "研究团队称该方法可让机器人在复杂地形中协调全身完成类跑酷动作"
+        ],
+        "analysis": [
+          "全身协同运动是人形机器人进入非结构化真实环境的关键技术方向之一"
+        ]
+      },
+      "source_ids": [
+        "428cf16434f841ff"
+      ],
+      "sources": [
+        {
+          "id": "428cf16434f841ff",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Light-Loco-Parkour: Versatile Perceptive Whole-Body Locomotion via Multi-Skill Distillation",
+          "summary": "arXiv:2608.02653v1 Announce Type: new Abstract: Existing humanoid whole-body control systems still fall short of the way humans move through cluttered terrain: they either track expressive whole-body references without terrain generalization, or react to terrain online while leaving the arms, torso, and knees largely unused. We present \\texttt{Light-Loco-Parkour} (LLP), an end-to-end perceptive whole-body locomotion system that closes this gap with a single deployable policy. Conditioned only on onboard depth and a velocity command, the policy decides when to walk, balance, climb, step down, or vault, with no reference input, skill label, hand-coded gate, or runtime motion graph. Compared with prior humanoid systems, LLP makes three contributions. First, it introduces a whole-body perceptive-control pipeline that extends an RL-trained, velocity-tracking locomotion policy with parkour skills learned from object-interacting motions, so the same policy tracks velocity in open terrain, executes whole-body traversal at obstacles, and resumes locomotion afterward. Second, it acquires terrain-conditioned skills from sparse seeds by expanding a single motion into dynamically feasible, terr",
+          "url": "https://arxiv.org/abs/2608.02653",
+          "published_at": "2026-08-05T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "学术聚焦：语义化触觉反馈提升机器人遥操作精细操作能力",
+      "english_term": "Teleoperation（遥操作）/ Haptic Feedback（触觉反馈）",
+      "summary": "研究者提出一种“语义触觉”方案，不再追求还原真实触感的高保真度，而是传递任务相关的关键信息，以降低操作者的认知负荷。",
+      "script": "另一篇值得关注的论文，聚焦在机器人遥操作中的触觉反馈问题。在遥操作场景中，人类操作者通过控制装置远程操纵机械臂完成精细任务，比如抓取易碎物体或者做精密装配，这个过程中，触觉反馈能帮助操作者感知力度、判断接触状态。但现有的触觉反馈方法，普遍追求的是高保真度，也就是尽量还原真实世界中手指触碰物体的感觉，而这种高保真反馈受限于传感器和反馈硬件的能力，往往需要复杂的设备，还容易增加操作者的认知负担，也就是让人在操作时需要处理的信息量变大、更容易疲劳分心。这篇论文提出了一种叫做“语义触觉”的新思路，核心想法是不追求物理层面的真实还原，而是把与任务相关的关键语义信息提炼出来传递给操作者，比如“即将打滑”“接触力已经超过安全阈值”这类抽象但直接有用的判断结果，而不是原始的力反馈数据。这种做法的好处是可以用相对简单的硬件传递更聚焦、更容易理解的信息，理论上能降低操作者的工作负荷，同时保持甚至提升任务完成的精细度。这项研究反映出遥操作领域一个正在发生的思路转变，就是触觉反馈的设计目标正从单纯还原物理真实感，转向为人类认知服务、突出任务相关性。目前这项工作同样以预印本形式发布，语义触觉方案的具体效果对比、在多任务场景下的普适性，仍需要后续实验数据与同行评审的进一步检验。",
+      "duration_seconds": 135,
+      "is_unverified": true,
+      "confidence_note": "该研究来自arXiv预印本，尚未经过同行评审，效果评估基于研究团队自身实验设定。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了语义触觉反馈方法用于机器人遥操作"
+        ],
+        "claims": [
+          "研究团队称该方法可降低操作者认知负荷同时保持操作精细度"
+        ],
+        "analysis": [
+          "触觉反馈设计思路正从追求物理真实感转向服务任务相关认知需求"
+        ]
+      },
+      "source_ids": [
+        "5d41c97a916a3507"
+      ],
+      "sources": [
+        {
+          "id": "5d41c97a916a3507",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Semantic Haptic Feedback Enhances Dexterous Robotic Teleoperation",
+          "summary": "arXiv:2608.02780v1 Announce Type: new Abstract: In robot teleoperation, haptic feedback can be used to help human operators accomplish dexterous manipulation tasks. However, existing haptic feedback methods try to replicate high-fidelity sensory haptics that are felt in real world interactions, which are constrained by the sensing and feedback hardware capability and may lead to higher workload. To addresses these limitations, this work introduces semantic haptics for teleoperation, which uses abstract haptic patterns to convey critical information about robot states. We categorize robot states into \"Confirmations\" and \"Exceptions\", implement a modular haptic rendering pipeline in robot simulation, and deliver semantic haptic feedback to operators through pneumatic and vibrotactile wristbands. This simplifies hardware requirements and enables one-to-many mappings between haptic patterns and robot states. Through three evaluation studies, we identify the most effective semantic haptic design for a common pick and place teleoperation task and compare semantic haptics to other teleoperation feedback approaches including sensory haptics and visual feedback. Results suggest that while s",
+          "url": "https://arxiv.org/abs/2608.02780",
+          "published_at": "2026-08-05T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "工业人形机器人功能安全认证遇结构性难题：无法简单“断电停止”",
+      "english_term": "Fail-Passive（失效被动）/ Functional Safety Certification（功能安全认证）",
+      "summary": "一篇论文指出，现有工业机器人安全标准建立在“断电即安全”的假设上，但对双足人形机器人来说，断电反而会导致失控摔倒，这一根本矛盾使得功能安全认证体系面临结构性缺口。",
+      "script": "人形机器人要真正大规模走进工厂，除了运动和操作能力，还有一个常被忽视但极其关键的问题：安全认证。一篇新论文专门讨论了这个问题，标题直译过来是“迈向工业人形机器人的认证功能安全：失效被动缺口与可行性研究”。论文指出，当前限制工业人形机器人落地的，已经不再主要是行走或操作能力本身，而是双足平台的功能安全认证体系还不成熟。这里的根本矛盾在于，现行的国际安全标准，比如ISO一三八四九和EN六零二零四，其底层逻辑都建立在“失效被动”假设上，也就是假定系统一旦出问题，最安全的处理方式是切断动力、让设备停止运动。这个逻辑对传统工业机械臂是成立的，断电后机械臂就静止不动了。但对于一个双足行走的人形机器人来说，它的“安全状态”本身是需要持续主动控制才能维持的，一旦断电，机器人会因为失去平衡控制而不受控地摔倒，这个摔倒过程本身就是一个安全风险，所以传统意义上的“断电即安全”这套逻辑，对人形机器人反而是失效的，甚至可能制造新的危险。这篇论文把这个矛盾称为“失效被动缺口”，并且做了一项可行性研究，探讨在现有认证框架下有没有可能弥补这个缺口。这个问题看似技术细节，实际上直接决定了人形机器人能不能真正进入有严格安全规范要求的工厂车间，如果认证标准跟不上，再先进的运动控制算法也很难落地到受监管的产线环境里。这也是The Robot Report近期讨论人形机器人成本与规模化瓶颈时提到的现实制约之一。目前论文本身是预印本，提出的解决路径尚处于研究和讨论阶段，具体标准修订还需要等待行业与标准化组织的后续跟进。",
+      "duration_seconds": 165,
+      "is_unverified": true,
+      "confidence_note": "论文为arXiv预印本，尚未经过同行评审；相关产业观点参考The Robot Report对人形机器人成本瓶颈的报道作为背景交叉印证。",
+      "fact_status": {
+        "confirmed": [
+          "现行工业安全标准基于失效被动假设设计",
+          "论文提出双足人形机器人断电会导致失控摔倒而非安全静止"
+        ],
+        "claims": [
+          "论文作者称这一矛盾是限制人形机器人工业认证落地的核心结构性问题"
+        ],
+        "analysis": [
+          "安全认证体系的滞后可能成为人形机器人进入受监管产线的主要瓶颈之一"
+        ]
+      },
+      "source_ids": [
+        "ebd5fcc194590604",
+        "aef92434efdae177"
+      ],
+      "sources": [
+        {
+          "id": "ebd5fcc194590604",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Toward Certified Functional Safety for Industrial Humanoid Robots: The Fail-Passive Gap and a Feasibility Study",
+          "summary": "arXiv:2608.02809v1 Announce Type: new Abstract: Industrial humanoid robots are constrained less by locomotion or manipulation capability than by the immaturity of functional safety certification for legged platforms. The root difficulty is that the safe state of a legged robot is an actively-controlled state, which violates the fail-passive assumption underlying ISO~13849-1 / EN~60204-1: removing power from a walking biped causes an uncontrolled fall, so classical de-energization is itself a hazard. We term this the fail-passive gap and use a certified external safety chain (light curtain, emergency stop, fail-safe input, fail-safe PLC, and wireless PROFIsafe) as an instrument to locate it precisely: because the external chain is closed and quantifiable with established methods (PFHD, DC, CCF, PL/SILCL), the residual uncertifiable element is pinpointed to the robot-side reaction chain. Using a Siemens fail-safe S7-1500 emergency-stop reference, we show its certifiable Reaction subsystem is contactor-based power removal (Stop Category~0)---exactly the element a balancing humanoid cannot have. We deliberately do not claim end-to-end certified PL~e / SIL~3. We validate the approach on",
+          "url": "https://arxiv.org/abs/2608.02809",
+          "published_at": "2026-08-05T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "37d78cb069ce2618",
+          "id": "aef92434efdae177",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators",
-          "summary": "This Phase I award is only part of HEBI Robotics' roadmap. The company also plans to continue developing its existing actuation hardware. The post HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
-          "published_at": "2026-08-03T17:17:46+00:00",
+          "title": "Humanoids won’t scale on factory floors until costs drop",
+          "summary": "The race to commercialize humanoids is on. What’s left to prove is that humanoid robots can beat the economics of the automation manufacturers are already running. The post Humanoids won’t scale on factory floors until costs drop appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/humanoids-wont-scale-on-factory-floors-until-costs-drop/",
+          "published_at": "2026-08-04T15:15:10+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "巴以冲突：加沙病患归国与人道局势持续紧张",
-      "summary": "部分在境外接受治疗的巴勒斯坦患者已返回加沙，但仍有大量患者等待撤离，加沙人道局势依旧严峻。",
-      "script": "来看中东局势的最新进展。据半岛电视台报道，一批此前被送往境外接受医疗救治的巴勒斯坦患者已经返回加沙，与家人时隔多年团聚，但与此同时，仍有数千名患者在等待撤离接受治疗，人道通道的容量和效率问题依然突出。这一进展发生在持续已久的加沙人道危机背景之下，医疗资源匮乏、基础设施受损，使得许多重症患者必须依赖境外转运才能获得必要的治疗，而转运本身又涉及复杂的安全协调和边境审批流程。已确认的事实是，部分患者已经完成境外治疗并返回加沙与家人团聚；仍待确认和持续关注的是，撤离机制的整体效率、剩余等待人数的具体规模以及未来是否会有更大规模的撤离安排。分析层面看，患者跨境医疗转运本身就是加沙人道局势的一个缩影：一方面它体现了国际社会和有关各方在特定人道议题上仍能维持一定的合作与协调，另一方面等待名单的持续存在也说明当前的转运能力远不能满足实际需求。这类新闻虽然不涉及军事冲突的直接进展，但反映了冲突对平民生活最直接、最持久的影响之一。后续需要关注撤离效率是否有改善，以及国际人道组织在协调转运方面是否会有新的安排。",
-      "duration_seconds": 115,
+      "category": "robotics",
+      "title": "美国海军选定Blue Water Autonomy执行深海自主勘测任务",
+      "english_term": "Unmanned Surface Vessel（无人水面艇）",
+      "summary": "美国海军选定初创公司Blue Water Autonomy，使用其可长期自主航行的无人船进行深海勘测，体现军用无人系统向远洋长航时方向发展。",
+      "script": "在无人系统的军事应用方面，美国海军做出了一项新的选择。据The Robot Report报道，美国海军选定了初创公司Blue Water Autonomy，使用其研发的无人水面艇执行深海勘测任务。这家公司的技术特点是打造能在开放大洋上连续自主航行数月之久的无人船，不需要人员登船操作或频繁补给维护。这类无人水面艇通常依靠自主导航系统、卫星通信和长续航动力设计，来实现远海长航时的无人值守航行，相比传统需要配备船员的勘测船，这种方案可以大幅降低长期海上作业的人力成本和安全风险，尤其适合深海测绘、环境监测这类枯燥但需要长时间覆盖的任务。美国海军选择与这类初创公司合作，也反映出军方在无人化装备采购上，越来越倾向于直接引入商业初创企业的成熟方案，而不是完全依赖传统军工体系自主研发，这种模式近年在美国国防采购中变得更加常见。目前公开信息中，具体的合同规模、部署时间表和实际测试海域还没有更详细的披露，后续需要等待美国海军或公司方面公布更具体的项目执行细节。",
+      "duration_seconds": 110,
       "is_unverified": false,
-      "confidence_note": "来源为半岛电视台，Tier 2来源，报道具体且聚焦人道议题，但撤离规模等具体数字有限。",
+      "confidence_note": "来自专业机器人产业媒体The Robot Report的单一来源报道，属于产业合作类新闻，暂无第二来源交叉确认具体合同细节。",
       "fact_status": {
         "confirmed": [
-          "部分巴勒斯坦患者已完成境外治疗并返回加沙"
+          "美国海军选定Blue Water Autonomy提供自主水面艇用于深海勘测"
         ],
-        "claims": [
-          "报道称仍有数千名患者在等待撤离，具体数字未在候选中给出"
-        ],
+        "claims": [],
         "analysis": [
-          "患者转运效率问题反映出加沙人道局势的持续紧张"
+          "军方直接采购商业初创公司无人系统方案的模式趋势正在增强"
         ]
       },
       "source_ids": [
-        "223faeed0caf2423"
+        "5b4a0d051790f457"
       ],
       "sources": [
         {
-          "id": "223faeed0caf2423",
-          "source": "Al Jazeera",
+          "id": "5b4a0d051790f457",
+          "source": "The Robot Report",
           "source_tier": 2,
-          "source_region": "middle-east",
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Palestinian patients return to Gaza as thousands still await evacuation",
-          "summary": "Palestinian patients returned to Gaza after receiving medical treatment abroad, reuniting after years of separation.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/4/palestinian-patients-return-to-gaza-as-thousands-still-await-evacuation?traffic_source=rss",
-          "published_at": "2026-08-04T10:04:49+00:00",
+          "category_hint": "robotics",
+          "title": "U.S. Navy picks Blue Water Autonomy to use autonomous vessels for deep ocean surveys",
+          "summary": "Blue Water Autonomy creates unmanned ships that can operate autonomously on the open ocean for months a time. The post U.S. Navy picks Blue Water Autonomy to use autonomous vessels for deep ocean surveys appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/u-s-navy-picks-blue-water-autonomy-to-use-autonomous-vessels-for-deep-ocean-surveys/",
+          "published_at": "2026-08-04T19:33:53+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "science",
+      "title": "NASA与SpaceX追踪火箭残骸撞击月球，收集科学数据",
+      "english_term": null,
+      "summary": "一枚使用过的猎鹰9号火箭上面级预计撞击月球表面，NASA与SpaceX将利用地面与太空望远镜观测这一过程以收集月球科学数据。",
+      "script": "航天方面一则值得关注的消息。NASA与SpaceX正在联合追踪一枚商业任务中使用过的猎鹰九号火箭上面级，这枚残骸预计将在近期撞击月球表面，撞击地点靠近月球上的爱因斯坦坑与贝尔坑附近区域。NASA方面强调，这次撞击对地球没有任何危险，团队计划利用地面望远镜和太空望远镜等多种观测手段，捕捉撞击瞬间及撞击后产生的现象，从而收集关于月球表面物质构成的科学数据。这类利用已完成任务的火箭残骸进行“顺便”科学观测的做法，在航天领域并不罕见，因为撞击月表会激起月壤物质、形成可观测的撞击坑，科学家可以通过分析撞击产生的光谱、尘埃扩散等信息，反推月球表层土壤的化学成分和物理特性，这比专门发射探测器成本要低得多。目前这次观测被定位为一次机会性的科学收集行动，具体能获得多少有效数据，还需要等待NASA后续公布实际观测结果。",
+      "duration_seconds": 90,
+      "is_unverified": false,
+      "confidence_note": "NASA官方一手信息发布，可信度高，但撞击后的具体科学产出需等待后续官方数据公布。",
+      "fact_status": {
+        "confirmed": [
+          "一枚使用过的猎鹰9号火箭上面级预计撞击月球表面",
+          "NASA与SpaceX将通过地面与太空望远镜进行观测"
+        ],
+        "claims": [],
+        "analysis": [
+          "利用现有火箭残骸进行月表撞击观测是一种低成本获取月球科学数据的方式"
+        ]
+      },
+      "source_ids": [
+        "a363e4be942261ba"
+      ],
+      "sources": [
+        {
+          "id": "a363e4be942261ba",
+          "source": "NASA",
+          "source_tier": 1,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "science",
+          "title": "NASA Will Attempt to Observe Rocket Part’s Lunar Impact",
+          "summary": "Using ground-based telescopes and space-based assets, NASA and SpaceX are tracking a used Falcon 9 upper stage from a commercial mission expected to impact the Moon on Wednesday, Aug. 5, near the Einstein and Bell craters. The impact poses no danger to Earth and NASA scientists are planning to collect lunar data from the event […]",
+          "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasa-will-attempt-to-observe-rocket-parts-lunar-impact/",
+          "published_at": "2026-08-04T20:00:14+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -338,146 +336,93 @@
     },
     {
       "category": "world",
-      "title": "俄乌冲突：乌克兰无人机袭击莫斯科周边致人员死亡",
-      "summary": "俄罗斯官方称乌克兰无人机袭击了莫斯科和圣彼得堡附近的工业与仓储设施，造成五人死亡；克里米亚同期发生一起军人枪击致四人死亡事件。",
-      "script": "俄乌冲突方面的最新消息。据俄罗斯官方说法，乌克兰的无人机袭击了莫斯科和圣彼得堡附近的工业设施与仓库，造成五人死亡。与此同时，在俄罗斯实际控制的克里米亚地区，还发生了一起俄军士兵枪击致四人死亡的事件，两起事件的具体关联性目前尚不清楚。已确认的事实层面，目前主要信息来源于俄罗斯官方通报，独立的第三方信源尚未在候选材料中出现交叉印证；乌克兰方面对此次袭击是否作出正式回应或说明具体打击目标，目前也没有在候选信息中体现。各方主张上，俄方将此次事件定性为乌克兰无人机袭击平民及工业设施，但具体袭击目标的军事或民用属性、是否为俄方防空系统拦截失败等细节仍有待确认。分析层面看，这类针对俄罗斯本土工业和仓储设施的无人机袭击，如果持续发生，将进一步显示乌克兰在远程打击能力上的持续投入，也可能促使俄方加强纵深防空部署。克里米亚境内发生的士兵枪击平民事件，如果得到进一步证实，可能反映出前线部队士气或管理层面的问题，但目前信息非常有限，不宜过度解读。这两起事件都发生在俄乌冲突持续胶着的大背景下，其对战场态势的实际影响还需要结合更多信源加以判断。后续需要关注乌克兰方面是否对袭击作出回应，以及克里米亚枪击事件的调查结果。",
-      "duration_seconds": 130,
-      "is_unverified": true,
-      "confidence_note": "主要信息来自俄罗斯官方通报，缺乏独立第三方信源交叉验证，需谨慎对待伤亡数字及事件定性。",
+      "title": "墨西哥网红主播直播中遭枪杀，引发网络安全直播担忧",
+      "english_term": null,
+      "summary": "拥有近60万粉丝的墨西哥TikTok博主塞萨尔·加斯特鲁姆，在直播过程中被一名摩托车上的男子近距离枪杀。",
+      "script": "一则令人痛心的社会新闻。墨西哥网红塞萨尔·加斯特鲁姆，在TikTok上拥有近六十万粉丝，主要发布喜剧和生活方式类内容，在一次直播过程中，他被一名骑摩托车经过的男子近距离枪杀，整个过程被直播画面记录下来。据BBC与DW报道，这一事件已经得到多方媒体确认，枪手作案后骑车逃离现场，目前案件调查的具体进展和作案动机尚未有官方定论。这起事件再次把公众注意力引向墨西哥长期存在的治安暴力问题，尤其是网络主播和公共人物在开放直播环境下的安全风险，由于直播具有实时公开定位或场景暴露的特点，近年也发生过多起主播在直播中遭遇袭击的案例，这类事件往往会引发关于社交平台直播功能安全机制的讨论。目前案件仍在调查阶段，具体作案动机、是否与其他社会因素相关，还需要等待墨西哥警方公布进一步调查结果。",
+      "duration_seconds": 85,
+      "is_unverified": false,
+      "confidence_note": "BBC与DW两家二级信源交叉确认事件基本事实，作案动机等细节尚未有官方结论。",
       "fact_status": {
         "confirmed": [
-          "俄罗斯官方通报称莫斯科和圣彼得堡附近发生无人机袭击事件"
+          "墨西哥网红塞萨尔·加斯特鲁姆在直播中被枪杀"
         ],
-        "claims": [
-          "俄方称袭击造成五人死亡，克里米亚枪击事件造成四人死亡，具体细节均来自俄方通报"
-        ],
+        "claims": [],
         "analysis": [
-          "若持续发生，此类袭击可能反映乌克兰远程打击能力的持续演进"
+          "事件凸显公共人物直播场景下的安全风险问题"
         ]
       },
       "source_ids": [
-        "237f8f14bfd32ad7"
+        "822b1bd186522a08",
+        "a0c7c89dd6aefb7d"
       ],
       "sources": [
         {
-          "id": "237f8f14bfd32ad7",
+          "id": "822b1bd186522a08",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Ukraine drone strikes kill five near Moscow, Russia says",
-          "summary": "Russian officials say Ukrainian drones have killed five people, hitting industrial and warehouse sites near Moscow and St Petersburg. Meanwhile, a soldier has killed four people in Russian-controlled Crimea. DW has more.",
-          "url": "https://www.dw.com/en/ukraine-drone-strikes-kill-five-near-moscow-russia-says/live-78227405?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-04T09:13:00+00:00",
+          "title": "TikTok influencer shot dead during livestream in Mexico",
+          "summary": "Cesar Gastelum, a Mexican influencer with nearly 600,000 followers on TikTok, was shot dead in the middle of a livestream.",
+          "url": "https://www.dw.com/en/tiktok-influencer-shot-dead-during-livestream-in-mexico/a-78241507?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-05T11:06:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "申根危机：意大利暂停与西班牙自由通行引发欧盟担忧",
-      "summary": "在休达附近发生致命偷渡事件后，意大利宣布暂停与西班牙间的申根自由通行，分析人士认为此举更多出于政治考量而非实际操作需要。",
-      "script": "欧洲内部治理方面的一则重要消息。据半岛电视台报道，意大利宣布暂停与西班牙之间的申根区自由通行安排，这一决定是在西班牙休达地区附近发生一起致命偷渡事件之后作出的。分析人士指出，意大利此举更多是政治姿态而非出于实际操作层面的必要性，因为两国间的日常人员往来规模和边境管理机制原本运转正常。已确认的事实是，意大利确实宣布了暂停与西班牙间自由通行的安排，此前休达附近发生了造成人员死亡的偷渡事件。各方主张方面，意大利政府方面的具体表态理由、西班牙方面的回应，在目前的候选信息中并未详细展开；分析人士则普遍认为，这一决定的象征意义大于实际执行意义，更多是为了向国内选民展示政府对非法移民问题的强硬姿态。分析层面看，申根区的自由通行是欧盟一体化最具象征意义的成果之一，任何成员国单方面暂停申根安排都会引发对申根体系稳定性的担忧，尤其是在移民议题持续成为多个欧洲国家国内政治焦点的背景下。如果此类单边行动被其他成员国效仿，可能对申根区的运作机制造成实质性冲击，欧盟内部围绕移民政策协调的分歧也可能因此进一步暴露。后续需要关注西班牙方面的正式回应，以及欧盟层面是否会就此事进行协调或表态。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "来源为半岛电视台，Tier 2来源，报道包含具体分析人士观点，但两国官方回应细节有限。",
-      "fact_status": {
-        "confirmed": [
-          "意大利宣布暂停与西班牙间的申根自由通行安排",
-          "此前休达附近发生致命偷渡事件"
-        ],
-        "claims": [
-          "分析人士认为该决定更多出于政治考量而非实际操作需要"
-        ],
-        "analysis": [
-          "单边暂停申根安排可能引发对申根体系稳定性的担忧"
-        ]
-      },
-      "source_ids": [
-        "b841d366e278ad2e"
-      ],
-      "sources": [
+        },
         {
-          "id": "b841d366e278ad2e",
-          "source": "Al Jazeera",
+          "id": "a0c7c89dd6aefb7d",
+          "source": "BBC World",
           "source_tier": 2,
-          "source_region": "middle-east",
+          "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Italy suspends free movement with Spain: Is Schengen in crisis after Ceuta?",
-          "summary": "Italy's move to halt border-free travel with Spain after the deadly crossing is political, not practical, analysts say.",
-          "url": "https://www.aljazeera.com/news/2026/8/4/italy-suspends-free-movement-with-spain-is-schengen-in-crisis-after-ceuta?traffic_source=rss",
-          "published_at": "2026-08-04T10:40:08+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "finance",
-      "title": "Palantir二季度营收大增93%，但加沙关联业务持续引发争议",
-      "english_term": "Palantir（帕兰提尔，数据分析公司）",
-      "summary": "数据分析公司Palantir公布第二季度营收同比增长93%，但其与以色列军方及加沙相关的技术合作持续受到批评。",
-      "script": "来看一条科技与金融交叉的新闻。据半岛电视台报道，数据分析公司Palantir公布了第二季度财报，营收同比增长93%，增速被形容为“超常规”。与此同时，该公司与以色列的技术合作关系，以及其在军事技术领域扮演的角色，持续受到批评和争议。已确认的事实是，Palantir第二季度营收实现了同比93%的大幅增长，这一数字本身已经由公司财报正式公布。各方主张方面，批评者认为Palantir的数据分析和人工智能技术被用于支持以色列在加沙的军事行动，对此表达强烈担忧和道德批评；公司方面对于具体业务构成、与以色列军方合作的具体内容，在目前候选信息中未见详细回应或说明。分析层面看，Palantir的高速增长反映出军事和国防相关的数据分析与人工智能业务在当前全球地缘政治紧张的大环境下需求旺盛，这类企业的商业逻辑往往与政府国防预算、地区冲突态势高度绑定，营收增长的另一面往往伴随着对其商业伦理的持续质疑。这种“营收增长与伦理争议并存”的局面，实际上是国防科技公司普遍面临的处境，也反映出资本市场在评估这类企业时，业绩表现和社会争议之间的张力将长期存在。后续需要关注Palantir是否会对相关业务构成和合作细节作出更具体的公开说明。",
-      "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "营收数据来自公司财报，为一手数据；关于加沙相关争议的具体细节和公司回应在候选信息中较为有限。",
-      "fact_status": {
-        "confirmed": [
-          "Palantir第二季度营收同比增长93%"
-        ],
-        "claims": [
-          "批评者认为该公司技术被用于支持以色列在加沙的军事行动"
-        ],
-        "analysis": [
-          "国防科技企业的业绩增长与伦理争议并存的局面可能长期持续"
-        ]
-      },
-      "source_ids": [
-        "089f72cd9776071b"
-      ],
-      "sources": [
-        {
-          "id": "089f72cd9776071b",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Tech giant Palantir posts ‘otherworldly’ growth despite criticism over Gaza",
-          "summary": "Second-quarter revenue jumped 93 percent but Palantir's ties to Israel and role in military technology are controversial",
-          "url": "https://www.aljazeera.com/news/2026/8/4/tech-giant-palantir-posts-otherworldly-growth-despite-criticism-over-gaza?traffic_source=rss",
-          "published_at": "2026-08-04T10:11:06+00:00",
+          "title": "Mexican influencer shot dead during livestream",
+          "summary": "César Gastélum, who was known for comedy and lifestyle posts, was killed at close range by a man on a motorbike.",
+          "url": "https://www.bbc.co.uk/news/articles/cx2kg709qd9o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-05T11:00:47+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的科技与国际局势都指向同一个趋势：技术、供应链与地缘政治正在越来越紧密地交织在一起，无论是人形机器人的贸易摩擦，还是数据分析公司业绩与军事合作的争议，都提示我们关注技术发展背后的产业与政治逻辑。后续需要等待美方人形机器人进口限制的具体政策文本、中方反制措施的实质内容，以及多篇机器人学术论文的同行评审结果。",
-  "editor_note": "本期机器人类内容合并了产业新闻（中美贸易摩擦、丰田合作、零部件产品）与学术前沿（arXiv预印本论文合集），时长占比约52%。部分Tier 3来源信息密度较低，已在confidence_note中说明局限性；俄乌冲突相关消息仅有俄方单一信源，已标注为未核实并注明来源局限。中国相关限制措施报道来自Tier 3行业媒体，缺乏官方一手文件，已做unverified标注。",
+  "closing": "俄乌战场的防空缺口、人形机器人的安全认证难题，以及无人驾驶出租车的量产进程，都是接下来值得持续关注的方向。",
+  "editor_note": "机器人部分综合了arXiv预印本论文与The Robot Report产业报道，预印本内容均已标注未经同行评审；国际政治部分优先选择多来源交叉确认的俄乌袭击事件，其余中东、南亚等地区新闻因信息量有限未单独展开。财经类候选（美联储银行并购批复）因内容重复度高、新闻价值有限未纳入正文。Zoox一事因不涉及机器人本体的核心研究/控制议题，归类为other以避免稀释robotics时长占比。",
   "model": "claude-sonnet-5",
+  "generation_usage": [
+    {
+      "input_tokens": 9350,
+      "output_tokens": 7937,
+      "total_tokens": 17287
+    },
+    {
+      "input_tokens": 9862,
+      "output_tokens": 7595,
+      "total_tokens": 17457
+    }
+  ],
   "usage": {
-    "input_tokens": 9673,
-    "output_tokens": 9547,
-    "total_tokens": 19220
+    "input_tokens": 19212,
+    "output_tokens": 15532,
+    "total_tokens": 34744
   },
-  "generated_at": "2026-08-04T11:13:38+00:00",
-  "window_start": "2026-08-03T11:13:38+00:00",
-  "candidate_count": 355,
+  "generated_at": "2026-08-05T11:07:41+00:00",
+  "window_start": "2026-08-04T11:07:41+00:00",
+  "candidate_count": 264,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
+  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1295,
-    "script_characters": 5055,
-    "topic_duration_share": 0.483,
+    "duration_seconds": 975,
+    "script_characters": 3814,
+    "topic_duration_share": 0.569,
     "passed": true,
-    "normal_target_met": true,
-    "topic_source_count": 3,
+    "normal_target_met": false,
+    "topic_source_count": 2,
     "issues": []
   }
 }
