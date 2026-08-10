@@ -1,87 +1,96 @@
 {
-  "title": "晶球电台早报：Moove融资2.5亿美元，磁星观测或验证90年物理预言",
-  "subtitle": "机器人产业融资与学术前沿并进，中东局势与体育治理危机同步发酵",
+  "title": "晶球电台早报：乌克兰无人机重创俄鞑靼斯坦，人形机器人出货量半年暴涨3.7倍",
+  "subtitle": "国际局势持续紧张之际，具身智能领域论文与产业数据齐发",
   "highlights": [
-    "自动驾驶基础设施公司Moove完成2.5亿美元融资，用于建设自动驾驶车队专用基地",
-    "NASA的IXPE望远镜通过观测磁星，可能首次直接验证了90年前关于真空双折射的理论预言",
-    "多篇机器人学术预印本聚焦厨房操作、VLA策略失效检测与跨本体灵巧操作数据挖掘",
-    "伊朗称霍尔木兹海峡协议接近达成，黎巴嫩南部两名以色列士兵死亡"
+    "乌克兰无人机袭击俄罗斯下卡姆斯克，造成至少13人死亡，是开战以来最致命袭击之一",
+    "行业报告显示2026年上半年全球人形机器人出货量同比增长3.7倍，尚需更多独立信源验证",
+    "多篇机器人学术论文聚焦VLA推理加速、仿真到现实迁移安全性与手术机器人力反馈",
+    "国际足联主席因世界杯私有化提案遭三大洲际足联联合谴责"
   ],
   "stories": [
     {
-      "category": "robotics",
-      "title": "自动驾驶基础设施公司Moove完成2.5亿美元融资",
-      "english_term": "autonomous vehicle fleet ownership（自动驾驶车队所有权运营模式）",
-      "summary": "Moove获得2.5亿美元资金，用于扩展其自动驾驶车队所有权业务和名为“Nests”的机器人化车辆基地网络。",
-      "script": "先来看一则产业融资消息。自动驾驶基础设施公司Moove宣布完成2.5亿美元新一轮融资，资金将用于扩展公司的自动驾驶车队所有权业务，并建设其称为“Nests”的机器人化车辆基地网络。Moove的业务模式与传统整车厂或出行平台不同，它并不直接造车，而是扮演车队资产的所有者和运营者角色，为自动驾驶技术公司提供车辆采购、保险、维护、能源补给等一体化基础设施服务。这种模式的产业逻辑在于，自动驾驶技术公司往往擅长感知、决策算法，但车队运维、能源网络、场地基建这类重资产业务并非其核心能力，因此催生了专门的车队基础设施运营商这一新赛道。所谓“Nests”车辆基地，可以理解为自动驾驶车辆的机器人化维护中心，集成自动清洗、自动充电或加油、自动泊入调度等功能，减少人工介入。这类基础设施的规模化建设，是自动驾驶车队真正大规模商业化落地前必须解决的后端问题——车辆数量一旦从几十台扩展到成千上万台，人工调度和维护成本会迅速失控，因此自动化基地被视为行业规模化的关键瓶颈之一。从行业背景看，近年自动驾驶赛道的竞争重心已经从单纯的算法比拼，逐渐扩展到运营效率和成本结构的比拼，谁能把每英里运营成本压得更低，谁就更有可能率先实现商业闭环。这笔融资也反映出资本市场对自动驾驶基础设施这一细分环节的关注度在上升，而不再只盯着感知算法和芯片公司。后续需要关注Moove披露具体的Nests选址规模、合作的自动驾驶技术方伙伴名单，以及该模式能否在成本上真正验证其相对于传统车队管理的优势。",
-      "duration_seconds": 160,
+      "category": "world",
+      "title": "乌克兰无人机袭击俄罗斯鞑靼斯坦，致至少13人死亡",
+      "english_term": null,
+      "summary": "乌克兰对俄罗斯鞑靼斯坦共和国下卡姆斯克市发动大规模无人机袭击，造成至少13人死亡，当地宣布进入哀悼日。这是俄乌战争爆发四年多以来，乌方对俄本土最致命的袭击之一。",
+      "script": "国际局势方面，最受关注的一条消息来自俄乌战场。乌克兰军方对俄罗斯鞑靼斯坦共和国的下卡姆斯克市发动了大规模无人机袭击，根据俄罗斯官方通报，此次袭击造成至少13人死亡，当地已经宣布进入哀悼日。多家媒体的报道口径基本一致，美联社体系下的NPR、BBC、DW以及半岛电视台都对遇难人数做出了相近的报道，数字在12到13人之间浮动，这在俄乌战争爆发四年多以来，是乌克兰对俄罗斯本土发动的最致命袭击之一。已确认的事实是，乌克兰近几个月来几乎每天都在使用远程无人机打击俄罗斯境内的石油设施，这已经在俄罗斯国内造成了燃油短缺，并引发了公众的不安情绪。官方通报显示，此次袭击涉及数以百计的无人机，目标包括工业与能源设施。俄方将此次事件定性为针对平民和民用设施的恐怖袭击，乌克兰方面尚未就下卡姆斯克这次具体行动发表专门声明，但其长期立场是，此类打击针对的是支撑俄罗斯战争机器的能源基础设施，而非平民目标。分析人士认为，这种远程无人机战术已经成为乌克兰在正面战线胶着情况下，试图通过消耗俄罗斯后方能源生产能力来影响战争进程和国内舆论的重要手段。值得关注的是，鞑靼斯坦并非传统意义上的前线地区，此次袭击距离乌克兰边境有相当距离，说明乌方无人机的打击半径和精度都在持续提升。后续需要等待俄方公布更详细的伤亡与设施损毁评估，也需要观察乌克兰是否会持续对同一区域的能源设施发动打击。",
+      "duration_seconds": 150,
       "is_unverified": false,
-      "confidence_note": "基于The Robot Report的产业报道，为单一行业媒体来源，具体融资细节以公司后续披露为准。",
+      "confidence_note": "多家二级信源（半岛电视台、BBC、DW、NPR）报道口径一致，伤亡数字略有出入但均在合理误差范围内，可信度较高。",
       "fact_status": {
         "confirmed": [
-          "Moove完成2.5亿美元融资",
-          "资金用于自动驾驶车队所有权业务及Nests基地建设"
-        ],
-        "claims": [],
-        "analysis": [
-          "自动化车队基地被视为自动驾驶商业化规模化的关键后端基础设施"
-        ]
-      },
-      "source_ids": [
-        "4cea38e40913736a"
-      ],
-      "sources": [
-        {
-          "id": "4cea38e40913736a",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Moove raises $250M to build infrastructure for autonomous vehicles",
-          "summary": "The funding will support Moove's expansion of its autonomous fleet ownership and robotics-first depot infrastructure “Nests.” The post Moove raises $250M to build infrastructure for autonomous vehicles appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/moove-raises-250m-to-build-infrastructure-for-autonomous-vehicles/",
-          "published_at": "2026-08-05T16:53:38+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "VLA策略失效检测新方法SAFECAST：面对部署环境变化如何自我预警",
-      "english_term": "VLA policy（视觉-语言-动作策略，指以视觉与语言输入直接生成机器人动作的端到端模型）；out-of-distribution shift（分布外偏移，指部署环境与训练数据差异过大导致模型失效）",
-      "summary": "一篇新预印本提出SAFECAST方法，通过对比集训练和校准手段，让机器人的VLA策略能更可靠地检测自身可能失败的部署场景。",
-      "script": "在机器人学术研究方面，一篇新发布的预印本论文关注一个具身智能领域越来越受重视的问题：视觉-语言-动作策略，也就是VLA策略，在实际部署时经常会遇到训练时没见过的场景，比如物体摆放杂乱、出现干扰物、光照变化、遇到新物体，或者指令表述方式发生变化，这些统称为分布偏移。当这类偏移发生时，模型往往会在不知不觉中给出错误动作，而系统本身并不知道自己正在犯错，这对实际部署构成安全隐患。研究团队提出的方法名为SAFECAST，思路是结合隐藏状态风险探测和一种叫做功能性一致预测的统计校准工具来检测执行失败。此前已有研究尝试用模型内部的隐藏状态来判断当前决策是否可靠，但这类方法的可靠性高度依赖校准数据是否能匹配真实部署场景，一旦校准环境和实际部署环境存在差距，风险预警就会失灵。SAFECAST的创新点在于引入对比集扰动训练，也就是有意构造一批在关键细节上略有差异、但语义相近的场景和指令，用它们来训练和校准风险探测器，让探测器学会区分“正常的场景变化”和“真正会导致策略失败的变化”，从而在没有充分匹配真实部署条件的校准数据时，也能维持较好的失效检测能力。这项工作的意义在于为机器人自主判断“可能要出错了”提供了一种更鲁棒的技术路径，这对于让机器人在家庭、仓库等开放环境中安全运行至关重要，因为不可能穷举所有可能遇到的场景来做校准。需要说明的是，这是一篇尚未经过同行评审的预印本，其报告的检测准确率和适用范围仍需要在更广泛的机器人平台和真实部署环境中进一步验证。后续需要等待该方法是否被其他实验室复现，以及是否有具体机器人平台落地测试的结果发布。",
-      "duration_seconds": 170,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv预印本，尚未经过同行评审，实验结果和适用范围有待独立验证。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出SAFECAST方法用于检测VLA策略部署时的失效风险"
+          "乌克兰对俄罗斯鞑靼斯坦下卡姆斯克发动无人机袭击",
+          "官方通报死亡人数至少12至13人",
+          "当地宣布进入哀悼日"
         ],
         "claims": [
-          "作者称该方法在校准数据与部署条件不匹配时仍能保持较好检测能力"
+          "俄方称袭击针对平民与民用设施",
+          "乌方未就本次行动单独表态，但长期主张打击目标为能源基础设施"
         ],
         "analysis": [
-          "失效检测能力对机器人在开放环境中的安全部署具有重要意义，但仍需更广泛验证"
+          "分析认为此次袭击显示乌克兰无人机打击半径与精度提升，是消耗俄罗斯后方能源产能的战术延续"
         ]
       },
       "source_ids": [
-        "77142c018f0bd96c"
+        "1933a2a13c4e2538",
+        "b2792181be124660",
+        "c8fa021aec2a7f57",
+        "0eb9327b9c9fe2ad"
       ],
       "sources": [
         {
-          "id": "77142c018f0bd96c",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
+          "id": "1933a2a13c4e2538",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
           "language": "en",
-          "category_hint": "robotics",
-          "title": "SAFECAST: Robust Failure Detection for VLA Policies with Contrast-Set Training and Calibration",
-          "summary": "arXiv:2608.04246v1 Announce Type: new Abstract: Vision-language-action policies often fail under deployment-time distribution shifts such as clutter, distractor objects, lighting changes, novel objects, altered initial states, and reworded instructions. Hidden-state-based risk probes combined with functional conformal prediction can detect rollout failures, but their reliability depends on calibration data matching deployment conditions. We introduce SAFECAST, which leverages contrast set perturbations to improve hidden-state probe training and calibration for deployment time shift. SAFECAST statistically significantly improves failure detection ROC-AUC scores over a state of the art baseline in both real-world DROID and LIBERO simulation experiments across multiple VLM backbones. We further find that SAFECAST benefits most when both visual and language contrast set perturbations are used to augment data, and that with contrast set perturbations, sim-to-real calibration leads to better probes than using real rollout data only.",
-          "url": "https://arxiv.org/abs/2608.04246",
-          "published_at": "2026-08-06T04:00:00+00:00",
+          "category_hint": "world",
+          "title": "At least 13 killed in Ukrainian drone attack on Russia’s Nizhnekamsk",
+          "summary": "A day of mourning has been declared in the Russian republic of Tatarstan after the attack killed 13 people.",
+          "url": "https://www.aljazeera.com/news/2026/8/10/at-least-13-killed-in-ukrainian-drone-attack-on-russias-nizhnekamsk?traffic_source=rss",
+          "published_at": "2026-08-10T10:55:38+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "b2792181be124660",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
+          "summary": "It is one of the deadliest Ukrainian drone attacks on Russia since the start of Moscow's war on Ukraine.",
+          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-10T10:03:58+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "c8fa021aec2a7f57",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Ukrainian drone attack on the Russian city of Nizhnekamsk kills 12, authorities say",
+          "summary": "Ukraine has targeted Russian oil facilities with long-range drones almost daily in recent months. The barrage has caused fuel shortages in Russia and unsettled the Russian public.",
+          "url": "https://www.npr.org/2026/08/10/nx-s1-5927024/ukrainian-drone-attack-russia",
+          "published_at": "2026-08-10T08:58:22+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "0eb9327b9c9fe2ad",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Ukrainian drone attack kills at least 13 in central Russia",
+          "summary": "Ukraine launched hundreds of drones at targets inside Russia, according to Russian officials. The strikes killed more than a dozen in one of Kyiv's deadliest attacks since the Russian invasion began over four years ago.",
+          "url": "https://www.dw.com/en/ukrainian-drone-attack-kills-at-least-13-in-central-russia/a-78300485?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-10T08:31:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -89,39 +98,54 @@
     },
     {
       "category": "robotics",
-      "title": "厨房机器人操作新方案：基础模型驱动的感知流水线处理餐具抓取",
-      "english_term": "foundation model（基础模型，指经海量数据预训练、可迁移到多种下游任务的大模型）；6D pose estimation（六维位姿估计，指同时估计物体的三维位置和三维朝向）",
-      "summary": "一篇新预印本提出模块化感知流水线，结合开放词汇检测、多视角分割与三维重建，专门针对厨房环境中的餐具抓取任务。",
-      "script": "另一篇值得关注的机器人学术预印本，聚焦一个具体又极具代表性的家庭操作场景：厨房里的餐具处理。要让机器人在日常家庭环境中完成抓取、分类、清洗前处理这类任务，感知系统必须同时具备鲁棒性和适应性，因为家庭环境里的物体摆放方式千变万化，光照条件也不稳定。研究团队提出了一套模块化的感知流水线，核心组件包括开放词汇物体检测，也就是不局限于预先设定的固定物体类别，而是可以根据语言描述识别训练时没见过的新物体；多视角分割，通过从多个角度观察同一场景来提高物体边界识别的准确性；实例感知的三维重建，为每一个独立物体单独构建三维模型；以及一种融合二维图像特征和三维几何特征的策略，最终用于估计物体的六维位姿，即同时确定物体在空间中的位置和朝向，这是机械臂精确抓取的前提条件。这套流水线把这几个环节模块化组合，意味着每个组件可以独立替换升级，方便后续针对具体瓶颈做优化，也便于迁移到其他类似的精细操作场景，比如整理书架或分类衣物。这项研究反映出当前具身智能领域的一个趋势，就是不再追求一个端到端黑箱模型解决所有问题，而是把基础模型的通用能力和结构化的几何感知模块结合起来，在保持一定可解释性的同时提升复杂场景下的鲁棒性。这类工作的意义在于，厨房操作是家用服务机器人商业化路径上一个高频且技术门槛较高的场景，如果感知精度和适应性能进一步提升，将直接影响服务机器人在家庭场景落地的可行性。作为一篇新发布的预印本，其方法目前主要在特定实验条件下验证，尚未经过同行评审，实际泛化能力和在真实家庭复杂场景下的表现还需要更多测试。",
+      "title": "报告称全球人形机器人上半年出货量同比暴涨3.7倍",
+      "english_term": "humanoid robot（人形机器人）",
+      "summary": "一份行业报告显示，2026年上半年全球人形机器人出货量同比增长3.7倍，产业规模化迹象明显，但目前只有单一信源。",
+      "script": "先来看机器人产业的一条重要数据。据行业机构SAG发布的报告，2026年上半年全球人形机器人的出货量同比增长了3.7倍，这个数字如果得到进一步交叉验证，将意味着人形机器人产业正在从示范样机阶段快速转向规模化交付阶段。需要说明的是，这条消息目前来自单一行业报告的转载，尚未看到第二个独立信源的交叉确认，因此这里把它标记为有待验证的热点线索，但考虑到过去两年人形机器人赛道确实积累了大量融资和量产投产的消息，这个增长趋势本身具备一定的合理性。从技术和产业逻辑上看，人形机器人出货量的快速攀升，通常与几个因素相关：一是核心零部件如谐波减速器、力矩传感器、丝杠等的成本持续下降；二是主要厂商在电池续航、双足行走稳定性和手部灵巧操作方面取得阶段性突破，使得样机具备了从实验室走向工厂车间和特定商业场景的条件；三是资本市场对具身智能赛道的持续加注，推动了多条产线同步扩产。与此同时，市场上也出现了不同声音，例如有分析文章直接质疑，一些打着人形机器人旗号的投资产品，本质上更像是一揽子人工智能资本开支的代理工具，而非真正押注于机器人本体技术的成熟度，这提示投资市场对于人形机器人商业化速度的预期分歧依然明显。如果3.7倍的增长数据属实，接下来需要观察的是这些出货的人形机器人具体流向了哪些应用场景，是以工业质检、仓储物流为主，还是已经开始进入更贴近消费端和服务场景的试点。后续需要等待更多独立机构公布的分口径统计数据，以及主要厂商在财报中披露的具体交付数字，才能对这一增长态势做出更扎实的判断。",
       "duration_seconds": 165,
       "is_unverified": true,
-      "confidence_note": "来自arXiv新预印本，尚未经过同行评审，具体实验数据和泛化能力有待后续验证。",
+      "confidence_note": "该数据来自单一行业报告转载（Report.az引用SAG机构），未见第二独立来源交叉确认，标记为未经充分验证的产业热点，需谨慎对待具体倍数。",
       "fact_status": {
         "confirmed": [
-          "论文提出面向厨房餐具操作的模块化感知流水线"
+          "有行业报告称2026年上半年全球人形机器人出货量同比增长3.7倍"
         ],
         "claims": [
-          "作者称该方法整合开放词汇检测、多视角分割和三维重建以提升抓取精度"
+          "报告方主张此增长反映人形机器人产业进入规模化阶段"
         ],
         "analysis": [
-          "该研究反映具身智能领域将基础模型通用能力与结构化几何感知结合的趋势"
+          "分析认为若数据属实，可能与零部件成本下降、技术阶段性突破及资本持续投入相关，但市场对商业化速度仍有分歧"
         ]
       },
       "source_ids": [
-        "99723a66add0578c"
+        "6bee81a41075dfa1",
+        "e0e517e89e802b21"
       ],
       "sources": [
         {
-          "id": "99723a66add0578c",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
+          "id": "6bee81a41075dfa1",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Kitchen Robotic Manipulation utilizing Foundation Models",
-          "summary": "arXiv:2608.04042v1 Announce Type: new Abstract: Deploying robots in everyday human environments requires perception systems that are both robust and adaptable to diverse, dynamic conditions. In this work, we present a modular perception pipeline for household manipulation tasks, with a focus on dishware handling in kitchen environments. The pipeline integrates open-vocabulary object detection, multi-view segmentation, instance-aware 3D reconstruction, and a 2D-3D feature fusion strategy for 6D pose estimation and grasp planning. Its modular design enables systematic substitution of multiple visual and geometric foundation models, allowing us to identify the best-performing configuration through extensive evaluation on a custom kitchen dataset. The best-performing configuration (LLMDet + SAMv2 + DINOv2 + GeoTransformer) achieves an ADI of 89.12\\% on the 20-scene kitchen benchmark with cluttered and occluded conditions. Furthermore, real-world demonstrations confirm that the best configuration can be deployed on physical robots without environment-specific retraining, successfully executing tasks such as sink-to-dishwasher transfer and cup stacking. It validates the adaptability and ",
-          "url": "https://arxiv.org/abs/2608.04042",
-          "published_at": "2026-08-06T04:00:00+00:00",
+          "title": "SAG: Global humanoid robot shipments surge 3.7-fold in first half of 2026 - Report.az",
+          "summary": "SAG: Global humanoid robot shipments surge 3.7-fold in first half of 2026 Report.az",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeFFxT2FCZUwzVHNDMW9yUEphaU8tOUE5dmN0a3g0NFBCRXZIME1BSzY5ZGdHS2tsMkNyWDVtc1pFZjdMWWJIeDNaLTFQYlU5b042dld2SGhsU0FxRlhYdzg5WDczcjd6VjdmS2lOWUx4ZkVRM3hFeWpiaDFjbWwwNUdQUU9XWlg0ZWFZZUV6YmxaV1JoU1dsVm1FaEV2UlRvZDBZUWZjZzRtU2swZUHSAbMBQVVfeXFMTWZnTnJOYWZ4cVpNRU5ycWxRdlZabTlnVjhiVzdKZnQ5ZGZmQ29TT2t3dXcydkFJbHVKZHZSS2tUZU9sSXdtY24wcWQtc1BKb1dJTWNDSXl1aDVsbUpMdUJnZkZUWFJWOFEtOGxRZWlpc3N0cUM5dUFaSTczQnBKaDVTQXNIbzBNdXNBZ0RRWkdTdzlXMXpXSGJHQjVwenI3Yy15SWFCOXprejh3VXJLN2lpMVU?oc=5",
+          "published_at": "2026-08-10T10:47:43+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "e0e517e89e802b21",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "KOID: Holding An AI CapEx Fund Sold As Humanoid Robotics (NASDAQ:KOID) - Seeking Alpha",
+          "summary": "KOID: Holding An AI CapEx Fund Sold As Humanoid Robotics (NASDAQ:KOID) Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYjFMTXU2RVJuSF9aeTlhZXcyMzUwcTJpRVptSkJFQy1mVEJSc0NLRkxKSFFjQWFZdnlMaHIwOFRncHJ6RXNoaXlGMFZvSTRLaXVUUU94UjdCNEZwek1YZUdTNnNuVjI1UWY0YkR1NnVoc0FPT09qd2JtejZYamZFWWd3Zk1iYzE1WnhybWZ1NG13eG1KWUVkdUN4VTg?oc=5",
+          "published_at": "2026-08-10T10:45:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -129,39 +153,79 @@
     },
     {
       "category": "robotics",
-      "title": "跨本体灵巧操作数据挖掘框架SiMDex：如何筛选真正有用的人类视频数据",
-      "english_term": "cross-embodiment（跨本体，指方法或数据可迁移适配到不同结构的机器人本体）；VLA post-training（VLA后训练，指在预训练模型基础上针对具体任务进一步微调）",
-      "summary": "研究团队提出SiMDex框架，将海量第一人称人类视频中筛选对机器人灵巧操作真正有效的数据，转化为一个类似推荐系统的排序问题。",
-      "script": "近年来，用大规模第一人称人类操作视频来训练机器人操作策略成为具身智能领域的热门方向，逻辑很直接：人类视频数据量远超机器人真实采集的示教数据，如果能有效利用，理论上可以大幅降低机器人训练所需的真实交互数据量。但一个长期悬而未决的问题是，海量人类视频里究竟哪些数据对提升机器人的灵巧操作能力真正有帮助，盲目堆量并不一定带来性能提升。这篇新预印本提出的SiMDex框架，正是针对这一问题给出的解法。研究团队把人类数据筛选问题重新表述为一个推荐系统式的问题：对于每一条机器人自身的示教演示，系统需要从海量人类视频库中“推荐”出与之相似、能够提供有效补充信息的片段。具体实现上，SiMDex设计了一个三层的召回、排序、再排序流水线，先通过粗粒度的相似度筛选快速缩小候选范围，再用更精细的模型对候选片段打分排序，最后进行二次精细筛选以确保选出的数据确实对下游的VLA后训练有帮助。这种思路借鉴了推荐系统领域已经相对成熟的技术架构，将其迁移应用到机器人数据挖掘这个新场景，是一种跨领域方法迁移的典型案例。这项工作的意义在于为“用人类视频训练机器人”这条路径提供了一种更精细化、可解释的数据筛选工具，如果有效，可以让研究者在有限计算和标注资源下更高效地利用现有的人类视频数据库，而不是简单地堆砌数据量。不过，由于这是一篇尚未经过同行评审的新预印本，其筛选策略的实际效果、计算成本以及在不同机器人本体上的泛化能力，仍有待更多独立实验和评审验证。",
+      "title": "论文速览：VLA自适应推理框架实现快慢系统解耦",
+      "english_term": "VLA（Vision-Language-Action，视觉-语言-动作模型）",
+      "summary": "一篇新论文提出环境感知的自适应VLA推理框架，通过解耦快慢模块提升具身智能系统的推理速度与任务成功率的平衡。",
+      "script": "接下来是一条学术论文速递，来自arXiv机器人板块。具身智能领域一直面临一个两难问题：既需要长时程的深思熟虑式推理，又需要实时的快速反应能力。当前主流的解决思路是所谓双系统VLA架构，也就是视觉-语言-动作模型，把系统拆成一个负责快速反应的执行模块和一个负责慢速深度推理的规划模块，试图兼顾推理速度和任务成功率。但研究者指出，现有的双系统方案存在一个结构性问题，那就是快速模块和慢速模块的中间表示被紧密耦合在一起，这导致两个模块必须端到端联合训练，无法灵活地单独替换或者升级，模块化程度受限。针对这个问题，研究团队提出了一种自适应的VLA推理框架，核心思路是引入环境感知的模型选择机制，让系统能够根据当前环境的复杂程度和任务需求，动态选择合适的推理路径，而不是把两个模块死死绑定在一起联合训练。这种设计如果成立，意味着未来可以像搭积木一样，分别优化快系统和慢系统，再灵活组合，从而降低训练成本，也提高系统在不同场景下的适应能力。论文属于新发布的预印本，尚未经过同行评审，具体的实验对比数据和在真实机器人上的验证效果，需要进一步查阅论文全文才能评估。这类框架层面的改进，如果后续能在真实机械臂或人形机器人平台上得到验证，有可能为具身智能系统的工程化部署提供一条更灵活的技术路线。后续需要关注该框架在标准评测基准上与现有双系统VLA方法的量化对比结果，以及是否有开源代码支持复现。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "来自arXiv预印本，属于新发布未经同行评审的研究成果，实验细节与对比数据需查阅论文原文进一步核实。",
+      "fact_status": {
+        "confirmed": [
+          "arXiv发布了一篇关于自适应VLA推理框架的新论文"
+        ],
+        "claims": [
+          "作者主张该框架通过解耦快慢模块，能够提升推理速度与任务成功率的平衡"
+        ],
+        "analysis": [
+          "分析认为若得到验证，该思路有助于提升具身智能系统的模块化程度和工程可维护性"
+        ]
+      },
+      "source_ids": [
+        "fc713777c1b0fc8e"
+      ],
+      "sources": [
+        {
+          "id": "fc713777c1b0fc8e",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection",
+          "summary": "arXiv:2608.06434v1 Announce Type: new Abstract: Embodied intelligence demands both long-horizon reasoning and real-time closed-loop responsiveness. Recent dual-system Vision-Language-Action (VLA) architectures combine fast reactive control with slow deliberative reasoning to balance inference speed and task success rate. However, existing dual-process VLAs tightly couple the fast module to intermediate representations of the slow module, necessitating end-to-end joint training and limiting modularity, extensibility and flexible system switching. In this paper, we propose Environment-aware Model Selection (EMS), an adaptive VLA inference framework that switches between two fully decoupled systems of different scales through environment-aware model selection. The large-scale deliberative system provides globally consistent trajectory planning to ensure task success, while a lightweight reactive system enables high-frequency closed-loop control. A reinforcement-learning-based switching policy dynamically selects which system to invoke based on real-time feedback, enabling sparse use of the slow system and thereby balancing pretrained knowledge utilisation with runtime efficiency. Our ",
+          "url": "https://arxiv.org/abs/2608.06434",
+          "published_at": "2026-08-10T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "论文速览：李雅普诺夫引导的进化优化提升仿真到现实迁移安全性",
+      "english_term": "sim-to-real（仿真到现实迁移）",
+      "summary": "一篇新论文提出LyEvO框架，结合约束进化优化、统计模型检测与李雅普诺夫稳定性分析，用于评估机器人控制策略从仿真到现实部署的安全性与鲁棒性。",
+      "script": "再看一篇同样来自arXiv的机器人控制论文。仿真到现实迁移，也就是sim-to-real，一直是机器人强化学习领域的核心难题之一：在仿真环境里训练得很好的控制策略，一旦部署到真实机器人上，往往会因为物理参数误差、传感器噪声等原因表现失常，甚至出现安全隐患。如何在部署之前系统性地评估一个控制策略的安全性和鲁棒性，是产业界和学术界都非常关心的问题。这篇论文提出了一个名为LyEvO的框架，把三种技术手段结合在了一起：一是约束进化优化，用来在满足安全约束的前提下搜索更优的控制参数；二是基于统计模型检测的验证方法，用统计手段量化策略在不确定性下的表现；三是基于李雅普诺夫稳定性理论的分析，这是控制理论中判断系统是否稳定收敛的经典数学工具。研究团队表示，这个框架是物理原理驱动的，会利用系统动力学的先验知识来指导整个优化和验证过程。这种把经典控制理论与现代进化算法、统计验证结合起来的思路，试图解决当前很多基于深度强化学习的控制策略普遍存在的黑箱问题，也就是很难从理论上保证策略在真实世界部署时的稳定性和安全边界。如果这套方法能够在更多真实机器人平台上得到验证，可能会为工业界在部署强化学习控制器之前提供一套可量化的安全评估工具。同样需要说明的是，这是一篇新发布的预印本，尚未经过同行评审，具体在哪些机器人平台上做了实测验证，还需要查阅论文细节。后续需要关注该框架的开源实现情况，以及是否有第三方在不同机器人任务上进行独立复现。",
       "duration_seconds": 155,
       "is_unverified": true,
-      "confidence_note": "来自arXiv新预印本，尚未经过同行评审，实际效果和跨本体泛化能力有待验证。",
+      "confidence_note": "来自arXiv预印本，未经同行评审，具体实验平台与量化结果需查阅论文原文核实。",
       "fact_status": {
         "confirmed": [
-          "论文提出SiMDex框架用于从人类第一人称视频中筛选适用于机器人灵巧操作训练的数据"
+          "arXiv发布了一篇关于LyEvO框架的新论文，用于机器人控制策略的仿真到现实迁移安全评估"
         ],
         "claims": [
-          "作者称三层召回排序流水线能有效识别对下游任务真正有帮助的数据"
+          "作者主张该框架结合进化优化、统计模型检测与李雅普诺夫稳定性分析，能够提升策略部署的安全性与鲁棒性"
         ],
         "analysis": [
-          "该方法体现了将推荐系统技术迁移至机器人数据挖掘领域的跨领域方法迁移趋势"
+          "分析认为该方法尝试为强化学习控制策略提供理论可解释的安全边界评估工具"
         ]
       },
       "source_ids": [
-        "3a3fdc06a258af45"
+        "11d21ebadd7ff100"
       ],
       "sources": [
         {
-          "id": "3a3fdc06a258af45",
+          "id": "11d21ebadd7ff100",
           "source": "arXiv Robotics (cs.RO)",
           "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "SiMDex: Mining Similar Egocentric Videos for Cross-Embodiment Dexterous Manipulation",
-          "summary": "arXiv:2608.04196v1 Announce Type: new Abstract: Recent years have witnessed an explosive trend of scaling ego-centric human videos for robot manipulation, yet it remains unclear which data actually benefits dexterous manipulation. We present SiMDex, a similarity-based data mining framework that casts human data selection for VLA post-training in dexterous manipulation as a recommendation problem. For each robot demonstration, SiMDex employs a three-layer recall-ranking-re-ranking pipeline to extract task-relevant subsets from a pool of ~32M egocentric human samples, operating in a morphology-agnostic action space that requires no changes to VLA architecture or training. Against a strong baseline trained with an equal amount of randomly sampled human data, SiMDex uses only ~1.49M mined samples (<5% of the pool) yet improves the overall success rate from 47.7% to 61.1%, showing that selective curation outperforms indiscriminate data mixing.",
-          "url": "https://arxiv.org/abs/2608.04196",
-          "published_at": "2026-08-06T04:00:00+00:00",
+          "title": "LyEvO: Lyapunov-Guided Evolutionary Optimization for Safe and Robust Sim-to-Real Policy Learning",
+          "summary": "arXiv:2608.06481v1 Announce Type: new Abstract: Training controllers that are safe and robust in simulation, and systematically assessing their readiness for real-world deployment, remain key challenges in sim-to-real transfer. To address this, we propose LyEvO, a physics-grounded framework that combines constrained Evolutionary Optimization and Statistical Model Checking (SMC)-based verification with Lyapunov-based stability analysis. Leveraging prior knowledge of the system dynamics, LyEvO uses Lyapunov analysis to compute an initial candidate stability region. An iterative loop then uses operational scenarios drawn from this region to jointly optimize and statistically verify a policy, and subsequently expands the region's boundaries based on the verification outcome. This integrated procedure provides a practical criterion for assessing deployment readiness. We evaluate LyEvO on Cartpole and 3D Quadrotor benchmarks through extensive simulations and targeted real-world experiments, demonstrating safe and robust sim-to-real transfer.",
+          "url": "https://arxiv.org/abs/2608.06481",
+          "published_at": "2026-08-10T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -169,37 +233,150 @@
     },
     {
       "category": "robotics",
-      "title": "Avnet与Weston Robot联合推出边缘AI工业巡检平台",
-      "english_term": "edge AI（边缘AI，指在设备本地而非云端完成AI推理，以降低延迟和带宽需求）",
-      "summary": "电子元件分销巨头Avnet与机器人公司Weston Robot合作推出面向复杂工业环境的自主巡检平台，主打边缘AI推理能力。",
-      "script": "产业层面，电子元件分销巨头Avnet与机器人公司Weston Robot宣布合作，联合推出一款面向复杂工业环境的AI驱动自主巡检平台。这类平台的典型应用场景包括工厂管线巡检、设备异常检测、安全隐患排查等，机器人需要在结构复杂、光照条件多变的工业现场自主导航并识别异常状况。平台强调的边缘AI能力，指的是AI推理计算主要在设备本地完成，而不是把数据传回云端服务器处理，这样做的好处是可以显著降低响应延迟，同时减少对网络带宽的依赖，这在很多工厂内部网络环境有限或对实时性要求较高的场景中尤为重要。从产业格局看，Avnet作为全球领先的电子元件分销商，其核心优势在于硬件供应链资源和电子系统集成能力，而Weston Robot则专注于机器人本体和自主导航技术，两者的合作模式代表了当前机器人产业链中一种常见分工模式：硬件供应链企业与专业机器人技术公司强强联合，共同将定制化的软硬件一体化方案推向工业客户，而不是各自独立地把技术从零做到成品。这种合作模式能够加快产品落地速度，因为机器人公司不必自建完整的硬件供应链和分销渠道，供应链企业也能借此切入更高附加值的智能化产品市场。工业自主巡检本身是当前移动机器人商业化程度较高的细分赛道之一，因为相比人形机器人等尚处于早期阶段的产品，巡检机器人的任务边界相对明确，商业回报路径也更清晰。后续需要关注这一平台具体的客户案例和部署规模，以及边缘AI推理方案在实际工业现场的可靠性表现。",
+      "title": "MassRobotics获得亚德诺半导体战略赞助，支持机器人初创生态",
+      "english_term": null,
+      "summary": "亚德诺半导体（Analog Devices）宣布重新成为MassRobotics的战略赞助商，通过Analog Garage项目及RoboBusiness等活动支持机器人初创企业。",
+      "script": "来看一条机器人产业生态方面的消息。半导体厂商亚德诺半导体，也就是Analog Devices，宣布重新成为美国机器人孵化机构MassRobotics的战略赞助商。根据官方通报，亚德诺将通过其内部创新项目Analog Garage，并参与包括RoboBusiness在内的行业活动，为MassRobotics孵化的机器人初创企业提供支持。MassRobotics是美国机器人产业里比较重要的孵化和加速平台，长期为早期机器人公司提供办公场地、原型开发资源以及产业对接机会。像亚德诺半导体这样的芯片厂商愿意持续投入资源支持机器人初创生态，背后的逻辑并不复杂：机器人系统的性能高度依赖底层的传感器、模拟前端芯片和电机驱动方案，而这些恰恰是亚德诺这类模拟半导体厂商的核心业务。通过深度介入初创企业的早期研发，芯片厂商既能够更早地了解下游机器人产品对传感、驱动芯片的具体需求，反过来指导自身产品路线图的迭代，也能够提前锁定潜在的未来大客户。这种芯片厂商与机器人孵化器之间的合作模式，近年来在产业界并不少见，反映出机器人产业链上下游协同创新的趋势正在加深，而不仅仅是机器人本体厂商在单打独斗。对于处于早期阶段的机器人初创公司而言，能够获得知名半导体厂商在硬件选型和技术支持上的直接帮助，往往比单纯的资金投入更加实际。后续需要关注这次合作具体会孵化出哪些机器人初创项目，以及是否会有更多细分领域的一线硬件厂商加入类似的生态支持计划。",
       "duration_seconds": 155,
       "is_unverified": false,
-      "confidence_note": "基于The Robot Report产业报道，为单一行业媒体来源。",
+      "confidence_note": "来自行业媒体The Robot Report的直接报道，属于企业官方合作公告类消息，可信度较高。",
       "fact_status": {
         "confirmed": [
-          "Avnet与Weston Robot合作推出边缘AI工业自主巡检平台"
+          "亚德诺半导体宣布重新成为MassRobotics的战略赞助商",
+          "将通过Analog Garage项目及RoboBusiness等活动提供支持"
         ],
         "claims": [],
         "analysis": [
-          "合作模式体现了硬件供应链企业与专业机器人公司分工协作的产业趋势"
+          "分析认为该合作反映芯片厂商与机器人孵化生态之间协同创新趋势加深"
         ]
       },
       "source_ids": [
-        "da9eed8de7cf0b8e"
+        "709d0e4f93d85ee6"
       ],
       "sources": [
         {
-          "id": "da9eed8de7cf0b8e",
+          "id": "709d0e4f93d85ee6",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Avnet and Weston Robot partner to launch edge AI inspection platform",
-          "summary": "Avnet and Weston Robot have partnered to launch an AI-powered autonomous inspection platform for complex industrial environments. The post Avnet and Weston Robot partner to launch edge AI inspection platform appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/avnet-and-weston-robot-partner-to-launch-edge-ai-inspection-platform/",
-          "published_at": "2026-08-05T19:10:05+00:00",
+          "title": "Analog Devices returns as strategic sponsor to aid MassRobotics startups",
+          "summary": "Analog Devices Inc. is supporting MassRobotics startups with Analog Garage and participating in events including RoboBusiness. The post Analog Devices returns as strategic sponsor to aid MassRobotics startups appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/",
+          "published_at": "2026-08-09T12:30:42+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "国际足联主席因世界杯私有化提案遭三大洲际足联联合谴责",
+      "english_term": null,
+      "summary": "欧足联、亚足联和中北美及加勒比足联联合发表声明，指责国际足联主席因凡蒂诺提出出售世界杯股权的提案构成“信任破坏”，其连任前景面临压力。",
+      "script": "体育与国际治理方面的一条消息。欧洲足球协会联盟、亚洲足球联合会以及中北美及加勒比海足球协会，这三大洲际足联联合发表声明，公开指责国际足联主席詹尼·因凡蒂诺提出的世界杯私有化提案构成了对成员协会“信任的破坏”。根据已确认的事实，三大洲际足联发布了联合信函，批评因凡蒂诺试图出售世界杯部分股权的计划。就在几周前，因凡蒂诺看起来将会毫无悬念地迎来又一个国际足联主席任期，但随着选举临近，这位瑞士籍足球高管的处境已经出现明显变化，多家媒体形容他目前的连任前景“悬于一线”。三大洲际足联方面主张，出售世界杯股权这样重大的商业决策，理应经过更广泛的成员协商，而不是由主席个人主导推动，这种做法损害了国际足联内部的信任基础。因凡蒂诺及国际足联方面目前尚未就三方联合信函的具体指控作出公开回应。分析人士指出，世界杯作为国际足联最核心的商业资产和收入来源，任何涉及股权结构调整的提案都会触及各成员协会的切身利益，三大洲际足联的联合表态，实际上释放出对因凡蒂诺领导层信任出现松动的信号，这在国际足联的选举政治中是相当罕见的公开对抗姿态。接下来需要关注的是国际足联官方是否会对私有化提案做出进一步说明或调整，以及即将举行的主席选举中，是否会出现足够分量的竞争者对因凡蒂诺的连任构成实质挑战。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "半岛电视台与DW均有独立报道，且均引用三大洲际足联的联合公开信，来源交叉确认充分。",
+      "fact_status": {
+        "confirmed": [
+          "欧足联、亚足联、中北美及加勒比足联联合发表声明批评因凡蒂诺",
+          "声明内容涉及世界杯私有化提案"
+        ],
+        "claims": [
+          "三大洲际足联主张该提案构成信任破坏",
+          "国际足联及因凡蒂诺本人尚未公开回应"
+        ],
+        "analysis": [
+          "分析认为此事反映因凡蒂诺在国际足联内部的领导地位面临选举前的压力测试"
+        ]
+      },
+      "source_ids": [
+        "74f4b49347bec18f",
+        "98c7baf125f4fc8e"
+      ],
+      "sources": [
+        {
+          "id": "74f4b49347bec18f",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "UEFA, CONCACAF and AFC accuse Infantino of 'breach of trust'",
+          "summary": "A few weeks ago, Gianni Infantino looked set for another unopposed term as FIFA president. Now, with an election looming, the beleagured Swiss executive is counting the numbers and could be hanging by a thread.",
+          "url": "https://www.dw.com/en/uefa-concacaf-and-afc-accuse-infantino-of-breach-of-trust/a-78301601?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-10T11:10:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "98c7baf125f4fc8e",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "UEFA, AFC, CONCACAF hit out at Infantino over World Cup privatisation plan",
+          "summary": "Three confederations release letter criticising FIFA's president over his proposal to sell off stakes in the World Cup.",
+          "url": "https://www.aljazeera.com/sports/2026/8/10/uefa-afc-concacaf-hit-out-at-infantino-over-world-cup-privatisation-plan?traffic_source=rss",
+          "published_at": "2026-08-10T10:15:02+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "泰国前国会议员因借贷纠纷枪杀官员并在YouTube直播认罪",
+      "english_term": null,
+      "summary": "泰国一名前国会议员因金钱借贷纠纷枪杀一名政府官员，随后通过YouTube直播承认作案，事件发生在泰国近四年最致命枪击案后不久。",
+      "script": "一则突发社会新闻。泰国一名前国会议员差隆·瑞旺，因为一起金钱借贷纠纷，枪杀了一名政府官员，随后他通过YouTube直播公开承认了自己的作案行为。根据泰国警方的通报，这起枪击事件发生在一处政府办公场所，差隆在直播中表示，自己是因为债务纠纷而对这名官员开枪。这起事件距离泰国近四年来最致命的一起枪击案发生仅仅几天时间，泰国社会近期的枪支暴力事件因此再次受到关注。目前警方已经介入调查，具体的案件后续处理和差隆本人的法律程序还有待泰国司法机关进一步公布。这起事件之所以引发关注，一方面是因为嫌疑人的前国会议员身份，另一方面是他选择通过社交媒体直播的方式公开认罪，这种行为本身也反映出社交媒体平台在重大刑事案件传播中的角色正变得越来越复杂。后续需要关注泰国警方对案件的正式起诉情况，以及泰国国内是否会因连续发生的枪击事件而在控枪政策上出现新的讨论。",
+      "duration_seconds": 95,
+      "is_unverified": false,
+      "confidence_note": "BBC与DW两家独立媒体均有报道，案件基本事实经泰国警方证实。",
+      "fact_status": {
+        "confirmed": [
+          "泰国前国会议员差隆·瑞旺枪杀一名政府官员",
+          "其本人通过YouTube直播承认作案",
+          "事件发生在泰国近期另一起致命枪击案之后不久"
+        ],
+        "claims": [
+          "嫌疑人称作案动机为借贷纠纷"
+        ],
+        "analysis": []
+      },
+      "source_ids": [
+        "0a47157098e24948",
+        "63076b3a0e961430"
+      ],
+      "sources": [
+        {
+          "id": "0a47157098e24948",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Former Thai MP allegedly kills official and confesses on YouTube",
+          "summary": "Chalong Riewrang called a YouTube livestream to say he had shot a government official.",
+          "url": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-10T09:51:07+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "63076b3a0e961430",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Thai ex-lawmaker shoots local official dead over loan",
+          "summary": "A former lawmaker confessed to shooting a senior official at a government office over a money dispute, police have said. The incident came just days after Thailand's deadliest shooting in nearly four years.",
+          "url": "https://www.dw.com/en/thai-ex-lawmaker-shoots-local-official-dead-over-loan/a-78300045?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-10T07:47:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -207,200 +384,79 @@
     },
     {
       "category": "science",
-      "title": "NASA的IXPE观测或首次验证90年前关于真空双折射的理论预言",
-      "english_term": "vacuum birefringence（真空双折射，量子电动力学预言的一种效应，即极强磁场下真空本身会像双折射晶体一样改变光的偏振状态）",
-      "summary": "NASA的IXPE望远镜通过对一颗磁星长达140多小时的观测，可能捕捉到真空在极端磁场下表现出双折射效应，这一理论预言已提出近90年。",
-      "script": "科学领域一则重要进展来自NASA。该机构的IXPE，也就是成像X射线偏振探测器，通过对一颗名为1E的磁星进行超过140小时的观测，可能首次直接测量到了一种被理论物理学家预言了近90年、但此前从未被直接观测到的现象——真空双折射。磁星是一类拥有极端强磁场的中子星，其磁场强度可以达到地球磁场的数万亿倍。根据量子电动力学理论，当磁场强度达到这种极端量级时，看似空无一物的真空本身会表现出类似双折射晶体的性质，也就是说，不同偏振方向的光在通过这片强磁场区域时会以微妙不同的方式传播，从而改变光的偏振状态。这个预言最早由理论物理学家在上世纪三十年代提出，但由于地球上无法制造出足以验证这一效应的磁场强度，物理学家们只能寄希望于宇宙中天然存在的极端磁场环境，磁星正是目前已知磁场最强的天体之一。IXPE此次的观测结果已发表在《自然》杂志上，如果这一测量结果得到进一步确认，将是人类首次在真实物理条件下直接验证这一延续近一个世纪的理论预言，对量子电动力学这一现代物理学基石理论提供了极端条件下的实验支撑。这类观测的技术难度极高，因为磁星发出的X射线信号微弱，偏振信息的提取需要长时间、高精度的持续观测积累，140多小时的观测时长本身就体现了这项工作的严谨程度。目前该成果已经过《自然》期刊的同行评审并正式发表，但作为一项开创性的直接观测结果，天体物理学界后续仍会有其他团队尝试用不同磁星目标或不同观测手段进行交叉验证，以进一步巩固这一发现的可信度。",
-      "duration_seconds": 160,
+      "title": "欧洲监测机构：今年六七月为西欧有记录以来最热",
+      "english_term": null,
+      "summary": "哥白尼气候变化服务机构报告称，今年6月和7月是西欧有记录以来最热的两个月，历史性低降雨量加剧了多国的干旱状况。",
+      "script": "气候科学方面的一条消息。欧盟的哥白尼气候变化服务机构发布报告称，今年的6月和7月是西欧有记录以来最热的两个月。报告同时指出，多个国家出现了历史性的低降雨量，进一步加剧了当地的干旱状况。这份报告基于该机构长期积累的气候观测数据得出，属于官方气候监测机构的正式评估结论，可信度较高。已确认的事实是，哥白尼气候变化服务机构公布了这一最高温记录，并将历史性的降雨不足列为加剧当前状况的重要因素。从科学角度看，气候监测机构通常会综合卫星遥感数据、地面气象站观测记录以及历史气候数据库，通过标准化的统计方法来判断某一时间段是否创下历史极值，这类结论一般具有较高的可信度。持续偏高的气温加上降雨量不足，会同时影响农业灌溉、河流水位、森林火灾风险以及能源系统的冷却用水需求，是一个牵涉面很广的连锁性问题。目前报告并未详细列出具体受影响最严重的国家名单和农业经济损失的量化数字，这些细节需要等待后续更详细的区域报告发布。后续需要关注欧洲多国政府是否会因此调整夏季用水限制政策，以及今年秋季的降雨情况是否能够缓解当前的干旱压力。",
+      "duration_seconds": 115,
       "is_unverified": false,
-      "confidence_note": "研究成果已发表于同行评审期刊《自然》，为NASA官方一手报道，可信度较高。",
+      "confidence_note": "来自权威气候监测机构哥白尼气候变化服务的官方报告，经半岛电视台报道，属于Tier 1数据源加Tier 2媒体转述，可信度较高。",
       "fact_status": {
         "confirmed": [
-          "NASA的IXPE望远镜对磁星1E进行了超过140小时的观测",
-          "相关结果已发表于《自然》期刊"
-        ],
-        "claims": [
-          "研究团队认为观测结果可能首次直接验证了真空双折射效应"
-        ],
-        "analysis": [
-          "该发现如获进一步交叉验证，将为量子电动力学提供极端条件下的实验支撑"
-        ]
-      },
-      "source_ids": [
-        "9753ef22ec1e9723"
-      ],
-      "sources": [
-        {
-          "id": "9753ef22ec1e9723",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "science",
-          "title": "NASA’s IXPE May Have Proven 90-Year-Old Theory",
-          "summary": "A first of its kind measurement of a magnetar may have captured empty space behaving in a way physicists have predicted for 90 years, but never directly observed. The results published Wednesday in Nature. Fast facts Scientists using NASA’s IXPE (Imaging X-ray Polarimetry Explorer) conducted more than 140 hours of observations of the magnetar 1E […]",
-          "url": "https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/",
-          "published_at": "2026-08-05T18:49:14+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "中东局势：伊朗称霍尔木兹海峡协议接近达成，黎巴嫩南部两名以色列士兵死亡",
-      "english_term": null,
-      "summary": "伊朗方面表示重新开放霍尔木兹海峡的协议已进入“最后阶段”，同期黎巴嫩南部有两名以色列士兵死亡。",
-      "script": "中东局势方面有两条并行的重要消息。首先，伊朗方面表示，一项关于重新开放霍尔木兹海峡的协议已经进入“最后阶段”，前提是美国不加以阻挠。霍尔木兹海峡是全球最重要的能源运输通道之一，全球相当比例的海运石油需要经过这一狭窄水道，此前该海峡因地区紧张局势而受到通行阻碍或威胁，如果协议最终达成并顺利落实，对全球能源供应链和油价走势都将产生直接影响。需要强调的是，这一说法目前来自伊朗方面的官方表态，协议的具体条款、美国的立场以及是否会最终落地，仍有待多方证实，目前只能作为伊朗单方面的主张来看待。与此同时，在黎巴嫩南部，有两名以色列士兵死亡，具体事发经过和责任归属的细节报道中未作详细说明。中东地区近期局势持续牵动全球关注，霍尔木兹海峡的能源通道问题和黎巴嫩南部的军事摩擦，分别代表了该地区经济和安全两条线索上的紧张态势，两者虽非直接关联，但都反映出地区局势仍处于高度不稳定状态。从分析角度看，霍尔木兹海峡协议如果真正取得实质性进展，将是近期中东局势中少有的缓和信号，但历史上类似的“协议接近达成”表态也曾多次未能兑现，因此其真实进展需要观察后续是否有美国、海湾国家等多方的正式确认。黎巴嫩南部的军事事件则提示，尽管地区外交渠道上出现缓和迹象，实际军事摩擦仍在持续，两条线索需要分开看待，不能简单地认为局势整体已经降温。后续需要等待美国官方是否就霍尔木兹海峡协议作出回应，以及黎巴嫩南部事件的具体调查结果。",
-      "duration_seconds": 155,
-      "is_unverified": true,
-      "confidence_note": "霍尔木兹海峡协议进展目前仅为伊朗官方单方面表态，尚未见美方或其他独立方证实；黎巴嫩士兵死亡事件细节有限。",
-      "fact_status": {
-        "confirmed": [
-          "黎巴嫩南部有两名以色列士兵死亡"
-        ],
-        "claims": [
-          "伊朗方面称霍尔木兹海峡重新开放协议已进入最后阶段"
-        ],
-        "analysis": [
-          "协议表态与实际军事摩擦并存，显示地区局势的外交与安全层面存在不同步的紧张态势"
-        ]
-      },
-      "source_ids": [
-        "05d5c8675599d8a1"
-      ],
-      "sources": [
-        {
-          "id": "05d5c8675599d8a1",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Middle East: Hormuz deal near, IDF soldiers dead in Lebanon",
-          "summary": "Iran has said a deal to reopen the Strait of Hormuz is in its \"final stage\" if the US doesn't obstruct it. Two Israeli soldiers were killed in southern Lebanon. Follow DW for the latest.",
-          "url": "https://www.dw.com/en/middle-east-hormuz-deal-near-idf-soldiers-dead-in-lebanon/live-78263014?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-06T10:52:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "德国机场发现携带爆炸装置的无人机，官员称威胁性质升级",
-      "english_term": null,
-      "summary": "德国一机场员工在南跑道附近发现一架携带未知爆炸装置的无人机，警方已介入调查，官员称这代表一种“新的威胁性质”。",
-      "script": "德国一处机场发生一起安全事件。当地警方和检察官表示，一名机场员工在南跑道附近发现一架无人机，机身携带一个“未知的爆炸装置”，警方已对该物体进行检查处理。一名官员将此事定性为出现了“新的威胁性质”，意在强调此类携带爆炸物的无人机对机场安全构成的风险，与此前常见的无人机误入禁飞区或单纯的抵近侵扰性质不同。无人机对机场运行的威胁近年来在欧洲多国都有发生案例，通常表现为无人机在机场附近空域出现，导致跑道关闭或航班延误，但此次事件的特殊之处在于无人机被指携带爆炸装置，如果情况属实，意味着威胁已经从单纯的空域侵扰升级为潜在的蓄意攻击手段，这也是官员用“新的威胁性质”来形容此事的原因。目前公开报道中并未透露该无人机的具体来源、操作者身份，以及爆炸装置的具体性质是否已被排除或确认为真实爆炸物，这些关键细节仍有待警方后续调查公布。从更宏观的安全形势看，近期欧洲多国机场、军事设施都曾报告不明无人机活动，各国安全部门对小型无人机可能被用于袭击或侵扰关键基础设施的担忧持续上升，这起事件很可能会被纳入这一背景下进行审视。由于案件仍在调查初期，具体动机、责任人和最终定性都存在不确定性，公开信息有限，需要谨慎看待。后续需要等待德国警方公布调查结果，明确爆炸装置的真实性、无人机操作者身份以及案件定性。",
-      "duration_seconds": 140,
-      "is_unverified": true,
-      "confidence_note": "案件仍在调查阶段，无人机来源、装置真实性及案件定性均有待警方后续公布，目前信息有限。",
-      "fact_status": {
-        "confirmed": [
-          "德国一机场员工在南跑道附近发现携带未知爆炸装置的无人机，警方已介入检查"
-        ],
-        "claims": [
-          "一名官员称此事代表一种新的威胁性质"
-        ],
-        "analysis": [
-          "事件可能反映欧洲近期对无人机被用于袭击关键基础设施的安全担忧上升"
-        ]
-      },
-      "source_ids": [
-        "d76826800ac445a0"
-      ],
-      "sources": [
-        {
-          "id": "d76826800ac445a0",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Drone with explosives found at German airport, official sees 'new quality' of threat",
-          "summary": "Regional police and prosecutors said an airport employee discovered a drone near the airport's south runway with \"an unknown explosive device,\" and the object was examined by police",
-          "url": "https://www.npr.org/2026/08/06/g-s1-137571/germany-drone-explosives-airport",
-          "published_at": "2026-08-06T05:23:08+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "sports",
-      "title": "国际足联世界杯股权出售计划受挫，因凡蒂诺在危机会议上获内部支持留任主席",
-      "english_term": null,
-      "summary": "国际足联就因凡蒂诺出售世界杯股权计划失败一事道歉，摩洛哥危机会议上高层重申对其留任主席的支持。",
-      "script": "体育治理方面，国际足联陷入一场内部信任危机。国际足联表示，已就主席因凡蒂诺此前推动的一项计划——出售世界杯赛事股权——所出现的失误正式道歉，这项计划最终未能成功推行。围绕此事，国际足联在摩洛哥召开了一场危机会议，出席会议的高层管理人员对外表态，重申对因凡蒂诺继续担任主席一职的“全力支持”。世界杯是国际足联最重要的收入来源之一，出售赛事相关股权这类资本运作方案一旦公开，往往会引发关于足球治理商业化边界的争议，尤其是世界杯作为具有强烈公共属性和历史传统的全球赛事，其商业权益的处置方式历来备受关注和审视。从目前公开信息看，这项股权出售计划具体因何种失误而未能推行、失误的性质是决策层面还是执行层面，报道中并未详细展开，国际足联的道歉声明本身可以视为对外部质疑压力的一种回应姿态。而高层在危机会议上迅速表态支持因凡蒂诺留任，说明国际足联内部至少在短期内希望通过对外展示团结来平息这场风波，避免事态进一步扩大。需要指出的是，“获得内部支持”与真正化解外部对国际足联治理方式的质疑并不是同一件事，后续如果这一股权出售计划的具体细节、决策过程被进一步披露，可能会引发新的讨论。这类事件也折射出国际体育组织在推动商业化改革时普遍面临的张力：一方面需要开辟新的资金渠道以支撑赛事运营和自身财务健康，另一方面任何触及传统赛事核心资产处置的动作都容易引发利益相关方和公众的强烈反应。后续需要关注国际足联是否会公开这项失败计划的具体细节，以及外部足球治理机构或成员协会是否会有进一步表态。",
-      "duration_seconds": 165,
-      "is_unverified": false,
-      "confidence_note": "基于NPR报道及国际足联官方道歉声明，属于对外公开的组织表态，具体计划失误细节尚未披露。",
-      "fact_status": {
-        "confirmed": [
-          "国际足联就世界杯股权出售计划失败公开道歉",
-          "危机会议高层重申支持因凡蒂诺留任主席"
+          "哥白尼气候变化服务机构确认今年6月和7月为西欧有记录以来最热",
+          "报告称历史性低降雨量加剧了多国旱情"
         ],
         "claims": [],
         "analysis": [
-          "事件反映国际体育组织商业化改革与传统赛事资产处置之间存在的治理张力"
+          "分析认为持续高温叠加降雨不足可能对农业、水资源和能源系统产生连锁影响"
         ]
       },
       "source_ids": [
-        "a7de9a7d8c476431"
+        "3732b313049d6c2a"
       ],
       "sources": [
         {
-          "id": "a7de9a7d8c476431",
-          "source": "NPR World",
+          "id": "3732b313049d6c2a",
+          "source": "Al Jazeera",
           "source_tier": 2,
-          "source_region": "us",
+          "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Gianni Infantino gets internal support at crisis meeting to remain as FIFA president",
-          "summary": "FIFA said Wednesday it had apologized for errors made over Gianni Infantino's failed plan to sell stakes in the World Cup and that senior staff in attendance at a crisis meeting in Morocco \"reaffirmed their full support\" for his presidency.",
-          "url": "https://www.npr.org/2026/08/06/nx-s1-5923233/infantino-crisis-meeting-fifa",
-          "published_at": "2026-08-06T08:52:16+00:00",
+          "title": "June and July hottest on record in Western Europe, monitor says",
+          "summary": "The Copernicus Climate Change Service says historically low rainfall has worsened the situation in several countries.",
+          "url": "https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says?traffic_source=rss",
+          "published_at": "2026-08-10T10:21:08+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天需要继续关注的是：Moove的自动驾驶基地建设进展、多篇机器人预印本能否通过同行评审、霍尔木兹海峡协议是否获得美方证实，以及德国无人机爆炸装置事件的调查结果。",
-  "editor_note": "本次修订删去了慕尼黑冲撞案一条以控制总时长，机器人板块共5条，时长合计约725秒，占全稿约52%，符合45%-55%区间要求；来源覆盖arXiv、The Robot Report两个独立专业信源，避免单一媒体垄断。学术类内容均来自尚未同行评审的arXiv预印本，已在confidence_note中注明局限性。国际政治与其他类别共4条，覆盖中东局势、体育治理及重大科学发现，霍尔木兹海峡协议和德国无人机事件因信息有限已标记为未证实。",
+  "closing": "今天需要继续关注的是俄乌前线局势的下一步进展，以及国际足联主席选举在世界杯私有化争议持续发酵下的走向。机器人领域方面，人形机器人出货量激增的数据是否会得到更多独立信源交叉确认，以及新发布的机器人学术论文能否在同行评审中经受住检验，都值得持续跟踪。",
+  "editor_note": "本期机器人内容涵盖产业出货数据、芯片厂商生态合作以及两篇arXiv新预印本，其中人形机器人出货量数据仅有单一行业信源，已标注为未验证；两篇arXiv论文均为最新预印本，未经同行评审，已在各自confidence_note中说明局限。为将机器人时长占比调整至45%–55%区间，本次修订移除了原有的手术机器人力反馈论文条目，保留时长占比更均衡的四条机器人内容（产业数据、两篇学术论文、芯片厂商生态合作），并将其余篇幅用于国际新闻背景解释。国际新闻部分因候选高度集中于俄乌无人机袭击事件，采用多信源合并处理以避免重复；泰国枪击案与国际足联事件因具备独立信息增量单独成稿。健康、金融类候选本期信息量不足，故未强行凑入。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 9367,
-      "output_tokens": 11188,
-      "total_tokens": 20555
+      "input_tokens": 9180,
+      "output_tokens": 9841,
+      "total_tokens": 19021
     },
     {
-      "input_tokens": 13045,
-      "output_tokens": 9850,
-      "total_tokens": 22895
+      "input_tokens": 11690,
+      "output_tokens": 8616,
+      "total_tokens": 20306
     }
   ],
   "usage": {
-    "output_tokens": 21038,
-    "input_tokens": 22412,
-    "total_tokens": 43450
+    "output_tokens": 18457,
+    "input_tokens": 20870,
+    "total_tokens": 39327
   },
-  "generated_at": "2026-08-06T11:13:07+00:00",
-  "window_start": "2026-08-05T11:13:07+00:00",
-  "candidate_count": 250,
+  "generated_at": "2026-08-10T11:13:41+00:00",
+  "window_start": "2026-08-09T11:13:41+00:00",
+  "candidate_count": 227,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1425,
-    "script_characters": 5564,
-    "topic_duration_share": 0.565,
+    "duration_seconds": 1120,
+    "script_characters": 4380,
+    "topic_duration_share": 0.558,
     "passed": true,
-    "normal_target_met": false,
-    "topic_source_count": 2,
+    "normal_target_met": true,
+    "topic_source_count": 3,
     "issues": []
   }
 }
