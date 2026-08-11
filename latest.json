@@ -1,327 +1,96 @@
 {
-  "title": "晶球电台早报：乌克兰无人机重创俄鞑靼斯坦，人形机器人出货量半年暴涨3.7倍",
-  "subtitle": "国际局势持续紧张之际，具身智能领域论文与产业数据齐发",
+  "title": "晶球电台早报：叙利亚前总统被判死刑，中国人形机器人产业加速，具身智能新方法密集涌现",
+  "subtitle": "从大马士革的审判到实验室里的机械臂：今天的世界既在清算历史，也在加速未来",
   "highlights": [
-    "乌克兰无人机袭击俄罗斯下卡姆斯克，造成至少13人死亡，是开战以来最致命袭击之一",
-    "行业报告显示2026年上半年全球人形机器人出货量同比增长3.7倍，尚需更多独立信源验证",
-    "多篇机器人学术论文聚焦VLA推理加速、仿真到现实迁移安全性与手术机器人力反馈",
-    "国际足联主席因世界杯私有化提案遭三大洲际足联联合谴责"
+    "叙利亚前总统巴沙尔·阿萨德因战争罪与危害人类罪被缺席判处死刑",
+    "多份行业报告显示中国人形机器人厂商已占据全球市场主导地位",
+    "arXiv一天内挂出五篇机器人学习新论文，覆盖强化学习、视觉语言导航与自监督操作学习",
+    "哥伦比亚强震已致132人死亡，刚果（金）埃博拉疫情死亡人数破2000"
   ],
   "stories": [
     {
       "category": "world",
-      "title": "乌克兰无人机袭击俄罗斯鞑靼斯坦，致至少13人死亡",
-      "english_term": null,
-      "summary": "乌克兰对俄罗斯鞑靼斯坦共和国下卡姆斯克市发动大规模无人机袭击，造成至少13人死亡，当地宣布进入哀悼日。这是俄乌战争爆发四年多以来，乌方对俄本土最致命的袭击之一。",
-      "script": "国际局势方面，最受关注的一条消息来自俄乌战场。乌克兰军方对俄罗斯鞑靼斯坦共和国的下卡姆斯克市发动了大规模无人机袭击，根据俄罗斯官方通报，此次袭击造成至少13人死亡，当地已经宣布进入哀悼日。多家媒体的报道口径基本一致，美联社体系下的NPR、BBC、DW以及半岛电视台都对遇难人数做出了相近的报道，数字在12到13人之间浮动，这在俄乌战争爆发四年多以来，是乌克兰对俄罗斯本土发动的最致命袭击之一。已确认的事实是，乌克兰近几个月来几乎每天都在使用远程无人机打击俄罗斯境内的石油设施，这已经在俄罗斯国内造成了燃油短缺，并引发了公众的不安情绪。官方通报显示，此次袭击涉及数以百计的无人机，目标包括工业与能源设施。俄方将此次事件定性为针对平民和民用设施的恐怖袭击，乌克兰方面尚未就下卡姆斯克这次具体行动发表专门声明，但其长期立场是，此类打击针对的是支撑俄罗斯战争机器的能源基础设施，而非平民目标。分析人士认为，这种远程无人机战术已经成为乌克兰在正面战线胶着情况下，试图通过消耗俄罗斯后方能源生产能力来影响战争进程和国内舆论的重要手段。值得关注的是，鞑靼斯坦并非传统意义上的前线地区，此次袭击距离乌克兰边境有相当距离，说明乌方无人机的打击半径和精度都在持续提升。后续需要等待俄方公布更详细的伤亡与设施损毁评估，也需要观察乌克兰是否会持续对同一区域的能源设施发动打击。",
-      "duration_seconds": 150,
+      "title": "叙利亚前总统阿萨德被缺席判处死刑",
+      "english_term": "in absentia（缺席审判，即被告未到场情况下进行的审判）",
+      "summary": "叙利亚法院以战争罪和危害人类罪判处逃亡俄罗斯的前总统巴沙尔·阿萨德死刑，其弟弟及前情报官员阿泰夫·纳吉布同案被判。",
+      "script": "叙利亚过渡时期的司法进程迈出关键一步。当地法院对已经下台并流亡俄罗斯的前总统巴沙尔·阿萨德，以战争罪和危害人类罪作出缺席死刑判决，他的弟弟以及前地方安全官员阿泰夫·纳吉布同案被判处死刑。已确认的事实是，阿萨德在长达十四年的内战中被指控对本国民众实施系统性暴力，这场内战造成约五十万人死亡，阿萨德本人已于此前下台并出走俄罗斯，目前身处俄罗斯境内，缺席了整个审判过程。多家媒体的报道指出，这次审判被外界视为叙利亚战后转型正义的一次重要检验，纳吉布这一角色尤其敏感，因为他曾被认为是内战初期在南部城市德拉镇压示威、从而点燃全国抗议浪潮的关键人物之一。各方主张方面，叙利亚新政府方面将此次判决定义为对旧政权罪行的正式清算，试图借助司法程序为国家和解和重建法治基础提供支撑；而阿萨德本人及其支持者从未在任何公开场合承认判决的合法性，俄罗斯作为其庇护地，也未对是否会配合引渡表态。分析判断上看，由于阿萨德目前身处俄罗斯，这份死刑判决在可执行性上面临现实障碍，其更主要的意义在于象征层面——为叙利亚国内的战争受害者提供一种迟到的法律确认，也为国际社会观察叙利亚过渡政府能否建立独立可信的司法体系提供了一个观察窗口。后续需要等待俄罗斯方面对引渡或司法协助请求的正式回应，也需要观察叙利亚国内其他内战相关审判是否会陆续推进。",
+      "duration_seconds": 140,
       "is_unverified": false,
-      "confidence_note": "多家二级信源（半岛电视台、BBC、DW、NPR）报道口径一致，伤亡数字略有出入但均在合理误差范围内，可信度较高。",
+      "confidence_note": "多家二级媒体独立报道同一判决结果，信息来源交叉确认充分。",
       "fact_status": {
         "confirmed": [
-          "乌克兰对俄罗斯鞑靼斯坦下卡姆斯克发动无人机袭击",
-          "官方通报死亡人数至少12至13人",
-          "当地宣布进入哀悼日"
+          "叙利亚法院对阿萨德及其弟弟、前官员阿泰夫·纳吉布作出缺席死刑判决",
+          "判决依据是战争罪和危害人类罪指控",
+          "阿萨德目前身处俄罗斯"
         ],
         "claims": [
-          "俄方称袭击针对平民与民用设施",
-          "乌方未就本次行动单独表态，但长期主张打击目标为能源基础设施"
+          "叙利亚新政府将审判定义为转型正义的一部分",
+          "部分专家认为该审判是对过渡司法体系的一次检验"
         ],
         "analysis": [
-          "分析认为此次袭击显示乌克兰无人机打击半径与精度提升，是消耗俄罗斯后方能源产能的战术延续"
+          "判决在阿萨德未被引渡情况下短期内难以执行，象征意义大于实际执行可能性"
         ]
       },
       "source_ids": [
-        "1933a2a13c4e2538",
-        "b2792181be124660",
-        "c8fa021aec2a7f57",
-        "0eb9327b9c9fe2ad"
+        "c52b99293f5956c2",
+        "28490d0bbb7a2682",
+        "b3cc769600dbe77d",
+        "b22473ee62515d9c"
       ],
       "sources": [
         {
-          "id": "1933a2a13c4e2538",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "At least 13 killed in Ukrainian drone attack on Russia’s Nizhnekamsk",
-          "summary": "A day of mourning has been declared in the Russian republic of Tatarstan after the attack killed 13 people.",
-          "url": "https://www.aljazeera.com/news/2026/8/10/at-least-13-killed-in-ukrainian-drone-attack-on-russias-nizhnekamsk?traffic_source=rss",
-          "published_at": "2026-08-10T10:55:38+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "b2792181be124660",
+          "id": "c52b99293f5956c2",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say",
-          "summary": "It is one of the deadliest Ukrainian drone attacks on Russia since the start of Moscow's war on Ukraine.",
-          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-10T10:03:58+00:00",
+          "title": "Ousted Syrian dictator Bashar al-Assad sentenced to death in absentia",
+          "summary": "The ex-president is convicted of committing war crimes and crimes against humanity during the country's civil war.",
+          "url": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-11T10:43:07+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "c8fa021aec2a7f57",
+          "id": "28490d0bbb7a2682",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Ukrainian drone attack on the Russian city of Nizhnekamsk kills 12, authorities say",
-          "summary": "Ukraine has targeted Russian oil facilities with long-range drones almost daily in recent months. The barrage has caused fuel shortages in Russia and unsettled the Russian public.",
-          "url": "https://www.npr.org/2026/08/10/nx-s1-5927024/ukrainian-drone-attack-russia",
-          "published_at": "2026-08-10T08:58:22+00:00",
+          "title": "Former Syrian President Assad sentenced to death in absentia",
+          "summary": "A Syrian court sentenced Assad along with his brother to death in absentia for crimes against humanity and war crimes during Syria's 14-year conflict that left about half a million people dead.",
+          "url": "https://www.npr.org/2026/08/11/g-s1-138166/syria-assad-sentenced-to-death",
+          "published_at": "2026-08-11T10:07:14+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "0eb9327b9c9fe2ad",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Ukrainian drone attack kills at least 13 in central Russia",
-          "summary": "Ukraine launched hundreds of drones at targets inside Russia, according to Russian officials. The strikes killed more than a dozen in one of Kyiv's deadliest attacks since the Russian invasion began over four years ago.",
-          "url": "https://www.dw.com/en/ukrainian-drone-attack-kills-at-least-13-in-central-russia/a-78300485?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-10T08:31:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "报告称全球人形机器人上半年出货量同比暴涨3.7倍",
-      "english_term": "humanoid robot（人形机器人）",
-      "summary": "一份行业报告显示，2026年上半年全球人形机器人出货量同比增长3.7倍，产业规模化迹象明显，但目前只有单一信源。",
-      "script": "先来看机器人产业的一条重要数据。据行业机构SAG发布的报告，2026年上半年全球人形机器人的出货量同比增长了3.7倍，这个数字如果得到进一步交叉验证，将意味着人形机器人产业正在从示范样机阶段快速转向规模化交付阶段。需要说明的是，这条消息目前来自单一行业报告的转载，尚未看到第二个独立信源的交叉确认，因此这里把它标记为有待验证的热点线索，但考虑到过去两年人形机器人赛道确实积累了大量融资和量产投产的消息，这个增长趋势本身具备一定的合理性。从技术和产业逻辑上看，人形机器人出货量的快速攀升，通常与几个因素相关：一是核心零部件如谐波减速器、力矩传感器、丝杠等的成本持续下降；二是主要厂商在电池续航、双足行走稳定性和手部灵巧操作方面取得阶段性突破，使得样机具备了从实验室走向工厂车间和特定商业场景的条件；三是资本市场对具身智能赛道的持续加注，推动了多条产线同步扩产。与此同时，市场上也出现了不同声音，例如有分析文章直接质疑，一些打着人形机器人旗号的投资产品，本质上更像是一揽子人工智能资本开支的代理工具，而非真正押注于机器人本体技术的成熟度，这提示投资市场对于人形机器人商业化速度的预期分歧依然明显。如果3.7倍的增长数据属实，接下来需要观察的是这些出货的人形机器人具体流向了哪些应用场景，是以工业质检、仓储物流为主，还是已经开始进入更贴近消费端和服务场景的试点。后续需要等待更多独立机构公布的分口径统计数据，以及主要厂商在财报中披露的具体交付数字，才能对这一增长态势做出更扎实的判断。",
-      "duration_seconds": 165,
-      "is_unverified": true,
-      "confidence_note": "该数据来自单一行业报告转载（Report.az引用SAG机构），未见第二独立来源交叉确认，标记为未经充分验证的产业热点，需谨慎对待具体倍数。",
-      "fact_status": {
-        "confirmed": [
-          "有行业报告称2026年上半年全球人形机器人出货量同比增长3.7倍"
-        ],
-        "claims": [
-          "报告方主张此增长反映人形机器人产业进入规模化阶段"
-        ],
-        "analysis": [
-          "分析认为若数据属实，可能与零部件成本下降、技术阶段性突破及资本持续投入相关，但市场对商业化速度仍有分歧"
-        ]
-      },
-      "source_ids": [
-        "6bee81a41075dfa1",
-        "e0e517e89e802b21"
-      ],
-      "sources": [
-        {
-          "id": "6bee81a41075dfa1",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "SAG: Global humanoid robot shipments surge 3.7-fold in first half of 2026 - Report.az",
-          "summary": "SAG: Global humanoid robot shipments surge 3.7-fold in first half of 2026 Report.az",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeFFxT2FCZUwzVHNDMW9yUEphaU8tOUE5dmN0a3g0NFBCRXZIME1BSzY5ZGdHS2tsMkNyWDVtc1pFZjdMWWJIeDNaLTFQYlU5b042dld2SGhsU0FxRlhYdzg5WDczcjd6VjdmS2lOWUx4ZkVRM3hFeWpiaDFjbWwwNUdQUU9XWlg0ZWFZZUV6YmxaV1JoU1dsVm1FaEV2UlRvZDBZUWZjZzRtU2swZUHSAbMBQVVfeXFMTWZnTnJOYWZ4cVpNRU5ycWxRdlZabTlnVjhiVzdKZnQ5ZGZmQ29TT2t3dXcydkFJbHVKZHZSS2tUZU9sSXdtY24wcWQtc1BKb1dJTWNDSXl1aDVsbUpMdUJnZkZUWFJWOFEtOGxRZWlpc3N0cUM5dUFaSTczQnBKaDVTQXNIbzBNdXNBZ0RRWkdTdzlXMXpXSGJHQjVwenI3Yy15SWFCOXprejh3VXJLN2lpMVU?oc=5",
-          "published_at": "2026-08-10T10:47:43+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "e0e517e89e802b21",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "KOID: Holding An AI CapEx Fund Sold As Humanoid Robotics (NASDAQ:KOID) - Seeking Alpha",
-          "summary": "KOID: Holding An AI CapEx Fund Sold As Humanoid Robotics (NASDAQ:KOID) Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYjFMTXU2RVJuSF9aeTlhZXcyMzUwcTJpRVptSkJFQy1mVEJSc0NLRkxKSFFjQWFZdnlMaHIwOFRncHJ6RXNoaXlGMFZvSTRLaXVUUU94UjdCNEZwek1YZUdTNnNuVjI1UWY0YkR1NnVoc0FPT09qd2JtejZYamZFWWd3Zk1iYzE1WnhybWZ1NG13eG1KWUVkdUN4VTg?oc=5",
-          "published_at": "2026-08-10T10:45:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "论文速览：VLA自适应推理框架实现快慢系统解耦",
-      "english_term": "VLA（Vision-Language-Action，视觉-语言-动作模型）",
-      "summary": "一篇新论文提出环境感知的自适应VLA推理框架，通过解耦快慢模块提升具身智能系统的推理速度与任务成功率的平衡。",
-      "script": "接下来是一条学术论文速递，来自arXiv机器人板块。具身智能领域一直面临一个两难问题：既需要长时程的深思熟虑式推理，又需要实时的快速反应能力。当前主流的解决思路是所谓双系统VLA架构，也就是视觉-语言-动作模型，把系统拆成一个负责快速反应的执行模块和一个负责慢速深度推理的规划模块，试图兼顾推理速度和任务成功率。但研究者指出，现有的双系统方案存在一个结构性问题，那就是快速模块和慢速模块的中间表示被紧密耦合在一起，这导致两个模块必须端到端联合训练，无法灵活地单独替换或者升级，模块化程度受限。针对这个问题，研究团队提出了一种自适应的VLA推理框架，核心思路是引入环境感知的模型选择机制，让系统能够根据当前环境的复杂程度和任务需求，动态选择合适的推理路径，而不是把两个模块死死绑定在一起联合训练。这种设计如果成立，意味着未来可以像搭积木一样，分别优化快系统和慢系统，再灵活组合，从而降低训练成本，也提高系统在不同场景下的适应能力。论文属于新发布的预印本，尚未经过同行评审，具体的实验对比数据和在真实机器人上的验证效果，需要进一步查阅论文全文才能评估。这类框架层面的改进，如果后续能在真实机械臂或人形机器人平台上得到验证，有可能为具身智能系统的工程化部署提供一条更灵活的技术路线。后续需要关注该框架在标准评测基准上与现有双系统VLA方法的量化对比结果，以及是否有开源代码支持复现。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv预印本，属于新发布未经同行评审的研究成果，实验细节与对比数据需查阅论文原文进一步核实。",
-      "fact_status": {
-        "confirmed": [
-          "arXiv发布了一篇关于自适应VLA推理框架的新论文"
-        ],
-        "claims": [
-          "作者主张该框架通过解耦快慢模块，能够提升推理速度与任务成功率的平衡"
-        ],
-        "analysis": [
-          "分析认为若得到验证，该思路有助于提升具身智能系统的模块化程度和工程可维护性"
-        ]
-      },
-      "source_ids": [
-        "fc713777c1b0fc8e"
-      ],
-      "sources": [
-        {
-          "id": "fc713777c1b0fc8e",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection",
-          "summary": "arXiv:2608.06434v1 Announce Type: new Abstract: Embodied intelligence demands both long-horizon reasoning and real-time closed-loop responsiveness. Recent dual-system Vision-Language-Action (VLA) architectures combine fast reactive control with slow deliberative reasoning to balance inference speed and task success rate. However, existing dual-process VLAs tightly couple the fast module to intermediate representations of the slow module, necessitating end-to-end joint training and limiting modularity, extensibility and flexible system switching. In this paper, we propose Environment-aware Model Selection (EMS), an adaptive VLA inference framework that switches between two fully decoupled systems of different scales through environment-aware model selection. The large-scale deliberative system provides globally consistent trajectory planning to ensure task success, while a lightweight reactive system enables high-frequency closed-loop control. A reinforcement-learning-based switching policy dynamically selects which system to invoke based on real-time feedback, enabling sparse use of the slow system and thereby balancing pretrained knowledge utilisation with runtime efficiency. Our ",
-          "url": "https://arxiv.org/abs/2608.06434",
-          "published_at": "2026-08-10T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "论文速览：李雅普诺夫引导的进化优化提升仿真到现实迁移安全性",
-      "english_term": "sim-to-real（仿真到现实迁移）",
-      "summary": "一篇新论文提出LyEvO框架，结合约束进化优化、统计模型检测与李雅普诺夫稳定性分析，用于评估机器人控制策略从仿真到现实部署的安全性与鲁棒性。",
-      "script": "再看一篇同样来自arXiv的机器人控制论文。仿真到现实迁移，也就是sim-to-real，一直是机器人强化学习领域的核心难题之一：在仿真环境里训练得很好的控制策略，一旦部署到真实机器人上，往往会因为物理参数误差、传感器噪声等原因表现失常，甚至出现安全隐患。如何在部署之前系统性地评估一个控制策略的安全性和鲁棒性，是产业界和学术界都非常关心的问题。这篇论文提出了一个名为LyEvO的框架，把三种技术手段结合在了一起：一是约束进化优化，用来在满足安全约束的前提下搜索更优的控制参数；二是基于统计模型检测的验证方法，用统计手段量化策略在不确定性下的表现；三是基于李雅普诺夫稳定性理论的分析，这是控制理论中判断系统是否稳定收敛的经典数学工具。研究团队表示，这个框架是物理原理驱动的，会利用系统动力学的先验知识来指导整个优化和验证过程。这种把经典控制理论与现代进化算法、统计验证结合起来的思路，试图解决当前很多基于深度强化学习的控制策略普遍存在的黑箱问题，也就是很难从理论上保证策略在真实世界部署时的稳定性和安全边界。如果这套方法能够在更多真实机器人平台上得到验证，可能会为工业界在部署强化学习控制器之前提供一套可量化的安全评估工具。同样需要说明的是，这是一篇新发布的预印本，尚未经过同行评审，具体在哪些机器人平台上做了实测验证，还需要查阅论文细节。后续需要关注该框架的开源实现情况，以及是否有第三方在不同机器人任务上进行独立复现。",
-      "duration_seconds": 155,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv预印本，未经同行评审，具体实验平台与量化结果需查阅论文原文核实。",
-      "fact_status": {
-        "confirmed": [
-          "arXiv发布了一篇关于LyEvO框架的新论文，用于机器人控制策略的仿真到现实迁移安全评估"
-        ],
-        "claims": [
-          "作者主张该框架结合进化优化、统计模型检测与李雅普诺夫稳定性分析，能够提升策略部署的安全性与鲁棒性"
-        ],
-        "analysis": [
-          "分析认为该方法尝试为强化学习控制策略提供理论可解释的安全边界评估工具"
-        ]
-      },
-      "source_ids": [
-        "11d21ebadd7ff100"
-      ],
-      "sources": [
-        {
-          "id": "11d21ebadd7ff100",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "LyEvO: Lyapunov-Guided Evolutionary Optimization for Safe and Robust Sim-to-Real Policy Learning",
-          "summary": "arXiv:2608.06481v1 Announce Type: new Abstract: Training controllers that are safe and robust in simulation, and systematically assessing their readiness for real-world deployment, remain key challenges in sim-to-real transfer. To address this, we propose LyEvO, a physics-grounded framework that combines constrained Evolutionary Optimization and Statistical Model Checking (SMC)-based verification with Lyapunov-based stability analysis. Leveraging prior knowledge of the system dynamics, LyEvO uses Lyapunov analysis to compute an initial candidate stability region. An iterative loop then uses operational scenarios drawn from this region to jointly optimize and statistically verify a policy, and subsequently expands the region's boundaries based on the verification outcome. This integrated procedure provides a practical criterion for assessing deployment readiness. We evaluate LyEvO on Cartpole and 3D Quadrotor benchmarks through extensive simulations and targeted real-world experiments, demonstrating safe and robust sim-to-real transfer.",
-          "url": "https://arxiv.org/abs/2608.06481",
-          "published_at": "2026-08-10T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "MassRobotics获得亚德诺半导体战略赞助，支持机器人初创生态",
-      "english_term": null,
-      "summary": "亚德诺半导体（Analog Devices）宣布重新成为MassRobotics的战略赞助商，通过Analog Garage项目及RoboBusiness等活动支持机器人初创企业。",
-      "script": "来看一条机器人产业生态方面的消息。半导体厂商亚德诺半导体，也就是Analog Devices，宣布重新成为美国机器人孵化机构MassRobotics的战略赞助商。根据官方通报，亚德诺将通过其内部创新项目Analog Garage，并参与包括RoboBusiness在内的行业活动，为MassRobotics孵化的机器人初创企业提供支持。MassRobotics是美国机器人产业里比较重要的孵化和加速平台，长期为早期机器人公司提供办公场地、原型开发资源以及产业对接机会。像亚德诺半导体这样的芯片厂商愿意持续投入资源支持机器人初创生态，背后的逻辑并不复杂：机器人系统的性能高度依赖底层的传感器、模拟前端芯片和电机驱动方案，而这些恰恰是亚德诺这类模拟半导体厂商的核心业务。通过深度介入初创企业的早期研发，芯片厂商既能够更早地了解下游机器人产品对传感、驱动芯片的具体需求，反过来指导自身产品路线图的迭代，也能够提前锁定潜在的未来大客户。这种芯片厂商与机器人孵化器之间的合作模式，近年来在产业界并不少见，反映出机器人产业链上下游协同创新的趋势正在加深，而不仅仅是机器人本体厂商在单打独斗。对于处于早期阶段的机器人初创公司而言，能够获得知名半导体厂商在硬件选型和技术支持上的直接帮助，往往比单纯的资金投入更加实际。后续需要关注这次合作具体会孵化出哪些机器人初创项目，以及是否会有更多细分领域的一线硬件厂商加入类似的生态支持计划。",
-      "duration_seconds": 155,
-      "is_unverified": false,
-      "confidence_note": "来自行业媒体The Robot Report的直接报道，属于企业官方合作公告类消息，可信度较高。",
-      "fact_status": {
-        "confirmed": [
-          "亚德诺半导体宣布重新成为MassRobotics的战略赞助商",
-          "将通过Analog Garage项目及RoboBusiness等活动提供支持"
-        ],
-        "claims": [],
-        "analysis": [
-          "分析认为该合作反映芯片厂商与机器人孵化生态之间协同创新趋势加深"
-        ]
-      },
-      "source_ids": [
-        "709d0e4f93d85ee6"
-      ],
-      "sources": [
-        {
-          "id": "709d0e4f93d85ee6",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Analog Devices returns as strategic sponsor to aid MassRobotics startups",
-          "summary": "Analog Devices Inc. is supporting MassRobotics startups with Analog Garage and participating in events including RoboBusiness. The post Analog Devices returns as strategic sponsor to aid MassRobotics startups appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/",
-          "published_at": "2026-08-09T12:30:42+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "国际足联主席因世界杯私有化提案遭三大洲际足联联合谴责",
-      "english_term": null,
-      "summary": "欧足联、亚足联和中北美及加勒比足联联合发表声明，指责国际足联主席因凡蒂诺提出出售世界杯股权的提案构成“信任破坏”，其连任前景面临压力。",
-      "script": "体育与国际治理方面的一条消息。欧洲足球协会联盟、亚洲足球联合会以及中北美及加勒比海足球协会，这三大洲际足联联合发表声明，公开指责国际足联主席詹尼·因凡蒂诺提出的世界杯私有化提案构成了对成员协会“信任的破坏”。根据已确认的事实，三大洲际足联发布了联合信函，批评因凡蒂诺试图出售世界杯部分股权的计划。就在几周前，因凡蒂诺看起来将会毫无悬念地迎来又一个国际足联主席任期，但随着选举临近，这位瑞士籍足球高管的处境已经出现明显变化，多家媒体形容他目前的连任前景“悬于一线”。三大洲际足联方面主张，出售世界杯股权这样重大的商业决策，理应经过更广泛的成员协商，而不是由主席个人主导推动，这种做法损害了国际足联内部的信任基础。因凡蒂诺及国际足联方面目前尚未就三方联合信函的具体指控作出公开回应。分析人士指出，世界杯作为国际足联最核心的商业资产和收入来源，任何涉及股权结构调整的提案都会触及各成员协会的切身利益，三大洲际足联的联合表态，实际上释放出对因凡蒂诺领导层信任出现松动的信号，这在国际足联的选举政治中是相当罕见的公开对抗姿态。接下来需要关注的是国际足联官方是否会对私有化提案做出进一步说明或调整，以及即将举行的主席选举中，是否会出现足够分量的竞争者对因凡蒂诺的连任构成实质挑战。",
-      "duration_seconds": 135,
-      "is_unverified": false,
-      "confidence_note": "半岛电视台与DW均有独立报道，且均引用三大洲际足联的联合公开信，来源交叉确认充分。",
-      "fact_status": {
-        "confirmed": [
-          "欧足联、亚足联、中北美及加勒比足联联合发表声明批评因凡蒂诺",
-          "声明内容涉及世界杯私有化提案"
-        ],
-        "claims": [
-          "三大洲际足联主张该提案构成信任破坏",
-          "国际足联及因凡蒂诺本人尚未公开回应"
-        ],
-        "analysis": [
-          "分析认为此事反映因凡蒂诺在国际足联内部的领导地位面临选举前的压力测试"
-        ]
-      },
-      "source_ids": [
-        "74f4b49347bec18f",
-        "98c7baf125f4fc8e"
-      ],
-      "sources": [
-        {
-          "id": "74f4b49347bec18f",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "UEFA, CONCACAF and AFC accuse Infantino of 'breach of trust'",
-          "summary": "A few weeks ago, Gianni Infantino looked set for another unopposed term as FIFA president. Now, with an election looming, the beleagured Swiss executive is counting the numbers and could be hanging by a thread.",
-          "url": "https://www.dw.com/en/uefa-concacaf-and-afc-accuse-infantino-of-breach-of-trust/a-78301601?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-10T11:10:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "98c7baf125f4fc8e",
+          "id": "b3cc769600dbe77d",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "UEFA, AFC, CONCACAF hit out at Infantino over World Cup privatisation plan",
-          "summary": "Three confederations release letter criticising FIFA's president over his proposal to sell off stakes in the World Cup.",
-          "url": "https://www.aljazeera.com/sports/2026/8/10/uefa-afc-concacaf-hit-out-at-infantino-over-world-cup-privatisation-plan?traffic_source=rss",
-          "published_at": "2026-08-10T10:15:02+00:00",
+          "title": "Who is Atef Najib, former Syrian official sentenced to death with al-Assad?",
+          "summary": "Experts say this trial has been a test of Syria’s transitional justice.",
+          "url": "https://www.aljazeera.com/news/2026/8/11/who-is-atef-najib-former-syrian-official-sentenced-to-death-with-al-assad?traffic_source=rss",
+          "published_at": "2026-08-11T10:03:25+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "b22473ee62515d9c",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Syria sentences Bashar Assad to death in absentia",
+          "summary": "A Syrian court has sentenced ousted President Bashar Assad to death in absentia. The ruling comes more than a year and a half after the former dictator was overthrown and fled to Russia.",
+          "url": "https://www.dw.com/en/syria-sentences-bashar-assad-to-death-in-absentia/a-78316245?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-11T08:48:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -329,134 +98,384 @@
     },
     {
       "category": "world",
-      "title": "泰国前国会议员因借贷纠纷枪杀官员并在YouTube直播认罪",
+      "title": "哥伦比亚强震致132人死亡，刚果埃博拉疫情死亡人数破2000",
       "english_term": null,
-      "summary": "泰国一名前国会议员因金钱借贷纠纷枪杀一名政府官员，随后通过YouTube直播承认作案，事件发生在泰国近四年最致命枪击案后不久。",
-      "script": "一则突发社会新闻。泰国一名前国会议员差隆·瑞旺，因为一起金钱借贷纠纷，枪杀了一名政府官员，随后他通过YouTube直播公开承认了自己的作案行为。根据泰国警方的通报，这起枪击事件发生在一处政府办公场所，差隆在直播中表示，自己是因为债务纠纷而对这名官员开枪。这起事件距离泰国近四年来最致命的一起枪击案发生仅仅几天时间，泰国社会近期的枪支暴力事件因此再次受到关注。目前警方已经介入调查，具体的案件后续处理和差隆本人的法律程序还有待泰国司法机关进一步公布。这起事件之所以引发关注，一方面是因为嫌疑人的前国会议员身份，另一方面是他选择通过社交媒体直播的方式公开认罪，这种行为本身也反映出社交媒体平台在重大刑事案件传播中的角色正变得越来越复杂。后续需要关注泰国警方对案件的正式起诉情况，以及泰国国内是否会因连续发生的枪击事件而在控枪政策上出现新的讨论。",
-      "duration_seconds": 95,
+      "summary": "哥伦比亚发生近年来最大规模地震之一，已致至少132人死亡并进入紧急状态；刚果（金）埃博拉疫情累计确诊4381例，死亡人数超过2000，成为历史上增长最快的一次疫情暴发。",
+      "script": "两条来自不同地区的灾难性消息值得关注。在南美洲，哥伦比亚遭遇近年来最大规模的地震之一，目前已确认至少132人死亡，当地政府已经宣布进入紧急状态。相关画面显示有家庭在地震发生瞬间紧急逃离住所，救援工作仍在持续。这是已确认的事实，具体的震源、震级细节以及伤亡人数后续可能会随救援进展继续更新。另一边，非洲刚果民主共和国的埃博拉疫情形势严峻，截至周二，五个省份已累计确认4381例病例，死亡人数正式突破2000人，这被认为是历史记录中增长最快的一次埃博拉疫情暴发。埃博拉病毒通过体液接触传播，致死率因病毒株和医疗条件不同差异很大，此次疫情的快速扩散给刚果本已脆弱的公共卫生系统带来巨大压力。这两起事件分属自然灾害与公共卫生危机两个不同范畴，但都指向同一个现实：无论是地震还是传染病，脆弱地区在应对突发大规模冲击时的资源和基础设施短板会被迅速放大。后续需要关注哥伦比亚方面伤亡数字是否会继续上升，以及国际援助是否会加速抵达；也需要关注世界卫生组织及相关国际机构对刚果疫情的应对资源投入情况。",
+      "duration_seconds": 115,
       "is_unverified": false,
-      "confidence_note": "BBC与DW两家独立媒体均有报道，案件基本事实经泰国警方证实。",
+      "confidence_note": "地震消息来自BBC一手报道，疫情数字来自半岛电视台报道，两条均为独立单一来源支撑各自事件，暂无第二来源交叉验证具体数字。",
       "fact_status": {
         "confirmed": [
-          "泰国前国会议员差隆·瑞旺枪杀一名政府官员",
-          "其本人通过YouTube直播承认作案",
-          "事件发生在泰国近期另一起致命枪击案之后不久"
+          "哥伦比亚地震已致至少132人死亡，政府宣布紧急状态",
+          "刚果（金）埃博拉疫情累计确诊4381例，死亡超2000人"
         ],
-        "claims": [
-          "嫌疑人称作案动机为借贷纠纷"
-        ],
-        "analysis": []
+        "claims": [],
+        "analysis": [
+          "两地危机均反映出脆弱地区应对突发冲击时资源与基础设施的不足"
+        ]
       },
       "source_ids": [
-        "0a47157098e24948",
-        "63076b3a0e961430"
+        "a8ecb0865e7647a1",
+        "3c4a46a3aae1326e"
       ],
       "sources": [
         {
-          "id": "0a47157098e24948",
+          "id": "a8ecb0865e7647a1",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Former Thai MP allegedly kills official and confesses on YouTube",
-          "summary": "Chalong Riewrang called a YouTube livestream to say he had shot a government official.",
-          "url": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-10T09:51:07+00:00",
+          "title": "Watch: Family escapes home during Colombia earthquake",
+          "summary": "At least 132 people are dead and a state of emergency has been declared after Colombia was hit by one of its largest earthquakes in years.",
+          "url": "https://www.bbc.co.uk/news/videos/cwyl3w1e6zxo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-11T10:12:21+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "63076b3a0e961430",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Thai ex-lawmaker shoots local official dead over loan",
-          "summary": "A former lawmaker confessed to shooting a senior official at a government office over a money dispute, police have said. The incident came just days after Thailand's deadliest shooting in nearly four years.",
-          "url": "https://www.dw.com/en/thai-ex-lawmaker-shoots-local-official-dead-over-loan/a-78300045?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-10T07:47:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "science",
-      "title": "欧洲监测机构：今年六七月为西欧有记录以来最热",
-      "english_term": null,
-      "summary": "哥白尼气候变化服务机构报告称，今年6月和7月是西欧有记录以来最热的两个月，历史性低降雨量加剧了多国的干旱状况。",
-      "script": "气候科学方面的一条消息。欧盟的哥白尼气候变化服务机构发布报告称，今年的6月和7月是西欧有记录以来最热的两个月。报告同时指出，多个国家出现了历史性的低降雨量，进一步加剧了当地的干旱状况。这份报告基于该机构长期积累的气候观测数据得出，属于官方气候监测机构的正式评估结论，可信度较高。已确认的事实是，哥白尼气候变化服务机构公布了这一最高温记录，并将历史性的降雨不足列为加剧当前状况的重要因素。从科学角度看，气候监测机构通常会综合卫星遥感数据、地面气象站观测记录以及历史气候数据库，通过标准化的统计方法来判断某一时间段是否创下历史极值，这类结论一般具有较高的可信度。持续偏高的气温加上降雨量不足，会同时影响农业灌溉、河流水位、森林火灾风险以及能源系统的冷却用水需求，是一个牵涉面很广的连锁性问题。目前报告并未详细列出具体受影响最严重的国家名单和农业经济损失的量化数字，这些细节需要等待后续更详细的区域报告发布。后续需要关注欧洲多国政府是否会因此调整夏季用水限制政策，以及今年秋季的降雨情况是否能够缓解当前的干旱压力。",
-      "duration_seconds": 115,
-      "is_unverified": false,
-      "confidence_note": "来自权威气候监测机构哥白尼气候变化服务的官方报告，经半岛电视台报道，属于Tier 1数据源加Tier 2媒体转述，可信度较高。",
-      "fact_status": {
-        "confirmed": [
-          "哥白尼气候变化服务机构确认今年6月和7月为西欧有记录以来最热",
-          "报告称历史性低降雨量加剧了多国旱情"
-        ],
-        "claims": [],
-        "analysis": [
-          "分析认为持续高温叠加降雨不足可能对农业、水资源和能源系统产生连锁影响"
-        ]
-      },
-      "source_ids": [
-        "3732b313049d6c2a"
-      ],
-      "sources": [
-        {
-          "id": "3732b313049d6c2a",
+          "id": "3c4a46a3aae1326e",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "June and July hottest on record in Western Europe, monitor says",
-          "summary": "The Copernicus Climate Change Service says historically low rainfall has worsened the situation in several countries.",
-          "url": "https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says?traffic_source=rss",
-          "published_at": "2026-08-10T10:21:08+00:00",
+          "title": "DRC Ebola death toll passes 2,000 amid fastest-growing outbreak on record",
+          "summary": "A total of 4,381 cases across five provinces have been confirmed in the Democratic Republic of the Congo as of Tuesday.",
+          "url": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record?traffic_source=rss",
+          "published_at": "2026-08-11T10:52:27+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "多份报告显示中国人形机器人厂商占据全球市场主导地位",
+      "english_term": "humanoid robot（人形机器人，指外形与运动方式模拟人类躯干、双臂双腿结构的机器人）",
+      "summary": "多份产业报告与媒体分析指出，中国机器人制造商在2026年上半年全球人形机器人市场中占据压倒性份额，部分报告称占比高达97%。",
+      "script": "今天有多篇独立的产业报道，从不同角度指向同一个趋势：中国人形机器人产业正在快速扩张，并在全球市场中占据主导地位。其中一份报告称中国机器人制造商已经拿下全球市场约97%的份额，另有媒体报道称中国在2026年上半年的人形机器人市场中处于主导地位。需要说明的是，这类市场份额数字通常来自行业分析机构的统计口径，具体统计范围——是仅指人形机器人整机出货，还是包含核心零部件和执行器供应——在不同报告中可能存在差异，这会直接影响数字的可比性。从产业背景看，中国在人形机器人领域的优势主要建立在几个环节上：一是电机、减速器、传感器等核心零部件的国产化和成本控制能力持续提升；二是国内多家企业在整机集成和场景落地上推进速度较快，形成了从核心部件到整机制造的相对完整链条；三是国内制造业和物流仓储等场景为具身智能机器人提供了大量真实部署机会，形成了数据和迭代的正反馈。这一趋势如果持续，将对全球机器人产业格局产生深远影响，包括零部件供应链的地理集中度、其他国家和地区机器人企业的市场空间，以及各国在人形机器人相关产业政策上的响应。分析判断上，考虑到具体数字来自不同来源且统计方法可能不完全一致，这类份额数据应被视为反映产业趋势的信号而非精确的权威统计。后续需要观察是否有更权威、方法论透明的国际行业协会数据对这一趋势进行独立验证，也需要关注海外厂商在核心零部件和整机集成上的追赶速度。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "所引用的三条信息均来自同一类型的行业热点检索聚合来源（tier 3），缺乏权威行业协会或独立财经媒体的交叉验证，具体份额数字存在统计口径差异，标记为未完全核实。",
+      "fact_status": {
+        "confirmed": [
+          "有多份产业报告和媒体报道同期发布，指出中国人形机器人厂商在全球市场份额上占据领先地位"
+        ],
+        "claims": [
+          "部分报告称中国厂商市场份额达到约97%",
+          "有分析认为中国在2026年上半年人形机器人市场中占据主导地位"
+        ],
+        "analysis": [
+          "具体份额数字的统计口径尚不明确，需要更权威数据源交叉验证；产业链完整性和场景落地速度是中国厂商优势的主要支撑因素"
+        ]
+      },
+      "source_ids": [
+        "59edd489e3dde6c7",
+        "b60790cc86436005",
+        "0a188498709a6821"
+      ],
+      "sources": [
+        {
+          "id": "59edd489e3dde6c7",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "China’s Humanoid Robot Surge Is Already Here - NAI500",
+          "summary": "China’s Humanoid Robot Surge Is Already Here NAI500",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdHRnNzlOaUh5QU1LV3ByYzhPRzNnZnB2QmxLelc0TFc0cXFLTktiZFZFSlJvTGVOdUxvb0N6eW5mclExaW1NVVRYemd1YlNuTm1qOUl1cDJuNDhEeW1CZC1BU2VGN2RtWE5iQUl4emlLWFBCcEdKVU9SRDhjcWlCSUdzTQ?oc=5",
+          "published_at": "2026-08-11T10:36:04+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "b60790cc86436005",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Chinese robot manufacturers captured 97% of the global market - report - Українські Національні Новини (УНН)",
+          "summary": "Chinese robot manufacturers captured 97% of the global market - report Українські Національні Новини (УНН)",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM1FQQ1E0YkpHN2p3ei1icHliZm1semFtQUlxaXB3Zmx4NncyVjFabXh1SzQ4Q0N3SEt5N3RrS3NpQ0szRmtCdUlKLUJZZnF4TUJRcUVyYzl1YWlSQmVmZE9LUUlfODJLOVNXb0V0aXYzUlR2a1ExcjJJX2ZoUi1iOXJvSVF2M0VSNzVQZWV2T1hRa2l1d0p3OWR5a09Dd9IBnAFBVV95cUxQWkJneXl0UlpyQVQ1cXFYZDJWQ3I4ZHh6czkyVzJGWXV1OGMzTm1qRjBXak4tNTV6azBwUzlqYUlrVERFSUxCTWF3b0c1TWlSc0hHcVlkUWJoNk1Sc08xN2Q3UTNyQThCTXBPRVh0SDk5YjJiRUJjc2hnT0ZVNEUtUDBFRlBGWnR1UU9zZHdsSnFFaHBWeE93TW40YXY?oc=5",
+          "published_at": "2026-08-11T10:29:54+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "0a188498709a6821",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "China dominates global humanoid robot market in H1 2026 - Global Times",
+          "summary": "China dominates global humanoid robot market in H1 2026 Global Times",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VVVMwd29weE5XaVBnVHNZSWlWQVNwUWNjeThnMEE3TkpEQWdYc3dFYVRxeVFpMTNxZEtfOXZTb25ha01COVVYX3RvM19pb1l2RTVFdlZNWXNFankyNUQwbzVB?oc=5",
+          "published_at": "2026-08-11T10:24:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "工业具身机器人落地博世产线，国产企业获近亿元融资",
+      "english_term": "embodied robot（具身机器人，指具有物理身体并通过与环境交互获取感知和行动能力的机器人系统）",
+      "summary": "国内企业果动科技研发的微米级工业具身机器人已部署至博世生产线，该公司同时完成近一亿元人民币的A+轮融资。",
+      "script": "工业自动化领域传来一则融资与落地并行的消息。据36氪报道，国内机器人企业果动科技自主研发的微米级精度工业具身机器人已经部署到博世生产线上，公司同期完成了近一亿元人民币的A+轮融资。所谓微米级精度，指的是机器人在执行装配、检测等操作时的定位和运动控制误差被控制在微米量级，这对于精密制造场景中的零部件对齐、螺丝拧紧、精细焊接等任务至关重要，传统工业机器人往往依赖高精度但昂贵的专用夹具和定制化编程才能达到类似精度，而具身智能路线试图通过更强的感知与自适应控制能力，降低对定制化硬件和编程的依赖，提升机器人在不同产线间的迁移能力。从产业背景看，这类微米级工业具身机器人瞄准的是高端制造业中人工难以长期胜任、传统自动化又成本过高的中间地带，比如精密电子元件组装、汽车零部件的高精度装配等场景。博世作为全球领先的工业和汽车零部件供应商，其产线的实际部署具有较强的场景验证意义，说明该技术方案已经通过了较为严苛的工业客户验收标准。近亿元的A+轮融资规模在当前具身智能赛道中属于中等偏上水平，反映出资本市场对已经具备真实客户订单和场景验证的具身智能公司仍保持一定的投资热情，尤其是相比纯技术演示阶段的团队，已有工业客户背书的公司更容易获得后续融资。后续需要关注该机器人在博世产线上的实际运行数据和良品率表现是否会被进一步公开，也需要观察该公司是否会将同类技术方案复制到其他精密制造客户。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "来源为36氪独家报道，属单一信源，融资金额和具体部署细节尚未见其他媒体交叉证实，标记为未完全核实。",
+      "fact_status": {
+        "confirmed": [
+          "果动科技的工业具身机器人已部署至博世产线",
+          "公司完成近一亿元人民币A+轮融资"
+        ],
+        "claims": [
+          "该机器人具备微米级精度控制能力"
+        ],
+        "analysis": [
+          "工业客户的实际部署为该技术路线提供了场景验证，但具体运行效果数据尚未披露"
+        ]
+      },
+      "source_ids": [
+        "562bde514f2ba4e5"
+      ],
+      "sources": [
+        {
+          "id": "562bde514f2ba4e5",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Self-Developed Micron-Level Industrial Embodied Robot Deployed in Bosch Production Lines, Guao Technology Secures Nearly 100 Million Yuan Series A+ Financing | 36Kr Exclusive - 36Kr",
+          "summary": "Self-Developed Micron-Level Industrial Embodied Robot Deployed in Bosch Production Lines, Guao Technology Secures Nearly 100 Million Yuan Series A+ Financing | 36Kr Exclusive 36Kr",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE81UjJQdEpCWDM1UE5HcWVzbG9QUXBXdU9tYlVGWC1rNWtNUTZyUjRsSTh1dXc4cjI5bFRZdXV0ZURqVUc0bEk4aEF6NG5vcm41bnFB?oc=5",
+          "published_at": "2026-08-11T10:22:26+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "arXiv一日五篇新论文：从缆索并联机器人到无人机视觉语言导航",
+      "english_term": "reinforcement learning（强化学习，一种通过试错与奖励反馈学习最优决策策略的机器学习方法）",
+      "summary": "arXiv机器人板块同日挂出多篇新论文，涵盖缆索并联机器人强化学习控制、视觉语言导航的自校正世界模型、自监督视觉操作学习，以及轻量化无人机导航等方向。",
+      "script": "学术方面，arXiv机器人板块今天集中挂出了多篇新论文，覆盖了机器人学习领域的几个不同分支。第一篇聚焦缆索驱动并联机器人，这类机器人通过多条缆索牵引末端执行器运动，结构轻便但动力学高度非线性，控制难度大。论文提出一种执行器层面的强化学习策略，试图解决传统深度强化学习方法训练耗时长、且策略难以迁移到不同缆索数量和配置的问题，核心思路是让策略学习更贴近底层执行器的通用控制规律，从而提升跨构型的泛化能力。第二篇论文提出一种自校正世界模型的框架，用于连续环境下的视觉语言导航任务，即机器人需要根据自然语言指令在复杂环境中规划路径。这类任务的难点在于，多数现有方法采用开环执行，一旦内部状态估计出现漂移就难以察觉和纠正，论文引入闭环反馈机制，让系统在推理过程中持续检测并修正自身状态偏差。第三篇论文关注视觉操作任务中的自监督学习，传统方法依赖人工远程操控或人体示教来采集训练数据，成本高、效率低，论文提出一种机器人自动生成示教数据的方法，减少对人工标注和物体专用编程的依赖。第四篇论文借鉴代码智能体的架构思路，把软件智能体循环模式移植到机器人策略改进流程中，用主智能体协调、子智能体执行分析和操作的方式，应对训练好的策略和数据管线在实际使用中经常出现失效的问题。第五篇论文则针对无人机的视觉语言导航任务，提出一种轻量化方案，挑战了目前主流方法普遍依赖数十亿参数级别大模型、导致边缘设备部署延迟过高的现状，通过跨尺度评估找到更高效的感知与决策平衡点。这五篇论文共同指向具身智能研究中的几个核心难题：如何让学习到的策略更好泛化、如何让系统具备自我纠错能力、如何降低对人工数据标注的依赖，以及如何在算力受限的边缘设备上实现复杂决策。需要说明的是，这些论文均为最新预印本，尚未经过同行评审，具体方法的有效性和局限性有待学术共同体的进一步检验。后续需要关注这些方法是否会在会议评审中得到确认，以及是否有后续工作在真实机器人硬件上进行更大规模验证。",
+      "duration_seconds": 210,
+      "is_unverified": true,
+      "confidence_note": "五篇均为arXiv预印本，未经同行评审，仅代表作者自述的研究思路和初步结果，需等待正式评审结果确认其有效性和局限。",
+      "fact_status": {
+        "confirmed": [
+          "五篇论文均于同日发布在arXiv机器人板块，覆盖不同的机器人学习子方向"
+        ],
+        "claims": [
+          "各论文作者分别声称其方法在泛化能力、闭环纠错、数据效率或边缘部署效率上优于现有方法"
+        ],
+        "analysis": [
+          "这些工作共同反映当前具身智能研究关注的核心问题：策略泛化、自我纠错、降低人工标注依赖、边缘算力受限下的决策效率"
+        ]
+      },
+      "source_ids": [
+        "c5b7ad449e439230",
+        "733ebf014904e1a4",
+        "b0b0273f584da4ed",
+        "98154740bf897976",
+        "baaf70e9ed787f2c"
+      ],
+      "sources": [
+        {
+          "id": "c5b7ad449e439230",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Generalizing deep reinforcement learning across cable-driven parallel robot configurations with actuator-level policies",
+          "summary": "arXiv:2608.07546v1 Announce Type: new Abstract: Cable-driven parallel robots (CDPRs) present diverse configurations and complex control challenges, which can be addressed by deep reinforcement learning (DRL) by learning their nonlinear dynamics. However, DRL methods often require extensive training time, and the resulting policies do not generalize well to different robot configurations or varying numbers of actuators. In this article, we introduce a novel DRL approach for controlling CDPRs that does not depend on the specific robot configuration. Our method trains an actuator-level policy that controls each motor to achieve its target cable length, in contrast to conventional DRL approaches that learn to control the entire robot to reach a desired end-effector position. To the best of our knowledge, this is the first work to apply DRL to control CDPRs using an actuator-level policy. This approach offers two main advantages: (i) a single shared policy can be applied to any CDPR configuration, regardless of actuator count, and (ii) reliance on inverse kinematics, avoiding the more challenging forward kinematics problem. Training is performed in simulation, and the learned policy is ",
+          "url": "https://arxiv.org/abs/2608.07546",
+          "published_at": "2026-08-11T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "733ebf014904e1a4",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "SC$^{2}$-WM: A Self-Correcting World Model with Closed-Loop Feedback for Vision-and-Language Navigation in Continuous Environments",
+          "summary": "arXiv:2608.07548v1 Announce Type: new Abstract: Vision-and-Language Navigation in Continuous Environments (VLN-CE) requires agents to make fine-grained navigation decisions under partial observability. However, most existing methods rely on open-loop execution, lacking mechanisms to detect and correct internal state drift during inference. We propose SC$^{2}$-WM, a self-correcting world model framework that introduces internal feedback for closed-loop decision making in VLN-CE. Our method derives feedback from world-model foresight to perform state-level plan refinement before action execution. To handle challenging scenarios, we further introduce conditional world-aware adaptation, which enables model-level correction by selectively updating the world model at test time when feedback indicates model capacity insufficiency. Experiments on standard VLN-CE benchmarks demonstrate improved navigation robustness and generalization. Our code is available at https://github.com/sunrise-ikun/SC2_WM.",
+          "url": "https://arxiv.org/abs/2608.07548",
+          "published_at": "2026-08-11T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "b0b0273f584da4ed",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Self Supervised Learning from Automatically Generated Demonstrations for Visual Robotic Manipulation",
+          "summary": "arXiv:2608.07553v1 Announce Type: new Abstract: Robotic manipulation often requires object specific programming, manual data annotation, or calibrated perception pipelines, which limits rapid deployment in practical settings. Learning from demonstration offers a more direct alternative, but collecting demonstrations can still demand human teleoperation or kinesthetic teaching. This paper presents a self supervised visual manipulation method in which a robot automatically generates demonstrations around a target pose and learns relative pose corrections directly from wrist mounted RGB images. The proposed pipeline uses ROS~2 and Isaac Sim to collect labeled image-pose pairs without requiring explicit camera to robot extrinsic calibration. Separate datasets are generated for planar refinement and coarse three dimensional approach, and a convolutional network is trained to regress relative translation and rotation from single frame RGB observations. During execution, a coarse to fine controller first approaches the object using models trained with height variation and then refines the final alignment using planar data. The method is evaluated both in simulation and on a real UR5e coll",
+          "url": "https://arxiv.org/abs/2608.07553",
+          "published_at": "2026-08-11T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "98154740bf897976",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "You Don't Need To Stay in The Loop: An Agentic Robotics Loop for Robot-Policy Improvement",
+          "summary": "arXiv:2608.07555v1 Announce Type: new Abstract: Coding agents such as Claude Code and Codex close the software loop: a main agent manages the loop, subagents analyze and execute, tools do the work. We port this architecture to robot-policy improvement, where one difference dominates the design: robotic tools---trained policies, training pipelines, data collection---fail routinely, so a tool's quality must be measured, recorded at every call, and expired when the artifact behind it changes. AgenticRobotics is a backend-independent control plane in which an LLM controller drives disposable workers through durable train--evaluate--improve transactions: an immutable objective, controller-owned measurement, commit-keyed crash recovery, an evidence-graded skill library, and a tool registry with a standardized, recorded call surface. The title is an operational claim, not a selection claim: the operator can leave because promotion is evidence-gated, state is recoverable, and capability quality is derived from records---not because the loop picks better checkpoints than a human; on the one lineage we measured, it does not. The gates measurably buy false-promotion control (0.001 per run har",
+          "url": "https://arxiv.org/abs/2608.07555",
+          "published_at": "2026-08-11T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "baaf70e9ed787f2c",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "AeroDPO: Unleashing Lightweight UAV Navigation with High-Fidelity Perception and Automated Preference Optimization",
+          "summary": "arXiv:2608.07557v1 Announce Type: new Abstract: Vision-Language Navigation for Unmanned Aerial Vehicles (UAV-VLN) requires rapid and reactive control in complex 3D environments. Recent minimalist end-to-end paradigms show great promise but typically rely on massive language models containing billions of parameters, incurring prohibitive latency for real-world edge deployment. In this paper, we challenge this parameter-heavy reliance. Comprehensive cross-scale evaluations reveal the critical insight that perception quality fundamentally outweighs language reasoning capacity. We demonstrate that a lightweight 2B model equipped with high-fidelity visual inputs completely matches the overall success rates of massive 7B baselines. However, this minimalist policy exposes a fundamental robustness flaw inherent to pure Behavior Cloning (BC). Lacking explicit negative feedback, the agent fails to internalize robust spatial constraints and exhibits alarming collision rates in out-of-distribution (OOD) scenarios. To overcome this vulnerability without relying on unscalable human annotations, we propose AeroDPO, a zero-cost automated Direct Preference Optimization pipeline driven by determinis",
+          "url": "https://arxiv.org/abs/2608.07557",
+          "published_at": "2026-08-11T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "title": "Hadrian获13.7亿美元融资加速国防航空制造自动化",
+      "english_term": null,
+      "summary": "美国制造自动化公司Hadrian完成13.7亿美元融资，公司估值达78.7亿美元，这是其今年第二轮融资。",
+      "script": "美国国防与航空制造自动化领域出现一笔大额融资。据The Robot Report报道，制造自动化公司Hadrian完成了13.7亿美元的新一轮融资，公司估值达到78.7亿美元，这是该公司今年以来的第二轮融资，此前一轮融资发生在2026年1月。Hadrian主要面向国防和航空制造领域，提供自动化生产线解决方案，帮助传统依赖大量人工和长周期定制化生产的精密零部件制造环节实现更高效率和更快交付。从产业背景看，美国国防工业近年来面临产能瓶颈和人力短缺的双重压力，尤其是精密机械加工和航空零部件制造环节，传统工厂普遍面临熟练技工老龄化、招聘困难的问题，这为自动化制造解决方案创造了明确的市场需求。Hadrian在短短几个月内完成两轮融资且估值大幅跃升，反映出资本市场对国防相关制造自动化赛道的高度关注，这与近年来地缘政治紧张局势推动各国加大国防生产投入的大背景相吻合。分析判断上，这笔融资规模在制造自动化领域属于相当罕见的量级，说明投资人不仅看重公司现有技术能力，也在为未来可能出现的国防订单增长提前布局。后续需要关注Hadrian具体的产能扩张计划和客户合同披露情况，也需要观察是否有更多同类国防制造自动化企业获得类似规模的资本关注。",
+      "duration_seconds": 130,
+      "is_unverified": false,
+      "confidence_note": "The Robot Report为专业机器人行业二级媒体一手报道融资事件，信息明确具体，可信度较高，但为单一来源。",
+      "fact_status": {
+        "confirmed": [
+          "Hadrian完成13.7亿美元融资，估值达78.7亿美元",
+          "这是公司2026年内的第二轮融资"
+        ],
+        "claims": [],
+        "analysis": [
+          "融资规模反映资本市场对国防制造自动化赛道的高度关注，与地缘政治局势下国防生产需求增长相关"
+        ]
+      },
+      "source_ids": [
+        "fbcbcbb0dfda9d87"
+      ],
+      "sources": [
+        {
+          "id": "fbcbcbb0dfda9d87",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing",
+          "summary": "The raise values Hadrian at $7.87 billion. It is Hadrian's second funding round this year, following a round in January 2026. The post Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/",
+          "published_at": "2026-08-10T22:33:12+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "特朗普签署行政令限制儿童疫苗接种，拆分MMR联合疫苗接种方案",
+      "english_term": "MMR vaccine（麻疹、腮腺炎、风疹三联疫苗）",
+      "summary": "美国总统特朗普签署行政令，对儿童疫苗接种提出限制性建议并要求拆分MMR三联疫苗接种方式，美国儿科学会称该建议“危险”。",
+      "script": "美国公共卫生政策方向出现新的争议。据BBC报道，美国总统特朗普签署了一项行政令，对儿童疫苗接种提出限制性措施，并要求将目前广泛使用的麻疹、腮腺炎、风疹三联疫苗，也就是MMR疫苗，拆分为单独接种的形式，而不是当前一针同时预防三种疾病的联合接种方式。已确认的事实是，这项行政令已经正式签署，美国儿科学会随即公开回应，将这一建议称为“危险”的做法。各方主张方面，行政令的支持者一方尚未在报道中给出具体的科学论证细节，而反对方——以美国儿科学会为代表的医学专业机构——的核心担忧在于，拆分接种通常意味着更多次的医疗接触和更复杂的接种时间表安排，这可能导致部分家庭因为时间或经济成本增加而延误或遗漏接种，从而降低群体免疫覆盖率，增加麻疹等传染病重新流行的风险。从科学背景看，MMR联合疫苗的设计初衷正是通过一次接种同时激发对三种病毒的免疫反应，减少接种次数带来的依从性问题，这一方案在全球范围内已经使用数十年，其安全性和有效性有大量长期流行病学数据支持。分析判断上，这项行政令的实际效果高度依赖于具体执行细则，包括是否为强制性要求、是否会影响联邦资助的疫苗接种项目、以及各州公共卫生部门的响应态度，这些都会决定其对实际接种率的冲击程度。后续需要关注美国疾控中心等专业机构是否会发布配套指导意见，也需要观察各州卫生部门和儿科医疗机构的具体执行情况及麻疹等疾病发病率是否出现变化。",
+      "duration_seconds": 150,
+      "is_unverified": false,
+      "confidence_note": "BBC一手报道官方行政令内容及美国儿科学会的公开回应，信息来源明确，但为单一媒体来源。",
+      "fact_status": {
+        "confirmed": [
+          "特朗普签署行政令，对儿童疫苗接种提出限制建议并要求拆分MMR联合疫苗",
+          "美国儿科学会公开称该建议为“危险”"
+        ],
+        "claims": [],
+        "analysis": [
+          "政策实际影响取决于具体执行细则，拆分接种可能增加家庭接种负担，进而影响群体免疫覆盖率"
+        ]
+      },
+      "source_ids": [
+        "1865d855c19b00ea"
+      ],
+      "sources": [
+        {
+          "id": "1865d855c19b00ea",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Trump signs order to limit childhood vaccines and split MMR shots",
+          "summary": "The American Academy of Pediatrics calls the recommendation on measles, mumps and rubella shots \"dangerous\".",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-11T10:00:04+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天需要继续关注的是俄乌前线局势的下一步进展，以及国际足联主席选举在世界杯私有化争议持续发酵下的走向。机器人领域方面，人形机器人出货量激增的数据是否会得到更多独立信源交叉确认，以及新发布的机器人学术论文能否在同行评审中经受住检验，都值得持续跟踪。",
-  "editor_note": "本期机器人内容涵盖产业出货数据、芯片厂商生态合作以及两篇arXiv新预印本，其中人形机器人出货量数据仅有单一行业信源，已标注为未验证；两篇arXiv论文均为最新预印本，未经同行评审，已在各自confidence_note中说明局限。为将机器人时长占比调整至45%–55%区间，本次修订移除了原有的手术机器人力反馈论文条目，保留时长占比更均衡的四条机器人内容（产业数据、两篇学术论文、芯片厂商生态合作），并将其余篇幅用于国际新闻背景解释。国际新闻部分因候选高度集中于俄乌无人机袭击事件，采用多信源合并处理以避免重复；泰国枪击案与国际足联事件因具备独立信息增量单独成稿。健康、金融类候选本期信息量不足，故未强行凑入。",
+  "closing": "今天的机器人产业新闻呈现出一种拉锯：一边是市场份额报告里中国厂商的强势数据，另一边是美国国防制造自动化的加速布局；学术界则持续在强化学习泛化、闭环纠错和数据效率上寻找新解法。国际局势方面，叙利亚的审判结果和美国疫苗政策的争议，都还需要观察后续的执行与回应。",
+  "editor_note": "为满足机器人时长占比45%–55%的要求，本次将Robo Inc.与Hirebotics协作焊接机器人一条、以及南洋理工微型手术机器人一条移出正文，机器人类别保留三个核心事件（人形机器人市场份额、果动科技工业具身机器人融资落地、arXiv五篇论文），时长占比约48%。市场份额报告和果动科技融资均来自tier 3聚合检索或单一行业媒体，已标注is_unverified并说明局限；arXiv五篇论文均为预印本，尚未经同行评审，已在confidence_note中说明。国际政治部分聚焦叙利亚审判这一多来源交叉确认的重大事件，并选取灾害、公共卫生政策等补充覆盖。Hadrian国防制造自动化融资因不涉及机器人核心技术主题，按原稿标注归入other类别。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 9180,
-      "output_tokens": 9841,
-      "total_tokens": 19021
+      "input_tokens": 9514,
+      "output_tokens": 10606,
+      "total_tokens": 20120
     },
     {
-      "input_tokens": 11690,
-      "output_tokens": 8616,
-      "total_tokens": 20306
+      "input_tokens": 12522,
+      "output_tokens": 8031,
+      "total_tokens": 20553
     }
   ],
   "usage": {
-    "output_tokens": 18457,
-    "input_tokens": 20870,
-    "total_tokens": 39327
+    "input_tokens": 22036,
+    "total_tokens": 40673,
+    "output_tokens": 18637
   },
-  "generated_at": "2026-08-10T11:13:41+00:00",
-  "window_start": "2026-08-09T11:13:41+00:00",
-  "candidate_count": 227,
+  "generated_at": "2026-08-11T11:06:14+00:00",
+  "window_start": "2026-08-10T11:06:14+00:00",
+  "candidate_count": 342,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1120,
-    "script_characters": 4380,
-    "topic_duration_share": 0.558,
+    "duration_seconds": 1045,
+    "script_characters": 4078,
+    "topic_duration_share": 0.488,
     "passed": true,
-    "normal_target_met": true,
-    "topic_source_count": 3,
+    "normal_target_met": false,
+    "topic_source_count": 2,
     "issues": []
   }
 }
