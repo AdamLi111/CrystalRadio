@@ -1,401 +1,242 @@
 {
-  "title": "晶球电台早报：叙利亚前总统被判死刑，中国人形机器人产业加速，具身智能新方法密集涌现",
-  "subtitle": "从大马士革的审判到实验室里的机械臂：今天的世界既在清算历史，也在加速未来",
+  "title": "晶球电台早报：机器人产业学术双线并进，西班牙百年一遇日全食震撼登场",
+  "subtitle": "从软体机器人捕捉中风瞬间到商用清洁机器人全球夺冠，今天的科技与世界要闻",
   "highlights": [
-    "叙利亚前总统巴沙尔·阿萨德因战争罪与危害人类罪被缺席判处死刑",
-    "多份行业报告显示中国人形机器人厂商已占据全球市场主导地位",
-    "arXiv一天内挂出五篇机器人学习新论文，覆盖强化学习、视觉语言导航与自监督操作学习",
-    "哥伦比亚强震已致132人死亡，刚果（金）埃博拉疫情死亡人数破2000"
+    "宾夕法尼亚大学软体机器人技术揭示中风发生的最早瞬间，为脑卒中早期诊断提供新工具",
+    "普渡机器人登顶全球商用清洁机器人出货量与营收双榜首",
+    "北约与俄乌局势持续紧张：英国扣押影子船队油轮，乌克兰指控朝鲜或增兵俄罗斯",
+    "西班牙迎来百年一遇日全食，数百万人涌上街头观测天文奇观"
   ],
   "stories": [
     {
-      "category": "world",
-      "title": "叙利亚前总统阿萨德被缺席判处死刑",
-      "english_term": "in absentia（缺席审判，即被告未到场情况下进行的审判）",
-      "summary": "叙利亚法院以战争罪和危害人类罪判处逃亡俄罗斯的前总统巴沙尔·阿萨德死刑，其弟弟及前情报官员阿泰夫·纳吉布同案被判。",
-      "script": "叙利亚过渡时期的司法进程迈出关键一步。当地法院对已经下台并流亡俄罗斯的前总统巴沙尔·阿萨德，以战争罪和危害人类罪作出缺席死刑判决，他的弟弟以及前地方安全官员阿泰夫·纳吉布同案被判处死刑。已确认的事实是，阿萨德在长达十四年的内战中被指控对本国民众实施系统性暴力，这场内战造成约五十万人死亡，阿萨德本人已于此前下台并出走俄罗斯，目前身处俄罗斯境内，缺席了整个审判过程。多家媒体的报道指出，这次审判被外界视为叙利亚战后转型正义的一次重要检验，纳吉布这一角色尤其敏感，因为他曾被认为是内战初期在南部城市德拉镇压示威、从而点燃全国抗议浪潮的关键人物之一。各方主张方面，叙利亚新政府方面将此次判决定义为对旧政权罪行的正式清算，试图借助司法程序为国家和解和重建法治基础提供支撑；而阿萨德本人及其支持者从未在任何公开场合承认判决的合法性，俄罗斯作为其庇护地，也未对是否会配合引渡表态。分析判断上看，由于阿萨德目前身处俄罗斯，这份死刑判决在可执行性上面临现实障碍，其更主要的意义在于象征层面——为叙利亚国内的战争受害者提供一种迟到的法律确认，也为国际社会观察叙利亚过渡政府能否建立独立可信的司法体系提供了一个观察窗口。后续需要等待俄罗斯方面对引渡或司法协助请求的正式回应，也需要观察叙利亚国内其他内战相关审判是否会陆续推进。",
+      "category": "robotics",
+      "title": "软体机器人技术揭示中风发生的最早瞬间",
+      "english_term": "Soft Robotics（软体机器人，使用柔性材料制造、可安全贴合人体组织的机器人技术）",
+      "summary": "宾夕法尼亚大学研究团队利用软体机器人技术，捕捉到中风发生初期的生理变化细节，为脑卒中的早期诊断和干预提供了新的观测手段。",
+      "script": "我们先来看一项来自医学与机器人交叉领域的进展。宾夕法尼亚大学的研究团队开发了一种软体机器人装置，用来捕捉中风发生的最早生理信号。传统的中风诊断手段，比如CT或者核磁共振，往往要等到脑组织出现明显损伤之后才能发现问题，这意味着黄金抢救时间窗口很可能已经错过。软体机器人技术的核心优势在于，它使用柔性材料制成的传感结构，可以像皮肤一样贴合在生物组织表面，实现对微小力学形变和血流变化的高灵敏度捕捉，同时不会像传统刚性设备那样对脆弱组织造成额外损伤。研究团队将这种柔性传感结构应用在动物模型的脑血管研究中，试图捕捉血管闭塞发生后最初几秒到几分钟内的组织反应，这个阶段此前很难被现有影像技术清晰记录。据介绍，这项技术为理解中风的病理发展提供了此前难以获得的早期窗口数据，有望帮助未来的诊断设备把干预时间点提前。这项研究目前处于学术报道阶段，具体的论文细节、实验样本量和同行评审进展尚未完全披露，仍需要等待更详细的技术论文发布以及独立机构的重复验证。从产业角度看，软体机器人与医疗传感的结合，是近年来机器人学界持续投入的方向，柔性材料、微型化传感器和生物相容性设计的进步，正在让机器人逐步进入更精细的人体医疗场景。后续需要关注这项技术是否会进入人体临床试验阶段，以及相关论文能否在权威医学或机器人期刊上完成同行评审。",
       "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "多家二级媒体独立报道同一判决结果，信息来源交叉确认充分。",
+      "is_unverified": true,
+      "confidence_note": "该报道来自机器人新闻聚合检索，属于三级来源，缺乏原始论文细节与独立同行评审确认，需谨慎对待具体技术参数。",
       "fact_status": {
         "confirmed": [
-          "叙利亚法院对阿萨德及其弟弟、前官员阿泰夫·纳吉布作出缺席死刑判决",
-          "判决依据是战争罪和危害人类罪指控",
-          "阿萨德目前身处俄罗斯"
+          "宾夕法尼亚大学团队开展了软体机器人相关的中风早期检测研究"
         ],
         "claims": [
-          "叙利亚新政府将审判定义为转型正义的一部分",
-          "部分专家认为该审判是对过渡司法体系的一次检验"
+          "该技术可以捕捉中风发生的最早生理信号"
         ],
         "analysis": [
-          "判决在阿萨德未被引渡情况下短期内难以执行，象征意义大于实际执行可能性"
+          "软体机器人在医疗传感领域的应用是机器人学界的持续研究方向"
         ]
       },
       "source_ids": [
-        "c52b99293f5956c2",
-        "28490d0bbb7a2682",
-        "b3cc769600dbe77d",
-        "b22473ee62515d9c"
+        "1b8a9b615f37ed6b"
       ],
       "sources": [
         {
-          "id": "c52b99293f5956c2",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
+          "id": "1b8a9b615f37ed6b",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Ousted Syrian dictator Bashar al-Assad sentenced to death in absentia",
-          "summary": "The ex-president is convicted of committing war crimes and crimes against humanity during the country's civil war.",
-          "url": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-11T10:43:07+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "28490d0bbb7a2682",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Former Syrian President Assad sentenced to death in absentia",
-          "summary": "A Syrian court sentenced Assad along with his brother to death in absentia for crimes against humanity and war crimes during Syria's 14-year conflict that left about half a million people dead.",
-          "url": "https://www.npr.org/2026/08/11/g-s1-138166/syria-assad-sentenced-to-death",
-          "published_at": "2026-08-11T10:07:14+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "b3cc769600dbe77d",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Who is Atef Najib, former Syrian official sentenced to death with al-Assad?",
-          "summary": "Experts say this trial has been a test of Syria’s transitional justice.",
-          "url": "https://www.aljazeera.com/news/2026/8/11/who-is-atef-najib-former-syrian-official-sentenced-to-death-with-al-assad?traffic_source=rss",
-          "published_at": "2026-08-11T10:03:25+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "b22473ee62515d9c",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Syria sentences Bashar Assad to death in absentia",
-          "summary": "A Syrian court has sentenced ousted President Bashar Assad to death in absentia. The ruling comes more than a year and a half after the former dictator was overthrown and fled to Russia.",
-          "url": "https://www.dw.com/en/syria-sentences-bashar-assad-to-death-in-absentia/a-78316245?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-11T08:48:00+00:00",
+          "category_hint": "robotics",
+          "title": "How a Soft Robotics Breakthrough is Revealing Stroke’s Earliest Moments - University of Pennsylvania",
+          "summary": "How a Soft Robotics Breakthrough is Revealing Stroke’s Earliest Moments University of Pennsylvania",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOX1N3TEd3OUlra1dIMnBDUU9PeVVZVmJVc3dSZnhMcEpyTFBDdEN1elotU0t5eWhNVTlobEpUcGlPSkxUYlg2dnFfM1F2TXROMG02VF9Sbm1CWU5HdV9rcWlXeTF4djVDeG4yTVpCaDJqemd6U2dzaGZJYmFKVGtlT3lqRzE1MVViSmhEMUVLUnRudUJlZXRJU1VMSkp1WFl6N0xmeWlqbHFXa010dUtmcEFQNA?oc=5",
+          "published_at": "2026-08-13T12:03:31+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "哥伦比亚强震致132人死亡，刚果埃博拉疫情死亡人数破2000",
+      "category": "robotics",
+      "title": "普渡机器人登顶全球商用清洁机器人市场",
       "english_term": null,
-      "summary": "哥伦比亚发生近年来最大规模地震之一，已致至少132人死亡并进入紧急状态；刚果（金）埃博拉疫情累计确诊4381例，死亡人数超过2000，成为历史上增长最快的一次疫情暴发。",
-      "script": "两条来自不同地区的灾难性消息值得关注。在南美洲，哥伦比亚遭遇近年来最大规模的地震之一，目前已确认至少132人死亡，当地政府已经宣布进入紧急状态。相关画面显示有家庭在地震发生瞬间紧急逃离住所，救援工作仍在持续。这是已确认的事实，具体的震源、震级细节以及伤亡人数后续可能会随救援进展继续更新。另一边，非洲刚果民主共和国的埃博拉疫情形势严峻，截至周二，五个省份已累计确认4381例病例，死亡人数正式突破2000人，这被认为是历史记录中增长最快的一次埃博拉疫情暴发。埃博拉病毒通过体液接触传播，致死率因病毒株和医疗条件不同差异很大，此次疫情的快速扩散给刚果本已脆弱的公共卫生系统带来巨大压力。这两起事件分属自然灾害与公共卫生危机两个不同范畴，但都指向同一个现实：无论是地震还是传染病，脆弱地区在应对突发大规模冲击时的资源和基础设施短板会被迅速放大。后续需要关注哥伦比亚方面伤亡数字是否会继续上升，以及国际援助是否会加速抵达；也需要关注世界卫生组织及相关国际机构对刚果疫情的应对资源投入情况。",
-      "duration_seconds": 115,
-      "is_unverified": false,
-      "confidence_note": "地震消息来自BBC一手报道，疫情数字来自半岛电视台报道，两条均为独立单一来源支撑各自事件，暂无第二来源交叉验证具体数字。",
-      "fact_status": {
-        "confirmed": [
-          "哥伦比亚地震已致至少132人死亡，政府宣布紧急状态",
-          "刚果（金）埃博拉疫情累计确诊4381例，死亡超2000人"
-        ],
-        "claims": [],
-        "analysis": [
-          "两地危机均反映出脆弱地区应对突发冲击时资源与基础设施的不足"
-        ]
-      },
-      "source_ids": [
-        "a8ecb0865e7647a1",
-        "3c4a46a3aae1326e"
-      ],
-      "sources": [
-        {
-          "id": "a8ecb0865e7647a1",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Watch: Family escapes home during Colombia earthquake",
-          "summary": "At least 132 people are dead and a state of emergency has been declared after Colombia was hit by one of its largest earthquakes in years.",
-          "url": "https://www.bbc.co.uk/news/videos/cwyl3w1e6zxo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-11T10:12:21+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "3c4a46a3aae1326e",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "DRC Ebola death toll passes 2,000 amid fastest-growing outbreak on record",
-          "summary": "A total of 4,381 cases across five provinces have been confirmed in the Democratic Republic of the Congo as of Tuesday.",
-          "url": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record?traffic_source=rss",
-          "published_at": "2026-08-11T10:52:27+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "多份报告显示中国人形机器人厂商占据全球市场主导地位",
-      "english_term": "humanoid robot（人形机器人，指外形与运动方式模拟人类躯干、双臂双腿结构的机器人）",
-      "summary": "多份产业报告与媒体分析指出，中国机器人制造商在2026年上半年全球人形机器人市场中占据压倒性份额，部分报告称占比高达97%。",
-      "script": "今天有多篇独立的产业报道，从不同角度指向同一个趋势：中国人形机器人产业正在快速扩张，并在全球市场中占据主导地位。其中一份报告称中国机器人制造商已经拿下全球市场约97%的份额，另有媒体报道称中国在2026年上半年的人形机器人市场中处于主导地位。需要说明的是，这类市场份额数字通常来自行业分析机构的统计口径，具体统计范围——是仅指人形机器人整机出货，还是包含核心零部件和执行器供应——在不同报告中可能存在差异，这会直接影响数字的可比性。从产业背景看，中国在人形机器人领域的优势主要建立在几个环节上：一是电机、减速器、传感器等核心零部件的国产化和成本控制能力持续提升；二是国内多家企业在整机集成和场景落地上推进速度较快，形成了从核心部件到整机制造的相对完整链条；三是国内制造业和物流仓储等场景为具身智能机器人提供了大量真实部署机会，形成了数据和迭代的正反馈。这一趋势如果持续，将对全球机器人产业格局产生深远影响，包括零部件供应链的地理集中度、其他国家和地区机器人企业的市场空间，以及各国在人形机器人相关产业政策上的响应。分析判断上，考虑到具体数字来自不同来源且统计方法可能不完全一致，这类份额数据应被视为反映产业趋势的信号而非精确的权威统计。后续需要观察是否有更权威、方法论透明的国际行业协会数据对这一趋势进行独立验证，也需要关注海外厂商在核心零部件和整机集成上的追赶速度。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "所引用的三条信息均来自同一类型的行业热点检索聚合来源（tier 3），缺乏权威行业协会或独立财经媒体的交叉验证，具体份额数字存在统计口径差异，标记为未完全核实。",
-      "fact_status": {
-        "confirmed": [
-          "有多份产业报告和媒体报道同期发布，指出中国人形机器人厂商在全球市场份额上占据领先地位"
-        ],
-        "claims": [
-          "部分报告称中国厂商市场份额达到约97%",
-          "有分析认为中国在2026年上半年人形机器人市场中占据主导地位"
-        ],
-        "analysis": [
-          "具体份额数字的统计口径尚不明确，需要更权威数据源交叉验证；产业链完整性和场景落地速度是中国厂商优势的主要支撑因素"
-        ]
-      },
-      "source_ids": [
-        "59edd489e3dde6c7",
-        "b60790cc86436005",
-        "0a188498709a6821"
-      ],
-      "sources": [
-        {
-          "id": "59edd489e3dde6c7",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "China’s Humanoid Robot Surge Is Already Here - NAI500",
-          "summary": "China’s Humanoid Robot Surge Is Already Here NAI500",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdHRnNzlOaUh5QU1LV3ByYzhPRzNnZnB2QmxLelc0TFc0cXFLTktiZFZFSlJvTGVOdUxvb0N6eW5mclExaW1NVVRYemd1YlNuTm1qOUl1cDJuNDhEeW1CZC1BU2VGN2RtWE5iQUl4emlLWFBCcEdKVU9SRDhjcWlCSUdzTQ?oc=5",
-          "published_at": "2026-08-11T10:36:04+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "b60790cc86436005",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Chinese robot manufacturers captured 97% of the global market - report - Українські Національні Новини (УНН)",
-          "summary": "Chinese robot manufacturers captured 97% of the global market - report Українські Національні Новини (УНН)",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM1FQQ1E0YkpHN2p3ei1icHliZm1semFtQUlxaXB3Zmx4NncyVjFabXh1SzQ4Q0N3SEt5N3RrS3NpQ0szRmtCdUlKLUJZZnF4TUJRcUVyYzl1YWlSQmVmZE9LUUlfODJLOVNXb0V0aXYzUlR2a1ExcjJJX2ZoUi1iOXJvSVF2M0VSNzVQZWV2T1hRa2l1d0p3OWR5a09Dd9IBnAFBVV95cUxQWkJneXl0UlpyQVQ1cXFYZDJWQ3I4ZHh6czkyVzJGWXV1OGMzTm1qRjBXak4tNTV6azBwUzlqYUlrVERFSUxCTWF3b0c1TWlSc0hHcVlkUWJoNk1Sc08xN2Q3UTNyQThCTXBPRVh0SDk5YjJiRUJjc2hnT0ZVNEUtUDBFRlBGWnR1UU9zZHdsSnFFaHBWeE93TW40YXY?oc=5",
-          "published_at": "2026-08-11T10:29:54+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "0a188498709a6821",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "China dominates global humanoid robot market in H1 2026 - Global Times",
-          "summary": "China dominates global humanoid robot market in H1 2026 Global Times",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VVVMwd29weE5XaVBnVHNZSWlWQVNwUWNjeThnMEE3TkpEQWdYc3dFYVRxeVFpMTNxZEtfOXZTb25ha01COVVYX3RvM19pb1l2RTVFdlZNWXNFankyNUQwbzVB?oc=5",
-          "published_at": "2026-08-11T10:24:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "工业具身机器人落地博世产线，国产企业获近亿元融资",
-      "english_term": "embodied robot（具身机器人，指具有物理身体并通过与环境交互获取感知和行动能力的机器人系统）",
-      "summary": "国内企业果动科技研发的微米级工业具身机器人已部署至博世生产线，该公司同时完成近一亿元人民币的A+轮融资。",
-      "script": "工业自动化领域传来一则融资与落地并行的消息。据36氪报道，国内机器人企业果动科技自主研发的微米级精度工业具身机器人已经部署到博世生产线上，公司同期完成了近一亿元人民币的A+轮融资。所谓微米级精度，指的是机器人在执行装配、检测等操作时的定位和运动控制误差被控制在微米量级，这对于精密制造场景中的零部件对齐、螺丝拧紧、精细焊接等任务至关重要，传统工业机器人往往依赖高精度但昂贵的专用夹具和定制化编程才能达到类似精度，而具身智能路线试图通过更强的感知与自适应控制能力，降低对定制化硬件和编程的依赖，提升机器人在不同产线间的迁移能力。从产业背景看，这类微米级工业具身机器人瞄准的是高端制造业中人工难以长期胜任、传统自动化又成本过高的中间地带，比如精密电子元件组装、汽车零部件的高精度装配等场景。博世作为全球领先的工业和汽车零部件供应商，其产线的实际部署具有较强的场景验证意义，说明该技术方案已经通过了较为严苛的工业客户验收标准。近亿元的A+轮融资规模在当前具身智能赛道中属于中等偏上水平，反映出资本市场对已经具备真实客户订单和场景验证的具身智能公司仍保持一定的投资热情，尤其是相比纯技术演示阶段的团队，已有工业客户背书的公司更容易获得后续融资。后续需要关注该机器人在博世产线上的实际运行数据和良品率表现是否会被进一步公开，也需要观察该公司是否会将同类技术方案复制到其他精密制造客户。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "来源为36氪独家报道，属单一信源，融资金额和具体部署细节尚未见其他媒体交叉证实，标记为未完全核实。",
-      "fact_status": {
-        "confirmed": [
-          "果动科技的工业具身机器人已部署至博世产线",
-          "公司完成近一亿元人民币A+轮融资"
-        ],
-        "claims": [
-          "该机器人具备微米级精度控制能力"
-        ],
-        "analysis": [
-          "工业客户的实际部署为该技术路线提供了场景验证，但具体运行效果数据尚未披露"
-        ]
-      },
-      "source_ids": [
-        "562bde514f2ba4e5"
-      ],
-      "sources": [
-        {
-          "id": "562bde514f2ba4e5",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Self-Developed Micron-Level Industrial Embodied Robot Deployed in Bosch Production Lines, Guao Technology Secures Nearly 100 Million Yuan Series A+ Financing | 36Kr Exclusive - 36Kr",
-          "summary": "Self-Developed Micron-Level Industrial Embodied Robot Deployed in Bosch Production Lines, Guao Technology Secures Nearly 100 Million Yuan Series A+ Financing | 36Kr Exclusive 36Kr",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE81UjJQdEpCWDM1UE5HcWVzbG9QUXBXdU9tYlVGWC1rNWtNUTZyUjRsSTh1dXc4cjI5bFRZdXV0ZURqVUc0bEk4aEF6NG5vcm41bnFB?oc=5",
-          "published_at": "2026-08-11T10:22:26+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "arXiv一日五篇新论文：从缆索并联机器人到无人机视觉语言导航",
-      "english_term": "reinforcement learning（强化学习，一种通过试错与奖励反馈学习最优决策策略的机器学习方法）",
-      "summary": "arXiv机器人板块同日挂出多篇新论文，涵盖缆索并联机器人强化学习控制、视觉语言导航的自校正世界模型、自监督视觉操作学习，以及轻量化无人机导航等方向。",
-      "script": "学术方面，arXiv机器人板块今天集中挂出了多篇新论文，覆盖了机器人学习领域的几个不同分支。第一篇聚焦缆索驱动并联机器人，这类机器人通过多条缆索牵引末端执行器运动，结构轻便但动力学高度非线性，控制难度大。论文提出一种执行器层面的强化学习策略，试图解决传统深度强化学习方法训练耗时长、且策略难以迁移到不同缆索数量和配置的问题，核心思路是让策略学习更贴近底层执行器的通用控制规律，从而提升跨构型的泛化能力。第二篇论文提出一种自校正世界模型的框架，用于连续环境下的视觉语言导航任务，即机器人需要根据自然语言指令在复杂环境中规划路径。这类任务的难点在于，多数现有方法采用开环执行，一旦内部状态估计出现漂移就难以察觉和纠正，论文引入闭环反馈机制，让系统在推理过程中持续检测并修正自身状态偏差。第三篇论文关注视觉操作任务中的自监督学习，传统方法依赖人工远程操控或人体示教来采集训练数据，成本高、效率低，论文提出一种机器人自动生成示教数据的方法，减少对人工标注和物体专用编程的依赖。第四篇论文借鉴代码智能体的架构思路，把软件智能体循环模式移植到机器人策略改进流程中，用主智能体协调、子智能体执行分析和操作的方式，应对训练好的策略和数据管线在实际使用中经常出现失效的问题。第五篇论文则针对无人机的视觉语言导航任务，提出一种轻量化方案，挑战了目前主流方法普遍依赖数十亿参数级别大模型、导致边缘设备部署延迟过高的现状，通过跨尺度评估找到更高效的感知与决策平衡点。这五篇论文共同指向具身智能研究中的几个核心难题：如何让学习到的策略更好泛化、如何让系统具备自我纠错能力、如何降低对人工数据标注的依赖，以及如何在算力受限的边缘设备上实现复杂决策。需要说明的是，这些论文均为最新预印本，尚未经过同行评审，具体方法的有效性和局限性有待学术共同体的进一步检验。后续需要关注这些方法是否会在会议评审中得到确认，以及是否有后续工作在真实机器人硬件上进行更大规模验证。",
-      "duration_seconds": 210,
-      "is_unverified": true,
-      "confidence_note": "五篇均为arXiv预印本，未经同行评审，仅代表作者自述的研究思路和初步结果，需等待正式评审结果确认其有效性和局限。",
-      "fact_status": {
-        "confirmed": [
-          "五篇论文均于同日发布在arXiv机器人板块，覆盖不同的机器人学习子方向"
-        ],
-        "claims": [
-          "各论文作者分别声称其方法在泛化能力、闭环纠错、数据效率或边缘部署效率上优于现有方法"
-        ],
-        "analysis": [
-          "这些工作共同反映当前具身智能研究关注的核心问题：策略泛化、自我纠错、降低人工标注依赖、边缘算力受限下的决策效率"
-        ]
-      },
-      "source_ids": [
-        "c5b7ad449e439230",
-        "733ebf014904e1a4",
-        "b0b0273f584da4ed",
-        "98154740bf897976",
-        "baaf70e9ed787f2c"
-      ],
-      "sources": [
-        {
-          "id": "c5b7ad449e439230",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Generalizing deep reinforcement learning across cable-driven parallel robot configurations with actuator-level policies",
-          "summary": "arXiv:2608.07546v1 Announce Type: new Abstract: Cable-driven parallel robots (CDPRs) present diverse configurations and complex control challenges, which can be addressed by deep reinforcement learning (DRL) by learning their nonlinear dynamics. However, DRL methods often require extensive training time, and the resulting policies do not generalize well to different robot configurations or varying numbers of actuators. In this article, we introduce a novel DRL approach for controlling CDPRs that does not depend on the specific robot configuration. Our method trains an actuator-level policy that controls each motor to achieve its target cable length, in contrast to conventional DRL approaches that learn to control the entire robot to reach a desired end-effector position. To the best of our knowledge, this is the first work to apply DRL to control CDPRs using an actuator-level policy. This approach offers two main advantages: (i) a single shared policy can be applied to any CDPR configuration, regardless of actuator count, and (ii) reliance on inverse kinematics, avoiding the more challenging forward kinematics problem. Training is performed in simulation, and the learned policy is ",
-          "url": "https://arxiv.org/abs/2608.07546",
-          "published_at": "2026-08-11T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "733ebf014904e1a4",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "SC$^{2}$-WM: A Self-Correcting World Model with Closed-Loop Feedback for Vision-and-Language Navigation in Continuous Environments",
-          "summary": "arXiv:2608.07548v1 Announce Type: new Abstract: Vision-and-Language Navigation in Continuous Environments (VLN-CE) requires agents to make fine-grained navigation decisions under partial observability. However, most existing methods rely on open-loop execution, lacking mechanisms to detect and correct internal state drift during inference. We propose SC$^{2}$-WM, a self-correcting world model framework that introduces internal feedback for closed-loop decision making in VLN-CE. Our method derives feedback from world-model foresight to perform state-level plan refinement before action execution. To handle challenging scenarios, we further introduce conditional world-aware adaptation, which enables model-level correction by selectively updating the world model at test time when feedback indicates model capacity insufficiency. Experiments on standard VLN-CE benchmarks demonstrate improved navigation robustness and generalization. Our code is available at https://github.com/sunrise-ikun/SC2_WM.",
-          "url": "https://arxiv.org/abs/2608.07548",
-          "published_at": "2026-08-11T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "b0b0273f584da4ed",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Self Supervised Learning from Automatically Generated Demonstrations for Visual Robotic Manipulation",
-          "summary": "arXiv:2608.07553v1 Announce Type: new Abstract: Robotic manipulation often requires object specific programming, manual data annotation, or calibrated perception pipelines, which limits rapid deployment in practical settings. Learning from demonstration offers a more direct alternative, but collecting demonstrations can still demand human teleoperation or kinesthetic teaching. This paper presents a self supervised visual manipulation method in which a robot automatically generates demonstrations around a target pose and learns relative pose corrections directly from wrist mounted RGB images. The proposed pipeline uses ROS~2 and Isaac Sim to collect labeled image-pose pairs without requiring explicit camera to robot extrinsic calibration. Separate datasets are generated for planar refinement and coarse three dimensional approach, and a convolutional network is trained to regress relative translation and rotation from single frame RGB observations. During execution, a coarse to fine controller first approaches the object using models trained with height variation and then refines the final alignment using planar data. The method is evaluated both in simulation and on a real UR5e coll",
-          "url": "https://arxiv.org/abs/2608.07553",
-          "published_at": "2026-08-11T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "98154740bf897976",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "You Don't Need To Stay in The Loop: An Agentic Robotics Loop for Robot-Policy Improvement",
-          "summary": "arXiv:2608.07555v1 Announce Type: new Abstract: Coding agents such as Claude Code and Codex close the software loop: a main agent manages the loop, subagents analyze and execute, tools do the work. We port this architecture to robot-policy improvement, where one difference dominates the design: robotic tools---trained policies, training pipelines, data collection---fail routinely, so a tool's quality must be measured, recorded at every call, and expired when the artifact behind it changes. AgenticRobotics is a backend-independent control plane in which an LLM controller drives disposable workers through durable train--evaluate--improve transactions: an immutable objective, controller-owned measurement, commit-keyed crash recovery, an evidence-graded skill library, and a tool registry with a standardized, recorded call surface. The title is an operational claim, not a selection claim: the operator can leave because promotion is evidence-gated, state is recoverable, and capability quality is derived from records---not because the loop picks better checkpoints than a human; on the one lineage we measured, it does not. The gates measurably buy false-promotion control (0.001 per run har",
-          "url": "https://arxiv.org/abs/2608.07555",
-          "published_at": "2026-08-11T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "baaf70e9ed787f2c",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "AeroDPO: Unleashing Lightweight UAV Navigation with High-Fidelity Perception and Automated Preference Optimization",
-          "summary": "arXiv:2608.07557v1 Announce Type: new Abstract: Vision-Language Navigation for Unmanned Aerial Vehicles (UAV-VLN) requires rapid and reactive control in complex 3D environments. Recent minimalist end-to-end paradigms show great promise but typically rely on massive language models containing billions of parameters, incurring prohibitive latency for real-world edge deployment. In this paper, we challenge this parameter-heavy reliance. Comprehensive cross-scale evaluations reveal the critical insight that perception quality fundamentally outweighs language reasoning capacity. We demonstrate that a lightweight 2B model equipped with high-fidelity visual inputs completely matches the overall success rates of massive 7B baselines. However, this minimalist policy exposes a fundamental robustness flaw inherent to pure Behavior Cloning (BC). Lacking explicit negative feedback, the agent fails to internalize robust spatial constraints and exhibits alarming collision rates in out-of-distribution (OOD) scenarios. To overcome this vulnerability without relying on unscalable human annotations, we propose AeroDPO, a zero-cost automated Direct Preference Optimization pipeline driven by determinis",
-          "url": "https://arxiv.org/abs/2608.07557",
-          "published_at": "2026-08-11T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "other",
-      "title": "Hadrian获13.7亿美元融资加速国防航空制造自动化",
-      "english_term": null,
-      "summary": "美国制造自动化公司Hadrian完成13.7亿美元融资，公司估值达78.7亿美元，这是其今年第二轮融资。",
-      "script": "美国国防与航空制造自动化领域出现一笔大额融资。据The Robot Report报道，制造自动化公司Hadrian完成了13.7亿美元的新一轮融资，公司估值达到78.7亿美元，这是该公司今年以来的第二轮融资，此前一轮融资发生在2026年1月。Hadrian主要面向国防和航空制造领域，提供自动化生产线解决方案，帮助传统依赖大量人工和长周期定制化生产的精密零部件制造环节实现更高效率和更快交付。从产业背景看，美国国防工业近年来面临产能瓶颈和人力短缺的双重压力，尤其是精密机械加工和航空零部件制造环节，传统工厂普遍面临熟练技工老龄化、招聘困难的问题，这为自动化制造解决方案创造了明确的市场需求。Hadrian在短短几个月内完成两轮融资且估值大幅跃升，反映出资本市场对国防相关制造自动化赛道的高度关注，这与近年来地缘政治紧张局势推动各国加大国防生产投入的大背景相吻合。分析判断上，这笔融资规模在制造自动化领域属于相当罕见的量级，说明投资人不仅看重公司现有技术能力，也在为未来可能出现的国防订单增长提前布局。后续需要关注Hadrian具体的产能扩张计划和客户合同披露情况，也需要观察是否有更多同类国防制造自动化企业获得类似规模的资本关注。",
+      "summary": "市场研究机构Counterpoint Research数据显示，普渡机器人在全球商用清洁机器人出货量和营收两项指标上均排名第一。",
+      "script": "在机器人产业动态方面，来自中国的普渡机器人公司传来好消息。市场研究机构Counterpoint Research发布的最新报告显示，普渡机器人在全球商用清洁机器人市场，无论是出货量还是营收规模，都排名第一。商用清洁机器人指的是应用在商场、机场、写字楼、医院等大型公共空间里，用于地面清扫、消毒和垃圾收集的自动化设备，这类机器人通常搭载激光雷达和视觉传感器实现自主导航，能够在复杂的人流环境中规划清扫路径并自动避障。这个细分市场近几年增长迅速，一方面是因为疫情之后各类公共场所对清洁消毒频次和标准化程度的要求提高，另一方面也得益于导航算法和电池续航能力的持续改进，让清洁机器人的作业效率和可靠性达到了商业化落地的门槛。普渡机器人此前已经在配送机器人领域有一定的市场基础，这次在清洁机器人赛道上拿到全球第一，说明公司正在把技术能力和渠道优势延伸到更多服务机器人细分领域。从产业格局看，商用服务机器人市场目前呈现多家中国厂商与国际厂商同台竞争的态势，价格、可靠性和售后服务网络都是关键竞争因素。后续需要关注普渡机器人能否把这一细分市场的领先地位，转化为更广泛的服务机器人产品线增长，以及国际市场对中国服务机器人品牌的接受度是否会进一步提升。",
       "duration_seconds": 130,
       "is_unverified": false,
-      "confidence_note": "The Robot Report为专业机器人行业二级媒体一手报道融资事件，信息明确具体，可信度较高，但为单一来源。",
+      "confidence_note": "数据来源为市场研究机构Counterpoint Research的报告转载，属于产业市场统计类信息，可信度较高但具体统计口径未完全展开。",
       "fact_status": {
         "confirmed": [
-          "Hadrian完成13.7亿美元融资，估值达78.7亿美元",
-          "这是公司2026年内的第二轮融资"
+          "Counterpoint Research发布报告称普渡机器人在全球商用清洁机器人出货量与营收上排名第一"
         ],
         "claims": [],
         "analysis": [
-          "融资规模反映资本市场对国防制造自动化赛道的高度关注，与地缘政治局势下国防生产需求增长相关"
+          "商用服务机器人市场竞争加剧，中国厂商在细分赛道上取得领先地位"
         ]
       },
       "source_ids": [
-        "fbcbcbb0dfda9d87"
+        "b16e6cbd505c328f"
       ],
       "sources": [
         {
-          "id": "fbcbcbb0dfda9d87",
+          "id": "b16e6cbd505c328f",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Pudu Robotics Ranked No. 1 Globally in Commercial Cleaning Robot Shipments and Revenue by Counterpoint Research - Yahoo Finance Singapore",
+          "summary": "Pudu Robotics Ranked No. 1 Globally in Commercial Cleaning Robot Shipments and Revenue by Counterpoint Research Yahoo Finance Singapore",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FUzVaMnM3YnJlSGd2R0hPMzZnX3VXalpsQ2RTdVQ0SGlPdlB1Z1dfZzJ1b3N2aXVtVmhpWFRtRFh1dDZySGN1U0s2R0NpVnZFbnVTNFhSMzE4X0tjMjh1X2FIRWN5dUlqRmNhbVdLLWw5RUtzM2ZUMnNjY2tuUFU?oc=5",
+          "published_at": "2026-08-13T12:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "美国陆军自主后勤系统TALUS获得合同支持",
+      "english_term": "TALUS（自主物流系统，用于在有争议环境中执行无人化物资运输任务）",
+      "summary": "以Stratom为主导的团队赢得美国陆军合同，将开发名为TALUS的自主后勤配送系统，用于在高风险作战环境中执行无人物资运输任务。",
+      "script": "国防与机器人产业结合的一则消息值得关注。以Stratom公司为主导的团队，赢得了美国陆军的一项合同，将开发一套名为TALUS的自主后勤配送系统。这套系统的定位是在有争议环境，也就是可能存在敌方干扰、通信中断或者道路被破坏等高风险条件下，执行无人化的物资运输任务。这类自主后勤系统通常需要具备复杂地形通过能力、在GPS信号被干扰情况下的自主导航能力，以及与有人后勤车队协同作业的能力。军事后勤长期以来是无人系统应用的重点方向之一，原因在于后勤运输路线往往是整个作战体系中风险最高、也最消耗人力的环节，用自主系统替代人工驾驶可以直接降低人员暴露在危险环境中的概率。从技术角度看，这类项目通常会整合越野移动平台、多传感器融合定位算法，以及在无网络环境下运行的自主决策模块，需要在恶劣路况和电子对抗环境下保持稳定可靠。目前公开信息里对TALUS系统的具体技术指标、交付时间表和测试计划披露有限，报道主要聚焦于合同签署这一节点。这类军用自主系统项目也从侧面反映出，机器人技术在国防采购体系中的重要性正在持续上升，美国陆军近年在自主车辆、无人机和后勤机器人上的投入呈现出多点布局的态势。后续需要关注TALUS系统的原型测试进度以及具体的技术方案披露。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "来源为专业机器人产业媒体The Robot Report的直接报道，属于二级来源，具体技术细节和合同金额未完全公开。",
+      "fact_status": {
+        "confirmed": [
+          "Stratom领导的团队获得美国陆军合同，将开发TALUS自主后勤系统"
+        ],
+        "claims": [],
+        "analysis": [
+          "军用自主后勤系统是机器人技术在国防领域应用的重要方向"
+        ]
+      },
+      "source_ids": [
+        "4a433c9fec4ac6fe"
+      ],
+      "sources": [
+        {
+          "id": "4a433c9fec4ac6fe",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing",
-          "summary": "The raise values Hadrian at $7.87 billion. It is Hadrian's second funding round this year, following a round in January 2026. The post Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/",
-          "published_at": "2026-08-10T22:33:12+00:00",
+          "title": "Strengthening U.S. Army sustainment: TALUS to deliver autonomous distribution",
+          "summary": "A Stratom-led team won a U.S. Army contract to develop TALUS, an autonomous logistics system for contested environments. The post Strengthening U.S. Army sustainment: TALUS to deliver autonomous distribution appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/strengthening-u-s-army-sustainment-talus-to-deliver-autonomous-distribution/",
+          "published_at": "2026-08-12T13:36:55+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "工业机器人市场需求分化：食品电子医疗回暖，汽车行业依旧疲软",
+      "english_term": "A3（Association for Advancing Automation，美国自动化推进协会）",
+      "summary": "美国自动化推进协会A3报告显示，2026年第二季度机器人订单在食品、电子和医疗行业出现增长，部分抵消了汽车制造业需求的疲软。",
+      "script": "来看一则反映工业机器人产业整体走势的数据。美国自动化推进协会A3发布报告称，2026年第二季度的工业机器人订单呈现出明显的行业分化态势。食品加工、电子制造和医疗健康这三个行业的机器人采购需求出现增长，一定程度上抵消了汽车制造行业需求疲软带来的拖累。这个数据点很值得关注，原因在于汽车制造业长期以来是工业机器人最大的单一应用领域，焊接、喷涂、装配等环节大量依赖机械臂完成，一旦汽车行业资本开支放缓，往往会直接反映在机器人订单数据上。而食品、电子和医疗这几个新兴增长点的共同特点，是对机器人的柔性化和精细化操作能力要求更高，比如食品行业需要机器人应对形状不规则、易损的物料，电子制造需要高精度的微小零件装配，医疗领域则对洁净度和操作稳定性有严格要求。这种需求结构的变化，反映出工业机器人的应用场景正在从传统汽车产线，逐步向更多元的制造业细分领域扩散。这也符合机器人产业近几年的一个整体趋势，即厂商越来越重视通用型、易于重新编程部署的机械臂产品，以适应不同行业客户的定制化需求。后续需要关注下半年汽车行业需求能否企稳，以及食品、电子、医疗这几个新增长点能否延续增长势头。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "数据来自行业协会A3的官方季度报告转载，来源可信度较高，属于产业统计类信息。",
+      "fact_status": {
+        "confirmed": [
+          "A3报告显示2026年第二季度食品、电子、医疗行业机器人订单增长，汽车行业需求疲软"
+        ],
+        "claims": [],
+        "analysis": [
+          "工业机器人应用场景正从汽车制造向更多细分行业扩散"
+        ]
+      },
+      "source_ids": [
+        "b6990904ddb2e5de"
+      ],
+      "sources": [
+        {
+          "id": "b6990904ddb2e5de",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Q2 2026 robotics demand increased across industries, reports A3",
+          "summary": "A3 said that Q2 2026 robotics orders in food, electronics, and healthcare helped offset soft demand from automotive manufacturing. The post Q2 2026 robotics demand increased across industries, reports A3 appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
+          "published_at": "2026-08-12T14:18:56+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "机器人超声成像新方法：让探头像医生一样灵活转向",
+      "english_term": "Robotic Ultrasound Imaging（机器人超声成像，通过机器人自动控制探头姿态完成超声检查）",
+      "summary": "一篇新论文提出了一种基于实时表面建模的探头姿态控制方法，让机器人超声系统能够实现全方向追踪，而不仅仅局限于探头垂直贴合体表的传统模式。",
+      "script": "接下来是一篇来自arXiv机器人板块的学术论文，主题是机器人超声成像的探头姿态控制。超声检查是一种实时、无辐射的成像手段，但图像质量高度依赖探头相对于人体表面的角度。目前大多数机器人超声系统只能维持探头与体表垂直的法线定位模式，但像心脏超声这类检查，往往需要探头以特定角度倾斜才能获得诊断所需的切面，垂直贴合的传统模式并不适用。这篇论文提出了一种新方法，从单纯的法线定位扩展到全方向追踪，核心是构建实时的体表表面模型，并据此动态计算探头的倾斜角度控制策略。简单来说，系统会持续感知探头下方皮肤表面的几何形状，实时更新一个局部曲面模型，再通过这个模型反推出探头应该倾斜的方向和角度，从而让机器人主动跟踪目标切面，而不是被动地保持垂直姿态。这种方法如果能够稳定工作，将拓展机器人超声系统的适用范围，尤其是在心脏超声这类对切面角度高度敏感的检查场景中，有望减轻超声医师的操作负担并提高检查一致性。论文目前是预印本形式发布在arXiv平台，尚未经过同行评审，具体的实验验证范围、临床数据量和系统鲁棒性都需要进一步披露。后续需要等待该论文完成同行评审，并关注是否有实际人体测试数据支持这一方法的可靠性。",
+      "duration_seconds": 125,
+      "is_unverified": true,
+      "confidence_note": "论文为arXiv预印本，尚未经过同行评审，实验细节和验证规模有限，需谨慎看待其临床适用性结论。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了一种基于实时表面建模的机器人超声探头姿态控制新方法"
+        ],
+        "claims": [
+          "该方法可以实现从法线定位到全方向追踪的能力扩展"
+        ],
+        "analysis": [
+          "机器人超声成像技术的进步有助于扩大其在复杂检查场景中的应用范围"
+        ]
+      },
+      "source_ids": [
+        "e7c13038e809f047"
+      ],
+      "sources": [
+        {
+          "id": "e7c13038e809f047",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "From Self-Normal-Positioning to Omni-Directional Tracking: Real-Time Surface Modeling Enabled Probe Tilt Control for Robotic Ultrasound Imaging",
+          "summary": "arXiv:2608.11409v1 Announce Type: new Abstract: Ultrasound (US) provides real-time, radiation-free imaging, but the image quality depends strongly on how the probe is oriented against the patient body. Robotic US can reduce operator workload and improve acquisition consistency; however, most existing systems focus on normal positioning, where the probe is maintained perpendicular to the local surface. This constraint is inadequate for examinations like echocardiography, where obtaining a diagnostic view requires a non-normal probe angle. Consequently, a clinically useful robotic system must sense the local surface in real-time and preserve the desired probe orientation. Here, we propose an omni-directional probe-orientation control framework that integrates RGB-D perception, local-surface modeling, and task-space orientation control. The surface model fuses multi-view point clouds and provides a quadratic estimate of the local surface. A desired imaging direction is then encoded relative to the normal, enabling the probe to track arbitrary angles. The framework was evaluated through flat-surface tracking, phantom target-angle recovery, and in-vivo tracking of an expert selected vie",
+          "url": "https://arxiv.org/abs/2608.11409",
+          "published_at": "2026-08-13T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "机器人策略最小数据自适应：让预训练机器人快速学会新任务",
+      "english_term": "Generalist Robot Policies（通用机器人策略，指经过大规模数据预训练、可执行多种任务的机器人控制模型）",
+      "summary": "一篇新论文研究如何让预训练好的通用机器人策略，仅用极少量数据就能适应全新任务，以缓解稀疏奖励和自主探索困难的问题。",
+      "script": "再看一篇涉及机器人学习方法的论文，主题是通用机器人策略的最小数据自适应。当前机器人学习领域的一个核心目标，是让机器人摆脱对任务专属人类演示数据的依赖，转而通过自主交互不断改进自身能力。但现实中完全自主的学习非常困难，原因在于稀疏奖励，也就是机器人只有在任务成功完成时才能获得反馈信号，而在探索阶段缺乏有效引导，导致机器人很难从零开始摸索出成功的行为模式。这篇论文研究的是一种折中方案，叫做最小数据自适应，指的是让一个已经经过大规模预训练的通用机器人策略，仅依靠极少量的新任务数据，就能完成对新任务的适应学习，而不需要重新收集大批量的任务专属数据。这种思路背后的逻辑是，预训练策略已经具备了一定的通用操作能力和环境理解能力，面对新任务时不需要从零学习，只需要在已有能力基础上做微调式的适应。这类方法如果得到验证，将大幅降低机器人部署到新场景、新任务时所需的数据采集成本，对于机器人产业的规模化落地具有重要意义，因为目前机器人进入新场景往往需要针对性地采集大量演示数据，成本和时间投入都不小。论文目前为arXiv新发布的预印本，具体的算法细节、任务测试范围和成功率对比数据需要查阅论文全文，同行评审结果尚未可知。后续需要关注该方法在更多真实机器人平台上的验证效果。",
+      "duration_seconds": 135,
+      "is_unverified": true,
+      "confidence_note": "论文为arXiv预印本，尚未经过同行评审，具体实验结果和方法细节需要查阅原文进一步确认。",
+      "fact_status": {
+        "confirmed": [
+          "论文研究了通用机器人策略的最小数据自适应问题"
+        ],
+        "claims": [
+          "该方法可以让预训练策略用极少数据适应新任务"
+        ],
+        "analysis": [
+          "降低任务适应所需数据量对机器人规模化部署具有重要意义"
+        ]
+      },
+      "source_ids": [
+        "6b8484a24c4fe491"
+      ],
+      "sources": [
+        {
+          "id": "6b8484a24c4fe491",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Adaptation of Generalist Robot Policies with Minimal Data",
+          "summary": "arXiv:2608.11363v1 Announce Type: new Abstract: A central goal in robot learning is to move beyond task-specific human data collection toward robots that improve through autonomous interaction. Yet fully autonomous learning remains difficult with current policies: sparse rewards and weak zero-shot exploration make it unlikely that a robot will discover successful behavior from scratch. We study minimal-data adaptation, a regime in which a pre-trained robot policy must learn a new task from as little as one demonstration followed by autonomous online interaction. This setting serves as the closest tractable proxy for fully autonomous improvement, allowing us to study whether minimal human guidance can bootstrap autonomous learning and what algorithmic ingredients make it feasible. We build MiDAS, a simple offline-to-online RL recipe that first anchors a pre-trained VLA to the target task with behavior cloning on single/few demonstrations, then improves it through value-based online RL on a residual policy parameterization. Across LIBERO and RoboCasa, MiDAS recovers strong task performance from as little as one demonstration, substantially outperforming baselines and generalizing bey",
+          "url": "https://arxiv.org/abs/2608.11363",
+          "published_at": "2026-08-13T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -403,79 +244,264 @@
     },
     {
       "category": "world",
-      "title": "特朗普签署行政令限制儿童疫苗接种，拆分MMR联合疫苗接种方案",
-      "english_term": "MMR vaccine（麻疹、腮腺炎、风疹三联疫苗）",
-      "summary": "美国总统特朗普签署行政令，对儿童疫苗接种提出限制性建议并要求拆分MMR三联疫苗接种方式，美国儿科学会称该建议“危险”。",
-      "script": "美国公共卫生政策方向出现新的争议。据BBC报道，美国总统特朗普签署了一项行政令，对儿童疫苗接种提出限制性措施，并要求将目前广泛使用的麻疹、腮腺炎、风疹三联疫苗，也就是MMR疫苗，拆分为单独接种的形式，而不是当前一针同时预防三种疾病的联合接种方式。已确认的事实是，这项行政令已经正式签署，美国儿科学会随即公开回应，将这一建议称为“危险”的做法。各方主张方面，行政令的支持者一方尚未在报道中给出具体的科学论证细节，而反对方——以美国儿科学会为代表的医学专业机构——的核心担忧在于，拆分接种通常意味着更多次的医疗接触和更复杂的接种时间表安排，这可能导致部分家庭因为时间或经济成本增加而延误或遗漏接种，从而降低群体免疫覆盖率，增加麻疹等传染病重新流行的风险。从科学背景看，MMR联合疫苗的设计初衷正是通过一次接种同时激发对三种病毒的免疫反应，减少接种次数带来的依从性问题，这一方案在全球范围内已经使用数十年，其安全性和有效性有大量长期流行病学数据支持。分析判断上，这项行政令的实际效果高度依赖于具体执行细则，包括是否为强制性要求、是否会影响联邦资助的疫苗接种项目、以及各州公共卫生部门的响应态度，这些都会决定其对实际接种率的冲击程度。后续需要关注美国疾控中心等专业机构是否会发布配套指导意见，也需要观察各州卫生部门和儿科医疗机构的具体执行情况及麻疹等疾病发病率是否出现变化。",
-      "duration_seconds": 150,
+      "title": "英国扣押俄罗斯影子船队油轮引发紧张",
+      "english_term": "Shadow Fleet（影子船队，指规避国际制裁、通常隐藏所有权信息运输俄罗斯石油的船只）",
+      "summary": "英国政府为执行对俄罗斯石油出口的制裁措施扣押了一艘影子船队油轮，此前俄罗斯总统普京曾就此发出警告，英国方面为此举进行了辩护。",
+      "script": "国际局势方面，英国与俄罗斯之间围绕石油制裁执法出现新的摩擦。英国政府已经确认扣押了一艘被认定为俄罗斯影子船队的油轮。所谓影子船队，指的是一批规避西方对俄石油出口制裁、通常通过隐藏实际所有权、频繁更换船旗和保险信息等方式运营的老旧油轮，这些船只被广泛认为是俄罗斯绕开价格上限和出口限制、继续向国际市场出售石油的重要工具。据报道，俄罗斯总统普京此前已经就类似行动发出警告，英国政府则对外表态称，扣押行动是依据法律规定执行的，目的是扰乱和阻遏影子船队船只的活动。目前可以确认的事实是英国政府扣押了这艘油轮，并公开为这一行动进行了法律层面的辩护；而俄方此前发出的警告内容、以及双方后续可能采取的对应措施，则属于各方主张范畴，需要观察后续官方声明。从地缘政治角度分析，石油制裁执法本身处于国际法与国家主权的灰色地带，英国等西方国家近年不断加大对影子船队的执法力度，试图通过扣船、限制保险等手段收紧俄罗斯的石油出口收入渠道，而俄罗斯方面则一直将这类行动视为对其正常贸易活动的干扰。这类事件容易成为俄英关系进一步紧张的触发点。后续需要关注俄罗斯是否会采取实质性反制措施，以及英国等西方国家是否会扩大对影子船队船只的扣押行动范围。",
+      "duration_seconds": 130,
       "is_unverified": false,
-      "confidence_note": "BBC一手报道官方行政令内容及美国儿科学会的公开回应，信息来源明确，但为单一媒体来源。",
+      "confidence_note": "来源为BBC World的直接报道，属于二级权威媒体来源，英方官方表态部分为一手信息，俄方警告内容为转述，需以官方声明为准。",
       "fact_status": {
         "confirmed": [
-          "特朗普签署行政令，对儿童疫苗接种提出限制建议并要求拆分MMR联合疫苗",
-          "美国儿科学会公开称该建议为“危险”"
+          "英国政府扣押了一艘被认定为俄罗斯影子船队的油轮，并公开为该行动进行法律辩护"
         ],
-        "claims": [],
+        "claims": [
+          "俄罗斯总统普京此前就此发出过警告"
+        ],
         "analysis": [
-          "政策实际影响取决于具体执行细则，拆分接种可能增加家庭接种负担，进而影响群体免疫覆盖率"
+          "石油制裁执法可能进一步加剧英俄之间的外交紧张"
         ]
       },
       "source_ids": [
-        "1865d855c19b00ea"
+        "55f07c44bcb9929f"
       ],
       "sources": [
         {
-          "id": "1865d855c19b00ea",
+          "id": "55f07c44bcb9929f",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Trump signs order to limit childhood vaccines and split MMR shots",
-          "summary": "The American Academy of Pediatrics calls the recommendation on measles, mumps and rubella shots \"dangerous\".",
-          "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-11T10:00:04+00:00",
+          "title": "UK defends seizing shadow fleet tanker after Putin threat",
+          "summary": "The UK government says it is \"disrupting and deterring shadow fleet vessels\" in accordance with the law.",
+          "url": "https://www.bbc.co.uk/news/articles/cn0npn249qvo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-13T11:05:03+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "乌克兰指控朝鲜或向俄罗斯增派数万士兵",
+      "english_term": null,
+      "summary": "乌克兰方面声称朝鲜正准备向俄罗斯增派数万名士兵以获取实战经验，乌克兰总统泽连斯基呼吁韩国加强与基辅的合作。",
+      "script": "俄乌战争相关的最新动态是，乌克兰方面提出指控，称朝鲜正在准备向俄罗斯增派数万名士兵，让他们在俄乌战场上获取实战经验。乌克兰总统泽连斯基已经就此呼吁韩国政府加强与基辅方面的合作。需要明确区分的是，目前可以确认的事实是乌克兰官方提出了这一指控，并且泽连斯基公开发表了呼吁韩国合作的言论；而朝鲜是否真的准备大规模增兵、具体规模是否达到数万人，目前仍属于乌克兰一方的主张，尚未见到独立第三方或朝俄双方官方的证实与确认。从背景来看，此前已有报道称朝鲜曾向俄罗斯派遣少量部队参与俄乌战事相关的军事协作，如果这次乌克兰所说的大规模增兵指控属实，将意味着朝俄军事合作的规模和性质出现明显升级，俄罗斯可能借此弥补自身在战场上的人力消耗，而朝鲜则可能借此换取俄罗斯在技术、经济或外交层面的回馈。分析人士普遍认为，如果朝鲜士兵大规模参战的说法得到证实，将对地区安全格局产生连锁影响，尤其是让韩国及其盟友重新评估半岛安全形势与对俄乌局势的介入程度。目前这一指控还缺乏独立信源交叉确认，后续需要关注朝鲜、俄罗斯官方是否作出回应，以及是否有其他独立情报或媒体来源提供进一步证据。",
+      "duration_seconds": 120,
+      "is_unverified": true,
+      "confidence_note": "该消息主要基于乌克兰官方单方面指控，缺乏朝俄双方或独立第三方信源的交叉确认，具体增兵规模和时间表存在不确定性。",
+      "fact_status": {
+        "confirmed": [
+          "乌克兰官方提出朝鲜可能大规模增兵俄罗斯的指控，泽连斯基公开呼吁韩国加强合作"
+        ],
+        "claims": [
+          "朝鲜正准备向俄罗斯增派数万名士兵"
+        ],
+        "analysis": [
+          "若指控属实，将标志朝俄军事合作规模显著升级，可能影响地区安全格局"
+        ]
+      },
+      "source_ids": [
+        "baf8544861442043"
+      ],
+      "sources": [
+        {
+          "id": "baf8544861442043",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "What would a North Korean surge mean for Ukraine war?",
+          "summary": "Ukraine is claiming that North Korea is preparing to send tens of thousands more troops to Russia, where they'll gain valuable battlefield experience. President Zelenskyy has urged South Korea to work closer with Kyiv.",
+          "url": "https://www.dw.com/en/what-would-a-north-korean-surge-mean-for-ukraine-war/a-78350896?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-13T10:54:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "science",
+      "title": "百年一遇日全食掠过西班牙，数百万人涌上街头观测",
+      "english_term": "Total Solar Eclipse（日全食，月球运行至地球与太阳之间，完全遮蔽太阳表面的天文现象）",
+      "summary": "一次罕见的日全食路径掠过格陵兰、冰岛及西班牙部分地区，这是西班牙一个多世纪以来首次经历日全食，数百万人在多地聚集观测。",
+      "script": "昨天发生的一次天文奇观，成为全球关注的焦点。一次日全食的全食带掠过了格陵兰、冰岛、俄罗斯北部一小部分区域、大西洋以及西班牙部分地区，这是西班牙一个多世纪以来首次经历完整的日全食。日全食是指月球运行到地球和太阳之间，恰好完全遮挡住太阳表面的天文现象，只有位于月影投射到地球表面形成的全食带内的观测者，才能看到太阳被完全遮蔽、天空瞬间转暗的壮观景象。据报道，随着天色逐渐变暗，人群自发地报以掌声和欢呼，数百万人涌上西班牙多个城市的街头观看这一现象。美国国家航空航天局NASA也在其每日一图栏目中收录了这次日全食在西班牙拍摄到的画面，作为当天的天文影像记录。日全食虽然是一种可以被精确预测的天文现象，但由于全食带覆盖范围通常很窄，且需要天气晴朗才能观测到，因此每一次日全食经过人口密集地区，都会引发大规模的公众观测热潮和媒体关注。对天文学界而言，日全食期间由于月球完全遮挡太阳主体光球层，是观测太阳日冕等平时被强烈阳光淹没的太阳大气结构的宝贵窗口，历史上不少太阳物理研究成果都得益于日全食期间的观测数据。这次日全食再次让公众近距离感受到天体运行的精确性与壮观程度。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "多家权威媒体及NASA均对此次日全食进行了报道和影像记录，来源交叉确认充分。",
+      "fact_status": {
+        "confirmed": [
+          "日全食全食带掠过格陵兰、冰岛、俄罗斯北部一角及西班牙部分地区，西班牙一个多世纪以来首次经历日全食"
+        ],
+        "claims": [],
+        "analysis": [
+          "日全食观测热潮体现了公众对天文现象的持续关注"
+        ]
+      },
+      "source_ids": [
+        "8e60b468ed8b0477",
+        "8837fb661be6ccbd",
+        "2c94c6f63a6639d2"
+      ],
+      "sources": [
+        {
+          "id": "8e60b468ed8b0477",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Millions crowd cities to see Spain's first total solar eclipse in over a century",
+          "summary": "As the sky darkened, gradually at first and then quickly, people broke into applause and cheered. It was the Spain's first total solar eclipse in more than a century.",
+          "url": "https://www.npr.org/2026/08/13/g-s1-138556/spain-solar-eclipse",
+          "published_at": "2026-08-13T06:04:38+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "8837fb661be6ccbd",
+          "source": "NASA",
+          "source_tier": 1,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "science",
+          "title": "APOD: 2026 August 13 – Total Solar Eclipse Over Spain",
+          "summary": "APOD Science APOD APOD: 2026 August 13 – Total… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Total Solar […]",
+          "url": "https://science.nasa.gov/image-article/apod-2026-august-13-total-solar-eclipse-over-spain/",
+          "published_at": "2026-08-13T04:05:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "2c94c6f63a6639d2",
+          "source": "NASA",
+          "source_tier": 1,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "science",
+          "title": "2026 Total Solar Eclipse in Spain",
+          "summary": "A total solar eclipse is seen from San Millán de los Caballeros, Spain, Wednesday, Aug. 12, 2026. A total solar eclipse – the Moon passing between the Sun and Earth, completely blocking the face of the Sun – swept across parts of Greenland, Iceland, northern Russia, the Atlantic Ocean, Spain, and a small corner of […]",
+          "url": "https://www.nasa.gov/image-article/2026-total-solar-eclipse-in-spain/",
+          "published_at": "2026-08-12T20:08:28+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "sports",
+      "title": "NBA名将拉塞尔·威斯布鲁克宣布退役",
+      "english_term": null,
+      "summary": "前NBA最有价值球员拉塞尔·威斯布鲁克在效力联盟18个赛季后宣布退役，他保持着NBA历史上生涯三双次数最多的纪录。",
+      "script": "体育方面的一则消息，前NBA最有价值球员拉塞尔·威斯布鲁克宣布退役，结束了他长达18个赛季的职业生涯。威斯布鲁克是NBA历史上以精力充沛、身体对抗能力突出著称的后卫之一，他保持着联盟历史上生涯三双次数最多的纪录，三双指的是球员在得分、篮板、助攻这三项数据统计中都达到两位数的表现，通常被视为衡量球员全面性的重要指标。威斯布鲁克职业生涯历经多支球队，曾经获得联盟最有价值球员荣誉，并多次入选全明星阵容，他标志性的打法风格和职业生涯的持久度，使他在球迷群体中拥有很高的关注度和讨论热度。他的退役也意味着上一个时代那种以高强度身体对抗和场均三双为特色的后卫打法，逐渐让位于更强调空间投射和位置模糊化的现代篮球风格。这条消息目前主要基于威斯布鲁克本人及相关方面的公开宣布，属于确认性事实。",
+      "duration_seconds": 85,
+      "is_unverified": false,
+      "confidence_note": "来源为Al Jazeera的直接报道，属于二级权威媒体，退役消息为球员本人公开宣布，可信度高。",
+      "fact_status": {
+        "confirmed": [
+          "拉塞尔·威斯布鲁克宣布退役，结束18个赛季的NBA职业生涯，保持联盟历史生涯三双次数最多纪录"
+        ],
+        "claims": [],
+        "analysis": [
+          "其退役标志着一种高强度对抗型后卫打法时代的落幕"
+        ]
+      },
+      "source_ids": [
+        "a1a111de9673e9d4"
+      ],
+      "sources": [
+        {
+          "id": "a1a111de9673e9d4",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Russell Westbrook announces NBA retirement after 18 seasons",
+          "summary": "Westbrook, a former NBA Most Valuable Player, holds the record for the most career triple-doubles in league history.",
+          "url": "https://www.aljazeera.com/sports/2026/8/13/russell-westbrook-announces-nba-retirement-after-18-seasons?traffic_source=rss",
+          "published_at": "2026-08-13T10:25:39+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "title": "美国7月通胀数据小幅回落",
+      "english_term": "Inflation（通货膨胀，指整体物价水平持续上涨的经济现象）",
+      "summary": "美国劳工部最新报告显示，7月份通胀率较此前有所放缓，为市场提供了物价压力有所缓解的信号。",
+      "script": "财经方面，美国劳工部发布的最新报告显示，7月份的通胀率较此前出现小幅回落。通胀率通常用消费者价格指数的同比或环比变化来衡量，反映的是居民日常消费的商品和服务价格整体变动趋势。这份报告释放出的信号是，此前持续困扰美国经济的物价上涨压力，在7月份有所缓解，但报告并未说明具体的回落幅度和分项数据构成，比如食品、能源、住房等分类别价格走势如何变化，需要查阅劳工部完整报告才能获得更细致的判断。通胀数据历来是美国货币政策制定的重要参考依据，如果物价压力持续缓解，通常会被市场解读为央行在利率决策上获得更大的灵活空间。不过要指出的是，单月数据的小幅波动并不足以说明通胀趋势已经出现根本性转折，还需要观察后续几个月数据是否延续这一回落态势。同一天的另一则消息显示，美国移民与海关执法局计划为其执法人员配备电击手套，这一装备升级计划也引发了外界对执法force使用规范的关注，但具体的技术细节和列装时间表尚未完全披露。",
+      "duration_seconds": 105,
+      "is_unverified": false,
+      "confidence_note": "数据来源为NPR对美国劳工部报告的转述，属于二级权威媒体报道，具体分项数据未在候选信息中完整展开。",
+      "fact_status": {
+        "confirmed": [
+          "美国劳工部报告显示7月份通胀率较此前小幅回落"
+        ],
+        "claims": [],
+        "analysis": [
+          "单月通胀数据回落尚不足以判断长期趋势是否根本转变"
+        ]
+      },
+      "source_ids": [
+        "adfdedff75d4d3d0"
+      ],
+      "sources": [
+        {
+          "id": "adfdedff75d4d3d0",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Inflation eased slightly in July. And, ICE plans to give officers electric shock gloves",
+          "summary": "Inflation cooled a bit last month, according to a new report from the Labor Department. And, ICE plans to equip its officers with electric shock gloves.",
+          "url": "https://www.npr.org/2026/08/13/g-s1-138578/up-first-newsletter-inflation-colombia-earthquake-ice-gloves-migrant-children-karolina-leavitt",
+          "published_at": "2026-08-13T11:31:18+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的机器人产业新闻呈现出一种拉锯：一边是市场份额报告里中国厂商的强势数据，另一边是美国国防制造自动化的加速布局；学术界则持续在强化学习泛化、闭环纠错和数据效率上寻找新解法。国际局势方面，叙利亚的审判结果和美国疫苗政策的争议，都还需要观察后续的执行与回应。",
-  "editor_note": "为满足机器人时长占比45%–55%的要求，本次将Robo Inc.与Hirebotics协作焊接机器人一条、以及南洋理工微型手术机器人一条移出正文，机器人类别保留三个核心事件（人形机器人市场份额、果动科技工业具身机器人融资落地、arXiv五篇论文），时长占比约48%。市场份额报告和果动科技融资均来自tier 3聚合检索或单一行业媒体，已标注is_unverified并说明局限；arXiv五篇论文均为预印本，尚未经同行评审，已在confidence_note中说明。国际政治部分聚焦叙利亚审判这一多来源交叉确认的重大事件，并选取灾害、公共卫生政策等补充覆盖。Hadrian国防制造自动化融资因不涉及机器人核心技术主题，按原稿标注归入other类别。",
+  "closing": "今天的早报中，机器人领域的进展从医疗传感、商用服务机器人市场格局，延伸到军事后勤自动化与前沿学术论文，产业与学术两条线都在稳步推进；国际局势方面，俄乌战争相关的人力与制裁博弈仍是持续焦点。后续需要关注软体机器人中风检测研究的论文披露与同行评审进展，机器人超声成像新方法的临床验证数据，以及乌克兰关于朝鲜增兵指控是否会得到独立信源证实。",
+  "editor_note": "本期机器人板块综合了产业新闻（The Robot Report、Global Robotics News Search聚合）与学术预印本（arXiv cs.RO），其中部分产业消息来源为三级聚合检索，缺乏原始一手细节，已标注为不确定或在稿中说明信息局限；arXiv论文均为预印本，未经同行评审，已在confidence_note中注明。国际部分优先选择了具备事实与主张明确区分空间的俄乌相关报道，中东定居者事件因整体时长与机器人占比要求已在本轮修订中移除，Eurovision选址等娱乐类事件因重要性相对较低未纳入重点篇目。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 9514,
-      "output_tokens": 10606,
-      "total_tokens": 20120
+      "input_tokens": 9482,
+      "output_tokens": 11755,
+      "total_tokens": 21237
     },
     {
-      "input_tokens": 12522,
-      "output_tokens": 8031,
-      "total_tokens": 20553
+      "input_tokens": 13528,
+      "output_tokens": 10335,
+      "total_tokens": 23863
     }
   ],
   "usage": {
-    "input_tokens": 22036,
-    "total_tokens": 40673,
-    "output_tokens": 18637
+    "output_tokens": 22090,
+    "input_tokens": 23010,
+    "total_tokens": 45100
   },
-  "generated_at": "2026-08-11T11:06:14+00:00",
-  "window_start": "2026-08-10T11:06:14+00:00",
-  "candidate_count": 342,
+  "generated_at": "2026-08-13T12:14:42+00:00",
+  "window_start": "2026-08-12T12:14:42+00:00",
+  "candidate_count": 245,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1045,
-    "script_characters": 4078,
-    "topic_duration_share": 0.488,
+    "duration_seconds": 1355,
+    "script_characters": 5300,
+    "topic_duration_share": 0.583,
     "passed": true,
     "normal_target_met": false,
-    "topic_source_count": 2,
+    "topic_source_count": 3,
     "issues": []
   }
 }
