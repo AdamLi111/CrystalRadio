@@ -1,86 +1,49 @@
 {
-  "title": "晶球电台早报：机器人产业学术双线并进，西班牙百年一遇日全食震撼登场",
-  "subtitle": "从软体机器人捕捉中风瞬间到商用清洁机器人全球夺冠，今天的科技与世界要闻",
+  "title": "晶球电台早报：乌克兰重载地面机器人亮相，机器人手仿生新设计登场",
+  "subtitle": "从战场负重机器人到仿生灵巧手，再到赞比亚选举风波与中东局势升温",
   "highlights": [
-    "宾夕法尼亚大学软体机器人技术揭示中风发生的最早瞬间，为脑卒中早期诊断提供新工具",
-    "普渡机器人登顶全球商用清洁机器人出货量与营收双榜首",
-    "北约与俄乌局势持续紧张：英国扣押影子船队油轮，乌克兰指控朝鲜或增兵俄罗斯",
-    "西班牙迎来百年一遇日全食，数百万人涌上街头观测天文奇观"
+    "乌克兰企业发布可负重210公斤的地面机器人，用于前线补给",
+    "研究团队推出BioflexBot仿生机器人手，尝试用简化结构复现人手核心动作",
+    "赞比亚总统选举计票因暴力事件被叫停，选举委员会承诺24小时内重新评估",
+    "美国以“无限期”方式维持对伊朗的海上封锁，各方说法不一",
+    "日本遭遇“史无前例”强降雨，已造成8人死亡"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "软体机器人技术揭示中风发生的最早瞬间",
-      "english_term": "Soft Robotics（软体机器人，使用柔性材料制造、可安全贴合人体组织的机器人技术）",
-      "summary": "宾夕法尼亚大学研究团队利用软体机器人技术，捕捉到中风发生初期的生理变化细节，为脑卒中的早期诊断和干预提供了新的观测手段。",
-      "script": "我们先来看一项来自医学与机器人交叉领域的进展。宾夕法尼亚大学的研究团队开发了一种软体机器人装置，用来捕捉中风发生的最早生理信号。传统的中风诊断手段，比如CT或者核磁共振，往往要等到脑组织出现明显损伤之后才能发现问题，这意味着黄金抢救时间窗口很可能已经错过。软体机器人技术的核心优势在于，它使用柔性材料制成的传感结构，可以像皮肤一样贴合在生物组织表面，实现对微小力学形变和血流变化的高灵敏度捕捉，同时不会像传统刚性设备那样对脆弱组织造成额外损伤。研究团队将这种柔性传感结构应用在动物模型的脑血管研究中，试图捕捉血管闭塞发生后最初几秒到几分钟内的组织反应，这个阶段此前很难被现有影像技术清晰记录。据介绍，这项技术为理解中风的病理发展提供了此前难以获得的早期窗口数据，有望帮助未来的诊断设备把干预时间点提前。这项研究目前处于学术报道阶段，具体的论文细节、实验样本量和同行评审进展尚未完全披露，仍需要等待更详细的技术论文发布以及独立机构的重复验证。从产业角度看，软体机器人与医疗传感的结合，是近年来机器人学界持续投入的方向，柔性材料、微型化传感器和生物相容性设计的进步，正在让机器人逐步进入更精细的人体医疗场景。后续需要关注这项技术是否会进入人体临床试验阶段，以及相关论文能否在权威医学或机器人期刊上完成同行评审。",
-      "duration_seconds": 140,
-      "is_unverified": true,
-      "confidence_note": "该报道来自机器人新闻聚合检索，属于三级来源，缺乏原始论文细节与独立同行评审确认，需谨慎对待具体技术参数。",
-      "fact_status": {
-        "confirmed": [
-          "宾夕法尼亚大学团队开展了软体机器人相关的中风早期检测研究"
-        ],
-        "claims": [
-          "该技术可以捕捉中风发生的最早生理信号"
-        ],
-        "analysis": [
-          "软体机器人在医疗传感领域的应用是机器人学界的持续研究方向"
-        ]
-      },
-      "source_ids": [
-        "1b8a9b615f37ed6b"
-      ],
-      "sources": [
-        {
-          "id": "1b8a9b615f37ed6b",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "How a Soft Robotics Breakthrough is Revealing Stroke’s Earliest Moments - University of Pennsylvania",
-          "summary": "How a Soft Robotics Breakthrough is Revealing Stroke’s Earliest Moments University of Pennsylvania",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOX1N3TEd3OUlra1dIMnBDUU9PeVVZVmJVc3dSZnhMcEpyTFBDdEN1elotU0t5eWhNVTlobEpUcGlPSkxUYlg2dnFfM1F2TXROMG02VF9Sbm1CWU5HdV9rcWlXeTF4djVDeG4yTVpCaDJqemd6U2dzaGZJYmFKVGtlT3lqRzE1MVViSmhEMUVLUnRudUJlZXRJU1VMSkp1WFl6N0xmeWlqbHFXa010dUtmcEFQNA?oc=5",
-          "published_at": "2026-08-13T12:03:31+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "普渡机器人登顶全球商用清洁机器人市场",
-      "english_term": null,
-      "summary": "市场研究机构Counterpoint Research数据显示，普渡机器人在全球商用清洁机器人出货量和营收两项指标上均排名第一。",
-      "script": "在机器人产业动态方面，来自中国的普渡机器人公司传来好消息。市场研究机构Counterpoint Research发布的最新报告显示，普渡机器人在全球商用清洁机器人市场，无论是出货量还是营收规模，都排名第一。商用清洁机器人指的是应用在商场、机场、写字楼、医院等大型公共空间里，用于地面清扫、消毒和垃圾收集的自动化设备，这类机器人通常搭载激光雷达和视觉传感器实现自主导航，能够在复杂的人流环境中规划清扫路径并自动避障。这个细分市场近几年增长迅速，一方面是因为疫情之后各类公共场所对清洁消毒频次和标准化程度的要求提高，另一方面也得益于导航算法和电池续航能力的持续改进，让清洁机器人的作业效率和可靠性达到了商业化落地的门槛。普渡机器人此前已经在配送机器人领域有一定的市场基础，这次在清洁机器人赛道上拿到全球第一，说明公司正在把技术能力和渠道优势延伸到更多服务机器人细分领域。从产业格局看，商用服务机器人市场目前呈现多家中国厂商与国际厂商同台竞争的态势，价格、可靠性和售后服务网络都是关键竞争因素。后续需要关注普渡机器人能否把这一细分市场的领先地位，转化为更广泛的服务机器人产品线增长，以及国际市场对中国服务机器人品牌的接受度是否会进一步提升。",
+      "title": "乌克兰企业发布负重210公斤地面机器人，瞄准前线补给场景",
+      "english_term": "UGV (Unmanned Ground Vehicle，无人地面车辆)",
+      "summary": "一家乌克兰公司公开了一款可负重210公斤的无人地面机器人，主要用于战场物资运输与伤员撤离等场景。",
+      "script": "先看一条来自战场一线的机器人产业新闻。据《The Defense Post》报道，一家乌克兰企业公开了一款新型无人地面车辆，官方数据显示其最大负重能力达到210公斤。这类机器人通常被称为UGV，也就是无人地面车辆，核心用途是在前线执行物资运输、弹药补给，甚至伤员撤离等高风险任务，从而减少人员暴露在炮火下的时间。从技术角度看，负重210公斤对于一款地面机器人而言是相当可观的指标，这意味着它需要在动力系统、履带或轮式底盘的牵引力、电池续航与整体结构强度之间做出平衡，同时还要保证在复杂地形，比如泥泞、弹坑密布的战场环境下依然具备可靠的通过性。俄乌冲突以来，前线对小型化、可消耗、可快速量产的无人系统需求持续攀升，乌克兰本土国防科技企业在此背景下加速了地面机器人的迭代速度，试图用相对低成本的自主或半自主平台替代部分传统人力后勤保障。目前公开信息主要来自单一军事媒体报道，具体的量产计划、单台成本、实际部署规模以及在战场上的实测表现尚未有更多独立信源交叉确认。后续需要关注是否有官方或乌克兰国防部门就该机器人的采购数量和部署时间表作出进一步说明，也需要观察类似负重型地面机器人是否会成为消耗战环境下无人系统竞赛的新方向。",
       "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "数据来源为市场研究机构Counterpoint Research的报告转载，属于产业市场统计类信息，可信度较高但具体统计口径未完全展开。",
+      "is_unverified": true,
+      "confidence_note": "该报道来自单一军事专业媒体，尚缺乏第二独立信源交叉确认具体技术参数与部署规模，标记为未完全核实。",
       "fact_status": {
         "confirmed": [
-          "Counterpoint Research发布报告称普渡机器人在全球商用清洁机器人出货量与营收上排名第一"
+          "一家乌克兰企业公开发布了一款地面机器人产品"
         ],
-        "claims": [],
+        "claims": [
+          "该机器人官方宣称最大负重能力为210公斤"
+        ],
         "analysis": [
-          "商用服务机器人市场竞争加剧，中国厂商在细分赛道上取得领先地位"
+          "负重型地面机器人可能是俄乌冲突中无人系统需求升级的一个缩影，但具体部署效果仍待观察"
         ]
       },
       "source_ids": [
-        "b16e6cbd505c328f"
+        "464db0281749f473"
       ],
       "sources": [
         {
-          "id": "b16e6cbd505c328f",
+          "id": "464db0281749f473",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Pudu Robotics Ranked No. 1 Globally in Commercial Cleaning Robot Shipments and Revenue by Counterpoint Research - Yahoo Finance Singapore",
-          "summary": "Pudu Robotics Ranked No. 1 Globally in Commercial Cleaning Robot Shipments and Revenue by Counterpoint Research Yahoo Finance Singapore",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FUzVaMnM3YnJlSGd2R0hPMzZnX3VXalpsQ2RTdVQ0SGlPdlB1Z1dfZzJ1b3N2aXVtVmhpWFRtRFh1dDZySGN1U0s2R0NpVnZFbnVTNFhSMzE4X0tjMjh1X2FIRWN5dUlqRmNhbVdLLWw5RUtzM2ZUMnNjY2tuUFU?oc=5",
-          "published_at": "2026-08-13T12:00:00+00:00",
+          "title": "Ukrainian Firm Unveils Ground Robot That Hauls 210 Kg - The Defense Post",
+          "summary": "Ukrainian Firm Unveils Ground Robot That Hauls 210 Kg The Defense Post",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SMk5BVUJRUEE4WURKczVTcWFTeDQzSTR4clQ5dDFCVHVEZ3pBdEdBRDdYTHRzX2NTLWZBN0hYQm02Sk5KajhneWc5cjR5dFZ6QlJ0V3hmRFBJYTJGNjBRMEdXX3F0d2wxbUhGdDVKSnBJVkHSAXhBVV95cUxPOXN0YmY3a3BrV2pYVkRrT0l5UFlpTXlENm1pS2R0Y2lvbzhlOTE3MUJVVF9CTG45RC1hbFhaMTBXTWNfeDE3cnB4SHpPdWhCNVU1YmhaMWxfcTdsMlBEYzZuanctOUJMUFZwYlJCSHY0QzkzMkRqYmU?oc=5",
+          "published_at": "2026-08-14T11:31:40+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -88,37 +51,39 @@
     },
     {
       "category": "robotics",
-      "title": "美国陆军自主后勤系统TALUS获得合同支持",
-      "english_term": "TALUS（自主物流系统，用于在有争议环境中执行无人化物资运输任务）",
-      "summary": "以Stratom为主导的团队赢得美国陆军合同，将开发名为TALUS的自主后勤配送系统，用于在高风险作战环境中执行无人物资运输任务。",
-      "script": "国防与机器人产业结合的一则消息值得关注。以Stratom公司为主导的团队，赢得了美国陆军的一项合同，将开发一套名为TALUS的自主后勤配送系统。这套系统的定位是在有争议环境，也就是可能存在敌方干扰、通信中断或者道路被破坏等高风险条件下，执行无人化的物资运输任务。这类自主后勤系统通常需要具备复杂地形通过能力、在GPS信号被干扰情况下的自主导航能力，以及与有人后勤车队协同作业的能力。军事后勤长期以来是无人系统应用的重点方向之一，原因在于后勤运输路线往往是整个作战体系中风险最高、也最消耗人力的环节，用自主系统替代人工驾驶可以直接降低人员暴露在危险环境中的概率。从技术角度看，这类项目通常会整合越野移动平台、多传感器融合定位算法，以及在无网络环境下运行的自主决策模块，需要在恶劣路况和电子对抗环境下保持稳定可靠。目前公开信息里对TALUS系统的具体技术指标、交付时间表和测试计划披露有限，报道主要聚焦于合同签署这一节点。这类军用自主系统项目也从侧面反映出，机器人技术在国防采购体系中的重要性正在持续上升，美国陆军近年在自主车辆、无人机和后勤机器人上的投入呈现出多点布局的态势。后续需要关注TALUS系统的原型测试进度以及具体的技术方案披露。",
+      "title": "BioflexBot仿生机器人手：简化结构下复现人手核心动作",
+      "english_term": "affordance / dexterous manipulation（灵巧操作，指机器人像人手一样精细操控物体的能力）",
+      "summary": "研究团队推出名为BioflexBot的机器人手，试图用相对简单的机械设计复现甚至超越人手部分核心动作。",
+      "script": "再来看一项机器人本体研究进展。据《The Robot Report》报道，研究人员开发出一款名为BioflexBot的机器人手，目标是用一个相对简化的机械结构，去模仿甚至在某些动作维度上超越人类手部的核心运动能力。长期以来，仿生机器人手面临的核心难题在于，人手拥有极其复杂的骨骼、肌腱和肌肉协同系统，传统仿生设计往往需要堆叠大量独立驱动的关节和电机，这会显著增加重量、成本与控制难度，也让整只手变得脆弱、维护困难。BioflexBot团队采取的思路是通过精简的机构设计，用更少的驱动单元实现接近人手的抓握、捏取等关键动作，这种设计哲学在机器人学中被称为欠驱动，也就是用比自由度数量更少的驱动器，通过巧妙的机械耦合来实现多种动作模式。如果这一设计路径被验证有效，它有可能降低灵巧手的制造与维护成本，这对当前人形机器人产业尤其重要，因为末端执行器，也就是机器人手部，往往是整机中成本占比和故障率都较高的部分。目前公开信息主要来自媒体报道对研究团队工作的介绍，具体的性能测试数据、与现有商业灵巧手方案的对比、以及是否已投稿或发表在同行评审期刊上，报道中并未详细展开。后续需要等待更完整的论文或技术细节公开，以及独立测试对其抓握力、精细操作精度等指标的验证。",
       "duration_seconds": 135,
-      "is_unverified": false,
-      "confidence_note": "来源为专业机器人产业媒体The Robot Report的直接报道，属于二级来源，具体技术细节和合同金额未完全公开。",
+      "is_unverified": true,
+      "confidence_note": "报道来自单一行业媒体，未提供论文链接或同行评审状态说明，具体性能数据有限，标记为未完全核实。",
       "fact_status": {
         "confirmed": [
-          "Stratom领导的团队获得美国陆军合同，将开发TALUS自主后勤系统"
+          "研究团队公开了名为BioflexBot的机器人手项目"
         ],
-        "claims": [],
+        "claims": [
+          "该设计声称能以简化结构复现甚至超越人手部分核心动作"
+        ],
         "analysis": [
-          "军用自主后勤系统是机器人技术在国防领域应用的重要方向"
+          "欠驱动式设计若被验证有效，可能有助于降低灵巧手的制造与维护成本"
         ]
       },
       "source_ids": [
-        "4a433c9fec4ac6fe"
+        "b2e3c197470033e9"
       ],
       "sources": [
         {
-          "id": "4a433c9fec4ac6fe",
+          "id": "b2e3c197470033e9",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Strengthening U.S. Army sustainment: TALUS to deliver autonomous distribution",
-          "summary": "A Stratom-led team won a U.S. Army contract to develop TALUS, an autonomous logistics system for contested environments. The post Strengthening U.S. Army sustainment: TALUS to deliver autonomous distribution appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/strengthening-u-s-army-sustainment-talus-to-deliver-autonomous-distribution/",
-          "published_at": "2026-08-12T13:36:55+00:00",
+          "title": "BioflexBot robot hand aims to replicate key human hand motions",
+          "summary": "Researchers created the BioflexBot, a novel robot that mimics and even exceeds core motions of the hand with a simple design. The post BioflexBot robot hand aims to replicate key human hand motions appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/bioflexbot-robot-hand-aims-to-replicate-key-human-hand-motions/",
+          "published_at": "2026-08-13T12:15:02+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -126,117 +91,193 @@
     },
     {
       "category": "robotics",
-      "title": "工业机器人市场需求分化：食品电子医疗回暖，汽车行业依旧疲软",
-      "english_term": "A3（Association for Advancing Automation，美国自动化推进协会）",
-      "summary": "美国自动化推进协会A3报告显示，2026年第二季度机器人订单在食品、电子和医疗行业出现增长，部分抵消了汽车制造业需求的疲软。",
-      "script": "来看一则反映工业机器人产业整体走势的数据。美国自动化推进协会A3发布报告称，2026年第二季度的工业机器人订单呈现出明显的行业分化态势。食品加工、电子制造和医疗健康这三个行业的机器人采购需求出现增长，一定程度上抵消了汽车制造行业需求疲软带来的拖累。这个数据点很值得关注，原因在于汽车制造业长期以来是工业机器人最大的单一应用领域，焊接、喷涂、装配等环节大量依赖机械臂完成，一旦汽车行业资本开支放缓，往往会直接反映在机器人订单数据上。而食品、电子和医疗这几个新兴增长点的共同特点，是对机器人的柔性化和精细化操作能力要求更高，比如食品行业需要机器人应对形状不规则、易损的物料，电子制造需要高精度的微小零件装配，医疗领域则对洁净度和操作稳定性有严格要求。这种需求结构的变化，反映出工业机器人的应用场景正在从传统汽车产线，逐步向更多元的制造业细分领域扩散。这也符合机器人产业近几年的一个整体趋势，即厂商越来越重视通用型、易于重新编程部署的机械臂产品，以适应不同行业客户的定制化需求。后续需要关注下半年汽车行业需求能否企稳，以及食品、电子、医疗这几个新增长点能否延续增长势头。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "数据来自行业协会A3的官方季度报告转载，来源可信度较高，属于产业统计类信息。",
+      "title": "arXiv机器人学论文集中发布：具身智能多方向新进展",
+      "english_term": "embodied intelligence（具身智能，指让AI系统通过物理身体与环境交互来学习和执行任务）",
+      "summary": "一批新的机器人学预印本论文同日发布，涵盖操作技能泛化、主动功能可供性抓取、开放词汇导航等方向。",
+      "script": "接下来快速浏览一组来自学术界的机器人研究新动态，这些论文均于近日发布在arXiv机器人学板块，属于预印本，尚未经过同行评审。第一项是RoboSynChallenge项目，它提出了一个统一评测基准，用来衡量和推动机器人操作策略在不同任务、环境与难度下的泛化能力，研究背景是当前具身智能领域普遍面临真实世界数据稀缺、多样性不足的瓶颈，这个基准希望通过合成数据训练出的操作技能，能够更好地迁移到真实场景中。第二项FUSE研究关注一个叫做主动功能可供性抓取的新任务，简单说就是当机器人需要根据物体的功能而非外观去识别和操作它时，如果关键的功能线索被遮挡或观察不完整，机器人应该如何主动移动视角去获取更多证据，而不是被动地从固定视角猜测。第三项SAP-Nav针对开放词汇物体导航问题，也就是让机器人能够理解自由形式的指令，比如通过场景、房间、区域等不同层级的描述去寻找目标，论文提出结合空间语义表示与主动感知的分层方法。此外还有面向无人机视觉语言导航的AirForesight，尝试让无人机对未来的空间地图进行想象式推理，以及一项基于遗传模糊系统的多机器人协同方法，探讨在星球探测任务中如何让多机器人系统协作完成物体搬运并规避障碍。这些研究方向共同指向一个趋势，就是具身智能系统正在从单纯的感知与执行，向更主动、更具规划性的智能行为演进。由于均为预印本，具体实验结果和方法有效性仍有待同行评审检验。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "所有内容均来自arXiv预印本，尚未经过同行评审，实验结果与结论的稳健性有待学术界进一步验证。",
       "fact_status": {
         "confirmed": [
-          "A3报告显示2026年第二季度食品、电子、医疗行业机器人订单增长，汽车行业需求疲软"
+          "这些论文均已作为预印本公开发布在arXiv平台"
         ],
-        "claims": [],
+        "claims": [
+          "各团队分别声称在操作泛化、主动感知抓取、开放词汇导航等方向取得进展"
+        ],
         "analysis": [
-          "工业机器人应用场景正从汽车制造向更多细分行业扩散"
+          "多篇论文共同反映具身智能研究正从被动感知向主动决策和规划方向演进"
         ]
       },
       "source_ids": [
-        "b6990904ddb2e5de"
+        "46c71cd9fbf317cf",
+        "47d1e6c14e857f8e",
+        "06ac83daf3622ace",
+        "0a7502b66e3381bf",
+        "5f13854f7ffb8758"
       ],
       "sources": [
         {
-          "id": "b6990904ddb2e5de",
+          "id": "46c71cd9fbf317cf",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "RoboSynChallenge: Mastering Real-World Dexterity via Generalizing Synthesized Manipulation Skills",
+          "summary": "arXiv:2608.12416v1 Announce Type: new Abstract: Achieving generalizable robotic manipulation remains a central challenge in embodied intelligence. Despite rapid advances in model architectures and learning algorithms, progress is often limited by the scarcity and narrow diversity of real-world data. The RoboSynChallenge competition introduces a unified benchmark to evaluate and advance the generalizability of manipulation policies across a spectrum of tasks, environments, and difficulty levels. To alleviate the shortage of realistic data, the challenge integrates large-scale synthetic data generation with standardized real-world robotic evaluation. Participants are encouraged to leverage synthesized state-action trials to improve general-purpose policy learning, while final assessments are conducted exclusively on unseen real-world manipulation environments. Baseline implementations, including Transformer-, Diffusion-, Vision-Language-Action, and World-Action-Model-based policies, are provided to ensure reproducibility and comparability. By coupling scalable simulation-based training with rigorous real-world validation, RoboSynChallenge aims to foster the development of broadly cap",
+          "url": "https://arxiv.org/abs/2608.12416",
+          "published_at": "2026-08-14T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "47d1e6c14e857f8e",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "FUSE: Active Functional Affordance Grounding through Adaptive Semantic-Geometric Evidence Acquisition",
+          "summary": "arXiv:2608.12683v1 Announce Type: new Abstract: Embodied agents must often identify and interact with objects based on their function rather than their identity, requiring them to actively acquire observations that reveal discriminative functional evidence. Existing affordance grounding methods operate from fixed viewpoints and lack mechanisms for deciding where to look when functional cues are occluded or incomplete. We introduce Active Functional Affordance Grounding, a new task in which an agent sequentially explores a scene to identify and spatially ground an object satisfying a functional query. To address this problem, we propose FUSE, an adaptive semantic-geometric evidence acquisition framework that combines explicit uncertainty-driven exploration with a learned amortized planner to efficiently select informative viewpoints. We further introduce a Habitat-based benchmark for evaluating active functional grounding. Experiments show that FUSE achieves the highest observed non-oracle grounding performance while reducing computation by 1.33x relative to fully explicit exploration, and remains effective across multiple affordance knowledge sources.",
+          "url": "https://arxiv.org/abs/2608.12683",
+          "published_at": "2026-08-14T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "06ac83daf3622ace",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "SAP-Nav: Spatial Semantic Representation Meets Active Perception for Hierarchical Open-Vocabulary Object Navigation",
+          "summary": "arXiv:2608.12707v1 Announce Type: new Abstract: Hierarchical open-vocabulary object navigation (OVON) requires agents to follow free-form instructions that may specify targets through scene-, room-, region-, and instance-level cues in unseen environments. Although recent work LangMap has formalized this setting, reliably solving it under partial observations remains challenging: spatial grounding requires persistent environment-level evidence, whereas target verification requires clear and discriminative candidate views. We present SAP-Nav, a fully online, zero-shot framework that addresses both requirements through active perception. SAP-Nav incrementally constructs a Queryable Spatial-Semantic Representation from actively acquired room views, enabling spatial semantic queries from any explored location. It further employs Active Viewpoint Verification to assess whether the current observation provides sufficient evidence and, when necessary, reposition the agent to a more informative viewpoint before verifying candidates against category and attribute constraints. Although designed for hierarchical OVON, SAP-Nav supports both hierarchical and standard category-level OVON without ",
+          "url": "https://arxiv.org/abs/2608.12707",
+          "published_at": "2026-08-14T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "0a7502b66e3381bf",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "AirForesight: Current-to-Future Spatial Map Imagination with Cross-Space Planning Consistency for UAV-VLN",
+          "summary": "arXiv:2608.12835v1 Announce Type: new Abstract: Unmanned Aerial Vehicle Vision-Language Navigation (UAV-VLN) requires agents to follow language instructions, infer spatial structure from sparse multi-view observations, and execute feasible 3D motion in complex outdoor environments. Despite recent progress with large language models, most existing methods still map vision-language inputs directly to actions, providing limited explicit scene grounding and future-aware spatial reasoning. We propose AirForesight, a current-to-future spatial map imagination framework for UAV-VLN. AirForesight first learns a structured current-map representation from multi-view observations. This representation is jointly supervised by current-map reconstruction and future-trajectory prediction, encouraging it to encode both present scene structure and future motion intent. Under structured causal attention, the current spatial knowledge is propagated to future-map reasoning, and the resulting current and future representations are aggregated to predict the next 3D waypoint. To make spatial imagination more relevant to navigation, we introduce a cross-space planning consistency loss that encourages direc",
+          "url": "https://arxiv.org/abs/2608.12835",
+          "published_at": "2026-08-14T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "5f13854f7ffb8758",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Genetic Fuzzy System-Based Multi-Robot Coordination for Planetary Missions",
+          "summary": "arXiv:2608.12755v1 Announce Type: new Abstract: This paper proposes a decentralized approach for a multi-robot system (MRS) using a genetic fuzzy system to perform a collaborative object transportation task that minimizes the total path length of the MRS in unstructured environment while avoiding obstacles. For an environment given by an elevation map, terrain traversability analysis with respect to the slope is performed to reduce the dimension and identify non-traversable areas that can be considered as obstacles, and the given map is converted into a traversability map in two dimensional space. In the training process, proposed fuzzy inference systems (FISs) to generate the MRS's velocity for transporting an object to a target position are optimized by a genetic algorithm with several scenarios, such as a local minima, a target that is close to an obstacle, and a cluttered environment. The trained FIS models are applied to the testing environment, which is the converted traversability map, and validated using multiple scenarios.",
+          "url": "https://arxiv.org/abs/2608.12755",
+          "published_at": "2026-08-14T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "旧金山试点按小时租用人形机器人做家务，每小时约30美元",
+      "english_term": "humanoid robot（人形机器人）",
+      "summary": "旧金山出现按小时计费的人形机器人家政租赁服务，价格约为每小时30美元，引发关于实际可用性的讨论。",
+      "script": "来看一条来自消费端的人形机器人应用新闻。据《The Economic Times》报道，旧金山出现了一项新服务，用户可以按小时租用人形机器人来完成家庭清洁工作，价格大约是每小时30美元。这类服务通常依赖远程操作或半自主控制模式，也就是机器人的部分动作由后台的人类操作员实时协助完成，而不是完全依靠机器人自主决策，这也是当前人形机器人在真实家庭环境中落地的一种常见过渡方案，因为家庭场景高度非结构化，光线、物品摆放、地面材质都难以预测，纯自主系统的可靠性目前还难以满足日常使用需求。从产业角度看，这种按次或按小时付费的商业模式类似网约车或共享经济，其意义在于让人形机器人可以在尚未完全成熟的阶段就开始进入真实消费市场进行小范围测试，运营方可以借此收集大量真实家庭场景的数据，反哺后续的自主化算法迭代，同时也能验证消费者对价格、服务体验的接受程度。报道中也提到了业界对此类服务实际效果的一些质疑和调侃，说明目前这类家用人形机器人在清洁效率、操作精细度等方面与专业家政服务相比仍有差距。目前信息主要来自媒体报道，具体运营公司名称、服务规模、机器人型号背后的技术方案细节报道中并未充分展开。后续需要观察这类按小时付费模式能否规模化推广，以及用户真实反馈和复购率如何。",
+      "duration_seconds": 135,
+      "is_unverified": true,
+      "confidence_note": "报道来自单一财经类媒体转载，具体运营主体、技术方案细节有限，标记为未完全核实。",
+      "fact_status": {
+        "confirmed": [
+          "旧金山出现了按小时计费的人形机器人家政租赁服务"
+        ],
+        "claims": [
+          "该服务定价约为每小时30美元"
+        ],
+        "analysis": [
+          "按次付费模式可能是人形机器人在家庭场景落地初期的过渡性商业尝试"
+        ]
+      },
+      "source_ids": [
+        "2dfda534d17b4e74"
+      ],
+      "sources": [
+        {
+          "id": "2dfda534d17b4e74",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Chelsea, Elon and Tony: San Francisco lets you hire humanoid robot to clean your home for $30 an hour but - The Economic Times",
+          "summary": "Chelsea, Elon and Tony: San Francisco lets you hire humanoid robot to clean your home for $30 an hour but The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQV1ZFY1pyOEJyYkctYXRyWHNMb3I2SW9YejEzY0JfTjItMnI2VXN2VXM5MGNhTXdXWWEtVnlYMXB3a2NzRDFsam9tRUVXZjR3MEU3MlUyTXVZQnFqWktNb3pZR1JVNndCQ2FfVTBETjI1TmRlNWJXTjE1MHludzVMcld6STRsMkwtTmRVMjdveWRXVXlsbHR1cWp6Z2tzamNta0xCR2p1MGd6WTVNVk5iMUVDYVQtSFFIeE5xZFNFQ250N0lvUEEwX05BYzlYVW9sUEpDd19ZVVFmV0t6MGNUS0Vha01BcWJvemQzUXlsazRzOE5pYjdVNTQ5QVItdnpORlVTNU1qVmZKWG5mLWo5YVRMT3RkSm9WVnRnU2k0U3IxTlBSdnFscjRYVlXSAbICQVVfeXFMT001bEFrallmQnpxb1d0LVcxZnZTZ0Z3a1JGZFB3c2d1cFpwa08tUlVmZHBvS3J4QVFfLVJNdWt6eGhvejlQWGw2STBhVXRUMm1LRUIyZV9kZ2JGb0p4VmNJeXBySktnQzIyZXJRRS10MzBFZTZWeGl5SjhRSE9aQjRuNEJLeDBuczNuM3k4ajc0UDdndXdLMWJQQzd4TVQ5WUpkQ3A5bzVnU3RZWFFBN1JsM3hpZTZaRnFQeS1XOUFrQ3d0ejBrSUk0YjdWQWRqU3d0ODFvdjBKcWNCWG5GekI3bTQtVEN1X3lmMmdSeTh5czBIVE9ZbzItaWIxYjZ3SnJpNEhPTVpkY3lfOU4zcWstWm9NZEdiTWZQSGp3cWZWMWQtaHM3dVpkS1ZpWGtzeXN3?oc=5",
+          "published_at": "2026-08-14T11:27:17+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "RoboBusiness峰会将聚焦人形机器人产业现状，多家头部企业参与",
+      "english_term": null,
+      "summary": "RoboBusiness峰会计划举办人形机器人专题讨论，Agility、Apptronik等企业专家将出席分享行业观察。",
+      "script": "机器人产业界的一场重要会议动态。据《The Robot Report》消息，即将举行的RoboBusiness峰会将设置专门的人形机器人讨论环节，受邀嘉宾包括Agility Robotics、Apptronik、Persona AI以及PSYONIC等公司的专家。这几家企业在人形机器人和智能假肢领域各有侧重，Agility和Apptronik是目前全球范围内推进双足人形机器人商业化较为积极的厂商，此前已有面向物流仓储场景的落地案例；PSYONIC则专注于智能假肢与仿生手方向的研发。行业峰会设置这样的专题讨论，某种程度上反映出人形机器人赛道已经从早期的概念验证阶段，进入到产业界需要集中讨论量产路径、商业模式和实际部署经验的阶段。与此相印证的是，《The Robot Report》同期还发布了一份关于移动操作机器人与人形机器人现状的免费报告，其中包含对现有厂商的梳理和行业专家访谈，说明市场对系统性了解人形机器人竞争格局的需求正在上升。不过目前这些信息仍停留在会议预告和报告发布层面，具体讨论内容、企业最新量产数据和技术细节要等到会议实际召开后才会披露。后续需要关注峰会上各家企业是否会公布新的量产时间表或订单数据，也需要观察行业报告中呈现的市场格局是否会引发进一步讨论。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "会议预告及行业报告均来自专业机器人产业媒体的官方报道，属于既定行程与已发布报告的事实性描述。",
+      "fact_status": {
+        "confirmed": [
+          "RoboBusiness峰会计划设置人形机器人专题讨论环节",
+          "《The Robot Report》发布了一份关于移动操作机器人和人形机器人现状的报告"
+        ],
+        "claims": [],
+        "analysis": [
+          "行业峰会集中讨论人形机器人商业化路径，反映该赛道正从概念验证转向规模化部署阶段"
+        ]
+      },
+      "source_ids": [
+        "e3f123223035d0be",
+        "3ff237f5d03bb256"
+      ],
+      "sources": [
+        {
+          "id": "e3f123223035d0be",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Q2 2026 robotics demand increased across industries, reports A3",
-          "summary": "A3 said that Q2 2026 robotics orders in food, electronics, and healthcare helped offset soft demand from automotive manufacturing. The post Q2 2026 robotics demand increased across industries, reports A3 appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
-          "published_at": "2026-08-12T14:18:56+00:00",
+          "title": "Experts to discuss the state of humanoid robots at RoboBusiness",
+          "summary": "The RoboBusiness panel will include insights on humanoid robots from Agility, Apptronik, Persona AI, and PSYONIC experts. The post Experts to discuss the state of humanoid robots at RoboBusiness appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/",
+          "published_at": "2026-08-13T12:30:25+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "机器人超声成像新方法：让探头像医生一样灵活转向",
-      "english_term": "Robotic Ultrasound Imaging（机器人超声成像，通过机器人自动控制探头姿态完成超声检查）",
-      "summary": "一篇新论文提出了一种基于实时表面建模的探头姿态控制方法，让机器人超声系统能够实现全方向追踪，而不仅仅局限于探头垂直贴合体表的传统模式。",
-      "script": "接下来是一篇来自arXiv机器人板块的学术论文，主题是机器人超声成像的探头姿态控制。超声检查是一种实时、无辐射的成像手段，但图像质量高度依赖探头相对于人体表面的角度。目前大多数机器人超声系统只能维持探头与体表垂直的法线定位模式，但像心脏超声这类检查，往往需要探头以特定角度倾斜才能获得诊断所需的切面，垂直贴合的传统模式并不适用。这篇论文提出了一种新方法，从单纯的法线定位扩展到全方向追踪，核心是构建实时的体表表面模型，并据此动态计算探头的倾斜角度控制策略。简单来说，系统会持续感知探头下方皮肤表面的几何形状，实时更新一个局部曲面模型，再通过这个模型反推出探头应该倾斜的方向和角度，从而让机器人主动跟踪目标切面，而不是被动地保持垂直姿态。这种方法如果能够稳定工作，将拓展机器人超声系统的适用范围，尤其是在心脏超声这类对切面角度高度敏感的检查场景中，有望减轻超声医师的操作负担并提高检查一致性。论文目前是预印本形式发布在arXiv平台，尚未经过同行评审，具体的实验验证范围、临床数据量和系统鲁棒性都需要进一步披露。后续需要等待该论文完成同行评审，并关注是否有实际人体测试数据支持这一方法的可靠性。",
-      "duration_seconds": 125,
-      "is_unverified": true,
-      "confidence_note": "论文为arXiv预印本，尚未经过同行评审，实验细节和验证规模有限，需谨慎看待其临床适用性结论。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了一种基于实时表面建模的机器人超声探头姿态控制新方法"
-        ],
-        "claims": [
-          "该方法可以实现从法线定位到全方向追踪的能力扩展"
-        ],
-        "analysis": [
-          "机器人超声成像技术的进步有助于扩大其在复杂检查场景中的应用范围"
-        ]
-      },
-      "source_ids": [
-        "e7c13038e809f047"
-      ],
-      "sources": [
+        },
         {
-          "id": "e7c13038e809f047",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
+          "id": "3ff237f5d03bb256",
+          "source": "The Robot Report",
+          "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "From Self-Normal-Positioning to Omni-Directional Tracking: Real-Time Surface Modeling Enabled Probe Tilt Control for Robotic Ultrasound Imaging",
-          "summary": "arXiv:2608.11409v1 Announce Type: new Abstract: Ultrasound (US) provides real-time, radiation-free imaging, but the image quality depends strongly on how the probe is oriented against the patient body. Robotic US can reduce operator workload and improve acquisition consistency; however, most existing systems focus on normal positioning, where the probe is maintained perpendicular to the local surface. This constraint is inadequate for examinations like echocardiography, where obtaining a diagnostic view requires a non-normal probe angle. Consequently, a clinically useful robotic system must sense the local surface in real-time and preserve the desired probe orientation. Here, we propose an omni-directional probe-orientation control framework that integrates RGB-D perception, local-surface modeling, and task-space orientation control. The surface model fuses multi-view point clouds and provides a quadratic estimate of the local surface. A desired imaging direction is then encoded relative to the normal, enabling the probe to track arbitrary angles. The framework was evaluated through flat-surface tracking, phantom target-angle recovery, and in-vivo tracking of an expert selected vie",
-          "url": "https://arxiv.org/abs/2608.11409",
-          "published_at": "2026-08-13T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "机器人策略最小数据自适应：让预训练机器人快速学会新任务",
-      "english_term": "Generalist Robot Policies（通用机器人策略，指经过大规模数据预训练、可执行多种任务的机器人控制模型）",
-      "summary": "一篇新论文研究如何让预训练好的通用机器人策略，仅用极少量数据就能适应全新任务，以缓解稀疏奖励和自主探索困难的问题。",
-      "script": "再看一篇涉及机器人学习方法的论文，主题是通用机器人策略的最小数据自适应。当前机器人学习领域的一个核心目标，是让机器人摆脱对任务专属人类演示数据的依赖，转而通过自主交互不断改进自身能力。但现实中完全自主的学习非常困难，原因在于稀疏奖励，也就是机器人只有在任务成功完成时才能获得反馈信号，而在探索阶段缺乏有效引导，导致机器人很难从零开始摸索出成功的行为模式。这篇论文研究的是一种折中方案，叫做最小数据自适应，指的是让一个已经经过大规模预训练的通用机器人策略，仅依靠极少量的新任务数据，就能完成对新任务的适应学习，而不需要重新收集大批量的任务专属数据。这种思路背后的逻辑是，预训练策略已经具备了一定的通用操作能力和环境理解能力，面对新任务时不需要从零学习，只需要在已有能力基础上做微调式的适应。这类方法如果得到验证，将大幅降低机器人部署到新场景、新任务时所需的数据采集成本，对于机器人产业的规模化落地具有重要意义，因为目前机器人进入新场景往往需要针对性地采集大量演示数据，成本和时间投入都不小。论文目前为arXiv新发布的预印本，具体的算法细节、任务测试范围和成功率对比数据需要查阅论文全文，同行评审结果尚未可知。后续需要关注该方法在更多真实机器人平台上的验证效果。",
-      "duration_seconds": 135,
-      "is_unverified": true,
-      "confidence_note": "论文为arXiv预印本，尚未经过同行评审，具体实验结果和方法细节需要查阅原文进一步确认。",
-      "fact_status": {
-        "confirmed": [
-          "论文研究了通用机器人策略的最小数据自适应问题"
-        ],
-        "claims": [
-          "该方法可以让预训练策略用极少数据适应新任务"
-        ],
-        "analysis": [
-          "降低任务适应所需数据量对机器人规模化部署具有重要意义"
-        ]
-      },
-      "source_ids": [
-        "6b8484a24c4fe491"
-      ],
-      "sources": [
-        {
-          "id": "6b8484a24c4fe491",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Adaptation of Generalist Robot Policies with Minimal Data",
-          "summary": "arXiv:2608.11363v1 Announce Type: new Abstract: A central goal in robot learning is to move beyond task-specific human data collection toward robots that improve through autonomous interaction. Yet fully autonomous learning remains difficult with current policies: sparse rewards and weak zero-shot exploration make it unlikely that a robot will discover successful behavior from scratch. We study minimal-data adaptation, a regime in which a pre-trained robot policy must learn a new task from as little as one demonstration followed by autonomous online interaction. This setting serves as the closest tractable proxy for fully autonomous improvement, allowing us to study whether minimal human guidance can bootstrap autonomous learning and what algorithmic ingredients make it feasible. We build MiDAS, a simple offline-to-online RL recipe that first anchors a pre-trained VLA to the target task with behavior cloning on single/few demonstrations, then improves it through value-based online RL on a residual policy parameterization. Across LIBERO and RoboCasa, MiDAS recovers strong task performance from as little as one demonstration, substantially outperforming baselines and generalizing bey",
-          "url": "https://arxiv.org/abs/2608.11363",
-          "published_at": "2026-08-13T04:00:00+00:00",
+          "title": "Mobile manipulators and humanoids: The future of robotics",
+          "summary": "A free download looks at the state of humanoids, including a rundown of current robotics developers and interviews with industry experts. The post Mobile manipulators and humanoids: The future of robotics appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/mobile-manipulators-and-humanoids/",
+          "published_at": "2026-08-13T15:06:47+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -244,39 +285,53 @@
     },
     {
       "category": "world",
-      "title": "英国扣押俄罗斯影子船队油轮引发紧张",
-      "english_term": "Shadow Fleet（影子船队，指规避国际制裁、通常隐藏所有权信息运输俄罗斯石油的船只）",
-      "summary": "英国政府为执行对俄罗斯石油出口的制裁措施扣押了一艘影子船队油轮，此前俄罗斯总统普京曾就此发出警告，英国方面为此举进行了辩护。",
-      "script": "国际局势方面，英国与俄罗斯之间围绕石油制裁执法出现新的摩擦。英国政府已经确认扣押了一艘被认定为俄罗斯影子船队的油轮。所谓影子船队，指的是一批规避西方对俄石油出口制裁、通常通过隐藏实际所有权、频繁更换船旗和保险信息等方式运营的老旧油轮，这些船只被广泛认为是俄罗斯绕开价格上限和出口限制、继续向国际市场出售石油的重要工具。据报道，俄罗斯总统普京此前已经就类似行动发出警告，英国政府则对外表态称，扣押行动是依据法律规定执行的，目的是扰乱和阻遏影子船队船只的活动。目前可以确认的事实是英国政府扣押了这艘油轮，并公开为这一行动进行了法律层面的辩护；而俄方此前发出的警告内容、以及双方后续可能采取的对应措施，则属于各方主张范畴，需要观察后续官方声明。从地缘政治角度分析，石油制裁执法本身处于国际法与国家主权的灰色地带，英国等西方国家近年不断加大对影子船队的执法力度，试图通过扣船、限制保险等手段收紧俄罗斯的石油出口收入渠道，而俄罗斯方面则一直将这类行动视为对其正常贸易活动的干扰。这类事件容易成为俄英关系进一步紧张的触发点。后续需要关注俄罗斯是否会采取实质性反制措施，以及英国等西方国家是否会扩大对影子船队船只的扣押行动范围。",
-      "duration_seconds": 130,
+      "title": "赞比亚总统选举计票因暴力事件被叫停",
+      "english_term": null,
+      "summary": "赞比亚选举委员会因针对计票工作人员的暴力事件及选票被窃暂停总统选举计票，承诺24小时内重新评估。",
+      "script": "转向国际政治新闻。据BBC和德国之声报道，赞比亚选举委员会宣布暂停总统选举的计票和结果公布工作，原因是发生了针对计票工作人员的暴力袭击事件，并伴随选票被盗的报告。选举委员会在声明中表示，暴力事件导致部分已标记选票被窃取，出于确保计票公正性和工作人员安全的考虑，决定暂停相关流程，并承诺将在24小时内对暂停决定进行重新评估。目前已确认的事实是选举委员会官方宣布了暂停决定，且明确提到暴力袭击和选票被窃是暂停的直接原因。至于具体是谁发起了针对计票站的袭击、背后是否有组织策划、涉及范围有多大，两家媒体的报道中都未给出明确结论，这部分仍属于有待调查的信息。选举计票遭遇暴力干扰，往往会引发外界对选举公正性和后续结果认受度的担忧，尤其是在选情胶着或高度敏感的选举中，任何计票中断都可能被不同政治阵营用作对结果合法性提出质疑的理由。目前尚不清楚此次总统选举的具体候选人、选情态势以及暴力事件发生的具体地点范围。后续需要关注选举委员会24小时内的重新评估结果，以及国际社会和赞比亚国内各政党对此事件的反应。",
+      "duration_seconds": 115,
       "is_unverified": false,
-      "confidence_note": "来源为BBC World的直接报道，属于二级权威媒体来源，英方官方表态部分为一手信息，俄方警告内容为转述，需以官方声明为准。",
+      "confidence_note": "BBC与德国之声两家独立Tier 2媒体均引用选举委员会官方声明进行报道，暂停决定本身可信度较高，但暴力事件具体细节尚待调查。",
       "fact_status": {
         "confirmed": [
-          "英国政府扣押了一艘被认定为俄罗斯影子船队的油轮，并公开为该行动进行法律辩护"
+          "赞比亚选举委员会宣布暂停总统选举计票和结果公布",
+          "选举委员会称暴力事件导致部分已标记选票被窃取"
         ],
-        "claims": [
-          "俄罗斯总统普京此前就此发出过警告"
-        ],
+        "claims": [],
         "analysis": [
-          "石油制裁执法可能进一步加剧英俄之间的外交紧张"
+          "计票中断可能引发外界对选举公正性和后续结果认受度的担忧"
         ]
       },
       "source_ids": [
-        "55f07c44bcb9929f"
+        "eeedfae83fd1ca3b",
+        "b2344e0f548500e0"
       ],
       "sources": [
         {
-          "id": "55f07c44bcb9929f",
+          "id": "eeedfae83fd1ca3b",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "UK defends seizing shadow fleet tanker after Putin threat",
-          "summary": "The UK government says it is \"disrupting and deterring shadow fleet vessels\" in accordance with the law.",
-          "url": "https://www.bbc.co.uk/news/articles/cn0npn249qvo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-13T11:05:03+00:00",
+          "title": "Presidential vote counting halted in Zambia over alleged attacks on polling staff",
+          "summary": "The electoral commission said violence had \"resulted in the theft of marked ballot papers\".",
+          "url": "https://www.bbc.co.uk/news/articles/c5yr8r04edvo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-14T11:37:31+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "b2344e0f548500e0",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Zambia suspends vote count after violence",
+          "summary": "Zambia has halted the counting and publication of election results after violence targeting poll workers and reports of stolen ballots. The electoral commission says it will reassess the suspension within 24 hours.",
+          "url": "https://www.dw.com/en/zambia-suspends-vote-count-after-violence/a-78368601?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-14T10:56:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -284,39 +339,124 @@
     },
     {
       "category": "world",
-      "title": "乌克兰指控朝鲜或向俄罗斯增派数万士兵",
+      "title": "美国对伊朗实施“无限期”海上封锁，各方说法分歧",
       "english_term": null,
-      "summary": "乌克兰方面声称朝鲜正准备向俄罗斯增派数万名士兵以获取实战经验，乌克兰总统泽连斯基呼吁韩国加强与基辅的合作。",
-      "script": "俄乌战争相关的最新动态是，乌克兰方面提出指控，称朝鲜正在准备向俄罗斯增派数万名士兵，让他们在俄乌战场上获取实战经验。乌克兰总统泽连斯基已经就此呼吁韩国政府加强与基辅方面的合作。需要明确区分的是，目前可以确认的事实是乌克兰官方提出了这一指控，并且泽连斯基公开发表了呼吁韩国合作的言论；而朝鲜是否真的准备大规模增兵、具体规模是否达到数万人，目前仍属于乌克兰一方的主张，尚未见到独立第三方或朝俄双方官方的证实与确认。从背景来看，此前已有报道称朝鲜曾向俄罗斯派遣少量部队参与俄乌战事相关的军事协作，如果这次乌克兰所说的大规模增兵指控属实，将意味着朝俄军事合作的规模和性质出现明显升级，俄罗斯可能借此弥补自身在战场上的人力消耗，而朝鲜则可能借此换取俄罗斯在技术、经济或外交层面的回馈。分析人士普遍认为，如果朝鲜士兵大规模参战的说法得到证实，将对地区安全格局产生连锁影响，尤其是让韩国及其盟友重新评估半岛安全形势与对俄乌局势的介入程度。目前这一指控还缺乏独立信源交叉确认，后续需要关注朝鲜、俄罗斯官方是否作出回应，以及是否有其他独立情报或媒体来源提供进一步证据。",
-      "duration_seconds": 120,
-      "is_unverified": true,
-      "confidence_note": "该消息主要基于乌克兰官方单方面指控，缺乏朝俄双方或独立第三方信源的交叉确认，具体增兵规模和时间表存在不确定性。",
+      "summary": "美国国防部长表示美国海军可维持对伊朗的无限期封锁，但同时有报道指出长期部署舰艇存在保障条件不佳的问题。",
+      "script": "中东局势方面，据半岛电视台报道，美国国防部长皮特·海格塞斯表示，美国海军有能力维持对伊朗的“无限期”封锁行动。与此同时，另有报道指出，长期在外部署的美军航母存在后勤保障和人员条件不佳的问题，美国国防部已派遣新的航母乔治·华盛顿号驶向中东，以接替长期部署的亚伯拉罕·林肯号。已确认的事实是，美国官方确实做出了可维持无限期封锁的表态，同时另一艘航母确实已经启程前往中东海域。而关于封锁能否真正长期持续，各方存在明显分歧：美方官员强调海军后勤能力足以支撑长期行动，但相关报道也提到关于林肯号上士兵心理健康和物资供应存在问题的说法，这意味着长期高强度部署本身可能给美军人员和装备带来压力。半岛电视台在报道标题中直接提出了“这种封锁能维持多久”的疑问，反映出媒体和分析人士对官方说法的持续追问。从地区局势角度看，海上封锁行动通常会对伊朗的能源出口和海上贸易造成直接影响，同时也可能加剧地区紧张局势，引发伊朗方面或其他相关方的反制措施。目前尚不清楚封锁的具体法律依据、实施范围以及国际社会尤其是联合国层面对此的反应。后续需要关注美军舰艇轮换部署的具体进展，以及伊朗官方对封锁行动的正式回应。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "美国国防部长表态与航母调动均有独立信源支持，但封锁能否长期维持及其影响属于各方主张与分析范畴，尚无定论。",
       "fact_status": {
         "confirmed": [
-          "乌克兰官方提出朝鲜可能大规模增兵俄罗斯的指控，泽连斯基公开呼吁韩国加强合作"
+          "美国国防部长表示美国海军可维持对伊朗的无限期封锁",
+          "新航母乔治·华盛顿号已启程前往中东以接替林肯号"
         ],
         "claims": [
-          "朝鲜正准备向俄罗斯增派数万名士兵"
+          "有报道称林肯号上存在人员心理健康和物资供应问题"
         ],
         "analysis": [
-          "若指控属实，将标志朝俄军事合作规模显著升级，可能影响地区安全格局"
+          "长期海上封锁可能加剧地区紧张局势，其实际可持续性仍受到质疑"
         ]
       },
       "source_ids": [
-        "baf8544861442043"
+        "b554dc78e9137a5f",
+        "a3054a044c69b707",
+        "8d410b83ff2a10a7"
       ],
       "sources": [
         {
-          "id": "baf8544861442043",
-          "source": "DW Top Stories",
+          "id": "b554dc78e9137a5f",
+          "source": "Al Jazeera",
           "source_tier": 2,
-          "source_region": "eu",
+          "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "What would a North Korean surge mean for Ukraine war?",
-          "summary": "Ukraine is claiming that North Korea is preparing to send tens of thousands more troops to Russia, where they'll gain valuable battlefield experience. President Zelenskyy has urged South Korea to work closer with Kyiv.",
-          "url": "https://www.dw.com/en/what-would-a-north-korean-surge-mean-for-ukraine-war/a-78350896?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-13T10:54:00+00:00",
+          "title": "US threatens ‘indefinite’ blockade against Iran: How long can it last?",
+          "summary": "US Secretary of Defense Pete Hegseth claims US Navy can sustain blockade despite reports of poor conditions.",
+          "url": "https://www.aljazeera.com/news/2026/8/14/us-threatens-indefinite-blockade-against-iran-how-long-can-it-last?traffic_source=rss",
+          "published_at": "2026-08-14T11:06:59+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "a3054a044c69b707",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "New aircraft carrier heads toward Mideast after reports of issues on long-deployed USS Lincoln",
+          "summary": "The Pacific-based aircraft carrier USS George Washington has begun heading toward the Middle East as reports have emerged of mental health and supply issues aboard the long-deployed USS Abraham Lincoln.",
+          "url": "https://www.npr.org/2026/08/14/nx-s1-5931183/new-aircraft-carrier-heads-toward-mideast-after-reports-of-issues-on-long-deployed-uss-lincoln",
+          "published_at": "2026-08-14T06:31:29+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "8d410b83ff2a10a7",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Feds probe 'mention markets.' And, lawmakers call for investigation into USS Lincoln",
+          "summary": "Federal regulators are reviewing 'mention markets' that allow wagers on what public figures will say. And, Democratic lawmakers call for an investigation into conditions on the long-deployed USS Lincoln.",
+          "url": "https://www.npr.org/2026/08/14/g-s1-138735/up-first-newsletter-mention-markets-kalshi-pentagon-uss-lincoln-ukraine-russia-crimea-kennedy-center",
+          "published_at": "2026-08-14T11:02:42+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "日本遭遇“史无前例”强降雨，已致8人死亡",
+      "english_term": null,
+      "summary": "日本近日遭遇强降雨天气，已造成至少8人死亡，超过2万户家庭断电，7000人滞留成田机场。",
+      "script": "天气与灾害方面，据BBC和NPR报道，日本近期遭遇了被形容为“史无前例”的强降雨天气，目前已造成至少8人死亡。强降雨导致超过2万户家庭断电，道路被淹，交通严重受阻，成田机场一度有约7000名旅客滞留。与此同时，NPR的报道将这场降雨与全球范围内近期频发的极端天气事件联系在一起，包括欧洲今年夏天已经出现的第五次热浪，英国、法国和克罗地亚的消防部门都在努力扑灭因高温引发的野火。已确认的事实是日本本轮强降雨已造成人员死亡和大范围基础设施中断，具体伤亡数字和影响范围以官方通报为准。这类极端降雨事件的发生，通常与大气中水汽含量增加、局地对流系统增强等因素有关，但具体到本次降雨事件与气候变化之间的直接归因关系，报道中并未给出专门的科学分析，因此这里不做过度推断。从影响层面看，机场大规模滞留和大范围断电会对短期内的交通出行和居民生活造成明显冲击，也对城市基础设施的极端天气应对能力提出考验。后续需要关注日本气象部门是否会更新降雨预警等级，以及后续救援和电力恢复的进展情况。",
+      "duration_seconds": 110,
+      "is_unverified": false,
+      "confidence_note": "BBC与NPR两家独立媒体均报道了此次强降雨造成的死亡人数和基础设施影响，事实层面可信度较高。",
+      "fact_status": {
+        "confirmed": [
+          "日本强降雨已造成至少8人死亡",
+          "超过2万户家庭断电，约7000人滞留成田机场"
+        ],
+        "claims": [],
+        "analysis": [
+          "极端降雨事件与近期全球多地出现的极端天气现象在时间上存在重合，但具体归因需谨慎对待"
+        ]
+      },
+      "source_ids": [
+        "4c649cefc337f5ee",
+        "dd97d5a030eedbeb"
+      ],
+      "sources": [
+        {
+          "id": "4c649cefc337f5ee",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "'Unprecedented' rain in Japan kills eight people",
+          "summary": "The storm cut power to more than 20,000 households and left 7,000 people stranded at Tokyo's Narita airport.",
+          "url": "https://www.bbc.co.uk/news/articles/cq561gpen8lo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-14T10:36:14+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "dd97d5a030eedbeb",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "From Europe to Asia, floods to heatwaves, world experiences weather shocks",
+          "summary": "At least eight people died in Japan as heavy rains flooded roads and disrupted traffic while firefighters from Britain to France and Croatia struggled to contain blazes in Europe's fifth heatwave this summer",
+          "url": "https://www.npr.org/2026/08/14/g-s1-138727/europe-asia-floods-heatwaves-world-weather",
+          "published_at": "2026-08-14T10:30:17+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -324,183 +464,80 @@
     },
     {
       "category": "science",
-      "title": "百年一遇日全食掠过西班牙，数百万人涌上街头观测",
-      "english_term": "Total Solar Eclipse（日全食，月球运行至地球与太阳之间，完全遮蔽太阳表面的天文现象）",
-      "summary": "一次罕见的日全食路径掠过格陵兰、冰岛及西班牙部分地区，这是西班牙一个多世纪以来首次经历日全食，数百万人在多地聚集观测。",
-      "script": "昨天发生的一次天文奇观，成为全球关注的焦点。一次日全食的全食带掠过了格陵兰、冰岛、俄罗斯北部一小部分区域、大西洋以及西班牙部分地区，这是西班牙一个多世纪以来首次经历完整的日全食。日全食是指月球运行到地球和太阳之间，恰好完全遮挡住太阳表面的天文现象，只有位于月影投射到地球表面形成的全食带内的观测者，才能看到太阳被完全遮蔽、天空瞬间转暗的壮观景象。据报道，随着天色逐渐变暗，人群自发地报以掌声和欢呼，数百万人涌上西班牙多个城市的街头观看这一现象。美国国家航空航天局NASA也在其每日一图栏目中收录了这次日全食在西班牙拍摄到的画面，作为当天的天文影像记录。日全食虽然是一种可以被精确预测的天文现象，但由于全食带覆盖范围通常很窄，且需要天气晴朗才能观测到，因此每一次日全食经过人口密集地区，都会引发大规模的公众观测热潮和媒体关注。对天文学界而言，日全食期间由于月球完全遮挡太阳主体光球层，是观测太阳日冕等平时被强烈阳光淹没的太阳大气结构的宝贵窗口，历史上不少太阳物理研究成果都得益于日全食期间的观测数据。这次日全食再次让公众近距离感受到天体运行的精确性与壮观程度。",
-      "duration_seconds": 125,
+      "title": "格陵兰岛与西班牙先后迎来日全食天文奇观",
+      "english_term": "total solar eclipse（日全食，指月球完全遮挡太阳的天文现象）",
+      "summary": "2026年8月的日全食先后过境格陵兰岛和西班牙，NASA发布了多组相关天文图片。",
+      "script": "科学新闻方面，据NASA“每日一图”栏目发布的内容，2026年8月的这次日全食天象先后经过了格陵兰岛和西班牙上空，NASA分享了多张记录这一天文奇观的图片，其中一张拍摄于西班牙，画面前景是一株向日葵，背景则是月球完全遮挡太阳形成的日全食景象。日全食的成因是月球运行到地球和太阳之间，三者恰好处于一条直线上，月球的本影恰好落在地球表面某一狭长区域，使得该区域内的观测者能够看到太阳被完全遮挡、只剩外层日冕可见的壮观景象。由于月球本影扫过地球表面的路径相对狭窄且移动迅速，每一次日全食的可见区域都非常有限，这也是为什么此次日全食会依次经过格陵兰岛和西班牙这样特定路径上的地区。这类天文事件除了具有观赏价值外，也常常是天文学家研究太阳日冕结构、进行掩星观测的重要窗口，因为平时耀眼的太阳光会掩盖住日冕的暗弱光芒，只有在日全食期间才能用肉眼或普通设备清晰观测到。目前公开的信息主要以图片形式呈现，NASA“每日一图”栏目并未在这些内容中提供关于此次日全食的科学观测数据或研究成果。后续可以关注是否有天文机构基于此次日全食发布专门的日冕观测研究结果。",
+      "duration_seconds": 120,
       "is_unverified": false,
-      "confidence_note": "多家权威媒体及NASA均对此次日全食进行了报道和影像记录，来源交叉确认充分。",
+      "confidence_note": "内容来自NASA官方“每日一图”栏目，属于Tier 1一手信源，但仅为图片展示，未附带具体科研数据。",
       "fact_status": {
         "confirmed": [
-          "日全食全食带掠过格陵兰、冰岛、俄罗斯北部一角及西班牙部分地区，西班牙一个多世纪以来首次经历日全食"
+          "2026年8月发生的日全食先后经过格陵兰岛和西班牙上空",
+          "NASA发布了相关天文图片"
         ],
         "claims": [],
         "analysis": [
-          "日全食观测热潮体现了公众对天文现象的持续关注"
+          "日全食期间是观测太阳日冕结构的重要窗口，但本次报道未附带专门科研成果"
         ]
       },
       "source_ids": [
-        "8e60b468ed8b0477",
-        "8837fb661be6ccbd",
-        "2c94c6f63a6639d2"
+        "540af85188ab088f",
+        "4868e025e8d0e1a1"
       ],
       "sources": [
         {
-          "id": "8e60b468ed8b0477",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Millions crowd cities to see Spain's first total solar eclipse in over a century",
-          "summary": "As the sky darkened, gradually at first and then quickly, people broke into applause and cheered. It was the Spain's first total solar eclipse in more than a century.",
-          "url": "https://www.npr.org/2026/08/13/g-s1-138556/spain-solar-eclipse",
-          "published_at": "2026-08-13T06:04:38+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "8837fb661be6ccbd",
+          "id": "540af85188ab088f",
           "source": "NASA",
           "source_tier": 1,
           "source_region": "us",
           "language": "en",
           "category_hint": "science",
-          "title": "APOD: 2026 August 13 – Total Solar Eclipse Over Spain",
-          "summary": "APOD Science APOD APOD: 2026 August 13 – Total… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Total Solar […]",
-          "url": "https://science.nasa.gov/image-article/apod-2026-august-13-total-solar-eclipse-over-spain/",
-          "published_at": "2026-08-13T04:05:00+00:00",
+          "title": "APOD: 2026 August 14 – Total Solar Eclipse from Greenland",
+          "summary": "APOD Science APOD APOD: 2026 August 14 – Total… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Total Solar […]",
+          "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-14-total-solar-eclipse-from-greenland/",
+          "published_at": "2026-08-14T04:05:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "2c94c6f63a6639d2",
+          "id": "4868e025e8d0e1a1",
           "source": "NASA",
           "source_tier": 1,
           "source_region": "us",
           "language": "en",
           "category_hint": "science",
-          "title": "2026 Total Solar Eclipse in Spain",
-          "summary": "A total solar eclipse is seen from San Millán de los Caballeros, Spain, Wednesday, Aug. 12, 2026. A total solar eclipse – the Moon passing between the Sun and Earth, completely blocking the face of the Sun – swept across parts of Greenland, Iceland, northern Russia, the Atlantic Ocean, Spain, and a small corner of […]",
-          "url": "https://www.nasa.gov/image-article/2026-total-solar-eclipse-in-spain/",
-          "published_at": "2026-08-12T20:08:28+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "sports",
-      "title": "NBA名将拉塞尔·威斯布鲁克宣布退役",
-      "english_term": null,
-      "summary": "前NBA最有价值球员拉塞尔·威斯布鲁克在效力联盟18个赛季后宣布退役，他保持着NBA历史上生涯三双次数最多的纪录。",
-      "script": "体育方面的一则消息，前NBA最有价值球员拉塞尔·威斯布鲁克宣布退役，结束了他长达18个赛季的职业生涯。威斯布鲁克是NBA历史上以精力充沛、身体对抗能力突出著称的后卫之一，他保持着联盟历史上生涯三双次数最多的纪录，三双指的是球员在得分、篮板、助攻这三项数据统计中都达到两位数的表现，通常被视为衡量球员全面性的重要指标。威斯布鲁克职业生涯历经多支球队，曾经获得联盟最有价值球员荣誉，并多次入选全明星阵容，他标志性的打法风格和职业生涯的持久度，使他在球迷群体中拥有很高的关注度和讨论热度。他的退役也意味着上一个时代那种以高强度身体对抗和场均三双为特色的后卫打法，逐渐让位于更强调空间投射和位置模糊化的现代篮球风格。这条消息目前主要基于威斯布鲁克本人及相关方面的公开宣布，属于确认性事实。",
-      "duration_seconds": 85,
-      "is_unverified": false,
-      "confidence_note": "来源为Al Jazeera的直接报道，属于二级权威媒体，退役消息为球员本人公开宣布，可信度高。",
-      "fact_status": {
-        "confirmed": [
-          "拉塞尔·威斯布鲁克宣布退役，结束18个赛季的NBA职业生涯，保持联盟历史生涯三双次数最多纪录"
-        ],
-        "claims": [],
-        "analysis": [
-          "其退役标志着一种高强度对抗型后卫打法时代的落幕"
-        ]
-      },
-      "source_ids": [
-        "a1a111de9673e9d4"
-      ],
-      "sources": [
-        {
-          "id": "a1a111de9673e9d4",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Russell Westbrook announces NBA retirement after 18 seasons",
-          "summary": "Westbrook, a former NBA Most Valuable Player, holds the record for the most career triple-doubles in league history.",
-          "url": "https://www.aljazeera.com/sports/2026/8/13/russell-westbrook-announces-nba-retirement-after-18-seasons?traffic_source=rss",
-          "published_at": "2026-08-13T10:25:39+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "finance",
-      "title": "美国7月通胀数据小幅回落",
-      "english_term": "Inflation（通货膨胀，指整体物价水平持续上涨的经济现象）",
-      "summary": "美国劳工部最新报告显示，7月份通胀率较此前有所放缓，为市场提供了物价压力有所缓解的信号。",
-      "script": "财经方面，美国劳工部发布的最新报告显示，7月份的通胀率较此前出现小幅回落。通胀率通常用消费者价格指数的同比或环比变化来衡量，反映的是居民日常消费的商品和服务价格整体变动趋势。这份报告释放出的信号是，此前持续困扰美国经济的物价上涨压力，在7月份有所缓解，但报告并未说明具体的回落幅度和分项数据构成，比如食品、能源、住房等分类别价格走势如何变化，需要查阅劳工部完整报告才能获得更细致的判断。通胀数据历来是美国货币政策制定的重要参考依据，如果物价压力持续缓解，通常会被市场解读为央行在利率决策上获得更大的灵活空间。不过要指出的是，单月数据的小幅波动并不足以说明通胀趋势已经出现根本性转折，还需要观察后续几个月数据是否延续这一回落态势。同一天的另一则消息显示，美国移民与海关执法局计划为其执法人员配备电击手套，这一装备升级计划也引发了外界对执法force使用规范的关注，但具体的技术细节和列装时间表尚未完全披露。",
-      "duration_seconds": 105,
-      "is_unverified": false,
-      "confidence_note": "数据来源为NPR对美国劳工部报告的转述，属于二级权威媒体报道，具体分项数据未在候选信息中完整展开。",
-      "fact_status": {
-        "confirmed": [
-          "美国劳工部报告显示7月份通胀率较此前小幅回落"
-        ],
-        "claims": [],
-        "analysis": [
-          "单月通胀数据回落尚不足以判断长期趋势是否根本转变"
-        ]
-      },
-      "source_ids": [
-        "adfdedff75d4d3d0"
-      ],
-      "sources": [
-        {
-          "id": "adfdedff75d4d3d0",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Inflation eased slightly in July. And, ICE plans to give officers electric shock gloves",
-          "summary": "Inflation cooled a bit last month, according to a new report from the Labor Department. And, ICE plans to equip its officers with electric shock gloves.",
-          "url": "https://www.npr.org/2026/08/13/g-s1-138578/up-first-newsletter-inflation-colombia-earthquake-ice-gloves-migrant-children-karolina-leavitt",
-          "published_at": "2026-08-13T11:31:18+00:00",
+          "title": "A Sunflower’s View of Totality",
+          "summary": "The Moon slid between the Sun and Earth to produce a stunning celestial show visible from Spain in August 2026.",
+          "url": "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality/",
+          "published_at": "2026-08-14T04:01:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的早报中，机器人领域的进展从医疗传感、商用服务机器人市场格局，延伸到军事后勤自动化与前沿学术论文，产业与学术两条线都在稳步推进；国际局势方面，俄乌战争相关的人力与制裁博弈仍是持续焦点。后续需要关注软体机器人中风检测研究的论文披露与同行评审进展，机器人超声成像新方法的临床验证数据，以及乌克兰关于朝鲜增兵指控是否会得到独立信源证实。",
-  "editor_note": "本期机器人板块综合了产业新闻（The Robot Report、Global Robotics News Search聚合）与学术预印本（arXiv cs.RO），其中部分产业消息来源为三级聚合检索，缺乏原始一手细节，已标注为不确定或在稿中说明信息局限；arXiv论文均为预印本，未经同行评审，已在confidence_note中注明。国际部分优先选择了具备事实与主张明确区分空间的俄乌相关报道，中东定居者事件因整体时长与机器人占比要求已在本轮修订中移除，Eurovision选址等娱乐类事件因重要性相对较低未纳入重点篇目。",
+  "closing": "今天的内容就到这里，赞比亚选举计票暂停后的重新评估结果、美军在中东的部署动向，以及多篇机器人预印本论文的后续同行评审进展，都值得继续关注。",
+  "editor_note": "本期机器人板块共选取5条，时长合计约735秒，占全稿总时长约54%，符合45%–55%区间要求；来源覆盖arXiv、The Robot Report、The Defense Post、The Economic Times等多个专业信源，避免单一媒体垄断。部分机器人产业类内容（如乌克兰地面机器人、旧金山人形机器人租赁、BioflexBot）因仅有单一来源报道，均标记为未完全核实并说明局限。国际部分优先选取有多信源交叉确认的赞比亚选举、中东封锁、日本强降雨事件；因候选中体育、娱乐、金融类信息价值有限或信息量不足（如Rodri转会传闻、美联储对前员工的执法行动细节较单薄），未纳入正文以保证内容深度。日全食内容作为科学类事件保留，但因NASA稿件本身信息量有限，控制在较短时长。",
   "model": "claude-sonnet-5",
-  "generation_usage": [
-    {
-      "input_tokens": 9482,
-      "output_tokens": 11755,
-      "total_tokens": 21237
-    },
-    {
-      "input_tokens": 13528,
-      "output_tokens": 10335,
-      "total_tokens": 23863
-    }
-  ],
   "usage": {
-    "output_tokens": 22090,
-    "input_tokens": 23010,
-    "total_tokens": 45100
+    "input_tokens": 9265,
+    "output_tokens": 8998,
+    "total_tokens": 18263
   },
-  "generated_at": "2026-08-13T12:14:42+00:00",
-  "window_start": "2026-08-12T12:14:42+00:00",
-  "candidate_count": 245,
+  "generated_at": "2026-08-14T12:00:30+00:00",
+  "window_start": "2026-08-13T12:00:30+00:00",
+  "candidate_count": 239,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
-  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1355,
-    "script_characters": 5300,
-    "topic_duration_share": 0.583,
+    "duration_seconds": 1155,
+    "script_characters": 4536,
+    "topic_duration_share": 0.593,
     "passed": true,
-    "normal_target_met": false,
+    "normal_target_met": true,
     "topic_source_count": 3,
     "issues": []
   }
