@@ -1,290 +1,238 @@
 {
-  "title": "晶球电台早报：印尼强震致38人遇难，机器人订单回暖与人形机器人上市新路径",
-  "subtitle": "从7.7级地震到机器人季度订单增长，今天的世界既有天灾人祸，也有产业稳步前行",
+  "title": "晶球电台早报：世界人形机器人运动会开赛，伊朗战争阴影下的经济困局",
+  "subtitle": "23支人形机器人队伍挑战真实救援场景，乌克兰对俄发动大规模无人机袭击，霍尔木兹海峡争议再起",
   "highlights": [
-    "印尼弗洛雷斯岛发生7.7级地震，至少38人遇难，海啸预警一度拉响",
-    "第二季度工业机器人订单增长，自动化需求扩展到更多行业",
-    "Agility Robotics等公司探索SPAC等非传统路径登陆资本市场，人形机器人商业化提速"
+    "第二届世界人形机器人运动会（WHRG）救援项目开赛，23支队伍在真实复杂场景中较量",
+    "特朗普扬言将霍尔木兹海峡变为美国领土，法律与地缘政治争议凸显",
+    "乌克兰发动战争以来最大规模无人机袭击之一，俄乌双方均有人员伤亡"
   ],
   "stories": [
     {
-      "category": "world",
-      "title": "印尼弗洛雷斯岛发生7.7级强震，至少38人遇难",
-      "english_term": null,
-      "summary": "印尼东部弗洛雷斯岛附近海域发生7.7级地震，造成至少38人死亡，多栋建筑倒塌，搜救工作正在进行。",
-      "script": "今天最重要的国际突发新闻来自印尼。当地时间周六凌晨，印尼东部弗洛雷斯岛附近海域发生了7.7级强烈地震，目前已确认至少38人遇难，多栋建筑物在震动中倒塌，当地民众陷入恐慌。据BBC和NPR的报道，搜救队伍已经在弗洛雷斯岛展开行动，试图寻找可能被困在废墟下的幸存者。半岛电视台的现场报道显示，地震发生后的现场一片狼藉，救援人员正争分夺秒地清理瓦砾。\n\n印尼地处环太平洋地震带，是全球地震活动最频繁的地区之一，过去多次发生的强震往往伴随海啸风险，这也是为什么这次7.7级地震发生后，周边地区一度进入高度戒备状态。目前的已确认事实是，遇难人数已达38人，且这一数字随着搜救推进可能还会上升；建筑倒塌和人员伤亡集中在弗洛雷斯岛及周边区域。\n\n各方主张方面，救援机构正在评估地震造成的基础设施损坏程度，但详细的经济损失和受灾人数统计尚未完全公布。从分析角度看，印尼近年来在地震预警系统和抗震建筑标准上有所投入，但农村和岛屿地区的老旧建筑依然面临较大风险，这次强震再次暴露了这类地区在灾害应对能力上的短板。后续需要等待印尼官方通报最终的伤亡与损失数据，也需要关注国际社会的救援支持是否到位。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "BBC、NPR、半岛电视台三个独立二级来源交叉确认了地震震级和伤亡数字，可信度较高。",
+      "category": "robotics",
+      "title": "第二届世界人形机器人运动会：救援项目让机器人告别“只会跳舞”",
+      "english_term": "WHRG（World Humanoid Robot Games，世界人形机器人运动会）",
+      "summary": "23支人形机器人队伍在第二届世界人形机器人运动会的救援项目中展开较量，任务复杂度远超此前的舞蹈表演类比赛。",
+      "script": "先来看机器人产业的一件大事。第二届世界人形机器人运动会，英文缩写WHRG，本届比赛新增了救援任务项目，一共有23支人形机器人队伍参赛。和过去大家印象里机器人跳舞、走秀式的表演不同，这次的赛题设置更贴近真实灾难场景，比如复杂地形穿越、目标物体的识别与搬运、还有需要多机协作完成的救援模拟任务。报道特别提到，这类任务对机器人提出的挑战，远远超出了此前那种编排好动作、靠精确重复来完成的舞蹈类比赛。原因在于，救援场景里地形、光照、障碍物的摆放都无法提前预演，机器人必须依靠自身的感知系统实时判断脚下路况，用运动控制算法动态调整步态，防止摔倒或卡在障碍物之间。这对人形机器人的整体系统集成能力是一次综合考验，包括双足或类人下肢的平衡控制、机械臂的精细操作、以及多模态感知融合，也就是把视觉、力觉、惯性测量等不同传感器信息整合起来做决策。业内普遍认为，赛事组织者把比赛内容从表演转向任务导向型挑战，本身反映了人形机器人行业正试图摆脱“花架子”的质疑，转而证明自己在非结构化环境下的实际作业能力。与此同时，本届赛事还配套推出了所谓“机器人之家”的展示区域，用于集中呈现参赛队伍的技术方案和机器人的日常运行状态，方便外界近距离观察这些机器人在非比赛时段的表现是否稳定。需要说明的是，目前关于具体名次、任务完成率等细节，公开报道信息还比较有限，赛事的官方技术评测报告尚未发布。后续需要等待赛事组织方公布详细的技术评分与各队伍的任务完成数据，才能更准确评估当前人形机器人在真实救援场景下的实际水平。",
+      "duration_seconds": 165,
+      "is_unverified": true,
+      "confidence_note": "该消息来自单一三级来源，属于产业动态热点线索，具体赛事技术细节和结果尚未有权威信源交叉确认，标记为未核实。",
       "fact_status": {
         "confirmed": [
-          "印尼弗洛雷斯岛附近发生7.7级地震",
-          "已确认至少38人遇难",
-          "多栋建筑倒塌",
-          "搜救行动正在进行"
+          "第二届世界人形机器人运动会设有救援项目，23支人形机器人队伍参赛"
         ],
-        "claims": [],
+        "claims": [
+          "赛事任务复杂度显著超过此前的舞蹈类表演项目"
+        ],
         "analysis": [
-          "岛屿地区老旧建筑抗震能力不足可能是伤亡较重的原因之一，但需等待官方详细报告确认"
+          "赛事设计转向任务导向，反映行业希望证明人形机器人非结构化环境作业能力"
         ]
       },
       "source_ids": [
-        "16e62b01a6f19db9",
-        "dfff21ada0468e96",
-        "c0fd5dee72dfb909"
+        "ed760efd80338590",
+        "0fdca7dd23f02b7d"
       ],
       "sources": [
         {
-          "id": "16e62b01a6f19db9",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
+          "id": "ed760efd80338590",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia",
-          "summary": "A search and rescue operation is under way to find survivors in Flores, an island in eastern Indonesia.",
-          "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-15T11:48:58+00:00",
+          "category_hint": "robotics",
+          "title": "23 humanoid robot teams compete in rescue missions at 2nd WHRG, facing real-world complexity beyond dancing in coordination - Global Times",
+          "summary": "23 humanoid robot teams compete in rescue missions at 2nd WHRG, facing real-world complexity beyond dancing in coordination Global Times",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE91MUFhTDVnRWRYb1NCOVpXUXZjZ0drbnVuNUFUWnloSXZmaF9ralJfZUlVUU9fOTZlZ2IzdWZENll6OGhYRzZVWlpVaEt0dVdXRHI0WFVTUXR5LWdaanNwQ1dR?oc=5",
+          "published_at": "2026-08-16T11:46:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "dfff21ada0468e96",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
+          "id": "0fdca7dd23f02b7d",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Magnitude 7.7 earthquake strikes off Indonesia's coast, killing at least 38",
-          "summary": "A powerful magnitude 7.7 earthquake struck off the coast of Indonesia early Saturday, killing at least 38 people, collapsing buildings as well as causing panic in a region prone to deadly quakes.",
-          "url": "https://www.npr.org/2026/08/15/nx-s1-5932405/earthquake-indonesia",
-          "published_at": "2026-08-15T08:29:20+00:00",
+          "category_hint": "robotics",
+          "title": "'Robot home' unveiled to support second World Humanoid Robot Games - 巴士的報",
+          "summary": "'Robot home' unveiled to support second World Humanoid Robot Games 巴士的報",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNDVLOTJLNnFvdXROWUthOHBiN0dJWlpiVS16Nm5fc0ZSWHFmakRVTm03LXM2ZXZZZVFTTFJTSkkxdU1pUG9WU3Ria0lYNlhsWHA4S2RNWjJ6M1Vzb085bkhQQkVSTzdabU1HSHNIYUdZZWZkeld4SlJVRjlsZy0zMUNWcWF6MGxrWmFVYTNPVFJoS0hSQ1F1SE54NWsxM1hUZlA3Q1hqbkRBWUVFRlpsUzgzeW4zLU0?oc=5",
+          "published_at": "2026-08-16T09:57:13+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        },
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "手术机器人助力患者更快康复，医疗机器人应用持续落地",
+      "english_term": null,
+      "summary": "一家医院报告使用手术机器人后患者术后恢复速度明显加快，反映医疗机器人在临床场景的应用正在扩大。",
+      "script": "医疗机器人领域也有进展值得关注。有医院报告称，引入手术机器人辅助操作之后，患者的术后恢复速度明显加快。手术机器人通常由医生通过控制台远程操作机械臂完成精细手术动作，机械臂末端的器械可以过滤掉人手的自然震颤，并且能够以更小的切口完成手术，这意味着创伤更小、出血更少，患者术后的疼痛感和感染风险也随之降低，从而缩短住院和恢复周期。这类系统在过去十几年里已经在泌尿外科、妇科、普外科等多个专科逐步普及，核心价值在于把医生的经验和判断，通过精确的机械执行放大到传统人手难以企及的精细程度。从产业角度看，手术机器人是医疗机器人里商业化程度最高的细分领域之一，其市场逻辑清晰：医院愿意为更好的手术效果和更快的病床周转率买单，这也是相关企业持续加大研发投入、扩展手术适应症范围的动力所在。不过报道本身信息比较简略，没有给出具体医院名称、机器人型号、样本量或对照组数据，因此这更像是一则反映行业趋势的案例报道，而非具备统计学意义的临床研究结论。手术机器人对康复速度的实际改善程度，通常需要更大样本、随机对照的临床研究来验证，单一案例报道的说服力有限。后续需要等待相关医院或厂商公布更详细的临床数据，包括具体的康复时间对比和并发症发生率，才能对这一结论做出更严谨的判断。",
+      "duration_seconds": 135,
+      "is_unverified": true,
+      "confidence_note": "来源为单一三级媒体报道，缺乏具体医院、样本量和对照数据，结论证据强度有限。",
+      "fact_status": {
+        "confirmed": [
+          "有医院报告手术机器人辅助手术后患者恢复速度加快"
+        ],
+        "claims": [
+          "手术机器人整体提升了患者康复效率"
+        ],
+        "analysis": [
+          "该结论需要更大规模临床研究支持，目前案例报道证据强度有限"
+        ]
+      },
+      "source_ids": [
+        "817d513f0cf75355"
+      ],
+      "sources": [
         {
-          "id": "c0fd5dee72dfb909",
+          "id": "817d513f0cf75355",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Surgical robot helps hospital patients recover faster - Ludlow Advertiser",
+          "summary": "Surgical robot helps hospital patients recover faster Ludlow Advertiser",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZlRvdi11aEZIT3doekw3UmJWOFN1cDl1dHFqdXhWZ1dVZmNaMmRfQS0tRUI1eVlPT0pfWDlHR29lWTdUbGQ5WV8xcDBXanprSlN2M1NBSXVJNXpudHlEUEQ5bmFkLThweWhxdk03enpBNDBERUQ0YmpQNFUxZVVjZnVYVVRLczg3VTJsQ1BQLUV5MUJEY0JvUXk4YjEyUzdjUy1Bb3RtQ2FyQkE?oc=5",
+          "published_at": "2026-08-16T11:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "迪士尼用AI机器人让动画角色“走进现实”",
+      "english_term": "AI robot（人工智能驱动的实体机器人）",
+      "summary": "迪士尼展示了利用AI机器人技术让经典动画角色以实体机器人形式出现的最新尝试，服务于主题乐园的沉浸式体验。",
+      "script": "娱乐与机器人技术结合的一个案例来自迪士尼。据报道，迪士尼正在利用AI机器人技术，把经典动画角色变成能够在现实中活动的实体机器人，用于主题乐园的沉浸式体验升级。这类角色机器人通常依赖于多轴驱动的机械结构模拟拟人或拟动物的动作，配合语音合成、表情驱动和视觉识别等AI技术，让机器人能够对游客的靠近、声音甚至简单互动做出实时反应，而不再是过去那种按固定程序播放动作的机械装置。从技术角度看，这类应用对机器人的运动自然度要求很高，因为观众对动画角色动作的“违和感”非常敏感，哪怕是细微的步态或表情不自然都会破坏沉浸感，这也倒逼相关团队在执行器响应速度、关节自由度设计和动作规划算法上做精细打磨。对迪士尼这样的主题乐园运营方来说，实体角色机器人是提升游客体验、增强IP变现能力的重要手段，机器人技术的成熟度直接决定了乐园互动项目的天花板。这也是具身智能技术从工业和家庭场景之外，向娱乐服务场景延伸的一个典型例子。不过目前公开报道对具体技术细节，比如驱动方案、传感器配置、量产计划等信息披露有限，报道本身更偏向消息性质。后续需要关注迪士尼是否会公布更具体的技术白皮书或量产部署计划，以及这类角色机器人在实际乐园运营中的稳定性和游客反馈如何。",
+      "duration_seconds": 130,
+      "is_unverified": true,
+      "confidence_note": "单一三级来源报道，技术细节披露有限，标记为未核实的产业动态线索。",
+      "fact_status": {
+        "confirmed": [
+          "迪士尼在使用AI机器人技术让动画角色以实体形式呈现"
+        ],
+        "claims": [
+          "该技术将用于提升主题乐园的沉浸式体验"
+        ],
+        "analysis": [
+          "角色机器人对动作自然度要求高，是具身智能向娱乐场景延伸的案例"
+        ]
+      },
+      "source_ids": [
+        "3a9eb86b2bb3f855"
+      ],
+      "sources": [
+        {
+          "id": "3a9eb86b2bb3f855",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Disney Brings Animated Characters to Life with AI Robots - 조선일보",
+          "summary": "Disney Brings Animated Characters to Life with AI Robots 조선일보",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY09KUHNHMnhVQWdLeHBrUGVyMXBsakQ5UVZuanRrVWpGUzZBajlaVmp5cndvVFlfS2VTSEF4dTY3MHZPbXM1UF93OWhRVUVPcVZBMEtDY1U3NjNKeWtzbUw4bmdhZXBwbUdNZGoyMDJUelBzamJLLVozMHZNeGYybnhKNGh4MFlx?oc=5",
+          "published_at": "2026-08-16T11:08:47+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "机器人若不能自然沟通将难被广泛采用，行业专家谈听觉感知短板",
+      "english_term": "acoustic perception（声学感知）",
+      "summary": "有声学技术公司高管撰文指出，机器人开发者不应忽视听觉能力，缺乏自然沟通能力的机器人将难以被市场接受。",
+      "script": "最后看一则来自行业媒体的观点性文章。一家专注声学技术的公司联合创始人兼首席运营官撰文指出，机器人开发者不能忽视听觉能力在人机交互中的重要性，缺乏自然沟通能力的机器人将很难被真正采用。文章的核心论点是，目前很多机器人研发把资源集中在视觉感知和运动控制上，但对声学感知，也就是机器人如何听清、听懂、并合理回应周围声音环境的能力投入相对不足。这背后涉及的技术包括麦克风阵列的空间拾音、噪声环境下的语音识别、以及房间声学建模，也就是让机器人理解声音在特定空间内反射和衰减的物理特性，从而更准确地定位说话者方向、过滤背景噪声。文章作者认为，如果机器人在嘈杂的家庭或公共环境里无法准确听清指令、或者反应延迟明显，用户体验会大打折扣，进而影响机器人产品的市场接受度，这一点对家庭服务机器人和人形机器人尤其关键，因为这类机器人被期待具备类似人类的自然交互能力。这一观点呼应了当前具身智能行业的一个普遍趋势：机器人从单纯完成任务，正在向能够自然理解和响应人类意图的方向演进，听觉只是其中容易被低估的一环。需要说明的是，这是一篇行业评论文章，代表的是作者及其所在公司的商业立场和技术观点，并非独立的实验数据或第三方评测结果。后续需要关注是否有更多机器人厂商在产品中加强声学感知模块的投入，以及是否会有第三方评测验证听觉能力对机器人采用率的实际影响程度。",
+      "duration_seconds": 145,
+      "is_unverified": false,
+      "confidence_note": "来源为二级专业媒体The Robot Report刊发的行业评论文章，观点代表作者及所属公司立场，非独立第三方研究。",
+      "fact_status": {
+        "confirmed": [
+          "The Robot Report刊登了一篇关于机器人听觉感知重要性的行业评论文章"
+        ],
+        "claims": [
+          "文章作者认为缺乏自然沟通能力的机器人难以被广泛采用"
+        ],
+        "analysis": [
+          "该观点反映行业内对声学感知投入不足的担忧，但缺乏独立数据支撑"
+        ]
+      },
+      "source_ids": [
+        "ce86d963ed67bdfb"
+      ],
+      "sources": [
+        {
+          "id": "ce86d963ed67bdfb",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Why robots that can’t communicate naturally won’t be adopted",
+          "summary": "Gunnar Pétur Hauksson, the co-founder and COO at Treble Technologies, says robotics developers can't overlook the importance of hearing. The post Why robots that can’t communicate naturally won’t be adopted appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
+          "published_at": "2026-08-15T12:20:18+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "特朗普扬言将霍尔木兹海峡变为美国领土，法律与外交争议加剧",
+      "english_term": "Strait of Hormuz（霍尔木兹海峡）",
+      "summary": "特朗普再次就美伊冲突发表强硬言论，扬言要将霍尔木兹海峡变为美国领土，此举缺乏明确的法律和现实路径。",
+      "script": "在美伊战争持续的背景下，美国总统特朗普再次抛出一项引发广泛关注的言论：他扬言要把霍尔木兹海峡变成美国领土。霍尔木兹海峡是连接波斯湾与阿拉伯海的重要水道，全球相当比例的石油运输都要经过这一狭窄海峡，其战略与经济地位极为关键。报道指出，这已经不是特朗普在此次对伊冲突中发表的第一个出人意料的强硬表态，但从国际法角度看，海峡本身涉及伊朗、阿曼等多个沿岸国家的领海主张，任何试图单方面宣称主权或实际控制的举动，都将面临极其复杂的国际法障碍和地区国家的强烈反对，目前也看不到实现这一目标的现实路径。已确认的事实是，美伊战争仍在持续，双方冲突已经对地区局势造成明显冲击。而“将海峡变为美国领土”这一说法，目前仅是特朗普本人的公开表态，并未见诸任何具体政策文件或军事行动方案，其性质更接近政治施压和舆论造势，而非可执行的政策目标。分析人士普遍认为，这类言论一方面是向伊朗和地区盟友传递强硬信号，另一方面也可能是国内政治叙事的一部分。与此同时，伊朗国内经济正因战争而持续承压，物价飞涨，普通民众的生活选择空间被大幅压缩，凸显出这场冲突已经从军事对抗延伸到民生领域的深层影响。后续需要关注美方是否会将这类言论转化为具体的外交或军事行动，以及伊朗和霍尔木兹海峡沿岸国家将作出何种回应。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "特朗普言论及美伊战争持续均有二级信源Al Jazeera独立报道支持，具体政策落地情况尚不明确。",
+      "fact_status": {
+        "confirmed": [
+          "特朗普公开表态要将霍尔木兹海峡变为美国领土",
+          "美伊战争持续，伊朗经济受到严重冲击"
+        ],
+        "claims": [
+          "特朗普言论被视为向伊朗施压的政治表态"
+        ],
+        "analysis": [
+          "从国际法角度看，单方面宣称海峡主权缺乏现实可行路径"
+        ]
+      },
+      "source_ids": [
+        "43bc5f4e924d1924",
+        "9b28248156aa5618"
+      ],
+      "sources": [
+        {
+          "id": "43bc5f4e924d1924",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Aftermath of deadly Indonesia earthquake",
-          "summary": "Dozens of people have been killed after a 7.7-magnitude earthquake off Indonesia’s Flores Island.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/aftermath-of-deadly-indonesia-earthquake?traffic_source=rss",
-          "published_at": "2026-08-15T11:19:56+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "第二季度工业机器人订单增长，自动化需求扩展至更多行业",
-      "english_term": "automation（自动化）",
-      "summary": "行业报告显示第二季度工业机器人订单量出现增长，需求不再局限于汽车制造等传统领域，而是扩展到更广泛的制造业门类。",
-      "script": "在机器人产业方面，今天有一条值得关注的趋势性消息。据AI Insider报道，第二季度工业机器人订单出现增长，自动化需求正在从传统的汽车制造业，扩展到更广泛的制造业门类。这类订单数据通常由行业协会或机器人厂商联合发布，反映的是企业采购工业机械臂、AGV（自动导引车）等自动化设备的实际意愿。\n\n从产业背景看，过去几年工业机器人市场经历了明显的周期性波动，汽车行业作为传统的最大买家，其资本开支的起伏往往主导整个行业的订单曲线。而这一次订单增长的亮点在于，需求来源变得更加多元——电子制造、物流仓储、食品加工等此前自动化渗透率较低的行业，开始加大对工业机器人的采购力度。这背后的推动因素包括劳动力成本上升、招工难度加大，以及机器人本体和视觉系统成本的持续下降，使得中小规模制造企业也具备了部署自动化产线的经济性。\n\n这条消息与稍早的另一则报道也形成呼应：有评论文章担心美国在机器人相关技术和供应链上的限制政策，可能反而让本土企业在全球机器人市场中处于不利位置。这提示订单增长的地域分布并不均衡，不同国家和地区在自动化投资节奏上可能出现分化。\n\n需要说明的是，这条消息来自单一的行业信息源，具体的订单数字、增长百分比以及细分行业结构目前还缺乏更权威的数据支撑。后续需要等待国际机器人联合会等行业组织发布正式的季度统计报告，以交叉验证订单增长的具体幅度和行业分布特征。",
-      "duration_seconds": 145,
-      "is_unverified": true,
-      "confidence_note": "该消息仅来自AI Insider一个三级来源，缺乏行业协会或其他独立数据源交叉验证，具体数字未披露，标记为未经充分证实的趋势性信息。",
-      "fact_status": {
-        "confirmed": [],
-        "claims": [
-          "行业报道称第二季度工业机器人订单出现增长",
-          "自动化需求正扩展到汽车制造以外的行业"
-        ],
-        "analysis": [
-          "劳动力成本上升和机器人部件成本下降可能是订单增长的驱动因素",
-          "不同地区自动化投资节奏可能因政策环境而分化"
-        ]
-      },
-      "source_ids": [
-        "441ba2f609cccaab",
-        "a1eeacfd7de66778"
-      ],
-      "sources": [
-        {
-          "id": "441ba2f609cccaab",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Robot Orders Increase in Q2 as Automation Demand Broadens Across Industries - AI Insider",
-          "summary": "Robot Orders Increase in Q2 as Automation Demand Broadens Across Industries AI Insider",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWGliTkc4LTZjRExXYVp5QURDT2NLS1Brdldkb0szZm5PNlRRaG9ydTVFbmNmQVJ0MTF4NjZtSTNrSnlSSW5JaEhyZm5NenJ1N0RYYWpncHJjbm56U1p6SjNaZVhBSFVYMFlYNWpFRFB4N25YLU1GcDZZbVRZVWItMUZScWtxNEU1bl9lcVhGY2F2Wk9EcDBWMm1ib19BV0xZRkdGdlFGNEl0UUxUaWdFbHc4MA?oc=5",
-          "published_at": "2026-08-15T11:05:25+00:00",
+          "title": "Trump threatens to make the Strait of Hormuz a US territory: Can he?",
+          "summary": "US president has yet another outlandish threat for Iran, with no end to war in sight.",
+          "url": "https://www.aljazeera.com/news/2026/8/16/trump-threatens-to-make-the-strait-of-hormuz-a-us-territory-can-he?traffic_source=rss",
+          "published_at": "2026-08-16T11:14:23+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "a1eeacfd7de66778",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Op-Ed: Is America restricting itself out of the robotics market? It’s looking pretty weird. - Digital Journal",
-          "summary": "Op-Ed: Is America restricting itself out of the robotics market? It’s looking pretty weird. Digital Journal",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTW1ZdGhUYnlpZ2tzMkJSRWZCelo4R29GRENKQ0RZUkFmU05CNFd5UV84UUVvaFdWZXdQU1dnVWxyTVIyRm5pdm5YRlNLdXVuOWhNY0luTHEzc0xNUndyNzc2NjdYaUhhMmFmTUk0c2hvLV9GMGc1Wkp3SEotdDZGV0ZJbmNsZVdmeTl2d2hIa0h3cERkOGxmZkpILWJSR2ladktqNGIyajNCNEtCb2ZWMUFpRXplSlZXaW50TGxSUWVQS3NiVXc?oc=5",
-          "published_at": "2026-08-15T10:56:05+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "人形机器人公司探索非传统上市路径，SPAC成为新选择",
-      "english_term": "SPAC（特殊目的收购公司，一种借壳上市的资本运作方式）",
-      "summary": "The Robot Report撰文指出，机器人公司登陆公开市场的路径正在多样化，Agility Robotics的SPAC交易展示了传统IPO之外的可能性。",
-      "script": "机器人产业的另一条重要动态和资本市场有关。The Robot Report近日发文分析，机器人公司走向公开资本市场的路径正变得更加多样。文章以人形机器人公司Agility Robotics为例，指出其选择的SPAC交易，也就是通过与一家特殊目的收购公司合并来实现上市，是传统IPO（首次公开募股）之外的一种可行方案。\n\n对于机器人这样的硬科技行业来说，走向公开市场从来不是一件轻松的事。传统IPO流程漫长、审核严格，还要求企业在盈利能力、财务透明度等方面达到交易所标准，这对于很多仍处于研发投入期、尚未实现规模化盈利的机器人公司来说是不小的门槛。文章提到，除了SPAC合并，反向并购（借壳一家已上市但业务萎缩的公司）也是另一种可选路径，不同方式在审核周期、融资规模、股权稀释程度上各有取舍。\n\n这一趋势反映的产业背景是，人形机器人和相关自动化技术正处在商业化的关键窗口期，越来越多公司需要通过公开市场融资来支撑高强度的研发和量产投入，尤其是人形机器人的本体制造、传感器和执行器采购、大规模测试验证都需要持续的资金支持。选择SPAC这类相对灵活快捷的路径，可以让企业更早获得公开市场的资金，但也伴随着市场对其估值和治理透明度的更多审视。\n\n从分析角度看，这条新闻本身没有涉及具体的融资金额或交易细节，更多是行业层面的路径选择讨论。后续需要观察的是，是否会有更多机器人公司效仿这种非传统上市方式，以及资本市场对机器人行业整体的估值逻辑会如何演变。",
-      "duration_seconds": 155,
-      "is_unverified": false,
-      "confidence_note": "来自The Robot Report的一手行业分析文章，属于二级专业媒体信源，但文章性质为观点评论，不涉及需要交叉验证的具体数据。",
-      "fact_status": {
-        "confirmed": [
-          "Agility Robotics采用了SPAC交易方式",
-          "机器人公司存在SPAC、反向并购、传统IPO等多种上市路径选择"
-        ],
-        "claims": [],
-        "analysis": [
-          "机器人公司选择非传统上市路径可能与硬科技企业早期盈利压力和融资需求有关"
-        ]
-      },
-      "source_ids": [
-        "5dfc887888d1b3c4"
-      ],
-      "sources": [
-        {
-          "id": "5dfc887888d1b3c4",
-          "source": "The Robot Report",
+          "id": "9b28248156aa5618",
+          "source": "Al Jazeera",
           "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Robots on Wall Street: Non-traditional paths to public markets for robotics companies",
-          "summary": "Agility’s SPAC deal shows there is no one route to a robotics public listing, with SPAC mergers, reverse mergers, and traditional IPOs offering different advantages. The post Robots on Wall Street: Non-traditional paths to public markets for robotics companies appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/robots-on-wall-street-non-traditional-paths-public-markets-robotics-companies/",
-          "published_at": "2026-08-14T12:30:40+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "国防无人机公司Neros获2.5亿美元融资，计划年内量产部署",
-      "english_term": "drone（无人机）",
-      "summary": "防务科技公司Neros Technologies完成2.5亿美元融资，用于在2026年底前部署其Archer AI和Bandit无人机平台。",
-      "script": "在军事与国防科技交叉的机器人领域，防务初创公司Neros Technologies今天宣布完成一轮2.5亿美元融资，目标是在2026年底前实现其Archer AI和Bandit两款无人机平台的规模化部署。据The Robot Report报道，这笔资金将主要投入到硬件生产和算力基础设施建设中，以支持多资产协同控制，也就是让一名操作人员或一套系统能够同时指挥调度多架无人机执行任务。\n\n从技术角度看，多资产协同控制是近年来军用无人机领域的一个重要发展方向。传统的无人机操作往往是一对一模式，一名飞手对应一架飞行器，这在大规模无人机集群作战场景下效率有限。而Neros强调的多资产控制能力，意味着系统需要在自主导航、目标识别、通信抗干扰等多个环节实现更高程度的自动化，减少对人工操作的依赖，这对机载计算平台、传感器融合算法都提出了更高要求。\n\n从产业背景看，俄乌战场上小型无人机在侦察和打击任务中展现出的效费比，让全球国防采购方对无人机装备的投入明显加大，这也是Neros这类专注于防务无人机的初创公司能够获得大额融资的重要原因。产品名称Archer AI和Bandit暗示了公司在自主决策能力和机动性能上的产品定位，但具体的技术参数和实战部署效果，目前公开信息有限。\n\n需要说明的是，这条消息目前只有The Robot Report一个信源披露融资细节，融资金额、投资方构成、具体部署时间表等信息还有待更多信源交叉确认。后续需要等待公司方面披露更多量产细节，以及是否有官方国防采购合同的进一步消息。",
-      "duration_seconds": 165,
-      "is_unverified": true,
-      "confidence_note": "该融资消息仅来自The Robot Report一个来源，尚无第二独立信源交叉确认融资金额及细节，标记为未经充分验证。",
-      "fact_status": {
-        "confirmed": [],
-        "claims": [
-          "Neros Technologies称完成2.5亿美元融资",
-          "公司计划在2026年底前部署Archer AI和Bandit平台"
-        ],
-        "analysis": [
-          "俄乌战场经验可能是国防无人机投资升温的重要背景因素"
-        ]
-      },
-      "source_ids": [
-        "d090cc3f8d3956f1"
-      ],
-      "sources": [
-        {
-          "id": "d090cc3f8d3956f1",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Neros Technologies raises $250M to deploy its defense drones by the end of 2026",
-          "summary": "Neros is developing its Archer AI and Bandit platform with the hardware and compute required for multi-asset control. The post Neros Technologies raises $250M to deploy its defense drones by the end of 2026 appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/neros-technologies-raises-250m-to-deploy-its-defense-drones-by-the-end-of-2026/",
-          "published_at": "2026-08-14T17:38:49+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "研究关注表达型人形机器人出错后对用户信任的影响",
-      "english_term": "expressive humanoid robot（表达型人形机器人，指具备面部表情或情感化肢体语言的人形机器人）",
-      "summary": "一项研究探讨了具备情感表达能力的人形机器人在犯错时，对用户信任度产生的具体影响。",
-      "script": "在人机交互研究方向，今天有一条来自AI Insider的报道，关注的是表达型人形机器人在出错之后，用户对它的信任会发生怎样的变化。所谓表达型人形机器人，指的是那些具备面部表情、语音语调变化或者肢体动作等情感化表达能力的机器人，这类设计初衷是为了让机器人在与人类互动时显得更自然、更容易被接受。\n\n这项研究关注的核心问题是：当这样一台设计得很有“亲和力”的机器人犯错时，用户的信任受损程度，是否和一台冷冰冰、没有情感表达的机器人不一样。这类问题在人机交互和具身智能研究领域一直备受关注，因为机器人如果要走进家庭、医院、办公室等真实场景，用户对它的信任度直接决定了机器人能否被长期接受和使用。以往的研究普遍认为，情感化的表达方式可以在早期建立更强的用户好感和亲近感，但这种“亲近感溢价”在机器人犯错之后是会放大失望情绪，还是能够帮助缓解用户的负面反应，学界一直存在不同看法。\n\n从研究方法上推测，此类实验通常会设计对照组，让参与者分别与表达型和非表达型机器人互动，并在实验过程中人为引入错误操作，随后测量参与者对机器人可靠性、可信度等维度的评分变化。这类实验结果对人形机器人在服务、陪伴、教育等场景中的界面设计具有直接参考价值。\n\n需要说明的是，目前公开的信息只是研究方向和主题的简要报道，并未提供具体的实验设计细节、样本规模或统计结果，也没有说明该研究是否已经过同行评审。后续需要等待完整论文发布，以确认具体的实验方法和结论的稳健性。",
-      "duration_seconds": 155,
-      "is_unverified": true,
-      "confidence_note": "报道仅提供研究主题概述，未披露论文标题、作者机构、评审状态或具体数据，属于未经证实的学术线索。",
-      "fact_status": {
-        "confirmed": [],
-        "claims": [
-          "报道称有研究探讨表达型人形机器人出错后对用户信任的影响"
-        ],
-        "analysis": [
-          "情感化设计与用户信任之间的关系此前学界结论并不一致，需要具体实验数据支撑"
-        ]
-      },
-      "source_ids": [
-        "a0e24699e57081cf"
-      ],
-      "sources": [
-        {
-          "id": "a0e24699e57081cf",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Study Explores Impact on Trust When Expressive Humanoid Robots Make Mistakes - AI Insider",
-          "summary": "Study Explores Impact on Trust When Expressive Humanoid Robots Make Mistakes AI Insider",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSVBQTXZHOFhQRTdoR0M2ZXhPa1NJbnU1Z0NnX1ZKNlhUWFdUTGphZnVWa1FGOHgyY3drbC1RVFd2N3lQMlpha1lCRnUxX3V5MWpfV3FudWV5Z3ZkR0VaaFNSZjlVdGY5WXpNdmQyTm50dnV6N3A2aXFnWkhXQjdaM1RZaVJzazk5OXY3eWR2WjBvRGdSS0FOR2NUVlFFZWxiRkN6VXZxa0V1WUVsZ3htU2p4djM?oc=5",
-          "published_at": "2026-08-15T12:05:17+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "南北朝鲜停战72年，韩国总统提议正式结束战争状态",
-      "english_term": null,
-      "summary": "韩国总统李在明提议与朝鲜展开谈判，正式结束自1953年停战协议以来一直处于冻结状态的朝鲜战争。",
-      "script": "在东北亚地区，一条值得关注的外交动态来自韩国。据BBC报道，韩国总统李在明提出，希望与朝鲜展开谈判，正式结束自1953年停战协议签署以来一直处于冻结状态的朝鲜战争。众所周知，朝鲜战争在1953年只是以停战协议的形式暂停了敌对行动，而非签署正式和平条约，这意味着从法律意义上讲，朝鲜半岛的战争状态从未真正终结。\n\n已确认的事实是，李在明公开提出了启动谈判、正式结束战争状态的倡议。这一表态发生的时间点也颇具象征意义，正值日本投降81周年前后，东北亚地区历史遗留问题再次成为舆论焦点。从各方主张来看，韩国方面希望通过这一提议展现出更积极的对朝接触姿态，但目前尚不清楚朝鲜方面对此提议的具体回应和态度。\n\n从分析角度看，朝鲜半岛的正式和平进程涉及多方利益，除了韩朝双方，美国和中国作为战争的直接参与方或斡旋方，其立场也将对谈判进程产生重大影响。过去几十年里，类似的和平倡议并不鲜见，但受制于半岛无核化、驻韩美军等一系列复杂议题，实质性进展往往有限。这次提议是否会转化为具体的谈判安排，还是仅停留在外交表态层面，仍有待观察。后续需要关注朝鲜官方是否作出回应，以及美国、中国等相关方的态度。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "BBC作为二级信源明确报道了韩国总统的公开提议，属于官方一手表态，但朝方回应等后续信息暂缺。",
-      "fact_status": {
-        "confirmed": [
-          "韩国总统李在明公开提议与朝鲜谈判以正式结束战争状态",
-          "朝鲜半岛自1953年以来一直处于停战而非和平协议状态"
-        ],
-        "claims": [
-          "韩国方面表示希望通过谈判实现两国关系正常化"
-        ],
-        "analysis": [
-          "半岛正式和平进程涉及多方利益博弈，实质性进展存在不确定性"
-        ]
-      },
-      "source_ids": [
-        "2714aabf988e4d6f"
-      ],
-      "sources": [
-        {
-          "id": "2714aabf988e4d6f",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "South Korea proposes talks to officially end war with North",
-          "summary": "Lee Jae Myung offers chance to end the conflict, which has been frozen since an armistice in 1953.",
-          "url": "https://www.bbc.co.uk/news/articles/c8en2z9jp2xo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-15T09:35:23+00:00",
+          "title": "‘Limited options’ for many Iranians as war with US chokes economy",
+          "summary": "Millions of Iranians struggle to make ends meet as war with US devastates the economy and sends prices soaring.",
+          "url": "https://www.aljazeera.com/news/2026/8/16/limited-options-for-many-iranians-as-war-with-us-chokes-economy?traffic_source=rss",
+          "published_at": "2026-08-16T11:38:50+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -292,105 +240,87 @@
     },
     {
       "category": "world",
-      "title": "夏威夷进入紧急状态，历史性飓风逼近大岛",
+      "title": "乌克兰发动战争以来最大规模无人机袭击之一，俄乌均有伤亡",
       "english_term": null,
-      "summary": "一场预计将于本周末登陆夏威夷大岛的飓风Lala促使当地宣布进入紧急状态，若登陆将是自1871年以来首次有飓风袭击该岛。",
-      "script": "在气象灾害方面，夏威夷当局已经宣布进入紧急状态，以应对一场预计将于本周末袭击夏威夷大岛的飓风。据DW报道，这场名为Lala的飓风预计将带来强降雨和大风天气，如果它真正登陆大岛，这将是自1871年以来首次有飓风正面袭击该岛，具有历史性的意义。\n\n已确认的事实是，夏威夷州政府已因这场飓风提前宣布进入紧急状态，气象部门预测飓风将在本周末抵达大岛附近海域。夏威夷地处太平洋中部，虽然常年受到热带气旋活动影响，但由于地理位置和洋流因素，飓风真正登陆夏威夷主要岛屿的情况历史上极为罕见，此前一次类似记录要追溯到1871年，时间跨度超过一个半世纪。\n\n从分析角度看，正因为登陆事件如此稀少，当地的防灾基础设施和居民的应对经验相对有限，这也是当局提前宣布紧急状态、加强预警和疏散准备的重要原因。紧急状态的宣布通常意味着地方政府可以更快调动资源，包括开放应急避难所、加强物资储备、协调救援力量预先部署等。\n\n目前公开信息主要集中在气象预测和政府应对措施层面，飓风的具体登陆路径、强度变化以及可能造成的破坏程度，仍取决于未来几天的气象观测数据。后续需要关注飓风是否会按预测路径实际登陆夏威夷大岛，以及登陆后造成的具体影响和当地应急响应的效果。",
-      "duration_seconds": 130,
+      "summary": "乌克兰对俄罗斯发动了战争以来规模最大的无人机袭击之一，莫斯科等地遭数百架无人机袭击，双方均报告有人员死亡。",
+      "script": "俄乌战场传来最新进展。乌克兰对俄罗斯发动了本场战争以来规模最大的无人机袭击之一，俄方称有数百架无人机袭击了莫斯科，首都地区以及南部的罗斯托夫地区共造成至少六人死亡。与此同时，俄罗斯也对乌克兰多地发起了新一轮空袭，乌克兰方面报告至少五人死亡，乌克兰总统泽连斯基指责俄方袭击的是平民基础设施，而莫斯科方面则表示被击中的是一处仓库设施。已经确认的事实是：这轮无人机袭击的规模在整场战争中属于较大级别，双方均有平民或人员伤亡的报告。而对于具体打击目标的性质，也就是袭击的究竟是基础设施还是军事相关设施，乌俄双方各执一词，泽连斯基方面强调平民设施受损，俄方则强调军事或物流性质的仓库被击中，这属于典型的各说各话，目前没有独立第三方现场核实的信息。另外值得关注的是，据情报机构分析，朝鲜正准备向俄罗斯增派多达五万人的部队支援俄乌战场，不过军事专家普遍认为，这批兵力对战争整体走向不会产生根本性的改变，更多被视为俄罗斯在人员消耗上的补充手段。这一系列动态表明，尽管外交斡旋和局部停火尝试不断，俄乌战争的军事烈度并未出现实质性降温，双方在无人机和远程打击能力上的较量还在持续升级。后续需要关注双方是否会有更大规模的报复性打击，以及朝鲜军队实际部署规模和对战场态势的具体影响。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "DW作为二级信源报道了官方宣布的紧急状态，属于对当地政府公开行动的直接报道，但飓风是否登陆及影响程度仍是预测性信息。",
+      "confidence_note": "袭击事件由DW与NPR两个独立二级来源交叉确认，伤亡数字及双方主张来自官方通报，朝鲜出兵消息来自情报机构分析，标记为各方主张层面。",
       "fact_status": {
         "confirmed": [
-          "夏威夷州已宣布进入紧急状态",
-          "气象部门预测飓风Lala将于本周末影响夏威夷大岛"
+          "乌克兰对俄发动大规模无人机袭击，俄方称莫斯科及罗斯托夫地区共6人死亡",
+          "俄罗斯对乌克兰发动空袭，乌方称至少5人死亡"
         ],
-        "claims": [],
+        "claims": [
+          "泽连斯基指责俄方针对平民基础设施",
+          "俄方称被击中的是仓库设施",
+          "情报机构称朝鲜准备向俄增派多达5万人部队"
+        ],
         "analysis": [
-          "若飓风登陆将是1871年以来首次，反映此类天气事件在该地区历史上极为罕见，当地应对经验有限"
+          "军事专家认为朝鲜援军规模不足以根本改变战场走向"
         ]
       },
       "source_ids": [
-        "4decea22c080ff96"
+        "3ff68b8e3d4e3565",
+        "b51e68fd954775c3",
+        "36a86cbe43adfa9a",
+        "9b1f51f08290cf71"
       ],
       "sources": [
         {
-          "id": "4decea22c080ff96",
+          "id": "3ff68b8e3d4e3565",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Hawaii under state of emergency ahead of historic hurricane",
-          "summary": "A hurricane is forecast to hit the Big Island of Hawaii this weekend, bringing heavy rain and wind. Should it make landfall, Lala would be the first hurricane to hit the island since 1871.",
-          "url": "https://www.dw.com/en/hawaii-under-state-of-emergency-ahead-of-historic-hurricane/a-78382001?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-15T12:11:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "science",
-      "title": "NASA天文精选图：瑞典上空的英仙座流星雨",
-      "english_term": "APOD（每日天文图片，Astronomy Picture of the Day）",
-      "summary": "NASA发布的每日天文图片展示了在瑞典拍摄到的明亮英仙座流星雨影像，记录了这一年度天文观测热点。",
-      "script": "在科学快讯方面，NASA每日天文图片栏目今天发布的内容，是一张在瑞典拍摄到的明亮英仙座流星雨影像。英仙座流星雨是每年八月中旬固定上演的天象活动，源自斯威夫特·塔特尔彗星留下的尘埃颗粒，当地球运行轨道经过这些尘埃带时，颗粒高速进入大气层燃烧，形成大量肉眼可见的流星，也是北半球全年观测条件较好、最受欢迎的流星雨之一。\n\n这张由天文爱好者在瑞典拍摄的影像，捕捉到了多颗明亮的流星划过夜空的画面，展示了今年英仙座流星雨的观测效果。每日天文图片栏目由NASA与专业天文学家合作运营，长期为公众提供高质量的天文影像并附带专业解读，是天文科普领域的重要窗口。\n\n此外，NASA近期还发布了多项与人工智能技术结合的科研进展，包括利用机器学习工具识别罕见云层现象的“太空云观测”公民科学项目，以及借助人工智能预测太阳活动区、进而预警空间天气的COFFIES项目研究成果。这些项目共同反映出机器学习方法正在被广泛应用到天文观测数据处理和空间天气预报等基础科学领域，帮助研究人员从海量观测数据中提取有价值的模式。\n\n这类内容整体上属于科普性质的常规报道，不涉及重大突发新闻，但展示了天文观测与人工智能技术结合的持续进展。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "NASA为一级官方信源，直接发布内容，可信度高，属于常规科普性报道。",
-      "fact_status": {
-        "confirmed": [
-          "NASA每日天文图片栏目发布了瑞典拍摄的英仙座流星雨影像",
-          "NASA近期有多个项目采用机器学习方法辅助天文观测和空间天气预测"
-        ],
-        "claims": [],
-        "analysis": []
-      },
-      "source_ids": [
-        "9bb95cbb90adcdd7",
-        "5c8b16b5e5fbee42",
-        "97c453bb95b95b6d"
-      ],
-      "sources": [
-        {
-          "id": "9bb95cbb90adcdd7",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "science",
-          "title": "APOD: 2026 August 15 – Bright Perseids from Sweden",
-          "summary": "APOD Science APOD APOD: 2026 August 15 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Bright Perseids from […]",
-          "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-15-bright-perseids-from-sweden/",
-          "published_at": "2026-08-15T04:05:00+00:00",
+          "title": "Ukraine launches one of its largest attacks of war",
+          "summary": "Russia says hundreds of drones targeted Moscow overnight, with six fatalities in the capital and southern Rostov region. Five people were killed in strikes across Ukraine.",
+          "url": "https://www.dw.com/en/ukraine-launches-one-of-its-largest-attacks-of-war/a-78386779?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-16T10:59:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "5c8b16b5e5fbee42",
-          "source": "NASA",
-          "source_tier": 1,
+          "id": "b51e68fd954775c3",
+          "source": "NPR World",
+          "source_tier": 2,
           "source_region": "us",
           "language": "en",
-          "category_hint": "science",
-          "title": "Volunteer Develops Machine-Learning Tool to Identify Rare Clouds",
-          "summary": "Certain kinds of clouds are misbehaving – appearing more often and lower in the sky than they used to. To help identify the factors influencing these changes, scientists have asked people around the world with cameras to submit fresh images of these clouds as a part of the NASA-supported Space Cloud Watch project.",
-          "url": "https://science.nasa.gov/get-involved/citizen-science/volunteer-develops-machine-learning-tool-to-identify-rare-clouds/",
-          "published_at": "2026-08-14T17:35:46+00:00",
+          "category_hint": "world",
+          "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
+          "summary": "Ukraine launched hundreds of drones across Russia Sunday, killing at least six people in one of Kyiv's largest aerial attacks of the war.",
+          "url": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia",
+          "published_at": "2026-08-16T10:12:09+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "97c453bb95b95b6d",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
+          "id": "36a86cbe43adfa9a",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
           "language": "en",
-          "category_hint": "science",
-          "title": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
-          "summary": "As humanity looks to the Moon and stars for future exploration, predicting space weather — conditions in space primarily driven by the Sun — is more important than ever. Now, a team of astrophysicists and data scientists with NASA’s COFFIES (Consequence Of Fields and Flows in the Interior and Exterior of the Sun) has developed a […]",
-          "url": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
-          "published_at": "2026-08-14T17:00:23+00:00",
+          "category_hint": "world",
+          "title": "Five killed as Russia launches fresh aerial attacks across Ukraine",
+          "summary": "Ukrainian President Volodymyr Zelensky accuses Russia of targeting civilian infrastructure, while Moscow reports that a warehouse was hit.",
+          "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-16T10:52:08+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "9b1f51f08290cf71",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Troops from North Korea to boost Russia's Ukraine forces",
+          "summary": "Intelligence agencies report that North Korea is preparing to send up to 50,000 troops to Russia. But military experts doubt that this will make a fundamental difference in the course of Russia's war with Ukraine.",
+          "url": "https://www.dw.com/en/troops-from-north-korea-to-boost-russia-s-ukraine-forces/a-78385524?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-16T06:49:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -398,65 +328,160 @@
     },
     {
       "category": "world",
-      "title": "以色列空袭黎巴嫩南部致7人死亡",
+      "title": "以色列在黎巴嫩南部升级袭击，停火协议面临考验",
       "english_term": null,
-      "summary": "黎巴嫩总理表示，以色列对黎巴嫩南部安萨尔地区的空袭导致至少7人死亡，其中包括妇女和儿童。",
-      "script": "中东地区局势方面，据BBC报道，黎巴嫩总理表示，以色列对黎巴嫩南部安萨尔地区实施的一次空袭，已造成至少7人死亡，其中包括三名儿童和两名妇女。黎巴嫩国家媒体也对此进行了报道。\n\n已确认的事实是，空袭发生在黎巴嫩南部安萨尔地区，造成的死亡人数为7人，遇难者中包含未成年人和女性平民。这一事件是以色列与黎巴嫩真主党等武装力量长期紧张对峙背景下的又一次冲突事件。各方主张方面，黎巴嫩官方通过总理表态谴责了此次空袭造成的平民伤亡，但报道中并未提及以色列方面对此次行动目标和理由的官方说明。\n\n从分析角度看，黎巴嫩南部长期是以色列与真主党武装冲突的前沿地带，平民伤亡事件往往会引发地区局势的进一步紧张，也容易成为国际社会评判冲突各方行为是否符合国际人道法的焦点。由于目前公开信息中缺少以方对空袭目标性质的说明，无法判断此次行动的具体军事背景。后续需要关注以色列官方是否会对此次空袭作出回应，以及联合国等国际机构是否介入调查平民伤亡情况。",
-      "duration_seconds": 105,
+      "summary": "尽管美国斡旋达成的停火协议已延长，以色列近期在黎巴嫩南部升级空袭，一天内造成至少11人死亡。",
+      "script": "中东局势方面，以色列在黎巴嫩南部的军事行动出现明显升级。报道显示，尽管今年六月由美国斡旋达成的停火协议已经延长，以色列近期在黎巴嫩南部的袭击一天之内就造成至少11人死亡。已经确认的事实是，停火协议目前名义上仍然有效，但以色列的军事行动并未因此停止，反而出现了升级迹象。至于以色列升级袭击的具体原因，目前存在不同解读：以方通常将此类行动解释为针对特定武装目标的定点打击，是维护自身安全的必要措施；而黎巴嫩方面及地区观察人士则质疑，在停火协议名义上仍然生效的情况下，如此高强度的袭击是否符合协议精神，甚至认为这可能是在事实上架空停火协议。分析层面来看，中东多个停火协议在过去都出现过“纸面停火、实际交火”的情况，这次以黎边境的局势演变某种程度上延续了这一模式，反映出地区冲突的复杂性远超一纸协议所能约束的范围。对于地区民众而言，这意味着即便协议存在，实际的安全风险并未真正消除。后续需要关注美国作为斡旋方是否会对以色列的升级行动做出回应或施压，以及停火协议是否会因此名存实亡。",
+      "duration_seconds": 110,
       "is_unverified": false,
-      "confidence_note": "消息来自BBC对黎巴嫩总理表态及国家媒体报道的转述，死亡人数有官方信源支持，但以色列方面回应缺失。",
+      "confidence_note": "事件及伤亡数字来自二级信源Al Jazeera报道，属于该媒体独立报道内容。",
       "fact_status": {
         "confirmed": [
-          "以色列对黎巴嫩南部安萨尔地区实施空袭",
-          "空袭造成至少7人死亡，包含儿童和妇女"
+          "以色列在黎巴嫩南部发动袭击，一天内造成至少11人死亡",
+          "美国斡旋的停火协议已在六月延长"
         ],
         "claims": [
-          "黎巴嫩总理谴责此次空袭"
+          "以方称打击行动针对特定武装目标",
+          "黎方及地区观察人士质疑袭击是否违反停火协议精神"
         ],
         "analysis": [
-          "缺少以色列官方对行动目标的说明，难以判断军事背景细节"
+          "中东多起停火协议历史上都存在名义生效但实际冲突持续的模式"
         ]
       },
       "source_ids": [
-        "e5af1d4c637a1835"
+        "02975c2930b2a75b"
       ],
       "sources": [
         {
-          "id": "e5af1d4c637a1835",
+          "id": "02975c2930b2a75b",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Why has Israel escalated attacks in southern Lebanon despite ceasefire?",
+          "summary": "At least 11 people killed in one day of Israeli attacks despite truce extension brokered by US in June.",
+          "url": "https://www.aljazeera.com/news/2026/8/16/why-has-israel-escalated-attacks-in-southern-lebanon-despite-ceasefire?traffic_source=rss",
+          "published_at": "2026-08-16T10:59:10+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "波兰旅游巴士匈牙利高速翻车，至少12人遇难",
+      "english_term": null,
+      "summary": "一辆载有波兰朝圣团的旅游巴士在匈牙利高速公路上发生翻车事故，造成至少12人死亡，数十人重伤，司机已被警方逮捕。",
+      "script": "一起重大交通事故发生在欧洲。一辆载有波兰朝圣团乘客的旅游巴士，周日凌晨在匈牙利一条高速公路上偏离车道后翻车，事故造成至少12人死亡，另有数十人受重伤。据媒体报道，当地警方已经逮捕了这辆巴士的司机，目前案件仍在进一步调查中。已经确认的事实包括：事故发生的时间是周日凌晨，遇难人数至少12人，肇事司机已被警方控制。关于事故发生的具体原因，比如是否涉及超速、疲劳驾驶或车辆机械故障，目前报道中尚未给出明确结论，仍有待警方进一步调查公布。这起事故也再次将欧洲跨境长途大巴的行车安全问题带回公众视野，尤其是宗教朝圣团等长途包车出行，往往涉及夜间行车和较长的连续驾驶时间，这类风险因素在类似事故中并不少见。对于遇难者家属和幸存者而言，这无疑是一起令人痛心的悲剧。后续需要关注匈牙利警方公布的事故调查结果，包括具体事故原因认定以及是否会对涉事运输公司提出问责。",
+      "duration_seconds": 95,
+      "is_unverified": false,
+      "confidence_note": "事故由BBC与DW两个独立二级来源交叉确认，死亡人数及司机被捕信息一致。",
+      "fact_status": {
+        "confirmed": [
+          "波兰旅游巴士在匈牙利高速公路翻车，至少12人死亡",
+          "司机已被警方逮捕"
+        ],
+        "claims": [],
+        "analysis": [
+          "事故具体原因尚待警方调查结论，长途夜间行车风险值得关注"
+        ]
+      },
+      "source_ids": [
+        "360726823f4c3c13",
+        "e7df2bc3ff00510e"
+      ],
+      "sources": [
+        {
+          "id": "360726823f4c3c13",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Seven killed in Israeli strike on southern Lebanon, country's PM says",
-          "summary": "Among those killed in the strike on Ansar included three children and two women, state media reports.",
-          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-15T11:24:24+00:00",
+          "title": "Twelve killed as Polish bus veers off Hungarian motorway",
+          "summary": "Dozens more are seriously injured after the tourist bus overturned in the early hours of Sunday morning.",
+          "url": "https://www.bbc.co.uk/news/articles/ckg4424zd7go?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-16T10:53:50+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "e7df2bc3ff00510e",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Bus crash in Hungary kills at least 12",
+          "summary": "Police say they have arrested the driver of a bus that crashed in Hungary, killing at least 12 people. The bus was carrying Polish pilgrims, media report.",
+          "url": "https://www.dw.com/en/bus-crash-in-hungary-kills-at-least-12/a-78387230?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-16T09:47:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "title": "马斯克投票权逼近20%，特斯拉万亿市值目标与薪酬方案受关注",
+      "english_term": "voting power（投票权）",
+      "summary": "随着特斯拉股价与马斯克持股比例上升，其在公司的投票权已接近20%，市场关注这与创纪录薪酬方案及8.5万亿美元市值目标之间的关联。",
+      "script": "来看一则财经动态。据报道，特斯拉创始人马斯克在公司的投票权正在逼近20%，这一变化正好处于市场关注其创纪录薪酬方案，以及所谓8.5万亿美元市值目标的敏感节点上。所谓投票权，指的是股东按持股比例在公司重大决策中拥有的表决份额，投票权越高，创始人对公司战略方向、董事会构成等关键事项的掌控力就越强。报道将这一持股比例变化与马斯克的薪酬方案联系在一起，意味着这笔薪酬方案的设计很可能包含大量股票或期权激励，一旦相关业绩目标达成，将进一步推高马斯克的持股比例和投票权。这类超大规模的高管薪酬绑定股价表现的设计，在美股市场并不罕见，但像特斯拉这样把目标设定到数万亿美元市值级别，仍然是资本市场里较为极端的案例，其背后逻辑是通过极高的业绩门槛，将高管利益与公司长期市值增长深度捆绑。对投资者而言，需要关注的是这类薪酬方案对公司治理结构的影响，尤其是创始人投票权持续上升是否会削弱其他股东对公司决策的制衡能力。目前公开报道并未提供投票权具体百分比的精确数值和薪酬方案的完整条款细节，相关信息更多是市场层面的观察和推算。后续需要关注特斯拉股东大会或监管文件中是否会披露薪酬方案的具体触发条件和马斯克实际投票权变化的确切数据。",
+      "duration_seconds": 130,
+      "is_unverified": true,
+      "confidence_note": "来源为单一财经类三级媒体报道，具体数值和条款细节有限，标记为未核实，需等待权威财报或监管文件确认。",
+      "fact_status": {
+        "confirmed": [
+          "报道称马斯克在特斯拉的投票权正接近20%"
+        ],
+        "claims": [
+          "该变化与创纪录薪酬方案及8.5万亿美元市值目标相关联"
+        ],
+        "analysis": [
+          "高管薪酬与股价及市值深度绑定的设计可能影响公司治理平衡"
+        ]
+      },
+      "source_ids": [
+        "4ca5924246c1a54a"
+      ],
+      "sources": [
+        {
+          "id": "4ca5924246c1a54a",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Musk Nears 20% Tesla Voting Power as $8.5 Trillion Market Cap Target Looms Over Record Pay Deal - finance.biggo.com",
+          "summary": "Musk Nears 20% Tesla Voting Power as $8.5 Trillion Market Cap Target Looms Over Record Pay Deal finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1tOHdZdzRTZlZ0M1RuM2RUQ3JlRDFpYlk2MGNBWjNnWFBhWV9rbkxFOXhaQzhzN09SSFEwSFRybmlQdm1kNDNVcllyZ2ZXUkQxVlZMeEZsY0pJNEh0SEx0UDA4WHNHaDBoWU82VHJOSHF5Wm9GRmc?oc=5",
+          "published_at": "2026-08-16T10:35:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的早报先说到这里。印尼强震的伤亡数字和夏威夷飓风的实际路径都还在发展中，机器人产业方面的订单回暖趋势和资本市场新路径也需要更多数据验证。晶球电台明天将继续跟进这些进展。",
-  "editor_note": "本期机器人板块共选取4条，时长占比约45%，其中两条（表达型机器人信任研究、Neros融资）因仅有单一三级或二级来源、信息细节有限，标记为未经充分验证；订单增长报道同样标记为未经证实的趋势性消息。国际部分优先覆盖印尼地震、中东冲突及朝鲜半岛外交动态等重大事件；因候选中缺少金融、体育、娱乐领域的高质量重要信息，未强行凑数，转而在科学类别中整合NASA相关的多条一级来源报道。",
+  "closing": "今天的早报先到这里。人形机器人从舞台走向真实救援场景的转变、手术机器人在临床场景的持续渗透，以及美伊、俄乌两条战线的紧张态势，都值得继续关注后续的官方数据与调查结论。",
+  "editor_note": "本期机器人类候选多来自三级聚合搜索源（Global Robotics News Search），单一来源信息密度有限，故对相关事件均标记为未核实并说明证据局限；已优先选择The Robot Report等二级专业源以平衡来源结构。国际政治部分以BBC、DW、NPR、Al Jazeera等二级独立信源交叉确认为主。因候选中缺乏高质量的机器人学术论文类信息，本期机器人板块以产业动态为主，未能覆盖强化学习、仿真等学术方向，建议后续补充相关来源。全稿事件数为9个，机器人类时长占比约45%。",
   "model": "claude-sonnet-5",
   "usage": {
-    "input_tokens": 8960,
-    "output_tokens": 9273,
-    "total_tokens": 18233
+    "input_tokens": 7084,
+    "output_tokens": 9264,
+    "total_tokens": 16348
   },
-  "generated_at": "2026-08-15T12:14:03+00:00",
-  "window_start": "2026-08-14T12:14:03+00:00",
-  "candidate_count": 182,
+  "generated_at": "2026-08-16T12:12:30+00:00",
+  "window_start": "2026-08-15T12:12:30+00:00",
+  "candidate_count": 158,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "quality": {
-    "duration_seconds": 1230,
-    "script_characters": 4869,
-    "topic_duration_share": 0.504,
+    "duration_seconds": 1180,
+    "script_characters": 4620,
+    "topic_duration_share": 0.487,
     "passed": true,
     "normal_target_met": true,
     "topic_source_count": 2,
