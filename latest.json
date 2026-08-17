@@ -1,62 +1,62 @@
 {
-  "title": "晶球电台早报：世界人形机器人运动会开赛，伊朗战争阴影下的经济困局",
-  "subtitle": "23支人形机器人队伍挑战真实救援场景，乌克兰对俄发动大规模无人机袭击，霍尔木兹海峡争议再起",
+  "title": "晶球电台早报：宇树发布跳跃人形机器人，中东斡旋进入关键节点",
+  "subtitle": "机器人产业与学术双线扫描，加上一夜之间的国际大事",
   "highlights": [
-    "第二届世界人形机器人运动会（WHRG）救援项目开赛，23支队伍在真实复杂场景中较量",
-    "特朗普扬言将霍尔木兹海峡变为美国领土，法律与地缘政治争议凸显",
-    "乌克兰发动战争以来最大规模无人机袭击之一，俄乌双方均有人员伤亡"
+    "宇树科技发布新一代人形机器人，展示垂直跳跃2米等超越人类极限的运动能力",
+    "库什纳同日会见内塔尼亚胡与哈马斯，加沙停火路线图谈判进入密集斡旋期",
+    "arXiv机器人学部门集中放出多篇论文，涵盖世界模型、时序逻辑引导与混合交通强化学习"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "第二届世界人形机器人运动会：救援项目让机器人告别“只会跳舞”",
-      "english_term": "WHRG（World Humanoid Robot Games，世界人形机器人运动会）",
-      "summary": "23支人形机器人队伍在第二届世界人形机器人运动会的救援项目中展开较量，任务复杂度远超此前的舞蹈表演类比赛。",
-      "script": "先来看机器人产业的一件大事。第二届世界人形机器人运动会，英文缩写WHRG，本届比赛新增了救援任务项目，一共有23支人形机器人队伍参赛。和过去大家印象里机器人跳舞、走秀式的表演不同，这次的赛题设置更贴近真实灾难场景，比如复杂地形穿越、目标物体的识别与搬运、还有需要多机协作完成的救援模拟任务。报道特别提到，这类任务对机器人提出的挑战，远远超出了此前那种编排好动作、靠精确重复来完成的舞蹈类比赛。原因在于，救援场景里地形、光照、障碍物的摆放都无法提前预演，机器人必须依靠自身的感知系统实时判断脚下路况，用运动控制算法动态调整步态，防止摔倒或卡在障碍物之间。这对人形机器人的整体系统集成能力是一次综合考验，包括双足或类人下肢的平衡控制、机械臂的精细操作、以及多模态感知融合，也就是把视觉、力觉、惯性测量等不同传感器信息整合起来做决策。业内普遍认为，赛事组织者把比赛内容从表演转向任务导向型挑战，本身反映了人形机器人行业正试图摆脱“花架子”的质疑，转而证明自己在非结构化环境下的实际作业能力。与此同时，本届赛事还配套推出了所谓“机器人之家”的展示区域，用于集中呈现参赛队伍的技术方案和机器人的日常运行状态，方便外界近距离观察这些机器人在非比赛时段的表现是否稳定。需要说明的是，目前关于具体名次、任务完成率等细节，公开报道信息还比较有限，赛事的官方技术评测报告尚未发布。后续需要等待赛事组织方公布详细的技术评分与各队伍的任务完成数据，才能更准确评估当前人形机器人在真实救援场景下的实际水平。",
-      "duration_seconds": 165,
+      "title": "宇树发布新款人形机器人，垂直跳跃达2米",
+      "english_term": "humanoid robot（人形机器人）",
+      "summary": "宇树科技公开了一款新的人形机器人，多家媒体报道其具备跳跃约2米高度等超出人类身体极限的运动表现。",
+      "script": "先看机器人产业这边的重头新闻。中国机器人公司宇树科技发布了一款新的人形机器人，多家媒体用“超越人类极限”来形容它的运动能力，其中最引人关注的一项数据是垂直跳跃高度达到约2米。这个数字如果属实，已经明显超过普通成年人的垂直起跳能力，甚至超过不少专业运动员。从技术角度看，人形机器人要完成大幅度的垂直跳跃，需要在关节执行器的峰值功率、机身质量分布、落地缓冲控制这几个环节同时做好配合。跳跃瞬间对腿部电机的扭矩输出要求很高，而落地时又要通过全身姿态调整和关节柔顺控制来吸收冲击力，避免结构损坏，这背后涉及的是全身动力学建模和强化学习训练出的运动策略的结合。宇树此前已经凭借四足机器狗和早期人形机器人在全球市场积累了知名度，价格相对友好的产品策略也让它在人形机器人这个还处于早期阶段的赛道里占据了比较靠前的位置。这次新品如果延续了此前的产品思路，很可能是在保持相对可控成本的同时，用更极限的运动表演来展示公司在运动控制上的技术积累，这也是目前人形机器人行业内几家头部公司常用的展示手段，包括此前波士顿动力和特斯拉机器人也都用类似的极限动作演示来证明技术实力。不过需要注意的是，目前关于这款机器人的公开信息主要来自科技媒体的报道转述，具体的测试环境、跳跃负载状态、动作的可重复性等细节还有待官方更完整的技术说明或者第三方评测来验证。跳跃这类高动态动作往往对特定测试条件比较敏感，同一款机器人在实验室理想地面和实际复杂场景下的表现可能会有明显差距。后续需要等待宇树官方发布更详细的技术参数和演示视频的完整版本，以及是否会有独立机构对这一跳跃能力进行复现测试。",
+      "duration_seconds": 175,
       "is_unverified": true,
-      "confidence_note": "该消息来自单一三级来源，属于产业动态热点线索，具体赛事技术细节和结果尚未有权威信源交叉确认，标记为未核实。",
+      "confidence_note": "该消息来自科技媒体转述报道，尚缺乏官方一手技术白皮书或独立测评佐证具体跳跃高度等参数，故标记为未完全验证。",
       "fact_status": {
         "confirmed": [
-          "第二届世界人形机器人运动会设有救援项目，23支人形机器人队伍参赛"
+          "宇树科技发布了一款新的人形机器人产品"
         ],
         "claims": [
-          "赛事任务复杂度显著超过此前的舞蹈类表演项目"
+          "有媒体报道称该机器人可实现约2米垂直跳跃，被称为超越人类极限的运动能力"
         ],
         "analysis": [
-          "赛事设计转向任务导向，反映行业希望证明人形机器人非结构化环境作业能力"
+          "跳跃动作对执行器峰值功率和落地缓冲控制要求较高，是当前人形机器人运动控制技术的典型展示方式"
         ]
       },
       "source_ids": [
-        "ed760efd80338590",
-        "0fdca7dd23f02b7d"
+        "9acadeff8464fbfc",
+        "c1a1c6c0ef4839cd"
       ],
       "sources": [
         {
-          "id": "ed760efd80338590",
+          "id": "9acadeff8464fbfc",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "23 humanoid robot teams compete in rescue missions at 2nd WHRG, facing real-world complexity beyond dancing in coordination - Global Times",
-          "summary": "23 humanoid robot teams compete in rescue missions at 2nd WHRG, facing real-world complexity beyond dancing in coordination Global Times",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE91MUFhTDVnRWRYb1NCOVpXUXZjZ0drbnVuNUFUWnloSXZmaF9ralJfZUlVUU9fOTZlZ2IzdWZENll6OGhYRzZVWlpVaEt0dVdXRHI0WFVTUXR5LWdaanNwQ1dR?oc=5",
-          "published_at": "2026-08-16T11:46:00+00:00",
+          "title": "Unitree Robotics unveils a robot that pushes beyond human limits - modernghana.com",
+          "summary": "Unitree Robotics unveils a robot that pushes beyond human limits modernghana.com",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBpUVd6eUotTW9wOWNPLWtBRG9ldkMzVmVTVlJFUTlIa25Ud3FVT3FwbEdSU0U0YXdVYWtTd2VTYmlSbWM4T0U2aGRwd1V5bEFOTTYzT25kUzhiWTllSGctQ9IBXEFVX3lxTFBFRWdUNktNY3FiX2NlOWxxQ0FNd3k4QWxUSmNULUFVanRTcmM2N2FxQnhBNkJHNW1SRVRKREt5S2hEV0FxQjFCMnI2T1pWV2VoYlBtSGhibDktVlJf?oc=5",
+          "published_at": "2026-08-17T11:59:11+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "0fdca7dd23f02b7d",
+          "id": "c1a1c6c0ef4839cd",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "'Robot home' unveiled to support second World Humanoid Robot Games - 巴士的報",
-          "summary": "'Robot home' unveiled to support second World Humanoid Robot Games 巴士的報",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNDVLOTJLNnFvdXROWUthOHBiN0dJWlpiVS16Nm5fc0ZSWHFmakRVTm03LXM2ZXZZZVFTTFJTSkkxdU1pUG9WU3Ria0lYNlhsWHA4S2RNWjJ6M1Vzb085bkhQQkVSTzdabU1HSHNIYUdZZWZkeld4SlJVRjlsZy0zMUNWcWF6MGxrWmFVYTNPVFJoS0hSQ1F1SE54NWsxM1hUZlA3Q1hqbkRBWUVFRlpsUzgzeW4zLU0?oc=5",
-          "published_at": "2026-08-16T09:57:13+00:00",
+          "title": "Unitree Robotics unveils new humanoid robot 'Superman' that can jump 2m high - The Standard (HK)",
+          "summary": "Unitree Robotics unveils new humanoid robot 'Superman' that can jump 2m high The Standard (HK)",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVXlHYzBfR2RfeUlGWG9XbGFlWFpYcy0tVTZsUmx0Q2FUeDk3Zm41ZFlmSy13UXlLVldicjFnV2tjck8xVVR6WVVZRllvWGVzQWZPcDV3eGc3M3FTaWlXdEptV1lBR3FVSHBwZEo5OGtTMThFOXRVZEtKU2pKcDBqS0xlak9zSmdDa3hpWjJkVDVOenFURVpYX21yQU1kYkJWakl5dlpFWUtsRUJ0Yl9UWDBrUEIyeTJFWE4tMzgycjZkNXdnOTRvZEtnOA?oc=5",
+          "published_at": "2026-08-17T11:36:58+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -64,119 +64,164 @@
     },
     {
       "category": "robotics",
-      "title": "手术机器人助力患者更快康复，医疗机器人应用持续落地",
+      "title": "arXiv集中放出多篇机器人学论文：世界模型、时序逻辑与混合交通强化学习",
+      "english_term": "world model（世界模型）、Linear Temporal Logic（线性时序逻辑）",
+      "summary": "arXiv机器人学栏目同日公开多篇新论文，分别聚焦操作策略的时序逻辑引导、物体目标导航的图结构建模、混合交通中的强化学习控制以及物理AI系统的故障诊断。",
+      "script": "再看学术这条线，今天arXiv的机器人学分类一口气挂出了好几篇新论文，覆盖面挺广，我们挑几个比较有代表性的方向说一说。第一篇叫hint平方，研究的是怎么用分层世界模型在推理阶段引导机器人操作策略满足时序逻辑约束。简单说，现在大规模语言条件策略虽然能听懂比较复杂的指令，但在处理带有先后顺序和安全约束的非马尔可夫任务时还是容易出错，比如“先关掉阀门再打开盖子，且过程中不能碰到易碎品”这种带顺序和禁止条件的指令。这篇论文引入线性时序逻辑来显式表达这类复杂约束，再通过分层世界模型在推理时对候选动作序列进行筛选，试图在不重新训练底层策略的前提下提升任务成功率和安全性。第二篇是关于物体目标导航的Graph-MambaNav，它把物体之间的空间关系用图结构建模，并引入Mamba这种状态空间模型来控制信息传播的顺序，解决以往图神经网络方法里节点顺序不敏感、难以体现目标相关重要性的问题，目标是让机器人在陌生环境里更高效地根据物体关系推理出目标可能所在的位置。第三篇聚焦自动驾驶在混合交通场景下的强化学习控制，论文指出当前基于物理先验的强化学习模型难以捕捉周围车辆的潜在意图和多样化驾驶风格，而且周围车辆的突然变道等行为会带来非平稳性，导致长尾安全场景训练不充分，作者提出了知识和数据双驱动的框架来试图缓解这些问题。另外还有一篇关于物理AI系统故障诊断的Onto-EV-WM，尝试给世界模型加上本体论支撑的诊断层，用来更明确地记录任务失败的原因和对应的修复机制，为闭环自我修复提供更结构化的信息。这几篇论文目前都还是预印本，没有经过同行评审，具体的实验规模、对比基线是否充分、是否能在真实机器人上复现，都需要等待后续评审或者作者补充更完整的实验细节。",
+      "duration_seconds": 185,
+      "is_unverified": true,
+      "confidence_note": "均为arXiv当日发布的预印本论文，尚未经过同行评审，实验结论和方法有效性有待学术界进一步检验。",
+      "fact_status": {
+        "confirmed": [
+          "arXiv机器人学分类在同一天发布了多篇涉及世界模型、导航、强化学习和故障诊断的新论文"
+        ],
+        "claims": [
+          "论文作者主张其方法在时序逻辑引导、目标导航效率和混合交通安全性等方面有所改进"
+        ],
+        "analysis": [
+          "这些工作反映出当前机器人学术界在世界模型与语言条件策略结合、复杂约束满足以及长尾安全场景处理上的持续探索"
+        ]
+      },
+      "source_ids": [
+        "c35f626f29155a5d",
+        "9650922224a56970",
+        "b1553011fc84e172",
+        "ee8a07f6a7861c46"
+      ],
+      "sources": [
+        {
+          "id": "c35f626f29155a5d",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "hint$^2$: Hierarchical World Models for Inference-Time Temporal Logic Guidance",
+          "summary": "arXiv:2608.13678v1 Announce Type: new Abstract: A central goal of robot learning is to enable robots to execute rich instructions specified at runtime. Large-scale language-conditioned policies have made substantial progress toward this goal, yet still struggle with temporal structure and safety constraints. Linear Temporal Logic (LTL) provides a powerful language to express complex, non-Markovian instructions. However, guiding learned manipulation policies toward LTL satisfaction remains challenging because modern policies generate short-horizon action chunks and replan in closed loop, while almost all LTL specifications are evaluated over long-horizon trajectories. In this paper, we introduce hint$^2$, a method for guiding short-horizon policies toward satisfying complex LTL specifications at inference time using hierarchical world models. Our key idea is to derive two separate guidance objectives using each world model's abstraction level. A high-level model predicts future action-induced transitions in task-relevant atomic propositions to guide progress through the LTL automaton, while a low-level dynamics model predicts immediate state evolution for accurate local safety guida",
+          "url": "https://arxiv.org/abs/2608.13678",
+          "published_at": "2026-08-17T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "9650922224a56970",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Graph-MambaNav: Spatial-Temporal Graph Mamba Leveraging Object-Relation Knowledge for Object-Goal Navigation",
+          "summary": "arXiv:2608.13723v1 Announce Type: new Abstract: Object-goal navigation requires an agent to reason over object relationships and prioritize target-relevant objects for efficient decision making in unseen environments. While existing graph-based methods incorporate target-awareness at the feature or attention level, they remain permutation-invariant and lack an explicit mechanism to control information propagation order, limiting their ability to model target-dependent importance and long-range dependencies. In contrast, Graph-Mamba highlights that node prioritization through sequence ordering is critical for effective global reasoning. In this work, we investigate the node prioritization mechanism in Graph-Mamba and study its role in object navigation. We propose Graph-MambaNav, a target-aware spatial-temporal graph encoding framework that introduces a heuristic ordering over objects based on their relevance to the target, allowing more informative objects to be processed later to aggregate richer context. Both node ordering and edge weights are initialized from LLM-derived commonsense object relationships, providing a unified prior for structured reasoning. A spatial module integr",
+          "url": "https://arxiv.org/abs/2608.13723",
+          "published_at": "2026-08-17T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "b1553011fc84e172",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Knowledge-Data-Dual-Driven Reinforcement Learning for Autonomous Vehicle Control in Mixed Traffic",
+          "summary": "arXiv:2608.13878v1 Announce Type: new Abstract: In mixed traffic, decision-making for autonomous vehicles (AVs) confronts three interrelated challenges. First, physics-based priors incorporated into reinforcement learning (RL) models fail to capture latent interactive vehicle intentions and diverse driver behaviors, limiting the proactive reasoning capabilities. Second, abrupt maneuvers by surrounding vehicles cause non-stationarity, leaving long-tail safety events under-explored. Third, hybrid action spaces destabilize unified RL training due to the different temporal scales of continuous car-following and discrete lane-changing maneuvers. To address these issues, we propose Knowledge-Data Dual-driven Reinforcement Learning (KDDRL). First, a conditional deep generative model synthesizes intention-aware future trajectories, converting passive perception into proactive predictive states. Second, a knowledge-data dual-driven paradigm operates on these predictive states, fusing probabilistic data-driven insights with physical constraints to guide safe exploration through safety-critical scenarios. Third, a coupling module compresses both intention-aware trajectories and physical const",
+          "url": "https://arxiv.org/abs/2608.13878",
+          "published_at": "2026-08-17T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "ee8a07f6a7861c46",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Ontology-Grounded World Models for Failure Diagnosis and Closed-Loop Repair in Physical AI Systems",
+          "summary": "arXiv:2608.13901v1 Announce Type: new Abstract: EV-WM represents candidate quality with feature and event scores, but these scores do not explicitly record an unmet task predicate, a route label for an available correction mechanism, or a post-correction acceptance result. We present Onto-EV-WM, an ontology-grounded diagnosis and verification-gated correction interface layered above EV-WM rather than a replacement world-model architecture. The implemented task-local TBox defines entity types, predicate signatures, and constraints; source-specific grounding maps predicted or simulator-observed states to task ABoxes; and deterministic rules retain each missing predicate and its arguments when assigning a route label. Learned or heuristic proposers remain separate from this symbolic interface; native task predicates determine acceptance, and the bounded protocol determines whether a failed verification is retried. In the aligned PointMaze evaluation, EV-WM and Onto-EV-WM both report 94% success, with mean final-state distances of 0.90573 and 0.61177, respectively; the separately budgeted search reaches 100% success. On LIBERO-Goal, the ontology represents failed task conditions as typ",
+          "url": "https://arxiv.org/abs/2608.13901",
+          "published_at": "2026-08-17T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "AiMOGA服务机器人全球交付突破2000台，落地马来西亚多个汽车展厅",
       "english_term": null,
-      "summary": "一家医院报告使用手术机器人后患者术后恢复速度明显加快，反映医疗机器人在临床场景的应用正在扩大。",
-      "script": "医疗机器人领域也有进展值得关注。有医院报告称，引入手术机器人辅助操作之后，患者的术后恢复速度明显加快。手术机器人通常由医生通过控制台远程操作机械臂完成精细手术动作，机械臂末端的器械可以过滤掉人手的自然震颤，并且能够以更小的切口完成手术，这意味着创伤更小、出血更少，患者术后的疼痛感和感染风险也随之降低，从而缩短住院和恢复周期。这类系统在过去十几年里已经在泌尿外科、妇科、普外科等多个专科逐步普及，核心价值在于把医生的经验和判断，通过精确的机械执行放大到传统人手难以企及的精细程度。从产业角度看，手术机器人是医疗机器人里商业化程度最高的细分领域之一，其市场逻辑清晰：医院愿意为更好的手术效果和更快的病床周转率买单，这也是相关企业持续加大研发投入、扩展手术适应症范围的动力所在。不过报道本身信息比较简略，没有给出具体医院名称、机器人型号、样本量或对照组数据，因此这更像是一则反映行业趋势的案例报道，而非具备统计学意义的临床研究结论。手术机器人对康复速度的实际改善程度，通常需要更大样本、随机对照的临床研究来验证，单一案例报道的说服力有限。后续需要等待相关医院或厂商公布更详细的临床数据，包括具体的康复时间对比和并发症发生率，才能对这一结论做出更严谨的判断。",
-      "duration_seconds": 135,
-      "is_unverified": true,
-      "confidence_note": "来源为单一三级媒体报道，缺乏具体医院、样本量和对照数据，结论证据强度有限。",
-      "fact_status": {
-        "confirmed": [
-          "有医院报告手术机器人辅助手术后患者恢复速度加快"
-        ],
-        "claims": [
-          "手术机器人整体提升了患者康复效率"
-        ],
-        "analysis": [
-          "该结论需要更大规模临床研究支持，目前案例报道证据强度有限"
-        ]
-      },
-      "source_ids": [
-        "817d513f0cf75355"
-      ],
-      "sources": [
-        {
-          "id": "817d513f0cf75355",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Surgical robot helps hospital patients recover faster - Ludlow Advertiser",
-          "summary": "Surgical robot helps hospital patients recover faster Ludlow Advertiser",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZlRvdi11aEZIT3doekw3UmJWOFN1cDl1dHFqdXhWZ1dVZmNaMmRfQS0tRUI1eVlPT0pfWDlHR29lWTdUbGQ5WV8xcDBXanprSlN2M1NBSXVJNXpudHlEUEQ5bmFkLThweWhxdk03enpBNDBERUQ0YmpQNFUxZVVjZnVYVVRLczg3VTJsQ1BQLUV5MUJEY0JvUXk4YjEyUzdjUy1Bb3RtQ2FyQkE?oc=5",
-          "published_at": "2026-08-16T11:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "迪士尼用AI机器人让动画角色“走进现实”",
-      "english_term": "AI robot（人工智能驱动的实体机器人）",
-      "summary": "迪士尼展示了利用AI机器人技术让经典动画角色以实体机器人形式出现的最新尝试，服务于主题乐园的沉浸式体验。",
-      "script": "娱乐与机器人技术结合的一个案例来自迪士尼。据报道，迪士尼正在利用AI机器人技术，把经典动画角色变成能够在现实中活动的实体机器人，用于主题乐园的沉浸式体验升级。这类角色机器人通常依赖于多轴驱动的机械结构模拟拟人或拟动物的动作，配合语音合成、表情驱动和视觉识别等AI技术，让机器人能够对游客的靠近、声音甚至简单互动做出实时反应，而不再是过去那种按固定程序播放动作的机械装置。从技术角度看，这类应用对机器人的运动自然度要求很高，因为观众对动画角色动作的“违和感”非常敏感，哪怕是细微的步态或表情不自然都会破坏沉浸感，这也倒逼相关团队在执行器响应速度、关节自由度设计和动作规划算法上做精细打磨。对迪士尼这样的主题乐园运营方来说，实体角色机器人是提升游客体验、增强IP变现能力的重要手段，机器人技术的成熟度直接决定了乐园互动项目的天花板。这也是具身智能技术从工业和家庭场景之外，向娱乐服务场景延伸的一个典型例子。不过目前公开报道对具体技术细节，比如驱动方案、传感器配置、量产计划等信息披露有限，报道本身更偏向消息性质。后续需要关注迪士尼是否会公布更具体的技术白皮书或量产部署计划，以及这类角色机器人在实际乐园运营中的稳定性和游客反馈如何。",
-      "duration_seconds": 130,
-      "is_unverified": true,
-      "confidence_note": "单一三级来源报道，技术细节披露有限，标记为未核实的产业动态线索。",
-      "fact_status": {
-        "confirmed": [
-          "迪士尼在使用AI机器人技术让动画角色以实体形式呈现"
-        ],
-        "claims": [
-          "该技术将用于提升主题乐园的沉浸式体验"
-        ],
-        "analysis": [
-          "角色机器人对动作自然度要求高，是具身智能向娱乐场景延伸的案例"
-        ]
-      },
-      "source_ids": [
-        "3a9eb86b2bb3f855"
-      ],
-      "sources": [
-        {
-          "id": "3a9eb86b2bb3f855",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Disney Brings Animated Characters to Life with AI Robots - 조선일보",
-          "summary": "Disney Brings Animated Characters to Life with AI Robots 조선일보",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY09KUHNHMnhVQWdLeHBrUGVyMXBsakQ5UVZuanRrVWpGUzZBajlaVmp5cndvVFlfS2VTSEF4dTY3MHZPbXM1UF93OWhRVUVPcVZBMEtDY1U3NjNKeWtzbUw4bmdhZXBwbUdNZGoyMDJUelBzamJLLVozMHZNeGYybnhKNGh4MFlx?oc=5",
-          "published_at": "2026-08-16T11:08:47+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "机器人若不能自然沟通将难被广泛采用，行业专家谈听觉感知短板",
-      "english_term": "acoustic perception（声学感知）",
-      "summary": "有声学技术公司高管撰文指出，机器人开发者不应忽视听觉能力，缺乏自然沟通能力的机器人将难以被市场接受。",
-      "script": "最后看一则来自行业媒体的观点性文章。一家专注声学技术的公司联合创始人兼首席运营官撰文指出，机器人开发者不能忽视听觉能力在人机交互中的重要性，缺乏自然沟通能力的机器人将很难被真正采用。文章的核心论点是，目前很多机器人研发把资源集中在视觉感知和运动控制上，但对声学感知，也就是机器人如何听清、听懂、并合理回应周围声音环境的能力投入相对不足。这背后涉及的技术包括麦克风阵列的空间拾音、噪声环境下的语音识别、以及房间声学建模，也就是让机器人理解声音在特定空间内反射和衰减的物理特性，从而更准确地定位说话者方向、过滤背景噪声。文章作者认为，如果机器人在嘈杂的家庭或公共环境里无法准确听清指令、或者反应延迟明显，用户体验会大打折扣，进而影响机器人产品的市场接受度，这一点对家庭服务机器人和人形机器人尤其关键，因为这类机器人被期待具备类似人类的自然交互能力。这一观点呼应了当前具身智能行业的一个普遍趋势：机器人从单纯完成任务，正在向能够自然理解和响应人类意图的方向演进，听觉只是其中容易被低估的一环。需要说明的是，这是一篇行业评论文章，代表的是作者及其所在公司的商业立场和技术观点，并非独立的实验数据或第三方评测结果。后续需要关注是否有更多机器人厂商在产品中加强声学感知模块的投入，以及是否会有第三方评测验证听觉能力对机器人采用率的实际影响程度。",
-      "duration_seconds": 145,
+      "summary": "服务机器人公司AiMOGA Robotics宣布全球交付量突破2000台，其机器人将进入奇瑞、OMODA与JAECOO等品牌在马来西亚的展厅提供接待服务。",
+      "script": "再来看一条产业落地的消息。服务机器人公司AiMOGA宣布其全球交付量已经突破2000台，这次新增的部署点位是在马来西亚，机器人将进入奇瑞、OMODA与JAECOO、iCAUR以及Lepas等汽车品牌的展厅，主要承担接待和展示类的服务工作。这类商用服务机器人通常搭载导航避障、语音交互和基础的客户信息展示功能，核心卖点不是复杂的操作能力，而是能不能长期稳定运行、部署和维护成本是否可控。从这次的合作对象看，AiMOGA选择和汽车经销商网络绑定，是服务机器人商业化里一个比较常见的思路，就是找一个具体的、高频重复的场景先站稳脚跟，比如展厅迎宾、产品讲解，这类场景对机器人的自主决策要求不高，但对稳定性和用户体验的要求很高，是检验商用服务机器人能不能规模化复制的一个不错的试验场。2000台这个交付规模，放在整个服务机器人行业里还谈不上头部量级，但持续做到多个国家和地区的规模化交付，说明公司在产品化和供应链管理上已经跑通了一定的流程。值得关注的一点是，这类以展厅、接待场景为主的部署，商业模式往往依赖经销商或品牌方的采购预算，实际的复购率和长期续约情况会比首次交付数字更能说明问题。后续需要观察这批机器人在马来西亚市场的实际使用反馈，以及公司是否会公布更细分的应用场景收入结构。",
+      "duration_seconds": 140,
       "is_unverified": false,
-      "confidence_note": "来源为二级专业媒体The Robot Report刊发的行业评论文章，观点代表作者及所属公司立场，非独立第三方研究。",
+      "confidence_note": "消息来自科技媒体报道公司官方公告内容，属于企业单方面业务进展信息。",
       "fact_status": {
         "confirmed": [
-          "The Robot Report刊登了一篇关于机器人听觉感知重要性的行业评论文章"
+          "AiMOGA机器人将部署到马来西亚多个汽车品牌展厅"
         ],
         "claims": [
-          "文章作者认为缺乏自然沟通能力的机器人难以被广泛采用"
+          "公司宣称全球交付量已突破2000台"
         ],
         "analysis": [
-          "该观点反映行业内对声学感知投入不足的担忧，但缺乏独立数据支撑"
+          "选择汽车展厅接待场景是服务机器人商业化中常见的落地路径，重点在于验证长期运行稳定性"
         ]
       },
       "source_ids": [
-        "ce86d963ed67bdfb"
+        "ca58c548f5cb0b34"
       ],
       "sources": [
         {
-          "id": "ce86d963ed67bdfb",
+          "id": "ca58c548f5cb0b34",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "AiMOGA Robotics Crosses 2,000 Global Deliveries, with Robots to Serve Chery, OMODA&JAECOO, iCAUR and Lepas Showrooms across Key Destination Malaysia - TNGlobal",
+          "summary": "AiMOGA Robotics Crosses 2,000 Global Deliveries, with Robots to Serve Chery, OMODA&JAECOO, iCAUR and Lepas Showrooms across Key Destination Malaysia TNGlobal",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNNUhQbGtYeFpXZE9VUHdhbHc5N2RzV1A1UDJOSXNtTGFhUmg5R0xDR1hPdU1sUzVsMldpS3l0bk5WYkg5eUE2YkIwbG9qZjJEZmIzSlUzbkc4X21FLXFreWtEOWpqRENNeDlUZll6aGZ2QlBMbWJxdHJyc3hhTVVjOEIyOE1neXMzeTZxc3ZpVWhuQUY1QTh6YkFoYlpHX2VHOXlVc2ZWbWlla3JkdFE5eVV6ckNId2dSNVJMWjA0X3RSRFBIZ2FLaUF2SWhkYm5HYWJkcGwzdTk4YlFQZ0FhVDFMeUhWZWRHSnRrT2xTUDFicnpfWTNhd1ZZV01QUTJzZ1EwQ3hTQQ?oc=5",
+          "published_at": "2026-08-17T11:55:49+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "机器人技术如何介入中风康复训练",
+      "english_term": "rehabilitation robotics（康复机器人）",
+      "summary": "康复机器人公司Bioxtreme的负责人指出，机器人与AI结合人本关怀的模式正在改善中风患者的康复效果。",
+      "script": "机器人领域还有一条关于医疗应用的消息值得一说。康复机器人公司Bioxtreme的首席执行官公开谈到，机器人技术、人工智能与以人为本的护理模式相结合，正在推动中风康复领域的进步。中风患者常见的后遗症包括肢体运动功能受损、协调能力下降，传统康复训练高度依赖治疗师的一对一指导，训练强度和一致性很难保证，患者的康复进度也不好量化跟踪。康复机器人通常通过外骨骼或末端执行器一类的装置，辅助患者完成重复性的肢体运动训练，同时通过传感器采集运动轨迹、力量输出等数据，用算法分析患者的恢复曲线，帮助治疗师动态调整训练方案。这类系统的核心价值在于把原本依赖人工经验判断的康复过程变得更加数据化和可重复，同时也能在一定程度上缓解康复治疗师资源紧张的问题。不过康复机器人这个赛道整体还处于渗透率提升阶段，不同产品在安全性认证、临床有效性数据积累上进度不一，采购和使用成本对中小型医疗机构来说也是现实门槛。这次报道更多是行业观点性质的表态，没有给出具体的临床数据或者新产品发布信息，可以看作是康复机器人赛道持续获得关注的一个信号，但具体技术进展和临床效果仍需要更多循证医学层面的研究来支撑。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "内容为行业公司高管的观点性表态，未附具体临床试验数据，属于行业趋势性报道而非严谨科学结论。",
+      "fact_status": {
+        "confirmed": [
+          "康复机器人公司高管公开发表了关于机器人辅助中风康复的观点"
+        ],
+        "claims": [
+          "受访者认为机器人、AI与人本护理结合能改善患者康复结果"
+        ],
+        "analysis": [
+          "康复机器人有助于将康复训练数据化和标准化，但实际临床效果的证据强度需要更多研究验证"
+        ]
+      },
+      "source_ids": [
+        "968afeb4eaa162a7"
+      ],
+      "sources": [
+        {
+          "id": "968afeb4eaa162a7",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Why robots that can’t communicate naturally won’t be adopted",
-          "summary": "Gunnar Pétur Hauksson, the co-founder and COO at Treble Technologies, says robotics developers can't overlook the importance of hearing. The post Why robots that can’t communicate naturally won’t be adopted appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
-          "published_at": "2026-08-15T12:20:18+00:00",
+          "title": "How robotics is revolutionizing stroke rehabilitation",
+          "summary": "Eyal Samuel Shachar, the CEO of Bioxtreme, says the growing synergy of robotics, AI, and human-centered care will improve patient outcomes. The post How robotics is revolutionizing stroke rehabilitation appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
+          "published_at": "2026-08-16T12:30:18+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -184,143 +229,86 @@
     },
     {
       "category": "world",
-      "title": "特朗普扬言将霍尔木兹海峡变为美国领土，法律与外交争议加剧",
-      "english_term": "Strait of Hormuz（霍尔木兹海峡）",
-      "summary": "特朗普再次就美伊冲突发表强硬言论，扬言要将霍尔木兹海峡变为美国领土，此举缺乏明确的法律和现实路径。",
-      "script": "在美伊战争持续的背景下，美国总统特朗普再次抛出一项引发广泛关注的言论：他扬言要把霍尔木兹海峡变成美国领土。霍尔木兹海峡是连接波斯湾与阿拉伯海的重要水道，全球相当比例的石油运输都要经过这一狭窄海峡，其战略与经济地位极为关键。报道指出，这已经不是特朗普在此次对伊冲突中发表的第一个出人意料的强硬表态，但从国际法角度看，海峡本身涉及伊朗、阿曼等多个沿岸国家的领海主张，任何试图单方面宣称主权或实际控制的举动，都将面临极其复杂的国际法障碍和地区国家的强烈反对，目前也看不到实现这一目标的现实路径。已确认的事实是，美伊战争仍在持续，双方冲突已经对地区局势造成明显冲击。而“将海峡变为美国领土”这一说法，目前仅是特朗普本人的公开表态，并未见诸任何具体政策文件或军事行动方案，其性质更接近政治施压和舆论造势，而非可执行的政策目标。分析人士普遍认为，这类言论一方面是向伊朗和地区盟友传递强硬信号，另一方面也可能是国内政治叙事的一部分。与此同时，伊朗国内经济正因战争而持续承压，物价飞涨，普通民众的生活选择空间被大幅压缩，凸显出这场冲突已经从军事对抗延伸到民生领域的深层影响。后续需要关注美方是否会将这类言论转化为具体的外交或军事行动，以及伊朗和霍尔木兹海峡沿岸国家将作出何种回应。",
-      "duration_seconds": 135,
-      "is_unverified": false,
-      "confidence_note": "特朗普言论及美伊战争持续均有二级信源Al Jazeera独立报道支持，具体政策落地情况尚不明确。",
-      "fact_status": {
-        "confirmed": [
-          "特朗普公开表态要将霍尔木兹海峡变为美国领土",
-          "美伊战争持续，伊朗经济受到严重冲击"
-        ],
-        "claims": [
-          "特朗普言论被视为向伊朗施压的政治表态"
-        ],
-        "analysis": [
-          "从国际法角度看，单方面宣称海峡主权缺乏现实可行路径"
-        ]
-      },
-      "source_ids": [
-        "43bc5f4e924d1924",
-        "9b28248156aa5618"
-      ],
-      "sources": [
-        {
-          "id": "43bc5f4e924d1924",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Trump threatens to make the Strait of Hormuz a US territory: Can he?",
-          "summary": "US president has yet another outlandish threat for Iran, with no end to war in sight.",
-          "url": "https://www.aljazeera.com/news/2026/8/16/trump-threatens-to-make-the-strait-of-hormuz-a-us-territory-can-he?traffic_source=rss",
-          "published_at": "2026-08-16T11:14:23+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "9b28248156aa5618",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "‘Limited options’ for many Iranians as war with US chokes economy",
-          "summary": "Millions of Iranians struggle to make ends meet as war with US devastates the economy and sends prices soaring.",
-          "url": "https://www.aljazeera.com/news/2026/8/16/limited-options-for-many-iranians-as-war-with-us-chokes-economy?traffic_source=rss",
-          "published_at": "2026-08-16T11:38:50+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "乌克兰发动战争以来最大规模无人机袭击之一，俄乌均有伤亡",
+      "title": "库什纳穿梭中东，同日会见哈马斯与内塔尼亚胡推动加沙路线图",
       "english_term": null,
-      "summary": "乌克兰对俄罗斯发动了战争以来规模最大的无人机袭击之一，莫斯科等地遭数百架无人机袭击，双方均报告有人员死亡。",
-      "script": "俄乌战场传来最新进展。乌克兰对俄罗斯发动了本场战争以来规模最大的无人机袭击之一，俄方称有数百架无人机袭击了莫斯科，首都地区以及南部的罗斯托夫地区共造成至少六人死亡。与此同时，俄罗斯也对乌克兰多地发起了新一轮空袭，乌克兰方面报告至少五人死亡，乌克兰总统泽连斯基指责俄方袭击的是平民基础设施，而莫斯科方面则表示被击中的是一处仓库设施。已经确认的事实是：这轮无人机袭击的规模在整场战争中属于较大级别，双方均有平民或人员伤亡的报告。而对于具体打击目标的性质，也就是袭击的究竟是基础设施还是军事相关设施，乌俄双方各执一词，泽连斯基方面强调平民设施受损，俄方则强调军事或物流性质的仓库被击中，这属于典型的各说各话，目前没有独立第三方现场核实的信息。另外值得关注的是，据情报机构分析，朝鲜正准备向俄罗斯增派多达五万人的部队支援俄乌战场，不过军事专家普遍认为，这批兵力对战争整体走向不会产生根本性的改变，更多被视为俄罗斯在人员消耗上的补充手段。这一系列动态表明，尽管外交斡旋和局部停火尝试不断，俄乌战争的军事烈度并未出现实质性降温，双方在无人机和远程打击能力上的较量还在持续升级。后续需要关注双方是否会有更大规模的报复性打击，以及朝鲜军队实际部署规模和对战场态势的具体影响。",
-      "duration_seconds": 135,
+      "summary": "特朗普女婿库什纳先在埃及会见哈马斯领导层，随后在耶路撒冷会见以色列总理内塔尼亚胡，试图推动陷入停滞的加沙战后计划。",
+      "script": "转向国际政治。过去一天里，中东外交出现了密集动作。美国总统特朗普的女婿、白宫高级顾问库什纳先是在埃及与哈马斯领导层举行了一次比较罕见的直接会晤，随后又前往耶路撒冷会见以色列总理内塔尼亚胡，目标是推动目前陷入停滞的加沙战后计划取得进展。这一系列会面的背景是，加沙停火后续的路线图谈判已经卡壳一段时间，而就在这个节点前后，有以色列部长公开呼吁在加沙地带采取更强硬的军事行动，这让本已复杂的局势又增添了变数。已经确认的事实是，库什纳分别与哈马斯和内塔尼亚胡进行了会面，这是美方试图重启加沙战后安排谈判的最新努力。各方主张方面，美方的立场是希望以自己主导的加沙和平计划为基础，推动双方回到谈判轨道；以色列内部则出现了不同声音，部分强硬派官员的表态与外交斡旋的方向存在张力；哈马斯方面的具体表态目前公开信息有限。与此同时，美国海军也有动态，“华盛顿号”航母正在赶赴中东，准备接替已经部署较长时间的“林肯号”，外界普遍认为这与林肯号艇上出现的士气和运转状况报道有关，也从侧面反映出美国在中东地区维持军事存在的持续压力。分析来看，库什纳此轮穿梭外交说明美方对推动加沙问题阶段性解决抱有紧迫感，但以色列国内政治强硬声音与美方外交努力之间的拉锯，可能会让谈判进展依然充满不确定性。后续需要关注内塔尼亚胡政府是否会对美方提出的方案做出实质性回应，以及加沙当地的人道局势是否会随谈判进展出现变化。",
+      "duration_seconds": 150,
       "is_unverified": false,
-      "confidence_note": "袭击事件由DW与NPR两个独立二级来源交叉确认，伤亡数字及双方主张来自官方通报，朝鲜出兵消息来自情报机构分析，标记为各方主张层面。",
+      "confidence_note": "多家Tier 2媒体独立报道同一事件，细节基本一致，可信度较高；哈马斯和以色列强硬派的具体立场表态引用自媒体转述。",
       "fact_status": {
         "confirmed": [
-          "乌克兰对俄发动大规模无人机袭击，俄方称莫斯科及罗斯托夫地区共6人死亡",
-          "俄罗斯对乌克兰发动空袭，乌方称至少5人死亡"
+          "库什纳在埃及会见了哈马斯领导层，随后在耶路撒冷会见了内塔尼亚胡",
+          "美国海军“华盛顿号”正在前往中东接替“林肯号”"
         ],
         "claims": [
-          "泽连斯基指责俄方针对平民基础设施",
-          "俄方称被击中的是仓库设施",
-          "情报机构称朝鲜准备向俄增派多达5万人部队"
+          "有以色列部长呼吁在加沙采取更激烈军事行动",
+          "美方表示此行意在为加沙战后计划寻求以色列支持"
         ],
         "analysis": [
-          "军事专家认为朝鲜援军规模不足以根本改变战场走向"
+          "以色列国内强硬派表态可能对美方斡旋努力构成阻力，谈判走向仍存在不确定性"
         ]
       },
       "source_ids": [
-        "3ff68b8e3d4e3565",
-        "b51e68fd954775c3",
-        "36a86cbe43adfa9a",
-        "9b1f51f08290cf71"
+        "a3a3f39d2a834e8e",
+        "0d1a54660a97368d",
+        "3a02c5d5b7de8b85",
+        "4700542e99c2a2cf"
       ],
       "sources": [
         {
-          "id": "3ff68b8e3d4e3565",
-          "source": "DW Top Stories",
+          "id": "a3a3f39d2a834e8e",
+          "source": "BBC World",
           "source_tier": 2,
-          "source_region": "eu",
+          "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Ukraine launches one of its largest attacks of war",
-          "summary": "Russia says hundreds of drones targeted Moscow overnight, with six fatalities in the capital and southern Rostov region. Five people were killed in strikes across Ukraine.",
-          "url": "https://www.dw.com/en/ukraine-launches-one-of-its-largest-attacks-of-war/a-78386779?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-16T10:59:00+00:00",
+          "title": "Trump envoy Kushner meets Netanyahu after Hamas talks on peace plan",
+          "summary": "US President Trump's son-in-law Jared Kushner is seeking to gain Israeli backing for the US-backed Gaza peace plan.",
+          "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-17T11:16:31+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "b51e68fd954775c3",
+          "id": "0d1a54660a97368d",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
-          "summary": "Ukraine launched hundreds of drones across Russia Sunday, killing at least six people in one of Kyiv's largest aerial attacks of the war.",
-          "url": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia",
-          "published_at": "2026-08-16T10:12:09+00:00",
+          "title": "Kushner meets with Hamas on the Gaza road map ahead of talks with Netanyahu",
+          "summary": "Jared Kushner, President Trump's son-in-law, held a rare meeting with Hamas leadership Sunday in Egypt, in a new diplomatic effort to make progress in the stalled Gaza ceasefire.",
+          "url": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
+          "published_at": "2026-08-16T20:20:22+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "36a86cbe43adfa9a",
-          "source": "BBC World",
+          "id": "3a02c5d5b7de8b85",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Five killed as Russia launches fresh aerial attacks across Ukraine",
-          "summary": "Ukrainian President Volodymyr Zelensky accuses Russia of targeting civilian infrastructure, while Moscow reports that a warehouse was hit.",
-          "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-16T10:52:08+00:00",
+          "title": "USS Washington to relieve USS Lincoln. And, Jared Kushner to meet with Netanyahu",
+          "summary": "The USS Washington is on its way to the Middle East to relieve the USS Lincoln amid concerns about conditions aboard. And, Jared Kushner is expected to meet with Prime Minister Netanyahu to move Gaza talks forward.",
+          "url": "https://www.npr.org/2026/08/17/g-s1-138973/up-first-newsletter-uss-lincoln-meta-israel-hamas-ukraine-russia",
+          "published_at": "2026-08-17T11:48:21+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "9b1f51f08290cf71",
+          "id": "4700542e99c2a2cf",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Troops from North Korea to boost Russia's Ukraine forces",
-          "summary": "Intelligence agencies report that North Korea is preparing to send up to 50,000 troops to Russia. But military experts doubt that this will make a fundamental difference in the course of Russia's war with Ukraine.",
-          "url": "https://www.dw.com/en/troops-from-north-korea-to-boost-russia-s-ukraine-forces/a-78385524?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-16T06:49:00+00:00",
+          "title": "Middle East updates: Kushner meets Netanyahu in Jerusalem",
+          "summary": "The meeting comes amid a stalled post-war Gaza plan and after an Israeli minister called for more Palestinians to be killed in the enclave. Meanwhile, Iran says it is finalizing a deal with Oman on the Strait of Hormuz.",
+          "url": "https://www.dw.com/en/middle-east-updates-kushner-meets-netanyahu-in-jerusalem/live-78396539?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-17T12:01:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -328,41 +316,125 @@
     },
     {
       "category": "world",
-      "title": "以色列在黎巴嫩南部升级袭击，停火协议面临考验",
+      "title": "乌克兰对俄罗斯发动大规模空袭，至少6人死亡",
       "english_term": null,
-      "summary": "尽管美国斡旋达成的停火协议已延长，以色列近期在黎巴嫩南部升级空袭，一天内造成至少11人死亡。",
-      "script": "中东局势方面，以色列在黎巴嫩南部的军事行动出现明显升级。报道显示，尽管今年六月由美国斡旋达成的停火协议已经延长，以色列近期在黎巴嫩南部的袭击一天之内就造成至少11人死亡。已经确认的事实是，停火协议目前名义上仍然有效，但以色列的军事行动并未因此停止，反而出现了升级迹象。至于以色列升级袭击的具体原因，目前存在不同解读：以方通常将此类行动解释为针对特定武装目标的定点打击，是维护自身安全的必要措施；而黎巴嫩方面及地区观察人士则质疑，在停火协议名义上仍然生效的情况下，如此高强度的袭击是否符合协议精神，甚至认为这可能是在事实上架空停火协议。分析层面来看，中东多个停火协议在过去都出现过“纸面停火、实际交火”的情况，这次以黎边境的局势演变某种程度上延续了这一模式，反映出地区冲突的复杂性远超一纸协议所能约束的范围。对于地区民众而言，这意味着即便协议存在，实际的安全风险并未真正消除。后续需要关注美国作为斡旋方是否会对以色列的升级行动做出回应或施压，以及停火协议是否会因此名存实亡。",
-      "duration_seconds": 110,
+      "summary": "乌克兰发动了本次战争以来规模较大的一次空袭，俄罗斯别尔哥罗德州代理州长称袭击造成至少6人死亡、多人受伤。",
+      "script": "俄乌战场方面，乌克兰对俄罗斯境内发动了一次本轮战争中规模较大的空中打击。已经确认的信息是，俄罗斯别尔哥罗德州代理州长表示，此次袭击造成至少6人死亡，另有包括一名14岁儿童在内的多人受伤。多家媒体的报道口径一致，都将这次行动描述为乌克兰近期规模最大的空袭行动之一。俄方将此定性为乌克兰对平民地区的打击，乌克兰方面对具体打击目标和战果的官方说明在现有信息中着墨不多。与此同时，围绕战争进入第三个年头之后俄罗斯国内社会心态的变化，也有分析指出，长期战争状态下俄罗斯民众的日常生活和心理状态已经出现了适应性变化，一些学者认为战争常态化正在重塑俄罗斯社会对冲突的认知方式。分析来看，这次空袭规模扩大，说明双方在边境地区的军事对抗强度并未随着外交斡旋的声音而降低，反而呈现出胶着中偶有升级的态势。俄乌双方围绕袭击的责任归属、打击性质等问题仍然存在明显分歧，具体伤亡数字、军事目标是否被击中等细节也有待进一步独立信源核实。后续需要关注乌方是否会对此次行动做出正式说明，以及边境地区的袭击节奏是否会进一步升级。",
+      "duration_seconds": 115,
       "is_unverified": false,
-      "confidence_note": "事件及伤亡数字来自二级信源Al Jazeera报道，属于该媒体独立报道内容。",
+      "confidence_note": "伤亡数据来自俄方地方官员表态，经BBC与NPR两家独立媒体交叉报道，但乌方对行动细节的官方说明信息有限。",
       "fact_status": {
         "confirmed": [
-          "以色列在黎巴嫩南部发动袭击，一天内造成至少11人死亡",
-          "美国斡旋的停火协议已在六月延长"
+          "乌克兰对俄罗斯境内发动了本轮战争中规模较大的一次空袭",
+          "别尔哥罗德州代理州长称袭击造成至少6人死亡、多人受伤"
         ],
         "claims": [
-          "以方称打击行动针对特定武装目标",
-          "黎方及地区观察人士质疑袭击是否违反停火协议精神"
+          "俄方将此次袭击定性为对平民区域的打击"
         ],
         "analysis": [
-          "中东多起停火协议历史上都存在名义生效但实际冲突持续的模式"
+          "军事对抗强度未因外交斡旋而降低，反映出战争仍处于胶着升级状态"
         ]
       },
       "source_ids": [
-        "02975c2930b2a75b"
+        "7d99a3f2ee5fc094",
+        "b2a37d70158f6295",
+        "a3b9b68caa644875"
       ],
       "sources": [
         {
-          "id": "02975c2930b2a75b",
+          "id": "7d99a3f2ee5fc094",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Ukrainian strikes kill six in Russia, acting governor says",
+          "summary": "A 14-year-old child was among four others injured, the acting governor of Russia's Belgorod region says.",
+          "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-17T11:14:39+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "b2a37d70158f6295",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "At least 6 dead after Ukraine launches aerial attack on Russia",
+          "summary": "Ukraine launched one of its largest aerial attacks of the war on Russia, killing at least six people. How are Russians feeling as the war grinds on?",
+          "url": "https://www.npr.org/2026/08/17/nx-s1-5933059/at-least-6-dead-after-ukraine-launches-aerial-attack-on-russia",
+          "published_at": "2026-08-17T08:50:38+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "a3b9b68caa644875",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "As war with Ukraine wages on, a look at life inside Russia",
+          "summary": "NPR's Sacha Pfeiffer speaks with Nina Krushcheva, professor of international affairs at the New School, about the current geopolitical climate in Russia.",
+          "url": "https://www.npr.org/2026/08/17/nx-s1-5933043/as-war-with-ukraine-wages-on-a-look-at-life-inside-russia",
+          "published_at": "2026-08-17T08:50:29+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "特朗普下令缩减美韩联合军演",
+      "english_term": null,
+      "summary": "特朗普下令五角大楼缩减与韩国的联合军事演习规模，理由是韩国未在伊朗“去核化”问题上提供协助，并提及他与朝鲜领导人的关系。",
+      "script": "另一条值得关注的国际政治消息来自朝鲜半岛方向。特朗普下令美国军方缩减与韩国的联合军事演习规模。根据白宫方面的说法，特朗普给出的理由是韩国没有在伊朗“去核化”问题上提供协助，同时他也提到了自己与朝鲜最高领导人之间的关系作为决策背景之一。这是已经确认的官方表态内容，来自总统本人的公开说明。这一决定如果落地执行，将是对美韩联合军演机制的一次实质性调整，而美韩联合军演长期以来被视为美国在东北亚安全承诺的重要象征，也是牵制半岛局势的关键机制之一。目前公开信息中，韩国官方对此决定的正式回应、军演具体缩减的规模和时间安排都还不明确。分析层面看，把美韩军演规模与伊朗核问题挂钩，是一种此前不常见的政策关联逻辑，这种做法可能反映出美国在处理多线外交议题时试图用军事合作作为筹码的策略倾向，但也可能引发韩国国内对美国安全承诺稳定性的担忧，同时可能被外界解读为向朝鲜释放缓和信号。这条消息目前主要基于总统本人表态，尚缺乏韩国政府、五角大楼具体执行方案等更多信源的交叉确认，后续需要关注韩国官方的回应以及军演调整的具体细节公布。",
+      "duration_seconds": 115,
+      "is_unverified": false,
+      "confidence_note": "消息主要基于特朗普本人公开表态，经NPR与Al Jazeera两家媒体报道，但缺乏韩国官方和五角大楼的独立确认细节。",
+      "fact_status": {
+        "confirmed": [
+          "特朗普下令美军缩减与韩国的联合军事演习规模"
+        ],
+        "claims": [
+          "特朗普称韩国未在伊朗去核化问题上提供帮助是决策理由之一，并提及他与朝鲜领导人的关系"
+        ],
+        "analysis": [
+          "将军演规模与伊朗核问题挂钩的做法可能影响韩国对美国安全承诺的信心，也可能被解读为对朝缓和信号"
+        ]
+      },
+      "source_ids": [
+        "7f0655eb985912be",
+        "7bcedcb7604d032c"
+      ],
+      "sources": [
+        {
+          "id": "7f0655eb985912be",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Why has Israel escalated attacks in southern Lebanon despite ceasefire?",
-          "summary": "At least 11 people killed in one day of Israeli attacks despite truce extension brokered by US in June.",
-          "url": "https://www.aljazeera.com/news/2026/8/16/why-has-israel-escalated-attacks-in-southern-lebanon-despite-ceasefire?traffic_source=rss",
-          "published_at": "2026-08-16T10:59:10+00:00",
+          "title": "Trump orders US to scale back South Korea military drills",
+          "summary": "Donald Trump has ordered the US military to scale back joint exercises with South Korea.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/trump-orders-us-to-scale-back-south-korea-military-drills?traffic_source=rss",
+          "published_at": "2026-08-17T11:29:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "7bcedcb7604d032c",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+          "summary": "President Trump explained the decision by saying South Korea had declined to help with the \"denuclearization\" of Iran and he cited his good relationship with North Korea's leader.",
+          "url": "https://www.npr.org/2026/08/17/g-s1-138969/trump-exercises-south-korea",
+          "published_at": "2026-08-17T05:21:39+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -370,121 +442,122 @@
     },
     {
       "category": "world",
-      "title": "波兰旅游巴士匈牙利高速翻车，至少12人遇难",
+      "title": "普京视察争议岛屿被指是对日本乌克兰立场的“惩罚”",
       "english_term": null,
-      "summary": "一辆载有波兰朝圣团的旅游巴士在匈牙利高速公路上发生翻车事故，造成至少12人死亡，数十人重伤，司机已被警方逮捕。",
-      "script": "一起重大交通事故发生在欧洲。一辆载有波兰朝圣团乘客的旅游巴士，周日凌晨在匈牙利一条高速公路上偏离车道后翻车，事故造成至少12人死亡，另有数十人受重伤。据媒体报道，当地警方已经逮捕了这辆巴士的司机，目前案件仍在进一步调查中。已经确认的事实包括：事故发生的时间是周日凌晨，遇难人数至少12人，肇事司机已被警方控制。关于事故发生的具体原因，比如是否涉及超速、疲劳驾驶或车辆机械故障，目前报道中尚未给出明确结论，仍有待警方进一步调查公布。这起事故也再次将欧洲跨境长途大巴的行车安全问题带回公众视野，尤其是宗教朝圣团等长途包车出行，往往涉及夜间行车和较长的连续驾驶时间，这类风险因素在类似事故中并不少见。对于遇难者家属和幸存者而言，这无疑是一起令人痛心的悲剧。后续需要关注匈牙利警方公布的事故调查结果，包括具体事故原因认定以及是否会对涉事运输公司提出问责。",
-      "duration_seconds": 95,
+      "summary": "分析人士认为，俄罗斯总统普京访问俄日争议的千岛群岛，是向在乌克兰问题上持特定立场的日本发出的信号。",
+      "script": "再看一条涉及俄日关系的消息。俄罗斯总统普京视察了俄日两国存在主权争议的千岛群岛，多位分析人士认为，这次访问是普京向日本发出的一种“信号”，背景是日本在乌克兰问题上的立场。千岛群岛争端由来已久，日本方面几十年来一直寻求收回对相关岛屿的控制权，这一领土争议也是俄日关系中长期存在的敏感议题。已经确认的事实是普京确实进行了这次视察，这一行程本身具有明确的政治象征意义，因为国家元首亲自到访存在主权争议的地区，通常会被解读为一种强化主权主张的姿态。各方主张方面，分析人士将这次访问与日本在乌克兰战争问题上采取的对俄制裁及支持乌克兰的立场联系起来，认为这是俄方借由领土议题向日本施压的一种方式，但俄罗斯官方是否明确以此为由做出说明，现有信息中并未详细展开。分析来看，在乌克兰战争持续、国际制裁压力不减的背景下，俄罗斯通过在其他外交议题上采取强硬姿态来回应盟友阵营对其施加的压力，是一种常见的外交博弈手法，千岛群岛问题恰好提供了一个现成的支点。这条消息的解读部分来自分析人士的判断，并非俄罗斯官方直接声明的因果关系，后续需要关注日本政府对此访问的正式反应，以及俄日关系是否会因此进一步降温。",
+      "duration_seconds": 125,
       "is_unverified": false,
-      "confidence_note": "事故由BBC与DW两个独立二级来源交叉确认，死亡人数及司机被捕信息一致。",
+      "confidence_note": "关于访问动机的解读来自分析人士判断，而非俄罗斯官方明确声明，属于分析性论断，需与后续官方表态对照。",
       "fact_status": {
         "confirmed": [
-          "波兰旅游巴士在匈牙利高速公路翻车，至少12人死亡",
-          "司机已被警方逮捕"
+          "普京视察了俄日争议的千岛群岛"
         ],
-        "claims": [],
+        "claims": [
+          "分析人士认为此访是针对日本在乌克兰问题上立场的信号"
+        ],
         "analysis": [
-          "事故具体原因尚待警方调查结论，长途夜间行车风险值得关注"
+          "俄罗斯可能借领土议题向持对俄强硬立场的国家施压，这是外交博弈中的常见策略"
         ]
       },
       "source_ids": [
-        "360726823f4c3c13",
-        "e7df2bc3ff00510e"
+        "94fb96a31425e824"
       ],
       "sources": [
         {
-          "id": "360726823f4c3c13",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Twelve killed as Polish bus veers off Hungarian motorway",
-          "summary": "Dozens more are seriously injured after the tourist bus overturned in the early hours of Sunday morning.",
-          "url": "https://www.bbc.co.uk/news/articles/ckg4424zd7go?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-16T10:53:50+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "e7df2bc3ff00510e",
+          "id": "94fb96a31425e824",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Bus crash in Hungary kills at least 12",
-          "summary": "Police say they have arrested the driver of a bus that crashed in Hungary, killing at least 12 people. The bus was carrying Polish pilgrims, media report.",
-          "url": "https://www.dw.com/en/bus-crash-in-hungary-kills-at-least-12/a-78387230?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-16T09:47:00+00:00",
+          "title": "Putin visited Kuril to 'punish' Japan over Ukraine stance",
+          "summary": "Analysts have said a visit by Russia's leader to a disputed island chain sent a \"message\" to Japan, which for decades has sought to reclaim control of the territory.",
+          "url": "https://www.dw.com/en/putin-visited-kuril-to-punish-japan-over-ukraine-stance/a-78398035?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-17T11:47:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "finance",
-      "title": "马斯克投票权逼近20%，特斯拉万亿市值目标与薪酬方案受关注",
-      "english_term": "voting power（投票权）",
-      "summary": "随着特斯拉股价与马斯克持股比例上升，其在公司的投票权已接近20%，市场关注这与创纪录薪酬方案及8.5万亿美元市值目标之间的关联。",
-      "script": "来看一则财经动态。据报道，特斯拉创始人马斯克在公司的投票权正在逼近20%，这一变化正好处于市场关注其创纪录薪酬方案，以及所谓8.5万亿美元市值目标的敏感节点上。所谓投票权，指的是股东按持股比例在公司重大决策中拥有的表决份额，投票权越高，创始人对公司战略方向、董事会构成等关键事项的掌控力就越强。报道将这一持股比例变化与马斯克的薪酬方案联系在一起，意味着这笔薪酬方案的设计很可能包含大量股票或期权激励，一旦相关业绩目标达成，将进一步推高马斯克的持股比例和投票权。这类超大规模的高管薪酬绑定股价表现的设计，在美股市场并不罕见，但像特斯拉这样把目标设定到数万亿美元市值级别，仍然是资本市场里较为极端的案例，其背后逻辑是通过极高的业绩门槛，将高管利益与公司长期市值增长深度捆绑。对投资者而言，需要关注的是这类薪酬方案对公司治理结构的影响，尤其是创始人投票权持续上升是否会削弱其他股东对公司决策的制衡能力。目前公开报道并未提供投票权具体百分比的精确数值和薪酬方案的完整条款细节，相关信息更多是市场层面的观察和推算。后续需要关注特斯拉股东大会或监管文件中是否会披露薪酬方案的具体触发条件和马斯克实际投票权变化的确切数据。",
-      "duration_seconds": 130,
-      "is_unverified": true,
-      "confidence_note": "来源为单一财经类三级媒体报道，具体数值和条款细节有限，标记为未核实，需等待权威财报或监管文件确认。",
+      "category": "world",
+      "title": "印尼地震致53人死亡，救援物资短缺引发饥饿担忧",
+      "english_term": null,
+      "summary": "印度尼西亚发生的致命地震已造成53人死亡、数千人流离失所，当地正面临救援物资短缺和饥饿风险。",
+      "script": "最后关注一条自然灾害的消息。印度尼西亚上周六早些时候发生的地震已经造成53人死亡，数千人因此流离失所，目前当地正面临救援物资短缺，居民面临饥饿风险的报道也随之出现。已经确认的信息是死亡人数和流离失所人数的统计，这来自当地官方通报。灾区目前面临的主要问题是救援物资运送不及时，包括食品、饮用水和临时住所等基本生存物资的缺口，这在地震发生初期的偏远或交通受损地区是比较常见的情况。分析来看，地震发生后的黄金救援窗口期通常是灾后72小时以内，如果这个阶段物资和救援力量调配不到位，次生的健康和饥饿风险会迅速上升，对老人、儿童等脆弱群体的影响尤其明显。与此相关的是，也有媒体对过去十年的全球地震数据做了梳理，试图回答“地震是否变得更频繁”这个问题，从数据统计角度看，地震活动本身的年度频次波动是地质规律决定的，公众感知到的“更频繁”很大程度上与人口密集区受灾报道增多、通讯和监测手段更完善有关，而非地震绝对数量的显著上升。后续需要关注印尼当地救援物资到位情况，以及国际社会援助响应的进展。",
+      "duration_seconds": 115,
+      "is_unverified": false,
+      "confidence_note": "死亡人数来自当地官方通报，经BBC报道确认；关于全球地震频率的说明引用自Al Jazeera的数据梳理报道。",
       "fact_status": {
         "confirmed": [
-          "报道称马斯克在特斯拉的投票权正接近20%"
+          "印尼地震已造成53人死亡，数千人流离失所"
         ],
         "claims": [
-          "该变化与创纪录薪酬方案及8.5万亿美元市值目标相关联"
+          "报道称当地正面临救援物资短缺和饥饿风险"
         ],
         "analysis": [
-          "高管薪酬与股价及市值深度绑定的设计可能影响公司治理平衡"
+          "地震后救援窗口期物资调配效率直接关系到次生风险的严重程度"
         ]
       },
       "source_ids": [
-        "4ca5924246c1a54a"
+        "5ea78d6b16564889",
+        "f2cc27ca1db1aa41"
       ],
       "sources": [
         {
-          "id": "4ca5924246c1a54a",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
+          "id": "5ea78d6b16564889",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
           "language": "en",
-          "category_hint": "robotics",
-          "title": "Musk Nears 20% Tesla Voting Power as $8.5 Trillion Market Cap Target Looms Over Record Pay Deal - finance.biggo.com",
-          "summary": "Musk Nears 20% Tesla Voting Power as $8.5 Trillion Market Cap Target Looms Over Record Pay Deal finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1tOHdZdzRTZlZ0M1RuM2RUQ3JlRDFpYlk2MGNBWjNnWFBhWV9rbkxFOXhaQzhzN09SSFEwSFRybmlQdm1kNDNVcllyZ2ZXUkQxVlZMeEZsY0pJNEh0SEx0UDA4WHNHaDBoWU82VHJOSHF5Wm9GRmc?oc=5",
-          "published_at": "2026-08-16T10:35:00+00:00",
+          "category_hint": "world",
+          "title": "Aid shortages and fears of starvation as Indonesia reels from deadly earthquake",
+          "summary": "Some 53 people were killed and thousands displaced by the earthquake, which struck early on Saturday.",
+          "url": "https://www.bbc.co.uk/news/articles/crl7686r71yo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-17T10:39:24+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "f2cc27ca1db1aa41",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Is the world experiencing more earthquakes now than before?",
+          "summary": "Al Jazeera examines a decade of earthquake data to see how 2026 compares and explains how and where earthquakes strike.",
+          "url": "https://www.aljazeera.com/news/2026/8/17/is-the-world-experiencing-more-earthquakes-now-than-before?traffic_source=rss",
+          "published_at": "2026-08-17T11:09:18+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的早报先到这里。人形机器人从舞台走向真实救援场景的转变、手术机器人在临床场景的持续渗透，以及美伊、俄乌两条战线的紧张态势，都值得继续关注后续的官方数据与调查结论。",
-  "editor_note": "本期机器人类候选多来自三级聚合搜索源（Global Robotics News Search），单一来源信息密度有限，故对相关事件均标记为未核实并说明证据局限；已优先选择The Robot Report等二级专业源以平衡来源结构。国际政治部分以BBC、DW、NPR、Al Jazeera等二级独立信源交叉确认为主。因候选中缺乏高质量的机器人学术论文类信息，本期机器人板块以产业动态为主，未能覆盖强化学习、仿真等学术方向，建议后续补充相关来源。全稿事件数为9个，机器人类时长占比约45%。",
+  "closing": "今天的机器人板块，宇树的跳跃演示和几篇预印本论文都还需要更多细节和同行评审来验证，中东局势也在库什纳的密集斡旋下处于关键节点，这些线索都值得继续跟踪后续官方通报和技术细节的补充。",
+  "editor_note": "候选中机器人类信息多来自Tier 3的聚合搜索标题，缺乏完整正文和官方一手资料，故对宇树新品等消息标记为未完全验证；国际政治部分以Tier 2媒体的多来源交叉报道为主，可信度较高。体育类候选（Arsenal预览）与娱乐类候选（中国动画电影票房）因缺乏足够独立信源支撑或与本次机器人/国际重点主题关联度较低，予以舍弃，以保证机器人时长占比达标。",
   "model": "claude-sonnet-5",
   "usage": {
-    "input_tokens": 7084,
-    "output_tokens": 9264,
-    "total_tokens": 16348
+    "input_tokens": 9166,
+    "output_tokens": 9627,
+    "total_tokens": 18793
   },
-  "generated_at": "2026-08-16T12:12:30+00:00",
-  "window_start": "2026-08-15T12:12:30+00:00",
-  "candidate_count": 158,
+  "generated_at": "2026-08-17T12:03:32+00:00",
+  "window_start": "2026-08-16T12:03:32+00:00",
+  "candidate_count": 227,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "quality": {
-    "duration_seconds": 1180,
-    "script_characters": 4620,
-    "topic_duration_share": 0.487,
+    "duration_seconds": 1245,
+    "script_characters": 4833,
+    "topic_duration_share": 0.502,
     "passed": true,
     "normal_target_met": true,
-    "topic_source_count": 2,
+    "topic_source_count": 3,
     "issues": []
   }
 }
