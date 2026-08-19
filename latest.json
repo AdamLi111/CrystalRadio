@@ -1,49 +1,104 @@
 {
-  "title": "晶球电台早报：从建筑工地到手术台，机器人正在改写“第一份工作”",
-  "subtitle": "Gravis Robotics获2亿美元融资、Persona AI瞄准造船焊接、达芬奇机器人拓展心脏手术，另有多篇具身智能与软体机器人新论文",
+  "title": "晶球电台早报：机器人世界大会聚焦中国，人形机器人皮肤与训练场竞逐升级",
+  "subtitle": "从触觉皮肤到闭环代码重规划，机器人产业与学术进展齐头并进；国际局势多线牵动",
   "highlights": [
-    "自主建筑机器人公司Gravis Robotics完成2亿美元融资，聚焦挖掘机与工程机械自动化",
-    "人形机器人公司Persona AI选择造船厂焊接作为切入场景，探讨人形机器人商业化落地路径",
-    "达芬奇手术机器人被用于常规心脏手术，医疗机器人应用持续拓展",
-    "美伊错过和谈截止期，乌克兰局势与赞比亚大选同日发酵，国际局势复杂多变",
-    "arXiv公布多篇机器人学术新论文，涵盖触觉传感与视觉-语言-动作模型故障恢复"
+    "世界机器人大会上中国展示机器狗与服务机器人矩阵，产业竞争加速",
+    "Unichem收购Loomia布局人形机器人触觉皮肤市场，FORT Robotics拟通过SPAC上市",
+    "多篇arXiv新论文聚焦视觉语言控制策略、仿真到真实迁移与肌骨骼运动控制理论",
+    "美国暂缓对加拿大关税、以色列启动刑事调查、乌克兰前防长呼吁选举等国际动态并进"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "自主建筑机器人公司Gravis Robotics完成2亿美元融资",
-      "english_term": "autonomous construction (自主建筑)",
-      "summary": "Gravis Robotics宣布获得2亿美元融资，用于将其自主系统适配到多种挖掘机和工程机械上，并计划全球扩张。",
-      "script": "先来看产业端的一条大新闻。建筑机器人公司Gravis Robotics宣布完成2亿美元融资，用于推进自主挖掘机和工程机械的研发与规模化部署。这家公司走的路线，是给现有的挖掘机、推土机这类工程机械加装自主感知与控制系统，而不是从零打造全新的机器人本体。这种“改装式自主化”思路，在农业机械和矿山机械领域已经有先例，核心逻辑是硬件成本高、更新周期长，直接复用存量设备的底盘和液压系统，把自动驾驶和自主作业能力做成可以后装的模块，能大幅降低商业化门槛。建筑行业本身劳动力短缺问题突出，很多发达国家的建筑工人年龄结构老化，同时施工现场环境复杂、粉尘大、噪音强，对人工来说是高强度、重复性劳动，恰好是自主系统可以介入的场景。技术上，工程机械自主化需要解决的核心问题包括：如何在非结构化、地形不断变化的工地环境中做精确的定位与建图，如何规划挖掘、装载这类接触密集型作业的力控轨迹，以及如何应对施工现场人车混行带来的安全约束。这比室内物流机器人或者结构化道路上的自动驾驶要复杂得多，因为工地本身每天都在被机器改变形状。这笔2亿美元的融资规模，在建筑机器人这个相对小众的细分赛道里属于头部量级，说明资本对“非人形、非通用”但商业场景明确的自主机器人依然保持热情。后续需要关注公司公布的全球扩张计划具体会落在哪些国家和工程类型，以及自主系统在真实工地的量产部署速度和安全记录。",
+      "title": "世界机器人大会：中国展示机器狗与服务机器人矩阵",
+      "english_term": null,
+      "summary": "在近期举行的世界机器人大会上，中国厂商展示了从机器狗到服务型机器人的多样化产品线，凸显其机器人产业布局的广度。",
+      "script": "本周举行的世界机器人大会上，中国把机器人产业的野心摆在了台面上。据多家媒体报道，从四足机器狗到面向家庭与商用场景的服务机器人，展台上的产品线覆盖面相当广。这类大会通常是观察一个国家机器人产业成熟度的窗口，因为它不只展示单一明星产品，而是同时呈现供应链、整机厂和场景应用方的集体亮相。机器狗类产品这几年已经从早期的科研样机演变为具备巡检、导览、安防等多场景商业化能力的产品，背后依赖的是低成本传感器、量产化关节模组和成熟的运动控制算法的共同下沉。服务机器人这一侧则更多依赖语音交互、导航定位和基础操作能力的组合，门槛相对较低，因此成为很多厂商入局的第一站。值得注意的是，这类展会性新闻本身多为综述性报道，没有披露具体新产品的技术参数或量产数字，所以只能作为产业热度的观察窗口，而不是具体某款产品的实质性突破。从产业角度看，中国机器人企业正在试图通过密集的产品矩阵占据从工业到消费级的多个细分市场，这与北美和欧洲厂商相对聚焦人形机器人旗舰产品的打法形成对比。后续需要等待具体厂商公布量产计划、订单数据或者第三方机构对本次展会成交情况的统计，才能判断这轮集中亮相是否能转化为实际的商业化落地。",
+      "duration_seconds": 125,
+      "is_unverified": true,
+      "confidence_note": "多篇同主题报道来自不同媒体转载同一展会综述，缺乏具体产品参数或订单数据，故标记为未完全验证，仅反映产业热度。",
+      "fact_status": {
+        "confirmed": [
+          "世界机器人大会近期举行，中国厂商展示了机器狗和服务机器人等产品"
+        ],
+        "claims": [
+          "报道称此次展示体现了中国机器人产业的整体野心"
+        ],
+        "analysis": [
+          "产品矩阵的广度可能反映产业链成熟度，但尚无量产或订单数据支撑具体商业化程度"
+        ]
+      },
+      "source_ids": [
+        "1ebfd1a317b7b039",
+        "960e74e37e52299c"
+      ],
+      "sources": [
+        {
+          "id": "1ebfd1a317b7b039",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "From robot dogs to helpers, China puts robotics ambitions on display at world conference - CT Insider",
+          "summary": "From robot dogs to helpers, China puts robotics ambitions on display at world conference CT Insider",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTUVEOGZDcnYyLXNhcWV3eHN6VC10Vm10b3ZRU0d1ZUZ6M3Q0LXV5cnZsUnpOLTlOZWY1YUp3VWVkRTdtSU9PQUtKMzZzTEswTDBZd3RURlFNMnZIZU1WRXpJSGFFbzlvN0FFaW14b2VpTUhGdEJ4OEVIaU9MaEhhRm02YVo5NHFhcmc4aE9QWll6UDJ0azV0Zk5XSF92d2pTM0pSNllUNzhKcElEM1Y0?oc=5",
+          "published_at": "2026-08-19T12:04:07+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "960e74e37e52299c",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "From robot dogs to helpers, China puts robotics ambitions on display at world conference - Toronto Star",
+          "summary": "From robot dogs to helpers, China puts robotics ambitions on display at world conference Toronto Star",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPczZ0SmZ4eXRpajZESmoyWE5TNXllS0dDS0ZXckNfelJKd3VQWm1XclJXQWlWbmNOQUFFVGZ5UE11UVY1NFhGVlFaSDJJbHAtN0NoS3hxZXpmZzVRZ2ltMjcxcE1ocGcxLTZ6RWRvcmlER2ZnQVRyOUNuMVRRdFNKMm1pSFVuR0pETzlNdU9jUkVLWWt2VkhtY2dabXpScXNSZGtZNmp5TnhlSXVWdUsxTDQwTWo2eU5EM3hLMVVjVUc5TUk5V0hoWFJlZUNuMkpFblQ2YU41dkRQNHdGZC1hLUJ1RVpxMExsVmpVMXVrcEJmXzQyVnpyTzlPRE85NzNQXzU5bk85M3A?oc=5",
+          "published_at": "2026-08-19T12:00:20+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "Unichem收购Loomia，布局人形机器人触觉皮肤市场",
+      "english_term": "tactile sensor（触觉传感器）",
+      "summary": "汽车零部件供应商Unichem收购触觉传感材料公司Loomia，联合R&Y共同开发面向汽车与机器人应用的触觉传感器，加速进入人形机器人“皮肤”市场。",
+      "script": "人形机器人要在非结构化环境里安全地和人、和物体打交道，触觉感知是绕不开的一环，而这恰恰是当前人形机器人最薄弱的环节之一。据The Robot Report报道，汽车零部件供应商Unichem收购了触觉传感材料公司Loomia，并联合另一家供应商R&Y，共同开发面向汽车和机器人应用的触觉传感器，目标是加速进入人形机器人的“皮肤”市场。所谓机器人皮肤，通常是指覆盖在机械臂或人形机器人躯干、手部表面的柔性传感层，能够感知压力、剪切力甚至温度分布，让机器人具备类似人类皮肤的接触感知能力。这类传感器的技术难点在于要兼顾柔性材料的可拉伸性、传感精度、耐久性以及成本，同时还要能大规模量产以适配汽车行业的供应链体系。Unichem和R&Y本身是汽车零部件供应商，这次跨界收购说明汽车产业链的部分企业正在把在方向盘加热、座椅传感等领域积累的柔性电子和薄膜传感技术，直接迁移到机器人赛道，这是一条与传统机器人零部件厂商不同的路径。从产业角度看，人形机器人整机厂商目前大多依赖外部供应商提供触觉皮肤方案，尚未形成统一的技术标准或规模化的价格曲线，谁能率先把成本压下来、把良品率提上去，谁就有可能在这个新兴细分市场占据先发优势。这次收购目前没有披露具体交易金额或量产时间表。后续需要等待公司公布具体产品参数、目标客户以及量产落地时间，才能判断这笔收购对人形机器人触觉感知成本曲线的实际影响。",
       "duration_seconds": 150,
       "is_unverified": false,
-      "confidence_note": "基于The Robot Report的产业报道，属于公司官方融资信息，来源单一但为专业行业媒体一手报道。",
+      "confidence_note": "来自The Robot Report的直接产业报道，属于公司官方业务动作，但交易金额与量产细节未披露。",
       "fact_status": {
         "confirmed": [
-          "Gravis Robotics获得2亿美元融资，用于自主建筑机械研发"
+          "Unichem收购了Loomia",
+          "Unichem与R&Y合作开发触觉传感器"
         ],
         "claims": [
-          "公司计划将该技术应用于多种挖掘机和工程设备，并计划全球扩张"
+          "公司表示目标是加速进入人形机器人皮肤市场"
         ],
         "analysis": [
-          "工程机械自主化门槛在于非结构化环境感知与力控作业，此类改装式方案有望降低商业化难度"
+          "汽车产业链柔性电子技术向机器人领域迁移可能成为触觉传感器成本下降的一条路径"
         ]
       },
       "source_ids": [
-        "387729918df58179"
+        "09ba230517e95a18"
       ],
       "sources": [
         {
-          "id": "387729918df58179",
+          "id": "09ba230517e95a18",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Gravis Robotics raises $200M for autonomous construction",
-          "summary": "Gravis Robotics has designed autonomy AI and hardware for a wide range of excavators and construction equipment and plans to scale globally. The post Gravis Robotics raises $200M for autonomous construction appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/",
-          "published_at": "2026-08-17T13:00:16+00:00",
+          "title": "Unichem acquires Loomia to accelerate entry into the humanoid ‘skin’ market",
+          "summary": "Automotive suppliers Unichem and R&Y are working with Loomia to develop tactile sensors for automotive and robotics applications. The post Unichem acquires Loomia to accelerate entry into the humanoid ‘skin’ market appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/",
+          "published_at": "2026-08-18T12:49:41+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -51,312 +106,119 @@
     },
     {
       "category": "robotics",
-      "title": "人形机器人的“第一份工作”：Persona AI瞄准造船厂焊接",
-      "english_term": "humanoid robot (人形机器人)",
-      "summary": "人形机器人公司Persona AI没有选择做通用演示视频，而是专注造船厂焊接这一具体、经济可行的工业场景。",
-      "script": "人形机器人行业这两年最大的争议之一，就是很多公司热衷于发布炫酷的演示视频，却迟迟拿不出真正能赚钱的商业场景。IEEE Spectrum这篇报道聚焦的公司Persona AI，走了一条不太一样的路：把造船厂里的焊接工作，作为人形机器人的第一份正式工作。焊接其实是工业机器人历史上最经典的应用场景之一，早期的工业机械臂就是从汽车厂焊接产线起家的。但造船厂的焊接跟汽车产线不一样，船体结构巨大、焊缝形状复杂、作业环境狭窄且需要频繁变换姿态，传统的固定式机械臂很难覆盖这种非标准化、大范围移动的作业需求，这恰好给了人形或者类人形态机器人一个差异化的切入点，因为双腿或者移动底盘配合灵巧的上肢，可以让机器人像人一样在船体结构里穿梭、变换焊接角度。Persona AI由Nic Radford创立，团队本身在机器人领域有比较长期的技术积累。报道指出，公司选择焊接这个场景的核心逻辑是“经济可行性”——焊接是有明确产值、有行业痛点、且劳动力短缺问题突出的工作，比起追求通用性的人形机器人演示，先把一个具体场景做扎实，更容易验证商业闭环。这也反映出人形机器人行业正在从“技术炫技”阶段转向“找场景、算成本”的务实阶段。当然，焊接对精度、稳定性和安全性要求很高，机器人在长时间高温、烟尘环境下的可靠性，以及和人类工人协同作业的安全机制，都还需要在实际部署中验证。后续需要关注这类场景化落地方案能否形成可复制的商业模式，以及其他人形机器人公司是否会跟进类似的“单点突破”策略。",
-      "duration_seconds": 160,
-      "is_unverified": false,
-      "confidence_note": "来自IEEE Spectrum的深度产业报道，为专业二级来源，信息来自公司采访。",
-      "fact_status": {
-        "confirmed": [
-          "Persona AI由Nic Radford创立，专注于造船厂焊接场景的人形机器人应用"
-        ],
-        "claims": [
-          "公司认为该场景经济可行性强，优于通用演示型人形机器人路线"
-        ]
-      },
-      "source_ids": [
-        "a7d13d00f5aa6e20"
-      ],
-      "sources": [
-        {
-          "id": "a7d13d00f5aa6e20",
-          "source": "IEEE Spectrum Robotics",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Is Shipyard Welding the Right First Job for Humanoid Robots?",
-          "summary": "Humanoids desperately need to stop making YouTube videos and get a job already, and Persona AI is one of the few humanoid companies which seems to be entirely focused on making that happen. Persona’s approach has been to carefully select a job that is economically viable for robots right now, and they’ve found one that was also the job of one of the very first industrial robots ever sold : welding. IEEE Spectrum first spoke with Persona two years ago , shortly after it was founded by Nic Radford and Jerry Pratt . Radford led NASA JSC’s Valkyrie program back in the day and was also the founder of Nauticus Robotics , while Pratt led IHMC’s DARPA Robotics Challenge team before spending a couple of years as CTO of Figure . The Challenge of Humanoids As of our first conversation in 2024 , Persona had committed to building an economically viable humanoid, but they hadn’t yet figured out where their focus was going to be. “We were all over the place,” Radford says. “Warehousing, automotive, we probably even mentioned the home.” These are the same environments with the same sorts of potential applications that basically every other humanoid robotics company is attempting to make economical",
-          "url": "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
-          "published_at": "2026-08-17T15:33:42+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "达芬奇手术机器人拓展至常规心脏手术",
-      "english_term": "surgical robot (手术机器人)",
-      "summary": "El Camino Health心脏与血管研究所的外科医生已开始使用Intuitive公司的达芬奇机器人进行常规心脏手术。",
-      "script": "医疗机器人这边也有新进展。El Camino Health旗下的心脏与血管研究所，外科医生已经开始使用Intuitive公司的达芬奇手术机器人，来完成一些常规的心脏外科手术。达芬奇系统大家可能比较熟悉，它是目前全球应用最广泛的微创手术机器人平台，医生通过控制台上的操纵杆远程操控机械臂末端的器械，配合高清三维视觉系统，在患者体内完成精细操作，相比传统开胸手术，创口更小、术后恢复更快。心脏手术长期以来被认为是机器人辅助手术里难度较高的领域之一，因为心脏及周边血管结构精细、稍有偏差风险极高，过去达芬奇系统更多用于前列腺切除、妇科手术等相对成熟的应用领域。这次报道里提到的是外科医生将其应用范围扩展到心脏外科的常规手术，说明经过多年的临床积累和医生培训体系的成熟，机器人辅助心脏手术正在从个别顶尖医疗中心的探索性应用，逐步走向更常规化的临床实践。技术层面，心脏手术对机械臂的力反馈精度、器械稳定性和术中影像配准要求都非常高，这也是为什么这类应用推广速度相对较慢。从产业角度看，Intuitive公司多年来在手术机器人赛道占据主导地位，医疗机构对达芬奇系统的采购和医生培训投入，本身也构成了较高的行业壁垒。后续需要关注这类常规化应用会不会推动更多医院跟进采购，以及长期临床数据能否进一步验证机器人辅助心脏手术相较传统术式的安全性和有效性优势。",
-      "duration_seconds": 145,
-      "is_unverified": false,
-      "confidence_note": "来自The Robot Report的产业报道，信息来自医疗机构公开实践，为单一来源但属明确的官方医疗实践报道。",
-      "fact_status": {
-        "confirmed": [
-          "El Camino Health的外科医生使用达芬奇机器人进行心脏手术"
-        ],
-        "analysis": [
-          "机器人辅助心脏手术正从探索性应用走向更常规化的临床实践"
-        ]
-      },
-      "source_ids": [
-        "dafdf450fc1d6172"
-      ],
-      "sources": [
-        {
-          "id": "dafdf450fc1d6172",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Surgeons use da Vinci surgical robot to perform common cardiac surgery",
-          "summary": "At the El Camino Health Heart and Vascular Institute, surgeons are now performing cardiac procedures with Intuitive's da Vinci robot. The post Surgeons use da Vinci surgical robot to perform common cardiac surgery appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/surgeons-use-da-vinci-surgical-robot-perform-common-cardiac-surgery/",
-          "published_at": "2026-08-17T20:56:21+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "医院服务机器人Moxi迭代至2.0，五年运营经验落地更多医疗系统",
-      "english_term": "service robot (服务机器人)",
-      "summary": "Diligent Robotics将Moxi 2.0机器人推广至Endeavor Health Edward医院和洛杉矶儿童医院等医疗系统。",
-      "script": "医疗服务机器人领域，Diligent Robotics公司宣布将其Moxi机器人的2.0版本，推广部署到包括Endeavor Health Edward医院、洛杉矶儿童医院在内的多家医疗系统。Moxi机器人主要承担的是医院里非临床、但占用护士大量时间的后勤工作，比如在楼层之间运送化验样本、药品和医疗物资，让护理人员能把更多时间留给直接的病患照护。这类机器人不需要具备复杂的操作能力，核心挑战在于如何在医院这种人流密集、走廊狭窄、需要频繁进出电梯的半结构化环境里稳定地自主导航，同时还要处理和病人、医护人员、访客的近距离交互安全问题。据报道，Diligent Robotics已经在医疗场景里运营了五年时间，2.0版本正是基于这五年积累的实际运行数据打磨出来的迭代产品，这种“先落地、再靠长期运营反馈迭代”的路径，在服务机器人领域相对少见，也说明这类相对低风险、但高频刚需的场景，更容易形成机器人产品从原型到规模化部署的正向循环。医院场景对机器人的可靠性要求其实很高，因为一旦机器人出现导航失败或者任务延误，会直接影响到临床流程的效率，所以长期真实环境下积累的运营数据，对于机器人厂商打磨故障处理机制和边缘案例应对能力非常关键。后续需要关注更多医疗系统采购和使用后的实际效率反馈，以及这类物流型服务机器人未来是否会向更复杂的护理辅助任务延伸。",
-      "duration_seconds": 145,
-      "is_unverified": false,
-      "confidence_note": "来自The Robot Report产业报道，信息来自公司公开部署信息，单一来源。",
-      "fact_status": {
-        "confirmed": [
-          "Diligent Robotics将Moxi 2.0部署至多家医院"
-        ],
-        "analysis": [
-          "长期真实运营数据有助于服务机器人打磨边缘案例处理能力"
-        ]
-      },
-      "source_ids": [
-        "a56af930e58d72de"
-      ],
-      "sources": [
-        {
-          "id": "a56af930e58d72de",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Five years of operation shape Diligent Robotics rollout of Moxi 2.0",
-          "summary": "Diligent is now rolling out Moxi 2.0 to health systems including Endeavor Health Edward Hospital and Children’s Hospital Los Angeles. The post Five years of operation shape Diligent Robotics rollout of Moxi 2.0 appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/",
-          "published_at": "2026-08-17T21:15:46+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "面向手术触诊的视觉触觉传感器MISTac",
-      "english_term": "vision-based tactile sensor (基于视觉的触觉传感器)",
-      "summary": "研究团队提出MISTac，一种专为微创手术设计的高分辨率视觉触觉传感器，用于弥补机器人辅助手术中缺失的触觉反馈。",
-      "script": "接下来看一篇来自arXiv的机器人学术论文。微创手术和机器人辅助手术相比传统开放手术有很多优势，但一直存在一个明显短板：医生失去了用手指直接触摸组织、判断软硬和病变的能力，也就是缺乏触觉反馈。这篇论文提出了一种叫MISTac的传感器，专门针对微创手术中的触诊需求设计。它属于基于视觉的触觉传感器这一类技术路线，工作原理大致是在传感器内部用摄像头拍摄一层弹性材料因接触受力而产生的形变，再通过图像处理算法把形变信息反推成接触力和组织软硬程度的估计，这种方案的好处是可以做到很高的空间分辨率，因为本质上是用相机采集的像素密度来表示触觉信息，比传统的电阻式或电容式触觉传感器精细得多。这次的创新点在于传感器尖端做了小型化设计，直径只有8毫米，并且是可更换式的，这样才能穿过微创手术里常用的套管进入体内，同时满足医疗器械对卫生和重复使用的要求。这类研究的意义在于，触觉反馈的缺失是限制机器人辅助手术进一步替代医生直接操作的关键瓶颈之一，如果能把高分辨率触觉信息实时反馈给主刀医生的操作手柄，理论上可以让医生在远程操作机械臂时，获得接近直接用手触摸的触感体验，从而在肿瘤定位、组织识别等对触觉依赖较高的操作环节提升安全性。目前这类研究通常还处于实验室原型验证阶段，实际应用还需要解决传感器的长期可靠性、消毒流程兼容性，以及和现有手术机器人平台的集成问题。这篇论文属于新发布的研究成果，后续需要等待同行评审结果以及在真实手术场景中的进一步验证。",
-      "duration_seconds": 160,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv预印本，尚未经过同行评审，属于最新发布的研究工作，实际性能和临床可用性有待验证。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了名为MISTac的可更换尖端视觉触觉传感器，直径8毫米，用于微创手术触诊"
-        ],
-        "analysis": [
-          "触觉反馈缺失是当前机器人辅助手术的关键限制之一，此类传感器有望缓解该问题，但实际手术场景可靠性仍需验证"
-        ]
-      },
-      "source_ids": [
-        "c4e843c3976185c7"
-      ],
-      "sources": [
-        {
-          "id": "c4e843c3976185c7",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "MISTac: A Vision-Based Tactile Sensor for Minimally Invasive Surgery",
-          "summary": "arXiv:2608.14772v1 Announce Type: new Abstract: Minimally invasive and robot-assisted surgery offer many advantages over traditional open surgery, but deprive surgeons of tactile feedback and the ability to palpate tissue with their fingers. To address this lack of tactile feedback, we introduce the MISTac, a high resolution vision-based tactile sensor specifically designed for palpation in MIS. The sensor has a replaceable sensor tip with a diameter of 8 mm which allows it to fit through the trocars used in minimally invasive surgery. Its modular 3D-printed case design allows the use of bulky off-the-shelf illumination and imaging hardware that can easily be exchanged and upgraded. The sensor has an optical resolution of 176.68 $\\mu m$, a tactile resolution of 250 $\\mu m$, and can resolve forces as little as 24.3 mN. An in vivo study with the sensor shows its usability in minimally invasive surgery. We trained a machine learning model with the tactile data collected in the trial on a tissue classification task achieving an aggregate accuracy of ~84% in a leave-one-out cross validation. Tactile sensors have the potential to one day aid surgeons during minimally invasive surgery wit",
-          "url": "https://arxiv.org/abs/2608.14772",
-          "published_at": "2026-08-18T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "other",
-      "title": "无需重新训练：VLA模型的推理时故障恢复方法CoRe",
-      "english_term": "Vision-Language-Action model (视觉-语言-动作模型)",
-      "summary": "研究者提出CoRe框架，让视觉-语言-动作模型在遇到任务目标变化、场景改变等突发状况时无需重新训练即可自我修正。",
-      "script": "再来看一篇关于机器人操作策略鲁棒性的论文。视觉-语言-动作模型，简称VLA，是近两年具身智能领域最热门的技术路线之一，它把视觉输入、语言指令和机器人动作输出统一在一个大模型框架里，让机器人可以根据自然语言指令灵活完成多样化的操作任务。但这类模型有一个普遍问题：一旦运行过程中出现任务目标变化、场景布局改变，或者机器人自身状态发生意外偏差，模型往往会“懵掉”，继续执行错误的动作，而现有的解决办法大多需要额外收集失败数据、重新训练策略，或者引入外部的纠错智能体来干预，这些方案都会带来额外的数据需求和执行风险。这篇论文提出了一个名为“反事实重新对齐”的框架，英文缩写CoRe，最大的特点是不需要训练，也就是说不需要针对失败场景专门采集数据或者调整模型参数，而是在推理阶段，也就是模型实际运行、做决策的过程中，通过某种反事实推理机制，让模型重新评估当前状态和原本设定目标之间的偏差，进而对动作输出做实时修正。这种思路的价值在于，它把故障恢复能力做成了一个可以叠加在已有VLA模型之上的“插件”，而不需要对底层策略伤筋动骨，这对于实际部署中经常遇到的各种边缘情况会非常实用，因为收集专门的失败数据本身成本很高，而且很难穷尽所有可能出现的意外状况。当然，这类推理时修正方法的效果通常依赖于模型本身对场景和任务的理解能力，如果基础VLA模型本身的泛化能力有限，反事实推理能纠正的偏差范围也会受限。这篇论文目前是最新发布的预印本，其提出的方法在多大范围的失败场景下有效，还需要等待后续更全面的实验验证和同行评审。",
-      "duration_seconds": 165,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv预印本，尚未经过同行评审，方法的泛化能力和实际有效范围需要进一步验证。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了名为CoRe的训练无关框架，用于VLA模型在推理阶段的故障恢复"
-        ],
-        "analysis": [
-          "该方法避免了额外数据采集和重新训练，但实际有效性受限于基础模型自身的泛化能力"
-        ]
-      },
-      "source_ids": [
-        "052666dbc3ca3b3d"
-      ],
-      "sources": [
-        {
-          "id": "052666dbc3ca3b3d",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Imagining Recovery: Inference-Time Counterfactual Realignment for Vision-Language-Action Models",
-          "summary": "arXiv:2608.14822v1 Announce Type: new Abstract: Vision-language-action (VLA) models have improved the flexibility and generality of robotic manipulation, yet they remain fragile to online disruptions, such as changes in task goal, scene configuration, or robot state. Existing recovery methods often require failure data, policy retraining, or external corrective agents, introducing additional data requirements and execution risks. We propose Counterfactual Realignment (CoRe), a training-free framework that recovers a frozen VLA at inference time without failure data. Upon detecting a deviation, CoRe imagines how the policy would continue toward the current goal from a recent viable state, using synthesized observations in place of physical execution, and then minimally realigns the robot and scene to rejoin this imagined continuation before returning control to the policy. Recovery is therefore planned without physical trial-and-error, preserves completed task progress, and handles both mid-episode instruction changes and physical perturbations in a unified manner. Extensive experiments across multiple simulators, VLA backbones, and real-world settings show that CoRe improves succes",
-          "url": "https://arxiv.org/abs/2608.14822",
-          "published_at": "2026-08-18T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "美伊和谈错过截止期，中东局势持续紧张",
-      "english_term": null,
-      "summary": "美国和伊朗未能在原定期限前启动和平谈判，持续数月的冲突已消耗大量美方资源，特朗普再度威胁对阿曼采取军事行动。",
-      "script": "国际局势方面，美国和伊朗错过了原定启动和平谈判的截止期限，双方持续数月的对抗已经消耗了美国相当规模的军事和外交资源。据报道，美方的注意力和资源持续集中在中东方向，这也间接影响了华盛顿在亚太等其他关键地缘政治区域的战略投入节奏。与此同时，美国总统特朗普再次威胁要对阿曼采取军事行动，这已经是他第二次发出类似威胁，起因与霍尔木兹海峡局势相关，而这一威胁出现的背景，正是美伊和谈陷入僵局的关键节点。霍尔木兹海峡是全球最重要的能源运输通道之一，任何针对沿岸国家的军事行动威胁，都会立刻引发国际社会对能源市场和地区安全的担忧。已确认的事实是，美伊双方确实未能按原计划时间节点开启谈判，且美国官方公开表态显示资源分配正在向中东倾斜。各方主张方面，美方将谈判受阻和局势升级归因于伊朗方面的立场强硬，而外界分析普遍认为，这一系列威胁性言论也是谈判筹码博弈的一部分，目的是向伊朗及地区相关方施压。分析判断层面，多家媒体报道指出，持续的中东军事介入正在挤压美国在亚洲事务上的资源投入，这可能会对美国在亚太地区的战略存在产生中长期影响，具体走向还需要观察后续谈判是否能够重新启动，以及针对阿曼的威胁是否会真正转化为实际军事行动。",
-      "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "综合Al Jazeera与NPR两家独立二级来源交叉印证，核心事实基本确认，但对局势升级动因的判断存在媒体分析成分。",
-      "fact_status": {
-        "confirmed": [
-          "美国和伊朗未能在原定期限前启动和平谈判",
-          "特朗普第二次威胁对阿曼采取军事行动"
-        ],
-        "claims": [
-          "美方将谈判受阻归因于伊朗立场强硬"
-        ],
-        "analysis": [
-          "持续的中东军事投入正在挤压美国在亚太地区的资源和战略关注"
-        ]
-      },
-      "source_ids": [
-        "1ff5fb6eecf28c0f",
-        "0ff99137bb77e611",
-        "4f05ff2d8320b0b7"
-      ],
-      "sources": [
-        {
-          "id": "1ff5fb6eecf28c0f",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "U.S. and Iran miss peace talks deadline. And, Alaska, Florida and Wyoming primaries",
-          "summary": "The U.S. and Iran missed a deadline to begin peace talks this week. The monthslong war has depleted U.S. resources. And, what to know about Alaska's U.S. Senate seat primary.",
-          "url": "https://www.npr.org/2026/08/18/g-s1-139072/up-first-newsletter-iran-south-korea-jared-kushner-florida-wyoming-alaska-primaries-luigi-mangione",
-          "published_at": "2026-08-18T11:40:35+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "0ff99137bb77e611",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Why has Trump threatened to bomb Oman – for a second time?",
-          "summary": "The US president threatened to bomb Oman over Hormuz, with US-Iran peace negotiations in a deadlock.",
-          "url": "https://www.aljazeera.com/news/2026/8/18/why-has-trump-threatened-to-bomb-oman-for-a-second-time?traffic_source=rss",
-          "published_at": "2026-08-18T11:33:15+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "4f05ff2d8320b0b7",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "War between U.S. and Iran shifts key resources away from Asia",
-          "summary": "The U.S. focus on Iran has pivoted key resources away from another key geopolitical region -- Asia.",
-          "url": "https://www.npr.org/2026/08/18/nx-s1-5935425/war-between-u-s-and-iran-shifts-key-resources-away-from-asia",
-          "published_at": "2026-08-18T08:40:36+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "俄乌战事持续升级，英国被指供应无人机遭俄方警告",
-      "english_term": null,
-      "summary": "俄罗斯指责英国因提供无人机而升级乌克兰战事，英方首相表态百分之百支持乌克兰；乌克兰哈尔科夫州遭导弹袭击造成10人死亡。",
-      "script": "俄乌冲突方面，双方近期互有攻击行动。乌克兰方面报告称，东北部哈尔科夫州靠近边境地区遭到导弹袭击，造成10人死亡。俄罗斯方面则报告称，有超过600架无人机逼近莫斯科地区，并就英国向乌克兰提供无人机一事发出警告，指责英方此举正在推动战争升级。对此，英国首相在公开表态中回应称英国百分之百支持乌克兰，将在其“最需要的时刻”继续提供支持。已经确认的事实包括：乌克兰哈尔科夫州确实发生导弹袭击并造成人员死亡，俄罗斯方面公开发布了关于无人机来袭规模的说法，英国首相也公开做出了支持乌克兰的表态。各方主张上存在明显分歧：俄罗斯将英国提供无人机定性为“战争升级”行为并提出警告，而英国官方则将自身行动定义为对乌克兰的正当支持，并未承认这一定性。分析判断层面，这次交锋反映出俄乌冲突进入一个西方对乌军事支持力度与俄方反制警告持续拉锯的阶段，无人机作为相对低成本、可大规模部署的武器系统，正在成为双方消耗战中的关键装备类型，其规模化使用也让防空系统的压力持续上升。此外，值得关注的是，乌克兰的电商平台Wildberries网站近期也再次遭到攻击，显示冲突已经延伸到民用数字基础设施层面。后续需要观察双方在无人机领域的军备投入和防御能力升级情况，以及国际社会对英国供应行为的进一步反应。",
+      "title": "FORT Robotics拟通过SPAC合并在纳斯达克上市",
+      "english_term": "SPAC（特殊目的收购公司）",
+      "summary": "机器人安全软件公司FORT Robotics计划通过SPAC合并方式登陆纳斯达克，预期估值超过5亿美元，用于加速安全软件产品开发。",
+      "script": "机器人安全领域也传出资本动作。据The Robot Report报道，FORT Robotics计划通过与一家特殊目的收购公司，也就是SPAC合并的方式登陆纳斯达克，公司预期上市后估值将超过5亿美元，募集资金将用于加速其安全软件栈的开发。FORT Robotics所在的赛道是机器人和自动化设备的功能安全软件，这类软件负责在机器人出现异常动作、传感器失效或者操作员紧急停止时，确保系统能够快速、可靠地进入安全状态，是工业机器人和自主移动机器人商业化落地过程中必须通过的合规环节之一。随着仓储物流、工厂自动化以及户外自主设备的部署规模扩大，围绕功能安全的软件和认证服务正逐渐从机器人整机厂商的内部模块，独立成为一个专门的供应商赛道。选择SPAC合并上市而不是传统IPO，通常意味着公司希望更快完成上市流程并锁定一个相对确定的估值，但也会面临SPAC交易本身存在的不确定性，包括最终交易条款调整、股东投票通过与否等因素，这些都可能影响最终是否能够成功完成上市。目前公司披露的信息主要是预期估值和上市意向，尚未公布具体的交易完成时间表和详细财务数据。后续需要等待公司正式提交上市文件、披露审计后的财务数据，以及SPAC股东投票的结果，才能确认这笔交易能否如期完成。",
       "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "BBC与DW两家独立二级来源交叉确认核心事实，俄方对英国的定性属各方主张范畴。",
+      "confidence_note": "来自The Robot Report对公司公告的直接报道，SPAC交易存在完成前的不确定性。",
       "fact_status": {
         "confirmed": [
-          "乌克兰哈尔科夫州遭导弹袭击造成10人死亡",
-          "俄罗斯报告称超过600架无人机逼近莫斯科地区",
-          "英国首相公开表态支持乌克兰"
+          "FORT Robotics计划通过SPAC合并登陆纳斯达克"
         ],
         "claims": [
-          "俄罗斯指责英国供应无人机导致战争升级"
+          "公司预期上市后估值超过5亿美元"
         ],
         "analysis": [
-          "无人机正成为俄乌冲突消耗战中的关键装备，冲突已延伸至民用数字基础设施层面"
+          "SPAC上市路径能加快流程但交易完成前仍存在条款调整或股东否决的风险"
         ]
       },
       "source_ids": [
-        "25fcda76a3bc71d6",
-        "8216b21b23b4c090"
+        "066622e545faddff"
       ],
       "sources": [
         {
-          "id": "25fcda76a3bc71d6",
-          "source": "BBC World",
+          "id": "066622e545faddff",
+          "source": "The Robot Report",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
-          "summary": "Russia accuses the UK of escalating the Ukraine war by supplying British-made drones as the prime minister vows to support Kyiv in its \"hour of need\".",
-          "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-18T11:41:23+00:00",
+          "category_hint": "robotics",
+          "title": "FORT Robotics to take safety stack public via SPAC merger",
+          "summary": "FORT Robotics said it expects valuation of more than $500 million as it lists on Nasdaq with plans to accelerate safety software development. The post FORT Robotics to take safety stack public via SPAC merger appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/fort-robotics-takes-safety-stack-public-via-spac-merger/",
+          "published_at": "2026-08-18T15:24:13+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        },
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "VLCP：让视觉语言模型冻结参数，直接写机器人控制代码",
+      "english_term": "VLM（视觉语言模型）、closed-loop replanning（闭环重规划）",
+      "summary": "一项新研究提出VLCP方法，让视觉语言模型在不微调参数的情况下，直接生成并闭环修正机器人操作的Python控制代码。",
+      "script": "把一个强大的通用视觉语言模型改造成机器人策略，传统做法通常需要对模型进行微调，让它输出一种它在预训练阶段从未见过的动作表示，但这个过程往往会丢失模型原本具备的推理能力。一篇新发布在arXiv的论文提出了相反的思路，方法名为VLCP，全称是视觉语言控制策略闭环代码重规划。这项工作让视觉语言模型保持参数冻结，不做任何微调，而是让模型直接编写一段简短的Python控制函数作为机器人策略，整个过程不需要人类演示数据。论文指出，如果只是让模型一次性写出代码，那是一种开环方式，也就是执行过程中不会根据实际情况调整，容易在环境发生变化或者代码出现错误时失败。为了解决这个问题，作者设计了闭环重规划机制，让系统能够根据执行过程中的反馈，重新调用视觉语言模型对代码进行修正和再规划，从而形成一个持续修正的闭环控制流程。这种思路的核心价值在于它绕开了微调所需要的大量演示数据和算力投入，同时保留了视觉语言模型原本的推理和常识能力，让模型可以像人类工程师一样，通过写代码而不是输出底层动作指令来控制机器人完成操作任务。这类方法目前更多在仿真或者受限的实验室场景中验证，其在开放场景下的泛化能力、代码执行的实时性以及面对复杂长时序任务时的可靠性，仍需要更多实验支撑。论文属于新发布的预印本，尚未经过同行评审。后续需要等待同行评审结果以及更多真实机器人平台上的复现实验，来验证该方法的稳健性和适用范围。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "论文为arXiv新发布预印本，尚未经过同行评审，实验范围和泛化能力有待进一步验证。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了VLCP方法，让冻结参数的视觉语言模型生成机器人控制代码"
+        ],
+        "claims": [
+          "作者称该方法通过闭环重规划解决了开环代码执行的局限性"
+        ],
+        "analysis": [
+          "该思路可能降低数据和算力门槛，但真实场景泛化能力仍需更多独立验证"
+        ]
+      },
+      "source_ids": [
+        "6285ae512ea3b105"
+      ],
+      "sources": [
         {
-          "id": "8216b21b23b4c090",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
+          "id": "6285ae512ea3b105",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Ukraine, Russia trade strikes; Wildberries site hit again",
-          "summary": "Ukriane reported 10 dead in a missile strike in the northeastern Kharkiv oblast near the border. Russia, meanwhile, reported more than 600 drones approaching the Moscow area and warned the UK on suppyling drones to Kyiv.",
-          "url": "https://www.dw.com/en/ukraine-russia-trade-strikes-wildberries-site-hit-again/a-78408178?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-18T09:29:00+00:00",
+          "category_hint": "robotics",
+          "title": "VLCP: Vision Language Control Policy Closed-Loop Code Replanning for Robot Manipulation",
+          "summary": "arXiv:2608.16978v1 Announce Type: new Abstract: Turning a frontier vision-language model into a robot policy usually means fine-tuning it to emit an action representation it never saw in pretraining, which throws away much of the reasoning that made the model worth reaching for. We go the other way and keep the VLM frozen. It writes the policy as a short Python control function, with no demonstrations and no fine-tuning. Writing that code once is open-loop, though. Existing closed-loop methods react at the wrong level: they retry a fixed policy or pick a different subtask, but never rewrite the code that failed. VLCP closes the loop where the failure actually lives, on the control code, within a single episode. Every $K$ steps the VLM re-observes the scene from multi-view RGB, proprioceptive state, and a state delta, then rewrites the control function from what it just saw, so a failure is caught before it compounds. We evaluate on a 57-task MuJoCo/RoboVerse sweep. This training-free policy reaches $35.1\\%$ pooled success, against $3.5\\%$ for the identical system queried once per episode. That tenfold gap holds with non-overlapping confidence intervals in every scene family. The ga",
+          "url": "https://arxiv.org/abs/2608.16978",
+          "published_at": "2026-08-19T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "FetchMan：从仿真经验学习人形机器人视觉移动操作策略",
+      "english_term": "loco-manipulation（移动操作）、sim-to-real（仿真到真实迁移）",
+      "summary": "新论文FetchMan提出通过大规模仿真数据训练人形机器人的视觉移动操作策略，试图绕开真实世界人形机器人演示数据稀缺的问题。",
+      "script": "能够泛化到新场景、新物体的视觉移动操作策略，一直是机器人研究长期追求的目标，但当前数据驱动的算法极度依赖大量演示数据，这对桌面级机械臂操作已经是个挑战，对同时需要行走和保持平衡的人形机器人来说更是难上加难。一篇新发布的论文提出了名为FetchMan的方法，思路是从仿真环境中生成的经验数据出发进行训练，再把学到的行为迁移到真实机器人上，这种仿真到真实的迁移路径在运动控制领域已经比较常见，但论文尝试把它系统性地扩展到同时涉及移动和操作的复合任务上，也就是所谓的移动操作。所谓移动操作，指的是机器人不仅要完成抓取、放置等操作动作，还需要在执行操作的同时进行行走、转身、保持身体平衡等移动行为，这类复合任务对策略的时序协调能力要求更高，传统方法往往把移动和操作分开训练再拼接，容易在两者交界处出现协调失败。FetchMan通过在仿真中生成大规模的视觉与动作配对数据，试图让策略同时学会感知环境、规划移动路径并完成操作，从而减少对真实世界人形机器人演示数据的依赖。这类研究的意义在于，如果仿真到真实的迁移能够在人形机器人的复合任务上稳定工作，将大幅降低数据采集成本，加快人形机器人在真实环境中的部署速度。不过论文本身作为新发布的预印本，其提出的具体成功率、跨场景泛化程度以及在多样化真实环境下的鲁棒性，仍需要独立验证。后续需要等待论文经过同行评审，以及更多第三方团队在不同硬件平台上的复现结果。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "论文为arXiv新发布预印本，尚未经过同行评审，具体成功率和跨平台泛化能力有待验证。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出FetchMan方法，通过仿真数据训练人形机器人视觉移动操作策略"
+        ],
+        "claims": [
+          "作者称该方法能够降低对真实演示数据的依赖"
+        ],
+        "analysis": [
+          "仿真到真实迁移在复合移动操作任务上的稳定性和泛化能力仍需更多独立验证"
+        ]
+      },
+      "source_ids": [
+        "b53a01e2158219ec"
+      ],
+      "sources": [
+        {
+          "id": "b53a01e2158219ec",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences",
+          "summary": "arXiv:2608.17027v1 Announce Type: new Abstract: Visual loco-manipulation policies that can generalize to novel scenes and objects have long been a goal of robotics research. However, today's data-hungry algorithms make collecting sufficient demonstrations a struggle for tabletop manipulation, and even more so for humanoids that must also walk and balance. Learning from simulated data and transferring that behavior to the real world, as is commonly done in locomotion, sidesteps this struggle, so we replicate that recipe for loco-manipulation. In doing so, we find that cloning synthetic demonstrations results in a low performance ceiling no matter the amount of training data. Reinforcement learning breaks through it, and refining the cloned policy with Flow-GRPO on a single sparse reward yields performance that synthetic behavior cloning cannot match. Together, these stages form our end-to-end sim-to-real pipeline spanning more than 150,000 scenes, which we use to train FetchMan. We evaluate it on FetchMan-Bench, a simulation benchmark we release, and deploy it zero-shot on a real Unitree G1, where our single-object reach-and-pick policy walks to and grasps a target across unseen sce",
+          "url": "https://arxiv.org/abs/2608.17027",
+          "published_at": "2026-08-19T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -364,93 +226,199 @@
     },
     {
       "category": "world",
-      "title": "赞比亚大选：希奇莱马宣布连任，反对派指控存在选举违规",
+      "title": "美国暂缓对加拿大加征50%关税",
       "english_term": null,
-      "summary": "赞比亚总统希奇莱马在选举中宣布连任成功，但主要对手因遭受指控威胁而躲藏，选举过程被指存在武装团伙活动和干预指控。",
-      "script": "非洲政治方面，赞比亚总统哈凯恩德·希奇莱马宣布在这次大选中成功连任，他在公开讲话中表示自己感到“由衷谦卑”，并承诺将为全体赞比亚人民工作。但这次选举的过程并不平静，据报道，他的主要竞争对手因面临所谓的威胁指控而处于躲藏状态，没有公开露面。与此同时，赞比亚国内出现了多起关于选举违规的指控，包括所谓“民兵”武装团伙活动的传闻和相关人员被逮捕的报道，选举的公正性和国家民主状态正因此受到国际社会和当地民众的关注。已经确认的事实是，希奇莱马已经正式宣布胜选，并公开发表了胜选感言；同时确实有多起关于选举违规、武装团伙活动指控和相关逮捕行动的报道。各方主张方面，反对派及部分观察人士对选举过程的公正性提出质疑，而政府方面尚未就具体指控做出详细回应。分析判断层面，赞比亚近年来在非洲被视为相对稳定的民主转型样本，此次选举出现的争议，可能会影响外界对该国民主制度成熟度的评价，也可能对未来赞比亚的政治稳定性和国际投资信心产生影响。后续需要观察反对派是否会正式对选举结果提出申诉，以及国际选举观察机构是否会发布正式的评估报告。",
-      "duration_seconds": 115,
+      "summary": "特朗普宣布美国将暂缓对加拿大商品征收50%关税，双方已达成一项协议；同时佛罗里达州初选结果显示进步派民主党人表现引发关注。",
+      "script": "据NPR报道，美国总统特朗普宣布，在与加拿大达成一项协议后，美国将暂缓原计划对加拿大进口商品征收的50%关税。这一表态出现在美加贸易关系持续紧张的背景下，此前威胁性关税政策一直被视为特朗普政府对外贸易谈判的常用施压手段。报道没有进一步披露协议的具体条款细节，包括暂缓期限、双方在哪些具体商品或政策领域做出了让步，因此目前只能确认关税暂缓这一结果本身，协议的具体内容仍有待官方进一步公布。从影响层面看，加拿大对美贸易中有相当比例集中在汽车零部件、能源和农产品等领域，如果50%的高关税真正落地，将对两国供应链和相关行业价格产生明显冲击，因此这次暂缓消息对相关产业界而言是一个短期缓解信号，但由于协议细节和执行期限不明，市场仍需观察后续是否会有新的变数。同一篇报道还提到了佛罗里达州初选的结果，指出进步派民主党人在初选中的表现成为一个值得关注的政治动向，但报道未给出具体的得票数据或候选人名单，只是作为初选整体观察的一部分被提及。综合来看，这两则消息都属于经过官方或初步数据确认的时事进展，但具体细节仍有限，后续需要等待美加两国官方公布协议全文，以及佛罗里达州选举委员会公布正式初选结果，才能获得更完整的图景。",
+      "duration_seconds": 130,
       "is_unverified": false,
-      "confidence_note": "BBC与DW两家独立二级来源交叉确认核心事实，关于选举违规的具体指控细节仍需更多信源验证。",
+      "confidence_note": "来自NPR的直接报道，属于总统公开声明，但协议具体条款尚未披露。",
       "fact_status": {
         "confirmed": [
-          "希奇莱马宣布在赞比亚大选中连任成功"
+          "特朗普宣布美国暂缓对加拿大加征50%关税",
+          "双方已达成一项协议"
         ],
         "claims": [
-          "反对派主要候选人因威胁指控而躲藏",
-          "存在关于武装团伙活动和选举干预的指控"
+          "报道称佛罗里达初选中进步派民主党人的表现值得关注"
         ],
         "analysis": [
-          "此次争议可能影响外界对赞比亚民主制度成熟度的评价"
+          "协议具体条款和暂缓期限不明，后续执行情况仍有不确定性"
         ]
       },
       "source_ids": [
-        "0e06b7cc68d245dc",
-        "cd0987ab5db80dc5"
+        "8db4722a184958dd"
       ],
       "sources": [
         {
-          "id": "0e06b7cc68d245dc",
-          "source": "BBC World",
+          "id": "8db4722a184958dd",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Zambia's Hichilema re-elected president as main rival in hiding over alleged threats",
-          "summary": "Hakainde Hichilema says he was “truly humbled” by the victory and promised to work for all Zambians.",
-          "url": "https://www.bbc.co.uk/news/articles/c5y6j4jl03xo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-18T10:59:22+00:00",
+          "title": "U.S. delays 50% tariff on Canadian imports. And, takeaways from Florida's primaries",
+          "summary": "President Trump has announced that the U.S. is delaying a 50% tariff on Canadian imports after reaching a deal. And, how progressive Democrats fared in Florida's primary elections yesterday.",
+          "url": "https://www.npr.org/2026/08/19/g-s1-139173/up-first-newsletter-florida-primary-canada-tariffs-trump-meta-trial",
+          "published_at": "2026-08-19T11:14:31+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        },
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "以色列军方将对两起加沙袭击事件展开刑事调查",
+      "english_term": null,
+      "summary": "以色列军方决定对造成一名5岁巴勒斯坦女童辛德·拉贾布死亡及15名救援人员遇难的两起加沙袭击事件展开刑事调查，这一决定基于对150起相关事件的审查。",
+      "script": "据DW报道，以色列军方宣布将对两起在加沙发生的袭击事件展开刑事调查，这两起事件分别造成一名5岁巴勒斯坦女童辛德·拉贾布死亡，以及15名紧急救援人员遇难。军方表示，这一决定是在对总计150起涉及以色列部队行为的事件进行审查之后作出的。这两起事件此前都曾在国际媒体上引发广泛关注和争议，辛德·拉贾布事件因为其求救录音的公开传播而在全球范围内引发强烈反应，救援人员遇难事件则涉及国际人道救援人员在冲突区域执行任务时的安全保障问题。已确认的事实是，以色列军方官方宣布了对这两起事件启动刑事调查程序，并明确了调查所依托的150起事件审查这一背景。目前各方对事件本身的具体责任认定仍存在分歧，人权组织此前多次要求对相关军事行动展开独立且透明的调查，而军方内部审查机制的独立性和调查结果的公开程度，也一直是外界关注和质疑的焦点。从分析角度看，此次刑事调查程序的启动，某种程度上回应了国际社会长期以来对加沙冲突中军事行动问责机制的呼声，但调查程序启动本身并不等同于最终会有明确的责任认定或者对相关人员的处罚，两者之间还有相当长的法律程序距离。后续需要等待以色列军方公布调查的具体进展、时间表以及最终调查结论，才能判断这次刑事调查是否会带来实质性的问责结果。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "来自DW对以色列军方官方决定的直接报道，调查结果尚未公布。",
+      "fact_status": {
+        "confirmed": [
+          "以色列军方宣布对两起加沙袭击事件启动刑事调查",
+          "调查基于对150起事件的审查"
+        ],
+        "claims": [
+          "人权组织此前多次要求独立调查相关军事行动"
+        ],
+        "analysis": [
+          "调查启动不等同于最终问责结果，程序结论仍需时间"
+        ]
+      },
+      "source_ids": [
+        "7738d87ace3eeb5d"
+      ],
+      "sources": [
         {
-          "id": "cd0987ab5db80dc5",
+          "id": "7738d87ace3eeb5d",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Zambia's election marred by irregularities and 'militia' arrests",
-          "summary": "Zambia is gripped by allegations of armed plots, intimidation and electoral interference. As President Hakainde Hichilema leads the count, concerns are growing over the state of the country's democracy.",
-          "url": "https://www.dw.com/en/zambia-s-election-marred-by-irregularities-and-militia-arrests/a-78400154?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-18T09:11:00+00:00",
+          "title": "Israeli military to open criminal probes into 2 Gaza attacks",
+          "summary": "The investigations will focus on the killings of 5-year-old Palestinian girl Hind ⁠Rajab and 15 emergency aid workers in Gaza. The decision came after a review of 150 incidents concerning the conduct of Israeli troops.",
+          "url": "https://www.dw.com/en/israeli-military-to-open-criminal-probes-into-2-gaza-attacks/a-78429726?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-19T11:44:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "乌克兰被解职防长呼吁举行总统选举",
+      "english_term": null,
+      "summary": "乌克兰一名被解职的防长呼吁举行总统选举，而乌克兰自2022年2月起一直处于战时状态，选举依法被暂停。",
+      "script": "据BBC报道，乌克兰一名被解职的防长公开呼吁举行总统选举。报道指出，乌克兰自2022年2月俄乌冲突全面升级以来一直处于战时状态，根据相关法律，选举在战时状态下依法被暂停。这一呼吁的出现，反映出乌克兰国内在战争持续背景下，围绕政治权力合法性和选举时机的讨论并未完全消失，尤其是在一些高级官员被解职或政治立场出现分化的情况下，类似呼声容易被外界解读为国内政治张力的一个信号。已确认的事实是，这名前防长确实公开发出了举行总统选举的呼吁，以及乌克兰战时状态和选举暂停这一法律背景属实。但报道并未说明这位前防长被解职的具体原因，也没有提及乌克兰现任政府或总统办公室对这一呼吁的正式回应，因此这更多是一种个人政治主张，而非官方政策动向的转变。从分析角度看，在持续的军事冲突背景下，任何关于选举时机的讨论都会牵涉复杂的国内政治博弈、国际盟友态度以及战场局势本身，一名被解职官员的公开呼吁本身影响力有限，但如果类似声音持续增多，可能反映出乌克兰国内对战时治理模式的耐心正在发生某种变化。后续需要关注乌克兰总统办公室或议会是否对此作出正式回应，以及是否有更多政治人物加入类似讨论。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "来自BBC的直接报道，为个人政治主张，非官方政策变化，官方回应尚未披露。",
+      "fact_status": {
+        "confirmed": [
+          "乌克兰一名被解职防长公开呼吁举行总统选举",
+          "乌克兰自2022年2月起处于战时状态，选举依法暂停"
+        ],
+        "claims": [
+          "该防长认为应当举行选举"
+        ],
+        "analysis": [
+          "个人呼吁不代表官方政策转向，其政治影响力和后续走向有待观察"
+        ]
+      },
+      "source_ids": [
+        "6616df6c08cade6b"
+      ],
+      "sources": [
+        {
+          "id": "6616df6c08cade6b",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Sacked Ukrainian defence minister calls for presidential election",
+          "summary": "Martial law has been in place in Ukraine since February 2022, under which elections are suspended.",
+          "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-19T11:00:21+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "science",
+      "title": "NASA月球轨道器拍摄到SpaceX火箭撞击月面形成的新陨石坑",
+      "english_term": "LRO（月球勘测轨道器）",
+      "summary": "NASA的月球勘测轨道器在8月11日至12日期间拍摄到一个新形成的月面陨石坑，该坑由SpaceX一枚猎鹰9号火箭上面级撞击月面所形成。",
+      "script": "据NASA官方消息，其月球勘测轨道器，简称LRO，在8月11日至12日期间拍摄到了一系列月面新陨石坑的图像。这个陨石坑是在8月5日形成的，成因是一枚SpaceX猎鹰9号火箭的上面级在完成2025年1月发射的萤火虫蓝色幽灵一号任务后，其残余部分撞击了月球表面。这类事件在航天领域并不罕见，火箭上面级在完成主要任务后，如果轨道设计上没有安排额外的离轨或回收动作，往往会在数月甚至数年后因为轨道衰减而最终撞向月球或地球，这也是当前太空垂直物体管理和轨道碎片议题中被持续讨论的一个具体案例。NASA的月球勘测轨道器长期承担着对月球表面进行高分辨率成像和环境监测的任务，通过对撞击前后同一区域的对比成像，科研人员能够精确测算出新陨石坑的大小、形状和喷射物分布，从而反推撞击体的动能、撞击角度等物理参数，这类真实撞击事件也为科学家验证月球表面撞击动力学模型提供了难得的实测数据。NASA表示后续将结合这批图像开展进一步的科学分析。这一事件本身不涉及安全风险，因为月球没有大气层保护，类似的人造物体撞击此前也曾发生过，但通过持续追踪这类撞击事件，有助于更好地理解人类航天活动对月球环境的长期累积影响。后续需要关注NASA是否会公布更详细的撞击坑测量数据和科学分析结果。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "NASA官方一手信息发布，细节完整可靠。",
+      "fact_status": {
+        "confirmed": [
+          "NASA的LRO在8月11日至12日拍摄到新月面陨石坑图像",
+          "陨石坑由SpaceX猎鹰9号火箭上面级于8月5日撞击月球表面形成"
+        ],
+        "claims": [],
+        "analysis": [
+          "此类撞击事件为月球表面撞击动力学研究提供实测数据，也是航天器离轨管理议题的一个具体案例"
+        ]
+      },
+      "source_ids": [
+        "1a9bfe4ef72ad2fc"
+      ],
+      "sources": [
+        {
+          "id": "1a9bfe4ef72ad2fc",
+          "source": "NASA",
+          "source_tier": 1,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "science",
+          "title": "NASA’s LRO Images Falcon 9 Crater on Moon, Learns New Details",
+          "summary": "Between Aug. 11 and 12, NASA’s Lunar Reconnaissance Orbiter (LRO) captured a series of images of a new crater on the Moon. The crater formed on Aug. 5, when a SpaceX Falcon 9 upper stage impacted the surface following its January 2025 launch of the Firefly Blue Ghost 1 mission. To capture imagery of the […]",
+          "url": "https://science.nasa.gov/solar-system/moon/nasas-lro-images-falcon-9-crater-on-moon-learns-new-details/",
+          "published_at": "2026-08-18T18:49:50+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的国际局势依然复杂：美伊和谈受阻、俄乌无人机交锋升级、赞比亚大选争议不断，都需要持续关注后续进展。机器人领域，从建筑工地到手术台再到造船厂焊接，产业界正在密集地寻找真正能落地的应用场景，学术界的论文则在触觉传感与故障恢复等方向持续推进基础能力。晶球电台明天同一时间，继续为你梳理这些变化。",
-  "editor_note": "为满足总时长与机器人时长占比要求，本版删去了原稿中关于通用操作接口UMI和仿鳗鱼软体机器人的两条论文/产业story，并压缩了保留条目的篇幅；机器人相关事件（含归类为other的VLA论文一条因不计入robotics占比统计，故机器人占比按robotics标签的5条计算）合计约710秒，占全篇约52%。来源涵盖The Robot Report、IEEE Spectrum与arXiv等多家专业媒体，避免单一来源垄断。两篇arXiv预印本论文均标记为未经同行评审，并在稿件中说明局限。国际新闻部分保留三条均有至少两家独立来源交叉确认的事件。",
+  "closing": "今天的内容就到这里，机器人产业在触觉皮肤、安全软件和展会亮相上继续发力，学术界则在视觉语言控制与仿真训练方法上推进新思路；国际局势方面，关税、加沙调查和乌克兰国内政治讨论都值得继续关注后续官方进展。",
+  "editor_note": "为把机器人时长占比调回45%-55%区间，本次修订移除了原稿中的λ-hold肌骨骼仿真论文条目，保留五条机器人事件（两条产业、三条学术，共710秒），机器人时长占比约52%；其余四条国际与科学事件共530秒。所有保留事件的事实、数字与source_ids均未改动。机器人部分兼顾产业与学术，来源涉及The Robot Report与展会综述转载及三篇不同arXiv预印本，已在confidence_note中标注同行评审状态与局限。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 9438,
-      "output_tokens": 11794,
-      "total_tokens": 21232
+      "input_tokens": 9641,
+      "output_tokens": 10279,
+      "total_tokens": 19920
     },
     {
-      "input_tokens": 13685,
-      "output_tokens": 9349,
-      "total_tokens": 23034
+      "input_tokens": 12134,
+      "output_tokens": 8765,
+      "total_tokens": 20899
     }
   ],
   "usage": {
-    "output_tokens": 21143,
-    "total_tokens": 44266,
-    "input_tokens": 23123
+    "output_tokens": 19044,
+    "total_tokens": 40819,
+    "input_tokens": 21775
   },
-  "generated_at": "2026-08-18T12:13:44+00:00",
-  "window_start": "2026-08-17T12:13:44+00:00",
-  "candidate_count": 326,
+  "generated_at": "2026-08-19T12:12:59+00:00",
+  "window_start": "2026-08-18T12:12:59+00:00",
+  "candidate_count": 256,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1305,
-    "script_characters": 5104,
-    "topic_duration_share": 0.582,
+    "duration_seconds": 1235,
+    "script_characters": 4825,
+    "topic_duration_share": 0.575,
     "passed": true,
     "normal_target_met": true,
     "topic_source_count": 3,
