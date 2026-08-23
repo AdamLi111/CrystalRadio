@@ -1,110 +1,95 @@
 {
-  "title": "晶球电台早报：北京人形机器人运动会开幕，加美贸易战全面升级",
-  "subtitle": "机器人赛场刷新百米纪录，谐波齿轮箱迈向量产；乌克兰商场遇袭，缅甸寺庙空袭引发关注",
+  "title": "晶球电台早报：北京人形机器人运动会跑出百米新纪录，全球局势多线紧绷",
+  "subtitle": "从天工Ultra的9.39秒到乌克兰的选举争议，今天信息量不小",
   "highlights": [
-    "第二届世界人形机器人运动会在北京开幕，一台机器人在百米测试中跑出9.32秒，峰值速度达每秒14.5米",
-    "舍弗勒宣布2027年量产人形机器人用谐波减速器齿轮箱，产业链关键部件加速落地",
-    "加拿大与美国贸易谈判破裂，美国对200亿美元加拿大商品加征50%关税，加方称将对等反制",
-    "乌克兰一处商场遭袭，泽连斯基谴责袭击行径，仍有9人下落不明",
-    "刚果民主共和国埃博拉疫情持续扩散，首批超1.6万剂疫苗抵达"
+    "北京世界人形机器人运动会：天工Ultra百米冲刺9.39秒撞上防护垫，引发关于机器人速度与安全边界的讨论",
+    "美加贸易谈判破裂，特朗普称加拿大想要“成为美国一个州的好处”，加拿大总理宣布反制关税",
+    "乌克兰前防长公开质疑泽连斯基政府存在腐败问题，并呼吁战时举行选举，泽连斯基予以拒绝",
+    "伊朗警告将对加入美国“经济战”的国家采取报复措施，中东局势持续升温"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "北京世界人形机器人运动会开幕，机器人百米冲刺挑战博尔特纪录",
+      "title": "北京人形机器人运动会开幕，天工Ultra百米冲刺打破尤塞恩·博尔特纪录后撞墙",
       "english_term": "humanoid robot（人形机器人）",
-      "summary": "第二届世界人形机器人运动会在北京开幕，一台参赛机器人在测试环节中以9.32秒完成百米冲刺，峰值速度达每秒14.5米，被部分媒体称为超越博尔特保持的人类百米世界纪录。",
-      "script": "第二届世界人形机器人运动会已经在北京开幕，这场为期数天的赛事汇集了众多国内外机器人团队，设置了从短跑、跳跃到更复杂动作协调的多个比赛项目。最受关注的一幕发生在百米测试环节：据中国官方媒体报道，一台人形机器人在测试跑中跑出了9.32秒的成绩，峰值速度达到每秒14.5米，这个数字如果成立，确实超过了博尔特保持的人类百米世界纪录9.58秒。需要说明的是，这是赛前测试环节的成绩，而不是正式比赛纪录，测试环境、跑道条件、机器人是否有额外助力装置等细节，目前多家转载报道并未给出完整说明，仍需要等待官方赛事组委会公布详细的测试规则和认证方式。从技术角度看，人形机器人要实现高速奔跑，核心挑战在于动态平衡控制和下肢关节的功率密度。奔跑不同于行走，机器人在腾空阶段完全失去地面支撑，需要依靠预测性的步态规划算法和高带宽的关节伺服系统，在触地瞬间快速调整姿态，这对电机的峰值扭矩输出和整机的重量控制都提出了很高要求。多家机器人企业近年来在双足高速运动方面持续投入，此次赛事也被视为观察行业技术进展的一个窗口。此外，据英国广播公司报道，同期在北京举行的机器人产业大会上，一款机器人马是本次展会的焦点之一，据称可以驮载两人连续行走超过40公里，展会共有超过300家企业参展，展示了从人形机器人到四足机器人等多种形态的最新进展。整体来看,这次赛事和展会释放的信号是，中国机器人产业正在从单点技术展示，向更系统化的赛事化、场景化验证方向发展。后续需要等待赛事组委会公布正式比赛成绩和详细测试条件，也需要观察这类高速运动能力最终能否转化到实际应用场景中。",
-      "duration_seconds": 170,
-      "is_unverified": true,
-      "confidence_note": "百米9.32秒的成绩来自中国官方媒体转述，多家国际媒体转载但均为同一信源，缺乏独立第三方测量数据佐证，测试条件细节不明，标记为未完全证实。",
+      "summary": "第二届世界人形机器人运动会本周末在北京开幕，五天赛程包括拳击、足球和短跑等项目；其中人形机器人天工Ultra在百米测试中跑出9.39秒、时速约23.8英里，打破了尤塞恩·博尔特保持的人类百米纪录，但随后失控撞上了防护泡沫墙。",
+      "script": "先说一件本周末最抓眼球的机器人新闻。第二届世界人形机器人运动会星期六在北京拉开帷幕，为期五天，比赛项目相当丰富，包括拳击、足球，还有大家最关心的短跑。多家媒体报道，其中一台人形机器人天工Ultra，在百米冲刺测试中跑出了9.39秒的成绩，换算下来时速大约23.8英里，也就是每小时38公里左右。这个数字意味着什么呢，它已经超过了尤塞恩·博尔特保持的人类百米世界纪录，博尔特的最好成绩是9.58秒。不过热闹的另一面是，视频显示这台机器人冲线之后并没能稳稳停下，而是径直撞上了赛道尽头的防护泡沫垫，画面里甚至能看到碰撞时溅出的火花。从技术角度看，人形机器人做高速直线运动，考验的其实不只是电机功率和步态控制算法，更关键的是高速状态下的动态平衡和制动能力。当双足机器人的重心控制系统还在针对稳定行走做优化的时候，把速度拉到接近人类短跑运动员的水平，留给刹车和转向的时间窗口就变得极短，一旦控制律来不及响应，冲出赛道边界几乎是必然结果。这也是为什么现场会为机器人预留缓冲垫这样的安全防护。这场赛事被多家国际媒体报道，包括法新社和多家科技媒体，但目前关于天工Ultra具体采用了哪些运动控制算法、电机与减速器参数，官方还没有给出详细的技术说明。整体来看，这次运动会更像是一场展示性质的公开测试，用极限场景去暴露当前人形机器人在高速运动控制上的边界，而不是一次严谨的科学实验。除了短跑，本届赛事还安排了对机器人来说难度更高的任务测试，比如给电动车充电、在餐厅环境里完成端盘子一类的操作，这些任务对机械臂的精细操作能力、视觉感知和场景理解要求更高，某种程度上比单纯比拼速度更接近实际应用场景。后续需要等待赛事方公布更完整的技术参数和各队伍的成绩单，也需要观察这类极限测试对人形机器人产业链，尤其是国产电机、减速器和整机厂商订单的实际拉动效果。",
+      "duration_seconds": 195,
+      "is_unverified": false,
+      "confidence_note": "多家独立媒体（BBC、法新社、Tom's Hardware等）交叉报道同一事件，事件本身可信度较高，但机器人具体技术参数与厂商说明未见官方一手信源，故技术细节表述较为保守。",
       "fact_status": {
         "confirmed": [
-          "第二届世界人形机器人运动会在北京开幕",
-          "展会有超过300家企业参展，展示机器人马等产品"
+          "第二届世界人形机器人运动会周六在北京开幕，为期五天",
+          "赛事包含拳击、足球、短跑等项目",
+          "一台人形机器人在测试中跑出9.39秒百米成绩后撞上防护垫"
         ],
         "claims": [
-          "据中国官方媒体报道，一台机器人在测试跑中以9.32秒、峰值每秒14.5米的速度完成百米，超过博尔特纪录"
+          "该成绩被部分媒体称为超过尤塞恩·博尔特保持的人类百米纪录"
         ],
         "analysis": [
-          "该成绩为测试环节数据，测试规则与认证方式尚不透明，能否视为正式纪录仍待官方说明"
+          "高速直线运动对人形机器人的动态平衡与制动系统提出更高要求，这可能是导致撞击发生的技术原因"
         ]
       },
       "source_ids": [
-        "3e0f65ac7a9f4b6f",
-        "f9808432f436aacf",
-        "82feff00ad7a4317",
-        "0fd2575c1268ac6e",
-        "ed6bef859f3479cb"
+        "c6d025d23f70076f",
+        "c2e596d37faaf8d3",
+        "c26abb09fd03dd29",
+        "a4e9c0bacb7222cb"
       ],
       "sources": [
         {
-          "id": "3e0f65ac7a9f4b6f",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Live: Second World Humanoid Robot Games open in Beijing - Modern Ghana",
-          "summary": "Live: Second World Humanoid Robot Games open in Beijing Modern Ghana",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhSmVaakxJdG5TRFN2TmxUSGx0UzdfMDRVQWpxU1JvSEo0RXpiRjFTZkxjX0hqYmhjUXZSamk5aDllU2JEWDc3dFdhSngzdm5GcWJsYmR1NFdXS2xJUGR3RtIBXEFVX3lxTE9EZnBOd2Fpa3E0MmlDSGFqeHJiWnlwYzg2UDAxNEotYWFEQlN2eFA2TlhWSnNFNmtqYmtfWnZ3dmI2RXV3SjBwTFQzcnY3RWFIYkQ3NnJOZVBaaGcz?oc=5",
-          "published_at": "2026-08-22T11:37:50+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "f9808432f436aacf",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Usain Bolt’s 100m record broken at World Humanoid Robot Games",
-          "summary": "Chinese robot reaches peak ​speed of 14.5 metres per second to beat Bolt's 100m record in Beijing, says state media.",
-          "url": "https://www.aljazeera.com/sports/2026/8/22/usain-bolts-100m-record-broken-at-world-humanoid-robot-games?traffic_source=rss",
-          "published_at": "2026-08-22T11:30:51+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "82feff00ad7a4317",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Chinese robot beats Usain Bolt’s 100m world record in test run - Latest news from Azerbaijan",
-          "summary": "Chinese robot beats Usain Bolt’s 100m world record in test run Latest news from Azerbaijan",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcHU4dHZoTDZXWHV4X0FHRi14YjRzYWFPY2Nnb29RdzRHUHN6LVB1N0hUQ2RueDNGSURjN0J5Y25WaWJZdmUwVHFaUFN1MF8wQ2daZXFkUDdmUkJlUHFOdzBPUS1UcTRGd3J5cmQyUnh5cmo3QnJCaEhyN1dCMC13cENzdTdmcTRzMFE?oc=5",
-          "published_at": "2026-08-22T11:18:04+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "0fd2575c1268ac6e",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Chinese humanoid robot beats Usain Bolt’s 100m record in 9.32 seconds - The News International",
-          "summary": "Chinese humanoid robot beats Usain Bolt’s 100m record in 9.32 seconds The News International",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWi1mYjlaT2l4dEVqTW5JYzA5NGs0YUNFd1F2cVpEQnpwWUZ0Z0psTU1CU2VZWW5ERmZwcXNwWF9PdGJDM3pmeDM3M0lpeWpoTnNueEdCR3BXZE85enotMG5pSzljWGN1eEdHTnBpRlFtdXQwbWJRWDl2YkFkcmNUUUI0SDVfUjFZTzY5SlQ1b0p4VXFfdnNaRWhZbE82Y3F4YUFfLTZibTc0bnIwTXfSAaoBQVVfeXFMUFU4UF9fZC1KbURUZThtQUJvQjFUaVB6MVZPNVIzRkl2SThtc2Iwang5ZGpBYTk4T251UGc5XzhrWEN0QjJDT3B3NDVMaGFBNlZ1SEVHSUJPQTBRR3AyZS0tZzJyTkNVX3B1WVdEbU5BMEFLVVdxOU1GV2V3WHdYdGZoLUs5dExZZjRZZEFLbGJoSnJfZHZNdmtENzljNkU0dER1d3JFemthTHc?oc=5",
-          "published_at": "2026-08-22T11:15:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "ed6bef859f3479cb",
+          "id": "c6d025d23f70076f",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Robot horse and rider steal the spotlight at Chinese conference",
-          "summary": "More than 300 companies are showcasing the latest advances in robotics at the five-day event in Beijing, China, organisers say.",
-          "url": "https://www.bbc.co.uk/news/videos/c0qvqzzdd02o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-22T10:01:18+00:00",
+          "title": "Robots compete in boxing, football and sprinting at World Humanoid Games",
+          "summary": "The second-edition of the five-day competition kicked off in Beijing, China, on Saturday.",
+          "url": "https://www.bbc.co.uk/news/videos/c7vgvj6e1emo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-23T09:42:05+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "c2e596d37faaf8d3",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Humanoid robots shatter Usain Bolt's 100m record, hits 23.8 mph before crashing into foam pads — video shows Tiangong Ultra logging 9.39-second sprint before colliding with padded wall - Tom's Hardware",
+          "summary": "Humanoid robots shatter Usain Bolt's 100m record, hits 23.8 mph before crashing into foam pads — video shows Tiangong Ultra logging 9.39-second sprint before colliding with padded wall Tom's Hardware",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQQU84RWVlam1HYk9CZjJpdVlHLW56SjRPeHZiVTJPVl9YRmFPR0QwcERLQmxVQlllU1RZcnlmeUV0YmE3Um5IaDBabmdMdUk1a2dveXVhWlpMaHNMOTV1c3M4WjF2WDc4MWtTbmt5RURGVlJNdW9qU0RxTFd0OUgweWh0NU5rb3IzbVNmcFhwaW9HT0xTVU9fa3VSbEhxSEVzMFZUX3JzUXMtSWJHaDRIc3NmU2NLcHJxc0VhSzB0QlQ1RVZQYWR1MmRvUUZORklxekhDYkswN3V6WUZJMUx1OFg5TzNIZ1BocXhWZVVQTkNZS3V0SWhJcVN3emEzZDlUY2dGZTFCUGJMRS1UaHFoZzgySmJjMnNXUGdEQV9hcWdLTm1yaXBBcjkwM2Z5RzVLTG93N3ZkSGhQN3Y3bFhNQm9COUZ4MDZ5YmllNFU2Vnlzdw?oc=5",
+          "published_at": "2026-08-23T11:45:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "c26abb09fd03dd29",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Humanoids break records at Beijing Robot Games - France 24",
+          "summary": "Humanoids break records at Beijing Robot Games France 24",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTZpaVZ4UnhnRE9XS2JPVFYxU2xpLWdaNGZ2a0hYb2dBNHFsaVhxRUFqVVRjbWhUU0tXQmpBRXhGcExDMmQ2WDBaeHlwUnVfU0F4X1c3R21IbkFBZG9WNHpOTDhpRFhHeWpTbC1KdHlxRkpRY3FRMWUwSnFQS2REOHhtNldaOUlId3Fpbm5nc24yclJGMzlyTg?oc=5",
+          "published_at": "2026-08-23T11:45:17+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "a4e9c0bacb7222cb",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "After outrunning Usain Bolt, Chinese humanoids face bigger tests: EV charging and restaurant work - Firstpost",
+          "summary": "After outrunning Usain Bolt, Chinese humanoids face bigger tests: EV charging and restaurant work Firstpost",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDl3ZnZBRHNsRE1ZWkUwSXRCY04tcHk3NHZvTWdBNGtkUFNCSmlhalJuUklrNEU3SU1JUlJHdzFuX2FUN1I0ZU51cXhBQXNwMDU2VEJWM1lYX0RYTFVOT0dOQzlEWDktbXVGLXhiNmZCcGcxay1vbERJOFFGWUdOQjZ1YWlBeTgtRjJ1MzQ5NjU4TkRVODVncFZlVHB5Q1hJQzlFaHlxTVdKeEJzZ0k0SVZia21VTWNmVVc0UzFQQ1EtNU5KV2xUWEt0emQzTTdwdUJOcWNiSdIB3AFBVV95cUxPeXkwZk1fTTNJaXNESVdSRDF5VWxmTmNwUVltekdGanZzdUxncGV0ekhfR0ZBV2VjRWZkTFRDZzNHcHB1VU5ldkdFUjloNHVaODd0SFdnVUFNOHVRUlh3QTl5M0lwZ05ma09KV3hXVFJ5eDljdWh4RTY3N0NZVVNWV2xzc1V3RElwN2NFUTZjQWhiSDFGUWNXQXBDYXVRLTk5NXpKLXp5WEJ1X2MzMWxCQnFaX3BRSTQzeTNkdm54bzdwZ1BxcTJyT3BFN01OeDh1NXFaR3hURUNmdEtn?oc=5",
+          "published_at": "2026-08-23T11:57:15+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -112,40 +97,92 @@
     },
     {
       "category": "robotics",
-      "title": "舍弗勒宣布2027年量产人形机器人谐波减速器齿轮箱",
-      "english_term": "strain wave gearbox（谐波减速器/谐波齿轮箱）",
-      "summary": "德国零部件巨头舍弗勒宣布计划于2027年实现人形机器人用谐波减速器齿轮箱的量产，采用一种新型成形工艺来提升产能。",
-      "script": "在机器人产业链的上游，传动部件供应商舍弗勒宣布了一项重要计划：将在2027年实现面向人形机器人的谐波减速器齿轮箱的批量生产。谐波减速器是人形机器人关节里最核心的传动部件之一，它利用柔性齿轮的弹性变形来实现大传动比、高精度的减速，相比传统的行星齿轮减速器，谐波减速器体积更小、重量更轻、背隙更小，因此特别适合安装在机器人手臂和腿部这种对空间和精度要求都很高的关节位置。不过谐波减速器长期以来存在一个产业痛点，就是加工工艺复杂、良品率控制难，导致成本居高不下，是制约人形机器人整机降价的关键瓶颈之一。据行业媒体The Robot Report报道，舍弗勒此次采用了一种新的成形技术来制造柔轮部件，目的就是提高生产效率和一致性，从而支撑规模化量产。舍弗勒作为传统汽车零部件和轴承制造商，近年来一直在寻求向机器人和新能源领域转型，这次布局谐波减速器，某种程度上是把汽车行业积累的精密制造能力向机器人核心部件迁移。从产业格局看，目前谐波减速器市场此前主要由日本的哈默纳科等企业主导，中国也有多家厂商在加速追赶并已经实现一定规模的量产供货，舍弗勒的入局意味着欧洲传统制造巨头开始正式加入这场关节部件的竞争。如果2027年量产计划顺利推进，一方面可能会加剧谐波减速器市场的价格竞争，帮助人形机器人整机成本进一步下降，另一方面也反映出人形机器人产业链正在从整机组装商为主导，向核心零部件供应商深度参与的阶段过渡。后续需要观察舍弗勒具体的产能规划、良品率数据以及首批客户名单是否会公开。",
+      "title": "机器人运动会同步测试更贴近产业应用的任务：电动车充电与餐厅服务",
+      "english_term": "physical AI（物理智能，指赋能实体机器人的AI系统）",
+      "summary": "除了短跑竞速，北京世界人形机器人运动会还设置了给电动车充电、餐厅端盘子等更贴近实际生活场景的任务测试，被视为比速度竞赛更能反映人形机器人商业化落地难度的项目。",
+      "script": "刚才说到天工Ultra百米冲刺撞墙的新闻很吸引眼球，但如果只看短跑这一个项目，其实容易低估这次赛事真正想验证的东西。有报道指出，本届人形机器人运动会除了拳击、足球和短跑这些偏娱乐化、观赏性强的项目，还专门安排了一些更贴近日常生活场景的任务，比如让机器人去给电动车充电，或者在模拟餐厅环境里完成端盘子、上菜这类服务性工作。这两类任务看起来平淡无奇，但对机器人系统的要求其实相当综合。给电动车充电，需要机器人先通过视觉感知定位充电口的位置，往往充电口在车身上的位置并不固定，还带有一定角度，这就需要机械臂具备较高精度的末端执行器控制能力，同时还要处理插拔过程中的力反馈，避免用力过猛损坏接口。而餐厅端盘子这类任务，则更多考验机器人在动态、非结构化环境里的路径规划能力，既要绕开来往的顾客和障碍物，又要保证托盘上的物品不会因为步态晃动而洒落，这背后涉及全身运动控制与上肢操作的协同问题。相比短跑这种单一维度、追求峰值性能的测试，充电和餐厅服务这类任务更接近人形机器人未来商业化落地的真实场景，无论是家庭服务、商业服务还是工业协作，机器人最终要面对的都是这种需要综合感知、决策和精细操作能力的复杂环境。目前公开报道里对于具体哪家企业的机器人参与了这些测试、完成情况如何，细节还比较有限，多家媒体的报道也主要聚焦在短跑破纪录这个更具话题性的片段上。后续需要等待赛事组织方或参赛企业公布更详细的任务完成数据和技术方案说明，才能对这些应用型任务的实际完成水平做出更准确的判断。",
+      "duration_seconds": 160,
+      "is_unverified": true,
+      "confidence_note": "该信息来自搜索聚合类候选（Global Robotics News Search，discovery_only性质），缺乏独立Tier 1/2来源就具体任务细节的确认，标记为未核实，仅作为热点线索呈现。",
+      "fact_status": {
+        "confirmed": [],
+        "claims": [
+          "赛事设置了电动车充电、餐厅服务等应用型任务测试"
+        ],
+        "analysis": [
+          "应用型任务相比竞速项目更贴近人形机器人实际商业化落地场景，对感知与精细操作能力要求更综合"
+        ]
+      },
+      "source_ids": [
+        "a4e9c0bacb7222cb",
+        "59b1ab7f944bfaaf"
+      ],
+      "sources": [
+        {
+          "id": "a4e9c0bacb7222cb",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "After outrunning Usain Bolt, Chinese humanoids face bigger tests: EV charging and restaurant work - Firstpost",
+          "summary": "After outrunning Usain Bolt, Chinese humanoids face bigger tests: EV charging and restaurant work Firstpost",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDl3ZnZBRHNsRE1ZWkUwSXRCY04tcHk3NHZvTWdBNGtkUFNCSmlhalJuUklrNEU3SU1JUlJHdzFuX2FUN1I0ZU51cXhBQXNwMDU2VEJWM1lYX0RYTFVOT0dOQzlEWDktbXVGLXhiNmZCcGcxay1vbERJOFFGWUdOQjZ1YWlBeTgtRjJ1MzQ5NjU4TkRVODVncFZlVHB5Q1hJQzlFaHlxTVdKeEJzZ0k0SVZia21VTWNmVVc0UzFQQ1EtNU5KV2xUWEt0emQzTTdwdUJOcWNiSdIB3AFBVV95cUxPeXkwZk1fTTNJaXNESVdSRDF5VWxmTmNwUVltekdGanZzdUxncGV0ekhfR0ZBV2VjRWZkTFRDZzNHcHB1VU5ldkdFUjloNHVaODd0SFdnVUFNOHVRUlh3QTl5M0lwZ05ma09KV3hXVFJ5eDljdWh4RTY3N0NZVVNWV2xzc1V3RElwN2NFUTZjQWhiSDFGUWNXQXBDYXVRLTk5NXpKLXp5WEJ1X2MzMWxCQnFaX3BRSTQzeTNkdm54bzdwZ1BxcTJyT3BFN01OeDh1NXFaR3hURUNmdEtn?oc=5",
+          "published_at": "2026-08-23T11:57:15+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "59b1ab7f944bfaaf",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Robot beats Usain Bolt record, then hits a wall - Modern Ghana",
+          "summary": "Robot beats Usain Bolt record, then hits a wall Modern Ghana",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8yYmNjWndUQVh3V1p0bXhJS3VCMEZHQ1BSU0d5MnRzVTd5ZXB4NEEzWDZ0NDlfa1JzMWhkNkRETnZuV0hfeTdhVjRDREJMbElKRXBOcjNnRS1ETnBzbV9V0gFcQVVfeXFMUFFjU3pCUzgxbDdsVVJFa0lIYV9wZUdoSWJaMEU1SGZURVZOQ0ZGOHFvX0ZHTGhmQkJxZjAtamd1cVZabTJJU0xENW51ZEMxYnlMX3pYbFlTaUpLYlk?oc=5",
+          "published_at": "2026-08-23T11:57:09+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "物理AI浪潮下，机器人运维背后的人力短板浮出水面",
+      "english_term": "physical AI（物理AI，指结合人工智能的实体自动化系统）",
+      "summary": "The Robot Report撰文指出，随着物理AI设备大规模进入工作场景，企业需要建立超越单纯产出效率的新型绩效指标，来衡量和管理支撑这些机器人系统运转的人力团队。",
+      "script": "机器人能不能大规模落地，很多时候瓶颈并不在机器人本身，而在支撑它运转的人。行业媒体The Robot Report近期刊发的一篇文章提到一个容易被忽视的问题：物理AI设备越来越多地进入仓库、工厂和商业场景，但真正让这些设备持续稳定工作的，是背后一整套人力团队，包括负责设备巡检、故障排除、任务调度和现场协调的工作人员。文章援引一家人力资源服务公司HireArt总裁的观点认为，企业目前评估这类岗位的方式还停留在传统的产出效率指标上，比如单位时间完成多少任务、机器人利用率有多高，但这套指标体系并不能完整反映物理AI岗位的真实价值和运转状态。举例来说，一名负责机器人现场维护的技术人员，可能大部分时间是在做预防性检查、处理小故障，防止设备真正停机，这类工作很难用简单的吞吐量来衡量，但如果缺乏合适的绩效指标去评估和激励，企业就很难判断该在这类岗位上投入多少资源，也难以判断团队的实际工作质量。这篇文章反映出的其实是一个更普遍的产业现象：机器人和自动化系统的部署规模一旦扩大，纯硬件和算法层面的问题会逐渐让位给系统集成、运维体系和组织管理层面的问题。换句话说，机器人能不能大规模落地，不完全取决于机器人本身的技术水平，也取决于企业能不能建立起一套与之匹配的人力管理和绩效评估体系。这篇文章目前主要是行业评论和观点性文章，没有涉及具体的公司数据或量化研究，更多是提出问题、抛出讨论方向。后续需要观察是否有企业或研究机构针对物理AI岗位的绩效指标体系给出更系统的解决方案。",
       "duration_seconds": 160,
       "is_unverified": false,
-      "confidence_note": "信息来自机器人行业专业媒体The Robot Report的直接报道，属于企业官方计划的一手转述，但2027年量产计划本身为企业单方面陈述，尚未有第三方验证生产进度。",
+      "confidence_note": "来自行业媒体The Robot Report的评论性文章，属于观点性内容而非硬新闻，未涉及可验证的具体数据。",
       "fact_status": {
         "confirmed": [
-          "舍弗勒宣布计划2027年量产人形机器人用谐波减速器齿轮箱",
-          "该公司采用新型成形工艺制造相关部件"
+          "The Robot Report发布了一篇关于物理AI岗位人力管理的评论文章"
         ],
         "claims": [
-          "新工艺将支撑大规模量产"
+          "HireArt总裁认为现有绩效指标不足以评估物理AI相关岗位"
         ],
         "analysis": [
-          "谐波减速器是人形机器人关节的核心瓶颈部件，价格下降有助于整机成本降低"
+          "机器人大规模落地的瓶颈可能从技术层面转向组织与人力管理层面"
         ]
       },
       "source_ids": [
-        "4494f32150d94785"
+        "d1a975d14961a68f"
       ],
       "sources": [
         {
-          "id": "4494f32150d94785",
+          "id": "d1a975d14961a68f",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027",
-          "summary": "Schaeffler is creating its strain wave gearboxes with a forming technology that will enable mass production of the components. The post Schaeffler plans to mass produce gearboxes for humanoid robots in 2027 appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/",
-          "published_at": "2026-08-21T19:27:22+00:00",
+          "title": "Robots don’t run themselves: The workforce powering physical AI",
+          "summary": "The addition of physical AI to the workforce requires more key performance indicators than throughput, according to the president of HireArt. The post Robots don’t run themselves: The workforce powering physical AI appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
+          "published_at": "2026-08-22T14:30:21+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -153,94 +190,39 @@
     },
     {
       "category": "robotics",
-      "title": "机械臂搭载智能手机被称作“新物种”，软件定义制造理念获关注",
-      "english_term": "software-defined manufacturing（软件定义制造）",
-      "summary": "一家公司推出搭载机械臂的安卓手机，被称为“新物种”智能手机；另据行业媒体报道，软件定义制造理念正在尝试打通工厂中的PLC、机器人与AI系统。",
-      "script": "机器人技术正在以意想不到的方式渗透进消费电子领域。据Inc.com报道，一家公司推出了一款搭载小型机械臂的安卓手机，宣传语称其为“新物种”智能手机。虽然具体应用场景和技术细节报道中并未展开太多，但这类产品思路本身值得关注：把机器人操作能力小型化、集成到随身设备中，理论上可以让手机具备简单的物理交互能力，比如自动调整拍摄角度、进行简单抓取等。这类尝试目前更多还处于概念展示阶段，实际使用体验和市场接受度都有待观察。与此同时，在工厂端，行业媒体The Robot Report介绍了软件定义制造这一理念在实际工厂运营中的落地情况。文章采访了R2 Labs的相关负责人，探讨如何把工厂里原本分散的可编程逻辑控制器，也就是PLC、各类工业机器人，以及人工智能系统整合到统一的软件框架下。传统工厂自动化系统往往是由不同厂商、不同年代的设备拼凑而成，彼此之间数据不互通，形成了所谓的自动化孤岛。软件定义制造的思路是通过一层统一的软件抽象，让这些异构设备可以被同一套系统调度和监控，从而提升产线的灵活性，比如更快地切换生产任务、更容易地引入新的AI质检算法。这种理念和机器人行业里常提到的中间件、统一控制栈的思路是一致的，本质上都是希望降低系统集成的复杂度。这两条消息放在一起看，一个是消费端机器人技术的小型化尝试，一个是产业端软件层面的整合努力，都反映出机器人相关技术正在从单一的硬件产品，向更广泛的软硬件融合场景扩展。后续需要观察搭载机械臂的手机能否形成实际可用的功能场景，也需要关注软件定义制造方案在更多工厂里的实际落地案例。",
+      "title": "AI与传感技术进步推动机器人割草机走向美国主流市场",
+      "english_term": "GPS/RTK navigation（卫星导航定位技术）",
+      "summary": "Sunseeker创始人在The Robot Report撰文表示，人工智能、卫星导航与机器视觉技术的进步正在推动机器人割草机在美国家庭市场加速普及。",
+      "script": "除了人形机器人这种话题性很强的产品，一些更接地气的机器人品类也在悄悄发生变化。The Robot Report近期刊登了机器人割草机厂商Sunseeker创始人的一篇署名文章，谈到人工智能、卫星导航和机器视觉这三项技术的进步，正在推动机器人割草机走向美国更广泛的家庭市场。文章提到的核心技术变化主要有三方面。第一是人工智能算法的进步，让割草机器人能够更好地识别草坪边界、障碍物以及不同区域的草地状态，减少漏割和重复劳动。第二是卫星导航技术的应用，尤其是高精度定位方案的成本下降，使得割草机器人不再需要像早期产品那样依赖埋在地下的边界线缆，而是可以通过卫星定位直接规划割草路径，这大幅降低了安装和部署的复杂度。第三是机器视觉能力的提升，让设备能够实时探测宠物、儿童玩具或者临时出现在草坪上的障碍物，提高作业安全性。文章作者认为，这几项技术叠加起来，正在让机器人割草机从早期的小众极客产品，逐渐变成主流家庭都愿意尝试的家电产品，文章标题里提到的说法是这类技术有可能让机器人割草机进入美国近一半的家庭草坪。这个说法目前更多是行业从业者基于技术趋势做出的预测性判断，而不是基于具体市场调研数据的结论，文章本身也没有给出具体的市场渗透率数字或者第三方机构的调研支撑。可以确定的产业背景是，机器人割草机所依赖的定位、感知和路径规划技术，跟移动机器人、自动驾驶领域的技术进步是同源的，这类技术的成本持续下降，客观上确实在为家用机器人品类的普及创造条件。后续需要观察是否有独立市场调研机构发布更具体的销量和渗透率数据来验证这一判断。",
       "duration_seconds": 170,
-      "is_unverified": true,
-      "confidence_note": "机械臂手机来自单一来源Inc.com的产品报道，产品细节有限，标记为未充分验证；软件定义制造部分为行业媒体访谈性质报道，属于一手信源。",
+      "is_unverified": false,
+      "confidence_note": "为行业创始人署名评论文章，其中关于市场渗透率的判断为作者预测而非独立调研数据，已在稿件中明确区分事实与观点。",
       "fact_status": {
         "confirmed": [
-          "The Robot Report报道了R2 Labs关于软件定义制造的实践"
+          "The Robot Report刊登了Sunseeker创始人关于机器人割草机技术趋势的署名文章"
         ],
         "claims": [
-          "某公司推出搭载机械臂的安卓手机并称之为新物种智能手机"
+          "文章预测AI、卫星导航与机器视觉的进步可能让机器人割草机进入美国近一半家庭"
         ],
         "analysis": [
-          "两者共同反映机器人技术正从硬件产品向软硬件融合场景延伸"
+          "机器人割草机所用定位与感知技术与移动机器人领域技术进步同源，成本下降有利于普及"
         ]
       },
       "source_ids": [
-        "d2d90eeae7e28e57",
-        "e5582810b475a376"
+        "9fe242dd9cccfa95"
       ],
       "sources": [
         {
-          "id": "d2d90eeae7e28e57",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "This Company Built an Android Phone With a Robot Arm. It's Billed as a 'New Species of Smartphone' - inc.com",
-          "summary": "This Company Built an Android Phone With a Robot Arm. It's Billed as a 'New Species of Smartphone' inc.com",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOUM2U3ZyWFI5NVhKeHFNdTBiNjBpams4ZVk4RHl1UnF5dFJ0UC1BVnVyM2l2a2JueGczOHdwVXh0c20wMG5sM09JaVI0ZlVpQ1hGRHdKUjNnaHZXTWZyNU9DRlBVcHpSWjNOdWMtTkZ6SFRRZ0FQMzZyZVVOR0ctSmtrVXNqcWVyZ2tpOTlrVlhPdHV4eXNjdlJJdDI5azVod1ZwWmViYW52b2sxLWtXN1l5djR5cmgwaXJhVDJUNkctRXR5c2VIbUg2eFJEQnhBTjdN?oc=5",
-          "published_at": "2026-08-22T11:08:22+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "e5582810b475a376",
+          "id": "9fe242dd9cccfa95",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "How software-defined manufacturing fits into real factory operations",
-          "summary": "Roby Lynn explains how R2 Labs bridges PLCs, robots, and AI to unify fragmented manufacturing systems. The post How software-defined manufacturing fits into real factory operations appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/how-software-defined-manufacturing-fits-into-real-factory-operations/",
-          "published_at": "2026-08-22T00:48:35+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "机器人进入家庭：海湾国家家政劳动力面临的潜在冲击",
-      "english_term": "domestic robot（家用/家政机器人）",
-      "summary": "一篇分析文章以海湾国家为案例，探讨家用机器人技术进步是否会冲击数以百万计的家政工人生计。",
-      "script": "随着人形机器人和家用服务机器人技术不断进步，一个产业之外的社会议题也开始被讨论：机器人进入家庭，是否会威胁到大量家政工人的生计。据阿联酋当地媒体报道，一篇分析文章以海湾国家作为案例，探讨了这个问题。海湾地区长期以来存在庞大的外籍家政劳动力群体,他们承担了大量家庭清洁、看护、烹饪等工作。报道认为，随着家用机器人在灵巧操作、环境感知等能力上的提升，未来这类机器人有可能承担部分家政工作，从而对现有的家政劳动力市场产生冲击。从技术现实角度看，目前主流的人形机器人和服务机器人在真实家庭环境中的部署仍然有限，家庭场景相比工厂环境更加非结构化，光照、地面材质、物品摆放都充满不确定性，机器人需要具备更强的通用抓取能力和场景理解能力，这也是具身智能领域当前重点攻关的方向之一。多家机器人公司确实已经展示了叠衣服、清理桌面等家庭场景的演示视频，但距离能够稳定、安全地承担全部家政劳动，行业普遍认为还有相当距离，尤其是在成本、可靠性和安全冗余方面。这篇报道更多是从社会经济角度提出问题，而非给出确定性结论，报道也没有给出具体的时间表或量化的失业风险数据。这类讨论的价值在于提醒关注机器人技术扩散可能带来的劳动力市场影响，尤其是在家政行业外籍劳工比例较高的地区，这种影响可能会与移民政策、劳动力市场结构等问题交织在一起。后续需要观察是否有相关智库或劳工组织发布更具体的量化研究，以及海湾国家政府是否会针对这一趋势出台相应的政策应对。",
-      "duration_seconds": 155,
-      "is_unverified": true,
-      "confidence_note": "该内容来自单一区域媒体的分析评论文章，属于观点性探讨而非确定性研究结论，且原文语言为阿拉伯语转译标题，细节有限。",
-      "fact_status": {
-        "confirmed": [
-          "有媒体发表分析文章讨论家用机器人对海湾国家家政劳动力的潜在影响"
-        ],
-        "claims": [
-          "机器人技术进步可能冲击数以百万计家政工人的生计"
-        ],
-        "analysis": [
-          "目前家用机器人在真实家庭场景中的部署能力有限，短期内大规模替代家政劳动的可能性较低"
-        ]
-      },
-      "source_ids": [
-        "b4f1a7ed369fe46e"
-      ],
-      "sources": [
-        {
-          "id": "b4f1a7ed369fe46e",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "When the Robot Enters the Home.. Will Machines Threaten the Livelihoods of Millions of Domestic Workers? Gulf Countries as a Case Study - صوت الإمارات",
-          "summary": "When the Robot Enters the Home.. Will Machines Threaten the Livelihoods of Millions of Domestic Workers? Gulf Countries as a Case Study صوت الإمارات",
-          "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPMU0xRXg3cDdoRENTSzNrbzhqdmN4aldUTmlLQ01lLS1XbjZoUEJ2LXp5Uk8tQS04YUJYb2NLZzlYTFBGX19WQzhhcFY1Tmd2QVM2YjZybU9SOGhVaGhENmc3UEZERjZnSFl4WWV3N3lUYTFFVnhCMGlZVVpKZFd5SnBIMHZ5cHIwRmZCNEg0NjdNMGJDRnR3ZTRNRFhXUEpNTHZRNGZScC1zeEIzd09OQ1c3TTB3d2s3d1U5dy0yajd5UzdfYURIeDBQZmRfZkhkZ1FZckktZTN2ZUdkU0hMY3FFa0ZNZ05GNTl6ZU9PODkxbW5lQ3BFRXR4RE5IS3NBMUNRa0NMUWlOSXFEOTgtNXFEd2pVdWQ4MFFGald5ZG9JUQ?oc=5",
-          "published_at": "2026-08-22T12:05:33+00:00",
+          "title": "The technology that could bring robot mowers to one in two American lawns",
+          "summary": "Improvements in AI, satellite navigation, and machine vision are helping robotic lawn mowers spread in the U.S., writes Sunseeker's founder. The post The technology that could bring robot mowers to one in two American lawns appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/",
+          "published_at": "2026-08-22T12:30:08+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -248,55 +230,41 @@
     },
     {
       "category": "world",
-      "title": "美加贸易谈判破裂，美国对加拿大加征50%关税",
+      "title": "美加贸易谈判破裂，特朗普与加拿大总理隔空交锋",
       "english_term": null,
-      "summary": "美国与加拿大贸易谈判在截止日期前破裂，美国对价值200亿美元的加拿大商品征收50%关税，加拿大总理卡尼表示将对等反制。",
-      "script": "一场重要的贸易冲突正在北美升级。据英国广播公司和美国国家公共电台报道，美国与加拿大的贸易谈判在午夜截止期限前宣告破裂，美国随即对价值200亿美元的加拿大进口商品征收百分之五十的关税。加拿大总理马克·卡尼对此表示，加拿大将采取对等反制措施，实行“一美元换一美元”式的报复性关税。目前公开报道中，双方谈判破裂的具体分歧焦点尚未完全披露，但从关税规模和时间节点看，这已经是双边贸易关系中相当严重的一次摩擦。对于加拿大而言，美国是其最重要的贸易伙伴，如此大规模的关税会直接冲击相关出口企业的成本结构，也可能波及两国供应链高度绑定的汽车制造、能源等行业。从美国国内政治角度看，加征关税往往被用作贸易谈判和产业保护的工具，但也会推高国内相关商品的进口成本，最终可能传导至消费者价格。加拿大方面选择对等反制，说明其不打算在这一轮谈判中单方面让步，这也为未来的谈判走向增添了不确定性。需要说明的是，目前的信息主要基于双方官方表态和媒体报道，关于具体受影响商品清单、后续是否会有新一轮谈判安排，报道中并未给出细节。这场关税摩擦发生的背景，也与近期全球贸易保护主义抬头的大趋势有关，值得持续关注其对两国经济数据和企业盈利的实际影响。后续需要等待双方是否重启谈判，以及具体受影响行业的官方数据和企业反馈。",
-      "duration_seconds": 140,
+      "summary": "美国与加拿大贸易谈判宣告破裂，特朗普称加拿大想要成为美国一个州所享有的好处，加拿大总理则表示是“不情愿地”宣布反制关税，并指责美国挑起贸易战。",
+      "script": "北美这边传来的消息是，美国和加拿大之间的贸易谈判已经破裂。据BBC报道，美国总统特朗普表示，加拿大想要的其实是成为美国一个州所能享受到的各种好处，这句话被外界解读为特朗普在暗示加拿大在贸易谈判中的诉求过高，或者说想要单方面获益却不愿承担相应代价。而在加拿大一侧，总理的表态是他“不情愿地”宣布了对美国的反制关税措施，并且明确指责是美国率先挑起了这场贸易战。目前从BBC的报道来看，双方各执一词，具体的关税清单、涉及的产业范围以及生效时间，报道中并没有给出详细数字，这也是需要后续持续跟踪的地方。从背景上看，美国和加拿大作为传统的贸易伙伴和北美自由贸易协定的重要参与方，双边贸易额巨大，涉及汽车零部件、能源、农产品等多个关键行业，一旦贸易摩擦升级，两国的供应链都会受到直接冲击。加拿大方面选择用“反制关税”而不是单方面让步来回应，说明渥太华在这一轮谈判中的立场相对强硬，不愿意在美方的压力下单方面退让。这条新闻目前主要信源是BBC的一篇报道，双方官员的表态属于各自的政治主张，具体的关税细节和后续谈判安排仍有待双方官方渠道进一步确认。后续需要关注的是，两国是否会在近期重启谈判，以及具体反制关税措施将覆盖哪些商品类别，这将直接影响相关产业链企业的成本和市场预期。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "英国广播公司与美国国家公共电台两家独立Tier 2媒体均报道此事，信息互相印证，可信度较高。",
+      "confidence_note": "信息来自BBC World单一Tier 2来源，双方表态均为官方言论转述，关税细节尚未见具体数字披露。",
       "fact_status": {
         "confirmed": [
-          "美国对价值200亿美元的加拿大商品征收50%关税",
-          "美加贸易谈判在截止期限前破裂"
+          "美加贸易谈判宣告破裂",
+          "加拿大总理宣布对美反制关税措施"
         ],
         "claims": [
-          "加拿大总理卡尼表示将对等反制，实行一美元换一美元的关税措施"
+          "特朗普称加拿大想要成为美国一个州所享有的好处",
+          "加拿大总理指责美国挑起贸易战"
         ],
         "analysis": [
-          "贸易摩擦可能冲击两国供应链紧密的汽车和能源等行业，具体影响仍需观察后续数据"
+          "双边关税摩擦升级可能冲击两国间汽车、能源等关键产业供应链"
         ]
       },
       "source_ids": [
-        "ca0bec2674f8df40",
-        "73233d64ae3133e9"
+        "780f4b1b0d282a24"
       ],
       "sources": [
         {
-          "id": "ca0bec2674f8df40",
+          "id": "780f4b1b0d282a24",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-          "summary": "A new 50% levy on $20bn of Canadian imports comes into force after a last-minute breakdown in trade talks.",
-          "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-22T12:20:46+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "73233d64ae3133e9",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "U.S.-Canada trade talks collapse just before deadline for tariffs",
-          "summary": "The midnight deadline means the U.S. has imposed 50% tariffs on $20 billion worth of Canadian products. Prime Minister Mark Carney says Canada \"will match those tariffs dollar for dollar.\"",
-          "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
-          "published_at": "2026-08-22T04:36:27+00:00",
+          "title": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+          "summary": "Canada's PM said he was \"reluctantly\" announcing retaliatory tariffs and accused the US of starting a trade war.",
+          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-23T05:46:43+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -304,55 +272,56 @@
     },
     {
       "category": "world",
-      "title": "乌克兰商场遭袭致伤者众多，泽连斯基谴责袭击行径",
+      "title": "乌克兰前防长指控政府存在腐败并呼吁战时选举，泽连斯基予以拒绝",
       "english_term": null,
-      "summary": "乌克兰一处商场遭袭击后仍有9人下落不明，超过130人受伤，泽连斯基谴责此次袭击“卑劣”；同期德国外长访问基辅，俄乌双方互相空袭。",
-      "script": "乌克兰再次遭受严重袭击。据英国广播公司报道，救援人员正在一处商场废墟中搜救，目前仍有9人下落不明，此次袭击已造成超过130人受伤，其中包括多名儿童。乌克兰总统泽连斯基对此次袭击予以强烈谴责，称其为“卑劣”行径。与此同时，据德国之声报道，德国外交部长约翰·瓦德富尔在乌克兰迎来第35个独立日前夕访问了基辅，而就在他到访前后，俄乌双方再次互相发动空袭，造成人员死亡。目前公开报道并未详细说明此次商场袭击的具体作战细节和责任归属的官方调查结论，但从时间点看，这起事件发生在乌克兰独立日纪念活动前后，具有较强的象征意义。德国外长此时访问基辅，通常被解读为西方国家在乌克兰独立日节点上表达持续支持的姿态，但具体访问是否会带来新的军事或财政援助安排，报道中没有给出更多细节。从整体局势看，俄乌双方近期互相空袭的强度似乎并未因为国际社会的斡旋努力而降低，平民伤亡事件仍在持续发生，这也是当前国际社会关注和斡旋的重点难点所在。这类事件的报道通常涉及交战双方各自的说法，目前来看，乌方将此次商场袭击定性为针对平民设施的攻击，但报道中没有出现俄方对此次具体袭击的官方回应内容。后续需要等待更多独立信源确认伤亡数字变化情况，以及各方是否会有新的外交表态。",
-      "duration_seconds": 130,
+      "summary": "乌克兰被撤换的前国防部长向BBC表示泽连斯基政府在腐败问题上“有问题要回答”，并呼吁举行战时选举；泽连斯基则回应称战时选举可能“分裂乌克兰”。",
+      "script": "乌克兰国内政治出现新的分歧信号。据BBC报道，一位已被撤换的前国防部长对BBC表示，泽连斯基领导的政府在腐败问题上“有问题需要回答”，同时他还公开呼吁应该在战争期间举行选举。而据DW报道，泽连斯基本人对此明确回应，他认为战时选举可能会“分裂乌克兰”，因此予以拒绝。泽连斯基同时提到一个背景信息，他表示俄罗斯方面正计划在俄罗斯九月的选举之后动员数十万部队，这也是他反对乌克兰在当前阶段举行选举的理由之一，因为战时选举可能会分散国内的政治和社会资源，削弱应对俄方军事压力的能力。这条新闻里有几个层面需要分开看。已经确认的事实是，这位前防长确实被撤换，并且公开在BBC采访中提出了腐败指控和选举呼吁；泽连斯基也确实公开回应并拒绝了战时选举的提议。但腐败指控本身目前还只是这位前防长的一面之词，报道中并没有提供具体的证据细节或者独立调查结果，因此这更多属于政治人物之间的相互指责，而不是已经查实的腐败事件。从分析角度看，乌克兰国内出现前政府官员公开质疑现政府的情况，某种程度上反映出战争持续多年之后，乌克兰国内政治压力和权力博弈正在加剧，这对泽连斯基政府的国内治理和国际形象都会构成一定挑战。后续需要关注是否有独立机构或媒体对腐败指控进行调查核实，以及乌克兰国内围绕选举问题的政治讨论是否会进一步发酵。",
+      "duration_seconds": 140,
       "is_unverified": false,
-      "confidence_note": "英国广播公司与德国之声两家独立Tier 2媒体均有报道，但关于袭击责任方的官方声明和调查结论目前未见于候选信息，仅呈现已确认的伤亡情况和乌方表态。",
+      "confidence_note": "信息来自BBC与DW两个独立Tier 2来源交叉报道，但腐败指控本身尚缺乏独立证据支持，稿件中已明确标注为一方主张。",
       "fact_status": {
         "confirmed": [
-          "乌克兰一处商场遭袭击，超过130人受伤，9人下落不明",
-          "德国外长瓦德富尔访问基辅"
+          "该前防长已被撤换",
+          "泽连斯基公开拒绝战时选举提议"
         ],
         "claims": [
-          "泽连斯基称此次袭击行径卑劣"
+          "前防长指控政府在腐败问题上有问题要回答",
+          "泽连斯基称俄罗斯计划在其国内选举后动员数十万部队"
         ],
         "analysis": [
-          "袭击发生在乌克兰独立日前夕，具有象征意义，反映当前俄乌冲突仍在持续升级"
+          "前政府官员公开质疑现政府，反映乌克兰国内政治压力正在上升"
         ]
       },
       "source_ids": [
-        "4beef02c60395cd4",
-        "9543440d9af025f3"
+        "824c0b42cc7b9353",
+        "cc288893b4779f49"
       ],
       "sources": [
         {
-          "id": "4beef02c60395cd4",
+          "id": "824c0b42cc7b9353",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' strike",
-          "summary": "Nine people are still missing after the attack which left 130 injured, including a number of children.",
-          "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-22T10:01:22+00:00",
+          "title": "Zelensky has 'questions to answer' about corruption in his government, sacked minister tells BBC",
+          "summary": "The sacked former defence minister has also called for elections to be held in Ukraine.",
+          "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-23T09:37:05+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "9543440d9af025f3",
+          "id": "cc288893b4779f49",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Ukraine: Russia steps up attacks as German Foreign Minister Johan Wadephul visits Kyiv",
-          "summary": "German Foreign Minister Johann Wadephul has traveled to Kyiv ahead of Ukraine's 35th Independence Day. His visit comes as several people were killed overnight as Ukraine and Russia traded airstrikes.",
-          "url": "https://www.dw.com/en/ukraine-russia-steps-up-attacks-as-german-foreign-minister-johan-wadephul-visits-kyiv/a-78467414?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-22T08:28:00+00:00",
+          "title": "Ukraine: Zelenskyy rejects wartime elections",
+          "summary": "The Ukrainian president says wartime elections, as called for by the ex-defense minister, could \"split Ukraine.\" He also said Russia was planning to mobilize hundreds of thousands of troops after September polls there.",
+          "url": "https://www.dw.com/en/ukraine-zelenskyy-rejects-wartime-elections/a-78475087?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-23T10:23:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -360,94 +329,39 @@
     },
     {
       "category": "world",
-      "title": "缅甸军方空袭致寺庙14人死亡",
+      "title": "伊朗警告将报复加入美国“经济战”的国家",
       "english_term": null,
-      "summary": "缅甸中部一处佛教寺庙在约100人参加禅修活动期间遭军方战机空袭，据目击者报道造成14人死亡。",
-      "script": "据德国之声报道，缅甸中部一处佛教寺庙遭到军方战机空袭，当时约有100人正在寺庙内参加一场禅修静修活动，目击者称此次袭击造成14人死亡。报道中提到的信息主要来自现场目击者的说法，具体的军方作战意图、是否存在误炸等细节，目前尚未见到缅甸军方的官方回应或独立调查结果。缅甸自军方接管政权以来，国内武装冲突持续多年，平民在冲突中伤亡的事件时有发生，宗教场所遭到波及也并非首次。这类事件往往因为当地信息管控严格、独立记者难以进入冲突地区核实，导致外界只能依靠有限的目击者叙述和零星报道来拼凑事件全貌。从已有信息看，这起事件如果最终得到证实，将是近期缅甸境内冲突造成大规模平民伤亡的又一起案例，可能会进一步引发国际人权组织和周边国家的关注。目前来看，报道来源相对单一，缺乏军方或独立调查机构的正式确认，因此对于具体死伤人数、袭击是否针对平民设施等关键问题，仍需要保持谨慎态度，等待更多独立信源的交叉验证。后续需要关注是否有联合国相关机构或人权组织介入调查，以及缅甸军方是否会就此事作出官方回应。",
-      "duration_seconds": 115,
-      "is_unverified": true,
-      "confidence_note": "该消息主要基于目击者说法转述，来源相对单一，缺乏军方或独立调查机构的官方确认，标记为未完全证实。",
-      "fact_status": {
-        "confirmed": [
-          "缅甸中部一处佛教寺庙遭到空袭"
-        ],
-        "claims": [
-          "据目击者称，此次袭击造成14人死亡，当时约100人正在参加禅修活动"
-        ],
-        "analysis": [
-          "由于当地信息获取受限，具体伤亡情况和责任归属仍有待独立核实"
-        ]
-      },
-      "source_ids": [
-        "11e6f062fce7eb04"
-      ],
-      "sources": [
-        {
-          "id": "11e6f062fce7eb04",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Myanmar military airstrike kills 14 at Buddhist monastery: reports",
-          "summary": "Around 100 people were attending a meditation retreat in central Myanmar when the building was targeted by military planes, witnesses said.",
-          "url": "https://www.dw.com/en/myanmar-military-airstrike-kills-14-at-buddhist-monastery-reports/a-78468290?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-22T11:49:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "health",
-      "title": "刚果民主共和国埃博拉疫情持续蔓延，首批疫苗抵达",
-      "english_term": "Ervebo vaccine（埃博拉疫苗）",
-      "summary": "刚果民主共和国埃博拉疫情持续扩散，卫生部门警告称平均每三十分钟就有一人因埃博拉死亡，首批超1.6万剂疫苗已运抵，后续将有共计7万剂投入使用。",
-      "script": "据半岛电视台报道，刚果民主共和国的埃博拉疫情正在持续蔓延，当地卫生部门发出警告，称目前平均每三十分钟就有一人因感染埃博拉病毒而死亡，疫情呈现指数级扩散的态势。在这样的背景下，首批超过1.6万剂埃博拉疫苗已经运抵首都金沙萨，这是计划分配给金沙萨地区共计7万剂疫苗中的第一批。此次使用的疫苗是名为Ervebo的埃博拉疫苗，这是目前国际上已获批准使用的埃博拉疫苗之一，通过接种可以帮助建立针对埃博拉病毒的免疫保护，主要用于疫情爆发地区的环形接种策略，也就是优先为感染者的密切接触者及其接触者接种，以尽快切断传播链条。埃博拉病毒是一种致死率很高的出血热病毒，此前多次在中非地区爆发，每一次疫情应对的关键都在于早期发现、快速隔离和疫苗接种的速度是否能跑赢病毒传播的速度。从报道的死亡速率来看，此轮疫情的传播态势相当严峻，卫生系统能力相对有限的地区想要控制这种指数级扩散的疫情，对疫苗供应和分发效率的要求非常高。目前公开信息还没有给出具体的累计感染人数和死亡总数，也没有说明疫情已经扩散到哪些具体区域，这些细节需要等待世界卫生组织或刚果卫生部后续发布更完整的疫情通报。首批疫苗抵达是一个积极信号，但从运抵到实际完成接种、形成免疫屏障，中间仍需要时间，后续需要观察疫苗接种的实际推进速度能否有效遏制当前的传播态势。",
+      "summary": "伊朗安全负责人警告，任何加入美国对伊朗“经济战”的国家都可能面临报复，中东地区围绕对伊制裁的紧张态势持续升温。",
+      "script": "中东方向的紧张局势还在继续发酵。据半岛电视台报道，伊朗的安全负责人发出警告，表示如果有国家加入美国针对伊朗发起的所谓“经济战”，伊朗方面可能会对这些国家采取报复措施。这里所说的“经济战”，指的是美国近年来持续升级的对伊朗制裁措施，涵盖石油出口、金融交易等多个领域，而如果其他国家配合美国收紧对伊朗的经济限制，就有可能被伊朗视为参与了这场“经济战”，从而成为报复的对象。目前从半岛电视台的报道来看，伊朗方面并没有点名具体是哪些国家、会采取什么形式的报复措施，这更多是一种带有威慑意味的政治表态。已经确认的事实是伊朗官员确实发出了这样的警告；至于伊朗是否真的具备大规模报复能力、报复会以经济、外交还是其他形式展开，目前仍属于各方猜测和分析的范畴，报道中并未给出实质性的军事或经济反制细节。从地区局势的背景来看，伊朗与美国在核问题、地区代理人冲突等多个层面本就存在长期紧张关系，如果美国进一步拉拢盟友或第三方国家共同收紧对伊制裁，伊朗选择公开发出警告，某种程度上也是在争取谈判筹码，向国际社会传递“不会坐视不管”的信号。这类表态历史上也曾多次出现，但具体转化为实际行动的情况相对有限。后续需要关注的是，是否会有具体国家因加入对伊制裁而遭到伊朗点名，以及伊朗方面是否会采取实质性的经济或外交反制动作。",
       "duration_seconds": 140,
       "is_unverified": false,
-      "confidence_note": "半岛电视台两篇独立报道相互印证疫苗抵达和死亡速率的说法，信息来源明确为卫生部门表态，可信度较高，但缺乏累计感染总数等完整流行病学数据。",
+      "confidence_note": "信息来自半岛电视台单一信源，属于官方警告表态的转述，缺乏第二独立信源交叉确认，报复具体形式和对象均未披露。",
       "fact_status": {
         "confirmed": [
-          "超过1.6万剂Ervebo疫苗运抵金沙萨，是计划中7万剂疫苗的首批"
+          "伊朗安全负责人发出警告，称将报复加入美国对伊经济战的国家"
         ],
         "claims": [
-          "卫生当局警告称平均每三十分钟就有一人因埃博拉死亡"
+          "伊朗暗示可能采取报复措施"
         ],
         "analysis": [
-          "疫情呈指数级扩散态势，疫苗接种速度能否跟上传播速度是控制疫情的关键"
+          "该表态可能是伊朗在国际制裁压力下争取谈判筹码的政治姿态"
         ]
       },
       "source_ids": [
-        "815b30a1703df484",
-        "8f384e1016536fd6"
+        "36f0722af2bd4697"
       ],
       "sources": [
         {
-          "id": "815b30a1703df484",
+          "id": "36f0722af2bd4697",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Ebola continues to spread in the DRC as 16,000 vaccine doses arrive",
-          "summary": "Health authorities are warning that ‘approximately one person has been dying from Ebola every thirty minutes’.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/ebola-continues-to-spread-in-the-drc-as-16000-vaccine-doses-arrive?traffic_source=rss",
-          "published_at": "2026-08-22T11:15:39+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "8f384e1016536fd6",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "More than 16,000 doses of Ervebo vaccine arrive in Ebola-hit DR Congo",
-          "summary": "The doses are the first of 70,000 allocated for Kinshasa as experts warn of the virus's exponential spread.",
-          "url": "https://www.aljazeera.com/news/2026/8/22/more-than-16000-doses-of-ervebo-vaccine-arrive-in-ebola-hit-dr-congo?traffic_source=rss",
-          "published_at": "2026-08-22T10:13:56+00:00",
+          "title": "Can Iran retaliate against countries that join US ‘economic war’?",
+          "summary": "Iran's security chief has warned of retaliation against countries joining US ‘economic war'.",
+          "url": "https://www.aljazeera.com/news/2026/8/23/can-iran-retaliate-against-countries-that-join-us-economic-war?traffic_source=rss",
+          "published_at": "2026-08-23T11:50:22+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -455,66 +369,130 @@
     },
     {
       "category": "science",
-      "title": "詹姆斯·韦布望远镜拍摄船底座星云“藏宝箱”彗星状球状体",
-      "english_term": "cometary globule（彗星状球状体）",
-      "summary": "美国国家航空航天局公布詹姆斯·韦布空间望远镜拍摄的船底座星云“藏宝箱”区域红外图像，该结构是一种孤立的高密度气体尘埃云。",
-      "script": "美国国家航空航天局公布了一张由詹姆斯·韦布空间望远镜拍摄的最新红外图像，拍摄对象是船底座星云中一个名为“藏宝箱”的区域，这个区域也是著名的“宇宙悬崖”所在的恒星形成区的一部分。据美国国家航空航天局介绍，这张图像拍摄于今年8月6号，图像中呈现的天体被称为彗星状球状体，这是一种孤立的气体尘埃云结构，其特点是拥有一个致密的核心，外部则拖曳出类似彗星尾巴的延伸结构，通常是在邻近的大质量恒星发出的强烈辐射和恒星风的作用下逐渐被侵蚀塑形而成的。船底座星云是银河系内已知的大型恒星形成区之一，内部包含大量正在孕育的年轻恒星和高温高密度的气体尘埃结构，一直是天文学家研究恒星形成过程的重点观测目标。詹姆斯·韦布空间望远镜凭借其在红外波段的高灵敏度探测能力，能够穿透可见光波段难以穿透的尘埃云，观测到隐藏在其中的年轻恒星和更精细的结构细节，这也是它相比此前的哈勃望远镜在观测恒星形成区域时的重要优势。这类彗星状球状体的研究，有助于天文学家理解在高辐射环境下，恒星形成物质是如何被逐步侵蚀和塑造的，从而为恒星形成理论提供更多观测证据。目前公布的内容主要是图像展示和天体类型介绍，还没有涉及具体的科学论文分析结果，后续需要关注相关研究团队是否会基于这批数据发表进一步的科学分析论文。",
+      "title": "好奇号火星车结束地质异常路线勘查，重返攀登夏普山主线任务",
+      "english_term": "erosional surface（侵蚀面，指岩石因风化侵蚀作用形成的特殊地表结构）",
+      "summary": "美国宇航局好奇号火星车团队在最新任务日志中表示，探测器已完成对一处“侵蚀面”地质异常区域的短暂考察，重新回到攀登夏普山的既定路线上。",
+      "script": "来看一条来自火星的消息。美国宇航局好奇号火星车团队近期发布的任务博客提到，探测器在过去一周的操作中，重新回到了此前既定的探测路线上，任务团队将其形容为“回到我们的常规节目”。此前，好奇号临时调整了行进路线，去考察一处被称为“侵蚀面”的特殊地质结构，这是一种因为风化和侵蚀作用而形成的独特岩石地表形态，对于研究火星地质历史和过去可能存在的水流活动，这类地表结构往往能提供重要的线索。完成这段插曲式的勘察之后，好奇号目前已经重新踏上了攀登夏普山的主线任务。夏普山是好奇号自登陆火星以来的核心探测目标之一，山体不同高度的岩层记录了火星不同地质年代的沉积历史，通过持续向上攀爬并沿途采样分析，科学家希望能够拼凑出火星从相对湿润的古代环境逐渐演变为如今干燥荒芜状态的完整历史脉络。这篇任务博客的发布方是好奇号地面操作团队里负责任务规划的专家，内容偏向常规的工程与科学任务进展通报，没有涉及重大新发现或者突破性结论，更多是持续性科学考察工作的例行更新。对于长期关注火星探测的人来说，这类常规更新本身的价值在于展现探测任务的连续性和严谨的科学规划过程。后续需要关注好奇号在攀登夏普山过程中是否会遇到新的地质异常现象，以及团队后续针对夏普山不同岩层的采样分析会得出哪些具体结论。",
       "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "信息直接来自美国国家航空航天局官方发布，属于Tier 1一手来源。",
+      "confidence_note": "信息来自NASA官方任务博客，为Tier 1一手信源，内容为常规任务通报。",
       "fact_status": {
         "confirmed": [
-          "詹姆斯·韦布空间望远镜于8月6日拍摄了船底座星云藏宝箱区域的红外图像",
-          "该区域包含一个彗星状球状体结构"
+          "好奇号完成对一处侵蚀面地质异常区域的勘察，重新回到攀登夏普山的既定路线"
         ],
         "claims": [],
         "analysis": [
-          "该类观测有助于研究恒星形成区中气体尘埃云在强辐射环境下的演化过程"
+          "夏普山不同岩层的持续探测有助于拼凑火星地质演变历史"
         ]
       },
       "source_ids": [
-        "71bd22cb089c0103"
+        "634763444250eed1"
       ],
       "sources": [
         {
-          "id": "71bd22cb089c0103",
+          "id": "634763444250eed1",
           "source": "NASA",
           "source_tier": 1,
           "source_region": "us",
           "language": "en",
           "category_hint": "science",
-          "title": "Webb Opens Treasure Chest",
-          "summary": "NASA’s James Webb Space Telescope captured this Aug. 6, 2026, infrared image of part of the Carina Nebula, a star-forming region also home to the Cosmic Cliffs. This feature, called the “Treasure Chest,” is an object known as a cometary globule. A cometary globule is an isolated cloud of gas and dust with a dense, […]",
-          "url": "https://www.nasa.gov/image-article/webb-opens-treasure-chest/",
-          "published_at": "2026-08-21T17:35:11+00:00",
+          "title": "Curiosity Blog, Sols 4982–4987: Back to Our Regularly Scheduled Programming",
+          "summary": "By Allison Dries-Padilla, Missions Operations Specialist at Malin Space Science Systems Earth planning date: Friday, Aug. 14, 2026 This week of Curiosity Mars rover operations takes us back to our “regularly scheduled programming.” After taking a slight detour to investigate the “erosional surface” we are back on course to ascend Mount Sharp. As we transition […]",
+          "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4982-4987-back-to-our-regularly-scheduled-programming/",
+          "published_at": "2026-08-23T07:39:28+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "sports",
+      "title": "悉尼马拉松奖牌乌龙：错刻慕尼黑体育场，组委会坦然回应",
+      "english_term": null,
+      "summary": "2026年悉尼马拉松的完赛奖牌上错误地刻上了德国慕尼黑安联球场的图案，而非悉尼本地的安联体育场，组委会表示不会回避这一失误。",
+      "script": "最后来说一件轻松但也挺尴尬的新闻。据半岛电视台和BBC报道，2026年悉尼马拉松的组委会闹了个乌龙，完赛奖牌上本该刻上悉尼当地地标安联体育场的图案，结果却错误地印上了位于德国慕尼黑的安联球场。这两座场馆虽然都叫安联，但一个在澳大利亚悉尼，一个在德国慕尼黑，风马牛不相及，跑者们在完赛后拿到奖牌一看，才发现上面的地标建筑完全不对。对此，组委会的回应是“我们不会回避这个问题”，摆出了一种坦然承认错误、不打算遮掩的态度，而不是急于撇清责任或者轻描淡写地带过。从新闻性上看，这类乌龙事件虽然不涉及严重后果，但确实反映出大型体育赛事在周边制作环节上有时会出现审核疏漏，尤其是涉及跨国、跨地标的设计工作时，如果核对流程不够严谨，类似张冠李戴的错误就有可能发生。目前报道中没有提到组委会是否会重新制作奖牌寄送给参赛者，也没有说明这批错版奖牌的具体数量。这条新闻整体上更偏向体育娱乐类的轻松话题，但两家独立媒体都对此进行了报道，说明这个乌龙事件在当地确实引发了不小的关注和讨论。后续需要关注悉尼马拉松组委会是否会公布具体的补救措施，比如是否会为受影响的跑者重新制作或补发正确版本的奖牌。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "两个独立Tier 2来源（半岛电视台、BBC）交叉报道同一事件，事实清晰，属轻松类花絮新闻。",
+      "fact_status": {
+        "confirmed": [
+          "2026年悉尼马拉松奖牌错误印制了慕尼黑安联球场图案而非悉尼安联体育场",
+          "组委会公开承认这一失误并表示不会回避"
+        ],
+        "claims": [],
+        "analysis": []
+      },
+      "source_ids": [
+        "3169e6ec7d38ffeb",
+        "3f93baa069e45f7e"
+      ],
+      "sources": [
+        {
+          "id": "3169e6ec7d38ffeb",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Sydney Marathon organisers not running away from ‘unfortunate’ medal error",
+          "summary": "The medal features the Allianz Arena in Munich, instead of Sydney's Allianz Stadium, as one of the city's landmarks.",
+          "url": "https://www.aljazeera.com/sports/2026/8/23/sydney-marathon-organisers-not-running-away-from-unfortunate-medal-error?traffic_source=rss",
+          "published_at": "2026-08-23T11:44:18+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "3f93baa069e45f7e",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "'We're not going to run from it': Sydney Marathon laughs off medal error",
+          "summary": "Runners will receive a medal at the 2026 Sydney Marathon with an engraving of a German stadium.",
+          "url": "https://www.bbc.co.uk/news/articles/cn4n4l1yyvro?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-23T03:44:19+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "北京的机器人赛事和产业展会展现了人形机器人在运动能力和零部件供应链上的最新进展，但测试成绩的具体认证方式仍待官方说明；国际局势方面，美加关税战、乌克兰袭击事件和缅甸空袭都还有更多细节有待各方进一步确认，埃博拉疫苗接种的实际效果也需要持续跟踪。",
-  "editor_note": "本期机器人类内容共选取4条，时长合计约510秒，占总时长约47%，符合45%-55%区间要求；来源覆盖The Robot Report、BBC、Al Jazeera及多家聚合搜索结果，避免单一来源垄断。百米纪录、家政机器人分析等条目均因来源单一或细节不透明标记为未完全证实。国际部分优先选取有多信源交叉印证的重大事件，缅甸空袭因信源单一同样标记不确定性。因候选中娱乐、体育、金融类事件重要性有限（如悉尼马拉松奖牌错误、甘地手稿拍卖），予以割舍，未强行凑数。",
+  "closing": "今天的早报先到这里。北京人形机器人运动会还在进行中，天工Ultra的百米纪录只是开场，后续几天关于足球、拳击项目的比赛结果，以及电动车充电、餐厅服务等应用型任务的具体表现，都值得持续关注；国际方面，美加贸易谈判后续走向、乌克兰国内围绕选举与腐败指控的政治博弈，也需要等待更多官方信息进一步确认。",
+  "editor_note": "本期机器人板块共选取4条，时长合计约685秒，占全部事件总时长约47%，符合45%-55%的比例要求；其中一条关于运动会应用型任务的内容因来源为discovery_only的聚合搜索候选，缺乏独立信源确认，已标注is_unverified。国际板块因候选集中于BBC、DW、半岛电视台，已注意避免同一来源在单一事件中重复作为唯一依据，并对乌克兰、伊朗、泰国等争议性事件严格区分已确认事实与各方主张。为满足总时长要求已删除泰国纵火事件以避免信源单薄拉低整体质量，保留其余9条重点事件；总体候选数量充足，未出现明显缺口。",
   "model": "claude-sonnet-5",
+  "generation_usage": [
+    {
+      "input_tokens": 6732,
+      "output_tokens": 11312,
+      "total_tokens": 18044
+    },
+    {
+      "input_tokens": 13145,
+      "output_tokens": 10066,
+      "total_tokens": 23211
+    }
+  ],
   "usage": {
-    "input_tokens": 8586,
-    "output_tokens": 10350,
-    "total_tokens": 18936
+    "input_tokens": 19877,
+    "total_tokens": 41255,
+    "output_tokens": 21378
   },
-  "generated_at": "2026-08-22T12:22:05+00:00",
-  "window_start": "2026-08-21T12:22:05+00:00",
-  "candidate_count": 180,
+  "generated_at": "2026-08-23T12:13:00+00:00",
+  "window_start": "2026-08-22T12:13:00+00:00",
+  "candidate_count": 160,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
+  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1315,
-    "script_characters": 5147,
-    "topic_duration_share": 0.498,
+    "duration_seconds": 1360,
+    "script_characters": 5325,
+    "topic_duration_share": 0.504,
     "passed": true,
-    "normal_target_met": true,
-    "topic_source_count": 4,
+    "normal_target_met": false,
+    "topic_source_count": 3,
     "issues": []
   }
 }
