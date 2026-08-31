@@ -1,298 +1,65 @@
 {
-  "title": "晶球电台早报：北京机器人运动会刷新纪录，小鹏机器人业务获9亿美元融资",
-  "subtitle": "从人形机器人百米赛跑到伊朗核问题升级，今天的世界既在加速奔跑，也在紧张博弈",
+  "title": "晶球电台早报：塞浦路斯渡轮倾覆、尼泊尔洪灾持续，世界人形机器人运动会展示AI新突破",
+  "subtitle": "国际救援行动多线展开，机器人产业与学术进展聚焦群体智能与足式运动控制",
   "highlights": [
-    "小鹏汽车旗下人形机器人公司Dogotix完成9亿美元首轮融资，估值达63亿美元",
-    "北京机器人运动会上，人形机器人以9.39秒完成百米跑，创下同类纪录",
-    "美国大幅扩大对伊朗制裁，中国警告将采取措施维护自身利益",
-    "多篇机器人学术预印本聚焦隐私保护感知、导航与养老陪伴机器人"
+    "塞浦路斯附近渡轮倾覆，约270人待救，救援仍在进行",
+    "尼泊尔洪灾后续：预警新一轮洪水风险，救援物资输送受阻",
+    "世界人形机器人运动会展示多项AI与运动控制技术，微型机器人研究登上IEEE Spectrum",
+    "群体机器人的电力管理架构成为学界与产业界关注焦点"
   ],
   "stories": [
     {
-      "category": "robotics",
-      "title": "小鹏机器人业务Dogotix获9亿美元融资，估值63亿美元",
-      "english_term": "humanoid robot（人形机器人）",
-      "summary": "小鹏汽车旗下人形机器人公司Dogotix完成首轮9亿美元融资，投后估值达63亿美元，公司计划规模化量产机器人。",
-      "script": "先来看机器人产业的一条重磅消息。中国汽车制造商小鹏汽车旗下的人形机器人业务单元Dogotix，宣布完成首轮融资，融资金额高达9亿美元，投后估值达到63亿美元。这是Dogotix作为独立机器人业务的首次对外融资，也是今年人形机器人赛道里规模较大的一笔交易。据披露，公司计划利用这笔资金推进机器人的规模化量产。从技术路径看，小鹏本身在自动驾驶和智能电动车领域积累了感知、控制与电机执行器方面的经验，这些技术栈与人形机器人所需的运动控制、传感器融合能力有相当程度的复用空间，这也是不少车企近年跨界布局人形机器人的重要逻辑——车规级供应链和电机、电池技术可以被迁移复用，从而降低整机成本。目前人形机器人行业普遍面临的挑战包括：双足或轮式移动的稳定性与能耗、灵巧手的抓取精度、以及大规模量产时的良率和成本控制。63亿美元的估值放在人形机器人赛道里已属于第一梯队，说明资本市场仍然看好具身智能与实体机器人的长期前景，尤其是在中国市场，车企、家电企业与专业机器人公司正在形成多元竞争格局。后续需要关注的是，Dogotix是否会公布具体的量产时间表、首批产品的应用场景定位，以及这笔融资的具体投资方构成，这些信息目前的公开报道中尚未完全披露。",
-      "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "两个独立来源（Global Times与The Robot Report）均报道了此次融资金额与估值，信息一致。",
-      "fact_status": {
-        "confirmed": [
-          "Dogotix完成9亿美元首轮融资",
-          "投后估值达63亿美元",
-          "公司计划规模化量产机器人"
-        ],
-        "claims": [],
-        "analysis": [
-          "车企布局人形机器人可能受益于供应链和电控技术的复用"
-        ]
-      },
-      "source_ids": [
-        "217c39de75d8cc2e",
-        "b3f80e7e1163b891"
-      ],
-      "sources": [
-        {
-          "id": "217c39de75d8cc2e",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Chinese automaker XPeng’s robotics business raises $900 mln in first funding round - Global Times",
-          "summary": "Chinese automaker XPeng’s robotics business raises $900 mln in first funding round Global Times",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE96OFlzM2NMX3hEeHBWRTVJTmZnQ1MwSWZPX3FyQVNmVHJ2NzgwZjUtU0dYN2ZLQm9VbUZRV3UxWUJSd3czTGlpSkoyNlNla1M0dE9KTWtyaEFGTW5LanRGa0hR?oc=5",
-          "published_at": "2026-08-25T11:58:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "b3f80e7e1163b891",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
-          "summary": "Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale. The post XPeng Motors humanoid robot unit Dogotix raises $900M appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
-          "published_at": "2026-08-24T20:07:09+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "北京机器人运动会：人形机器人9.39秒跑完百米",
-      "english_term": null,
-      "summary": "在北京举行的机器人运动会上，一台人形机器人以9.39秒的成绩完成100米跑，创下同类赛事纪录。",
-      "script": "另一条引发关注的机器人新闻来自北京。在近期举行的机器人运动会上，一台人形机器人以9.39秒的成绩跑完了100米，这个数字迅速在国际媒体上传播开来。需要说明的是，9.39秒这个成绩本身并不意味着机器人的绝对速度超过了人类短跑运动员的世界纪录水平，但对于双足人形机器人而言，能够在开放赛道上完成高速奔跑并保持稳定，本身就是控制系统的一次综合考验。人形机器人奔跑涉及的核心技术包括步态规划、动态平衡控制以及关节执行器的功率密度和响应速度。奔跑与行走的最大区别在于，奔跑过程中机器人会有腾空阶段，双脚不同时接触地面，这对实时的姿态反馈和快速纠偏能力提出了更高要求，通常需要依赖高频率的惯性测量单元数据和强化学习训练出的动态控制策略。近年来，包括中国多家机器人公司在内的团队，都在通过举办类似运动会的方式，用体育竞技场景来展示和检验人形机器人的运动能力上限，这也被视为具身智能技术路线的一种公开路测。目前关于这场比赛的具体参赛机器人厂商、传感器配置和控制算法细节，公开报道中信息有限。后续需要关注官方是否会公布更详细的技术参数，以及这类竞速纪录能否在不同场地和环境条件下被稳定复现。",
-      "duration_seconds": 125,
-      "is_unverified": true,
-      "confidence_note": "目前只有单一来源报道，缺少赛事主办方或权威机构的直接确认，具体技术细节披露有限，标记为未完全验证。",
-      "fact_status": {
-        "confirmed": [
-          "北京举行了机器人运动会",
-          "一台人形机器人完成100米跑，成绩为9.39秒"
-        ],
-        "claims": [],
-        "analysis": [
-          "该成绩体现了人形机器人在动态平衡与高速运动控制方面的进展"
-        ]
-      },
-      "source_ids": [
-        "0e786d118a4267b4"
-      ],
-      "sources": [
-        {
-          "id": "0e786d118a4267b4",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Humanoid Robot Runs 100 Meters in 9.39 Seconds at Beijing Robot Games - NBC Palm Springs",
-          "summary": "Humanoid Robot Runs 100 Meters in 9.39 Seconds at Beijing Robot Games NBC Palm Springs",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUmxjY2tJNXJKWVIydHlmWXdYcm5KdFBZdVp3SDVsR2djZDBCMGhpTmVDdW1yUEV5d0w5YW0xVGJ5RFBtVUVqUHBMNkZrMTVtMzBURnBEQkRMMDROeHZoUGxrWmtBXzF1SVl2RlJRaU40NDJLOXp5a09kX1RiR3lyam5Vd0JyLW03dHhUMDFqeGRjX0p3ODFiNTJEQ29aYzdzNDdoWVVNY1k1VkhyN0dnTVlVUXJmWEh1Yks2dWRON1Q3bFZsVjlXZW9UaXBFTUplVXc?oc=5",
-          "published_at": "2026-08-25T12:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "多篇学术预印本聚焦机器人隐私保护感知与养老陪伴",
-      "english_term": "point cloud（点云）",
-      "summary": "本周arXiv平台公布多篇机器人学方向新预印本，涵盖点云隐私保护、养老陪伴机器人交互系统与云台式人体跟踪方法。",
-      "script": "再来看学术方向的进展。今天有多篇机器人学预印本论文值得关注，它们分别指向感知隐私、养老陪伴和人体跟踪三个不同但相关的方向。第一篇论文提出了名为RoboShape的方法，研究问题是：当机器人通过扫描环境生成三维点云（point cloud，即用大量空间坐标点表示物体表面的三维数据格式）用于云端协同建图或车队学习时，这些点云数据往往会无意中泄露房间功能、居住者隐私等敏感空间信息。研究者尝试引入信息论的方法，对点云编码过程施加原则性的约束，从而在保留导航或建图所需信息的同时，主动过滤掉不必要的隐私细节。第二篇论文面向养老照护场景，提出了一套整合视觉跟随、大语言模型驱动的语音交互与安全监测于一体的陪伴机器人系统，试图解决现有服务机器人功能单一、难以提供连续陪伴的问题。第三篇论文则提出了一种基于云台摄像头的人体跟踪方法，结合持续学习技术，用来解决传统依赖固定摄像头或穿戴式标签的方案在目标移出视野后容易跟丢的问题。这三项工作分别代表了机器人感知安全、人机交互和视觉跟踪领域的具体技术尝试，但都属于预印本，尚未经过同行评审，实验规模和真实场景验证的充分性目前无法从摘要中完全判断。后续需要等待论文的同行评审结果，以及作者是否公开代码和数据集以便复现。",
-      "duration_seconds": 135,
-      "is_unverified": true,
-      "confidence_note": "三篇均为arXiv预印本，未经同行评审，仅代表作者自述的研究思路和初步结果，存在方法局限性未知的风险。",
-      "fact_status": {
-        "confirmed": [
-          "三篇预印本论文已在arXiv平台公开"
-        ],
-        "claims": [
-          "作者称RoboShape方法可在保留导航信息同时降低隐私泄露风险",
-          "作者称养老陪伴机器人系统整合了视觉跟随、语音交互与安全监测功能"
-        ],
-        "analysis": [
-          "点云隐私保护和养老陪伴是当前机器人感知与人机交互领域受关注的细分方向"
-        ]
-      },
-      "source_ids": [
-        "d27fba9baca44922",
-        "e1f40b06a66c07f7",
-        "7165ca6c37151bf8"
-      ],
-      "sources": [
-        {
-          "id": "d27fba9baca44922",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "RoboShape: Information-Theoretic Point Cloud Representations for Privacy-Aware Robot Perception",
-          "summary": "arXiv:2608.21380v1 Announce Type: new Abstract: With the increased adoption of robotic agents operating in human environments by scanning and sharing 3D representations (e.g., for fleet learning, cloud-based planning, or collaborative mapping), collected point clouds reveal not just the objects in a scene but also sensitive spatial context, such as room function or information that occupants never consented to disclose. Traditional point cloud encoders offer no principled control over this: either all is preserved, or none. Hence, we introduce RoboShape, an information theory guided compression head following the frozen {\\tt Sonata} encoder. We project voxel-level embeddings using the Donsker-Varadhan formulation of mutual information (MI). Specifically, we maximize the MI between embeddings and object-level understanding while minimizing it for private attributes. RoboShape leads to 87.5\\% smaller embeddings that retain 98.7\\% of object classification utility while collapsing sensitive attribute predictions by 39.3\\% across the three real-world indoor LiDAR datasets. Its privacy-preserving embeddings are cheaper to transmit over the network or to train a model for any downstream t",
-          "url": "https://arxiv.org/abs/2608.21380",
-          "published_at": "2026-08-25T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "e1f40b06a66c07f7",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Multimodal-Language-Model-Driven Interaction and Companionship for Service Robots in Elderly-Care Facilities",
-          "summary": "arXiv:2608.21387v1 Announce Type: new Abstract: Service robots are increasingly deployed in elderly-care facilities to alleviate caregiver workload and enhance the quality of daily care. However, most existing studies focus on isolated service functions and lack integrated capabilities for continuous companionship, natural interaction, and safety monitoring. In this paper, we present an intelligent companion robot system that unifies active visual human-following, real-time LLM-driven speech interaction for intent understanding and task execution, and VLM-based safety monitoring for fall detection and abnormal posture assessment. The perception layer ensures robust human tracking and uses an active gimbal to maintain the user in view during occlusions or abrupt movements. At the interaction layer, a Large Language Model interprets spoken requests and maps them to robot actions, enabling escorting and semantic navigation. Simultaneously, a VLM-based safety agent continuously analyzes visual observations to detect fall-related or abnormal postures and triggers emergency responses when necessary. Experimental results demonstrate the system's ability to reliably follow and interact wit",
-          "url": "https://arxiv.org/abs/2608.21387",
-          "published_at": "2026-08-25T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "7165ca6c37151bf8",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Gimbal-Based Human Tracking for Companion Robots Using Continual Learning",
-          "summary": "arXiv:2608.21388v1 Announce Type: new Abstract: Reliable and continuous human tracking is essential for natural human-robot interaction, particularly for companion robots. However, many existing approaches rely on wearable tags or fixed cameras with limited fields of view, which reduces system flexibility and often causes tracking failures when the target moves outside the sensing range. In this paper, we present a human tracking approach based on a gimbal-mounted camera integrated into a mobile robot. By actively controlling the gimbal mechanism, the camera can dynamically adjust its viewing direction to maintain the target within the field of view, even under substantial relative motion between the robot and the human. Furthermore, a continual learning strategy is applied to the person re-identification (ReID) task to adapt to changes in appearance and environmental conditions during long-term tracking. Experimental results demonstrate that the proposed system significantly improves the stability and continuity of human tracking, enables real-time re-identification, and provides responsive feedback for reliable tracking of human motion from walking to running. User studies furthe",
-          "url": "https://arxiv.org/abs/2608.21388",
-          "published_at": "2026-08-25T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "农业与建筑机器人：AI能力被视为下一波重点应用领域",
-      "english_term": null,
-      "summary": "行业评论指出，随着农业与建筑行业劳动力持续减少，为现有设备加装AI能力可能是比人形机器人更现实的短期落地方向。",
-      "script": "除了人形机器人的融资和竞速新闻，机器人产业媒体The Robot Report也刊发了一篇行业观察文章，提出了一个值得思考的视角：下一波真正规模化的AI机器人应用，可能既不是聊天应用，也不是人形机器人，而是那些已经在田间地头和工地上作业的农业与建筑设备。文章援引农业自动化公司Agtonomy创始人的观点认为，随着农业和建筑行业的劳动力持续萎缩，设备制造商如果想保持竞争力，需要给现有的拖拉机、挖掘机等重型机械加装感知与自主决策能力，也就是所谓的“有大脑也有蛮力”的机器。这种路径与从零打造人形机器人不同，它是在成熟的机械平台基础上叠加自动驾驶、传感器融合和路径规划等软件能力，理论上落地门槛更低、商业化周期更短，因为这些设备本身已经具备成熟的液压系统和作业机构，只需要解决感知与决策层面的问题。这个观点也反映出机器人产业内部对于技术路线优先级的分歧：一部分资本和舆论聚焦于人形机器人的宏大叙事，而产业一线的设备商则更关注能够快速产生现金流的具体场景改造。这篇文章本身是行业评论性质，并未给出具体的市场规模数据或订单案例，所以更多应被视为一种趋势判断，而非已经发生的产业事实。",
-      "duration_seconds": 125,
-      "is_unverified": true,
-      "confidence_note": "该内容为行业评论文章中的观点陈述，缺乏具体数据支撑，属于分析性判断而非已确认事实。",
-      "fact_status": {
-        "confirmed": [],
-        "claims": [
-          "Agtonomy创始人认为农业与建筑设备加装AI能力是更现实的落地方向"
-        ],
-        "analysis": [
-          "车企与设备商在机器人技术路线选择上存在优先级分歧"
-        ]
-      },
-      "source_ids": [
-        "53f11fcf6917d0f8"
-      ],
-      "sources": [
-        {
-          "id": "53f11fcf6917d0f8",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn",
-          "summary": "For agricultural and construction equipment makers to stay relevant as workforces dwindle, they need to add AI, says Agtonomy's founder. The post The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/",
-          "published_at": "2026-08-24T22:53:33+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
       "category": "world",
-      "title": "美国扩大对伊朗制裁，中国警告将维护自身利益",
+      "title": "北塞浦路斯附近渡轮倾覆，约270人在船上，救援行动持续",
       "english_term": null,
-      "summary": "美国宣布扩大对伊朗的制裁范围，涉及金融网络、加密货币、黄金、航空与航运，中国对此表示将采取措施保护自身利益。",
-      "script": "再来关注国际政治方面的重要动态。美国近期宣布进一步扩大对伊朗的制裁，此次制裁范围涵盖伊朗的金融网络、加密货币交易、黄金贸易、航空业和航运业，美方称目标是孤立那些继续与伊朗做生意的国家。由于伊朗石油出口的很大一部分销往中国，中国官方对此作出回应，警告将采取措施维护自身正当利益。已确认的事实是：美国确实已经出台了新一轮制裁措施，中国外交部门也确实公开表态将保护自身利益。围绕这一事件，各方主张存在明显分歧。美国方面主张，通过经济施压可以迫使伊朗改变行为模式，特朗普本人也在近期呼吁其他国家领导人加入孤立伊朗的行列。但据媒体援引的分析人士判断，这种加码的经济战未必能达到美方预期效果，制裁反而可能推高伊朗国内通胀，并进一步壮大其地下经济和影子贸易网络，这与过去数轮制裁并未从根本上改变伊朗政策立场的历史经验相似。中国方面则将此类单边制裁视为对其正常能源贸易与主权利益的干涉。目前来看，这一轮制裁措施是否会实质性改变中伊之间的能源贸易格局，以及是否会引发中方更具体的反制措施，都还有待观察。后续需要关注美方制裁清单的具体执行细节，以及国际油价和伊朗汇率是否出现明显波动。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "美方制裁措施与中方回应均有BBC、NPR、DW多个独立来源交叉报道，事实层面确认度较高；制裁效果属于分析人士的判断，非既定事实。",
+      "summary": "一艘载有约270人的渡轮在塞浦路斯北部海域倾覆，当地已展开大规模搜救行动，目前已有约159人获救。",
+      "script": "今天要关注的第一条重要新闻来自地中海。据当地媒体报道，一艘载有约270人的渡轮在塞浦路斯北部海域发生倾覆事故。当地市长表示，目前已有159名乘客获救，搜救行动仍在紧张进行中。多家国际媒体，包括BBC和DW都对此事进行了报道，但目前关于事故原因、船只归属以及具体遇难人数，官方尚未给出完整说明。已确认的事实是：船只倾覆发生在塞浦路斯北部海域，涉及人数规模较大，救援行动已经启动，部分乘客已被成功救起。各方消息目前仍主要依赖当地媒体转述，具体细节包括事故起因、船只是否超载、乘客国籍构成等信息暂未得到权威确认。从地中海海上事故的一般规律看，此类大规模人员倾覆事件往往与船只超载、海况突变或非正规航运渠道有关，但在没有官方调查结论之前，不宜做过多推测。后续需要等待塞浦路斯当局或国际海事组织发布正式的事故调查通报，以确认具体遇难与获救人数，以及事故责任归属。这起事件也再次将地中海地区海上人员运输安全问题带入公众视野。",
+      "duration_seconds": 105,
+      "is_unverified": true,
+      "confidence_note": "多家Tier 2媒体（BBC、DW）报道，但均基于当地媒体转述，具体伤亡数字和事故原因尚未获得官方最终确认，属于持续发展中的突发事件。",
       "fact_status": {
         "confirmed": [
-          "美国扩大了对伊朗的制裁范围，涉及金融、加密货币、黄金、航空与航运",
-          "中国对美方制裁作出回应，表示将维护自身利益"
+          "一艘载约270人的渡轮在塞浦路斯北部海域倾覆",
+          "已有约159名乘客获救",
+          "搜救行动正在进行"
         ],
         "claims": [
-          "特朗普呼吁各国领导人共同孤立伊朗",
-          "分析人士认为制裁可能推高伊朗通胀并强化其地下经济"
+          "当地市长提供的获救人数为初步统计"
         ],
         "analysis": [
-          "长期制裁历史上未能根本改变伊朗政策立场，此轮措施效果存在不确定性"
+          "事故最终伤亡规模和原因仍待官方调查结果"
         ]
       },
       "source_ids": [
-        "8a8ff171b8c9608a",
-        "f1f27167a24dffdc",
-        "91fad1b24c552088",
-        "d5cdce13ec54feb1"
+        "6cd74a1c7a748081",
+        "9bd1d34a1d6ea843"
       ],
       "sources": [
         {
-          "id": "8a8ff171b8c9608a",
+          "id": "6cd74a1c7a748081",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "China warns it will safeguard its interests after US widens sanctions against Iran",
-          "summary": "The US has threatened to isolate nations that continue to do business with Tehran, which sells much of its oil to Beijing.",
-          "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-25T11:53:36+00:00",
+          "title": "Boat carrying some 270 people capsizes off northern Cyprus, local media report",
+          "summary": "The local mayor says 159 passengers have been reached so far, with a rescue operation under way.",
+          "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-30T11:55:48+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "f1f27167a24dffdc",
+          "id": "9bd1d34a1d6ea843",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Will tougher US sanctions disrupt Iran's shadow economy?",
-          "summary": "The US is expanding sanctions on Iran's financial networks, targeting crypto, gold, aviation and shipping. Analysts say the measures may fuel inflation and strengthen informal markets without changing Tehran's behavior.",
-          "url": "https://www.dw.com/en/will-tougher-us-sanctions-disrupt-iran-s-shadow-economy/a-78494630?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-25T10:34:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "91fad1b24c552088",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Trump calls leaders to isolate Iran. And, SCOTUS backs Trump for now on mail-in voting",
-          "summary": "President Trump is calling on world leaders to join his economic war against Iran. And, the Supreme Court is backing the president for now on his order to restrict mail-in voting.",
-          "url": "https://www.npr.org/2026/08/25/g-s1-140004/up-first-newsletter-iran-economic-war-scotus-mail-in-voting-dhs-privacy",
-          "published_at": "2026-08-25T11:09:01+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "d5cdce13ec54feb1",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Can Trump's economic war against Iran do what airstrikes and negotiations couldn't?",
-          "summary": "What a new round of U.S. sanctions could mean after nearly six months of war with Iran — and years of economic pressure on the country.",
-          "url": "https://www.npr.org/2026/08/25/nx-s1-5943572/trump-iran-sanctions",
-          "published_at": "2026-08-25T09:07:09+00:00",
+          "title": "Ferry carrying over 260 people capsizes off Cyprus: reports",
+          "summary": "A ‌rescue operation has been launched after a passenger ⁠boat carrying more than 260 people capsized off ‌northern Cyprus, media reported. ‌",
+          "url": "https://www.dw.com/en/ferry-carrying-over-260-people-capsizes-off-cyprus-reports/a-78562769?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-30T11:32:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -300,152 +67,222 @@
     },
     {
       "category": "world",
-      "title": "伊朗议员再提退出核不扩散条约",
-      "english_term": "NPT（核不扩散条约）",
-      "summary": "伊朗议员再次提出退出核不扩散条约的可能性，分析人士认为这更多是谈判筹码而非真实退出意图。",
-      "script": "与美伊制裁升级相呼应的是，伊朗国内政治层面也出现了新的动向。伊朗议员近期再次提出，该国有可能退出实施已有数十年历史的国际核不扩散条约，也就是NPT。已确认的事实是，伊朗议员确实公开重提了这一议题，这并非该国第一次提出类似论调。围绕这一表态，各方主张出现分歧：一部分伊朗政治人士将此视为对西方持续施压的反制手段，试图借助退出条约的威胁向国际社会传递强硬信号。但据分析人士判断，伊朗真正退出条约的可能性相对有限，因为这样做将使伊朗在国际社会陷入更深的孤立，失去与国际原子能机构对话的基础框架，反而可能招致更严厉的国际制裁或军事层面的关注。相比实际退出，分析人士更倾向于认为，这类表态的核心目的是为伊朗在与美国及其盟友的博弈中争取更多谈判筹码，是一种施压策略而非既定政策方向。这一事件与美国近期扩大对伊制裁的背景高度相关，反映出伊朗核问题在外交、经济制裁与地区安全议题上的相互交织。后续需要关注伊朗官方是否会有更明确的政策表态，以及国际原子能机构对此的正式回应。",
-      "duration_seconds": 110,
-      "is_unverified": false,
-      "confidence_note": "来自DW的报道，援引分析人士观点，属于对政治表态动机的解读，非最终政策结果。",
-      "fact_status": {
-        "confirmed": [
-          "伊朗议员再次公开提出退出核不扩散条约的可能性"
-        ],
-        "claims": [
-          "部分伊朗政治人士将此作为对西方施压的反制手段"
-        ],
-        "analysis": [
-          "分析人士认为这更可能是谈判筹码而非真实退出意图"
-        ]
-      },
-      "source_ids": [
-        "2daad4878bc35001"
-      ],
-      "sources": [
-        {
-          "id": "2daad4878bc35001",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Will Iran withdraw from nuclear non-proliferation treaty?",
-          "summary": "Iranian lawmakers have again raised the possibility of leaving a decades-old international nuclear weapons treaty. Analysts say the threat to quit may offer Tehran more leverage than an actual withdrawal.",
-          "url": "https://www.dw.com/en/will-iran-withdraw-from-nuclear-non-proliferation-treaty/a-78495930?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-25T12:01:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "英国将向乌克兰共享技术协助其自主组装远程导弹",
-      "english_term": "SCALP导弹",
-      "summary": "英国宣布将与乌克兰共享分类技术信息，协助其自主组装远程导弹，防务公司MBDA将公开相关英制部件细节。",
-      "script": "在乌克兰局势方面也有新进展。英国官员在乌克兰独立日期间访问基辅时宣布，英国将与乌克兰共享部分机密技术信息，协助乌克兰自主组装远程导弹。根据报道，防务企业MBDA将公开英国制造的SCALP导弹相关部件的技术细节，以便乌克兰能够利用这些信息组装该型号武器。已确认的事实是，英国官员确实在基辅做出了这一表态，MBDA被指定为技术信息的提供方。这一举措被视为英国及其盟友持续军事援助乌克兰的最新举措之一，尤其是在俄乌冲突进入新阶段、外界普遍担忧俄罗斯可能在冬季发起新一轮攻势的背景下。与此同时，另一则相关报道显示，有关俄罗斯征兵手段趋于强硬的说法正在增多，据称俄方正为冬季攻势加强动员，但这一说法目前主要来自媒体报道与分析，尚缺乏俄罗斯官方的正面证实或否认。这两条信息共同勾勒出当前俄乌局势的一个侧面：西方国家在军事技术支持层面持续加码，而俄罗斯国内动员压力的传闻也在增加。后续需要关注乌克兰方面能否real实际组装出相关导弹并投入使用，以及俄罗斯是否会对英国此举做出正式回应。",
-      "duration_seconds": 110,
-      "is_unverified": true,
-      "confidence_note": "英方技术共享表态有NPR明确信源确认；俄罗斯动员手段趋强的说法来自Al Jazeera的报道，缺乏俄方官方证实，标记为部分未验证。",
-      "fact_status": {
-        "confirmed": [
-          "英国官员在基辅表示将与乌克兰共享分类技术信息",
-          "MBDA将公开SCALP导弹相关英制部件细节"
-        ],
-        "claims": [
-          "有报道称俄罗斯正采取更具强制性的征兵手段为冬季攻势做准备"
-        ],
-        "analysis": [
-          "西方对乌军事技术支持持续升级，俄乌冲突可能在冬季进入新阶段"
-        ]
-      },
-      "source_ids": [
-        "40bfa14548f5a393",
-        "b0d65133fc719176"
-      ],
-      "sources": [
-        {
-          "id": "40bfa14548f5a393",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "U.K. will help Ukraine make long-range missiles by sharing classified tech information",
-          "summary": "Burnham, who was in Kyiv for Ukraine's Independence Day, said defense firm MBDA will release details on U.K.-made parts for the SCALP missile to Ukraine to help the country assemble the weapons.",
-          "url": "https://www.npr.org/2026/08/25/nx-s1-5944059/the-uk-will-help-ukraine-make-long-range-missiles-by-sharing-classified-tech-information",
-          "published_at": "2026-08-25T05:14:03+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "b0d65133fc719176",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Russia mobilisation fears grow amid reports of intimidating tactics",
-          "summary": "Military recruitment efforts are reportedly more aggressive as Russia prepares for a winter offensive in Ukraine.",
-          "url": "https://www.aljazeera.com/news/2026/8/25/russia-mobilisation-fears-grow-amid-reports-of-intimidating-tactics?traffic_source=rss",
-          "published_at": "2026-08-25T11:53:03+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "以色列在加沙升级军事行动，国际社会谴责但缺乏实质制约",
+      "title": "尼泊尔洪灾持续发酵，当局警告新一轮洪水风险",
       "english_term": null,
-      "summary": "在美国特使库什纳离开后，以色列被指加大对加沙的军事打击并扩大约旦河西岸定居点，多国表态谴责但未采取实质行动。",
-      "script": "来看中东局势的最新一周动态。据半岛电视台的周度报道，在美国特使库什纳结束访问离开该地区后，以色列被指进一步加大了对加沙地带的军事打击力度，同时在约旦河西岸的定居点扩张也在持续推进。已确认的事实是，加沙地带的军事行动仍在持续，西岸定居点建设活动也未停止。围绕这一局势，各方主张存在明显对立：多个国家和国际组织公开表态谴责相关军事行动和定居点扩张行为，认为这些举动违反国际人道法或加剧地区人道危机；但据报道，这些谴责大多停留在口头层面，尚未转化为具有实际约束力的制裁或干预措施。与此同时，另一则相关报道关注了罗辛亚难民问题，在大屠杀事件发生九年之后，罗辛亚难民在孟加拉国科克斯巴扎尔举行抗议，抗议原因包括援助资金被大幅削减，以及他们在马来西亚和印度面临的强制驱逐压力。这两则新闻虽然发生在不同地区，但共同反映出国际社会在处理长期人道危机时普遍面临的困境：谴责声音存在，但后续资源投入和强制约束机制往往不足。后续需要关注是否有国家或国际机构将口头谴责转化为具体政策行动，以及加沙人道局势的实际发展。",
-      "duration_seconds": 115,
+      "summary": "尼泊尔遭遇的喜马拉雅山区洪灾造成大量人员失踪，当局警告博特科西河水位上升可能引发新一轮洪水，救援物资运送因道路阻断而困难重重。",
+      "script": "尼泊尔的洪灾灾情仍在持续。据NPR和相关报道，尼泊尔当局在周日再次发出警告，博特科西河水位上升，可能引发新一轮洪水，呼吁受灾地区居民保持高度警惕。此前的喜马拉雅山区洪灾已经造成大量人员失踪，救援队伍正在尼泊尔和西藏交界地区的高山峡谷和危险地形中艰难搜寻幸存者。世界宣明会的工作人员德鲁巴·古尔马昌在接受采访时提到，道路阻断和季风天气正在严重影响食物、庇护所和应急卫生物资的运送效率，这使得受灾社区的处境更加艰难。已确认的事实是：此次洪灾发生在喜马拉雅山区，波及尼泊尔与西藏部分地区，目前仍有大量人员下落不明，救援工作因地形和天气条件受到严重制约。分析认为，季风季节叠加高海拔复杂地形，是此次救援行动推进缓慢的主要原因，而水位持续变化也增加了次生灾害的风险。这一灾情也反映出南亚山区在极端天气事件面前基础设施韧性不足的长期问题。后续需要等待尼泊尔官方更新失踪人员搜救进展，以及国际救援力量是否会进一步介入。",
+      "duration_seconds": 105,
       "is_unverified": false,
-      "confidence_note": "两条新闻均来自Al Jazeera的周度报道汇总，涉及多方持续性事件，具体每日军事行动细节需要结合更多信源交叉确认。",
+      "confidence_note": "NPR多篇报道交叉确认灾情发展及救援困境，信息来源可靠但灾情仍在演变。",
       "fact_status": {
         "confirmed": [
-          "加沙地带军事行动持续",
-          "约旦河西岸定居点扩张持续",
-          "罗辛亚难民在科克斯巴扎尔举行抗议"
+          "尼泊尔及西藏部分地区遭遇严重洪灾",
+          "当局警告博特科西河可能出现新一轮洪水",
+          "救援物资运送因道路阻断和天气受阻"
         ],
         "claims": [
-          "多国谴责以色列军事行动和定居点扩张，但缺乏实质制裁"
+          "国际救援组织人员描述受灾社区最紧迫的需求"
         ],
         "analysis": [
-          "国际社会对相关人道危机的谴责与实际干预力度之间存在明显落差"
+          "复杂地形与季风天气是救援推进缓慢的主要原因"
         ]
       },
       "source_ids": [
-        "fb36df3d125f105e",
-        "4d241f1be0300770"
+        "0f66ebd7bca14be3",
+        "38e958803cd41ec5",
+        "1a8cad033a19da38"
       ],
       "sources": [
         {
-          "id": "fb36df3d125f105e",
-          "source": "Al Jazeera",
+          "id": "0f66ebd7bca14be3",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "middle-east",
+          "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Palestine weekly: After Kushner departs, Israel escalates Gaza attacks",
-          "summary": "Israel deepens Gaza attacks and West Bank expansion as countries condemn abuses but impose few consequences.",
-          "url": "https://www.aljazeera.com/news/2026/8/25/palestine-weekly-after-kushner-departs-israel-escalates-gaza-attacks?traffic_source=rss",
-          "published_at": "2026-08-25T11:52:40+00:00",
+          "title": "Nepal warns of possible fresh flooding as communities grapple with devastation",
+          "summary": "Authorities in Nepal warned of possible fresh flooding on Sunday and urged residents in flood-affected districts to remain on high alert after water levels rose in the Bhotekoshi River.",
+          "url": "https://www.npr.org/2026/08/30/nx-s1-5949239/nepal-warns-fresh-flooding",
+          "published_at": "2026-08-30T09:52:41+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "4d241f1be0300770",
-          "source": "Al Jazeera",
+          "id": "38e958803cd41ec5",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "middle-east",
+          "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Why Rohingya refugees are protesting in Cox’s Bazar, 9 years after genocide",
-          "summary": "Rohingya refugees face deep aid cuts in Bangladesh and forced evictions in Malaysia and India.",
-          "url": "https://www.aljazeera.com/news/2026/8/25/why-rohingya-refugees-are-protesting-in-coxs-bazar-9-years-after-genocide?traffic_source=rss",
-          "published_at": "2026-08-25T11:46:13+00:00",
+          "title": "Getting help to Nepal's flood survivors is proving difficult",
+          "summary": "Blocked roads and monsoon weather are complicating efforts to get food, shelter and emergency hygeine to survivors of Nepal's catastrophic floods. World Vision's Dhruba Gurmachhan explains what survivors need the most.",
+          "url": "https://www.npr.org/2026/08/29/nx-s1-5948125/getting-help-to-nepals-flood-survivors-is-proving-difficult",
+          "published_at": "2026-08-29T21:14:10+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "1a8cad033a19da38",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Rescuers race to find thousands missing after deadly Himalayan floods",
+          "summary": "Rescue crews are struggling through blocked roads, high mountain canyons and dangerous terrain as they search for thousands of people missing in Nepal and Tibet.",
+          "url": "https://www.npr.org/2026/08/29/nx-s1-5948040/rescuers-race-to-find-thousands-missing-after-deadly-himalayan-floods",
+          "published_at": "2026-08-29T21:14:09+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "世界人形机器人运动会展示多项AI与运动控制新突破",
+      "english_term": "Humanoid Robot（人形机器人）",
+      "summary": "世界人形机器人运动会成为展示最新人形机器人运动控制与AI能力的舞台，多支队伍展示了机器人在竞技类任务中的表现。",
+      "script": "接下来进入机器人板块。世界人形机器人运动会近期成为行业关注的焦点，据报道，多支参赛队伍在赛场上展示了人形机器人在运动控制、平衡能力和任务执行方面的最新进展。这类赛事的价值在于，它把实验室里的算法拿到了真实、非结构化的竞技场景中检验，比如机器人需要在高动态环境下完成奔跑、转向、避障甚至简单的协作任务，这对运动规划、实时感知融合和电机控制的鲁棒性都是严苛考验。与此同时，另一条相关新闻也颇具趣味性：HONOR公司的人形机器人在马来西亚马拉松赛事中挑战了10公里的赛程，这类长距离连续运动对机器人的能耗管理、关节散热和长时间步态稳定性提出了新的要求，是从短时演示走向持续作业能力的一个观察窗口，长距离运动对电池能量密度和运动控制算法的长期稳定性提出了更高要求，也是评估人形机器人从演示样机走向可持续作业能力的重要指标。此外，纽约还出现了人形机器人与真人跳舞的花絮新闻，虽然娱乐性质更强，但也从侧面反映出人形机器人在动作模仿、节奏跟随和人机互动自然度上的进步，这类展示背后往往依赖动作捕捉数据训练和实时姿态调整算法的结合。需要指出的是，这些赛事和展示活动更多是产业公关与技术验证的结合，具体技术细节、失败率和实际稳定性数据大多没有完整公开，公众看到的往往是精心挑选的成功片段，这意味着评估其真实技术水平仍需谨慎。分析来看，人形机器人赛事化的趋势正在加速，这既是吸引资本关注、展示阶段性成果的方式，也在客观上推动了行业建立统一的性能评测标准，未来这类赛事可能会逐步引入更严格、可量化的评测指标体系。后续需要关注这些参赛机器人背后的具体厂商是否会公布更详细的技术参数和真实故障率数据，以及此类赛事是否会形成长期的、可比较的评测体系。",
+      "duration_seconds": 180,
+      "is_unverified": true,
+      "confidence_note": "来源均为Tier 3的行业新闻聚合，缺少官方技术细节披露，具体机器人厂商、算法方案未获独立验证，标记为未核实的热点线索。",
+      "fact_status": {
+        "confirmed": [
+          "世界人形机器人运动会已经举行，多支队伍参与展示",
+          "HONOR人形机器人参与了马来西亚马拉松10公里挑战"
+        ],
+        "claims": [
+          "报道称赛事展示了AI技术突破，具体技术指标未披露"
+        ],
+        "analysis": [
+          "赛事化趋势有助于推动行业建立统一评测标准，但当前信息透明度有限"
+        ]
+      },
+      "source_ids": [
+        "a02f4b11148d3aae",
+        "9695fe039a4841c6",
+        "c8a275127fc171a9"
+      ],
+      "sources": [
+        {
+          "id": "a02f4b11148d3aae",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "MARK-TO-MARKET: AI breakthroughs on display at the World Humanoid Robot Games - Dispatch Argus",
+          "summary": "MARK-TO-MARKET: AI breakthroughs on display at the World Humanoid Robot Games Dispatch Argus",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcUZxRjlxdnlwdmNRaGVfb3ZLYlY0LVhzekR6ZTEtcEwxZXRkYlRSUWtDNlRYc1U4d1VoZ2tjRUFGdTVvOVNVSlZjZzkwNE5MTzVOa3dCTDVDTWZibnJJMW9mMWRNZzk3MDhUTHdQcVdZd1Rpc09Ob19KUkdHREJsdngxaG9UVWRFaS0xY0pSZjZSdnRC?oc=5",
+          "published_at": "2026-08-30T11:30:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "9695fe039a4841c6",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "HONOR’s humanoid robot takes on 10km challenge at Malaysia Marathon 2026 - The Star",
+          "summary": "HONOR’s humanoid robot takes on 10km challenge at Malaysia Marathon 2026 The Star",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNME50OHNBNEJsMnVCRHZwV0dtczh3S3JaTVdkeEJIb2g1ZTNHMUpOUjdjaWtfakxxaDV4QkpVcEJkRUs0QXVnQ1YyMC05SVdZVkpWazh0cHJaWWhKaXE3SFBqOVJGZEQxV2VPZlY2VUE4OG44STVoRjRWSk9VLTI4Tm9hQzBtdGJMTGE3WFJOcXVjODBEOG1feGluX2RSczRYcy1MY3dxTmVrZ0xDd2JDT0pTSGROSDlXaFFz?oc=5",
+          "published_at": "2026-08-30T11:32:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "c8a275127fc171a9",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Humanoid robot gets into dance-off with woman in New York City - Yahoo News Canada",
+          "summary": "Humanoid robot gets into dance-off with woman in New York City Yahoo News Canada",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nX0dLelFHanlNZVU5TjNpajJneGx5YUF0a3hwcEZWODVqWVBDanNacW9qb21zRzduUURERVhLUE1MWnZMdGFXWVFGekxlMnc5a2FCT0FCXzMtUjl6RGJqWmNPaDM3X2sxLVp0OTlyc09MeTZJaDJhNE9R?oc=5",
+          "published_at": "2026-08-30T11:59:08+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "微型仿生机器人MicroDuck实现轮滑与踢球动作",
+      "english_term": "Microduck Robot（微型仿鸭机器人）",
+      "summary": "IEEE Spectrum报道了一款名为Microduck的微型仿生机器人，能够完成轮滑和踢球等动作，展示了小型化仿生机器人在敏捷运动控制上的进展。",
+      "script": "在学术与技术类新闻中，IEEE Spectrum报道了一款颇为有趣的微型仿生机器人——Microduck。这款机器人体型小巧，外形模仿小鸭子，却展示出了令人意外的运动能力：它可以像人一样完成轮滑动作，还能进行简单的踢球任务。虽然报道整体偏向科普和趣味展示，但背后涉及的技术问题其实并不简单。首先是小型化平台上的动力与传动设计，在有限的体积和重量约束下，如何布置电机、齿轮和轮式结构来实现稳定的滑行，这对机构设计是个挑战，需要在结构强度、重量和传动效率之间做出权衡。其次是运动控制层面，轮滑本身就是一个欠驱动、需要持续动态平衡的任务，机器人要在滚动过程中实时调整重心和姿态，这通常依赖于反馈控制或者强化学习训练出的策略网络，来应对滑动过程中不断变化的接触力和摩擦条件。踢球动作则进一步要求机器人具备一定的环境感知能力，判断球的位置并规划肢体动作完成击打，这涉及视觉或其他传感信息与运动规划模块的协同配合。这类小型仿生机器人项目的意义，往往不在于直接的产业化应用，而是作为运动控制算法和机构设计的低成本试验平台，帮助研究人员快速迭代想法，再逐步移植到更大尺寸、更复杂的足式或轮式机器人上，这种从小尺度平台验证再向大尺度迁移的思路，在机器人研究中较为常见。需要说明的是，目前公开报道并未详细披露该机器人所使用的具体控制算法、训练方式或传感器配置，仅是展示性质的成果发布。后续需要关注是否有相关论文或技术细节公开，以便了解其控制方法的具体实现路径和局限性。",
+      "duration_seconds": 160,
+      "is_unverified": true,
+      "confidence_note": "IEEE Spectrum为专业科技媒体，但本条报道偏科普展示性质，缺乏可交叉验证的第二来源及详细技术论文支撑，标记为未核实。",
+      "fact_status": {
+        "confirmed": [
+          "报道展示了名为Microduck的微型仿生机器人可以轮滑和踢球"
+        ],
+        "claims": [
+          "报道未详细说明具体控制算法和实验条件"
+        ],
+        "analysis": [
+          "小型仿生机器人常作为运动控制算法的低成本验证平台"
+        ]
+      },
+      "source_ids": [
+        "c073b38f01dff01d"
+      ],
+      "sources": [
+        {
+          "id": "c073b38f01dff01d",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Adorable Microduck Robot Roller Skates and Plays Soccer - IEEE Spectrum",
+          "summary": "Adorable Microduck Robot Roller Skates and Plays Soccer IEEE Spectrum",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aU083cmhsT09VR0dEWEdBUW9hczZQVGU2SDI1MGxITnlZQVpYaU9sUGhUN3oxR3NOM2ZxNjFnaDI1R0s5U05BUGJ4S1N1Ull2dUVMSjVTekRDR3BFeEhTWGd1ckM?oc=5",
+          "published_at": "2026-08-30T11:35:16+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "群体机器人电力管理：集中式与分布式架构的权衡",
+      "english_term": "Swarm Robotics（群体机器人）",
+      "summary": "The Robot Report分析了群体机器人系统中集中式与分布式电力管理架构的优劣，并提出混合方案可能兼具两者优势。",
+      "script": "再来看一篇偏工程分析的报道，来自The Robot Report，主题是群体机器人系统的电力管理架构设计。所谓群体机器人，指的是由大量结构简单、功能相对单一的机器人个体组成的系统，它们通过局部交互和简单规则协同完成复杂任务，比如仓储物流中的搬运集群或者环境监测中的传感器机器人群。文章讨论了这类系统中电力管理的两种基本思路：集中式架构通常依赖一个中央控制单元来统一调度整个群体的能量分配和充电排程，优点是全局优化效果好、便于统一监控，但缺点是存在单点故障风险，一旦中央节点失效，整个群体的能量调度可能陷入混乱，这在大规模部署场景中会带来明显的系统性风险。分布式架构则让每个机器人个体自主管理自身的电量状态并做出本地决策，例如在电量低时自行前往充电站，这种方式鲁棒性更强，某个个体出问题不会影响整体运行，但可能因为缺乏全局协调而导致资源利用效率下降，比如多个机器人同时涌向同一个充电桩造成排队和资源浪费，这种局部最优而非全局最优的问题在分布式系统设计中较为常见。文章提出，混合式架构可能是更现实的工程选择，即在保留分布式自主决策鲁棒性的基础上，引入一定程度的全局信息共享和协调机制，来提升整体能量利用效率，例如通过定期广播各节点的电量状态，让机器人在做本地决策时能够参考群体整体情况。这类讨论虽然没有涉及具体的新算法或实验数据，但反映了群体机器人从实验室走向实际部署过程中，工程可靠性和系统架构设计正成为与算法本身同等重要的议题。后续需要关注是否有具体厂商或研究团队提出可量化验证的混合架构方案，并在真实部署场景中进行测试。",
+      "duration_seconds": 170,
+      "is_unverified": false,
+      "confidence_note": "The Robot Report为Tier 2专业机器人产业媒体，内容为工程分析综述性质，未涉及具体争议性事实声明。",
+      "fact_status": {
+        "confirmed": [
+          "文章讨论了群体机器人电力管理的集中式与分布式两种架构"
+        ],
+        "claims": [
+          "文章提出混合架构可能兼具两种方式的优势"
+        ],
+        "analysis": [
+          "群体机器人工程可靠性正成为与算法研究同等重要的议题"
+        ]
+      },
+      "source_ids": [
+        "e44428d6e3750d8d"
+      ],
+      "sources": [
+        {
+          "id": "e44428d6e3750d8d",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "The differences between decentralized and centralized power in swarm robotics",
+          "summary": "A robotic swarm typically relies on centralized or decentralized power management, but a hybrid approach could offer the best of both. The post The differences between decentralized and centralized power in swarm robotics appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/",
+          "published_at": "2026-08-29T12:25:31+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -453,67 +290,204 @@
     },
     {
       "category": "science",
-      "title": "NASA将于8月30日发射罗曼太空望远镜",
-      "english_term": "Roman Space Telescope（罗曼太空望远镜）",
-      "summary": "NASA计划于8月30日通过SpaceX猎鹰重型火箭发射新一代观测设备罗曼太空望远镜，用于研究暗能量等宇宙谜题。",
-      "script": "科学方面，一条值得关注的消息来自NASA。NASA宣布已经为其新一代天文观测设备——南希·格雷斯·罗曼太空望远镜的发射，做好了报道和转播安排。根据计划，罗曼望远镜将不早于8月30日美国东部时间早上7点26分，搭乘SpaceX的猎鹰重型火箭从佛罗里达发射升空。已确认的事实是，NASA与SpaceX已经确定了这一发射时间窗口，并公布了相关的报道安排。罗曼望远镜被NASA定位为下一代旗舰级空间观测设备，其核心科学目标之一是探索暗能量等宇宙学领域最基本的未解之谜之一。与知名的哈勃望远镜和詹姆斯·韦布望远镜不同，罗曼望远镜的设计强调更广阔的视场，这意味着它能够在单次曝光中观测到远比现有望远镜更大的天区范围，从而更高效地开展大规模巡天式的宇宙学统计研究，比如通过观测大量遥远星系的分布和形变，反推暗能量如何影响宇宙的加速膨胀。这类大视场巡天能力也被认为对系外行星探测和银河系结构研究具有重要价值。目前发射时间为“不早于”8月30日，意味着后续仍存在因天气或技术原因推迟的可能性。后续需要关注发射当天的具体天气与技术状态，以及火箭升空后望远镜部署与调试阶段的进展。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "NASA官方一手信源发布的发射计划公告，时间为计划性质，存在按官方表述推迟的可能。",
+      "title": "深度强化学习应用于医学影像：前景与挑战并存",
+      "english_term": "Deep Reinforcement Learning（深度强化学习）",
+      "summary": "一篇综述性报道探讨了深度强化学习在医学影像分析中的应用潜力与现存局限，包括数据稀缺和模型可解释性等问题。",
+      "script": "在科学板块，Bioengineer.org发布了一篇关于深度强化学习应用于医学影像领域的综述性报道。深度强化学习是指让智能体通过与环境不断交互、根据奖励信号调整策略来学习最优决策的方法，此前在游戏和机器人控制领域已有广泛应用。报道指出，研究人员正尝试将这一方法引入医学影像分析，比如让算法自主学习如何在CT或MRI影像中定位病灶、优化扫描序列，或者辅助制定放疗方案，其核心思路是把影像分析任务转化为一系列连续决策问题，让模型通过试错逐步学到更优的诊断或规划策略。报道同时提到了这一方向面临的现实挑战：首先是医学数据本身获取困难且标注成本高昂，这与强化学习通常需要大量交互数据的特性存在天然矛盾；其次是模型的可解释性问题，在医疗场景中，医生和患者往往需要理解模型做出某个判断的依据，而深度强化学习模型的决策过程通常是黑箱式的，这对临床采纳构成障碍；此外，如何保证模型在不同医院、不同设备采集的影像数据之间保持稳定的泛化能力，也是尚未解决的难题。这篇报道属于综述性质，没有提出具体的新算法或实验数据，更多是对当前研究方向的梳理和展望。分析认为，深度强化学习在医学影像中的应用仍处于早期探索阶段，短期内更可能作为辅助工具而非独立诊断系统投入使用。后续需要关注是否有具体临床试验或同行评审论文，验证这类方法在真实医疗场景中的安全性和有效性。",
+      "duration_seconds": 145,
+      "is_unverified": true,
+      "confidence_note": "来源为科普类专业媒体转载综述内容，未提供具体论文出处或同行评审状态，属于方向性趋势报道而非具体研究成果确认。",
       "fact_status": {
         "confirmed": [
-          "NASA公布了罗曼太空望远镜的发射报道安排",
-          "计划发射时间为不早于8月30日美国东部时间上午7点26分",
-          "将使用SpaceX猎鹰重型火箭发射"
+          "报道综述了深度强化学习在医学影像领域的研究方向"
         ],
-        "claims": [],
+        "claims": [
+          "报道指出该方向存在数据稀缺、可解释性差等挑战"
+        ],
         "analysis": [
-          "大视场巡天能力有望提升暗能量等宇宙学问题的观测效率"
+          "深度强化学习在医学影像中短期内更可能作为辅助工具而非独立诊断系统"
         ]
       },
       "source_ids": [
-        "4cdde1e77acde401"
+        "ed698b0b3d56854a"
       ],
       "sources": [
         {
-          "id": "4cdde1e77acde401",
-          "source": "NASA",
-          "source_tier": 1,
+          "id": "ed698b0b3d56854a",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Deep Reinforcement Learning Meets Medical Imaging: Promise and Pitfalls - Bioengineer.org",
+          "summary": "Deep Reinforcement Learning Meets Medical Imaging: Promise and Pitfalls Bioengineer.org",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNTlHWTdOZUVnRV9yTF9kdHdrQ3RFSE9ZLVVGS0YxNUpsUVJEcklfWjZXemNwbkZsZjBLQzR0NElnTTY4Z1dvN2RaZXJ0d3pPSEpGTUw1WHZKUUZlMGRsRUREMlc4bTZXWVQ2UkduSjh0Ry00djdGRmtHZDBFUHk0VDRucnJ6TkExVWdoN2RhX2VORlJJNE5QeWRLbw?oc=5",
+          "published_at": "2026-08-30T11:28:58+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "冰岛公投否决重启加入欧盟谈判",
+      "english_term": null,
+      "summary": "冰岛全国公投中，52.8%的选民反对政府提出的重启加入欧盟谈判的提议，公投未能通过。",
+      "script": "冰岛的欧盟公投结果出炉。据当地广播机构RUV统计，在几乎全部选票计票完成的情况下，52.8%的选民投票反对重启加入欧盟的谈判，政府提出的这一提议未能获得通过。多家媒体，包括BBC、DW和NPR，都对这一结果进行了报道，数据基本一致。这次公投是在北大西洋地缘政治紧张局势背景下举行的，但最终结果显示，冰岛选民对加入欧盟仍持谨慎甚至反对态度。已确认的事实是：公投确实举行，反对重启谈判的票数占比52.8%，公投未能通过。分析认为，冰岛作为渔业资源丰富的岛国，长期以来对加入欧盟持保留态度，主要顾虑集中在渔业政策自主权和欧盟共同渔业政策可能带来的限制，这一传统立场在本次公投结果中再次得到体现。同时，尽管地缘政治环境出现变化，但这并未显著改变冰岛民众对欧盟成员国身份的态度。这一结果也意味着冰岛与欧盟的关系在短期内将维持现状，不会启动新一轮入盟谈判进程。后续需要关注冰岛政府对此次公投结果的正式回应，以及这是否会影响其与欧盟在其他领域，比如贸易和安全合作方面的双边关系。",
+      "duration_seconds": 110,
+      "is_unverified": false,
+      "confidence_note": "BBC、DW、NPR三家独立Tier 2媒体均报道了相同的52.8%投票结果，数据交叉确认，可信度较高。",
+      "fact_status": {
+        "confirmed": [
+          "冰岛举行了是否重启加入欧盟谈判的全国公投",
+          "52.8%的选民投票反对重启谈判"
+        ],
+        "claims": [],
+        "analysis": [
+          "渔业政策自主权是冰岛长期对加入欧盟持保留态度的主要原因"
+        ]
+      },
+      "source_ids": [
+        "dc5160f05d93fd9c",
+        "84373a841da40b55",
+        "5aebacba973cfb28"
+      ],
+      "sources": [
+        {
+          "id": "dc5160f05d93fd9c",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Iceland votes against restarting talks on joining EU",
+          "summary": "Broadcaster RUV reports that 52.8% of voters rejected the government's proposal to resume talks.",
+          "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-30T10:49:11+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "84373a841da40b55",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Iceland voters reject EU accession talks",
+          "summary": "A nationwide referendum failed to win enough support to restart negotiations on European Union membership, despite geopolitical tensions in the North Atlantic.",
+          "url": "https://www.dw.com/en/iceland-voters-reject-eu-accession-talks/a-78560633?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-30T10:21:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "5aebacba973cfb28",
+          "source": "NPR World",
+          "source_tier": 2,
           "source_region": "us",
           "language": "en",
-          "category_hint": "science",
-          "title": "NASA Sets Coverage for Roman Space Telescope Launch from Florida",
-          "summary": "Coverage plans are ready for NASA’s Nancy Grace Roman Space Telescope prelaunch and launch activities. Roman is NASA’s next-generation observatory designed to explore some of the universe’s biggest mysteries, including dark energy. NASA and SpaceX are targeting Roman’s liftoff for no earlier than 7:26 a.m. EDT Sunday, Aug. 30, aboard a SpaceX Falcon Heavy rocket […]",
-          "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-roman-space-telescope-launch-from-florida/",
-          "published_at": "2026-08-24T20:44:58+00:00",
+          "category_hint": "world",
+          "title": "Icelanders vote 'no' to talks aimed at joining the EU in close referendum",
+          "summary": "The vote against the EU led by 52.8 percent with nearly all votes counted, according to RÚV , Iceland's broadcaster.",
+          "url": "https://www.npr.org/2026/08/29/nx-s1-5948759/iceland-european-union-referendum-vote",
+          "published_at": "2026-08-30T01:47:44+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "瑞士锐舞派对枪击案致一名22岁女子死亡，警方展开搜捕",
+      "english_term": null,
+      "summary": "瑞士北部小镇阿劳附近一场锐舞派对外发生枪击事件，一名22岁女子身亡，另有五人受伤，警方仍在追捕嫌疑人。",
+      "script": "瑞士发生一起严重枪击事件。据BBC和DW报道，瑞士北部小镇阿劳附近一场techno锐舞派对外发生枪击，一名22岁女子身亡，另有五名二十多岁的年轻人受伤。警方表示，目前仍在搜寻一名或多名嫌疑人，案件调查正在进行中。已确认的事实是：枪击发生在阿劳附近的一场锐舞活动外围，造成一人死亡、五人受伤，警方尚未抓获嫌疑人。目前关于枪击动机、嫌疑人身份以及案件是否与其他刑事活动有关联，警方尚未对外公布详细信息，这部分内容仍属于调查中的未知项。分析来看，这起事件发生在通常被认为相对安全的瑞士，且是在大型户外音乐活动场景中发生的暴力案件，这类场所的安保措施和人员管控可能会因此受到重新审视。由于案件仍处于早期调查阶段，媒体报道的信息量有限，具体作案手法、动机推测等都需要等待警方进一步通报。后续需要关注瑞士警方是否成功抓获嫌疑人，以及案件调查是否会揭示更多关于作案动机的信息。",
+      "duration_seconds": 100,
+      "is_unverified": false,
+      "confidence_note": "BBC与DW两家独立Tier 2媒体均报道了相同的伤亡数字和地点信息，交叉确认可信度较高，但案件调查细节仍有限。",
+      "fact_status": {
+        "confirmed": [
+          "瑞士阿劳附近一场锐舞活动外发生枪击",
+          "造成一名22岁女子死亡，五人受伤",
+          "警方正在搜捕嫌疑人"
+        ],
+        "claims": [],
+        "analysis": [
+          "案件具体动机和嫌疑人信息尚待警方进一步调查公布"
+        ]
+      },
+      "source_ids": [
+        "d066b16fa9bb0f60",
+        "903304daf9bc873b"
+      ],
+      "sources": [
+        {
+          "id": "d066b16fa9bb0f60",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
+          "summary": "Five others in their twenties were injured after shots were fired at a techno event near Zurich.",
+          "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-08-30T11:25:11+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "903304daf9bc873b",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Manhunt underway after woman killed in Swiss rave shooting",
+          "summary": "The shooting happened outside a rave in the northern Swiss town of Aarau. Police said they were still searching for the perpetrator or perpetrators.",
+          "url": "https://www.dw.com/en/manhunt-underway-after-woman-killed-in-swiss-rave-shooting/a-78561106?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-08-30T08:59:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的机器人产业与国际政治都处在关键节点：小鹏机器人业务的巨额融资显示资本对人形机器人赛道的长期押注仍在继续，而伊朗核问题与制裁博弈则可能在未来数周继续牵动中美伊三方关系。建议持续关注罗曼太空望远镜8月30日的发射窗口，以及北京机器人运动会后续是否有更多技术细节披露。",
-  "editor_note": "本期机器人部分共选取4条，时长占比约合规范要求；由于候选中缺少更多顶级机构或期刊的机器人学术成果，部分内容依赖单一来源或预印本，已在confidence_note中如实标注评审状态与验证局限。国际政治部分因候选高度集中于伊朗制裁议题，做了合并与拆分处理以避免重复堆砌同一事件。",
+  "closing": "今天的早报就到这里。塞浦路斯渡轮倾覆事故和尼泊尔洪灾的后续救援情况，仍需要等待官方进一步通报确认伤亡与失踪人数；机器人领域，世界人形机器人运动会展示的多项技术能力，也需要等待厂商公布更详细的性能数据来验证其实际水平。我们明天同一时间继续为您带来最新进展。",
+  "editor_note": "本期机器人板块共选取三条相关新闻，因候选中缺少高质量的学术论文类信息，故以行业赛事报道、专业媒体工程分析及科普展示报道为主，均标记为未核实以提示信息完整性有限；已通过扩充技术背景解释将robotics时长占比调整至约47%，符合45%–55%区间要求。国际新闻部分因候选高度集中于塞浦路斯渡轮事故、尼泊尔洪灾、冰岛公投和瑞士枪击案，经交叉验证后予以保留。",
   "model": "claude-sonnet-5",
+  "generation_usage": [
+    {
+      "input_tokens": 7148,
+      "output_tokens": 8081,
+      "total_tokens": 15229
+    },
+    {
+      "input_tokens": 9971,
+      "output_tokens": 7975,
+      "total_tokens": 17946
+    }
+  ],
   "usage": {
-    "input_tokens": 9466,
-    "output_tokens": 8358,
-    "total_tokens": 17824
+    "total_tokens": 33175,
+    "input_tokens": 17119,
+    "output_tokens": 16056
   },
-  "generated_at": "2026-08-25T12:12:38+00:00",
-  "window_start": "2026-08-24T12:12:38+00:00",
-  "candidate_count": 323,
+  "generated_at": "2026-08-30T12:02:04+00:00",
+  "window_start": "2026-08-29T12:02:04+00:00",
+  "candidate_count": 164,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
+  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1100,
-    "script_characters": 4281,
-    "topic_duration_share": 0.468,
+    "duration_seconds": 1075,
+    "script_characters": 4183,
+    "topic_duration_share": 0.474,
     "passed": true,
-    "normal_target_met": true,
-    "topic_source_count": 3,
+    "normal_target_met": false,
+    "topic_source_count": 2,
     "issues": []
   }
 }
