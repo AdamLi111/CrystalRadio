@@ -1,65 +1,305 @@
 {
-  "title": "晶球电台早报：塞浦路斯渡轮倾覆、尼泊尔洪灾持续，世界人形机器人运动会展示AI新突破",
-  "subtitle": "国际救援行动多线展开，机器人产业与学术进展聚焦群体智能与足式运动控制",
+  "title": "晶球电台早报：机器人产业上市潮与学术新论文，全球局势持续紧张",
+  "subtitle": "Mech-Mind港交所上市、人形机器人触觉基座模型论文发布，伊朗美国冲突升级、欧盟就无人机袭击召见俄大使",
   "highlights": [
-    "塞浦路斯附近渡轮倾覆，约270人待救，救援仍在进行",
-    "尼泊尔洪灾后续：预警新一轮洪水风险，救援物资输送受阻",
-    "世界人形机器人运动会展示多项AI与运动控制技术，微型机器人研究登上IEEE Spectrum",
-    "群体机器人的电力管理架构成为学界与产业界关注焦点"
+    "机器人视觉大脑公司Mech-Mind Robotics在港交所上市，工业机器人感知赛道再迎资本关注",
+    "arXiv新论文探讨触觉基础模型与人形机器人协同语音手势生成，具身智能感知与交互研究持续推进",
+    "伊朗与美国在霍尔木兹海峡地区互相打击升级，一场婚礼遭美军空袭致人员死亡引发各方争议",
+    "欧盟因莱比锡无人机袭击未遂事件召见俄罗斯大使，指控其具备国家支持恐怖主义特征"
   ],
   "stories": [
     {
-      "category": "world",
-      "title": "北塞浦路斯附近渡轮倾覆，约270人在船上，救援行动持续",
-      "english_term": null,
-      "summary": "一艘载有约270人的渡轮在塞浦路斯北部海域倾覆，当地已展开大规模搜救行动，目前已有约159人获救。",
-      "script": "今天要关注的第一条重要新闻来自地中海。据当地媒体报道，一艘载有约270人的渡轮在塞浦路斯北部海域发生倾覆事故。当地市长表示，目前已有159名乘客获救，搜救行动仍在紧张进行中。多家国际媒体，包括BBC和DW都对此事进行了报道，但目前关于事故原因、船只归属以及具体遇难人数，官方尚未给出完整说明。已确认的事实是：船只倾覆发生在塞浦路斯北部海域，涉及人数规模较大，救援行动已经启动，部分乘客已被成功救起。各方消息目前仍主要依赖当地媒体转述，具体细节包括事故起因、船只是否超载、乘客国籍构成等信息暂未得到权威确认。从地中海海上事故的一般规律看，此类大规模人员倾覆事件往往与船只超载、海况突变或非正规航运渠道有关，但在没有官方调查结论之前，不宜做过多推测。后续需要等待塞浦路斯当局或国际海事组织发布正式的事故调查通报，以确认具体遇难与获救人数，以及事故责任归属。这起事件也再次将地中海地区海上人员运输安全问题带入公众视野。",
-      "duration_seconds": 105,
-      "is_unverified": true,
-      "confidence_note": "多家Tier 2媒体（BBC、DW）报道，但均基于当地媒体转述，具体伤亡数字和事故原因尚未获得官方最终确认，属于持续发展中的突发事件。",
+      "category": "robotics",
+      "title": "工业机器人感知公司Mech-Mind在港交所上市",
+      "english_term": "Robobrain（机器人大脑，指为工业机器人提供三维视觉感知与决策控制的软硬件系统）",
+      "summary": "被称为全球领先“机器人大脑”供应商的Mech-Mind Robotics正式在香港交易所挂牌上市。这是工业视觉感知赛道年内又一起重要资本事件。",
+      "script": "先来看一条产业资本消息。总部在中国的机器人视觉与感知公司Mech-Mind，中文名梅卡曼德机器人，已经正式在香港交易所挂牌上市。公司被行业媒体称为全球领先的Robobrain，也就是机器人大脑供应商，主要产品是给工业机械臂配套的三维视觉系统和智能决策软件，帮助原本只能做固定轨迹重复动作的机械臂，具备识别、定位、抓取不规则物体的能力，广泛用在物流分拣、零件装配、仓储上下料等场景。这类公司的技术核心是把结构光或深度相机采集的三维点云数据，结合深度学习模型做物体检测和抓取点估计，再输出给机械臂的运动控制系统，本质上是给传统工业机器人加上一层感知与认知能力，让它们能适应非结构化环境。这次上市值得关注的地方在于，过去几年工业机器人赛道的资本更多流向本体制造商，比如做机械臂、做AGV移动机器人的公司，而专注做感知大脑这种软件加中间层硬件的公司相对少见独立上市案例。这说明资本市场开始认可，机器人产业链里除了硬件本体，视觉感知和决策这一层同样具备独立商业价值，某种程度上类似于智能手机产业链里芯片和操作系统供应商的角色。从行业背景看，这也呼应了行业里越来越多机器人公司使用“物理AI”这个说法，用来描述让机器人在真实物理世界里理解环境、自主决策的这套技术栈。后续需要关注这家公司上市后披露的具体财务数据、客户结构，以及它在人形机器人感知系统上是否有进一步布局，这些细节目前候选信息中还没有披露。",
+      "duration_seconds": 155,
+      "is_unverified": false,
+      "confidence_note": "基于Macau Business报道的企业上市事件，属于公开市场信息，但候选来源层级为Tier 3，建议关注后续港交所官方公告以交叉确认细节。",
       "fact_status": {
         "confirmed": [
-          "一艘载约270人的渡轮在塞浦路斯北部海域倾覆",
-          "已有约159名乘客获救",
-          "搜救行动正在进行"
+          "Mech-Mind Robotics在香港交易所上市"
         ],
         "claims": [
-          "当地市长提供的获救人数为初步统计"
+          "该公司被称为全球领先的Robobrain机器人大脑供应商"
         ],
         "analysis": [
-          "事故最终伤亡规模和原因仍待官方调查结果"
+          "感知与决策软件层公司独立上市，反映资本对机器人产业链细分环节价值的认可"
         ]
       },
       "source_ids": [
-        "6cd74a1c7a748081",
-        "9bd1d34a1d6ea843"
+        "e1715b7f386cff9d"
       ],
       "sources": [
         {
-          "id": "6cd74a1c7a748081",
-          "source": "BBC World",
+          "id": "e1715b7f386cff9d",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Global-Leading Robobrain Firm Mech-Mind Robotics Lists on Hong Kong Stock Exchange - Macau Business",
+          "summary": "Global-Leading Robobrain Firm Mech-Mind Robotics Lists on Hong Kong Stock Exchange Macau Business",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNnZOX3JidVFXT1JKMkplbEhtM2k0N1phNzNydXA4RjZsUjhkLVJFdVJ4TmYyaXhJM2xhWlJqNm81R0drRnhLVVRjUHJwb2I4dkc0ZFgxemdKb0RvcVM0WkZLc3pfVE9MSHBDRUYyelRXLVBjMUx3a2dPN2c1YTIwdlVYc3RNd3g1Q3NVcjhrMFItbnd5SVRnQmZnekpJdWFrUlJmdEg3ZVRja2lTaEx4Tg?oc=5",
+          "published_at": "2026-09-02T11:20:32+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "触觉基础模型论文：让机器人拥有通用的“手感”",
+      "english_term": "Haptic Foundation Model（触觉基础模型，指像语言大模型一样，用海量多样触觉数据训练出可迁移到不同任务和硬件的通用触觉感知模型）",
+      "summary": "一篇新论文系统探讨触觉基础模型的潜力与瓶颈，指出触觉传感器硬件差异大、数据采集成本高，是限制该方向发展的核心障碍。",
+      "script": "接下来是一篇学术论文，主题是触觉基础模型。基础模型这个词大家在语言和视觉领域已经很熟悉了，就是用海量数据预训练出一个通用模型，再迁移到各种下游任务上。这篇论文讨论的是，能不能把这套思路搬到触觉感知上。论文提出的核心问题是，尽管语言和视觉领域的基础模型已经非常成功，具身智能，也就是让机器人在真实物理世界里感知和行动的能力，却因为缺乏通用的触觉感知能力而受限。这个限制对消费电子其实影响很大，手机、可穿戴设备、VR控制器、家用机器人、健康监测设备，这些都需要安全而具备适应性的物理接触能力，而触觉恰恰是判断接触是否安全、力度是否合适的关键信息来源。论文指出触觉这个模态之所以落后于视觉和语言，主要卡在两个地方，一个是硬件异构性，不同触觉传感器的原理、分辨率、输出格式差异很大，不像摄像头输出的图像格式相对统一，这导致很难像文本和图片那样直接汇聚成统一的大规模数据集；另一个是数据采集必须依赖主动的物理交互，你没法像爬取网页文本那样批量爬取触觉数据，每一份触觉数据背后都对应着一次真实的物理接触过程，采集成本高、效率低。这篇论文更多是提出问题和梳理现状，指出了当前触觉基础模型研究的瓶颈所在，为后续工作提供方向性讨论，具体的模型架构和实验结果论文摘要中没有展开。需要说明的是，这是一篇新发布的预印本，还没有经过同行评审，实验的规模和结论都有待后续验证。这类工作如果能取得突破，对家用机器人做精细抓取、对可穿戴设备做力反馈交互，都会有直接影响。后续需要关注该论文是否有配套的具体模型和数据集发布，以及是否会进入同行评审阶段。",
+      "duration_seconds": 170,
+      "is_unverified": true,
+      "confidence_note": "该内容为arXiv预印本论文摘要，未经同行评审，仅代表作者团队的问题梳理和研究方向，具体方法与实验结果尚不明确。",
+      "fact_status": {
+        "confirmed": [
+          "论文已在arXiv发布，主题为触觉基础模型的潜力探讨"
+        ],
+        "claims": [
+          "作者认为硬件异构性和主动数据采集成本是触觉基础模型发展的核心瓶颈"
+        ],
+        "analysis": [
+          "若该方向取得突破，将对家用机器人和可穿戴设备的物理交互能力产生直接影响"
+        ]
+      },
+      "source_ids": [
+        "9fb4e47ebb6a38d7"
+      ],
+      "sources": [
+        {
+          "id": "9fb4e47ebb6a38d7",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "The Potential of Haptic Foundation Models",
+          "summary": "arXiv:2608.28664v1 Announce Type: new Abstract: Despite the success of foundation models in language and vision, their expansion into embodied AI is bottlenecked by a lack of generalized touch sensing. This limitation is especially relevant to consumer electronics, where smartphones, wearables, VR controllers, home robots, and health monitoring devices require safe and adaptive physical interaction. Constrained by hardware heterogeneity and the necessity of active physical data collection, current haptic models remain rigidly task-specific. To overcome these limitations, this article explores the transformative potential and developmental trajectory of Haptic Foundation Models (HFMs). We detail the paradigm shift required to transition from passive Large Language Models and Vision Language Models into active HFMs across four core dimensions: action coupling, physical dynamical representation space, continuous time-series data granularity, and action-conditioned future state prediction. Furthermore, we synthesize existing large-scale tactile datasets and benchmark UniTouch, AnyTouch, T3, and Sparsh on TacBench for force estimation, slip detection, and relative pose estimation.",
+          "url": "https://arxiv.org/abs/2608.28664",
+          "published_at": "2026-09-02T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "人形机器人协同语音手势生成新方法RoboGesture",
+      "english_term": "Co-Speech Gesture Generation（协同语音手势生成，指让机器人根据说话内容自动生成同步且语义相关的肢体动作）",
+      "summary": "新论文RoboGesture提出让人形机器人在回应语音时生成同步且语义合理的手势动作，试图解决现有方法容易忽视音频信号、只依赖运动惯性生成动作的问题。",
+      "script": "再看一篇和人形机器人交互体验相关的论文，叫RoboGesture。这篇论文想解决的问题是，怎么让人形机器人在回应人类说话时，做出和语音同步、并且语义上说得通的手势动作，这是实现自然人机交互的一个基础能力，因为人类交流中手势和语言本身就是配合在一起的，光有语音没有恰当手势，机器人的表现会显得僵硬和不自然。论文指出这个任务面临三个关键障碍。第一是语义丰富的数据集稀缺，也就是同时标注了语音内容和对应手势语义的数据非常少，训练素材有限。第二个问题论文用了一个很形象的说法，叫模态遮蔽，指的是模型在训练过程中容易忽视音频这个输入信号，反而更依赖运动本身的惯性规律去生成动作，也就是说模型学到的是怎么让动作看起来连贯顺滑，而不是真正理解语音内容再匹配对应手势，这样生成出来的手势可能动作流畅但和说话内容脱节。第三个是仿真到现实的差距，在仿真环境里训练出的动作策略，搬到真实机器人身上执行时，需要考虑物理安全性，比如动作幅度、力度是否会对周围的人造成风险。RoboGesture针对这些问题提出了一个以机器人为中心的协同设计框架，论文摘要中没有进一步展开具体的模型结构和实验数据，属于刚发布的新研究。这个方向如果做好了，会直接影响服务型人形机器人在客服、陪伴、展会讲解等场景里的交互体验，让机器人不只是会说话，还能配合恰当的肢体语言。这篇论文同样是预印本，尚未经过同行评审，具体效果需要等待后续更完整的实验数据和评测结果。",
+      "duration_seconds": 155,
+      "is_unverified": true,
+      "confidence_note": "该内容为arXiv预印本摘要，未经同行评审，具体模型结构、实验对比和量化结果在摘要中未详细披露。",
+      "fact_status": {
+        "confirmed": [
+          "论文RoboGesture已在arXiv发布，聚焦人形机器人协同语音手势生成任务"
+        ],
+        "claims": [
+          "作者指出模态遮蔽和仿真到现实差距是该任务的关键障碍"
+        ],
+        "analysis": [
+          "该方向的进展将直接影响服务型人形机器人在客服与陪伴场景中的交互自然度"
+        ]
+      },
+      "source_ids": [
+        "debfc54390262368"
+      ],
+      "sources": [
+        {
+          "id": "debfc54390262368",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction",
+          "summary": "arXiv:2608.28693v1 Announce Type: new Abstract: Enabling humanoid robots to respond to human speech with synchronized and semantically meaningful gestures is fundamental to natural human-robot interaction. However, this task faces three critical barriers: the scarcity of semantically rich datasets, the \"modality eclipse\" where models ignore audio cues in favor of kinematic inertia, and the sim-to-real gap regarding physical safety. We propose RoboGesture, a robot-centric framework that co-designs data, modeling, and control to power a complete interactive human-humanoid system in which the robot listens, responds, and gestures in real time. We first establish the RoboGesture dataset featuring over 300 gesture categories and develop an automated pipeline to synthesize large-scale collision-free, robot-specific audio-motion pairs. Our architecture features a Hierarchical Semantic-Acoustic Aligner that extracts multi-granular prosodic and semantic cues directly from raw audio tokens. These cues drive a Streaming Conditional Motion Generator based on a diffusion transformer with conditional flow matching. To ensure high responsiveness, we introduce Anti-Inertia CFG Masking, which preve",
+          "url": "https://arxiv.org/abs/2608.28693",
+          "published_at": "2026-09-02T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "美国限制外国制造机器人，产业界担忧供应链风险",
+      "english_term": null,
+      "summary": "自动化仓储机器人公司Exotec警告，美国针对外国制造机器人的限制措施应该引发行业对更广泛供应链问题的关注。",
+      "script": "再来看一条产业政策相关的消息。自动化仓储机器人公司Exotec公开表态，认为美国近期针对外国制造机器人产品的限制措施，不应该被行业当作孤立事件看待，而是应该敲响一个更广泛的警钟。这类限制措施通常涉及对进口机器人硬件或核心零部件设置更高的审查门槛，出发点往往和供应链安全、数据安全或者产业保护有关。Exotec作为一家总部在欧洲、主要产品是仓储物流自动化机器人的公司，其表态背后反映的是整个行业对贸易政策不确定性的担忧。机器人产业的供应链其实高度全球化，一台仓储移动机器人或者机械臂，它的电机、减速器、传感器、芯片可能来自不同国家，一旦某个环节因为贸易限制被卡住，会直接影响整机厂商的交付周期和成本结构。这也是为什么行业媒体用了警钟这个说法，意思是不要只把这次限制当成针对某一类产品的个案，而应该看到这背后可能蔓延到整个机器人产业链的系统性风险。这条消息目前候选信息里只有一家行业媒体的简短报道，具体是哪一类机器人产品受到限制、限制的具体条款是什么，候选信息里没有展开，需要更多信源确认细节。从行业观察角度看，这类贸易政策的走向，会直接影响到机器人公司在选择供应商和生产基地时的策略，尤其是那些依赖跨国供应链的中小型机器人企业。后续需要关注美方限制措施的具体条款是否公开，以及其他机器人厂商对此的进一步表态。",
+      "duration_seconds": 140,
+      "is_unverified": true,
+      "confidence_note": "来源为Tier 3行业媒体单一信源，具体限制措施的条款和范围未在候选信息中详细披露，需要更多独立信源交叉确认。",
+      "fact_status": {
+        "confirmed": [
+          "Exotec公司公开就美国限制外国制造机器人的措施发表担忧"
+        ],
+        "claims": [
+          "Exotec认为该限制措施反映了更广泛的供应链风险，行业应予以关注"
+        ],
+        "analysis": [
+          "机器人产业链高度全球化，贸易限制措施可能对依赖跨国供应链的企业造成连锁影响"
+        ]
+      },
+      "source_ids": [
+        "bf1284c59c36a3ab"
+      ],
+      "sources": [
+        {
+          "id": "bf1284c59c36a3ab",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "US crackdown on foreign-made robotics should sound broader alarm, says Exotec - facilitiesmanagement-now.com",
+          "summary": "US crackdown on foreign-made robotics should sound broader alarm, says Exotec facilitiesmanagement-now.com",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRFZoZjRFbmJTWTFVWnd0V01NNDFhLXAzdXhoeEtxUmNrbE81T2JNUlh0QnY4V0g3czhvX3B0T1VjMEN2bTFoOC0yRnJSYzdXaUxtVFZ0aEFvMjVWZzk2UUFtTGI2NDA0a1ZTUkF2Q2F0RFEzNEFCdjd1SDJKQ1hiSkJWX0lRS0VOdEVGRlJmNlEzUjhaamZtSGFhY2RWUnlPREdDMk5wektiNnhfWE1IYWtRU21DQVNMWkM5dFd6b2s1a29pX18wRlpZOA?oc=5",
+          "published_at": "2026-09-02T11:43:26+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "title": "自动驾驶策略中的交通规则理解新方法RedLight-VLA",
+      "english_term": "VLA（Vision-Language-Action，视觉-语言-行动模型，一种直接把视觉输入和语言指令映射为机器人或车辆动作输出的端到端模型）",
+      "summary": "新论文RedLight-VLA针对自动驾驶策略在红绿灯路口等规则性场景表现不佳的问题，提出一种新的训练目标，增强模型对交通信号状态的显式监督。",
+      "script": "接下来这篇论文关注自动驾驶领域一个具体但很关键的问题。现在流行的自动驾驶策略很多采用行为克隆的方式训练视觉语言行动模型，简称VLA，也就是直接从人类专家的驾驶轨迹中学习，把摄像头看到的画面和导航指令映射成方向盘、油门刹车这样的具体操作。论文指出这类模型在有明确规则约束的路口场景，比如遇到红灯要刹车、遇到绿灯要正常通过这类场景中，表现并不理想。原因在哪呢，论文分析说，刹车和起步这类动作样本，在整体训练数据里占比很小，对整体轨迹损失的贡献微乎其微，模型优化过程中很容易把注意力放在占多数的正常直行、变道这些常见样本上，而忽视了红绿灯状态和停止线位置这些对安全至关重要但出现频率较低的信息。换句话说，模型的感知表征里，缺乏对交通信号灯状态和停止线这种规则性信息的显式监督，导致它学会了怎么开车，但没有真正学会怎么守规矩。RedLight-VLA提出的解决办法，是设计一种新的训练目标，利用专家未来轨迹和自动生成的感知标注，加强模型对红绿灯和停止线状态的学习，且不需要额外增加人工标注成本。这项工作的意义在于，它指出了当前端到端自动驾驶模型一个容易被忽视的短板，就是稀有但规则明确的场景，恰恰是安全性要求最高的场景，如果模型学习机制上系统性地忽视这些场景，实际部署时的风险不容小视。这项研究同样是刚发布的预印本，具体的实验数据集、对比基线和量化改善幅度还需要看完整论文，也需要等待同行评审的结果。",
+      "duration_seconds": 155,
+      "is_unverified": true,
+      "confidence_note": "该内容为arXiv预印本摘要，未经同行评审，具体实验规模和量化结果尚未在摘要中完整披露。",
+      "fact_status": {
+        "confirmed": [
+          "论文RedLight-VLA已在arXiv发布，聚焦自动驾驶策略在信号灯路口的规则遵守问题"
+        ],
+        "claims": [
+          "作者认为训练数据中刹车起步样本占比过低导致模型系统性忽视规则性场景"
+        ],
+        "analysis": [
+          "规则明确但样本稀少的场景往往对安全性要求最高，该问题若未解决可能带来实际部署风险"
+        ]
+      },
+      "source_ids": [
+        "b613d07e51b071f3"
+      ],
+      "sources": [
+        {
+          "id": "b613d07e51b071f3",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "RedLight-VLA: Models for traffic-rule grounding and behavioral emphasis in driving policies",
+          "summary": "arXiv:2608.28656v1 Announce Type: new Abstract: Behavior-cloned Vision-Language-Action (VLA) driving policies struggle with rare rule-governed maneuvers at signalized intersections. Braking and launching examples contribute little to averaged trajectory loss, while fused representations lack explicit supervision for the governing traffic-light and stop-line state. We present RedLight-VLA, a training objective that uses expert futures and automatically generated perception targets without additional manual rule annotation. First, trajectory-derived behavioral reweighting (BR) emphasizes rare deceleration and acceleration using rotation-invariant longitudinal dynamics and a scale-preserving reduction that exactly recovers the baseline when disabled. Second, parallel auxiliary (AUX) heads ground traffic-light and stop-line state in continuous post-fusion rule tokens, without autoregressive language generation or changes to the trajectory decoder. We evaluate on a curated set of 20 s sequences with a 5 s prediction horizon. Controlled variants share the same backbone, training data, decoder, and evaluation population. Against an otherwise identical VLA baseline, RedLight-VLA reduces re",
+          "url": "https://arxiv.org/abs/2608.28656",
+          "published_at": "2026-09-02T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "伊朗与美国在霍尔木兹海峡地区互相打击升级",
+      "english_term": null,
+      "summary": "美军对伊朗锡里克地区一处婚礼场所和电信塔发动空袭，造成人员死亡，事件发生在伊朗与美国围绕霍尔木兹海峡的一系列相互打击背景下。",
+      "script": "国际局势方面，伊朗和美国之间的紧张对峙进一步升级。据报道，美军对伊朗锡里克地区的一处居民建筑和一座电信塔发动了空袭，而据当地说法，这处居民建筑当时正在举行婚礼，空袭造成了人员死亡。这次打击是在伊朗和美国围绕霍尔木兹海峡持续发生相互打击的背景下发生的。霍尔木兹海峡是全球最重要的石油运输通道之一，波斯湾大部分原油出口都要经过这里，任何在这一区域发生的军事冲突，都会立刻牵动全球能源市场的神经。已确认的事实是，美方确实对伊朗锡里克地区实施了空袭，造成了平民建筑和通信设施受损，且有人员死亡；这次打击发生在双方近期围绕霍尔木兹海峡地区互有攻击行动的更大背景之中。至于这次空袭的具体军事目标是什么、为什么会打在一处正在举行婚礼的居民建筑上，目前各方说法存在分歧，伊朗方面强调这是对平民场所的打击，美方的官方说法和军事目标解释在候选信息中并未完整呈现。分析层面看，这类事件一旦被证实造成大量平民伤亡，往往会成为冲突进一步升级的导火索，也会让国际社会对美伊军事对抗的走向更加担忧。与此相关的另一条消息提到，美国正在大量购入委内瑞拉原油，但分析人士指出，委内瑞拉原油本身开采和提炼难度较高，很难真正替代因霍尔木兹海峡局势而受阻的原油供应，这也从侧面说明了当前中东地区军事紧张对全球能源格局的现实冲击。后续需要关注美方是否会对这次空袭的具体目标和情况作出正式说明，以及伊朗方面是否会采取进一步反应。",
+      "duration_seconds": 150,
+      "is_unverified": false,
+      "confidence_note": "空袭事件由Al Jazeera报道，涉及双方各自立场的具体军事解释尚不完整，已按已确认事实与各方主张分开处理。",
+      "fact_status": {
+        "confirmed": [
+          "美军对伊朗锡里克地区一处居民建筑和电信塔发动空袭，造成人员死亡",
+          "该事件发生在美伊围绕霍尔木兹海峡持续互相打击的背景下"
+        ],
+        "claims": [
+          "当地说法称遭打击的建筑当时正在举行婚礼"
+        ],
+        "analysis": [
+          "若平民伤亡情况被进一步证实，可能加剧美伊冲突升级风险，并对全球能源市场造成连锁影响"
+        ]
+      },
+      "source_ids": [
+        "df9015461490e8a8",
+        "b3b65cebdef52d50"
+      ],
+      "sources": [
+        {
+          "id": "df9015461490e8a8",
+          "source": "Al Jazeera",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Boat carrying some 270 people capsizes off northern Cyprus, local media report",
-          "summary": "The local mayor says 159 passengers have been reached so far, with a rescue operation under way.",
-          "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-30T11:55:48+00:00",
+          "title": "What do we know about the fatal US bombing of a wedding in Iran’s Sirik?",
+          "summary": "A residential building and a telecom tower were struck overnight, as Iran and the US launched more strikes over Hormuz.",
+          "url": "https://www.aljazeera.com/news/2026/9/2/what-do-we-know-about-the-fatal-us-bombing-of-a-wedding-in-irans-sirik?traffic_source=rss",
+          "published_at": "2026-09-02T10:57:16+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "9bd1d34a1d6ea843",
+          "id": "b3b65cebdef52d50",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "The US is gobbling up Venezuelan oil, but will it lower fuel prices?",
+          "summary": "Analysts say Venezuelan crude is hard to extract and refine, and likely can't replace oil stuck in the Strait of Hormuz.",
+          "url": "https://www.aljazeera.com/news/2026/9/2/the-us-is-gobbling-up-venezuelan-oil-but-will-it-lower-fuel-prices?traffic_source=rss",
+          "published_at": "2026-09-02T11:43:31+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "欧盟因莱比锡无人机袭击未遂事件召见俄罗斯大使",
+      "english_term": null,
+      "summary": "欧盟外交政策负责人卡拉斯表示，德国莱比锡发生的一起无人机袭击未遂事件具备国家支持恐怖主义的所有特征，欧盟与法国分别召见俄罗斯使节。",
+      "script": "欧洲方面的一条重要消息，欧盟外交政策负责人卡拉斯就德国莱比锡发生的一起无人机袭击未遂事件表态，称这次未遂袭击具备国家支持恐怖主义的所有特征，用词非常严厉。据此欧盟方面决定召见俄罗斯使节，法国也宣布将采取类似的召见行动。已确认的事实是，莱比锡确实发生了一起被定性为无人机袭击未遂的事件，欧盟和法国已经或计划召见俄罗斯外交代表。欧盟方面的主张是，这次事件带有国家支持恐怖主义的性质，暗指幕后可能与俄罗斯有关，但候选信息中没有提供关于袭击具体细节、无人机来源、袭击目标等更多技术层面的信息，俄罗斯方面对此的回应在候选信息中也未见披露。这类事件如果放在更大背景下看，近期欧洲多国已经多次报告边境或关键设施附近出现不明无人机活动，引发了欧洲国家对领空安全和关键基础设施防护的普遍担忧，欧盟这次用如此严厉的措辞并且采取外交层面的实质动作，说明其对这类事件的容忍度正在明显下降。分析来看，无论最终调查结果如何，这次事件都会进一步加剧欧盟与俄罗斯之间已经十分紧张的外交关系，也可能推动欧洲国家在无人机探测和拦截技术上加大投入。后续需要关注俄罗斯方面的正式回应，以及德国官方调查对袭击事件性质和责任方的进一步认定。",
+      "duration_seconds": 130,
+      "is_unverified": false,
+      "confidence_note": "基于DW的报道，欧盟高层表态为一手信息，但袭击事件的技术细节和责任认定仍待德国官方调查结果确认。",
+      "fact_status": {
+        "confirmed": [
+          "德国莱比锡发生一起无人机袭击未遂事件",
+          "欧盟宣布召见俄罗斯使节，法国宣布采取类似行动"
+        ],
+        "claims": [
+          "欧盟外交政策负责人卡拉斯称该事件具备国家支持恐怖主义的所有特征"
+        ],
+        "analysis": [
+          "该事件可能进一步加剧欧盟与俄罗斯的外交紧张，并推动欧洲加大无人机防御技术投入"
+        ]
+      },
+      "source_ids": [
+        "55fff7e125213a2a"
+      ],
+      "sources": [
+        {
+          "id": "55fff7e125213a2a",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Ferry carrying over 260 people capsizes off Cyprus: reports",
-          "summary": "A ‌rescue operation has been launched after a passenger ⁠boat carrying more than 260 people capsized off ‌northern Cyprus, media reported. ‌",
-          "url": "https://www.dw.com/en/ferry-carrying-over-260-people-capsizes-off-cyprus-reports/a-78562769?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-30T11:32:00+00:00",
+          "title": "EU summons Russian envoy over failed Leipzig drone attack",
+          "summary": "The EU's foreign policy chief Kaja Kallas said the attempted attack had \"all the hallmarks of state-sponsored terrorism.\" She said the EU was summoning a Russian envoy, with France announcing a similar step.",
+          "url": "https://www.dw.com/en/eu-summons-russian-envoy-over-failed-leipzig-drone-attack/a-78687280?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-09-02T08:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -67,222 +307,39 @@
     },
     {
       "category": "world",
-      "title": "尼泊尔洪灾持续发酵，当局警告新一轮洪水风险",
+      "title": "加沙停火后仍有逾900人死亡，各方数据引发关注",
       "english_term": null,
-      "summary": "尼泊尔遭遇的喜马拉雅山区洪灾造成大量人员失踪，当局警告博特科西河水位上升可能引发新一轮洪水，救援物资运送因道路阻断而困难重重。",
-      "script": "尼泊尔的洪灾灾情仍在持续。据NPR和相关报道，尼泊尔当局在周日再次发出警告，博特科西河水位上升，可能引发新一轮洪水，呼吁受灾地区居民保持高度警惕。此前的喜马拉雅山区洪灾已经造成大量人员失踪，救援队伍正在尼泊尔和西藏交界地区的高山峡谷和危险地形中艰难搜寻幸存者。世界宣明会的工作人员德鲁巴·古尔马昌在接受采访时提到，道路阻断和季风天气正在严重影响食物、庇护所和应急卫生物资的运送效率，这使得受灾社区的处境更加艰难。已确认的事实是：此次洪灾发生在喜马拉雅山区，波及尼泊尔与西藏部分地区，目前仍有大量人员下落不明，救援工作因地形和天气条件受到严重制约。分析认为，季风季节叠加高海拔复杂地形，是此次救援行动推进缓慢的主要原因，而水位持续变化也增加了次生灾害的风险。这一灾情也反映出南亚山区在极端天气事件面前基础设施韧性不足的长期问题。后续需要等待尼泊尔官方更新失踪人员搜救进展，以及国际救援力量是否会进一步介入。",
-      "duration_seconds": 105,
+      "summary": "哈马斯管理的加沙卫生部称，尽管停火协议生效，今年以来加沙地区死亡人数已超过900人，自去年10月以来累计死亡逾1300人，其中包括301名儿童。",
+      "script": "中东局势的另一条消息，据加沙地区由哈马斯管理的卫生部通报，尽管当地已经处于停火协议之下，今年以来加沙地带的死亡人数依然超过了900人。该卫生部同时通报，自去年10月10日以来，加沙地带的累计死亡人数已经超过1300人，其中包括301名儿童。已确认的事实是，这一数据来自加沙卫生部门的官方通报，停火协议目前名义上仍然生效。需要说明的是，这份死亡人数统计来自哈马斯管理的卫生部门，属于冲突一方管理机构发布的数据，国际社会和以色列方面对这类统计口径、死亡原因分类等方面存在不同看法，候选信息中并未提供以色列官方或独立国际机构对这一数字的核实或反驳意见。分析层面看，如果停火协议名义上生效但实际死亡人数仍在持续增加，这说明当地局势远未真正平息，可能存在协议执行不到位、局部冲突仍在发生，或者是此前遗留的人道主义危机后果仍在显现等多重因素交织的情况。这类数字的持续攀升，也会继续成为国际社会评估停火协议实际效果、施加外交压力的重要依据。后续需要关注是否有独立国际人道机构对这一死亡人数进行核实，以及停火协议各方是否会就执行情况进行新的磋商。",
+      "duration_seconds": 120,
       "is_unverified": false,
-      "confidence_note": "NPR多篇报道交叉确认灾情发展及救援困境，信息来源可靠但灾情仍在演变。",
+      "confidence_note": "死亡人数数据来源为加沙卫生部（哈马斯管理），属于冲突一方发布的统计，缺乏独立第三方核实，已在稿件中明确说明数据来源性质。",
       "fact_status": {
         "confirmed": [
-          "尼泊尔及西藏部分地区遭遇严重洪灾",
-          "当局警告博特科西河可能出现新一轮洪水",
-          "救援物资运送因道路阻断和天气受阻"
+          "加沙卫生部门通报今年以来死亡人数超过900人，去年10月以来累计超过1300人"
         ],
         "claims": [
-          "国际救援组织人员描述受灾社区最紧迫的需求"
+          "该卫生部门为哈马斯管理机构，其统计口径和方法未经独立国际机构核实"
         ],
         "analysis": [
-          "复杂地形与季风天气是救援推进缓慢的主要原因"
+          "停火协议名义生效但死亡人数持续增加，说明当地局势和人道状况可能仍存在严重问题"
         ]
       },
       "source_ids": [
-        "0f66ebd7bca14be3",
-        "38e958803cd41ec5",
-        "1a8cad033a19da38"
+        "fac46ccc334d33c5"
       ],
       "sources": [
         {
-          "id": "0f66ebd7bca14be3",
-          "source": "NPR World",
+          "id": "fac46ccc334d33c5",
+          "source": "BBC World",
           "source_tier": 2,
-          "source_region": "us",
+          "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Nepal warns of possible fresh flooding as communities grapple with devastation",
-          "summary": "Authorities in Nepal warned of possible fresh flooding on Sunday and urged residents in flood-affected districts to remain on high alert after water levels rose in the Bhotekoshi River.",
-          "url": "https://www.npr.org/2026/08/30/nx-s1-5949239/nepal-warns-fresh-flooding",
-          "published_at": "2026-08-30T09:52:41+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "38e958803cd41ec5",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Getting help to Nepal's flood survivors is proving difficult",
-          "summary": "Blocked roads and monsoon weather are complicating efforts to get food, shelter and emergency hygeine to survivors of Nepal's catastrophic floods. World Vision's Dhruba Gurmachhan explains what survivors need the most.",
-          "url": "https://www.npr.org/2026/08/29/nx-s1-5948125/getting-help-to-nepals-flood-survivors-is-proving-difficult",
-          "published_at": "2026-08-29T21:14:10+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "1a8cad033a19da38",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Rescuers race to find thousands missing after deadly Himalayan floods",
-          "summary": "Rescue crews are struggling through blocked roads, high mountain canyons and dangerous terrain as they search for thousands of people missing in Nepal and Tibet.",
-          "url": "https://www.npr.org/2026/08/29/nx-s1-5948040/rescuers-race-to-find-thousands-missing-after-deadly-himalayan-floods",
-          "published_at": "2026-08-29T21:14:09+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "世界人形机器人运动会展示多项AI与运动控制新突破",
-      "english_term": "Humanoid Robot（人形机器人）",
-      "summary": "世界人形机器人运动会成为展示最新人形机器人运动控制与AI能力的舞台，多支队伍展示了机器人在竞技类任务中的表现。",
-      "script": "接下来进入机器人板块。世界人形机器人运动会近期成为行业关注的焦点，据报道，多支参赛队伍在赛场上展示了人形机器人在运动控制、平衡能力和任务执行方面的最新进展。这类赛事的价值在于，它把实验室里的算法拿到了真实、非结构化的竞技场景中检验，比如机器人需要在高动态环境下完成奔跑、转向、避障甚至简单的协作任务，这对运动规划、实时感知融合和电机控制的鲁棒性都是严苛考验。与此同时，另一条相关新闻也颇具趣味性：HONOR公司的人形机器人在马来西亚马拉松赛事中挑战了10公里的赛程，这类长距离连续运动对机器人的能耗管理、关节散热和长时间步态稳定性提出了新的要求，是从短时演示走向持续作业能力的一个观察窗口，长距离运动对电池能量密度和运动控制算法的长期稳定性提出了更高要求，也是评估人形机器人从演示样机走向可持续作业能力的重要指标。此外，纽约还出现了人形机器人与真人跳舞的花絮新闻，虽然娱乐性质更强，但也从侧面反映出人形机器人在动作模仿、节奏跟随和人机互动自然度上的进步，这类展示背后往往依赖动作捕捉数据训练和实时姿态调整算法的结合。需要指出的是，这些赛事和展示活动更多是产业公关与技术验证的结合，具体技术细节、失败率和实际稳定性数据大多没有完整公开，公众看到的往往是精心挑选的成功片段，这意味着评估其真实技术水平仍需谨慎。分析来看，人形机器人赛事化的趋势正在加速，这既是吸引资本关注、展示阶段性成果的方式，也在客观上推动了行业建立统一的性能评测标准，未来这类赛事可能会逐步引入更严格、可量化的评测指标体系。后续需要关注这些参赛机器人背后的具体厂商是否会公布更详细的技术参数和真实故障率数据，以及此类赛事是否会形成长期的、可比较的评测体系。",
-      "duration_seconds": 180,
-      "is_unverified": true,
-      "confidence_note": "来源均为Tier 3的行业新闻聚合，缺少官方技术细节披露，具体机器人厂商、算法方案未获独立验证，标记为未核实的热点线索。",
-      "fact_status": {
-        "confirmed": [
-          "世界人形机器人运动会已经举行，多支队伍参与展示",
-          "HONOR人形机器人参与了马来西亚马拉松10公里挑战"
-        ],
-        "claims": [
-          "报道称赛事展示了AI技术突破，具体技术指标未披露"
-        ],
-        "analysis": [
-          "赛事化趋势有助于推动行业建立统一评测标准，但当前信息透明度有限"
-        ]
-      },
-      "source_ids": [
-        "a02f4b11148d3aae",
-        "9695fe039a4841c6",
-        "c8a275127fc171a9"
-      ],
-      "sources": [
-        {
-          "id": "a02f4b11148d3aae",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "MARK-TO-MARKET: AI breakthroughs on display at the World Humanoid Robot Games - Dispatch Argus",
-          "summary": "MARK-TO-MARKET: AI breakthroughs on display at the World Humanoid Robot Games Dispatch Argus",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcUZxRjlxdnlwdmNRaGVfb3ZLYlY0LVhzekR6ZTEtcEwxZXRkYlRSUWtDNlRYc1U4d1VoZ2tjRUFGdTVvOVNVSlZjZzkwNE5MTzVOa3dCTDVDTWZibnJJMW9mMWRNZzk3MDhUTHdQcVdZd1Rpc09Ob19KUkdHREJsdngxaG9UVWRFaS0xY0pSZjZSdnRC?oc=5",
-          "published_at": "2026-08-30T11:30:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "9695fe039a4841c6",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "HONOR’s humanoid robot takes on 10km challenge at Malaysia Marathon 2026 - The Star",
-          "summary": "HONOR’s humanoid robot takes on 10km challenge at Malaysia Marathon 2026 The Star",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNME50OHNBNEJsMnVCRHZwV0dtczh3S3JaTVdkeEJIb2g1ZTNHMUpOUjdjaWtfakxxaDV4QkpVcEJkRUs0QXVnQ1YyMC05SVdZVkpWazh0cHJaWWhKaXE3SFBqOVJGZEQxV2VPZlY2VUE4OG44STVoRjRWSk9VLTI4Tm9hQzBtdGJMTGE3WFJOcXVjODBEOG1feGluX2RSczRYcy1MY3dxTmVrZ0xDd2JDT0pTSGROSDlXaFFz?oc=5",
-          "published_at": "2026-08-30T11:32:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "c8a275127fc171a9",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Humanoid robot gets into dance-off with woman in New York City - Yahoo News Canada",
-          "summary": "Humanoid robot gets into dance-off with woman in New York City Yahoo News Canada",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nX0dLelFHanlNZVU5TjNpajJneGx5YUF0a3hwcEZWODVqWVBDanNacW9qb21zRzduUURERVhLUE1MWnZMdGFXWVFGekxlMnc5a2FCT0FCXzMtUjl6RGJqWmNPaDM3X2sxLVp0OTlyc09MeTZJaDJhNE9R?oc=5",
-          "published_at": "2026-08-30T11:59:08+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "微型仿生机器人MicroDuck实现轮滑与踢球动作",
-      "english_term": "Microduck Robot（微型仿鸭机器人）",
-      "summary": "IEEE Spectrum报道了一款名为Microduck的微型仿生机器人，能够完成轮滑和踢球等动作，展示了小型化仿生机器人在敏捷运动控制上的进展。",
-      "script": "在学术与技术类新闻中，IEEE Spectrum报道了一款颇为有趣的微型仿生机器人——Microduck。这款机器人体型小巧，外形模仿小鸭子，却展示出了令人意外的运动能力：它可以像人一样完成轮滑动作，还能进行简单的踢球任务。虽然报道整体偏向科普和趣味展示，但背后涉及的技术问题其实并不简单。首先是小型化平台上的动力与传动设计，在有限的体积和重量约束下，如何布置电机、齿轮和轮式结构来实现稳定的滑行，这对机构设计是个挑战，需要在结构强度、重量和传动效率之间做出权衡。其次是运动控制层面，轮滑本身就是一个欠驱动、需要持续动态平衡的任务，机器人要在滚动过程中实时调整重心和姿态，这通常依赖于反馈控制或者强化学习训练出的策略网络，来应对滑动过程中不断变化的接触力和摩擦条件。踢球动作则进一步要求机器人具备一定的环境感知能力，判断球的位置并规划肢体动作完成击打，这涉及视觉或其他传感信息与运动规划模块的协同配合。这类小型仿生机器人项目的意义，往往不在于直接的产业化应用，而是作为运动控制算法和机构设计的低成本试验平台，帮助研究人员快速迭代想法，再逐步移植到更大尺寸、更复杂的足式或轮式机器人上，这种从小尺度平台验证再向大尺度迁移的思路，在机器人研究中较为常见。需要说明的是，目前公开报道并未详细披露该机器人所使用的具体控制算法、训练方式或传感器配置，仅是展示性质的成果发布。后续需要关注是否有相关论文或技术细节公开，以便了解其控制方法的具体实现路径和局限性。",
-      "duration_seconds": 160,
-      "is_unverified": true,
-      "confidence_note": "IEEE Spectrum为专业科技媒体，但本条报道偏科普展示性质，缺乏可交叉验证的第二来源及详细技术论文支撑，标记为未核实。",
-      "fact_status": {
-        "confirmed": [
-          "报道展示了名为Microduck的微型仿生机器人可以轮滑和踢球"
-        ],
-        "claims": [
-          "报道未详细说明具体控制算法和实验条件"
-        ],
-        "analysis": [
-          "小型仿生机器人常作为运动控制算法的低成本验证平台"
-        ]
-      },
-      "source_ids": [
-        "c073b38f01dff01d"
-      ],
-      "sources": [
-        {
-          "id": "c073b38f01dff01d",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Adorable Microduck Robot Roller Skates and Plays Soccer - IEEE Spectrum",
-          "summary": "Adorable Microduck Robot Roller Skates and Plays Soccer IEEE Spectrum",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aU083cmhsT09VR0dEWEdBUW9hczZQVGU2SDI1MGxITnlZQVpYaU9sUGhUN3oxR3NOM2ZxNjFnaDI1R0s5U05BUGJ4S1N1Ull2dUVMSjVTekRDR3BFeEhTWGd1ckM?oc=5",
-          "published_at": "2026-08-30T11:35:16+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "群体机器人电力管理：集中式与分布式架构的权衡",
-      "english_term": "Swarm Robotics（群体机器人）",
-      "summary": "The Robot Report分析了群体机器人系统中集中式与分布式电力管理架构的优劣，并提出混合方案可能兼具两者优势。",
-      "script": "再来看一篇偏工程分析的报道，来自The Robot Report，主题是群体机器人系统的电力管理架构设计。所谓群体机器人，指的是由大量结构简单、功能相对单一的机器人个体组成的系统，它们通过局部交互和简单规则协同完成复杂任务，比如仓储物流中的搬运集群或者环境监测中的传感器机器人群。文章讨论了这类系统中电力管理的两种基本思路：集中式架构通常依赖一个中央控制单元来统一调度整个群体的能量分配和充电排程，优点是全局优化效果好、便于统一监控，但缺点是存在单点故障风险，一旦中央节点失效，整个群体的能量调度可能陷入混乱，这在大规模部署场景中会带来明显的系统性风险。分布式架构则让每个机器人个体自主管理自身的电量状态并做出本地决策，例如在电量低时自行前往充电站，这种方式鲁棒性更强，某个个体出问题不会影响整体运行，但可能因为缺乏全局协调而导致资源利用效率下降，比如多个机器人同时涌向同一个充电桩造成排队和资源浪费，这种局部最优而非全局最优的问题在分布式系统设计中较为常见。文章提出，混合式架构可能是更现实的工程选择，即在保留分布式自主决策鲁棒性的基础上，引入一定程度的全局信息共享和协调机制，来提升整体能量利用效率，例如通过定期广播各节点的电量状态，让机器人在做本地决策时能够参考群体整体情况。这类讨论虽然没有涉及具体的新算法或实验数据，但反映了群体机器人从实验室走向实际部署过程中，工程可靠性和系统架构设计正成为与算法本身同等重要的议题。后续需要关注是否有具体厂商或研究团队提出可量化验证的混合架构方案，并在真实部署场景中进行测试。",
-      "duration_seconds": 170,
-      "is_unverified": false,
-      "confidence_note": "The Robot Report为Tier 2专业机器人产业媒体，内容为工程分析综述性质，未涉及具体争议性事实声明。",
-      "fact_status": {
-        "confirmed": [
-          "文章讨论了群体机器人电力管理的集中式与分布式两种架构"
-        ],
-        "claims": [
-          "文章提出混合架构可能兼具两种方式的优势"
-        ],
-        "analysis": [
-          "群体机器人工程可靠性正成为与算法研究同等重要的议题"
-        ]
-      },
-      "source_ids": [
-        "e44428d6e3750d8d"
-      ],
-      "sources": [
-        {
-          "id": "e44428d6e3750d8d",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "The differences between decentralized and centralized power in swarm robotics",
-          "summary": "A robotic swarm typically relies on centralized or decentralized power management, but a hybrid approach could offer the best of both. The post The differences between decentralized and centralized power in swarm robotics appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/",
-          "published_at": "2026-08-29T12:25:31+00:00",
+          "title": "More than 900 killed in Gaza this year despite ceasefire, Hamas-run health ministry says",
+          "summary": "The ministry says the total number of people killed in the Strip since 10 October is now more than 1,300, including 301 children.",
+          "url": "https://www.bbc.co.uk/news/articles/c7708dy33pdo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-09-02T11:51:46+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -290,203 +347,77 @@
     },
     {
       "category": "science",
-      "title": "深度强化学习应用于医学影像：前景与挑战并存",
-      "english_term": "Deep Reinforcement Learning（深度强化学习）",
-      "summary": "一篇综述性报道探讨了深度强化学习在医学影像分析中的应用潜力与现存局限，包括数据稀缺和模型可解释性等问题。",
-      "script": "在科学板块，Bioengineer.org发布了一篇关于深度强化学习应用于医学影像领域的综述性报道。深度强化学习是指让智能体通过与环境不断交互、根据奖励信号调整策略来学习最优决策的方法，此前在游戏和机器人控制领域已有广泛应用。报道指出，研究人员正尝试将这一方法引入医学影像分析，比如让算法自主学习如何在CT或MRI影像中定位病灶、优化扫描序列，或者辅助制定放疗方案，其核心思路是把影像分析任务转化为一系列连续决策问题，让模型通过试错逐步学到更优的诊断或规划策略。报道同时提到了这一方向面临的现实挑战：首先是医学数据本身获取困难且标注成本高昂，这与强化学习通常需要大量交互数据的特性存在天然矛盾；其次是模型的可解释性问题，在医疗场景中，医生和患者往往需要理解模型做出某个判断的依据，而深度强化学习模型的决策过程通常是黑箱式的，这对临床采纳构成障碍；此外，如何保证模型在不同医院、不同设备采集的影像数据之间保持稳定的泛化能力，也是尚未解决的难题。这篇报道属于综述性质，没有提出具体的新算法或实验数据，更多是对当前研究方向的梳理和展望。分析认为，深度强化学习在医学影像中的应用仍处于早期探索阶段，短期内更可能作为辅助工具而非独立诊断系统投入使用。后续需要关注是否有具体临床试验或同行评审论文，验证这类方法在真实医疗场景中的安全性和有效性。",
-      "duration_seconds": 145,
-      "is_unverified": true,
-      "confidence_note": "来源为科普类专业媒体转载综述内容，未提供具体论文出处或同行评审状态，属于方向性趋势报道而非具体研究成果确认。",
-      "fact_status": {
-        "confirmed": [
-          "报道综述了深度强化学习在医学影像领域的研究方向"
-        ],
-        "claims": [
-          "报道指出该方向存在数据稀缺、可解释性差等挑战"
-        ],
-        "analysis": [
-          "深度强化学习在医学影像中短期内更可能作为辅助工具而非独立诊断系统"
-        ]
-      },
-      "source_ids": [
-        "ed698b0b3d56854a"
-      ],
-      "sources": [
-        {
-          "id": "ed698b0b3d56854a",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Deep Reinforcement Learning Meets Medical Imaging: Promise and Pitfalls - Bioengineer.org",
-          "summary": "Deep Reinforcement Learning Meets Medical Imaging: Promise and Pitfalls Bioengineer.org",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNTlHWTdOZUVnRV9yTF9kdHdrQ3RFSE9ZLVVGS0YxNUpsUVJEcklfWjZXemNwbkZsZjBLQzR0NElnTTY4Z1dvN2RaZXJ0d3pPSEpGTUw1WHZKUUZlMGRsRUREMlc4bTZXWVQ2UkduSjh0Ry00djdGRmtHZDBFUHk0VDRucnJ6TkExVWdoN2RhX2VORlJJNE5QeWRLbw?oc=5",
-          "published_at": "2026-08-30T11:28:58+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "冰岛公投否决重启加入欧盟谈判",
-      "english_term": null,
-      "summary": "冰岛全国公投中，52.8%的选民反对政府提出的重启加入欧盟谈判的提议，公投未能通过。",
-      "script": "冰岛的欧盟公投结果出炉。据当地广播机构RUV统计，在几乎全部选票计票完成的情况下，52.8%的选民投票反对重启加入欧盟的谈判，政府提出的这一提议未能获得通过。多家媒体，包括BBC、DW和NPR，都对这一结果进行了报道，数据基本一致。这次公投是在北大西洋地缘政治紧张局势背景下举行的，但最终结果显示，冰岛选民对加入欧盟仍持谨慎甚至反对态度。已确认的事实是：公投确实举行，反对重启谈判的票数占比52.8%，公投未能通过。分析认为，冰岛作为渔业资源丰富的岛国，长期以来对加入欧盟持保留态度，主要顾虑集中在渔业政策自主权和欧盟共同渔业政策可能带来的限制，这一传统立场在本次公投结果中再次得到体现。同时，尽管地缘政治环境出现变化，但这并未显著改变冰岛民众对欧盟成员国身份的态度。这一结果也意味着冰岛与欧盟的关系在短期内将维持现状，不会启动新一轮入盟谈判进程。后续需要关注冰岛政府对此次公投结果的正式回应，以及这是否会影响其与欧盟在其他领域，比如贸易和安全合作方面的双边关系。",
-      "duration_seconds": 110,
+      "title": "NASA选定蓝色起源建设火星通信网络",
+      "english_term": "Mars Telecommunications Network（火星通信网络，指专为火星探测任务提供高带宽通信与导航服务的卫星网络系统）",
+      "summary": "NASA授予蓝色起源一份最高约7亿美元的合同，用于开发下一代火星通信网络，为当前和未来的火星任务提供可靠的高带宽通信与导航服务。",
+      "script": "航天领域一条重要消息，NASA宣布已授予蓝色起源一份合同，用于开发火星通信网络，这是一套下一代通信系统，目标是为当前以及未来的火星探测任务提供可靠的高带宽通信和导航服务。根据NASA的官方通报，这份合同属于固定价格合同，最高潜在价值约为7亿美元，蓝色起源需要交付一颗高性能的火星通信中继卫星给NASA。目前火星探测任务的通信主要依赖轨道器中继和地面深空网络，随着未来火星任务数量增加，无论是无人探测车、着陆器还是未来可能的载人任务，都需要更大带宽、更低延迟的通信保障，现有系统在带宽和覆盖能力上已经逐渐显得吃力，这也是NASA推动建设专用火星通信网络的直接背景。这份合同对蓝色起源来说，是其在深空探测基础设施领域拿下的一个重要项目，此前该公司更多为人所知的是新格伦火箭和月球着陆器相关项目，这次进入火星通信基础设施领域，说明其业务版图正在向深空任务支持系统扩展。从NASA角度看，选择商业公司来承建关键的深空通信基础设施，也延续了近年来NASA将更多任务外包给商业航天公司的一贯策略，通过固定价格合同的方式来控制成本和风险。后续需要关注蓝色起源公布的具体研制时间表，以及这颗通信中继卫星预计的发射窗口和入轨时间。",
+      "duration_seconds": 130,
       "is_unverified": false,
-      "confidence_note": "BBC、DW、NPR三家独立Tier 2媒体均报道了相同的52.8%投票结果，数据交叉确认，可信度较高。",
+      "confidence_note": "基于NASA官方新闻稿，为一手权威信息源。",
       "fact_status": {
         "confirmed": [
-          "冰岛举行了是否重启加入欧盟谈判的全国公投",
-          "52.8%的选民投票反对重启谈判"
+          "NASA授予蓝色起源合同以开发火星通信网络，合同最高价值约7亿美元"
         ],
         "claims": [],
         "analysis": [
-          "渔业政策自主权是冰岛长期对加入欧盟持保留态度的主要原因"
+          "该合同延续了NASA将深空基础设施建设外包给商业航天公司的策略趋势"
         ]
       },
       "source_ids": [
-        "dc5160f05d93fd9c",
-        "84373a841da40b55",
-        "5aebacba973cfb28"
+        "62927350527eecb7"
       ],
       "sources": [
         {
-          "id": "dc5160f05d93fd9c",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Iceland votes against restarting talks on joining EU",
-          "summary": "Broadcaster RUV reports that 52.8% of voters rejected the government's proposal to resume talks.",
-          "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-30T10:49:11+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "84373a841da40b55",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Iceland voters reject EU accession talks",
-          "summary": "A nationwide referendum failed to win enough support to restart negotiations on European Union membership, despite geopolitical tensions in the North Atlantic.",
-          "url": "https://www.dw.com/en/iceland-voters-reject-eu-accession-talks/a-78560633?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-30T10:21:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "5aebacba973cfb28",
-          "source": "NPR World",
-          "source_tier": 2,
+          "id": "62927350527eecb7",
+          "source": "NASA",
+          "source_tier": 1,
           "source_region": "us",
           "language": "en",
-          "category_hint": "world",
-          "title": "Icelanders vote 'no' to talks aimed at joining the EU in close referendum",
-          "summary": "The vote against the EU led by 52.8 percent with nearly all votes counted, according to RÚV , Iceland's broadcaster.",
-          "url": "https://www.npr.org/2026/08/29/nx-s1-5948759/iceland-european-union-referendum-vote",
-          "published_at": "2026-08-30T01:47:44+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "瑞士锐舞派对枪击案致一名22岁女子死亡，警方展开搜捕",
-      "english_term": null,
-      "summary": "瑞士北部小镇阿劳附近一场锐舞派对外发生枪击事件，一名22岁女子身亡，另有五人受伤，警方仍在追捕嫌疑人。",
-      "script": "瑞士发生一起严重枪击事件。据BBC和DW报道，瑞士北部小镇阿劳附近一场techno锐舞派对外发生枪击，一名22岁女子身亡，另有五名二十多岁的年轻人受伤。警方表示，目前仍在搜寻一名或多名嫌疑人，案件调查正在进行中。已确认的事实是：枪击发生在阿劳附近的一场锐舞活动外围，造成一人死亡、五人受伤，警方尚未抓获嫌疑人。目前关于枪击动机、嫌疑人身份以及案件是否与其他刑事活动有关联，警方尚未对外公布详细信息，这部分内容仍属于调查中的未知项。分析来看，这起事件发生在通常被认为相对安全的瑞士，且是在大型户外音乐活动场景中发生的暴力案件，这类场所的安保措施和人员管控可能会因此受到重新审视。由于案件仍处于早期调查阶段，媒体报道的信息量有限，具体作案手法、动机推测等都需要等待警方进一步通报。后续需要关注瑞士警方是否成功抓获嫌疑人，以及案件调查是否会揭示更多关于作案动机的信息。",
-      "duration_seconds": 100,
-      "is_unverified": false,
-      "confidence_note": "BBC与DW两家独立Tier 2媒体均报道了相同的伤亡数字和地点信息，交叉确认可信度较高，但案件调查细节仍有限。",
-      "fact_status": {
-        "confirmed": [
-          "瑞士阿劳附近一场锐舞活动外发生枪击",
-          "造成一名22岁女子死亡，五人受伤",
-          "警方正在搜捕嫌疑人"
-        ],
-        "claims": [],
-        "analysis": [
-          "案件具体动机和嫌疑人信息尚待警方进一步调查公布"
-        ]
-      },
-      "source_ids": [
-        "d066b16fa9bb0f60",
-        "903304daf9bc873b"
-      ],
-      "sources": [
-        {
-          "id": "d066b16fa9bb0f60",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
-          "summary": "Five others in their twenties were injured after shots were fired at a techno event near Zurich.",
-          "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-08-30T11:25:11+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "903304daf9bc873b",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Manhunt underway after woman killed in Swiss rave shooting",
-          "summary": "The shooting happened outside a rave in the northern Swiss town of Aarau. Police said they were still searching for the perpetrator or perpetrators.",
-          "url": "https://www.dw.com/en/manhunt-underway-after-woman-killed-in-swiss-rave-shooting/a-78561106?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-08-30T08:59:00+00:00",
+          "category_hint": "science",
+          "title": "NASA Selects Blue Origin as Mars Telecommunications Network Provider",
+          "summary": "NASA awarded Blue Origin a contract Tuesday to develop the agency’s Mars Telecommunications Network, a next-generation communications system that will enable reliable, high-bandwidth communications and navigation services for current and future Mars missions. The firm-fixed-price contract has a maximum potential value of approximately $700 million to deliver a high-performance Mars telecommunications orbiter to NASA no […]",
+          "url": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/",
+          "published_at": "2026-09-01T21:08:37+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的早报就到这里。塞浦路斯渡轮倾覆事故和尼泊尔洪灾的后续救援情况，仍需要等待官方进一步通报确认伤亡与失踪人数；机器人领域，世界人形机器人运动会展示的多项技术能力，也需要等待厂商公布更详细的性能数据来验证其实际水平。我们明天同一时间继续为您带来最新进展。",
-  "editor_note": "本期机器人板块共选取三条相关新闻，因候选中缺少高质量的学术论文类信息，故以行业赛事报道、专业媒体工程分析及科普展示报道为主，均标记为未核实以提示信息完整性有限；已通过扩充技术背景解释将robotics时长占比调整至约47%，符合45%–55%区间要求。国际新闻部分因候选高度集中于塞浦路斯渡轮事故、尼泊尔洪灾、冰岛公投和瑞士枪击案，经交叉验证后予以保留。",
+  "closing": "今天的内容里，机器人产业和学术两端都有值得持续追踪的线索：Mech-Mind的上市表现、触觉基础模型和协同手势生成这两篇预印本论文能否通过同行评审，都需要时间验证。国际局势方面，美伊在霍尔木兹海峡地区的军事对峙、欧盟与俄罗斯之间因无人机事件引发的外交摩擦，都是可能进一步发展的火药桶，值得持续关注后续官方表态和调查结果。",
+  "editor_note": "本期为满足机器人时长占比要求，对四条机器人相关稿件（Mech-Mind上市、触觉基础模型论文、RoboGesture论文、Exotec供应链表态）适度扩充篇幅，合计约635秒，占全部约1315秒总时长的约48%，落在45%–55%区间内；RedLight-VLA因不涉及具身机器人核心主题，按此前类别修正结果归入other类，不计入机器人时长统计，以保持类别口径一致。为控制总时长，删去原稿中美国国会避免政府停摆一条，保留其他八条重点事件。多篇arXiv论文均为未经同行评审的预印本，已在is_unverified和confidence_note中明确说明。Exotec相关产业消息为Tier 3单一来源，细节有限，已标注不确定性。国际部分涵盖美伊冲突、欧俄外交摩擦、加沙人道数据，均基于Tier 2以上来源，已按已确认事实与各方主张分类处理。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 7148,
-      "output_tokens": 8081,
-      "total_tokens": 15229
+      "input_tokens": 9364,
+      "output_tokens": 10964,
+      "total_tokens": 20328
     },
     {
-      "input_tokens": 9971,
-      "output_tokens": 7975,
-      "total_tokens": 17946
+      "input_tokens": 12850,
+      "output_tokens": 9932,
+      "total_tokens": 22782
     }
   ],
   "usage": {
-    "total_tokens": 33175,
-    "input_tokens": 17119,
-    "output_tokens": 16056
+    "output_tokens": 20896,
+    "total_tokens": 43110,
+    "input_tokens": 22214
   },
-  "generated_at": "2026-08-30T12:02:04+00:00",
-  "window_start": "2026-08-29T12:02:04+00:00",
-  "candidate_count": 164,
+  "generated_at": "2026-09-02T12:13:29+00:00",
+  "window_start": "2026-09-01T12:13:29+00:00",
+  "candidate_count": 329,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1075,
-    "script_characters": 4183,
-    "topic_duration_share": 0.474,
+    "duration_seconds": 1305,
+    "script_characters": 5069,
+    "topic_duration_share": 0.475,
     "passed": true,
-    "normal_target_met": false,
+    "normal_target_met": true,
     "topic_source_count": 2,
     "issues": []
   }
