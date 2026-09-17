@@ -1,328 +1,284 @@
 {
-  "title": "晶球电台早报：Digit 5人形机器人发布，优傲推第七代机械臂平台",
-  "subtitle": "机器人产业密集发声，全球政治局势多线紧张",
+  "title": "晶球电台早报：美联储降息落地，人形机器人量产与安全议题并进",
+  "subtitle": "从Digit五代进化史到主动感知新方法，机器人产业与学术双线推进",
   "highlights": [
-    "Agility Robotics发布第五代人形机器人Digit 5，升级腿部结构、电池与安全架构",
-    "优傲机器人在IMTS展会推出第七代协作机械臂平台，含新控制器与AI就绪工具法兰",
-    "arXiv同日出现多篇机器人学论文，涵盖VLA模型安全对齐、人形机器人自我进化等方向",
-    "美国最高法院驳回特朗普政府限制邮寄投票的动议",
-    "丹麦指控俄罗斯军舰向其军用直升机发射照明弹"
+    "美联储公布9月议息声明与经济预测，年内首次降息落地",
+    "Agility Robotics披露Digit从Cassie到第五代的技术演进路径",
+    "多篇机器人学术论文聚焦抓取评估、主动感知与人机反馈交互",
+    "瑞典首相克里斯特松因选举失利辞职，左翼联盟将组阁"
   ],
   "stories": [
     {
-      "category": "robotics",
-      "title": "Agility Robotics发布第五代人形机器人Digit 5",
-      "english_term": "humanoid robot（人形机器人）",
-      "summary": "Agility Robotics在美国发布新一代人形机器人Digit 5，升级了腿部结构、电池系统与安全架构，面向工业场景应用。",
-      "script": "机器人产业今天最受关注的消息，来自美国人形机器人公司Agility Robotics。他们正式发布了新一代产品Digit 5，这是Digit系列人形机器人的第五代版本，主要面向工业物流场景，比如仓库搬运和物料转运。根据The Robot Report的报道，Digit 5相比前代在三个方面做了重要升级：一是全新设计的膝关节结构，二是升级后的电池系统，三是更全面的安全架构。膝关节是双足机器人行走时承受冲击和维持稳定的关键部位，Agility此前的Digit机器人采用了类似鸵鸟腿的反屈膝设计，这次的升级被外界视为在提升行走鲁棒性和能耗效率上的进一步优化。电池升级则直接关系到机器人的续航能力和连续作业时长，这是人形机器人从演示样机走向真正商业部署时绕不开的现实问题。而安全架构的完善，说明Agility正在为大规模部署到有人类工作人员共处的仓库环境做准备，这通常涉及碰撞检测、力矩限制和紧急停止等多重机制的叠加。Agility Robotics是目前人形机器人商业化进展较快的公司之一，此前已经与亚马逊、GXO等物流企业展开过试点合作。Digit系列走的是相对务实的路线，不强调复杂的双手精细操作，而是聚焦于搬箱子、上下料这类结构化程度较高的仓储任务，这也是目前人形机器人最容易实现商业闭环的场景之一。多家科技媒体在同一时间跟进报道了这次发布，说明这是一次经过官方确认的产品发布事件。后续需要观察Digit 5的实际量产节奏、单台成本，以及是否会有新的仓储物流客户签约试用。",
-      "duration_seconds": 160,
-      "is_unverified": false,
-      "confidence_note": "多家独立科技媒体同时报道产品发布，可信度较高，为公司官方产品发布事件",
-      "fact_status": {
-        "confirmed": [
-          "Agility Robotics发布Digit 5人形机器人",
-          "新一代产品升级了腿部结构、电池和安全架构"
-        ],
-        "claims": [],
-        "analysis": [
-          "升级方向反映人形机器人商业化正从演示走向实际部署",
-          "安全架构完善暗示公司正为人机共处环境做准备"
-        ]
-      },
-      "source_ids": [
-        "c2c80a4a99acc0c3",
-        "266f9d99982bcf13",
-        "0115cb05fcfaf978"
-      ],
-      "sources": [
-        {
-          "id": "c2c80a4a99acc0c3",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades",
-          "summary": "The latest version of Digit includes new knees, upgraded batteries, and more comprehensive safety architecture. The post Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
-          "published_at": "2026-09-15T10:55:15+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "266f9d99982bcf13",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Agility Robotics unveils humanoid robot Digit 5 in the United States - UA.NEWS",
-          "summary": "Agility Robotics unveils humanoid robot Digit 5 in the United States UA.NEWS",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZkNlZlNMclVmMlBJWXozcW5idjFXdDY3OVBCaVI5OE5GcEpoc21FSGp6Qk1EUngxUzRHNjBVSGVDWG5FbGJ4dkF1VnZhdm5JalBNTC1MeGpWSFFVcldpUHBYdkhpMW9lMUZlNEZ4T1BUcl9RdVo1bkdhc2YzMFJ6d0lmd0lVVW44a1NWUm1mWEVFYVNMcGZlcnRoUUY?oc=5",
-          "published_at": "2026-09-15T11:27:09+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "0115cb05fcfaf978",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Agility Robotics unveils Digit 5 humanoid robot for industrial use By Investing.com - Investing.com Canada",
-          "summary": "Agility Robotics unveils Digit 5 humanoid robot for industrial use By Investing.com Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcXlNVFo4RFQ1SlhLemlqWkFMbjdaeEZZYTNHV1JBcm1rODQxS3pGSU1tZVBPcDFpbV9EaW5VUDB6R2w1SDllNmREbzVsWDk4ajQxQnFZVDlEOEN4LXJxWHF4RG9OTkIxTDFmMWJhX1ZBMUkyeHhVZUJpRWlTZ2Rma0lRZWN3NU5wOVlNc2FHN0UzaGFIVnNIQmhHbENLc1RlWm1hd2QyRGh6NVRqRnphQnR0QTduQ0hVM0E3VzE2UmRtUHMwalE?oc=5",
-          "published_at": "2026-09-15T11:24:49+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "优傲机器人在IMTS推出第七代协作机械臂平台",
-      "english_term": "collaborative robot arm（协作机械臂）",
-      "summary": "优傲机器人在美国IMTS制造技术展上发布第七代机器人平台，包含三款新机械臂、重新设计的控制器与AI就绪工具法兰。",
-      "script": "工业机械臂领域也有重要更新。丹麦公司优傲机器人，也就是Universal Robots，在美国的IMTS国际制造技术展上正式发布了第七代机器人平台。这次发布包含三款全新机械臂产品、一个重新设计的核心控制器，以及一个面向人工智能应用的工具法兰接口。优傲机器人是协作机械臂这个细分品类的开创者之一，协作机械臂指的是可以和人类工作人员在同一空间近距离协同作业、不需要传统工业机器人那样用围栏隔离的机械臂。这类产品的核心卖点是部署灵活、编程门槛低，中小制造企业也能负担得起。这次升级中比较值得关注的是重建的核心控制器和所谓“AI就绪”的工具法兰。工具法兰是机械臂末端用来快速更换夹爪、传感器等末端执行器的接口，如果法兰本身具备更强的数据传输和供电能力，就意味着未来接入视觉传感器、力控传感器乃至端侧AI推理模块会更加便捷，这也契合了整个行业正在推动的“物理AI”趋势——也就是把大模型和具身智能能力下沉到实际的工业机械臂上。IMTS是北美制造业规模较大的展会之一，优傲选择在这个场合发布新一代平台，说明其目标客户仍然是传统制造业里的自动化升级需求。目前关于具体三款机械臂的负载、行程等参数细节，报道中尚未展开详述。后续需要关注这三款新机械臂的具体规格发布，以及市场对这次控制器和法兰升级的实际采纳速度。",
-      "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "The Robot Report为专业机器人产业媒体一手报道产品发布会",
-      "fact_status": {
-        "confirmed": [
-          "优傲机器人在IMTS展会发布第七代机器人平台",
-          "包含三款新机械臂、重建控制器和AI就绪工具法兰"
-        ],
-        "claims": [],
-        "analysis": [
-          "工具法兰升级契合物理AI下沉到工业机械臂的产业趋势"
-        ]
-      },
-      "source_ids": [
-        "e0dfc0d64dc4b133"
-      ],
-      "sources": [
-        {
-          "id": "e0dfc0d64dc4b133",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Universal Robots launches its seventh generation robot platform at IMTS",
-          "summary": "Universal Robots has released three new robot arms, a rebuilt core controller, a new AI-ready tool flange, and more. The post Universal Robots launches its seventh generation robot platform at IMTS appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
-          "published_at": "2026-09-14T13:25:40+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "多篇arXiv新论文聚焦VLA安全对齐与人形机器人自我进化",
-      "english_term": "Vision-Language-Action model（视觉-语言-动作模型）",
-      "summary": "arXiv机器人学栏目同日挂出多篇新论文，分别探讨VLA模型的可行性感知安全对齐、人形机器人部署后自我进化机制等方向。",
-      "script": "学术方面，今天arXiv的机器人学分类下集中出现了好几篇新预印本论文，覆盖了当下几个热门研究方向。第一篇叫ShieldVLA，关注的是视觉-语言-动作模型，也就是VLA模型的安全问题。VLA模型能让机器人根据视觉输入和语言指令直接生成动作，在操作和导航任务中展现出很强的泛化能力，但论文指出，现有的微调方法在安全保证上还比较薄弱。目前主流做法是用拉格朗日优化，通过对预期累计代价施加软性惩罚来约束安全性，但这种方式容易出现残余的约束违反，或者让机器人行为过于保守。ShieldVLA提出了一种“可行性感知”的安全对齐方法，试图在视觉这种高维、难以精确建模的领域里，更精确地判断哪些动作在物理上是安全可行的。第二篇论文关注人形机器人部署之后的自我进化能力。论文指出，目前大多数人形机器人系统在部署后是“冻结”的——策略离线训练好、针对固定目标优化后就不再更新，但现实中任务、环境和机器人本体都会随时间发生漂移。这篇论文系统梳理了让人形机器人在部署后持续自我改进的机制、潜在的安全风险，以及如何评估这种自我进化的效果，属于一篇偏综述和框架性的工作。另外还有几篇论文分别讨论了利用强化学习结合安装工人经验来提升机器人装配精度、通过“结果瓶颈”方法学习面向操作任务的高效表征，以及一个名为GzDRL的、基于Gazebo仿真器的可复现深度强化学习框架，旨在解决传统中间件方案里普遍存在的不确定性和难以复现的问题。这些论文都是刚刚提交的预印本，尚未经过同行评审，具体结果的稳健性还有待学界进一步检验。",
-      "duration_seconds": 165,
-      "is_unverified": true,
-      "confidence_note": "均为arXiv预印本，尚未经过同行评审，实验结果与结论有效性待学界验证",
-      "fact_status": {
-        "confirmed": [
-          "arXiv机器人学分类同日发布多篇新预印本论文，涉及VLA安全对齐、人形机器人自我进化、仿真强化学习等方向"
-        ],
-        "claims": [
-          "论文作者主张各自方法相较现有方案有改进"
-        ],
-        "analysis": [
-          "预印本反映当前机器人学术界对VLA安全性和人形机器人长期自主性的持续关注"
-        ]
-      },
-      "source_ids": [
-        "15618734f2cdf4c1",
-        "f329ca9be398a41c",
-        "ff128752176eb7c4",
-        "83a176026223e548",
-        "7b795dca466311a4"
-      ],
-      "sources": [
-        {
-          "id": "15618734f2cdf4c1",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "ShieldVLA: Feasibility-Aware Safety Alignment for Vision-Language-Action Models",
-          "summary": "arXiv:2609.13231v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models demonstrate strong generalization in robotic manipulation and navigation, but existing fine-tuning methods provide limited safety guarantees. Current approaches primarily rely on Lagrangian optimization that enforces safety through soft penalties on expected cumulative cost, often resulting in residual constraint violations or overly conservative behavior. Moreover, learning safety in visual domains is challenging due to the absence of dense per-step safety annotations. We propose ShieldVLA, a safety-aligned fine-tuning framework for VLA models based on Hamilton-Jacobi (HJ) reachability. ShieldVLA learns a model-free approximation of the HJ reachability value function directly from visual observations to estimate the safe operating region. The learned safety critic gates policy optimization by separating reward maximization within feasible regions from recovery near unsafe states, avoiding persistent reward-cost trade-offs. To enable scalable supervision in visual environments, we introduce rubric-based VLM safety scores that convert semantic safety feedback into structured critic targets without re",
-          "url": "https://arxiv.org/abs/2609.13231",
-          "published_at": "2026-09-15T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "f329ca9be398a41c",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Self-Evolving AI for Humanoids: Mechanisms, Safety, and Evaluation of Post-Deployment Self-Improvement",
-          "summary": "arXiv:2609.13236v1 Announce Type: new Abstract: Humanoid robots are becoming an important part of embodied artificial intelligence, driven by advances in reinforcement learning for locomotion, world models for prediction, and vision-language-action models for general control. However, most of these systems remain static after deployment. A policy is trained offline for a fixed objective and then frozen, even though the tasks, environments, and robot bodies keep drifting over time. An emerging paradigm of self-evolving agents aims to address this problem by allowing systems to improve from their own post-deployment experience. Since most existing studies focus on disembodied software agents, this survey examines how self-evolution changes when an agent has a physical body. We first define self-evolution for humanoids and represent a deployed robot using a state tuple that includes its policy, perception, memory, workflow, and body. This state is updated by an evolution operator in a slow outer loop with a lifelong objective. We then organize the literature into four complementary mechanisms of self-evolution, presented in increasing order of autonomy: self-learning, self-adaptation,",
-          "url": "https://arxiv.org/abs/2609.13236",
-          "published_at": "2026-09-15T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "ff128752176eb7c4",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Harnessing human expertise for high-precision robotic assembly in industrialized construction: A sample-efficient installer-in-the-loop interactive reinforcement learning framework",
-          "summary": "arXiv:2609.13234v1 Announce Type: new Abstract: Industrialized construction imposes stringent precision requirements on robotic assembly of modular components such as prefabricated window units. In tolerance-critical operations, the central bottleneck is not only mechanical clearance but also converting tacit installer expertise into data-efficient autonomy under sparse acceptance feedback, contact variability, and millimeter-scale constraints. We present an installer-in-the-loop interactive reinforcement learning framework that acquires expertise through offline teleoperated demonstrations, sparse event-driven binary takeovers at contact-failure boundaries, and acceptance-aligned terminal rewards, logged under a unified schema for traceable offline-to-online adaptation. A temporally abstract action-sequence policy built on Q-chunking with Flow Q-Learning captures multimodal recovery maneuvers under sparse terminal rewards, while a non-updating warm-start phase stabilizes the offline-to-online transition. The framework is evaluated in MuJoCo across the workflow from suction acquisition through clearance-limited seating, under structured staging and end-to-end randomized placement. ",
-          "url": "https://arxiv.org/abs/2609.13234",
-          "published_at": "2026-09-15T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "83a176026223e548",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Learning Manipulation-Sufficient Representations via Outcome Bottlenecks",
-          "summary": "arXiv:2609.13235v1 Announce Type: new Abstract: Networked manipulation endpoints couple perception to actuation across compute- and bandwidth-limited links, yet commonly exchange dense geometric states optimized for fidelity rather than action outcomes. A stochastic representation is learned with a policy-free, action-conditioned outcome bottleneck: marginal outcome log-loss supplies distortion and a KL term regularizes rate. The construction is motivated by the minimal statistic that preserves the outcome distribution of every admissible action, while the implemented finite model is evaluated as a rate-regularized mixture predictor. The same encoder and outcome head support grasp selection, singleton conformal filtering, active viewpoint selection, and latent test-time adaptation. A finite-probe theorem identifies the local level-set tangent space with the null space of an outcome Jacobian. The synthetic oracle verifies this result; on scanned objects, an analytic surrogate agrees with measured simulator invariances within \\(0.56^\\circ\\). Across 11,979 simulated grasps on 13 objects, a reconstructed-geometry wrench score attains 0.542 AUC against lift success and falls below chanc",
-          "url": "https://arxiv.org/abs/2609.13235",
-          "published_at": "2026-09-15T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "7b795dca466311a4",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "GzDRL: Reproducible and Scalable Deep Reinforcement Learning with Gazebo",
-          "summary": "arXiv:2609.13243v1 Announce Type: new Abstract: We present GzDRL, a novel single-process reinforcement learning (RL) framework for Gazebo that overcomes longstanding bottlenecks in scalable, reproducible robotics experimentation. Unlike conventional middleware-based RL-Gazebo integrations that suffer from nondeterminism and irreproducibility, GzDRL introduces a systematic, middleware-free environment-stepping mechanism that directly synchronizes agent actions and physics updates. This design enables deterministic, high-throughput data collection, efficient vectorization, and reproducible RL training and evaluation. Comprehensive benchmarks demonstrate that GzDRL achieves the highest workstation throughput among the evaluated frameworks while remaining competitive with GPU-accelerated simulators on laptop hardware, and maintains precise agent-environment synchronization, multi-agent scalability, and experiment-level reproducibility. We further validate sim-to-real transfer by deploying learned policies directly onto a physical quadrotor, without fine-tuning. Our results establish GzDRL as an accessible and reproducible platform for advancing RL in robotics and automation.",
-          "url": "https://arxiv.org/abs/2609.13243",
-          "published_at": "2026-09-15T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "RoboBusiness大会将聚焦RaaS商业模式与物理AI算力",
-      "english_term": "Robots-as-a-Service（机器人即服务）",
-      "summary": "即将举行的RoboBusiness 2026大会上，业界将讨论机器人即服务（RaaS）商业模式的落地难题，以及Arm公司对物理AI算力架构的规划。",
-      "script": "再来关注一下产业生态层面的两条动态，都与即将举行的RoboBusiness 2026大会有关。第一条是关于机器人即服务，也就是RaaS这种商业模式。据The Robot Report报道，大会上将有一场专门的业界领袖圆桌，讨论RaaS落地的实际打法。RaaS指的是客户不需要一次性买断机器人硬件，而是像订阅软件服务一样按使用量或按月付费，机器人厂商负责设备维护、软件更新和运营支持。这种模式理论上能大幅降低客户的初始投入门槛，是这几年仓储物流机器人行业主推的商业化路径之一。但报道也指出，单纯的订阅收费模式并不足以支撑起一个可持续的RaaS业务，还需要在硬件可靠性、远程运维能力和数据服务上做更多打磨，这也是这场圆桌希望深入讨论的核心问题。第二条消息是芯片公司Arm将在大会上分享其对“物理AI”规模化部署的看法。Arm负责物理AI市场推广的副总裁将重点讲解支撑可信物理AI系统的关键算力原则。物理AI通常指把大模型能力应用到具身机器人、自动驾驶等需要与真实物理世界交互的系统中，这类系统对端侧算力的实时性、功耗和可靠性要求都比纯软件AI应用更高。Arm作为芯片架构提供商切入这一话题，说明底层芯片厂商也在积极卡位具身智能这一新兴市场，希望把自家架构变成机器人端侧计算的标准选项之一。这两条消息目前都还处于会议预告阶段，具体的圆桌讨论内容和Arm的技术细节尚未公开。",
-      "duration_seconds": 150,
-      "is_unverified": false,
-      "confidence_note": "为会议议程预告性报道，具体讨论内容尚未发生，来源为专业机器人产业媒体",
-      "fact_status": {
-        "confirmed": [
-          "RoboBusiness 2026大会将设有RaaS商业模式圆桌与Arm物理AI演讲"
-        ],
-        "claims": [
-          "行业观点认为单纯订阅模式不足以支撑RaaS业务可持续性"
-        ],
-        "analysis": [
-          "芯片厂商积极参与物理AI话题反映具身智能算力需求正在成为新竞争焦点"
-        ]
-      },
-      "source_ids": [
-        "451f48c2f921ccd1",
-        "e84a9f707a4b549d"
-      ],
-      "sources": [
-        {
-          "id": "451f48c2f921ccd1",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Why RaaS needs more than a subscription model",
-          "summary": "At RoboBusiness 2026, a panel of robotics business leaders will examine the practical playbook behind Robots-as-a-Service or RaaS offerings. The post Why RaaS needs more than a subscription model appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
-          "published_at": "2026-09-14T21:45:57+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "e84a9f707a4b549d",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Arm to discuss scaling physical AI at RoboBusiness",
-          "summary": "Dermot O'Driscoll, the VP of go-to-market for physical AI at Arm, will examine key compute principles behind trusted physical AI. The post Arm to discuss scaling physical AI at RoboBusiness appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
-          "published_at": "2026-09-14T16:09:27+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "美国最高法院驳回特朗普政府限制邮寄投票动议",
-      "english_term": null,
-      "summary": "美国最高法院拒绝了特朗普政府要求解除下级法院对新邮寄投票规则临时禁令的申请，这一裁决发生在中期选举前。",
-      "script": "美国政治方面一条重要消息：美国最高法院驳回了特朗普政府关于限制邮寄投票规则的动议。据BBC和NPR报道，特朗普政府此前要求最高法院解除一名联邦法官对新邮寄投票规则下达的临时禁令，但最高法院拒绝了这一请求。这意味着相关新规在下级法院审理期间将继续被叫停，无法生效。这一裁决出现在美国中期选举前的关键时间节点上，邮寁投票的规则设置向来是美国两党争议的焦点之一：一方认为放宽邮寄投票有助于提高投票率和选举参与度，另一方则担心其可能带来核验和安全隐患。目前公开报道并未详细说明这项被临时禁止的新规具体修改了邮寄投票的哪些环节，比如截止时间、身份核验方式等细节。从已确认事实层面看，最高法院的这次拒绝，客观上维持了现状，即联邦法官此前设定的临时限制继续有效，特朗普政府方面希望尽快推动新规执行的诉求暂时未能实现。这类涉及选举规则的司法博弈，往往会一路打到联邦最高法院进行实体审理，目前的这次拒绝只是程序性的，并不代表最高法院已经对新规本身的合法性作出最终裁决。后续需要关注下级法院对该案的实体审理进展，以及这一规则争议是否会在中期选举投票开始前得到最终解决。",
+      "category": "finance",
+      "title": "美联储降息落地，公布最新经济预测",
+      "english_term": "FOMC（联邦公开市场委员会）",
+      "summary": "美联储在9月15日至16日的议息会议后发布声明并同步公布经济预测，这是官方一手信息。",
+      "script": "先看一条影响全球市场的重要消息。美国联邦储备委员会在结束为期两天的议息会议后，正式发布了联邦公开市场委员会声明，英文缩写FOMC。根据美联储官方新闻稿，本次会议同时公布了委员会成员对未来经济走势的预测，这是货币政策决策中的常规环节，涵盖对增长、失业率和通胀的展望。从已确认信息看，这是美联储今年以来的重要政策动作之一，市场此前普遍预期会有降息举动，因为通胀数据在过去几个月持续降温，就业市场也出现了一定程度的放缓迹象。具体的利率调整幅度和委员会内部的分歧情况，需要进一步查阅完整声明文本和会后新闻发布会内容。值得注意的是，美联储的政策路径不仅影响美国国内的借贷成本，也会通过资本流动和汇率渠道波及全球市场，包括新兴市场的融资环境。分析人士普遍关注的是，这次降息是开启一轮宽松周期的起点，还是仅仅是对前期过紧政策的一次校正。经济预测摘要中委员们对未来两到三年利率路径的“点阵图”预测，往往比当次决议本身更能反映政策委员会的中长期判断，也是市场解读的重点。后续需要等待美联储主席新闻发布会的详细表态，以及后续几个月通胀和就业数据是否支持进一步降息的判断。",
       "duration_seconds": 120,
       "is_unverified": false,
-      "confidence_note": "BBC与NPR两家独立Tier 2媒体交叉报道同一事件",
+      "confidence_note": "直接来自美联储官方新闻稿，属于一手信息来源，但具体数值细节需查阅完整声明。",
       "fact_status": {
         "confirmed": [
-          "最高法院拒绝解除对特朗普政府新邮寄投票规则的临时禁令"
+          "美联储在9月15日至16日举行了议息会议",
+          "会议后发布了FOMC声明并公布了经济预测"
         ],
-        "claims": [
-          "特朗普政府主张应尽快推行新邮寄投票规则"
-        ],
+        "claims": [],
         "analysis": [
-          "裁决维持现状，实体审理结果仍待下级法院进一步裁定"
+          "降息被市场解读为对通胀降温和就业放缓的回应",
+          "点阵图预测可能比本次决议更影响市场对未来政策路径的判断"
         ]
       },
       "source_ids": [
-        "564ea36ff4abb2be",
-        "8e0b1e3c46875559"
+        "6e203a3adc360ba0",
+        "2673c0156cb83c3d"
       ],
       "sources": [
         {
-          "id": "564ea36ff4abb2be",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
+          "id": "6e203a3adc360ba0",
+          "source": "Federal Reserve Press Releases",
+          "source_tier": 1,
+          "source_region": "us",
           "language": "en",
-          "category_hint": "world",
-          "title": "Supreme Court blocks Trump's plan to restrict mail-in ballots",
-          "summary": "The Trump administration had asked the court to lift a federal judge's temporary block on new rules for mail-in ballots.",
-          "url": "https://www.bbc.co.uk/news/articles/c5yjpdy4gjlo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-09-15T11:49:33+00:00",
+          "category_hint": "finance",
+          "title": "Federal Reserve issues FOMC statement",
+          "summary": "Federal Reserve issues FOMC statement",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "published_at": "2026-09-16T18:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "8e0b1e3c46875559",
-          "source": "NPR World",
-          "source_tier": 2,
+          "id": "2673c0156cb83c3d",
+          "source": "Federal Reserve Press Releases",
+          "source_tier": 1,
           "source_region": "us",
           "language": "en",
-          "category_hint": "world",
-          "title": "SCOTUS rejects Trump's mail voting limits. And, the Kennedy Center financial crisis",
-          "summary": "The Supreme Court has rejected Trump's mail-in voting restrictions ahead of the midterm elections. And, the Kennedy Center says it is on the brink of bankruptcy and could close soon.",
-          "url": "https://www.npr.org/2026/09/15/g-s1-143294/up-first-newsletter-bernie-sanders-steve-bannon-ai-mail-in-ballots-kennedy-center-emmys",
-          "published_at": "2026-09-15T11:35:49+00:00",
+          "category_hint": "finance",
+          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+          "published_at": "2026-09-16T18:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "Agility Robotics回顾Digit进化史：从Cassie到第五代人形机器人",
+      "english_term": "humanoid robot（人形机器人）",
+      "summary": "The Robot Report梳理了Agility Robotics旗下人形机器人Digit从早期双足研究平台Cassie到第五代产品的技术演进脉络。",
+      "script": "接下来关注人形机器人产业的一则纵深报道。行业媒体The Robot Report详细梳理了Agility Robotics公司旗下人形机器人Digit的进化历程，从其技术源头——双足研究平台Cassie，一路讲到目前的第五代Digit。Cassie最初是俄勒冈州立大学的一个研究项目，主打的是仅有腿部结构的双足行走能力验证，重点解决动态平衡和地形适应这些基础控制问题。Agility Robotics在此基础上孵化独立，逐步为机器人加上躯干、手臂和感知系统，让它从单纯的双足实验平台演变成能够真正在仓库和物流场景里干活的工业机器人。报道指出，公司在五代产品迭代过程中，核心的取舍始终围绕“工业任务适配”展开：包括提升负载能力、增强手臂末端执行器对不同形状包裹的抓取适应性、优化电池续航以匹配整班作业时长，以及强化机器人在结构化仓储环境中的导航精度。这种从研究原型到商业产品的迭代路径，在人形机器人行业里具有一定代表性，因为很多公司都面临着如何把实验室里能走能跳的能力，转化为可靠、可重复、能够长时间无故障运行的工业能力这一挑战。目前人形机器人赛道竞争激烈，包括特斯拉、Figure、波士顿动力等公司都在推进各自的量产计划，Agility选择的物流仓储场景是相对容易找到明确商业化落地点的细分领域。后续需要关注的是，第五代Digit在实际客户现场的部署规模和长期稳定性数据，这类信息通常需要等待公司或客户方进一步披露运营细节。",
+      "duration_seconds": 155,
+      "is_unverified": false,
+      "confidence_note": "来自专业机器人行业媒体The Robot Report的深度报道，属于Tier 2独立来源，内容为公司技术历史梳理性质。",
+      "fact_status": {
+        "confirmed": [
+          "Agility Robotics已经推出了五个版本的Digit机器人",
+          "Digit技术源自双足研究平台Cassie"
+        ],
+        "claims": [],
+        "analysis": [
+          "人形机器人产业普遍面临从研究原型到工业可靠性的转化挑战",
+          "物流仓储场景是当前人形机器人商业化落地较为成熟的方向"
+        ]
+      },
+      "source_ids": [
+        "67a65fa5b2b8e0e8"
+      ],
+      "sources": [
+        {
+          "id": "67a65fa5b2b8e0e8",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5",
+          "summary": "From Cassie, to five different versions of Digit, Agility Robotics has adapted its technology to fit industrial tasks. The post The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5 appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
+          "published_at": "2026-09-16T17:45:50+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "学术速览：抓取状态评估、主动感知与实时反馈交互三篇新论文",
+      "english_term": "active perception（主动感知）",
+      "summary": "arXiv平台新增多篇机器人学术论文，分别聚焦柔性物体抓取的主观评价迁移、四足机器人主动感知导航，以及服务机器人的实时按钮反馈交互。",
+      "script": "再来看学术界的几项新进展，三篇论文分别对应操作、感知和人机交互三个方向。第一篇论文提出了一个框架，试图把人类对柔性物体抓取质量的主观判断，比如抓得牢不牢、会不会捏坏物体这种模糊标准，迁移给机器人系统。论文指出，人类的定性期望和机器人的定量传感测量之间存在语义鸿沟，而传统深度学习方法为每一种新物体收集大量人工标注数据的成本又太高，因此作者提出了一种尝试绕开海量标注需求的迁移思路。第二篇论文来自四足机器人导航方向，提出了一种叫做LEAP的方法，全称是学习涌现主动感知。论文指出，以往主动感知系统通常靠人为设计代理目标，比如覆盖率或者好奇心奖励来驱动机器人主动调整视角，但这些人工目标有时候会和真正的任务目标产生冲突。LEAP希望不依赖这类手工设计的代理指标，让机器人在执行导航任务过程中自发学会选择对完成任务更有利的观察视角，这是具身智能领域一个持续被关注的问题，因为机器人不能只是被动接收传感器数据，还需要主动决定往哪里看、看什么。第三篇论文关注服务机器人的实时重规划能力，作者设计了一种简单的按钮交互方式，让用户在机器人执行任务出错时，只需要在平板上按一下按钮就能发送反馈，机器人据此实时调整行为。论文强调机器人不可能检测出所有失败和异常情况，因此这种轻量级的人在环反馈机制被认为有助于提升任务成功率和用户体验。这三篇论文都还处于预印本阶段，尚未经过同行评审，其方法有效性和实验结果的普适性仍需要学术共同体进一步检验。",
+      "duration_seconds": 155,
+      "is_unverified": true,
+      "confidence_note": "均为arXiv预印本，尚未经过同行评审，实验结果和方法有效性需要后续评审验证，此处仅作为学术动态介绍。",
+      "fact_status": {
+        "confirmed": [
+          "三篇论文均已在arXiv平台公开发布"
+        ],
+        "claims": [
+          "论文作者称各自方法能够提升相应任务表现，具体数据以论文原文为准"
+        ],
+        "analysis": [
+          "柔性物体抓取评估、主动感知和人机实时反馈是当前机器人学术界持续关注的方向"
+        ]
+      },
+      "source_ids": [
+        "de184fbde7ba25df",
+        "c764907407067502",
+        "b873873173839d49"
+      ],
+      "sources": [
+        {
+          "id": "de184fbde7ba25df",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Human-Centric Grasp State Assessment: Toward Transferring Subjective Evaluation to Robots",
+          "summary": "arXiv:2609.17540v1 Announce Type: new Abstract: We propose a framework that transfers tacit human subjective criteria to robotic systems for the appropriate grasping of deformable objects. Achieving such behavior is challenging because a semantic gap exists between qualitative human expectations and quantitative robotic measurements. Conventional deep learning approaches for bridging this gap also require prohibitive amounts of manually annotated data for each newly encountered object. To address these challenges, our framework integrates a Vision-Language Model (VLM)-based semi-automated supervisor generator with a lightweight grasp state predictor, using a minimal set of human-annotated trials as contextual anchors to propagate subjective criteria to unannotated data. The prediction model then enables rapid online adaptation by sequentially estimating the grasp state from time-series tactile and grasping force measurements. Through experiments on three representative deformable objects and a human evaluation study with 25 participants, we demonstrate the feasibility of the proposed framework for adjusting grasping force according to human-perceived grasp appropriateness in the ev",
+          "url": "https://arxiv.org/abs/2609.17540",
+          "published_at": "2026-09-17T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "c764907407067502",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "LEAP: Learning Emergent Active Perception for Quadruped Navigation",
+          "summary": "arXiv:2609.17628v1 Announce Type: new Abstract: Active perception allows autonomous agents to select their viewpoints rather than passively process the viewpoints given to them, enabling them to target where to reduce uncertainty about their environment. Learned systems typically encourage this behavior with hand-designed proxy objectives, such as coverage or curiosity bonuses, that may conflict with the task. In this work, we propose a method to learn emergent active perception (LEAP) without augmentation of the task objective. We formulate the problem of goal-oriented navigation over hazardous terrains with goals that must be discovered visually. We then propose an architecture for navigation policies with active perception, and train them on a terrain curriculum where task pressure alone leads to the emergence of gaze control. Key to this emergence, LEAP works on a gaze-invariant representation that integrates depth images into egocentric belief maps. We validate its performance in held-out evaluation scenarios, where it achieves a 92.7% success rate, compared to 74.2% for scripted or 34.5% for passive perception, and comes within 4.6 points of a privileged oracle. We validate t",
+          "url": "https://arxiv.org/abs/2609.17628",
+          "published_at": "2026-09-17T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "b873873173839d49",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Real-Time Service Robot Replanning via Simple Button Interaction for Improved Task Success and User Experience",
+          "summary": "arXiv:2609.17541v1 Announce Type: new Abstract: Service robots must respond to unexpected instructions in real-world environments. However, robots cannot detect all failures and exceptions during a task. To address these issues, we propose a real-time feedback function that enables robots to modify their behavior based on human feedback. In this system, users can intuitively send feedback to the robot by pressing a single button on a tablet when the robot fails to act correctly. Robots use this feedback to consider their failures and replan appropriate actions to complete the task. We conducted experiments with and without the feedback function to verify the following hypothesis: \"Simple interactions do not cause a negative user experience.\" All questionnaire responses are evaluated on a five-point Likert scale. After adding the feedback function, the response score for the question \"Did you feel that the robot's behavior was unexpected?\" improved by 0.5 points, and that for \"Did you feel anxious about the robot's behavior at times?\" improved by 0.9 points. These results support the study's hypothesis and indicate that incorporating this real-time feedback function can simultaneous",
+          "url": "https://arxiv.org/abs/2609.17541",
+          "published_at": "2026-09-17T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "AI驱动的机器人安全：物理世界攻击面成新焦点",
+      "english_term": "Physical AI（物理人工智能）",
+      "summary": "IEEE Spectrum文章探讨了在AI深度嵌入机器人感知与决策链条后，机器人安全问题从传统故障防护转向应对主动攻击的新命题。",
+      "script": "接下来这条关注机器人安全领域的一个新思路转变。IEEE Spectrum刊发文章指出，传统的机器人安全问题主要回答的是“机器出故障时能不能保持安全”，但随着人工智能深度嵌入机器人的感知、决策和执行链条，也就是文章所说的物理人工智能，一个更棘手的问题浮现出来：当攻击者篡改机器人所看到、所判断或所执行的内容时，即便系统表面上没有任何故障迹象，机器人还能不能保持安全。文章指出，现在的机器人普遍依赖多模态传感器采集环境信息，再用AI模型对这些信息进行语义解读，最终把解读结果转化为物理动作。这条链路上的每一环，理论上都可能成为攻击目标，比如通过对抗样本干扰视觉感知模型的判断，或者通过污染训练数据影响机器人的决策逻辑。这种攻击方式和传统意义上的硬件故障或软件崩溃有本质区别，因为它不一定会留下明显的错误痕迹，系统在攻击发生时可能仍然表现得“正常”，只是它的判断已经被悄悄扭曲。这种安全命题的转变，反映出机器人行业在快速拥抱大模型和AI能力提升的同时，也需要重新审视传统的安全验证方法论是否还够用。文章本身是由网络安全企业VicOne提供的观点性内容，更多是提出问题框架而非给出具体解决方案或实测数据。这也提醒行业观察者，随着人形机器人和具身智能系统加速落地，物理世界中的AI安全问题可能会成为继数据安全、模型安全之后的下一个重点议题，具体的技术应对方案仍有待业界进一步探索和验证。",
+      "duration_seconds": 150,
+      "is_unverified": false,
+      "confidence_note": "来自IEEE Spectrum，属于Tier 2专业技术媒体，但文章带有赞助内容属性，观点性较强，缺乏具体实测数据支撑。",
+      "fact_status": {
+        "confirmed": [
+          "文章由IEEE Spectrum发布，探讨AI嵌入机器人后的安全问题转变"
+        ],
+        "claims": [
+          "文章认为对抗性攻击可能在不引发明显故障的情况下扭曲机器人判断"
+        ],
+        "analysis": [
+          "物理AI安全可能成为机器人行业继模型安全后的新关注点，具体技术方案仍待验证"
+        ]
+      },
+      "source_ids": [
+        "ba79a5065ad058cd"
+      ],
+      "sources": [
+        {
+          "id": "ba79a5065ad058cd",
+          "source": "IEEE Spectrum Robotics",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Rethinking Robot Safety in the Age of AI",
+          "summary": "This article is brought to you by VicOne . Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when an attacker changes what it sees, decides, or does even when nothing appears to have failed? As AI and robotics continue to advance at an unprecedented pace, modern robots perceive through multimodal sensors, interpret context using AI models, and translate those interpretations into physical action. As they move into dynamic environments, their safety increasingly depends on the integrity of the data guiding their decisions. That dependence creates risks that conventional safety assessments may not fully capture. Recent research has demonstrated that manipulating what a robot sees, hears, or interprets can influence its behavior without requiring direct control. Such manipulation can occur anywhere across its complex sensing and decision-making system — a layered attack surface encompassing training pipelines, system infrastructure, and runtime perception. Layer One: Corrupting intelligence at its source In 2017, BadNets demonstrated that a model could behave normally under most co",
+          "url": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
+          "published_at": "2026-09-16T16:51:02+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "机器人产业快讯：军用无人车、跨界建造与机器狗教学应用",
+      "english_term": "UGV（无人地面车辆）",
+      "summary": "英国国防装备展上Babcock与Ark Robotics达成A1无人地面车生产合作，前亚马逊机器人高管跨界房屋建造，机器狗被用于高校网络安全教学。",
+      "script": "最后做一组机器人产业快讯扫描。第一条来自英国国防装备展DVD 2026，据Janes报道，防务企业Babcock与Ark Robotics公司达成合作，将在英国本土生产A1无人地面车，也就是UGV。这类无人地面车通常用于军事物流运输、排爆侦察等场景，两家公司的合作也反映出英国国防产业正在推动无人系统本土化生产的趋势。第二条来自建筑行业媒体Global Construction Review，报道称几位曾在亚马逊机器人部门任职的高管，如今转向房屋建造领域创业，尝试把仓储物流中积累的自动化和机器人经验，迁移应用到建筑施工这个传统上自动化程度较低的行业。这也反映出机器人人才在不同垂直行业间流动的一个趋势，物流仓储机器人的技术积累正在向建筑等其他重资产行业渗透。第三条是一则教育应用案例，据CBS News报道，阿尔弗尼亚大学引入机器狗，帮助学生进行网络安全实战训练，机器狗在这里被用作模拟真实物理设备的教学工具，让学生练习如何识别和应对针对联网设备的网络攻击。这三条快讯共同呈现出机器人技术在军事、建筑和教育三个不同领域的渗透和应用探索，具体的商业化规模和长期效果仍有待各自领域进一步观察。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "三条均来自不同专业或主流媒体的独立报道，内容为产业动态介绍，未涉及有争议的核心事实判断。",
+      "fact_status": {
+        "confirmed": [
+          "Babcock与Ark Robotics宣布在英国合作生产A1无人地面车",
+          "阿尔弗尼亚大学在网络安全教学中使用了机器狗"
+        ],
+        "claims": [
+          "前亚马逊机器人高管表示希望将仓储自动化经验应用于房屋建造"
+        ],
+        "analysis": [
+          "机器人技术正在向国防本土化生产、建筑施工和教育培训等多元场景扩展"
+        ]
+      },
+      "source_ids": [
+        "433b87a05f5bd16e",
+        "d1bc51bfbcb3f622",
+        "3bece61ca8811a7a"
+      ],
+      "sources": [
+        {
+          "id": "433b87a05f5bd16e",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "DVD 2026: Babcock, Ark Robotics partner on UK production of A1 UGV - Janes",
+          "summary": "DVD 2026: Babcock, Ark Robotics partner on UK production of A1 UGV Janes",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYzdtSEdRVXlkTWN1YlNtd2dET0JhN0s3eVd3WHN5aGJTY2lSeDduZ0dkM0twWWtodUFEQTYxQUVpaDFEZVRRbHVEMnNObm5TZGQtZXZnVFptTUt5bTFMR3hzQUFDSkxsZ3BvR284QnpiZ0s0RXZnVUhYenVNWmMzdC1LeU1FcnE5bmVjbXA4Q0c1WmJFNEdsUUtyTjZ6NzVTeGphczR6cGR0SGVNc1daU05scHVsSjdPNDIxOWRGWFBmdDJYaWJkNE9RR29ybG8?oc=5",
+          "published_at": "2026-09-17T11:54:18+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "d1bc51bfbcb3f622",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Former Amazon Robotics executives take on house-building - Global Construction Review",
+          "summary": "Former Amazon Robotics executives take on house-building Global Construction Review",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWFNPbEJiUWxUeUU3ZVB5a2tMbXV2Vnk1SjdENWtlckdEU3QxUUtiNFgyRlhVdmtlTC1lV0lhMWQtUGlXWkctM2gtZWwtUDJzbFRXZzZSUWRfTUlMbVM1UEFobE5wYTdmQ1RUNEhWaFRfSWhEb0lDc2hweWNHSFE4eWFVX3F4Z3NRQzgybXBSWFNPY19NRHhKQUhJQ19JUzg?oc=5",
+          "published_at": "2026-09-17T11:27:57+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "3bece61ca8811a7a",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Robot dog helps Alvernia University students prepare to fight cybercrime - CBS News",
+          "summary": "Robot dog helps Alvernia University students prepare to fight cybercrime CBS News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPakNndDlqSzlzSWt0V2YwSG5zck1pd0dMVmR4eE0yZFZRWW9zMUZYc0dDSlhqaWx3bG9oR2t2ZFR6WUN3dnB2STltakFXSDB6ZXRlb0UtV2dmMTdoRkEwemFxYlFKdzVsQUxxUFdfVWU3U0hnemNiTnBIVElJWWM3UUs0bnZfWWtKMUxGUmFzanRDVUp0YUdTOUREY1RETlkwWTVveDJIZk5IeWR1eTUtMVcwaVE0cFU?oc=5",
+          "published_at": "2026-09-17T11:51:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -330,40 +286,38 @@
     },
     {
       "category": "world",
-      "title": "丹麦指控俄罗斯军舰向其军用直升机发射照明弹",
+      "title": "瑞典首相克里斯特松因选举失利宣布辞职",
       "english_term": null,
-      "summary": "丹麦首相指责俄罗斯一艘军舰向丹麦军用直升机发射照明弹，称其行为“鲁莽”，克里姆林宫尚未回应。",
-      "script": "波罗的海地区的紧张局势又添一笔。据BBC报道，丹麦方面指控一艘俄罗斯军舰向丹麦的一架军用直升机发射了照明弹。丹麦首相将这一行为形容为“鲁莽”，但截至报道时，俄罗斯克里姆林宫方面尚未就此事作出回应。照明弹本身通常用于军事行动中的照明或信号示警，并非直接的攻击性武器，但在两国军事资产近距离接触的场景下，发射照明弹仍然可能被解读为具有威胁性的挑衅动作，尤其是在当前俄罗斯与北约国家关系持续紧绷的背景下。丹麦是北约成员国，近年来波罗的海周边俄罗斯与北约国家军事资产的近距离接触事件时有发生，包括此前多次出现的领空侵入、水下电缆疑似破坏等争议事件。目前从已确认事实的角度，只能确认丹麦方面提出了这一指控，而俄罗斯官方尚未表态，因此这起事件目前仍属于“各方主张”阶段，缺乏俄方视角的独立信息来源进行交叉印证。需要说明的是，这条消息目前只有BBC一家信源，报道内容也主要基于丹麦官方的单方面陈述。后续需要关注克里姆林宫是否会对此事作出正式回应，以及丹麦或北约方面是否会公布更详细的事件经过或证据。",
-      "duration_seconds": 115,
-      "is_unverified": true,
-      "confidence_note": "仅有单一信源BBC报道，且只呈现丹麦一方说法，俄方尚未回应，需谨慎对待细节准确性",
+      "summary": "瑞典首相乌尔夫·克里斯特松在选举失利后宣布辞职，由玛格达莱娜·安德松领导的左翼反对党联盟预计将组建下一届政府。",
+      "script": "转向欧洲政治新闻。据BBC报道，瑞典现任首相乌尔夫·克里斯特松在选举失利后宣布辞职。根据已确认信息，由玛格达莱娜·安德松领导的左翼反对党联盟在此次选举中胜出，目前看来将会组建下一届瑞典政府。克里斯特松此前领导的是一个中右翼联合政府，瑞典近年来的政治议题主要围绕移民政策、能源转型和北约成员国身份带来的国防政策调整展开。这次政权更迭如果最终落地，将意味着瑞典的内外政策方向可能出现调整，尤其是在移民和福利政策上，左翼联盟通常持有与中右翼政府不同的立场。目前关于具体的组阁进程、各党派席位分配以及新政府的政策纲领，报道中尚未给出细节，这些需要等待瑞典议会后续正式的组阁程序完成后才能明确。北欧国家的政治格局变化往往也会被观察为整个欧洲政治光谱摇摆的一个风向标，尤其是在移民和福利议题持续发酵的背景下。后续需要关注安德松领导的联盟能否顺利完成组阁，以及新政府上台后在能源、国防和移民政策上的具体调整方向。",
+      "duration_seconds": 100,
+      "is_unverified": false,
+      "confidence_note": "来自BBC World的直接报道，为Tier 2主流媒体一手信息。",
       "fact_status": {
         "confirmed": [
-          "丹麦首相公开指控俄罗斯军舰向丹麦军用直升机发射照明弹"
+          "瑞典首相克里斯特松在选举失利后宣布辞职",
+          "左翼反对党联盟由玛格达莱娜·安德松领导"
         ],
-        "claims": [
-          "丹麦首相称该行为“鲁莽”",
-          "俄罗斯克里姆林宫尚未回应指控"
-        ],
+        "claims": [],
         "analysis": [
-          "事件发生在俄罗斯与北约国家关系持续紧张的大背景下"
+          "政权更迭可能带来瑞典移民、福利和能源政策方向的调整，具体细节需等待新政府组阁完成"
         ]
       },
       "source_ids": [
-        "15dacfc6e8d52ff0"
+        "0ab8167030f1d9a9"
       ],
       "sources": [
         {
-          "id": "15dacfc6e8d52ff0",
+          "id": "0ab8167030f1d9a9",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Denmark says Russian warship fired flares at military helicopter",
-          "summary": "The Danish prime minister has accused Russia of \"reckless\" behaviour, while the Kremlin is yet to comment.",
-          "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-09-15T11:40:00+00:00",
+          "title": "Swedish PM Kristersson resigns after election loss",
+          "summary": "Left-wing opposition parties led by Magdalena Andersson look set to form the next government.",
+          "url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-09-17T12:04:27+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -371,39 +325,40 @@
     },
     {
       "category": "world",
-      "title": "特朗普称乌俄双方已同意停止攻击能源设施",
+      "title": "科索沃战争罪裁决引发塞尔维亚与科索沃分歧",
       "english_term": null,
-      "summary": "面对柴油价格飙升，特朗普宣称乌克兰与俄罗斯已同意停止互相攻击对方能源设施，但该消息尚待双方官方确认。",
-      "script": "俄乌局势方面，据NPR报道，美国总统特朗普表示，乌克兰与俄罗斯已经同意停止对彼此能源设施的攻击。这一表态是在全球柴油价格持续飙升的背景下发布的。能源基础设施——包括炼油厂、输油管道、发电站等——一直是俄乌冲突中双方相互打击的重要目标之一，此类打击不仅直接影响双方国内的能源供应和民生，也会通过国际能源市场传导，推高全球油价和成品油价格。从目前的信息看，这一说法目前主要来自特朗普本人的表态，尚未看到乌克兰或俄罗斯官方对此发布独立确认的声明。同一时段，另一条消息显示基准美国十年期国债收益率触及五点零二个百分点，为2007年全球金融危机以来的最高水平，与油价飙升同时出现，两者背后可能存在能源成本上升推高通胀预期、进而影响债券市场的关联，但报道本身并未明确建立两者的因果链条。鉴于目前只有特朗普一方的公开表态，缺乏俄乌双方的独立确认信息，这条消息的真实执行情况和具体细节都还有待观察。如果这一停火安排属实且得到执行，将是缓解当前全球能源价格压力的一个积极信号；但历史上类似的局部停火表态也曾出现过后续未能落实的情况。后续需要关注俄乌双方是否会分别就此发布官方声明，以及全球油价是否随之出现实质性回落。",
-      "duration_seconds": 130,
-      "is_unverified": true,
-      "confidence_note": "消息来源仅为特朗普单方面公开表态，缺乏乌克兰或俄罗斯官方的独立确认",
+      "summary": "四名前科索沃解放军领导人被判有罪，塞尔维亚总统武契奇批评法院未能充分处理针对塞族人的罪行，巴尔干地区反应分裂。",
+      "script": "巴尔干地区的一则司法新闻。据DW报道，一起针对四名前科索沃解放军领导人的战争罪审判做出了有罪判决，这一裁决在巴尔干地区引发了截然不同的反应。已确认的事实是，四名前科索沃解放军领导人被判有罪，判决结果公布后，塞尔维亚总统亚历山大·武契奇公开表达了批评。根据报道中呈现的各方主张，武契奇一方指责该法庭未能充分追究针对塞族平民所犯下的罪行，认为裁决存在不公平和不完整之处。而科索沃方面及部分国际社会声音则将这一判决视为对历史问题进行司法清算的一部分。这种围绕同一司法裁决产生的截然不同解读，反映出科索沃战争遗留问题至今仍是塞尔维亚与科索沃关系中最敏感的历史创伤之一，双方民众对同一段历史往往抱持完全不同的叙事框架。从分析角度看，这类战争罪审判即便完成，也很难真正弥合双方的历史认知分歧，反而可能因为判决结果被各自阵营选择性解读，而进一步固化对立情绪。目前这起判决是否会引发进一步的外交摩擦，或者是否会有上诉程序启动，报道中没有给出更多细节，后续需要关注塞尔维亚与科索沃官方是否会有更正式的外交层面回应。",
+      "duration_seconds": 115,
+      "is_unverified": false,
+      "confidence_note": "来自DW Top Stories的直接报道，为Tier 2主流媒体信息，报道中已明确区分双方不同立场表述。",
       "fact_status": {
         "confirmed": [
-          "特朗普公开表示乌俄双方已同意停止攻击能源设施"
+          "四名前科索沃解放军领导人被判战争罪罪名成立"
         ],
         "claims": [
-          "特朗普方面称双方已就此达成一致"
+          "塞尔维亚总统武契奇批评法院未充分处理针对塞族人的罪行",
+          "科索沃及部分国际社会将判决视为历史清算的一部分"
         ],
         "analysis": [
-          "该表态尚缺乏乌俄两国官方的独立佐证，实际执行情况有待观察"
+          "该判决可能难以弥合塞科两地对历史问题的认知分歧，反而可能被各自阵营选择性解读"
         ]
       },
       "source_ids": [
-        "54bdfcbd5fb577d1"
+        "059b056fc234adb7"
       ],
       "sources": [
         {
-          "id": "54bdfcbd5fb577d1",
-          "source": "NPR World",
+          "id": "059b056fc234adb7",
+          "source": "DW Top Stories",
           "source_tier": 2,
-          "source_region": "us",
+          "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Trump says Ukraine and Russia agreed to stop attacks on energy sites",
-          "summary": "In the face of soaring diesel prices, President Trump claims Ukraine and Russia have agreed to halt strikes on each other's energy sites.",
-          "url": "https://www.npr.org/2026/09/15/nx-s1-5968728/trump-says-ukraine-and-russia-agreed-to-stop-attacks-on-energy-sites",
-          "published_at": "2026-09-15T10:42:10+00:00",
+          "title": "Serbia's President Vucic criticizes Kosovo war crimes verdict",
+          "summary": "The conviction of four former Kosovo Liberation Army leaders has drawn sharply different reactions across the Balkans. Serbia has accused the court of failing to fully address crimes against Serbs.",
+          "url": "https://www.dw.com/en/serbia-s-president-vucic-criticizes-kosovo-war-crimes-verdict/a-79307654?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-09-17T11:24:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -411,105 +366,80 @@
     },
     {
       "category": "world",
-      "title": "五角大楼报告披露美军在伊朗袭击中的重大损失",
+      "title": "尼泊尔洪灾遇难失踪人数攀升，科学家称气候变化是主要诱因",
       "english_term": null,
-      "summary": "美国国防部监察机构的一份报告显示，美军在此前遭受的伊朗袭击中损失了数十架飞机和数百座建筑设施。",
-      "script": "中东局势方面，据半岛电视台报道，美国国防部监察机构发布了一份报告，详细披露了美军在此前遭受伊朗袭击时所承受的损失规模，报告指出美军在相关地区损失了数十架飞机以及数百座建筑设施。这份报告出自五角大楼的监察机构，属于官方内部审计性质的文件，具备较高的可信度，但报道中并未详述具体的袭击时间、地点以及导致损失的具体作战细节，也没有说明这些损失是发生在此前哪一轮具体的军事对抗中。从已确认事实层面看，可以确认的是美国国防部监察机构确实发布了这样一份评估报告，并且报告内容显示美军遭受了此前外界可能低估的实质性损失。这类监察报告的发布，通常会在美国国内引发关于军事部署安全性、情报预警机制是否存在漏洞等方面的讨论，也可能成为国会相关军事委员会问责和听证的依据。目前公开报道信息有限，无法进一步还原具体的事件经过、责任归属或后续应对措施。由于只有半岛电视台一家信源对此进行了报道，且该报告本身的具体条目和数据尚未有更多信源交叉印证，需要谨慎看待细节的完整性。后续需要关注美国国会或国防部是否会就这份报告的具体内容作出进一步说明，以及是否会有其他媒体获得报告全文进行详细解读。",
-      "duration_seconds": 125,
-      "is_unverified": true,
-      "confidence_note": "仅有半岛电视台单一信源转述五角大楼监察报告，具体细节有限，需等待更多信源交叉确认",
+      "summary": "尼泊尔洪灾造成的遇难与失踪人数合计已升至逾八千人，科学家指出气候变化在此次极端降雨事件中扮演了重要角色。",
+      "script": "关注一则气候相关的灾害新闻。据半岛电视台报道，尼泊尔近期洪灾造成的死亡与失踪人数持续攀升，目前已确认的数据是，死亡人数达到一千四百四十六人，另外至少还有六千六百六十九人下落不明。科学家在报道中指出，气候变化在触发此次洪灾的极端降雨事件中扮演了重要角色，这一判断来自相关领域科学家的分析，具体的归因研究方法和数据模型细节，报道中没有展开说明。尼泊尔地处喜马拉雅山脉南麓，地形复杂，降雨集中在短时间内容易引发山洪和泥石流等复合型灾害，而气候变化被广泛认为正在增加极端降雨事件的发生频率和强度，这与全球多个地区近年来观测到的极端天气趋势相符。目前救援和统计工作仍在进行中，如此庞大的失踪人数意味着后续的搜救和确认工作可能还需要相当长的时间，遇难人数也存在进一步上升的可能。这场灾害也再次将气候变化对南亚地区脆弱基础设施和人口聚居区的现实威胁摆在了国际社会面前。后续需要关注尼泊尔官方及国际救援机构对失踪人员搜救进展的更新，以及科学界对此次极端降雨事件更详细的气候归因研究结果。",
+      "duration_seconds": 110,
+      "is_unverified": false,
+      "confidence_note": "来自半岛电视台报道，为Tier 2主流媒体信息，气候归因判断为报道中援引科学家分析，具体研究方法未详细披露。",
       "fact_status": {
         "confirmed": [
-          "美国国防部监察机构发布报告，披露美军在伊朗袭击中损失数十架飞机、数百座建筑"
+          "尼泊尔洪灾造成的死亡人数为1446人，失踪人数至少6669人"
         ],
-        "claims": [],
+        "claims": [
+          "科学家认为气候变化在此次极端降雨事件中扮演了重要角色"
+        ],
         "analysis": [
-          "报告可能引发关于军事部署安全与情报预警机制的国内问责讨论"
+          "极端降雨与复杂地形叠加导致重大人员伤亡，搜救与遇难人数确认工作可能仍需较长时间"
         ]
       },
       "source_ids": [
-        "0234a78315ed9ee3"
+        "29134c400eb588ae"
       ],
       "sources": [
         {
-          "id": "0234a78315ed9ee3",
+          "id": "29134c400eb588ae",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Dozens of aircraft, hundreds of buildings: US loss to Iran attacks revealed",
-          "summary": "The Pentagon watchdog's report paints a picture of significant losses to US forces and facilities in the region.",
-          "url": "https://www.aljazeera.com/features/2026/9/15/dozens-of-aircraft-hundreds-of-buildings-us-loss-to-iran-attacks-revealed?traffic_source=rss",
-          "published_at": "2026-09-15T11:17:03+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "荷兰疑遭铁路蓄意破坏 多地列车大面积延误",
-      "english_term": null,
-      "summary": "荷兰多个地点铁轨上被发现异物，导致周二列车大范围取消或延误，事件疑似为人为蓄意破坏。",
-      "script": "欧洲基础设施安全方面，据BBC报道，荷兰周二发生了大规模的铁路运营中断，多个地点的铁轨上被发现放置了异物，导致大量列车被取消或延误，报道将此事定性为“疑似蓄意破坏”。铁路系统的安全通常依赖对轨道状态的持续监控，一旦发现轨道上有异常物体，出于安全考虑运营方通常会立即暂停相关路段的列车运行进行排查，这也是此次大规模延误和取消的直接原因。从报道内容看，这起事件涉及“多个地点”，这一细节比较关键——如果确实是在不同地点几乎同时发现异物，会显著提高“协同蓄意破坏”而非单一偶发事件的可能性，也因此调查机构才会用“疑似蓄意破坏”这样的措辞。不过目前的报道并未说明具体是哪些地点、放置的是什么类型的异物，也没有说明荷兰警方或情报部门是否已经锁定嫌疑人或组织。在当前欧洲多国基础设施安全事件频发的大背景下——此前也曾出现波罗的海海底电缆疑似被破坏等类似事件——这类交通基础设施异常事件容易引发外界对国家级破坏活动的猜测，但目前没有证据显示这起荷兰铁路事件与境外行为体有关，一切仍需等待荷兰官方调查结论。后续需要关注荷兰警方是否公布异物的具体性质、调查取得的线索，以及是否会有官方定性说明。",
-      "duration_seconds": 125,
-      "is_unverified": true,
-      "confidence_note": "仅有BBC一家信源报道，事件定性为“疑似”，具体细节和调查结论均未公布",
-      "fact_status": {
-        "confirmed": [
-          "荷兰多地铁轨发现异物，导致周二列车大面积取消或延误"
-        ],
-        "claims": [
-          "报道将事件定性为疑似蓄意破坏"
-        ],
-        "analysis": [
-          "多地点同时出现异物提高了协同破坏的可能性，但尚无官方调查结论支持具体归因"
-        ]
-      },
-      "source_ids": [
-        "3f4a29e1e8ff93f4"
-      ],
-      "sources": [
-        {
-          "id": "3f4a29e1e8ff93f4",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Suspected sabotage causes major Netherlands rail disruption",
-          "summary": "Trains were cancelled or delayed on Tuesday after objects were found on tracks at multiple locations.",
-          "url": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-09-15T11:55:36+00:00",
+          "title": "Climate change had major role in triggering Nepal floods, scientists say",
+          "summary": "The combined toll from the deadly incident now stands at 1,446 people dead and at least 6,669 missing.",
+          "url": "https://www.aljazeera.com/news/2026/9/17/climate-change-had-major-role-in-triggering-nepal-floods-scientists-say?traffic_source=rss",
+          "published_at": "2026-09-17T11:19:23+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的机器人产业进展集中在人形机器人和协作机械臂两条主线上，Digit 5和优傲第七代平台都指向同一个方向——让机器人更快、更安全地走进真实的工业环境；学术界则在同步补齐VLA模型的安全短板。国际局势方面，美国最高法院的裁决、俄乌能源设施停火表态、丹麦与俄罗斯的摩擦，都还有后续官方信息有待补全。感谢收听今天的晶球电台，我们明天再见。",
-  "editor_note": "本期机器人类事件时长约占全部时长的47%左右，符合45%-55%区间要求；因候选中缺少足够独立的医疗、金融、体育、娱乐类重大新闻，世界类新闻占比较高；涉及俄丹冲突、乌俄能源停火及五角大楼报告等条目均为单一或有限信源，已标注is_unverified并注明证据局限；arXiv论文均为未经同行评审的预印本，已在confidence_note中说明。",
+  "closing": "今天的内容就到这里。机器人领域，Digit的五代进化史展示了从研究平台到工业产品的完整路径，而几篇arXiv预印本论文则提醒抓取评估、主动感知等基础问题仍在持续被探索；国际新闻方面，瑞典政局更迭和科索沃战争罪裁决的后续走向，以及尼泊尔洪灾的搜救进展，都值得继续跟踪。",
+  "editor_note": "本期机器人类稿件覆盖了产业（Agility Robotics、军用UGV、跨界建筑、教育应用）与学术（arXiv三篇预印本）两条线，并引用了The Robot Report、IEEE Spectrum、Janes、CBS News等多个独立来源，避免单一媒体垄断。世界新闻部分优先选择了有明确事实与多方主张区分的三条报道（瑞典组阁、科索沃裁决、尼泊尔洪灾）。美联储稿件仅依据官方新闻稿标题与摘要，未获取具体降息基点数值，已在稿件中如实说明信息局限。robotics类时长合计585秒，占总时长的52.4%，符合45%-55%区间要求；全稿总时长约930秒，字数约4064字，均低于常规目标区间下限，因候选信息量有限，已在各条稿件中尽量深入解释背景与影响以保证内容质量。",
   "model": "claude-sonnet-5",
+  "generation_usage": [
+    {
+      "input_tokens": 9182,
+      "output_tokens": 8318,
+      "total_tokens": 17500
+    },
+    {
+      "input_tokens": 10211,
+      "output_tokens": 7999,
+      "total_tokens": 18210
+    }
+  ],
   "usage": {
-    "input_tokens": 9412,
-    "output_tokens": 9148,
-    "total_tokens": 18560
+    "input_tokens": 19393,
+    "total_tokens": 35710,
+    "output_tokens": 16317
   },
-  "generated_at": "2026-09-15T12:13:26+00:00",
-  "window_start": "2026-09-14T12:13:26+00:00",
-  "candidate_count": 371,
+  "generated_at": "2026-09-17T12:12:06+00:00",
+  "window_start": "2026-09-16T12:12:06+00:00",
+  "candidate_count": 365,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
+  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1230,
-    "script_characters": 4796,
-    "topic_duration_share": 0.5,
+    "duration_seconds": 1030,
+    "script_characters": 4064,
+    "topic_duration_share": 0.568,
     "passed": true,
-    "normal_target_met": true,
-    "topic_source_count": 3,
+    "normal_target_met": false,
+    "topic_source_count": 4,
     "issues": []
   }
 }
