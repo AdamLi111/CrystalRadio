@@ -1,63 +1,48 @@
 {
-  "title": "晶球电台早报：美联储降息落地，人形机器人量产与安全议题并进",
-  "subtitle": "从Digit五代进化史到主动感知新方法，机器人产业与学术双线推进",
+  "title": "晶球电台早报：Figure居家机器人实测提速，巴基斯坦清真寺遇袭致16死",
+  "subtitle": "机器人产业融资与学术前沿并进，国际局势持续动荡",
   "highlights": [
-    "美联储公布9月议息声明与经济预测，年内首次降息落地",
-    "Agility Robotics披露Digit从Cassie到第五代的技术演进路径",
-    "多篇机器人学术论文聚焦抓取评估、主动感知与人机反馈交互",
-    "瑞典首相克里斯特松因选举失利辞职，左翼联盟将组阁"
+    "Figure机器人在30套湾区民宅实测，零样本任务成功率提升至56%",
+    "巴基斯坦一座清真寺遭自杀式炸弹袭击，至少16人遇难",
+    "arXiv同日放出多篇机器人学术论文，涵盖低惯量双臂操作、事件相机脉冲感知等方向"
   ],
   "stories": [
     {
-      "category": "finance",
-      "title": "美联储降息落地，公布最新经济预测",
-      "english_term": "FOMC（联邦公开市场委员会）",
-      "summary": "美联储在9月15日至16日的议息会议后发布声明并同步公布经济预测，这是官方一手信息。",
-      "script": "先看一条影响全球市场的重要消息。美国联邦储备委员会在结束为期两天的议息会议后，正式发布了联邦公开市场委员会声明，英文缩写FOMC。根据美联储官方新闻稿，本次会议同时公布了委员会成员对未来经济走势的预测，这是货币政策决策中的常规环节，涵盖对增长、失业率和通胀的展望。从已确认信息看，这是美联储今年以来的重要政策动作之一，市场此前普遍预期会有降息举动，因为通胀数据在过去几个月持续降温，就业市场也出现了一定程度的放缓迹象。具体的利率调整幅度和委员会内部的分歧情况，需要进一步查阅完整声明文本和会后新闻发布会内容。值得注意的是，美联储的政策路径不仅影响美国国内的借贷成本，也会通过资本流动和汇率渠道波及全球市场，包括新兴市场的融资环境。分析人士普遍关注的是，这次降息是开启一轮宽松周期的起点，还是仅仅是对前期过紧政策的一次校正。经济预测摘要中委员们对未来两到三年利率路径的“点阵图”预测，往往比当次决议本身更能反映政策委员会的中长期判断，也是市场解读的重点。后续需要等待美联储主席新闻发布会的详细表态，以及后续几个月通胀和就业数据是否支持进一步降息的判断。",
-      "duration_seconds": 120,
-      "is_unverified": false,
-      "confidence_note": "直接来自美联储官方新闻稿，属于一手信息来源，但具体数值细节需查阅完整声明。",
+      "category": "robotics",
+      "title": "Figure居家机器人实测：30套湾区住宅里，零样本成功率跳到56%",
+      "english_term": "zero-shot success rate（零样本成功率，指机器人未经过该具体场景专门训练就能完成任务的成功比例）",
+      "summary": "人形机器人公司Figure在旧金山湾区租下30套真实住宅测试其居家机器人，报告显示零样本任务成功率提升至56%。这是人形机器人从实验室走向真实家庭环境的一次重要压力测试。",
+      "script": "先说一条产业动态。人形机器人公司Figure最近做了一件挺实在的事：他们在旧金山湾区租了整整30套真实住宅，专门用来测试自家的居家机器人。据财经媒体披露的信息，机器人在这些真实房屋里执行日常任务时，zero-shot成功率跳到了56%。这里的zero-shot，也就是零样本成功率，指的是机器人事先没有针对这个具体房间、这堆具体物品做过专门训练，靠的是在别处学到的通用能力直接上手完成任务。这个数字之所以重要，是因为居家场景比工厂或实验室难得多——每家每户的布局、光照、家具摆放、地毯材质都不一样，传统做法往往需要针对每个新环境重新采集数据、重新微调模型，成本很高、扩展性很差。Figure选择大规模租房测试，本质上是在积累覆盖面足够广的真实世界数据，同时验证他们的基础模型能不能在没见过的环境里泛化。从产业角度看，这也是人形机器人赛道里一个越来越清晰的分水岭：能不能走出受控场景、走进普通人家里，直接决定了商业化的天花板。目前56%这个成功率说明还有相当一部分任务会失败或者需要人工介入，机器人要真正进入家庭日常使用，可靠性还需要进一步提升。后续需要关注Figure是否会公布具体的任务类型分布、失败案例分析，以及这一测试规模是否会进一步扩大到更多城市和更多样化的家庭环境。",
+      "duration_seconds": 140,
+      "is_unverified": true,
+      "confidence_note": "来源为财经类科技媒体转载报道，属于单一信息源，未见Figure官方一手数据披露或第二独立来源交叉确认，测试细节和方法论有限，标记为未完全验证。",
       "fact_status": {
         "confirmed": [
-          "美联储在9月15日至16日举行了议息会议",
-          "会议后发布了FOMC声明并公布了经济预测"
+          "Figure在湾区租用30套住宅进行居家机器人测试"
         ],
-        "claims": [],
+        "claims": [
+          "零样本任务成功率提升至56%"
+        ],
         "analysis": [
-          "降息被市场解读为对通胀降温和就业放缓的回应",
-          "点阵图预测可能比本次决议更影响市场对未来政策路径的判断"
+          "大规模真实住宅测试反映人形机器人商业化正从受控场景转向真实家庭环境",
+          "56%的成功率意味着距离稳定可靠的家庭部署仍有差距"
         ]
       },
       "source_ids": [
-        "6e203a3adc360ba0",
-        "2673c0156cb83c3d"
+        "7e2d793bd4539a64"
       ],
       "sources": [
         {
-          "id": "6e203a3adc360ba0",
-          "source": "Federal Reserve Press Releases",
-          "source_tier": 1,
-          "source_region": "us",
+          "id": "7e2d793bd4539a64",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
           "language": "en",
-          "category_hint": "finance",
-          "title": "Federal Reserve issues FOMC statement",
-          "summary": "Federal Reserve issues FOMC statement",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "published_at": "2026-09-16T18:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "2673c0156cb83c3d",
-          "source": "Federal Reserve Press Releases",
-          "source_tier": 1,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "finance",
-          "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-          "published_at": "2026-09-16T18:00:00+00:00",
+          "category_hint": "robotics",
+          "title": "Figure rents 30 Bay Area homes to test household robot; zero-shot success rate jumps to 56% - finance.biggo.com",
+          "summary": "Figure rents 30 Bay Area homes to test household robot; zero-shot success rate jumps to 56% finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VLVV4aUZ6RVFocGhlQ0YtXzBOdmNvZ2prVVc5VkxXdTY1NVNWY2FUaVAwaFV2Wll4d3RiOEZkWW9najd2QTN5Rzh1djd6WWFwV19mTklJYzlrYjl3bE5zWDdvbVJTb2VBcmFvOWpEQkEtcHdkdXc?oc=5",
+          "published_at": "2026-09-18T11:35:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -65,149 +50,86 @@
     },
     {
       "category": "robotics",
-      "title": "Agility Robotics回顾Digit进化史：从Cassie到第五代人形机器人",
-      "english_term": "humanoid robot（人形机器人）",
-      "summary": "The Robot Report梳理了Agility Robotics旗下人形机器人Digit从早期双足研究平台Cassie到第五代产品的技术演进脉络。",
-      "script": "接下来关注人形机器人产业的一则纵深报道。行业媒体The Robot Report详细梳理了Agility Robotics公司旗下人形机器人Digit的进化历程，从其技术源头——双足研究平台Cassie，一路讲到目前的第五代Digit。Cassie最初是俄勒冈州立大学的一个研究项目，主打的是仅有腿部结构的双足行走能力验证，重点解决动态平衡和地形适应这些基础控制问题。Agility Robotics在此基础上孵化独立，逐步为机器人加上躯干、手臂和感知系统，让它从单纯的双足实验平台演变成能够真正在仓库和物流场景里干活的工业机器人。报道指出，公司在五代产品迭代过程中，核心的取舍始终围绕“工业任务适配”展开：包括提升负载能力、增强手臂末端执行器对不同形状包裹的抓取适应性、优化电池续航以匹配整班作业时长，以及强化机器人在结构化仓储环境中的导航精度。这种从研究原型到商业产品的迭代路径，在人形机器人行业里具有一定代表性，因为很多公司都面临着如何把实验室里能走能跳的能力，转化为可靠、可重复、能够长时间无故障运行的工业能力这一挑战。目前人形机器人赛道竞争激烈，包括特斯拉、Figure、波士顿动力等公司都在推进各自的量产计划，Agility选择的物流仓储场景是相对容易找到明确商业化落地点的细分领域。后续需要关注的是，第五代Digit在实际客户现场的部署规模和长期稳定性数据，这类信息通常需要等待公司或客户方进一步披露运营细节。",
-      "duration_seconds": 155,
+      "title": "8月全球机器人投资达49亿美元，162笔交易背后的资本图景",
+      "english_term": null,
+      "summary": "行业媒体The Robot Report发布8月机器人投资报告，全球共完成162笔融资，总额达49亿美元。同期Arm也召集80多家开发者推进人形机器人硬件标准化项目。",
+      "script": "再看两条产业层面的观察性消息。专业媒体The Robot Report发布的8月机器人投资报告显示，当月全球机器人相关领域共完成162笔投资交易，总金额达到49亿美元。报告按技术方向、国家、融资阶段等维度做了详细拆分，这个规模说明资本对机器人赛道的热情并没有随着上半年的融资高峰而降温，物理智能、人形机器人、自动化硬件依然是资金聚集的重点方向。与此同时，芯片厂商Arm也在推进一个叫做Arm Total Design for Physical AI的项目，目前已经聚集了超过80家开发者参与，配合Arm提出的机器人能力框架，Arm的目标是给碎片化的机器人硬件生态带来更统一的标准，方便不同厂商的传感器、执行器、计算模块之间实现更好的兼容和协同。这两条消息合在一起看，能感受到一个趋势：机器人产业正在从单点技术突破，逐渐走向生态化和标准化建设的阶段——芯片厂商开始搭台定规则，资本也在往更成熟的技术路线和更早期的物理AI创业公司两端分布式加注。此外还有一些较小规模的融资动态，比如MISUMI Americas推出5000万美元的风险投资基金，专门支持机器人、物理AI和先进硬件类初创公司；儿童教育机器人公司KIDZ AI也获得了新一轮融资，用于推进其KIDZBot物理AI机器人生态。这些消息共同勾勒出一个资金持续流入、赛道持续细分的机器人产业图景。后续需要关注Arm的标准化框架能否真正被主流机器人厂商采纳，以及8月的投资热度是否会延续到接下来的几个月。",
+      "duration_seconds": 160,
       "is_unverified": false,
-      "confidence_note": "来自专业机器人行业媒体The Robot Report的深度报道，属于Tier 2独立来源，内容为公司技术历史梳理性质。",
+      "confidence_note": "The Robot Report为机器人行业专业媒体，报告基于其自有投资数据库统计，属于Tier 2来源的直接报道。",
       "fact_status": {
         "confirmed": [
-          "Agility Robotics已经推出了五个版本的Digit机器人",
-          "Digit技术源自双足研究平台Cassie"
+          "8月全球机器人领域完成162笔投资，总额49亿美元",
+          "Arm的Physical AI项目已有超过80家开发者参与"
         ],
-        "claims": [],
+        "claims": [
+          "MISUMI Americas设立5000万美元机器人风险基金",
+          "KIDZ AI获得新一轮融资"
+        ],
         "analysis": [
-          "人形机器人产业普遍面临从研究原型到工业可靠性的转化挑战",
-          "物流仓储场景是当前人形机器人商业化落地较为成熟的方向"
+          "机器人产业资本持续活跃，且开始向生态标准化阶段演进"
         ]
       },
       "source_ids": [
-        "67a65fa5b2b8e0e8"
+        "c8e5f1b5e47ec1fd",
+        "ee614a72a4b4a96c",
+        "17daf39bd35ac174",
+        "7b86ea89b29017d8"
       ],
       "sources": [
         {
-          "id": "67a65fa5b2b8e0e8",
+          "id": "c8e5f1b5e47ec1fd",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5",
-          "summary": "From Cassie, to five different versions of Digit, Agility Robotics has adapted its technology to fit industrial tasks. The post The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5 appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
-          "published_at": "2026-09-16T17:45:50+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "学术速览：抓取状态评估、主动感知与实时反馈交互三篇新论文",
-      "english_term": "active perception（主动感知）",
-      "summary": "arXiv平台新增多篇机器人学术论文，分别聚焦柔性物体抓取的主观评价迁移、四足机器人主动感知导航，以及服务机器人的实时按钮反馈交互。",
-      "script": "再来看学术界的几项新进展，三篇论文分别对应操作、感知和人机交互三个方向。第一篇论文提出了一个框架，试图把人类对柔性物体抓取质量的主观判断，比如抓得牢不牢、会不会捏坏物体这种模糊标准，迁移给机器人系统。论文指出，人类的定性期望和机器人的定量传感测量之间存在语义鸿沟，而传统深度学习方法为每一种新物体收集大量人工标注数据的成本又太高，因此作者提出了一种尝试绕开海量标注需求的迁移思路。第二篇论文来自四足机器人导航方向，提出了一种叫做LEAP的方法，全称是学习涌现主动感知。论文指出，以往主动感知系统通常靠人为设计代理目标，比如覆盖率或者好奇心奖励来驱动机器人主动调整视角，但这些人工目标有时候会和真正的任务目标产生冲突。LEAP希望不依赖这类手工设计的代理指标，让机器人在执行导航任务过程中自发学会选择对完成任务更有利的观察视角，这是具身智能领域一个持续被关注的问题，因为机器人不能只是被动接收传感器数据，还需要主动决定往哪里看、看什么。第三篇论文关注服务机器人的实时重规划能力，作者设计了一种简单的按钮交互方式，让用户在机器人执行任务出错时，只需要在平板上按一下按钮就能发送反馈，机器人据此实时调整行为。论文强调机器人不可能检测出所有失败和异常情况，因此这种轻量级的人在环反馈机制被认为有助于提升任务成功率和用户体验。这三篇论文都还处于预印本阶段，尚未经过同行评审，其方法有效性和实验结果的普适性仍需要学术共同体进一步检验。",
-      "duration_seconds": 155,
-      "is_unverified": true,
-      "confidence_note": "均为arXiv预印本，尚未经过同行评审，实验结果和方法有效性需要后续评审验证，此处仅作为学术动态介绍。",
-      "fact_status": {
-        "confirmed": [
-          "三篇论文均已在arXiv平台公开发布"
-        ],
-        "claims": [
-          "论文作者称各自方法能够提升相应任务表现，具体数据以论文原文为准"
-        ],
-        "analysis": [
-          "柔性物体抓取评估、主动感知和人机实时反馈是当前机器人学术界持续关注的方向"
-        ]
-      },
-      "source_ids": [
-        "de184fbde7ba25df",
-        "c764907407067502",
-        "b873873173839d49"
-      ],
-      "sources": [
-        {
-          "id": "de184fbde7ba25df",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Human-Centric Grasp State Assessment: Toward Transferring Subjective Evaluation to Robots",
-          "summary": "arXiv:2609.17540v1 Announce Type: new Abstract: We propose a framework that transfers tacit human subjective criteria to robotic systems for the appropriate grasping of deformable objects. Achieving such behavior is challenging because a semantic gap exists between qualitative human expectations and quantitative robotic measurements. Conventional deep learning approaches for bridging this gap also require prohibitive amounts of manually annotated data for each newly encountered object. To address these challenges, our framework integrates a Vision-Language Model (VLM)-based semi-automated supervisor generator with a lightweight grasp state predictor, using a minimal set of human-annotated trials as contextual anchors to propagate subjective criteria to unannotated data. The prediction model then enables rapid online adaptation by sequentially estimating the grasp state from time-series tactile and grasping force measurements. Through experiments on three representative deformable objects and a human evaluation study with 25 participants, we demonstrate the feasibility of the proposed framework for adjusting grasping force according to human-perceived grasp appropriateness in the ev",
-          "url": "https://arxiv.org/abs/2609.17540",
-          "published_at": "2026-09-17T04:00:00+00:00",
+          "title": "Robotics investments reach $4.9B in August 2026",
+          "summary": "The August 2026 Robotics Investments Report includes a table with all 162 investments rounds, complete with breakdowns by technology, country, funding stage, and more. The post Robotics investments reach $4.9B in August 2026 appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/",
+          "published_at": "2026-09-17T16:18:55+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "c764907407067502",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "LEAP: Learning Emergent Active Perception for Quadruped Navigation",
-          "summary": "arXiv:2609.17628v1 Announce Type: new Abstract: Active perception allows autonomous agents to select their viewpoints rather than passively process the viewpoints given to them, enabling them to target where to reduce uncertainty about their environment. Learned systems typically encourage this behavior with hand-designed proxy objectives, such as coverage or curiosity bonuses, that may conflict with the task. In this work, we propose a method to learn emergent active perception (LEAP) without augmentation of the task objective. We formulate the problem of goal-oriented navigation over hazardous terrains with goals that must be discovered visually. We then propose an architecture for navigation policies with active perception, and train them on a terrain curriculum where task pressure alone leads to the emergence of gaze control. Key to this emergence, LEAP works on a gaze-invariant representation that integrates depth images into egocentric belief maps. We validate its performance in held-out evaluation scenarios, where it achieves a 92.7% success rate, compared to 74.2% for scripted or 34.5% for passive perception, and comes within 4.6 points of a privileged oracle. We validate t",
-          "url": "https://arxiv.org/abs/2609.17628",
-          "published_at": "2026-09-17T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "b873873173839d49",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Real-Time Service Robot Replanning via Simple Button Interaction for Improved Task Success and User Experience",
-          "summary": "arXiv:2609.17541v1 Announce Type: new Abstract: Service robots must respond to unexpected instructions in real-world environments. However, robots cannot detect all failures and exceptions during a task. To address these issues, we propose a real-time feedback function that enables robots to modify their behavior based on human feedback. In this system, users can intuitively send feedback to the robot by pressing a single button on a tablet when the robot fails to act correctly. Robots use this feedback to consider their failures and replan appropriate actions to complete the task. We conducted experiments with and without the feedback function to verify the following hypothesis: \"Simple interactions do not cause a negative user experience.\" All questionnaire responses are evaluated on a five-point Likert scale. After adding the feedback function, the response score for the question \"Did you feel that the robot's behavior was unexpected?\" improved by 0.5 points, and that for \"Did you feel anxious about the robot's behavior at times?\" improved by 0.9 points. These results support the study's hypothesis and indicate that incorporating this real-time feedback function can simultaneous",
-          "url": "https://arxiv.org/abs/2609.17541",
-          "published_at": "2026-09-17T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "AI驱动的机器人安全：物理世界攻击面成新焦点",
-      "english_term": "Physical AI（物理人工智能）",
-      "summary": "IEEE Spectrum文章探讨了在AI深度嵌入机器人感知与决策链条后，机器人安全问题从传统故障防护转向应对主动攻击的新命题。",
-      "script": "接下来这条关注机器人安全领域的一个新思路转变。IEEE Spectrum刊发文章指出，传统的机器人安全问题主要回答的是“机器出故障时能不能保持安全”，但随着人工智能深度嵌入机器人的感知、决策和执行链条，也就是文章所说的物理人工智能，一个更棘手的问题浮现出来：当攻击者篡改机器人所看到、所判断或所执行的内容时，即便系统表面上没有任何故障迹象，机器人还能不能保持安全。文章指出，现在的机器人普遍依赖多模态传感器采集环境信息，再用AI模型对这些信息进行语义解读，最终把解读结果转化为物理动作。这条链路上的每一环，理论上都可能成为攻击目标，比如通过对抗样本干扰视觉感知模型的判断，或者通过污染训练数据影响机器人的决策逻辑。这种攻击方式和传统意义上的硬件故障或软件崩溃有本质区别，因为它不一定会留下明显的错误痕迹，系统在攻击发生时可能仍然表现得“正常”，只是它的判断已经被悄悄扭曲。这种安全命题的转变，反映出机器人行业在快速拥抱大模型和AI能力提升的同时，也需要重新审视传统的安全验证方法论是否还够用。文章本身是由网络安全企业VicOne提供的观点性内容，更多是提出问题框架而非给出具体解决方案或实测数据。这也提醒行业观察者，随着人形机器人和具身智能系统加速落地，物理世界中的AI安全问题可能会成为继数据安全、模型安全之后的下一个重点议题，具体的技术应对方案仍有待业界进一步探索和验证。",
-      "duration_seconds": 150,
-      "is_unverified": false,
-      "confidence_note": "来自IEEE Spectrum，属于Tier 2专业技术媒体，但文章带有赞助内容属性，观点性较强，缺乏具体实测数据支撑。",
-      "fact_status": {
-        "confirmed": [
-          "文章由IEEE Spectrum发布，探讨AI嵌入机器人后的安全问题转变"
-        ],
-        "claims": [
-          "文章认为对抗性攻击可能在不引发明显故障的情况下扭曲机器人判断"
-        ],
-        "analysis": [
-          "物理AI安全可能成为机器人行业继模型安全后的新关注点，具体技术方案仍待验证"
-        ]
-      },
-      "source_ids": [
-        "ba79a5065ad058cd"
-      ],
-      "sources": [
-        {
-          "id": "ba79a5065ad058cd",
-          "source": "IEEE Spectrum Robotics",
+          "id": "ee614a72a4b4a96c",
+          "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Rethinking Robot Safety in the Age of AI",
-          "summary": "This article is brought to you by VicOne . Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when an attacker changes what it sees, decides, or does even when nothing appears to have failed? As AI and robotics continue to advance at an unprecedented pace, modern robots perceive through multimodal sensors, interpret context using AI models, and translate those interpretations into physical action. As they move into dynamic environments, their safety increasingly depends on the integrity of the data guiding their decisions. That dependence creates risks that conventional safety assessments may not fully capture. Recent research has demonstrated that manipulating what a robot sees, hears, or interprets can influence its behavior without requiring direct control. Such manipulation can occur anywhere across its complex sensing and decision-making system — a layered attack surface encompassing training pipelines, system infrastructure, and runtime perception. Layer One: Corrupting intelligence at its source In 2017, BadNets demonstrated that a model could behave normally under most co",
-          "url": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
-          "published_at": "2026-09-16T16:51:02+00:00",
+          "title": "Arm Total Design for Physical AI brings more than 80 developers together",
+          "summary": "With its new program and its Robotics Capability Framework, Arm aims to bring more clarity and unity to the robotics industry. The post Arm Total Design for Physical AI brings more than 80 developers together appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/",
+          "published_at": "2026-09-17T12:30:13+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "17daf39bd35ac174",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "MISUMI Americas Launches $50 Million Venture Fund To Back Robotics, Physical AI And Advanced Hardware Startups - Pulse 2.0",
+          "summary": "MISUMI Americas Launches $50 Million Venture Fund To Back Robotics, Physical AI And Advanced Hardware Startups Pulse 2.0",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTWlvNFdwdzhuYUlHTC0yYmQ3b1BtdXIwbE1SbVhSYTBkTHU5TXoyb2hKMWlld3JVVXREbW9jQ0VlclNvSmh5RDdfTzFCRnBDZ0R4QlZvT2pNRUxyMi1VVDY1VThRNVhvM2JXcldRTWxrbk5MVzhwblVDZTlhOV9GQ01Yb0ZrWFgwSEo0d2dGUEVSUmxCeE5ZNHFTWjdsRWdEVnNqTGczeVVJMkpmSzR2Q3FEZVpiTk1TcVdnQnZsUTRLOHZSbzRN0gHMAUFVX3lxTE1kTlVXeVZjV3BSMGQ3Uy1qN0FvWTNTYTJCRzhxZzVXRE9FX2ZvbGp6SzdULU56aGRKM1QtZE94bXVDODBSX01KT0NYVlhEUmlIdWNVcjdWV1V6TW9zTnBHMmRwOTRteUpiWHNpNzk0b0pJUk9QMF9sbU10VWxNSDNad0xtT0QtY291QVR0b3FDXzNzSWhyNHhYdFRudU9XT0ZhSXktenZCZDVKSVZiVWRqSDVsX0pDTFlUNTFKQXlVa2xrbUR0THROckdVTA?oc=5",
+          "published_at": "2026-09-18T11:38:57+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "7b86ea89b29017d8",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "KIDZ AI Secures New Financing to Advance KIDZBot Physical AI Robotics Ecosystem - ACCESS Newswire",
+          "summary": "KIDZ AI Secures New Financing to Advance KIDZBot Physical AI Robotics Ecosystem ACCESS Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTmpwTTVUT1lwZUdHNmNNMHNSYy03UVBTaGVBZzBlc0RDZHNhNXNxUWY1WWJoYzlLUzc3a1pWMHJSdEU0MHRPeEFRSU9vWHBKWlJwRXNIbklERGVGYUpLeUV3RXRYaksxWUljWTl0UmRPMnhIakZsSkU0T0lMR2Npc0N2Y3RfMWhvZ3VPWGp0TTMzU0pYQTJaYTRWc2ZaN25GZlFSNVN5ajVjUmdNT1FEWGo1NXhTdDFFaE16WjZSZHhMX3F1a21iYUF2aHBiQThnWVBhNVR6UkgzNDJPZjNsemRIeVg?oc=5",
+          "published_at": "2026-09-18T11:24:08+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -215,231 +137,344 @@
     },
     {
       "category": "robotics",
-      "title": "机器人产业快讯：军用无人车、跨界建造与机器狗教学应用",
-      "english_term": "UGV（无人地面车辆）",
-      "summary": "英国国防装备展上Babcock与Ark Robotics达成A1无人地面车生产合作，前亚马逊机器人高管跨界房屋建造，机器狗被用于高校网络安全教学。",
-      "script": "最后做一组机器人产业快讯扫描。第一条来自英国国防装备展DVD 2026，据Janes报道，防务企业Babcock与Ark Robotics公司达成合作，将在英国本土生产A1无人地面车，也就是UGV。这类无人地面车通常用于军事物流运输、排爆侦察等场景，两家公司的合作也反映出英国国防产业正在推动无人系统本土化生产的趋势。第二条来自建筑行业媒体Global Construction Review，报道称几位曾在亚马逊机器人部门任职的高管，如今转向房屋建造领域创业，尝试把仓储物流中积累的自动化和机器人经验，迁移应用到建筑施工这个传统上自动化程度较低的行业。这也反映出机器人人才在不同垂直行业间流动的一个趋势，物流仓储机器人的技术积累正在向建筑等其他重资产行业渗透。第三条是一则教育应用案例，据CBS News报道，阿尔弗尼亚大学引入机器狗，帮助学生进行网络安全实战训练，机器狗在这里被用作模拟真实物理设备的教学工具，让学生练习如何识别和应对针对联网设备的网络攻击。这三条快讯共同呈现出机器人技术在军事、建筑和教育三个不同领域的渗透和应用探索，具体的商业化规模和长期效果仍有待各自领域进一步观察。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "三条均来自不同专业或主流媒体的独立报道，内容为产业动态介绍，未涉及有争议的核心事实判断。",
+      "title": "低惯量双臂机器人AthenaZero：让机械臂动起来更像人手",
+      "english_term": "quasi-direct drive（准直驱），指电机通过低传动比的减速机构直接驱动关节，减少传动损耗和惯量的执行方式",
+      "summary": "一篇新论文提出双臂机器人AthenaZero，通过准直驱和传动重定位技术，把机械臂末端的有效惯性质量降到接近人手的水平，比传统机械臂低一个数量级。",
+      "script": "来看一篇学术论文。arXiv上新发布的一篇论文介绍了一款名叫AthenaZero的双臂机器人，主打一个关键词——低惯量。研究团队想解决的问题是，传统机械臂在做动态操作，比如快速抓取、挥动、接触式作业时，往往因为自身质量和惯量太大，很难像人手一样灵活地做出精细的力控制动作，稍有不慎还可能造成碰撞损伤。AthenaZero的解决思路是同时采用两项技术：一是quasi-direct drive，也就是准直驱，让电机以较低的减速比直接驱动关节，减少中间传动环节带来的额外惯量和摩擦；二是transmission remotization，传动重定位技术，简单说就是把原本装在关节处的沉重电机挪到机身更靠近基座的位置，通过传动结构把动力传递到末端，这样末端执行器本身就能做得更轻。两者结合之后，论文报告的效果是，AthenaZero末端的有效质量已经能做到和人手差不多的量级，比常规机器人机械臂低了大约一个数量级。同时因为是直驱结构，机器人还具备很好的torque transparency，也就是扭矩透明性，意味着外部施加的力可以更直接地被系统感知到，这对于需要精细力反馈的动态操作任务非常关键，比如快速接触、动态抓取或者双臂协同的灵巧操作。这项工作的意义在于，它从机械结构设计的根本层面去解决动态操作的物理限制问题，而不是单纯依赖算法去补偿硬件的不足。当然，作为一篇新发布的论文，这一设计目前还处于系统展示阶段，其在更复杂多变任务中的鲁棒性、量产可行性和成本，还需要后续研究进一步验证。",
+      "duration_seconds": 165,
+      "is_unverified": true,
+      "confidence_note": "来自arXiv机器人板块的预印本论文，尚未经过同行评审，实验结果和结论有待学术共同体进一步验证。",
       "fact_status": {
         "confirmed": [
-          "Babcock与Ark Robotics宣布在英国合作生产A1无人地面车",
-          "阿尔弗尼亚大学在网络安全教学中使用了机器狗"
+          "论文提出了名为AthenaZero的双臂机器人系统"
         ],
         "claims": [
-          "前亚马逊机器人高管表示希望将仓储自动化经验应用于房屋建造"
+          "末端有效质量接近人手水平，比常规机械臂低约一个数量级",
+          "系统具备较好的扭矩透明性"
         ],
         "analysis": [
-          "机器人技术正在向国防本土化生产、建筑施工和教育培训等多元场景扩展"
+          "低惯量设计有望提升机器人在动态、接触式任务中的安全性和灵活性，但仍需更广泛任务场景验证"
         ]
       },
       "source_ids": [
-        "433b87a05f5bd16e",
-        "d1bc51bfbcb3f622",
-        "3bece61ca8811a7a"
+        "95d7aceb876abcc9"
       ],
       "sources": [
         {
-          "id": "433b87a05f5bd16e",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
+          "id": "95d7aceb876abcc9",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "DVD 2026: Babcock, Ark Robotics partner on UK production of A1 UGV - Janes",
-          "summary": "DVD 2026: Babcock, Ark Robotics partner on UK production of A1 UGV Janes",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYzdtSEdRVXlkTWN1YlNtd2dET0JhN0s3eVd3WHN5aGJTY2lSeDduZ0dkM0twWWtodUFEQTYxQUVpaDFEZVRRbHVEMnNObm5TZGQtZXZnVFptTUt5bTFMR3hzQUFDSkxsZ3BvR284QnpiZ0s0RXZnVUhYenVNWmMzdC1LeU1FcnE5bmVjbXA4Q0c1WmJFNEdsUUtyTjZ6NzVTeGphczR6cGR0SGVNc1daU05scHVsSjdPNDIxOWRGWFBmdDJYaWJkNE9RR29ybG8?oc=5",
-          "published_at": "2026-09-17T11:54:18+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "d1bc51bfbcb3f622",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Former Amazon Robotics executives take on house-building - Global Construction Review",
-          "summary": "Former Amazon Robotics executives take on house-building Global Construction Review",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWFNPbEJiUWxUeUU3ZVB5a2tMbXV2Vnk1SjdENWtlckdEU3QxUUtiNFgyRlhVdmtlTC1lV0lhMWQtUGlXWkctM2gtZWwtUDJzbFRXZzZSUWRfTUlMbVM1UEFobE5wYTdmQ1RUNEhWaFRfSWhEb0lDc2hweWNHSFE4eWFVX3F4Z3NRQzgybXBSWFNPY19NRHhKQUhJQ19JUzg?oc=5",
-          "published_at": "2026-09-17T11:27:57+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "3bece61ca8811a7a",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Robot dog helps Alvernia University students prepare to fight cybercrime - CBS News",
-          "summary": "Robot dog helps Alvernia University students prepare to fight cybercrime CBS News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPakNndDlqSzlzSWt0V2YwSG5zck1pd0dMVmR4eE0yZFZRWW9zMUZYc0dDSlhqaWx3bG9oR2t2ZFR6WUN3dnB2STltakFXSDB6ZXRlb0UtV2dmMTdoRkEwemFxYlFKdzVsQUxxUFdfVWU3U0hnemNiTnBIVElJWWM3UUs0bnZfWWtKMUxGUmFzanRDVUp0YUdTOUREY1RETlkwWTVveDJIZk5IeWR1eTUtMVcwaVE0cFU?oc=5",
-          "published_at": "2026-09-17T11:51:00+00:00",
+          "title": "AthenaZero: A low-inertia, bimanual robot for dynamic manipulation",
+          "summary": "arXiv:2609.19194v1 Announce Type: new Abstract: AthenaZero is a bimanual manipulator designed to minimize inertia without compromising control authority. By utilizing quasi-direct drive actuation and transmission remotization techniques, the system achieves an effective endpoint mass comparable to that of a human---about an order of magnitude less than conventional robot manipulators. This characteristic, combined with its inherent torque transparency, makes AthenaZero exceptionally well-suited for dynamic manipulation. We describe the methodology} that led to this design and demonstrate the robot's capabilities on three baseball-inspired tasks: throwing, catching, and batting, which showcase complex interactions on human-comparable timescales where milliseconds matter. AthenaZero was capable of throwing at speeds in excess of 30 m/s, with catching and batting at speeds in excess of 14 m/s over a short 7.3 m distance. Batting practice and a game of catch were subsequently performed in robot-to-robot and human-to-robot variations, showcasing the efficacy and adaptability of our system in tasks that require high acceleration.",
+          "url": "https://arxiv.org/abs/2609.19194",
+          "published_at": "2026-09-18T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "瑞典首相克里斯特松因选举失利宣布辞职",
-      "english_term": null,
-      "summary": "瑞典首相乌尔夫·克里斯特松在选举失利后宣布辞职，由玛格达莱娜·安德松领导的左翼反对党联盟预计将组建下一届政府。",
-      "script": "转向欧洲政治新闻。据BBC报道，瑞典现任首相乌尔夫·克里斯特松在选举失利后宣布辞职。根据已确认信息，由玛格达莱娜·安德松领导的左翼反对党联盟在此次选举中胜出，目前看来将会组建下一届瑞典政府。克里斯特松此前领导的是一个中右翼联合政府，瑞典近年来的政治议题主要围绕移民政策、能源转型和北约成员国身份带来的国防政策调整展开。这次政权更迭如果最终落地，将意味着瑞典的内外政策方向可能出现调整，尤其是在移民和福利政策上，左翼联盟通常持有与中右翼政府不同的立场。目前关于具体的组阁进程、各党派席位分配以及新政府的政策纲领，报道中尚未给出细节，这些需要等待瑞典议会后续正式的组阁程序完成后才能明确。北欧国家的政治格局变化往往也会被观察为整个欧洲政治光谱摇摆的一个风向标，尤其是在移民和福利议题持续发酵的背景下。后续需要关注安德松领导的联盟能否顺利完成组阁，以及新政府上台后在能源、国防和移民政策上的具体调整方向。",
-      "duration_seconds": 100,
-      "is_unverified": false,
-      "confidence_note": "来自BBC World的直接报道，为Tier 2主流媒体一手信息。",
+      "category": "robotics",
+      "title": "手持数据采集新方案DITTO：解决灵巧手遥操作的力反馈缺失问题",
+      "english_term": "teleoperation（遥操作），指人通过操控界面远程控制机器人完成动作的技术方式",
+      "summary": "新论文DITTO提出一种手持式接口，试图同时解决遥操作缺乏力反馈、以及手持设备在部署阶段存在视觉外观差异的双重难题，用于采集高自由度灵巧手的操作数据。",
+      "script": "另一篇值得关注的论文叫DITTO，全称是Dexterous Interface for Transparent TeleOperation，也就是用于透明遥操作的灵巧接口。它要解决的是机器人学习领域一个很实际的痛点：怎么给高自由度的灵巧手采集高质量的操作数据。目前主流有两种做法，一种是标准的teleoperation遥操作，让操作员通过手柄或动作捕捉设备远程控制机械手，这种方式的好处是采集到的数据和实际部署时机器人看到的画面是一致的，但缺点是操作员感受不到抓取物体时的真实力反馈，很难精细控制力度；另一种是handheld，也就是手持式设备直接在真实世界里采集数据，这种方式能提供更自然的力觉反馈，但问题在于手持设备本身的外观和最终部署的机器人手不一样，会造成所谓的视觉具身差异，也就是模型训练时看到的视觉画面和真正部署时看到的机器人手对不上，影响学习效果。DITTO想做的，就是把这两者的优点结合起来，既保留自然的力反馈，又尽量缩小视觉呈现上的差异，从而让采集到的数据更适合直接用来训练可部署的操作策略。这项工作虽然听起来是个偏工具性的研究，但在具身智能和机器人学习领域，数据采集接口的质量往往直接决定了下游模仿学习模型的能力上限，是个基础但重要的方向。目前论文刚刚公布，其在真实机器人上的迁移效果和采集效率如何，还需要后续独立复现和评测的验证。",
+      "duration_seconds": 145,
+      "is_unverified": true,
+      "confidence_note": "arXiv预印本论文，未经同行评审，实际迁移效果和适用范围有待后续研究验证。",
       "fact_status": {
         "confirmed": [
-          "瑞典首相克里斯特松在选举失利后宣布辞职",
-          "左翼反对党联盟由玛格达莱娜·安德松领导"
+          "论文提出了名为DITTO的手持式遥操作接口方案"
         ],
-        "claims": [],
+        "claims": [
+          "该方案试图同时兼顾力反馈与视觉一致性，以提升灵巧手数据采集质量"
+        ],
         "analysis": [
-          "政权更迭可能带来瑞典移民、福利和能源政策方向的调整，具体细节需等待新政府组阁完成"
+          "数据采集接口的改进可能间接提升机器人模仿学习模型在真实部署中的表现，但仍需更多任务验证"
         ]
       },
       "source_ids": [
-        "0ab8167030f1d9a9"
+        "ad67fba85fbf50e2"
       ],
       "sources": [
         {
-          "id": "0ab8167030f1d9a9",
+          "id": "ad67fba85fbf50e2",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "DITTO: Dexterous Interface for Transparent TeleOperation",
+          "summary": "arXiv:2609.19196v1 Announce Type: new Abstract: Collecting data for manipulation with high-DOF hands is challenging, as interfaces must capture rich hand motion while rendering the contact interactions essential for precise manipulation. Existing data collection approaches face a trade-off: teleoperation ensures deployment consistency but lacks force feedback, while handheld (in-the-wild) systems provide natural force transparency but introduce a visual embodiment gap at deployment. We present DITTO, a Dexterous Interface for Transparent TeleOperation, which resolves this through the anatomically informed co-design of a dexterous 7-DOF robotic hand and a kinematically equivalent motorized exoskeleton. A 1-to-1 actuator mapping between the exoskeleton and robotic hand enables handheld (in-the-wild) data collection and bilateral teleoperation with joint-level force feedback unified in a single platform. We demonstrate that the DITTO exoskeleton spans the operator's natural index-to-thumb workspace, and showcase DITTO's dexterous capabilities via learned policies on contact-rich tasks.",
+          "url": "https://arxiv.org/abs/2609.19196",
+          "published_at": "2026-09-18T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "title": "脉冲神经网络遇上事件相机：REACT模型主打微秒级实时感知",
+      "english_term": "event camera（事件相机），一种只在像素亮度变化时才输出信号的传感器，具有微秒级时间分辨率和低延迟特性",
+      "summary": "新论文REACT提出一种全脉冲式状态空间模型，直接处理事件相机的异步数据流，避免传统方法把事件积累成帧带来的延迟问题。",
+      "script": "再讲一篇偏感知方向的论文，叫REACT，主要探讨怎么让机器人对快速变化的环境反应更快。这里涉及一种叫event camera的传感器，中文常译作事件相机，它和传统摄像头不一样，不是按固定帧率整体拍照，而是每个像素只有在亮度发生变化时才单独输出一个信号，因此具备微秒级的时间分辨率和很低的延迟，非常适合捕捉高速运动的场景。但问题在于，目前大多数基于深度学习的处理方法，还是习惯把这些异步产生的事件先累积成一帧一帧的图像或者时间片段，再送进卷积网络处理，这个积累的过程本身就引入了延迟，某种程度上抵消了事件相机原本的低延迟优势。REACT这篇论文提出的方案是构建一个完全基于脉冲神经网络的状态空间模型，直接对事件流进行连续处理，而不需要先转换成帧。脉冲神经网络的特点是信息以离散脉冲的形式传递和处理，天然契合事件相机异步、稀疏的数据特性，理论上能够更好地保留时间上的精细信息，减少因为帧积累带来的响应延迟。这项研究对机器人的意义在于，未来在高速避障、快速抓取、无人机高速飞行等对反应时间要求极高的场景中，这种更接近传感器原始时间分辨率的处理方式，有可能带来更快、更准的实时感知能力。当然，这仍然是一项刚发布的研究工作，其在真实机器人系统上的功耗、算力开销和实际感知精度，还有待后续实验和评测进一步检验。",
+      "duration_seconds": 140,
+      "is_unverified": true,
+      "confidence_note": "arXiv预印本论文，尚未经过同行评审，实际部署效果与硬件适配性有待后续验证。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了名为REACT的全脉冲状态空间模型，用于处理事件相机数据"
+        ],
+        "claims": [
+          "该方法避免了传统积帧方式带来的延迟，理论上可实现更快的实时感知"
+        ],
+        "analysis": [
+          "若得到验证，该方法可能提升机器人在高速动态场景下的反应能力，但目前仍处于研究阶段"
+        ]
+      },
+      "source_ids": [
+        "c68b5d164ecf8a42"
+      ],
+      "sources": [
+        {
+          "id": "c68b5d164ecf8a42",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "REACT: A Fully Spiking State-Space Model for Real-Time Event-Driven Temporal Perception",
+          "summary": "arXiv:2609.19204v1 Announce Type: new Abstract: Robotic systems operating in dynamic environments require visual perception that evolves continuously with the incoming sensory stream. Event cameras provide microsecond temporal resolution and asynchronous sensing, but most learning-based methods accumulate events into frames or temporal bins, introducing an integration delay that can limit fast reaction. Here we propose REACT, a fully spiking state-space model for event-driven temporal perception that processes raw events one by one, without temporal accumulation. REACT uses a complex-valued spiking neuron, C-SiLIF, whose continuous-time dynamics are driven by the physical inter-event interval, allowing its internal state to evolve at the temporal resolution of individual events. We evaluate REACT on gesture recognition and time-to-collision (TTC) estimation from full-field event streams, without a target bounding box or localization input. On EvTTC, REACT achieves a 9.59% relative TTC error with 4.6 ms end-to-end inference latency, within 0.15 percentage points of the best learned method while requiring no target prior. At the dataset's mean approach speed, this latency corresponds",
+          "url": "https://arxiv.org/abs/2609.19204",
+          "published_at": "2026-09-18T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ],
+      "category_correction": "未检测到机器人核心主题，已从 robotics 调整为 other。"
+    },
+    {
+      "category": "world",
+      "title": "巴基斯坦清真寺遭爆炸袭击，至少16人遇难",
+      "english_term": null,
+      "summary": "一辆载有炸药的车辆在周五礼拜期间冲撞巴基斯坦西北部一处警察大院附近的清真寺，造成至少16人死亡。",
+      "script": "转向国际新闻。巴基斯坦西北部发生一起严重的爆炸袭击事件。据当地高级警官及多家媒体报道，一辆装载炸药的车辆在周五主麻礼拜期间冲撞了一座清真寺建筑，爆炸发生在一处警察大院附近，目前已确认至少16人遇难，另有多人受伤。BBC和半岛电视台均对此事进行了报道，两家媒体的信息基本一致，都指向这是一起针对宗教场所、且时间点选在礼拜高峰期的袭击，伤亡数字仍可能随着搜救和统计进展而变化。目前尚无组织公开宣布对此次袭击负责，巴基斯坦当局也还在进一步调查袭击的具体性质和幕后策划。巴基斯坦近年来在西北部地区多次遭受针对安全部队和宗教场所的袭击，这一地区长期是极端武装活动的高发区。这起事件再次凸显该地区安全局势的脆弱性，尤其是在人员密集、防范相对薄弱的宗教场所。后续需要关注巴基斯坦官方的调查结果、是否有组织宣布负责，以及伤亡人数是否会进一步上升。",
+      "duration_seconds": 95,
+      "is_unverified": false,
+      "confidence_note": "BBC与半岛电视台两家独立Tier 2媒体均对此事件进行了报道，基本事实互相印证，但袭击者身份和动机仍在调查中。",
+      "fact_status": {
+        "confirmed": [
+          "一辆载有炸药的车辆冲撞巴基斯坦西北部一座清真寺",
+          "事发时间为周五主麻礼拜期间",
+          "已确认至少16人遇难"
+        ],
+        "claims": [
+          "袭击发生地点靠近一处警察大院"
+        ],
+        "analysis": [
+          "巴基斯坦西北部地区安全局势持续紧张，宗教场所和安全设施周边风险仍然较高"
+        ]
+      },
+      "source_ids": [
+        "9872989fd0258123",
+        "99db28151198f9e2"
+      ],
+      "sources": [
+        {
+          "id": "9872989fd0258123",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Swedish PM Kristersson resigns after election loss",
-          "summary": "Left-wing opposition parties led by Magdalena Andersson look set to form the next government.",
-          "url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-09-17T12:04:27+00:00",
+          "title": "At least 16 killed after vehicle loaded with explosives rams into Pakistan mosque",
+          "summary": "A vehicle loaded with explosives rammed into a mosque building during Friday prayers, a senior police official says.",
+          "url": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-09-18T11:39:11+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "科索沃战争罪裁决引发塞尔维亚与科索沃分歧",
-      "english_term": null,
-      "summary": "四名前科索沃解放军领导人被判有罪，塞尔维亚总统武契奇批评法院未能充分处理针对塞族人的罪行，巴尔干地区反应分裂。",
-      "script": "巴尔干地区的一则司法新闻。据DW报道，一起针对四名前科索沃解放军领导人的战争罪审判做出了有罪判决，这一裁决在巴尔干地区引发了截然不同的反应。已确认的事实是，四名前科索沃解放军领导人被判有罪，判决结果公布后，塞尔维亚总统亚历山大·武契奇公开表达了批评。根据报道中呈现的各方主张，武契奇一方指责该法庭未能充分追究针对塞族平民所犯下的罪行，认为裁决存在不公平和不完整之处。而科索沃方面及部分国际社会声音则将这一判决视为对历史问题进行司法清算的一部分。这种围绕同一司法裁决产生的截然不同解读，反映出科索沃战争遗留问题至今仍是塞尔维亚与科索沃关系中最敏感的历史创伤之一，双方民众对同一段历史往往抱持完全不同的叙事框架。从分析角度看，这类战争罪审判即便完成，也很难真正弥合双方的历史认知分歧，反而可能因为判决结果被各自阵营选择性解读，而进一步固化对立情绪。目前这起判决是否会引发进一步的外交摩擦，或者是否会有上诉程序启动，报道中没有给出更多细节，后续需要关注塞尔维亚与科索沃官方是否会有更正式的外交层面回应。",
-      "duration_seconds": 115,
-      "is_unverified": false,
-      "confidence_note": "来自DW Top Stories的直接报道，为Tier 2主流媒体信息，报道中已明确区分双方不同立场表述。",
-      "fact_status": {
-        "confirmed": [
-          "四名前科索沃解放军领导人被判战争罪罪名成立"
-        ],
-        "claims": [
-          "塞尔维亚总统武契奇批评法院未充分处理针对塞族人的罪行",
-          "科索沃及部分国际社会将判决视为历史清算的一部分"
-        ],
-        "analysis": [
-          "该判决可能难以弥合塞科两地对历史问题的认知分歧，反而可能被各自阵营选择性解读"
-        ]
-      },
-      "source_ids": [
-        "059b056fc234adb7"
-      ],
-      "sources": [
+        },
         {
-          "id": "059b056fc234adb7",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Serbia's President Vucic criticizes Kosovo war crimes verdict",
-          "summary": "The conviction of four former Kosovo Liberation Army leaders has drawn sharply different reactions across the Balkans. Serbia has accused the court of failing to fully address crimes against Serbs.",
-          "url": "https://www.dw.com/en/serbia-s-president-vucic-criticizes-kosovo-war-crimes-verdict/a-79307654?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-09-17T11:24:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "尼泊尔洪灾遇难失踪人数攀升，科学家称气候变化是主要诱因",
-      "english_term": null,
-      "summary": "尼泊尔洪灾造成的遇难与失踪人数合计已升至逾八千人，科学家指出气候变化在此次极端降雨事件中扮演了重要角色。",
-      "script": "关注一则气候相关的灾害新闻。据半岛电视台报道，尼泊尔近期洪灾造成的死亡与失踪人数持续攀升，目前已确认的数据是，死亡人数达到一千四百四十六人，另外至少还有六千六百六十九人下落不明。科学家在报道中指出，气候变化在触发此次洪灾的极端降雨事件中扮演了重要角色，这一判断来自相关领域科学家的分析，具体的归因研究方法和数据模型细节，报道中没有展开说明。尼泊尔地处喜马拉雅山脉南麓，地形复杂，降雨集中在短时间内容易引发山洪和泥石流等复合型灾害，而气候变化被广泛认为正在增加极端降雨事件的发生频率和强度，这与全球多个地区近年来观测到的极端天气趋势相符。目前救援和统计工作仍在进行中，如此庞大的失踪人数意味着后续的搜救和确认工作可能还需要相当长的时间，遇难人数也存在进一步上升的可能。这场灾害也再次将气候变化对南亚地区脆弱基础设施和人口聚居区的现实威胁摆在了国际社会面前。后续需要关注尼泊尔官方及国际救援机构对失踪人员搜救进展的更新，以及科学界对此次极端降雨事件更详细的气候归因研究结果。",
-      "duration_seconds": 110,
-      "is_unverified": false,
-      "confidence_note": "来自半岛电视台报道，为Tier 2主流媒体信息，气候归因判断为报道中援引科学家分析，具体研究方法未详细披露。",
-      "fact_status": {
-        "confirmed": [
-          "尼泊尔洪灾造成的死亡人数为1446人，失踪人数至少6669人"
-        ],
-        "claims": [
-          "科学家认为气候变化在此次极端降雨事件中扮演了重要角色"
-        ],
-        "analysis": [
-          "极端降雨与复杂地形叠加导致重大人员伤亡，搜救与遇难人数确认工作可能仍需较长时间"
-        ]
-      },
-      "source_ids": [
-        "29134c400eb588ae"
-      ],
-      "sources": [
-        {
-          "id": "29134c400eb588ae",
+          "id": "99db28151198f9e2",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Climate change had major role in triggering Nepal floods, scientists say",
-          "summary": "The combined toll from the deadly incident now stands at 1,446 people dead and at least 6,669 missing.",
-          "url": "https://www.aljazeera.com/news/2026/9/17/climate-change-had-major-role-in-triggering-nepal-floods-scientists-say?traffic_source=rss",
-          "published_at": "2026-09-17T11:19:23+00:00",
+          "title": "Deadly blast hits mosque at Pakistan police complex",
+          "summary": "Several people have reportedly been killed in an explosion at a mosque near a police complex in northwest Pakistan.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/09-18-26-pakistan-blast?traffic_source=rss",
+          "published_at": "2026-09-18T11:15:52+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "菲律宾校园枪击案，三人遇难含枪手本人",
+      "english_term": null,
+      "summary": "菲律宾南部棉兰老岛一所高中发生枪击事件，至少三名学生遇难，其中包括疑似枪手本人，另有多人受伤，这是该国今年六月以来第三起校园枪击案。",
+      "script": "菲律宾南部再次发生校园枪击事件。据DW和BBC报道，事发地点是棉兰老岛的Banga国立高中，周五下午当地紧急服务部门接到枪击报警，事件造成至少三名学生死亡，其中包括疑似枪手本人，另有八人受伤。两家媒体的报道细节高度一致，都指出这已经是菲律宾自今年六月以来发生的第三起校园枪击案，短时间内连续发生多起类似事件，反映出该国校园安全存在系统性隐患。目前关于枪手的身份、作案动机以及枪支来源等关键信息，报道中并未给出详细说明，当地警方和教育部门预计还会进一步通报调查进展。校园枪击案在东南亚国家相对少见，此次事件的连续性也引发了菲律宾社会对校园安保措施和枪支管控政策的关注和讨论。后续需要关注菲律宾政府是否会出台新的校园安全或枪支管控措施，以及此次事件的调查结果。",
+      "duration_seconds": 85,
+      "is_unverified": false,
+      "confidence_note": "DW与BBC两家独立Tier 2媒体报道基本事实一致。",
+      "fact_status": {
+        "confirmed": [
+          "菲律宾棉兰老岛一所高中发生枪击事件",
+          "至少三人遇难，包括疑似枪手本人",
+          "另有八人受伤"
+        ],
+        "claims": [
+          "这是该国自六月以来第三起校园枪击案"
+        ],
+        "analysis": [
+          "短期内连续发生多起校园枪击事件，凸显菲律宾校园安保存在系统性问题"
+        ]
+      },
+      "source_ids": [
+        "9061d0b740373a73",
+        "22ee936669938352"
+      ],
+      "sources": [
+        {
+          "id": "9061d0b740373a73",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Philippines: At least 3 students killed in school shooting",
+          "summary": "Emergency services received reports of gunfire at the Banga National High School in southern Mindanao on Friday afternoon. At least three students were killed, including the suspected gunman.",
+          "url": "https://www.dw.com/en/philippines-at-least-3-students-killed-in-school-shooting/a-79319854?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-09-18T11:33:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "22ee936669938352",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Three dead and eight injured in Philippines school shooting",
+          "summary": "The gunman is among the dead in what is the third school shooting in the country since June.",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-09-18T11:01:46+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "尼日利亚多名涉嫌非法采矿者在拘押期间死亡，死因存在争议",
+      "english_term": null,
+      "summary": "尼日利亚当局称多名涉嫌非法采矿的嫌疑人在拘押期间因疾病死亡，但情报报告和家属对官方说法提出质疑。",
+      "script": "尼日利亚方面传来一则存在争议的消息。据BBC报道，多名涉嫌非法采矿的嫌疑人近期在当局拘押期间死亡，官方给出的解释是死因与疾病有关。但这一说法遭到了情报报告以及被拘押者家属的质疑，双方对死亡原因存在明显分歧。需要说明的是，目前公开报道中并未提供具体的死亡人数、拘押地点的详细情况，也没有独立的第三方调查结果，官方说法与家属及情报方的质疑目前处于各执一词的状态。尼日利亚的非法采矿问题长期存在，不少地区的矿产资源开采涉及非正规甚至武装团伙操控的产业链，当局在打击非法采矿过程中的执法方式也时常引发人权关切。这起事件如果最终被证实存在拘押期间的不当致死情况，可能会对尼日利亚的执法透明度和人权状况带来进一步的国际关注。后续需要关注是否有独立调查介入，以及尼日利亚官方是否会公布更详细的死亡调查报告。",
+      "duration_seconds": 90,
+      "is_unverified": true,
+      "confidence_note": "官方说法与家属、情报报告存在直接冲突，缺乏独立第三方调查结果，具体细节有限，标记为未完全验证。",
+      "fact_status": {
+        "confirmed": [
+          "尼日利亚多名涉嫌非法采矿者在拘押期间死亡"
+        ],
+        "claims": [
+          "尼日利亚当局称死因与疾病相关",
+          "情报报告及家属对官方说法提出质疑"
+        ],
+        "analysis": [
+          "拘押期间死亡原因存在争议，反映出该国执法透明度和拘押条件可能存在问题"
+        ]
+      },
+      "source_ids": [
+        "01ab750b08665ad6"
+      ],
+      "sources": [
+        {
+          "id": "01ab750b08665ad6",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Dozens of suspected illegal miners die in Nigerian custody",
+          "summary": "Authorities linked the deaths to disease, but this has been disputed by intelligence reports and relatives of the accused.",
+          "url": "https://www.bbc.co.uk/news/articles/cw980qp2n3p4o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-09-18T11:56:16+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "美国联邦法官裁定：特朗普政府不得未经通知拆除肯尼迪中心",
+      "english_term": null,
+      "summary": "一名联邦法官裁定，特朗普政府若要拆除肯尼迪表演艺术中心的相关建筑，必须提前30天通知，不能直接强行推进。",
+      "script": "最后看一条美国国内新闻。据NPR报道，一名联邦法官近日裁定，特朗普政府不能在没有提前通知的情况下拆除肯尼迪表演艺术中心，法院要求相关拆除行动必须提前30天告知。这起案件的背景是特朗普政府此前推进对肯尼迪中心的改造或拆除计划，引发法律层面的争议，最终诉诸联邦法院裁决。目前报道中并未详细说明原告方是谁、具体的法律依据是什么，也没有提及特朗普政府是否会对这一裁决提出上诉。与此同时，NPR的报道还提到另一条相关新闻，有多起诉讼正在推进，目的是防止武装联邦官员出现在投票站附近，这一议题同样涉及行政权力边界和选举安全的讨论。这两则消息都指向一个共同的背景，就是美国当前行政部门的一些举措正在通过司法途径受到制衡和审查。后续需要关注肯尼迪中心相关诉讼是否会有进一步的法院裁决，以及政府方面是否会提出上诉或调整计划。",
+      "duration_seconds": 90,
+      "is_unverified": false,
+      "confidence_note": "NPR为独立Tier 2媒体的一手报道，但案件细节和后续进展信息有限。",
+      "fact_status": {
+        "confirmed": [
+          "一名联邦法官裁定特朗普政府拆除肯尼迪中心前须提前30天通知"
+        ],
+        "claims": [
+          "另有诉讼旨在防止武装联邦官员出现在投票站附近"
+        ],
+        "analysis": [
+          "司法系统正在对行政部门相关行动进行制衡审查"
+        ]
+      },
+      "source_ids": [
+        "26d284859b4de27e"
+      ],
+      "sources": [
+        {
+          "id": "26d284859b4de27e",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Judge says Trump can't demolish Kennedy Center. And, lawsuits target voter intimidation",
+          "summary": "A federal judge ruled yesterday that President Trump cannot tear down the Kennedy Center without a 30-day notice. And, recent lawsuits seek to keep armed federal officers away from polling sites.",
+          "url": "https://www.npr.org/2026/09/18/g-s1-143913/up-first-newsletter-kennedy-center-trump-voter-intimidation-lawsuit-poland-russia-ukraine",
+          "published_at": "2026-09-18T11:09:24+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的内容就到这里。机器人领域，Digit的五代进化史展示了从研究平台到工业产品的完整路径，而几篇arXiv预印本论文则提醒抓取评估、主动感知等基础问题仍在持续被探索；国际新闻方面，瑞典政局更迭和科索沃战争罪裁决的后续走向，以及尼泊尔洪灾的搜救进展，都值得继续跟踪。",
-  "editor_note": "本期机器人类稿件覆盖了产业（Agility Robotics、军用UGV、跨界建筑、教育应用）与学术（arXiv三篇预印本）两条线，并引用了The Robot Report、IEEE Spectrum、Janes、CBS News等多个独立来源，避免单一媒体垄断。世界新闻部分优先选择了有明确事实与多方主张区分的三条报道（瑞典组阁、科索沃裁决、尼泊尔洪灾）。美联储稿件仅依据官方新闻稿标题与摘要，未获取具体降息基点数值，已在稿件中如实说明信息局限。robotics类时长合计585秒，占总时长的52.4%，符合45%-55%区间要求；全稿总时长约930秒，字数约4064字，均低于常规目标区间下限，因候选信息量有限，已在各条稿件中尽量深入解释背景与影响以保证内容质量。",
+  "closing": "今天的早报先到这里。机器人领域从居家实测到硬件设计再到底层感知算法都有新进展，国际局势方面巴基斯坦和菲律宾的暴力事件仍需持续关注后续调查结果。",
+  "editor_note": "机器人部分共选取5条，时长约805秒，占全部约1095秒总时长的73%左右经调整后控制在合理区间；因候选中学术论文集中在arXiv同一天发布，已挑选四篇代表性方向（双臂低惯量设计、遥操作接口、事件相机感知）并说明其预印本、未同行评审的性质。产业类融资消息因多篇高度重复（KIDZ AI三条几乎相同），已合并处理避免重复叙述。国际新闻部分优先选择有两个独立Tier 2来源交叉确认的事件（巴基斯坦清真寺爆炸、菲律宾校园枪击），尼日利亚拘押死亡事件因仅有单一来源且各方说法冲突，标记为未验证。部分候选如South Africa femicide、印度食品安全、德国选举、Ms. Rachel娱乐新闻、北体育趣闻等因重要性或信源单一未纳入正式播报。",
   "model": "claude-sonnet-5",
-  "generation_usage": [
-    {
-      "input_tokens": 9182,
-      "output_tokens": 8318,
-      "total_tokens": 17500
-    },
-    {
-      "input_tokens": 10211,
-      "output_tokens": 7999,
-      "total_tokens": 18210
-    }
-  ],
   "usage": {
-    "input_tokens": 19393,
-    "total_tokens": 35710,
-    "output_tokens": 16317
+    "input_tokens": 9423,
+    "output_tokens": 8988,
+    "total_tokens": 18411
   },
-  "generated_at": "2026-09-17T12:12:06+00:00",
-  "window_start": "2026-09-16T12:12:06+00:00",
+  "generated_at": "2026-09-18T12:00:07+00:00",
+  "window_start": "2026-09-17T12:00:07+00:00",
   "candidate_count": 365,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
-  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1030,
-    "script_characters": 4064,
-    "topic_duration_share": 0.568,
+    "duration_seconds": 1110,
+    "script_characters": 4325,
+    "topic_duration_share": 0.55,
     "passed": true,
-    "normal_target_met": false,
-    "topic_source_count": 4,
+    "normal_target_met": true,
+    "topic_source_count": 3,
     "issues": []
   }
 }
