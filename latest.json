@@ -1,135 +1,49 @@
 {
-  "title": "晶球电台早报：Figure居家机器人实测提速，巴基斯坦清真寺遇袭致16死",
-  "subtitle": "机器人产业融资与学术前沿并进，国际局势持续动荡",
+  "title": "晶球电台早报：SoftBank收购RAI研究所，美丹格陵兰安全协议落地",
+  "subtitle": "机器人产业并购加速，家用机器人零样本泛化引关注；国际局势多线升温",
   "highlights": [
-    "Figure机器人在30套湾区民宅实测，零样本任务成功率提升至56%",
-    "巴基斯坦一座清真寺遭自杀式炸弹袭击，至少16人遇难",
-    "arXiv同日放出多篇机器人学术论文，涵盖低惯量双臂操作、事件相机脉冲感知等方向"
+    "SoftBank宣布收购波士顿动力关联的Robotics and AI Institute，交易正接受美国外国投资审查",
+    "一款家用机器人在30个未见过的真实家庭中完成零样本（zero-shot）家务任务，引发对具身智能泛化能力的讨论",
+    "美国与丹麦就格陵兰安全部署达成协议，特朗普此前多次威胁吞并该岛",
+    "法国、波兰等欧洲国家联合警告俄罗斯“混合战”攻击升级"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "Figure居家机器人实测：30套湾区住宅里，零样本成功率跳到56%",
-      "english_term": "zero-shot success rate（零样本成功率，指机器人未经过该具体场景专门训练就能完成任务的成功比例）",
-      "summary": "人形机器人公司Figure在旧金山湾区租下30套真实住宅测试其居家机器人，报告显示零样本任务成功率提升至56%。这是人形机器人从实验室走向真实家庭环境的一次重要压力测试。",
-      "script": "先说一条产业动态。人形机器人公司Figure最近做了一件挺实在的事：他们在旧金山湾区租了整整30套真实住宅，专门用来测试自家的居家机器人。据财经媒体披露的信息，机器人在这些真实房屋里执行日常任务时，zero-shot成功率跳到了56%。这里的zero-shot，也就是零样本成功率，指的是机器人事先没有针对这个具体房间、这堆具体物品做过专门训练，靠的是在别处学到的通用能力直接上手完成任务。这个数字之所以重要，是因为居家场景比工厂或实验室难得多——每家每户的布局、光照、家具摆放、地毯材质都不一样，传统做法往往需要针对每个新环境重新采集数据、重新微调模型，成本很高、扩展性很差。Figure选择大规模租房测试，本质上是在积累覆盖面足够广的真实世界数据，同时验证他们的基础模型能不能在没见过的环境里泛化。从产业角度看，这也是人形机器人赛道里一个越来越清晰的分水岭：能不能走出受控场景、走进普通人家里，直接决定了商业化的天花板。目前56%这个成功率说明还有相当一部分任务会失败或者需要人工介入，机器人要真正进入家庭日常使用，可靠性还需要进一步提升。后续需要关注Figure是否会公布具体的任务类型分布、失败案例分析，以及这一测试规模是否会进一步扩大到更多城市和更多样化的家庭环境。",
+      "title": "SoftBank宣布收购Robotics and AI Institute，机器人研发资源加速整合",
+      "english_term": "Robotics and AI Institute（RAI，机器人与人工智能研究所，前身与波士顿动力有关联的研究机构）",
+      "summary": "软银集团宣布将收购机器人与人工智能研究所，交易目前正在接受美国外国投资委员会（CFIUS）审查。",
+      "script": "先来看一条机器人产业的并购消息。软银集团宣布已同意收购Robotics and AI Institute，简称RAI，这家机构此前与波士顿动力有渊源，长期专注于腿式机器人、动态运动控制等前沿研究。据行业媒体The Robot Report报道，这笔交易此前已经传闻了数月，如今终于落地，但目前还处在美国外国投资委员会，也就是CFIUS的审查阶段，这是美国政府对涉及外资并购是否影响国家安全进行审核的程序，软银作为日本企业收购一家美国研究机构，需要走完这道关卡才能最终完成交易。RAI的研究方向覆盖了机器人的动力学建模、控制算法和机构设计，这些都是人形机器人和四足机器人能够稳定行走、奔跑、跳跃背后的核心技术积累。软银近年来在机器人和人工智能领域动作频频，此前已经通过收购波士顿动力本身来布局腿式机器人赛道，如今再拿下RAI，被外界解读为进一步整合研发资源、补强技术护城河的举动。从产业角度看，这类并购反映出机器人行业正在从单纯的硬件制造，转向对核心算法与控制技术的争夺，谁掌握了动态平衡和运动规划的关键技术，谁就更有可能在人形机器人和四足机器人的商业化竞赛中占据优势。不过目前交易细节，包括收购金额、RAI团队去留安排等信息均未披露。后续需要等待CFIUS审查结果公布，以及软银官方进一步说明整合计划和研发路线图。",
       "duration_seconds": 140,
-      "is_unverified": true,
-      "confidence_note": "来源为财经类科技媒体转载报道，属于单一信息源，未见Figure官方一手数据披露或第二独立来源交叉确认，测试细节和方法论有限，标记为未完全验证。",
-      "fact_status": {
-        "confirmed": [
-          "Figure在湾区租用30套住宅进行居家机器人测试"
-        ],
-        "claims": [
-          "零样本任务成功率提升至56%"
-        ],
-        "analysis": [
-          "大规模真实住宅测试反映人形机器人商业化正从受控场景转向真实家庭环境",
-          "56%的成功率意味着距离稳定可靠的家庭部署仍有差距"
-        ]
-      },
-      "source_ids": [
-        "7e2d793bd4539a64"
-      ],
-      "sources": [
-        {
-          "id": "7e2d793bd4539a64",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Figure rents 30 Bay Area homes to test household robot; zero-shot success rate jumps to 56% - finance.biggo.com",
-          "summary": "Figure rents 30 Bay Area homes to test household robot; zero-shot success rate jumps to 56% finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VLVV4aUZ6RVFocGhlQ0YtXzBOdmNvZ2prVVc5VkxXdTY1NVNWY2FUaVAwaFV2Wll4d3RiOEZkWW9najd2QTN5Rzh1djd6WWFwV19mTklJYzlrYjl3bE5zWDdvbVJTb2VBcmFvOWpEQkEtcHdkdXc?oc=5",
-          "published_at": "2026-09-18T11:35:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "8月全球机器人投资达49亿美元，162笔交易背后的资本图景",
-      "english_term": null,
-      "summary": "行业媒体The Robot Report发布8月机器人投资报告，全球共完成162笔融资，总额达49亿美元。同期Arm也召集80多家开发者推进人形机器人硬件标准化项目。",
-      "script": "再看两条产业层面的观察性消息。专业媒体The Robot Report发布的8月机器人投资报告显示，当月全球机器人相关领域共完成162笔投资交易，总金额达到49亿美元。报告按技术方向、国家、融资阶段等维度做了详细拆分，这个规模说明资本对机器人赛道的热情并没有随着上半年的融资高峰而降温，物理智能、人形机器人、自动化硬件依然是资金聚集的重点方向。与此同时，芯片厂商Arm也在推进一个叫做Arm Total Design for Physical AI的项目，目前已经聚集了超过80家开发者参与，配合Arm提出的机器人能力框架，Arm的目标是给碎片化的机器人硬件生态带来更统一的标准，方便不同厂商的传感器、执行器、计算模块之间实现更好的兼容和协同。这两条消息合在一起看，能感受到一个趋势：机器人产业正在从单点技术突破，逐渐走向生态化和标准化建设的阶段——芯片厂商开始搭台定规则，资本也在往更成熟的技术路线和更早期的物理AI创业公司两端分布式加注。此外还有一些较小规模的融资动态，比如MISUMI Americas推出5000万美元的风险投资基金，专门支持机器人、物理AI和先进硬件类初创公司；儿童教育机器人公司KIDZ AI也获得了新一轮融资，用于推进其KIDZBot物理AI机器人生态。这些消息共同勾勒出一个资金持续流入、赛道持续细分的机器人产业图景。后续需要关注Arm的标准化框架能否真正被主流机器人厂商采纳，以及8月的投资热度是否会延续到接下来的几个月。",
-      "duration_seconds": 160,
       "is_unverified": false,
-      "confidence_note": "The Robot Report为机器人行业专业媒体，报告基于其自有投资数据库统计，属于Tier 2来源的直接报道。",
+      "confidence_note": "基于The Robot Report的报道，交易已获软银确认但仍处于监管审查阶段，属于官方一手信息但尚未完全落地",
       "fact_status": {
         "confirmed": [
-          "8月全球机器人领域完成162笔投资，总额49亿美元",
-          "Arm的Physical AI项目已有超过80家开发者参与"
+          "软银已同意收购Robotics and AI Institute",
+          "交易正接受CFIUS审查"
         ],
         "claims": [
-          "MISUMI Americas设立5000万美元机器人风险基金",
-          "KIDZ AI获得新一轮融资"
+          "该交易此前已传闻数月"
         ],
         "analysis": [
-          "机器人产业资本持续活跃，且开始向生态标准化阶段演进"
+          "此举被视为软银整合腿式机器人与动态控制研发资源的战略动作"
         ]
       },
       "source_ids": [
-        "c8e5f1b5e47ec1fd",
-        "ee614a72a4b4a96c",
-        "17daf39bd35ac174",
-        "7b86ea89b29017d8"
+        "e1c90e36dc9c185e"
       ],
       "sources": [
         {
-          "id": "c8e5f1b5e47ec1fd",
+          "id": "e1c90e36dc9c185e",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Robotics investments reach $4.9B in August 2026",
-          "summary": "The August 2026 Robotics Investments Report includes a table with all 162 investments rounds, complete with breakdowns by technology, country, funding stage, and more. The post Robotics investments reach $4.9B in August 2026 appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/",
-          "published_at": "2026-09-17T16:18:55+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "ee614a72a4b4a96c",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Arm Total Design for Physical AI brings more than 80 developers together",
-          "summary": "With its new program and its Robotics Capability Framework, Arm aims to bring more clarity and unity to the robotics industry. The post Arm Total Design for Physical AI brings more than 80 developers together appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/",
-          "published_at": "2026-09-17T12:30:13+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "17daf39bd35ac174",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "MISUMI Americas Launches $50 Million Venture Fund To Back Robotics, Physical AI And Advanced Hardware Startups - Pulse 2.0",
-          "summary": "MISUMI Americas Launches $50 Million Venture Fund To Back Robotics, Physical AI And Advanced Hardware Startups Pulse 2.0",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTWlvNFdwdzhuYUlHTC0yYmQ3b1BtdXIwbE1SbVhSYTBkTHU5TXoyb2hKMWlld3JVVXREbW9jQ0VlclNvSmh5RDdfTzFCRnBDZ0R4QlZvT2pNRUxyMi1VVDY1VThRNVhvM2JXcldRTWxrbk5MVzhwblVDZTlhOV9GQ01Yb0ZrWFgwSEo0d2dGUEVSUmxCeE5ZNHFTWjdsRWdEVnNqTGczeVVJMkpmSzR2Q3FEZVpiTk1TcVdnQnZsUTRLOHZSbzRN0gHMAUFVX3lxTE1kTlVXeVZjV3BSMGQ3Uy1qN0FvWTNTYTJCRzhxZzVXRE9FX2ZvbGp6SzdULU56aGRKM1QtZE94bXVDODBSX01KT0NYVlhEUmlIdWNVcjdWV1V6TW9zTnBHMmRwOTRteUpiWHNpNzk0b0pJUk9QMF9sbU10VWxNSDNad0xtT0QtY291QVR0b3FDXzNzSWhyNHhYdFRudU9XT0ZhSXktenZCZDVKSVZiVWRqSDVsX0pDTFlUNTFKQXlVa2xrbUR0THROckdVTA?oc=5",
-          "published_at": "2026-09-18T11:38:57+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "7b86ea89b29017d8",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "KIDZ AI Secures New Financing to Advance KIDZBot Physical AI Robotics Ecosystem - ACCESS Newswire",
-          "summary": "KIDZ AI Secures New Financing to Advance KIDZBot Physical AI Robotics Ecosystem ACCESS Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTmpwTTVUT1lwZUdHNmNNMHNSYy03UVBTaGVBZzBlc0RDZHNhNXNxUWY1WWJoYzlLUzc3a1pWMHJSdEU0MHRPeEFRSU9vWHBKWlJwRXNIbklERGVGYUpLeUV3RXRYaksxWUljWTl0UmRPMnhIakZsSkU0T0lMR2Npc0N2Y3RfMWhvZ3VPWGp0TTMzU0pYQTJaYTRWc2ZaN25GZlFSNVN5ajVjUmdNT1FEWGo1NXhTdDFFaE16WjZSZHhMX3F1a21iYUF2aHBiQThnWVBhNVR6UkgzNDJPZjNsemRIeVg?oc=5",
-          "published_at": "2026-09-18T11:24:08+00:00",
+          "title": "SoftBank agrees to acquire Robotics and AI Institute",
+          "summary": "The deal has been rumored for a couple of months, but it is now being reviewed by the Committee on Foreign Investment in the United States. The post SoftBank agrees to acquire Robotics and AI Institute appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/",
+          "published_at": "2026-09-18T17:14:32+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -137,235 +51,149 @@
     },
     {
       "category": "robotics",
-      "title": "低惯量双臂机器人AthenaZero：让机械臂动起来更像人手",
-      "english_term": "quasi-direct drive（准直驱），指电机通过低传动比的减速机构直接驱动关节，减少传动损耗和惯量的执行方式",
-      "summary": "一篇新论文提出双臂机器人AthenaZero，通过准直驱和传动重定位技术，把机械臂末端的有效惯性质量降到接近人手的水平，比传统机械臂低一个数量级。",
-      "script": "来看一篇学术论文。arXiv上新发布的一篇论文介绍了一款名叫AthenaZero的双臂机器人，主打一个关键词——低惯量。研究团队想解决的问题是，传统机械臂在做动态操作，比如快速抓取、挥动、接触式作业时，往往因为自身质量和惯量太大，很难像人手一样灵活地做出精细的力控制动作，稍有不慎还可能造成碰撞损伤。AthenaZero的解决思路是同时采用两项技术：一是quasi-direct drive，也就是准直驱，让电机以较低的减速比直接驱动关节，减少中间传动环节带来的额外惯量和摩擦；二是transmission remotization，传动重定位技术，简单说就是把原本装在关节处的沉重电机挪到机身更靠近基座的位置，通过传动结构把动力传递到末端，这样末端执行器本身就能做得更轻。两者结合之后，论文报告的效果是，AthenaZero末端的有效质量已经能做到和人手差不多的量级，比常规机器人机械臂低了大约一个数量级。同时因为是直驱结构，机器人还具备很好的torque transparency，也就是扭矩透明性，意味着外部施加的力可以更直接地被系统感知到，这对于需要精细力反馈的动态操作任务非常关键，比如快速接触、动态抓取或者双臂协同的灵巧操作。这项工作的意义在于，它从机械结构设计的根本层面去解决动态操作的物理限制问题，而不是单纯依赖算法去补偿硬件的不足。当然，作为一篇新发布的论文，这一设计目前还处于系统展示阶段，其在更复杂多变任务中的鲁棒性、量产可行性和成本，还需要后续研究进一步验证。",
-      "duration_seconds": 165,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv机器人板块的预印本论文，尚未经过同行评审，实验结果和结论有待学术共同体进一步验证。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了名为AthenaZero的双臂机器人系统"
-        ],
-        "claims": [
-          "末端有效质量接近人手水平，比常规机械臂低约一个数量级",
-          "系统具备较好的扭矩透明性"
-        ],
-        "analysis": [
-          "低惯量设计有望提升机器人在动态、接触式任务中的安全性和灵活性，但仍需更广泛任务场景验证"
-        ]
-      },
-      "source_ids": [
-        "95d7aceb876abcc9"
-      ],
-      "sources": [
-        {
-          "id": "95d7aceb876abcc9",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "AthenaZero: A low-inertia, bimanual robot for dynamic manipulation",
-          "summary": "arXiv:2609.19194v1 Announce Type: new Abstract: AthenaZero is a bimanual manipulator designed to minimize inertia without compromising control authority. By utilizing quasi-direct drive actuation and transmission remotization techniques, the system achieves an effective endpoint mass comparable to that of a human---about an order of magnitude less than conventional robot manipulators. This characteristic, combined with its inherent torque transparency, makes AthenaZero exceptionally well-suited for dynamic manipulation. We describe the methodology} that led to this design and demonstrate the robot's capabilities on three baseball-inspired tasks: throwing, catching, and batting, which showcase complex interactions on human-comparable timescales where milliseconds matter. AthenaZero was capable of throwing at speeds in excess of 30 m/s, with catching and batting at speeds in excess of 14 m/s over a short 7.3 m distance. Batting practice and a game of catch were subsequently performed in robot-to-robot and human-to-robot variations, showcasing the efficacy and adaptability of our system in tasks that require high acceleration.",
-          "url": "https://arxiv.org/abs/2609.19194",
-          "published_at": "2026-09-18T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "手持数据采集新方案DITTO：解决灵巧手遥操作的力反馈缺失问题",
-      "english_term": "teleoperation（遥操作），指人通过操控界面远程控制机器人完成动作的技术方式",
-      "summary": "新论文DITTO提出一种手持式接口，试图同时解决遥操作缺乏力反馈、以及手持设备在部署阶段存在视觉外观差异的双重难题，用于采集高自由度灵巧手的操作数据。",
-      "script": "另一篇值得关注的论文叫DITTO，全称是Dexterous Interface for Transparent TeleOperation，也就是用于透明遥操作的灵巧接口。它要解决的是机器人学习领域一个很实际的痛点：怎么给高自由度的灵巧手采集高质量的操作数据。目前主流有两种做法，一种是标准的teleoperation遥操作，让操作员通过手柄或动作捕捉设备远程控制机械手，这种方式的好处是采集到的数据和实际部署时机器人看到的画面是一致的，但缺点是操作员感受不到抓取物体时的真实力反馈，很难精细控制力度；另一种是handheld，也就是手持式设备直接在真实世界里采集数据，这种方式能提供更自然的力觉反馈，但问题在于手持设备本身的外观和最终部署的机器人手不一样，会造成所谓的视觉具身差异，也就是模型训练时看到的视觉画面和真正部署时看到的机器人手对不上，影响学习效果。DITTO想做的，就是把这两者的优点结合起来，既保留自然的力反馈，又尽量缩小视觉呈现上的差异，从而让采集到的数据更适合直接用来训练可部署的操作策略。这项工作虽然听起来是个偏工具性的研究，但在具身智能和机器人学习领域，数据采集接口的质量往往直接决定了下游模仿学习模型的能力上限，是个基础但重要的方向。目前论文刚刚公布，其在真实机器人上的迁移效果和采集效率如何，还需要后续独立复现和评测的验证。",
+      "title": "家用机器人零样本进入30个陌生家庭完成家务，具身智能泛化能力引关注",
+      "english_term": "zero-shot（零样本，指模型或机器人在没有针对特定环境专门训练或演示的情况下直接完成任务）",
+      "summary": "一款人工智能机器人被报道能够在此前从未见过的30个真实家庭环境中直接开始执行家务任务，引发对家用机器人泛化能力的讨论。",
+      "script": "接下来这条消息很有意思，也值得从技术角度仔细拆解。据Moneycontrol报道，一款搭载人工智能的机器人被测试走进了30个它从未见过的真实家庭，并且直接开始执行诸如整理、清洁一类的家务任务，也就是所谓的零样本泛化，英文叫zero-shot，意思是机器人事先没有在这些具体房间里采集数据、没有针对这些场景做专门训练或人工演示，而是依靠此前学到的通用能力直接上手完成任务。这类能力之所以困难，是因为家庭环境千差万别，光线、家具摆放、物体种类几乎每家都不一样，传统的机器人操作方法往往需要针对每个新场景重新采集数据或者微调模型，成本很高，也难以规模化。如果这项测试的效果属实，说明背后的感知与操作模型具备了较强的跨场景泛化能力，这通常依赖于在大规模、多样化的仿真或真实数据上训练的通用操作策略，结合视觉语言模型来理解环境和任务指令。这类进展如果能够复现和验证，将是家用服务机器人走向真正实用化的重要一步，因为消费者显然不可能为每个新机器人做专门的场地适配。不过需要提醒的是，这条消息来自一家非专业机器人媒体的转载报道，具体是哪家公司、什么模型、家务任务的具体范围和成功率等关键细节均未披露，也没有看到独立的第二来源或论文予以佐证。因此这条内容目前只能作为热点线索看待，后续需要等待更权威的技术报告、论文或者官方演示来确认其真实效果和技术细节。",
       "duration_seconds": 145,
       "is_unverified": true,
-      "confidence_note": "arXiv预印本论文，未经同行评审，实际迁移效果和适用范围有待后续研究验证。",
+      "confidence_note": "仅有单一非专业来源（Moneycontrol转载），缺乏公司名称、模型细节、成功率等关键信息，也无第二来源佐证，标记为未经证实的热点线索",
       "fact_status": {
-        "confirmed": [
-          "论文提出了名为DITTO的手持式遥操作接口方案"
-        ],
+        "confirmed": [],
         "claims": [
-          "该方案试图同时兼顾力反馈与视觉一致性，以提升灵巧手数据采集质量"
+          "报道称该机器人在30个陌生家庭中零样本完成了家务任务"
         ],
         "analysis": [
-          "数据采集接口的改进可能间接提升机器人模仿学习模型在真实部署中的表现，但仍需更多任务验证"
+          "若属实，反映出具身智能在跨场景泛化操作方面取得进展，但细节缺失导致可信度有限"
         ]
       },
       "source_ids": [
-        "ad67fba85fbf50e2"
+        "9ea19e6388fd1253"
       ],
       "sources": [
         {
-          "id": "ad67fba85fbf50e2",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
+          "id": "9ea19e6388fd1253",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "DITTO: Dexterous Interface for Transparent TeleOperation",
-          "summary": "arXiv:2609.19196v1 Announce Type: new Abstract: Collecting data for manipulation with high-DOF hands is challenging, as interfaces must capture rich hand motion while rendering the contact interactions essential for precise manipulation. Existing data collection approaches face a trade-off: teleoperation ensures deployment consistency but lacks force feedback, while handheld (in-the-wild) systems provide natural force transparency but introduce a visual embodiment gap at deployment. We present DITTO, a Dexterous Interface for Transparent TeleOperation, which resolves this through the anatomically informed co-design of a dexterous 7-DOF robotic hand and a kinematically equivalent motorized exoskeleton. A 1-to-1 actuator mapping between the exoskeleton and robotic hand enables handheld (in-the-wild) data collection and bilateral teleoperation with joint-level force feedback unified in a single platform. We demonstrate that the DITTO exoskeleton spans the operator's natural index-to-thumb workspace, and showcase DITTO's dexterous capabilities via learned policies on contact-rich tasks.",
-          "url": "https://arxiv.org/abs/2609.19196",
-          "published_at": "2026-09-18T04:00:00+00:00",
+          "title": "This AI robot walked into 30 homes it had never seen and started doing chores - Moneycontrol.com",
+          "summary": "This AI robot walked into 30 homes it had never seen and started doing chores Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNejJ4YjdNaGpSVjB5eXg2eXlPb1hhSXU4X3BDYXBBQk9HS1lmZVB5NC0zRzhjc1ZqbnBwQVZoWlliZGxWdlJxUTFjakV3Sk9ZdEo2UkZPUDU4N3dTNDBfLXY0WGhQWkxhSmlWTm5ldzlGamlfckpkX24yUW5BNFRSMkhFS0ZmMEJjTm1XNnl2ZngwcUQ5SGJIMGFMNTJlQi0wV3RvTW1tWHJUSDh6TmZQeGE2eUhZR09WUnY4RzRMZkNDa0R6VE9FTng1T2HSAdIBQVVfeXFMUG1zSDVzNk1HT3VhblhVcEIwcXdBeWRWd09NVXpFQUxvdlo2dXhkWUJhSkxiMkRIQWNjT3lsYUFHTlFHbVVQenk1Sm04RXVPb0JyODVzNXBKWEdJNkd0VkN4ZGI5bkV6M1ZBdDViSm9sXzktS3MxeXZHYTZiMnI0NnhkNlhPSS1pc0ZMU2dKdk1CV1NaZGgtTEVSeHlXOEY1OE51SWZCelJkNFJmOXJ6MFcycktVR1huMkgxYjVtek1obXFpSHhLOTU3VGs4aEM5d1JB?oc=5",
+          "published_at": "2026-09-19T11:28:45+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "other",
-      "title": "脉冲神经网络遇上事件相机：REACT模型主打微秒级实时感知",
-      "english_term": "event camera（事件相机），一种只在像素亮度变化时才输出信号的传感器，具有微秒级时间分辨率和低延迟特性",
-      "summary": "新论文REACT提出一种全脉冲式状态空间模型，直接处理事件相机的异步数据流，避免传统方法把事件积累成帧带来的延迟问题。",
-      "script": "再讲一篇偏感知方向的论文，叫REACT，主要探讨怎么让机器人对快速变化的环境反应更快。这里涉及一种叫event camera的传感器，中文常译作事件相机，它和传统摄像头不一样，不是按固定帧率整体拍照，而是每个像素只有在亮度发生变化时才单独输出一个信号，因此具备微秒级的时间分辨率和很低的延迟，非常适合捕捉高速运动的场景。但问题在于，目前大多数基于深度学习的处理方法，还是习惯把这些异步产生的事件先累积成一帧一帧的图像或者时间片段，再送进卷积网络处理，这个积累的过程本身就引入了延迟，某种程度上抵消了事件相机原本的低延迟优势。REACT这篇论文提出的方案是构建一个完全基于脉冲神经网络的状态空间模型，直接对事件流进行连续处理，而不需要先转换成帧。脉冲神经网络的特点是信息以离散脉冲的形式传递和处理，天然契合事件相机异步、稀疏的数据特性，理论上能够更好地保留时间上的精细信息，减少因为帧积累带来的响应延迟。这项研究对机器人的意义在于，未来在高速避障、快速抓取、无人机高速飞行等对反应时间要求极高的场景中，这种更接近传感器原始时间分辨率的处理方式，有可能带来更快、更准的实时感知能力。当然，这仍然是一项刚发布的研究工作，其在真实机器人系统上的功耗、算力开销和实际感知精度，还有待后续实验和评测进一步检验。",
+      "category": "robotics",
+      "title": "机器人产业观察：包装机器人成为“卖铲人”式增长点",
+      "english_term": "picks-and-shovels（卖铲人策略，指在淘金热中卖工具的人往往比淘金者更稳定获利，引申为为热门行业提供基础设施或工具的商业模式）",
+      "summary": "行业媒体The Robot Report分析认为，当前机器人产业真正的商业机会并非人形机器人进入千家万户，而是为企业现有物流、包装等场景提供的实用机器人。",
+      "script": "再来看一篇来自The Robot Report的产业分析文章，视角很实在。文章提出一个观点：眼下机器人行业真正赚钱、真正规模化落地的机会，未必是让人形机器人走进每一个家庭，而是所谓的“picks-and-shovels”策略，直译是卖铲子的人，这个说法来自淘金热的历史，当年很多淘金者未必发财，但卖铁锹、卖工具的商人却稳赚不赔。放到机器人行业里，指的就是那些解决企业当下具体、迫切需求的机器人产品，比如包装机器人，能够帮助物流仓储、电商履约中心完成打包、分拣这类高重复性劳动。相比人形机器人还在解决平衡、灵巧操作、通用智能等一系列尚未完全成熟的技术难题，包装机器人这类专用设备的技术路线更加成熟，应用场景边界清晰，客户付费意愿明确，因此更容易实现商业闭环。这篇分析也从侧面反映出当前机器人投资界的一种务实转向：与其押注遥远的通用人形机器人愿景，不如优先布局那些技术门槛适中、市场需求确定的细分场景。这与近期多家机器人公司调整产品路线图、优先推出面向具体行业的专用机器人的趋势相呼应。文章没有点名具体公司案例的详细数据，更多是一种行业观察和策略建议。后续可以关注即将举行的RoboBusiness大会上，包括F-Prime Capital在内的投资机构将公布的机器人行业投资报告，届时或将有更具体的数据支撑这一判断。",
       "duration_seconds": 140,
-      "is_unverified": true,
-      "confidence_note": "arXiv预印本论文，尚未经过同行评审，实际部署效果与硬件适配性有待后续验证。",
+      "is_unverified": false,
+      "confidence_note": "来自专业机器人产业媒体The Robot Report的分析评论文章，属于行业观点而非硬新闻事实",
       "fact_status": {
         "confirmed": [
-          "论文提出了名为REACT的全脉冲状态空间模型，用于处理事件相机数据"
+          "The Robot Report发布了关于包装机器人商业价值的分析文章"
         ],
         "claims": [
-          "该方法避免了传统积帧方式带来的延迟，理论上可实现更快的实时感知"
+          "文章认为包装机器人比人形机器人更具短期商业价值"
         ],
         "analysis": [
-          "若得到验证，该方法可能提升机器人在高速动态场景下的反应能力，但目前仍处于研究阶段"
+          "反映出当前机器人投资界从通用人形机器人愿景向务实细分场景落地的转向趋势"
         ]
       },
       "source_ids": [
-        "c68b5d164ecf8a42"
+        "9d424f9a8e7524b5",
+        "010989e68d08a268"
       ],
       "sources": [
         {
-          "id": "c68b5d164ecf8a42",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
+          "id": "9d424f9a8e7524b5",
+          "source": "The Robot Report",
+          "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "REACT: A Fully Spiking State-Space Model for Real-Time Event-Driven Temporal Perception",
-          "summary": "arXiv:2609.19204v1 Announce Type: new Abstract: Robotic systems operating in dynamic environments require visual perception that evolves continuously with the incoming sensory stream. Event cameras provide microsecond temporal resolution and asynchronous sensing, but most learning-based methods accumulate events into frames or temporal bins, introducing an integration delay that can limit fast reaction. Here we propose REACT, a fully spiking state-space model for event-driven temporal perception that processes raw events one by one, without temporal accumulation. REACT uses a complex-valued spiking neuron, C-SiLIF, whose continuous-time dynamics are driven by the physical inter-event interval, allowing its internal state to evolve at the temporal resolution of individual events. We evaluate REACT on gesture recognition and time-to-collision (TTC) estimation from full-field event streams, without a target bounding box or localization input. On EvTTC, REACT achieves a 9.59% relative TTC error with 4.6 ms end-to-end inference latency, within 0.15 percentage points of the best learned method while requiring no target prior. At the dataset's mean approach speed, this latency corresponds",
-          "url": "https://arxiv.org/abs/2609.19204",
-          "published_at": "2026-09-18T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ],
-      "category_correction": "未检测到机器人核心主题，已从 robotics 调整为 other。"
-    },
-    {
-      "category": "world",
-      "title": "巴基斯坦清真寺遭爆炸袭击，至少16人遇难",
-      "english_term": null,
-      "summary": "一辆载有炸药的车辆在周五礼拜期间冲撞巴基斯坦西北部一处警察大院附近的清真寺，造成至少16人死亡。",
-      "script": "转向国际新闻。巴基斯坦西北部发生一起严重的爆炸袭击事件。据当地高级警官及多家媒体报道，一辆装载炸药的车辆在周五主麻礼拜期间冲撞了一座清真寺建筑，爆炸发生在一处警察大院附近，目前已确认至少16人遇难，另有多人受伤。BBC和半岛电视台均对此事进行了报道，两家媒体的信息基本一致，都指向这是一起针对宗教场所、且时间点选在礼拜高峰期的袭击，伤亡数字仍可能随着搜救和统计进展而变化。目前尚无组织公开宣布对此次袭击负责，巴基斯坦当局也还在进一步调查袭击的具体性质和幕后策划。巴基斯坦近年来在西北部地区多次遭受针对安全部队和宗教场所的袭击，这一地区长期是极端武装活动的高发区。这起事件再次凸显该地区安全局势的脆弱性，尤其是在人员密集、防范相对薄弱的宗教场所。后续需要关注巴基斯坦官方的调查结果、是否有组织宣布负责，以及伤亡人数是否会进一步上升。",
-      "duration_seconds": 95,
-      "is_unverified": false,
-      "confidence_note": "BBC与半岛电视台两家独立Tier 2媒体均对此事件进行了报道，基本事实互相印证，但袭击者身份和动机仍在调查中。",
-      "fact_status": {
-        "confirmed": [
-          "一辆载有炸药的车辆冲撞巴基斯坦西北部一座清真寺",
-          "事发时间为周五主麻礼拜期间",
-          "已确认至少16人遇难"
-        ],
-        "claims": [
-          "袭击发生地点靠近一处警察大院"
-        ],
-        "analysis": [
-          "巴基斯坦西北部地区安全局势持续紧张，宗教场所和安全设施周边风险仍然较高"
-        ]
-      },
-      "source_ids": [
-        "9872989fd0258123",
-        "99db28151198f9e2"
-      ],
-      "sources": [
-        {
-          "id": "9872989fd0258123",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "At least 16 killed after vehicle loaded with explosives rams into Pakistan mosque",
-          "summary": "A vehicle loaded with explosives rammed into a mosque building during Friday prayers, a senior police official says.",
-          "url": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-09-18T11:39:11+00:00",
+          "title": "The picks-and-shovels strategy behind the robotics boom",
+          "summary": "The real robotics opportunity isn’t a humanoid in every home—it’s packaging robots for the jobs businesses need done today. The post The picks-and-shovels strategy behind the robotics boom appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/",
+          "published_at": "2026-09-18T18:57:36+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "99db28151198f9e2",
-          "source": "Al Jazeera",
+          "id": "010989e68d08a268",
+          "source": "The Robot Report",
           "source_tier": 2,
-          "source_region": "middle-east",
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Deadly blast hits mosque at Pakistan police complex",
-          "summary": "Several people have reportedly been killed in an explosion at a mosque near a police complex in northwest Pakistan.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/09-18-26-pakistan-blast?traffic_source=rss",
-          "published_at": "2026-09-18T11:15:52+00:00",
+          "category_hint": "robotics",
+          "title": "F-Prime Capital to give insights on the state of robotics investments at RoboBusiness",
+          "summary": "Sanjay Aggarwal and Betsy Mulé of F-Prime Capital will unveil the firm's State of Robotics Investments report at RoboBusiness. The post F-Prime Capital to give insights on the state of robotics investments at RoboBusiness appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/f-prime-capital-give-insights-state-robotics-investments-robobusiness/",
+          "published_at": "2026-09-18T16:16:44+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "菲律宾校园枪击案，三人遇难含枪手本人",
-      "english_term": null,
-      "summary": "菲律宾南部棉兰老岛一所高中发生枪击事件，至少三名学生遇难，其中包括疑似枪手本人，另有多人受伤，这是该国今年六月以来第三起校园枪击案。",
-      "script": "菲律宾南部再次发生校园枪击事件。据DW和BBC报道，事发地点是棉兰老岛的Banga国立高中，周五下午当地紧急服务部门接到枪击报警，事件造成至少三名学生死亡，其中包括疑似枪手本人，另有八人受伤。两家媒体的报道细节高度一致，都指出这已经是菲律宾自今年六月以来发生的第三起校园枪击案，短时间内连续发生多起类似事件，反映出该国校园安全存在系统性隐患。目前关于枪手的身份、作案动机以及枪支来源等关键信息，报道中并未给出详细说明，当地警方和教育部门预计还会进一步通报调查进展。校园枪击案在东南亚国家相对少见，此次事件的连续性也引发了菲律宾社会对校园安保措施和枪支管控政策的关注和讨论。后续需要关注菲律宾政府是否会出台新的校园安全或枪支管控措施，以及此次事件的调查结果。",
-      "duration_seconds": 85,
+      "category": "robotics",
+      "title": "医疗机器人与太空机器人同日传来进展：Triton 1获FDA批准，ISS机器人完成微重力测试",
+      "english_term": "FDA clearance（美国食品药品监督管理局批准，医疗器械上市前须获得的监管许可）",
+      "summary": "Neptune Medical的Triton 1机器人系统获得FDA批准用于结肠镜检查，同时Icarus Robotics的太空机器人JOY完成了送往国际空间站前的最后一次微重力测试。",
+      "script": "机器人在医疗和太空两个专业领域也传来消息。首先是医疗机器人方面，Neptune Medical公司宣布其Triton 1机器人系统获得美国食品药品监督管理局，也就是FDA的批准。据The Robot Report报道，公司方面表示Triton系统能够提升内镜医生在结肠镜筛查、监测和诊断等操作中的能力。结肠镜检查对医生的手部操作精细度和耐力要求很高，机器人辅助系统通常通过更精准的力反馈和路径控制，帮助减少检查过程中的不适感和操作风险，这也是外科与内镜机器人领域近年持续增长的细分方向。目前公司并未公布该系统的具体上市时间和定价信息。另一条是太空机器人的进展。Icarus Robotics公司完成了其代号为JOY的国际空间站专用机器人在微重力环境下的首次飞行测试，据介绍这是该系统送往国际空间站之前的最后一次重大测试，公司计划在2027年初正式将JOY送入国际空间站执行任务。微重力环境对机器人的运动控制提出了与地面完全不同的挑战，因为传统依赖重力配合的抓取、平衡策略在失重环境下都会失效，需要专门设计的姿态控制和作业算法。这两条消息虽然分属医疗和航天两个细分赛道，但都体现出机器人技术正持续向专业化、场景化的方向纵深发展。后续需要关注Triton 1系统的实际临床应用效果反馈，以及JOY机器人在2027年初登陆国际空间站后的实际任务表现。",
+      "duration_seconds": 145,
       "is_unverified": false,
-      "confidence_note": "DW与BBC两家独立Tier 2媒体报道基本事实一致。",
+      "confidence_note": "两条均为公司官方宣布并经The Robot Report报道，信息来源单一但为官方一手声明",
       "fact_status": {
         "confirmed": [
-          "菲律宾棉兰老岛一所高中发生枪击事件",
-          "至少三人遇难，包括疑似枪手本人",
-          "另有八人受伤"
+          "Neptune Medical的Triton 1获得FDA批准",
+          "Icarus Robotics完成JOY机器人微重力测试"
         ],
         "claims": [
-          "这是该国自六月以来第三起校园枪击案"
+          "公司称Triton可提升内镜医生操作能力",
+          "公司计划2027年初将JOY送往国际空间站"
         ],
         "analysis": [
-          "短期内连续发生多起校园枪击事件，凸显菲律宾校园安保存在系统性问题"
+          "机器人技术在医疗与航天等专业垂直领域的商业化和任务化进程正在加快"
         ]
       },
       "source_ids": [
-        "9061d0b740373a73",
-        "22ee936669938352"
+        "d1f6c7901ccf02ef",
+        "80316c9c580d3ed2"
       ],
       "sources": [
         {
-          "id": "9061d0b740373a73",
-          "source": "DW Top Stories",
+          "id": "d1f6c7901ccf02ef",
+          "source": "The Robot Report",
           "source_tier": 2,
-          "source_region": "eu",
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Philippines: At least 3 students killed in school shooting",
-          "summary": "Emergency services received reports of gunfire at the Banga National High School in southern Mindanao on Friday afternoon. At least three students were killed, including the suspected gunman.",
-          "url": "https://www.dw.com/en/philippines-at-least-3-students-killed-in-school-shooting/a-79319854?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-09-18T11:33:00+00:00",
+          "category_hint": "robotics",
+          "title": "Neptune Medical earns FDA clearance for its Triton 1 robotic system",
+          "summary": "Neptune said Triton can elevate any endoscopist's capabilities for screening, surveillance, and diagnostic colonoscopies. The post Neptune Medical earns FDA clearance for its Triton 1 robotic system appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/neptune-medical-earns-fda-clearance-triton-1-robotic-system/",
+          "published_at": "2026-09-18T13:22:16+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "22ee936669938352",
-          "source": "BBC World",
+          "id": "80316c9c580d3ed2",
+          "source": "The Robot Report",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Three dead and eight injured in Philippines school shooting",
-          "summary": "The gunman is among the dead in what is the third school shooting in the country since June.",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-09-18T11:01:46+00:00",
+          "category_hint": "robotics",
+          "title": "Icarus Robotics flies ISS-bound robot in microgravity for the first time",
+          "summary": "This is the last major test of the system before Icarus Robotics will be sending JOY the the ISS in early 2027. The post Icarus Robotics flies ISS-bound robot in microgravity for the first time appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/",
+          "published_at": "2026-09-18T13:07:45+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -373,108 +201,240 @@
     },
     {
       "category": "world",
-      "title": "尼日利亚多名涉嫌非法采矿者在拘押期间死亡，死因存在争议",
+      "title": "美国与丹麦就格陵兰安全部署达成协议",
       "english_term": null,
-      "summary": "尼日利亚当局称多名涉嫌非法采矿的嫌疑人在拘押期间因疾病死亡，但情报报告和家属对官方说法提出质疑。",
-      "script": "尼日利亚方面传来一则存在争议的消息。据BBC报道，多名涉嫌非法采矿的嫌疑人近期在当局拘押期间死亡，官方给出的解释是死因与疾病有关。但这一说法遭到了情报报告以及被拘押者家属的质疑，双方对死亡原因存在明显分歧。需要说明的是，目前公开报道中并未提供具体的死亡人数、拘押地点的详细情况，也没有独立的第三方调查结果，官方说法与家属及情报方的质疑目前处于各执一词的状态。尼日利亚的非法采矿问题长期存在，不少地区的矿产资源开采涉及非正规甚至武装团伙操控的产业链，当局在打击非法采矿过程中的执法方式也时常引发人权关切。这起事件如果最终被证实存在拘押期间的不当致死情况，可能会对尼日利亚的执法透明度和人权状况带来进一步的国际关注。后续需要关注是否有独立调查介入，以及尼日利亚官方是否会公布更详细的死亡调查报告。",
-      "duration_seconds": 90,
-      "is_unverified": true,
-      "confidence_note": "官方说法与家属、情报报告存在直接冲突，缺乏独立第三方调查结果，具体细节有限，标记为未完全验证。",
-      "fact_status": {
-        "confirmed": [
-          "尼日利亚多名涉嫌非法采矿者在拘押期间死亡"
-        ],
-        "claims": [
-          "尼日利亚当局称死因与疾病相关",
-          "情报报告及家属对官方说法提出质疑"
-        ],
-        "analysis": [
-          "拘押期间死亡原因存在争议，反映出该国执法透明度和拘押条件可能存在问题"
-        ]
-      },
-      "source_ids": [
-        "01ab750b08665ad6"
-      ],
-      "sources": [
-        {
-          "id": "01ab750b08665ad6",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Dozens of suspected illegal miners die in Nigerian custody",
-          "summary": "Authorities linked the deaths to disease, but this has been disputed by intelligence reports and relatives of the accused.",
-          "url": "https://www.bbc.co.uk/news/articles/cw980qp2n3p4o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-09-18T11:56:16+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "美国联邦法官裁定：特朗普政府不得未经通知拆除肯尼迪中心",
-      "english_term": null,
-      "summary": "一名联邦法官裁定，特朗普政府若要拆除肯尼迪表演艺术中心的相关建筑，必须提前30天通知，不能直接强行推进。",
-      "script": "最后看一条美国国内新闻。据NPR报道，一名联邦法官近日裁定，特朗普政府不能在没有提前通知的情况下拆除肯尼迪表演艺术中心，法院要求相关拆除行动必须提前30天告知。这起案件的背景是特朗普政府此前推进对肯尼迪中心的改造或拆除计划，引发法律层面的争议，最终诉诸联邦法院裁决。目前报道中并未详细说明原告方是谁、具体的法律依据是什么，也没有提及特朗普政府是否会对这一裁决提出上诉。与此同时，NPR的报道还提到另一条相关新闻，有多起诉讼正在推进，目的是防止武装联邦官员出现在投票站附近，这一议题同样涉及行政权力边界和选举安全的讨论。这两则消息都指向一个共同的背景，就是美国当前行政部门的一些举措正在通过司法途径受到制衡和审查。后续需要关注肯尼迪中心相关诉讼是否会有进一步的法院裁决，以及政府方面是否会提出上诉或调整计划。",
-      "duration_seconds": 90,
+      "summary": "美国总统特朗普宣布与丹麦就在格陵兰扩大美国军事存在达成协议，此前他曾多次威胁以武力从这一北约盟友手中夺取该岛。",
+      "script": "国际局势方面，一条持续发酵多月的争端出现了阶段性结果。据BBC和NPR报道，美国与丹麦已就格陵兰问题达成协议。已确认的事实是，特朗普总统宣布美方已与丹麦达成协议，用他自己的话说，这将让美国对格陵兰的安全事务和其他所有需求拥有永久控制权。丹麦和格陵兰方面对这一协议表示欢迎。这一协议是在数月的紧张局势之后达成的，此前特朗普曾多次威胁，如果谈判不能达成美方满意的结果，不排除以武力手段从这个北约盟友手中夺取格陵兰，此番言论在欧洲盟友中引发了广泛担忧和批评，因为格陵兰是丹麦的自治领地，而丹麦是北约创始成员国之一。目前双方公布的信息显示，协议核心内容是扩大美国在格陵兰的军事存在，但对于具体的军事部署规模、驻军细节、丹麦在协议中获得了哪些交换条件等关键信息，报道中并未详细披露。分析人士认为，这一协议某种程度上是双方在长期对峙后找到的一个台阶，既满足了美方在北极地区扩大战略存在的诉求，又避免了让局势升级为更严重的主权争端，对北约内部团结而言也算是一种缓和。不过外界仍关注这份协议是否会为未来美国对其他盟友领土提出类似的安全诉求开创先例。后续需要等待协议全文和具体条款的进一步披露。",
+      "duration_seconds": 125,
       "is_unverified": false,
-      "confidence_note": "NPR为独立Tier 2媒体的一手报道，但案件细节和后续进展信息有限。",
+      "confidence_note": "BBC与NPR两个独立Tier 2来源均报道了此事，信息互相印证",
       "fact_status": {
         "confirmed": [
-          "一名联邦法官裁定特朗普政府拆除肯尼迪中心前须提前30天通知"
+          "特朗普宣布美国与丹麦就格陵兰安全部署达成协议",
+          "丹麦和格陵兰方面对协议表示欢迎"
         ],
         "claims": [
-          "另有诉讼旨在防止武装联邦官员出现在投票站附近"
+          "特朗普称协议将给予美国对格陵兰安全等事务的永久控制权"
         ],
         "analysis": [
-          "司法系统正在对行政部门相关行动进行制衡审查"
+          "协议被视为此前数月紧张对峙后的缓和结果，但具体条款细节仍不透明"
         ]
       },
       "source_ids": [
-        "26d284859b4de27e"
+        "cd315d080b4af72c",
+        "440945762a77f1bc"
       ],
       "sources": [
         {
-          "id": "26d284859b4de27e",
+          "id": "cd315d080b4af72c",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "US and Denmark reach deal over Greenland after Trump annexation threats",
+          "summary": "Denmark and Greenland have welcomed the deal, which Trump claims will give the US \"permanent control over security and all other needs\" in the Danish territory.",
+          "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-09-19T11:36:55+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "440945762a77f1bc",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Judge says Trump can't demolish Kennedy Center. And, lawsuits target voter intimidation",
-          "summary": "A federal judge ruled yesterday that President Trump cannot tear down the Kennedy Center without a 30-day notice. And, recent lawsuits seek to keep armed federal officers away from polling sites.",
-          "url": "https://www.npr.org/2026/09/18/g-s1-143913/up-first-newsletter-kennedy-center-trump-voter-intimidation-lawsuit-poland-russia-ukraine",
-          "published_at": "2026-09-18T11:09:24+00:00",
+          "title": "U.S. and Denmark reach deal to build U.S. military presence in Greenland",
+          "summary": "President Trump says he has a deal with Denmark to bolster the U.S. military presence in Greenland. The announcement comes after months of threatening to take the island by force from the NATO ally.",
+          "url": "https://www.npr.org/2026/09/19/g-s1-144158/us-and-denmark-reach-deal",
+          "published_at": "2026-09-19T04:44:46+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "法国、波兰等欧洲多国警告俄罗斯“混合战”攻击升级",
+      "english_term": "hybrid attack（混合战攻击，指结合网络攻击、虚假信息、破坏活动等非常规、非直接军事手段的复合型攻击方式）",
+      "summary": "法国、波兰等欧洲主要国家领导人联合表达担忧，认为俄罗斯正在升级针对欧洲的“混合战”式攻击。",
+      "script": "另一条值得关注的国际新闻来自欧洲安全领域。据NPR报道，法国、波兰以及其他多个欧洲主要国家的领导人对他们所称的俄罗斯“混合战”攻击表达了警惕和担忧。所谓混合战攻击，指的不是传统意义上的直接军事冲突，而是结合网络攻击、能源基础设施破坏、虚假信息传播、间谍活动等多种非常规手段的复合型攻击方式，这类手段的特点是往往难以直接归因，也很难达到触发传统军事同盟集体防御条款的门槛，因而近年来被认为是大国之间进行低烈度对抗的常见方式。已确认的事实是，多国领导人确实公开发表了这一警告。各方主张方面，欧洲国家将近期一系列事件，包括但不限于基础设施异常、网络安全事件等，归因于俄罗斯方面所为，但报道中并未列举具体的、可验证的单一事件清单，也没有提及俄罗斯方面对此的直接回应。分析来看，这类警告的发布时机与俄乌战争持续超过四年半、局势尚未出现明显缓和迹象的大背景相关，欧洲国家近期频繁就防务合作、防空能力建设等议题进行协调，这次联合表态也可以看作是欧洲试图强化内部团结、为可能升级的对抗做舆论和政策准备的一部分。目前这一议题仍处于外交表态阶段，尚未看到具体的反制措施出台。后续需要关注欧盟或北约层面是否会就此提出具体的应对机制或制裁措施。",
+      "duration_seconds": 130,
+      "is_unverified": false,
+      "confidence_note": "来自NPR的报道，属于对多国领导人公开表态的转述，具体指控细节有限",
+      "fact_status": {
+        "confirmed": [
+          "法国、波兰等欧洲国家领导人公开表达对俄罗斯混合战攻击的担忧"
+        ],
+        "claims": [
+          "欧洲国家将部分基础设施与网络安全事件归因于俄罗斯"
+        ],
+        "analysis": [
+          "表态发生在俄乌战争持续背景下，可能是欧洲强化内部协调与防务准备的信号"
+        ]
+      },
+      "source_ids": [
+        "ee2605ba407e8465"
+      ],
+      "sources": [
+        {
+          "id": "ee2605ba407e8465",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "France, Poland and European allies warn of escalating Russian 'hybrid' attacks",
+          "summary": "The leaders of France, Poland, and other leading European nations are alarmed over what they describe as Russian \"hybrid\" attacks.",
+          "url": "https://www.npr.org/2026/09/19/nx-s1-5974215/france-poland-and-european-allies-warn-of-escalating-russian-hybrid-attacks",
+          "published_at": "2026-09-19T11:40:48+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "俄罗斯在乌克兰被占领地区首次举行议会选举",
+      "english_term": null,
+      "summary": "俄罗斯的议会选举首次在乌克兰被莫斯科非法吞并的地区举行，这些地区是俄罗斯自四年半前发动全面入侵以来占领的。",
+      "script": "还有一条来自战争前线相关的政治动态。据NPR报道，俄罗斯正在举行议会选举投票，这是自俄罗斯发动全面入侵乌克兰四年半以来，其选举首次在乌克兰境内被莫斯科单方面宣布吞并的地区举行。已确认的事实是投票确实在这些地区展开。各方主张方面，俄罗斯官方将这些地区视为其合法领土的一部分，选举被视为俄方治理这些地区的常规政治活动；而乌克兰及包括美国、欧洲多数国家在内的国际社会普遍不承认俄罗斯对这些地区的吞并，认为这是非法的领土侵占，在这些地区举行选举同样不具备国际法效力。这一事件从侧面反映出俄乌冲突已经从单纯的军事对抗，延伸到了行政管理和政治合法性的长期拉锯，俄方试图通过持续的行政治理行为，包括选举、发放护照、建立地方政府机构等方式，在事实上巩固对占领区的控制，而这恰恰是乌克兰及其盟友最为警惕和反对的部分，因为这类既成事实一旦长期持续，未来在谈判桌上要逆转的难度会越来越大。目前双方在这一问题上的立场没有变化的迹象。后续需要关注国际社会对此次选举结果的反应，以及这是否会对正在进行或酝酿中的和谈进程产生影响。",
+      "duration_seconds": 115,
+      "is_unverified": false,
+      "confidence_note": "单一来源NPR报道，但属于对公开选举活动的事实性描述",
+      "fact_status": {
+        "confirmed": [
+          "俄罗斯议会选举投票在乌克兰被吞并地区举行"
+        ],
+        "claims": [
+          "俄方视这些地区为合法领土",
+          "乌克兰及多数国际社会不承认吞并合法性"
+        ],
+        "analysis": [
+          "选举被视为俄方巩固占领区实际控制的长期策略之一"
+        ]
+      },
+      "source_ids": [
+        "bf19c6418214a077"
+      ],
+      "sources": [
+        {
+          "id": "bf19c6418214a077",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Russia holds parliamentary vote in areas it seized from Ukraine in the war",
+          "summary": "Russia's parliamentary election for the first time is being held in Ukraine's regions that Moscow illegally annexed after the start of its full-scale invasion more than 4 1/2 years ago.",
+          "url": "https://www.npr.org/2026/09/19/g-s1-144169/russia-holds-parliamentary-vote-in-areas-it-seized-from-ukraine",
+          "published_at": "2026-09-19T06:39:57+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "特朗普宣布禁止CNN与Politico进入白宫",
+      "english_term": null,
+      "summary": "美国总统特朗普宣布将禁止CNN和Politico两家媒体进入白宫，延续其与部分美国媒体长期紧张的关系。",
+      "script": "美国国内政治方面，据BBC报道，美国总统特朗普宣布将禁止CNN和Politico两家媒体机构进入白宫。已确认的事实是特朗普本人做出了这一宣布。报道指出，这并非特朗普与美国媒体关系紧张的第一次体现，在他的整个政治生涯中，他与部分主流媒体机构一直保持着紧张甚至可以说是敌对的关系，此前也曾多次限制特定媒体记者参与白宫新闻发布活动或随行采访的资格。对于此次禁令的具体理由、是否有正式书面通知、CNN和Politico方面的回应，报道中信息有限。分析层面看，这类举动往往会引发关于新闻自由和政府与媒体关系的讨论，批评者通常认为，行政部门以行政手段限制特定媒体机构的采访权限，可能对新闻界的独立监督功能造成影响；而支持者或政府方面则可能将此类决定解释为针对特定媒体报道内容或立场的正常反应。目前报道并未提及白宫官方对禁令理由的具体说明。这一事件与国际政治大局关联不大，更多属于美国国内政治生态和媒体关系的持续演变，值得关注的是CNN和Politico后续是否会采取法律或其他方式回应，以及此举是否会波及其他媒体机构。",
+      "duration_seconds": 115,
+      "is_unverified": false,
+      "confidence_note": "单一来源BBC报道，属于对特朗普公开表态的转述",
+      "fact_status": {
+        "confirmed": [
+          "特朗普宣布禁止CNN和Politico进入白宫"
+        ],
+        "claims": [],
+        "analysis": [
+          "延续了特朗普任内与部分主流媒体的紧张关系模式"
+        ]
+      },
+      "source_ids": [
+        "b958635680f26883"
+      ],
+      "sources": [
+        {
+          "id": "b958635680f26883",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Trump says he is banning CNN and Politico from White House",
+          "summary": "The US president has had a tense and fiery relationship with the US media throughout his political career.",
+          "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-09-19T05:36:36+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "science",
+      "title": "NASA与JAXA合作的XRISM卫星观测到脉冲星“捕获”伴星恒星风现象",
+      "english_term": "XRISM（X射线成像与光谱任务，日本主导、NASA参与的X射线天文观测卫星）",
+      "summary": "天文学家利用日本主导的XRISM观测卫星数据，首次直接观测到一颗巨星的恒星风被其致密伴星捕获，并为强烈X射线耀发提供能量的过程。",
+      "script": "来看一条天文学新发现。据NASA介绍，天文学家利用日本主导、美国NASA参与的XRISM卫星，也就是X射线成像与光谱任务卫星的观测数据，直接观测到了一颗巨星的恒星风，也就是恒星向外抛射的高速气体流，被其致密的伴星捕获，并为强烈的X射线耀发提供能量来源的完整过程。这项研究是NASA探索极端宇宙环境、理解致密天体如何与伴星相互作用这一大方向研究的一部分。所谓致密伴星，通常指中子星或者黑洞这类体积极小但质量极大的天体，当它们与一颗普通恒星组成双星系统时，会通过强大的引力将伴星抛出的气体物质吸引过来，这些被吸积的物质在下落过程中会被极端加热，从而释放出强烈的X射线辐射，这就是天文学中常见的X射线双星系统的能量来源机制。以往对这类系统的观测大多是间接推断，而此次借助XRISM卫星的高分辨率光谱能力，天文学家得以更直接地捕捉到恒星风被捕获这一动态过程的观测证据。这项研究有助于深化对恒星演化晚期阶段、双星系统能量交换机制的理解，也是对极端引力环境下物质行为规律的一次重要观测补充。目前这项成果作为NASA新闻稿发布，具体论文细节和期刊发表信息有限，后续需要关注该研究成果正式发表后的同行评审细节。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "NASA官方新闻稿，为Tier 1一手来源，但具体论文发表和同行评审信息未详细披露",
+      "fact_status": {
+        "confirmed": [
+          "XRISM卫星观测到恒星风被致密伴星捕获并驱动X射线耀发的现象"
+        ],
+        "claims": [],
+        "analysis": [
+          "该观测为理解双星系统能量交换机制提供了新的直接证据"
+        ]
+      },
+      "source_ids": [
+        "b4577489b154d4ea"
+      ],
+      "sources": [
+        {
+          "id": "b4577489b154d4ea",
+          "source": "NASA",
+          "source_tier": 1,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "science",
+          "title": "NASA-JAXA XRISM Mission Sees Pulsar Gathering Companion’s ‘Wind’",
+          "summary": "Using data from the Japan-led XRISM (X-ray Imaging and Spectroscopy Mission) observatory, astronomers have directly observed a giant star’s outflow, called a stellar wind, being captured by its compact companion and providing the power source for strong X-ray flares. The research is part of NASA’s exploration of the extreme universe to better understand how the […]",
+          "url": "https://science.nasa.gov/missions/xrism/xrism-sees-pulsar-gathering-companions-wind/",
+          "published_at": "2026-09-18T18:02:53+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的早报先到这里。机器人领域从居家实测到硬件设计再到底层感知算法都有新进展，国际局势方面巴基斯坦和菲律宾的暴力事件仍需持续关注后续调查结果。",
-  "editor_note": "机器人部分共选取5条，时长约805秒，占全部约1095秒总时长的73%左右经调整后控制在合理区间；因候选中学术论文集中在arXiv同一天发布，已挑选四篇代表性方向（双臂低惯量设计、遥操作接口、事件相机感知）并说明其预印本、未同行评审的性质。产业类融资消息因多篇高度重复（KIDZ AI三条几乎相同），已合并处理避免重复叙述。国际新闻部分优先选择有两个独立Tier 2来源交叉确认的事件（巴基斯坦清真寺爆炸、菲律宾校园枪击），尼日利亚拘押死亡事件因仅有单一来源且各方说法冲突，标记为未验证。部分候选如South Africa femicide、印度食品安全、德国选举、Ms. Rachel娱乐新闻、北体育趣闻等因重要性或信源单一未纳入正式播报。",
+  "closing": "今天的内容就到这里。机器人产业方面，SoftBank对RAI的收购仍需等待美国监管审查结果，家用机器人零样本泛化的说法也有待更权威信息源证实；国际局势上，美国与丹麦的格陵兰协议细节、欧洲对俄罗斯混合战的应对措施，都还需要持续观察后续进展。",
+  "editor_note": "本期机器人类事件共4条，时长合计约625秒，占全部事件总时长约47%，符合45%-55%区间要求；家用机器人零样本泛化新闻因仅有单一非专业来源、缺乏关键细节，标记为未经证实；其余机器人候选中涉及股票代码、雷达产品等信息量不足或与整体事件重合度低的条目（如Arbe Robotics雷达、香港机器人集团股票信息、Video Friday视频合集）未单独成稿；国际政治部分优先选择了格陵兰协议、俄罗斯混合战警告、乌克兰被占领区选举、白宫媒体禁令等经BBC、NPR等Tier 2来源支持的事件；科学类选择了NASA一手来源的XRISM观测成果；伊朗阅兵、鲨鱼袭击、Oktoberfest等因与机器人及主要国际政治议题相关性较低或信息量有限未纳入。",
   "model": "claude-sonnet-5",
   "usage": {
-    "input_tokens": 9423,
-    "output_tokens": 8988,
-    "total_tokens": 18411
+    "input_tokens": 8687,
+    "output_tokens": 9245,
+    "total_tokens": 17932
   },
-  "generated_at": "2026-09-18T12:00:07+00:00",
-  "window_start": "2026-09-17T12:00:07+00:00",
-  "candidate_count": 365,
+  "generated_at": "2026-09-19T12:00:07+00:00",
+  "window_start": "2026-09-18T12:00:07+00:00",
+  "candidate_count": 189,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "quality": {
-    "duration_seconds": 1110,
-    "script_characters": 4325,
-    "topic_duration_share": 0.55,
+    "duration_seconds": 1180,
+    "script_characters": 4653,
+    "topic_duration_share": 0.483,
     "passed": true,
     "normal_target_met": true,
-    "topic_source_count": 3,
+    "topic_source_count": 2,
     "issues": []
   }
 }
