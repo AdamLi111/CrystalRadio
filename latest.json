@@ -1,187 +1,194 @@
 {
-  "title": "晶球电台早报：特斯拉审计中国供应链，Optimus量产提速；联合国大会本周开幕",
-  "subtitle": "机器人产业与学术并进，国际政治多线聚焦联合国大会与地区冲突",
+  "title": "晶球电台早报：迪拜航班惊魂持续发酵，建筑自动化与人形机器人论文扎堆亮相",
+  "subtitle": "从flydubai劫机调查到ASI与软银2.25亿美元押注工地自动化，再看人形机器人长程基准测试新进展",
   "highlights": [
-    "特斯拉据报正审计中国供应商，Optimus人形机器人量产进程被指进一步推进",
-    "arXiv机器人板块集中放出多篇论文，涵盖视觉伺服、触觉操作、越野导航等方向",
-    "联合国大会本周在纽约召开，乌克兰、中东战事阴云笼罩本届会议"
+    "UAE将flydubai驾驶舱袭击事件列为恐怖主义调查，以色列称尚难定论伊朗关联",
+    "ASI与软银联手投入2.25亿美元，推进建筑工地自动化重型设备车队",
+    "NVIDIA Isaac Lab上线人形机器人长程基准Fiatlux，首次把爬梯与精细操作放进同一测试"
   ],
   "stories": [
     {
-      "category": "robotics",
-      "title": "特斯拉据报审计中国供应商，Optimus人形机器人量产传闻升温",
-      "english_term": "Optimus（特斯拉研发的人形机器人项目名称）",
-      "summary": "有报道称特斯拉正在对其中国供应商展开审计，被解读为Optimus人形机器人向量产阶段推进的信号。目前信息来自单一财经媒体报道，细节有限。",
-      "script": "先来看机器人产业的一条热门消息。据财经媒体Benzinga报道，特斯拉正在对其中国供应链上的多家供应商展开审计，这一动作被外界解读为其人形机器人项目Optimus正在向大规模量产阶段迈进的信号。Optimus是特斯拉从2021年开始推进的人形机器人项目，目标是打造一款可以执行工厂搬运、家庭辅助等通用任务的双足机器人，其硬件涉及大量精密执行器、力矩电机、灵巧手关节和传感器模块，这些零部件相当一部分依赖亚洲供应链，尤其是中国在减速器、电机绕组、精密结构件等领域有成熟产能。所谓“供应商审计”，通常包括对产品良率、产能爬坡能力、质量管控体系的现场核查，是任何硬件产品从小批量试产走向规模化交付前的常规但关键的一步。如果报道属实，意味着特斯拉正在为Optimus的量产做更细致的供应链筛选和产能锁定工作。不过需要说明的是，这条消息目前只来自单一的第三方财经媒体转述，并未见特斯拉官方或马斯克本人的公开确认，报道本身也未透露具体审计了哪些供应商、涉及哪些零部件品类，也没有给出明确的量产时间表。此前特斯拉多次公开表示过Optimus的量产目标和时间线，但历史上也出现过量产节点推迟的情况，因此对这类未经官方证实的量产提速说法，需要保持一定的审慎态度。后续需要等待特斯拉官方财报电话会或官方渠道对供应链审计及量产节奏的正式说明，也需要观察是否有更多独立信源交叉印证这一报道的细节。",
-      "duration_seconds": 150,
+      "category": "world",
+      "title": "迪拜飞特拉维夫航班驾驶舱袭击事件，UAE升级为恐怖主义调查",
+      "english_term": null,
+      "summary": "一架flydubai航班上发生副驾驶袭击机长事件后，阿联酋检方宣布介入调查是否涉及恐怖活动或意图，以色列总理称目前判断是否与伊朗有关还为时过早。",
+      "script": "我们先来关注中东的一起安全事件。一架原定从迪拜飞往特拉维夫的flydubai航班上，一名飞行员袭击了同机的另一名飞行员，事件发生后航班被迫处置，引发外界高度关注。根据已确认事实，阿联酋官方媒体证实，当局正在调查这起事件是否涉及恐怖活动或恐怖意图，阿联酋检方表示自己对此案拥有管辖权。同时也有报道称，涉事飞行员正在沙特接受调查。以色列总理内塔尼亚胡公开表示，现在判断这起袭击是否与伊朗有关，为时尚早，这代表的是以色列官方目前的表态，而非已被证实的结论。另外有媒体梳理出一个备受关注的疑点：这名涉事飞行员此前是如何通过审核、被允许执飞的，这也成为民航安全体系被追问的焦点之一。目前各方信息还在拼接阶段，确认事实、各方主张和外部分析需要分开看待。已确认的是袭击发生、UAE介入调查、案件涉及跨境管辖；属于各方主张的是是否涉及恐怖意图、是否存在伊朗关联；属于分析判断的是，这起事件可能会让中东地区的航空安全审查和飞行员心理与背景筛查机制受到更严格的审视。考虑到近期中东地区地缘局势持续紧张，任何涉及以色列航班的安全事件都容易被赋予更大的政治解读空间，所以官方调查结论出炉前，相关猜测都应谨慎对待。后续需要等待阿联酋检方公布调查结果，以及是否有国家或组织被正式认定与此事件有关联。",
+      "duration_seconds": 135,
       "is_unverified": true,
-      "confidence_note": "该消息仅来自单一三级来源（Benzinga转述），缺乏特斯拉官方或第二独立信源的确认，细节有限，需谨慎看待。",
+      "confidence_note": "事件已由UAE官方媒体和以色列总理表态证实发生，但恐怖主义定性、伊朗关联等关键细节仍处于调查阶段，标记为未完全证实。",
       "fact_status": {
         "confirmed": [
-          "有财经媒体报道特斯拉正在审计中国供应商"
+          "flydubai航班上发生飞行员袭击同事件",
+          "UAE检方宣布就此展开恐怖主义相关调查并称拥有管辖权"
         ],
         "claims": [
-          "报道方将此举解读为Optimus量产进程推进的信号"
+          "有报道称涉事飞行员在沙特接受调查",
+          "以色列总理称伊朗关联尚无法判断"
         ],
         "analysis": [
-          "供应商审计通常是硬件产品量产前的常规流程，但报道本身未提供量产时间表等关键细节，真实进展需以官方信息为准"
+          "该事件可能推动民航飞行员背景审查制度的讨论",
+          "地区地缘局势紧张背景下，事件易被赋予更多政治解读"
         ]
       },
       "source_ids": [
-        "389f1f4498585df6"
+        "c7f06d741860559c",
+        "1d2b20fc01a3b031",
+        "3d642ae7e09aa9ec",
+        "f3bfa9b3b6734d94",
+        "135dfea64c670fde"
       ],
       "sources": [
         {
-          "id": "389f1f4498585df6",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
+          "id": "c7f06d741860559c",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
           "language": "en",
-          "category_hint": "robotics",
-          "title": "Tesla Audits Chinese Suppliers as Elon Musk’s Optimus Robot Moves Closer to Mass Production: Report - Benzinga",
-          "summary": "Tesla Audits Chinese Suppliers as Elon Musk’s Optimus Robot Moves Closer to Mass Production: Report Benzinga",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVFJGQnREb1Njb21NeldrTHVNVFYwVWpRY2taZ25FRjBYSDFoNTBHYXgwamQwd1d2MURqa3NHSlMxcUlDMFNRdXNkdGhGdVNJQklJMHMtTUFXTDRmVVFTWXdYZGZSVGFNdHZSbXpHOUNhRzBLXzlNMDhJRTVRekZqcHhySGwwYVY2cXl3bmZhc0JSYjZBSG9yMmhXTS1WUHVYVGFTaElyQWtKUlZLNU5VaTFKTkdmdE13MVRXU3p3V3dKTHNsR1dOT0ozbi1fblQ0cW5ORlNYcy1KbWJNbFRiTkNQWlk?oc=5",
-          "published_at": "2026-09-21T11:39:47+00:00",
+          "category_hint": "world",
+          "title": "How was the Flydubai pilot who attacked his co-pilot cleared to fly?",
+          "summary": "The Flydubai scare has raised several questions for Israel and the civil aviation industry.",
+          "url": "https://www.aljazeera.com/news/2026/10/1/how-was-the-flydubai-pilot-who-attacked-his-co-pilot-cleared-to-fly?traffic_source=rss",
+          "published_at": "2026-10-01T11:50:25+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "1d2b20fc01a3b031",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "UAE investigates possible ‘terrorist’ link in attack on flight to Israel",
+          "summary": "Investigators will probe whether incident was linked to any 'terrorist activity or intent', UAE state media reports.",
+          "url": "https://www.aljazeera.com/news/2026/10/1/uae-investigates-possible-terrorist-link-in-attack-on-flight-to-israel?traffic_source=rss",
+          "published_at": "2026-10-01T11:46:08+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "3d642ae7e09aa9ec",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
+          "summary": "A pilot who stabbed another pilot on an Israel-bound plane is being investigated in Saudi Arabia, Benjamin Netanyahu says.",
+          "url": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T11:26:46+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "f3bfa9b3b6734d94",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "UAE launches flydubai hijacking and terrorism investigation",
+          "summary": "The UAE's chief prosecutor said it's looking at the possibility of \"terrorist activity or intent\" in the alleged attempted hijacking of a flydubai commercial flight to Tel Aviv. It says it has jurisdiction in the case.",
+          "url": "https://www.dw.com/en/uae-launches-flydubai-hijacking-and-terrorism-investigation/a-79497746?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-01T10:06:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "135dfea64c670fde",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Passengers recount chaos on Tel Aviv flight. And, FBI probes employee-data hack",
+          "summary": "What we know so far about the tense moments aboard a Tel Aviv-bound flight. And, the FBI investigates a cyberattack involving sensitive employee data.",
+          "url": "https://www.npr.org/2026/10/01/g-s1-145879/up-first-newsletter-tel-aviv-flight-passengers-fbi-employee-data-hack",
+          "published_at": "2026-10-01T11:37:10+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "robotics",
-      "title": "arXiv机器人板块集中放出多篇新论文，覆盖视觉伺服、触觉操作与越野导航",
-      "english_term": "Visual Servoing（视觉伺服，一种利用视觉反馈实时调整机器人运动的控制方法）",
-      "summary": "arXiv机器人版块本期集中发布多篇预印本论文，分别探讨闭环视觉伺服、软体飞行-地面两栖机器人、触觉增强的操作大模型以及越野地形可通行性判断等方向。这些均为未经同行评审的预印本成果。",
-      "script": "接下来关注学术圈的动态。今天arXiv机器人板块一次性放出了好几篇预印本论文，覆盖的方向相当广，我们挑几个比较有代表性的展开说说。第一篇叫WM-VS，关注的是闭环视觉伺服，也就是让机器人根据摄像头实时反馈不断调整动作，直到完成对准或抓取任务。论文作者指出一个常被忽视的问题：很多视觉预测模型只能判断某个动作“看起来合理”，却不知道这个动作到底有没有真正减少任务误差，这个矛盾被称为“预测-控制失配”。他们提出了一种以目标为中心、和任务进度对齐的世界模型框架，利用DINOv2这种视觉基础模型提取的跨图像对应关系，构造出一个四维的带符号伺服坐标，分别描述平移、缩放和平面内旋转的偏差，从而让预测直接服务于控制决策。第二篇是AeRove，这是一款空地两栖机器人，专门为管道近距离巡检设计。它巧妙地把螺旋桨的保护罩直接当轮子用，可以贴着管道滚动前进，还配了一个弹簧驱动的双稳态机构，能在两百毫秒内完成飞行模式和地面模式的切换，不需要额外的持续供电驱动，这样既省电又减少了螺旋桨气流对气体传感器读数的干扰。第三篇叫Shake to Learn，思路很有意思，研究的是如何通过摇晃、提起这类主动交互动作，去推断物体隐藏的物理属性，比如重心位置或者内部装的是什么，这类信息光靠看是看不出来的，作者借助物理储备池计算这种方式来处理交互产生的动态响应信号。另外还有ForeTac-VLA和PIVOT两篇，分别探讨如何让视觉-语言-动作大模型提前预测接触力的演变过程，以及如何结合视觉语言理解和物理先验来提升越野机器人在复杂地形上的可通行性判断。这些论文目前均为未经同行评审的预印本，其实验设置、数据规模和结论的普适性都有待学术共同体进一步检验。后续需要等待论文正式投稿会议或期刊后的评审意见，以及是否有更多实验室复现或扩展这些方法。",
-      "duration_seconds": 195,
-      "is_unverified": true,
-      "confidence_note": "所有论文均为arXiv预印本，未经同行评审，实验结果和结论的稳健性有待后续审稿验证。",
-      "fact_status": {
-        "confirmed": [
-          "arXiv机器人板块今日发布了多篇涉及视觉伺服、两栖机器人、触觉操作和越野导航的新论文"
-        ],
-        "claims": [
-          "各论文作者提出的方法在其报告的实验设置下取得了改进效果"
-        ],
-        "analysis": [
-          "这些工作反映出当前机器人学术界在具身感知、多模态操作和世界模型方向的持续探索，但方法的实际泛化能力和落地价值仍需更广泛验证"
-        ]
-      },
-      "source_ids": [
-        "58c3e75fe25bc739",
-        "f8d438d63a9532bd",
-        "8715ff2b59598f10",
-        "ef5aefbe359c1a45",
-        "a0af4d3ff93f5432"
-      ],
-      "sources": [
-        {
-          "id": "58c3e75fe25bc739",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "WM-VS: Progress-Aligned World Models for Closed-Loop Visual Servoing",
-          "summary": "arXiv:2609.20892v1 Announce Type: new Abstract: Closed-loop visual servoing requires predictions that indicate whether an action reduces task error, not only whether the action is plausible. We call this gap the prediction-control mismatch and introduce WM-VS, a target-centric progress-aligned world-model framework for closed-loop visual servoing. Offline target-region DINOv2 correspondences define a signed four-dimensional servo coordinate for translation, scale, and in-plane rotation. Stage 1 aligns action-conditioned latent transitions with this coordinate; Stage 2 freezes the world model and trains a reactive joint-velocity policy with action imitation, consequence supervision, and short imagined rollouts that favor error contraction. Deployment is RGB-only and reactive, without online trajectory optimization. On a real 7-DoF eye-to-hand system, WM-VS reaches a corner RMSE no larger than 10 percent of its initial value in 30/30 trials and retains this criterion at the final valid frame in 25/30 (83.33 percent). Removing future-error alignment reduces retention to 26.67 percent. The learned progress signal agrees with an external AprilTag corner error not used for training or co",
-          "url": "https://arxiv.org/abs/2609.20892",
-          "published_at": "2026-09-21T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "f8d438d63a9532bd",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "AeRove: A Compact Bimodal Aerial-Terrestrial Drone with Rapid Bistable Reconfiguration for Close-Range Pipeline Inspection",
-          "summary": "arXiv:2609.20965v1 Announce Type: new Abstract: Close-proximity pipeline inspection is challenging for standard drones due to high hovering power consumption, airflow sensitivity, and propeller wash interference with gas sensing. To address this, we present AeRove, a compact bimodal aerial-terrestrial robot. AeRove uses its propeller guards as wheels to roll along pipes and employs a spring-loaded bistable mechanism to reconfigure between ground and flight modes in 200 ms without continuous actuator power to maintain either state. The converging propeller-guard geometry also improves measured thrust efficiency. By reserving flight for obstacle hopping and using ground rolling for continuous traversal, current draw is reduced 14x compared to continuous flight (0.7 A vs. 10 A), extending estimated travel distance from 144 m to 2057 m. Autonomous trials on a 51 cm diameter steel pipe demonstrated navigation on straight and curved sections, obstacle jumping, and leak detection of simulated inspection markers. Separate CO2 sensing experiments evaluated gas-detection performance under perched and aerial operating conditions. Perched inspection produced a substantially larger concentratio",
-          "url": "https://arxiv.org/abs/2609.20965",
-          "published_at": "2026-09-21T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "8715ff2b59598f10",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Shake to Learn: Dynamic Interrogation of Hidden Object Physics for Robotic Manipulation with Physical Reservoir Computing",
-          "summary": "arXiv:2609.20970v1 Announce Type: new Abstract: Many physical properties relevant to robotic manipulation are hidden from vision. A sealed object, for example, may reveal little about its center of mass (COM) or internal contents until it is lifted, shaken, or otherwise dynamically perturbed. This study shows that such interactions can enable a new modality of robotic perception and learning, in which interaction-induced dynamic responses are used to infer object physics that is inaccessible to conventional sensing. We implement this idea using an origami-inspired soft robotic arm that functions as a physical reservoir computer. After grasping an object, the arm is excited by a fixed shaking input at its base, and the resulting ringdown response is recorded through either camera tracking or embedded sensors. Because the input is held constant across trials, hidden object properties, such as the COM position, are encoded through their effect on the dynamics of the coupled robot-object system. A lightweight linear readout can then decode these dynamics to recover interpretable information about the hidden object physics. Using this framework, the soft robotic arm reservoir completed ",
-          "url": "https://arxiv.org/abs/2609.20970",
-          "published_at": "2026-09-21T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "ef5aefbe359c1a45",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "ForeTac-VLA: A Forecasting-Based Tactile-Vision-Language-Action Model for Contact-Rich Robotic Manipulation",
-          "summary": "arXiv:2609.20980v1 Announce Type: new Abstract: Vision-language-action (VLA) models have demonstrated strong capabilities in robotic manipulation, yet their reliance on visual perception limits robustness in contact-rich environments, where critical physical interaction states may not be visually observable. Existing tactile-enhanced VLA methods improve physical grounding using observed tactile feedback, but most remain largely reactive rather than explicitly modeling how contact may evolve. Therefore, we propose ForeTac-VLA, a forecasting-based tactile-vision-language fusion model that predicts future tactile states to guide action generation. Specifically, ForeTac-VLA encodes recent tactile observations into temporal representations and integrates them with vision-language features through bidirectional cross-attention. Further, a transformer-based forecasting module predicts multi-step future tactile states, enabling the model to reason jointly over observed and anticipated contact. Finally, the fused multimodal representations and predicted future tactile states are fed into the VLA backbone to condition action generation. To stabilize training, a ground-truth-to-prediction cur",
-          "url": "https://arxiv.org/abs/2609.20980",
-          "published_at": "2026-09-21T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "a0af4d3ff93f5432",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "PIVOT: Physically Informed Vision-Language Off-Road Traversability for Field Robot Navigation",
-          "summary": "arXiv:2609.20983v1 Announce Type: new Abstract: Terrain assessment is a critical capability for off-road mobile robots, enabling safe and reliable navigation through unstructured and geometrically complex environments. Conventional geometry-based terrain assessment is fast to compute but often overly conservative in unstructured environments. We present PIVOT: a Physically Informed Vision-Language Off-Road Traversability navigation system that augments conventional geometry-based planning with vision-language-model (VLM)-based semantic reasoning for field robots. To physically ground this assessment, we quantify how strongly the VLM's predicted traversal energy cost, robot vibration, and wheel slip correlate with real-world measurements and introduce a unified traversability score that weights each modality by its prediction-measurement correlation. For efficiency, we design a two-level navigation architecture that retains geometry-based planning as the nominal mode and invokes semantic replanning only when that mode fails to find a path. Across five repeated closed-loop trials on a mixed-terrain route totalling around $6.4$ km, the proposed system increases overall autonomy from $",
-          "url": "https://arxiv.org/abs/2609.20983",
-          "published_at": "2026-09-21T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "人形机器人报废难题：拆解退役机器人是一项精密的“外科手术”",
-      "english_term": "Decommissioning（退役处理，指设备生命周期终结后的安全拆解与处置流程）",
-      "summary": "行业媒体The Robot Report撰文讨论人形机器人退役报废的复杂性，指出这远非传统机械报废那么简单，涉及电池、传感器和高精度部件的专业拆解流程。",
-      "script": "再来看一个容易被忽视但很现实的问题：人形机器人坏了该怎么处理。行业媒体The Robot Report近日撰文指出，退役一台人形机器人绝不是像处理一台旧洗衣机那样简单粗暴地拆掉回收金属，而是一项高度专业、风险不低的技术性工作。文章把这个过程形容为一场“外科手术”。原因在于，现在的人形机器人内部集成了高密度锂电池组、大量精密执行器、力矩传感器、视觉模组和线缆束，如果处理不当，电池组存在起火甚至爆炸的风险，精密的旋转关节和减速器如果强行暴力拆解，也可能造成润滑油泄漏或者内部应力释放引发的意外损伤。文章还提到，很多厂商目前并没有形成标准化的退役流程，往往需要针对每一款机型单独制定拆解方案，包括先给电池放电、再按顺序拆除外部覆盖件、然后分模块拆解传动系统，最后再对材料进行分类回收。这背后其实反映出整个人形机器人行业还处于相对早期的阶段：大家的注意力普遍集中在如何把机器人造出来、跑起来、卖出去，而对于设备生命周期末端的处理规范，包括安全标准、环保回收要求、责任归属等问题，行业内部还缺乏统一共识。随着人形机器人从实验室和展会走向工厂产线甚至家庭场景，未来批量退役、批量报废的情形会越来越常见，这类基础设施性质的问题预计会变得更加重要。后续需要观察是否有行业协会或标准化组织牵头，针对人形机器人的报废回收制定统一的安全和环保规范。",
-      "duration_seconds": 145,
+      "category": "other",
+      "title": "ASI与软银联手2.25亿美元，推进建筑工地自动化重型设备车队",
+      "english_term": "brand-agnostic autonomous fleet（品牌无关的自动化车队，指同一套自动驾驶方案可适配不同厂商的工程机械）",
+      "summary": "自动驾驶公司ASI与软银宣布合作，投入2.25亿美元资金，目标是把自动化能力规模化部署到基础设施项目中的重型工程机械上，以缓解建筑行业劳动力短缺问题。",
+      "script": "来看机器人产业这边一条重量级消息。自动化公司ASI与软银宣布达成合作，双方计划投入高达2.25亿美元，用于把自动驾驶能力规模化推广到建筑工地的重型设备上，目标是解决长期困扰建筑行业的劳动力短缺问题。这里有个概念值得解释一下，叫brand-agnostic autonomous fleet，也就是品牌无关的自动化车队。它的意思是，这套自动化方案不是只给某一个品牌的推土机或挖掘机做适配，而是设计成一套可以移植到不同厂商设备上的通用自动驾驶系统，类似给各种工程机械装上一个统一的大脑。这种思路和人形机器人领域强调的平台通用性是一致的逻辑：与其为每种机型单独开发控制系统，不如打造一套可迁移的自动化内核，再根据不同车辆做接口适配，从而降低规模化部署的边际成本。从产业背景看，建筑行业长期面临招工难、工期紧、现场环境复杂多变等问题，重型设备操作既要求经验也存在安全风险，这使得自动化改装具备现实需求。软银近年持续在机器人与自动化领域扩大布局，这次与ASI合作，意味着资本正在从仓储、物流等相对结构化场景，向工地这种非结构化、动态性更强的室外场景延伸。这类场景的技术难点在于，设备需要应对不断变化的地形、堆料、以及与人类工人共同作业的安全协同问题，对感知系统和实时决策能力要求较高。目前官方披露的信息集中在资金规模和合作方向上，具体落地的设备型号、首批试点项目、以及规模化部署的时间表尚未明确。后续需要等待双方公布具体的试点项目进展和首批可投入使用的自动化设备清单。",
+      "duration_seconds": 160,
       "is_unverified": false,
-      "confidence_note": "来自专业机器人行业媒体The Robot Report的分析报道，为行业观察性文章，非突发新闻。",
+      "confidence_note": "来自行业媒体The Robot Report的直接报道，属于公司官方合作公告性质的报道，单一来源但信息来自产业一手声明。",
       "fact_status": {
         "confirmed": [
-          "行业媒体报道指出人形机器人的退役拆解涉及电池、精密执行器等高风险部件的专业处理"
+          "ASI与软银宣布合作，计划投入2.25亿美元",
+          "合作目标是推进建筑行业重型设备的自动化车队"
         ],
         "claims": [
-          "文章认为目前行业缺乏标准化的退役处理流程"
+          "该方案被描述为品牌无关、可适配不同厂商设备"
         ],
         "analysis": [
-          "随着人形机器人规模化部署推进，设备生命周期末端管理可能成为行业需要补齐的短板"
+          "自动化应用正从结构化室内场景向非结构化室外工地场景扩展",
+          "建筑行业劳动力短缺是推动该类投资的主要产业动因"
         ]
       },
       "source_ids": [
-        "06a130020d282233"
+        "8eac43720d15b97a"
       ],
       "sources": [
         {
-          "id": "06a130020d282233",
+          "id": "8eac43720d15b97a",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "What do you do with a humanoid robot when it breaks down?",
-          "summary": "Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor. The post What do you do with a humanoid robot when it breaks down? appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
-          "published_at": "2026-09-20T12:45:45+00:00",
+          "title": "Tackling construction labor shortages: ASI and SoftBank partner on autonomous fleets",
+          "summary": "ASI and SoftBank join forces with $225M to scale brand-agnostic autonomous heavy equipment across infrastructure projects. The post Tackling construction labor shortages: ASI and SoftBank partner on autonomous fleets appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/tackling-construction-labor-shortages-asi-softbank-partner-autonomous-fleets/",
+          "published_at": "2026-09-30T12:30:17+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ],
+      "category_correction": "未检测到机器人核心主题，已从 robotics 调整为 other。"
+    },
+    {
+      "category": "robotics",
+      "title": "NVIDIA Isaac Lab推出Fiatlux基准：人形机器人要在一集任务里爬梯换灯泡",
+      "english_term": "long-horizon benchmark（长程基准测试，指需要机器人连续完成多个步骤、跨越较长时间尺度才能达成目标的测试任务）",
+      "summary": "研究者在NVIDIA Isaac Lab仿真平台上推出Fiatlux基准，要求Unitree G1人形机器人在同一回合内完成放置梯子、攀爬、更换灯泡等一整套动作，首次把垂直移动和精细操作放进一个长程任务评测。",
+      "script": "学术这边，一篇新论文提出了一个很有意思的人形机器人测试基准，名字叫Fiatlux。研究团队指出，现有的机器人测试基准大多只评估单一类型的能力：要么是桌面操作，要么是平地上的家务活动，要么是人形机器人的行走与基础操作，彼此是割裂评测的，没有一个基准把垂直方向的移动能力和需要精细控制力度的操作任务，放在同一个连续任务里考察。于是他们基于NVIDIA的Isaac Lab仿真平台，设计了一个换灯泡的长程任务，英文叫long-horizon benchmark，意思是需要机器人连续完成多个步骤、跨越较长时间才能达成目标的测试任务。具体来说，在同一个回合里，宇树科技的G1人形机器人需要先把一架梯子搬到天花板或墙面的灯具下方并摆放到位，然后爬上梯子，接着完成一个精细的操作，把坏掉的灯泡换下来，装上新的。这个任务之所以有代表性，是因为它同时考验了机器人的全身运动规划能力，比如保持身体平衡、协调四肢爬梯；也考验了精细操作能力，比如对易碎物体施加恰到好处的力度，不能捏碎灯泡也不能让它脱手掉落。这种跨尺度的能力组合，此前很少被统一纳入同一个评测体系。从研究意义上看，Fiatlux给人形机器人研究提供了一个更贴近真实家庭和工业场景的综合考题，因为现实世界里的任务本身就是连续且混合的，很少会孤立出现。不过也要指出，这项工作目前基于仿真环境完成，论文显示为预印本，尚未经过同行评审，实际迁移到真实机器人硬件上的表现、以及真实世界里梯子打滑、灯具型号差异等复杂因素，仿真中未必能完全覆盖。后续需要关注该基准是否会被其他团队采用作为通用测评标准，以及是否有团队公布在真实硬件上的复现结果。",
+      "duration_seconds": 175,
+      "is_unverified": true,
+      "confidence_note": "来自arXiv预印本，尚未经过同行评审，结果为仿真环境测试，未验证真实硬件迁移效果。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了名为Fiatlux的长程基准，基于Isaac Lab仿真平台，使用Unitree G1人形机器人模型"
+        ],
+        "claims": [
+          "作者称这是首个将垂直移动与精细操作整合进单一长程任务的基准"
+        ],
+        "analysis": [
+          "该基准反映出学术界正在推动更贴近真实复合场景的机器人评测标准",
+          "仿真结果与真实硬件表现之间仍存在差距需要验证"
+        ]
+      },
+      "source_ids": [
+        "af96d897f025f9f5"
+      ],
+      "sources": [
+        {
+          "id": "af96d897f025f9f5",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Fiatlux: A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Replacement",
+          "summary": "arXiv:2609.38216v1 Announce Type: new Abstract: Existing benchmarks evaluate tabletop manipulation, flat-floor household activity, or humanoid locomotion and manipulation as separate task groups; none scores vertical mobility and dexterous work on a fragile payload in one long-horizon episode. We present Fiatlux, a light-bulb replacement benchmark built on NVIDIA Isaac Lab. In one episode, a Unitree G1 humanoid positions a step ladder under a ceiling or wall fixture, climbs it, exchanges a spent bulb in a socket for a fresh one, and leaves the spent one in a disposal crate. We decompose the episode into twelve subtask environments scored on difficulty-weighted gates. The goal is a successful replacement, with the fresh bulb seated, the spent one disposed of, neither dropped, and a fragility bound not crossed. Runs that fall short can earn partial credit. Observations are split into a standard mode (signals a physical robot could sense or estimate) and a privileged mode (exact simulator state). We specify the evaluation protocol and provide reference baseline implementations spanning RSL-RL PPO, zero-shot NVIDIA GR00T N1.7 Vision-Language-Action (VLA) models, and whole-body controll",
+          "url": "https://arxiv.org/abs/2609.38216",
+          "published_at": "2026-10-01T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -189,197 +196,159 @@
     },
     {
       "category": "robotics",
-      "title": "Arrive AI将在VARTECH 2026展示机器人与投递站点实时对接演示",
-      "english_term": "Robot-to-Arrive Point Handoff（机器人到投递站点的交接，指自动配送机器人与固定接收装置之间的物品转移）",
-      "summary": "美国公司Arrive AI宣布将在VARTECH 2026展会上现场演示其机器人与自研“到达点”投递箱之间的实时物品交接技术，多家媒体转载了该公司的新闻稿。",
-      "script": "接下来是一条产业快讯。美国公司Arrive AI宣布，将在VARTECH 2026展会上进行一场现场演示，展示自动配送机器人与该公司自主研发的“到达点”（Arrive Point）智能投递箱之间进行实时物品交接的过程。简单说，这套系统想解决的是自动配送最后一步的难题：机器人或者无人配送车把包裹送到之后，怎么安全地完成交接，而不是简单地放在门口。Arrive AI的方案是设置固定的智能投递站点，机器人或者其他运输载具抵达后可以与站点进行身份识别和物理对接，将包裹转移到一个受控、可上锁的空间里，从而降低包裹丢失或被盗的风险，也为无人配送在住宅区和商业区的落地提供一种基础设施化的解决思路。这次消息出现在多家地方性媒体和新闻稿分发平台上，包括ACCESS Newswire这样的企业新闻稿代发渠道，内容基本一致，本质上是一次企业公关性质的展会预告，尚未涉及具体的技术参数、合作方或商业化进展的独立验证。VARTECH是不是行业内具有广泛影响力的重要展会，这次演示会带来什么实质性的技术突破，目前从现有信息中还看不出来，需要等展会现场演示结束后，看是否有第三方媒体或行业分析给出更详细、更中立的报道和评价。总体而言，这类“最后一公里”智能化交接的探索，反映了自动配送行业在硬件基础设施层面持续投入的一个侧面，但目前更多还停留在概念演示阶段。",
-      "duration_seconds": 145,
+      "title": "柔性螺旋软体机器人实现整体抓取与投掷，论文探索接触关系优化方法",
+      "english_term": "whole-body manipulation（全身操作，指机器人不只用末端抓手，而是用整个身体结构与物体产生接触并完成操作任务）",
+      "summary": "一篇新论文提出通过基于结果的驱动空间优化方法，让螺旋形软体连续体机器人从无抓取状态出发，完成整体抓握与投掷动作，试图解决软体机器人在接触关系不断变化时难以规划行为的问题。",
+      "script": "再看一项软体机器人方向的研究。软体连续体机器人的一大优势，是可以利用身体各处的柔顺性来完成操作任务，这个概念叫whole-body manipulation，也就是全身操作，指的是机器人不只靠末端的抓手，而是让整个柔性身体和物体产生接触，共同完成抓取或搬运。但这种优势也带来一个难题：当机器人身体与物体之间的接触点不断变化时，该如何设计一套驱动序列，让行为按预期发生，这件事在控制层面一直很棘手。这篇论文聚焦的，正是让一个螺旋形软体机器人从完全没有抓住物体的初始状态出发，自主完成抓握，并进一步完成拾取后抛投的动作。研究团队采用的方法是基于结果的驱动空间优化，简单理解就是不去手工设计每一步该怎么卷曲身体，而是先定义好想要的结果指标，比如抓取阶段用机器人末梢的角度扫掠范围和身体对物体的包裹程度来衡量抓得好不好，投掷阶段则进一步加入释放方向是否对准目标、释放速度是否达到最低要求等指标，然后让优化算法在驱动参数空间里搜索，找到能够实现这些结果指标的具体动作序列。这种思路的好处在于，不需要对软体机器人与物体之间复杂的接触力学建立精确模型，而是用结果导向的方式绕开了这个难题，这对软体机器人这种本身弹性形变难以精确建模的系统来说，是比较实用的工程选择。论文的研究对象偏向操作任务中较难的一类，即初始无抓取状态下的整体操作，这类任务此前研究相对较少。需要说明的是，这同样是一篇尚未经过同行评审的预印本，具体的抓取成功率、投掷精度等量化数据，以及该方法在不同形状、不同重量物体上的泛化能力，还需要等待更完整的实验细节和同行评审意见。",
+      "duration_seconds": 170,
       "is_unverified": true,
-      "confidence_note": "所有信源均为同一企业新闻稿的多渠道转载，属于公司公关物料，缺乏独立第三方验证，实际技术成熟度和商业化进展需保留判断。",
+      "confidence_note": "来自arXiv预印本，尚未经过同行评审，摘要未提供具体成功率等量化实验数据。",
       "fact_status": {
         "confirmed": [
-          "Arrive AI公司宣布将在VARTECH 2026展会上演示机器人与其投递站点的交接技术"
+          "论文提出了基于结果导向的驱动空间优化方法，应用于螺旋形软体机器人的抓取与投掷任务"
         ],
         "claims": [
-          "公司方面表示该演示为“实时”交接展示"
+          "作者称该方法可以从无抓取初始状态实现整体抓握与投掷"
         ],
         "analysis": [
-          "该消息本质上是企业新闻稿的多平台转发，缺乏独立媒体或行业专家的评价，技术真实成熟度有待展会后验证"
+          "该方法回避了软体机器人接触力学精确建模的难题，具有工程实用性",
+          "量化效果与泛化能力仍待更完整数据验证"
         ]
       },
       "source_ids": [
-        "d1864e80f4d61f18",
-        "ddfa4a399c51d9bb",
-        "ee90594e478d68e0",
-        "7f38e45da1a9da68"
+        "b78c3985ba9df821"
       ],
       "sources": [
         {
-          "id": "d1864e80f4d61f18",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
+          "id": "b78c3985ba9df821",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Arrive AI to Demonstrate Live Robot-to-Arrive Point Handoff at VARTECH 2026 - The Batesville Daily Guard",
-          "summary": "Arrive AI to Demonstrate Live Robot-to-Arrive Point Handoff at VARTECH 2026 The Batesville Daily Guard",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOY2lqRTh6anRGQUJjaHhnaHRnTHlFSHBEbVJTZndBWmR0OTMwTFBKREZ1VVB0Y0Nxak5oUWJ1bmdYcXh0RFk2NGFmQUplelZsWkNRdzZSc2kzNXUyX2VLVzJpbkJXOUJ5NXhrRkg1V1J1SFp5LTcycGgwM0tDWWJzZU9tZURsa2FBNXptczZibDQyYmozdVRBM1dkRFd5RFB0MERzOGdJbzJzb3lUYlhfdDJ5ZUdsV1BCX0MxYV9KSl9mdHZzTXlxNlByOF9OT1Z6a0ZpbE5ZellLMFJKNWN5ZFgzOWo3Y3J0ZzkwN2tqVVhJTXl4SmdCTllTWQ?oc=5",
-          "published_at": "2026-09-21T11:31:48+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "ddfa4a399c51d9bb",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Arrive AI to Demonstrate Live Robot-to-Arrive Point Handoff at VARTECH 2026 - Bluefield Daily Telegraph",
-          "summary": "Arrive AI to Demonstrate Live Robot-to-Arrive Point Handoff at VARTECH 2026 Bluefield Daily Telegraph",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQN3lncDAxbnZaczZuSG05bmxUVjRYRTMtcjBDdENqWWFHTTZTeVIzV0FSQVF6cTZGZ0QtSGpwUDczR3Utb3lhNlZ0MVE3WkVjZnRUelpQWFlISDFxdjN4WDRkbC1ISU1JMU5nd3pYLVM4LUNKSUE4M1g0RHh0Q0dBWlJSNGFvcUFOd3Fta0lYNk9TbkF4S1lVQWhldElBZFpsZ2tmbTV3Mm1WU1M1OWRIc1ZDaW10YlZlc0FFUlpucTA5SzBHM25kUTg0R3Z2eFhaX3M1SnA1NnVWdjd1OFRVVGo3WFVTNkZoekpLRWZYbw?oc=5",
-          "published_at": "2026-09-21T11:31:48+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "ee90594e478d68e0",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Arrive AI to Demonstrate Live Robot-to-Arrive Point Handoff at VARTECH 2026 - ACCESS Newswire",
-          "summary": "Arrive AI to Demonstrate Live Robot-to-Arrive Point Handoff at VARTECH 2026 ACCESS Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRzZpNEE4Rk01SmdnYm5ubUd6TDk5OVByZGNYQ1ItNVl3YUxMZUNsMVRmU29jczJHa1BxeGJfTDlBV1owZGVDdmtMWVctcGREaHM4a2FiM2JiM2FVT3AzcTFEMmRzUTF3S3ExdFVCeVpHYkozQ1R1UmU3VENtVC1Kb2ZpOEM0NHFPQkFTVmZlcl9jd20zX0tsRDBSV2tGdUlBUlEtdkVpNTZpc1dGc3FkX3pzNWp2VDlvN2tGUWcybjl2VExOMzRYUWhXbS1IbWEwbEx4UWRvMGd1WHZreGlpQy1kZnA?oc=5",
-          "published_at": "2026-09-21T11:30:51+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "7f38e45da1a9da68",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Arrive AI to Demonstrate Live Robot-to-Arrive Point Handoff at VARTECH 2026 - marketscreener.com",
-          "summary": "Arrive AI to Demonstrate Live Robot-to-Arrive Point Handoff at VARTECH 2026 marketscreener.com",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdHVzZjJ3VW1PX0xTaUpxQmswZVE0M0Q3Ql92QUhrZTRKb1M3aU5TOTRkeGhmWXduLW53VmE5MVVPN3pPWUQ3RTBUMUVJUFhZbVFBVW5kVGtjOTJnSkZYZDd3WTd0ZEs2NWJpTnotOEZ2aENfTjNwTUhPdWNwRmJGNDhKenByUVRDdVV0eVFYekg0ZHFXcl9kWDJQejFyS2k3Tzd2QWUxWTZGY0dBMjRYN1M3U1c2bDZoTlo3ZVNrWDFsczBsdExB?oc=5",
-          "published_at": "2026-09-21T11:30:28+00:00",
+          "title": "Optimize, Learn, Refine: Whole-Body Grasping and Pick-and-Throw with a Spiral Soft Robot",
+          "summary": "arXiv:2609.38202v1 Announce Type: new Abstract: Soft continuum robots can exploit distributed compliance for whole-body manipulation, but synthesizing behavior through changing contacts remains difficult. We address whole-body grasping and pick-and-throw from an initially ungrasped state through outcome-based actuation-space optimization. Grasping is quantified by tip angular sweep and body-object enclosure, while throwing further incorporates release-direction alignment and minimum release speed. These objectives allow grasping, acceleration, and release to emerge from compliant interaction without prescribing contact forces, contact locations, or body configurations. Because the resulting actuation-to-outcome mapping is nonsmooth, we utilize derivative-free CMA-ES within an optimize-learn-refine framework. CMA-ES generates solutions for sampled conditions, a task-conditioned predictor learns warm starts, and CMA-ES refines them for unseen conditions. In simulation, the method achieves 492/500 successful grasps (98.4%) and success rates of 98%, 97%, and 94% across three directional throwing trials. Learned initialization increases grasping success from 78.6% to 98.4% while reducin",
+          "url": "https://arxiv.org/abs/2609.38202",
+          "published_at": "2026-10-01T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "联合国大会本周在纽约开幕，乌克兰与中东战事阴影笼罩会场",
-      "english_term": "UNGA（United Nations General Assembly，联合国大会，联合国六大主要机构之一）",
-      "summary": "本周各国领导人齐聚纽约参加联合国大会，联合国秘书长古特雷斯将出席其任内最后一届大会开幕活动，乌克兰战争与中东局势成为焦点议题。",
-      "script": "本周国际政治的重头戏是联合国大会在纽约召开。据NPR报道，联合国秘书长安东尼奥·古特雷斯将在本届大会上进行他任期内最后一次以秘书长身份出席的大会开幕活动，各国领导人将陆续抵达纽约总部参加为期一周的会议和双边会谈。已确认的事实是，本次大会召开的背景是俄乌战争仍在持续，中东局势也处于紧张状态，联合国内部在多个重大议题上存在明显分歧，多边协调机制的有效性持续受到外界质疑。据NPR另一篇报道，前联合国副秘书长马洛克-布朗在采访中谈到了联合国在当前几大冲突中所能发挥的作用，反映出国际社会对联合国斡旋能力是否仍然有效存在争议性看法，这属于一方观察人士的分析判断，而非联合国官方立场。与此同时，据美国全国公共广播电台报道，美国总统特朗普提出了一个与本届联大议程关系不大但引发关注的说法，他表示自己名下的一处建筑拱门未来将作为“军事综合体”使用，这一表态目前仅为特朗普本人公开言论，尚无更多官方细节。综合来看，本届联大召开正值多重地缘政治压力交织的时刻，包括俄乌战事、中东多线冲突、以及联合国自身在效率和代表性方面面临的结构性质疑，古特雷斯的谢幕大会也被外界视为观察联合国未来走向的一个窗口。后续需要关注大会期间是否有关于乌克兰或中东问题的实质性外交突破，以及各主要大国领导人在发言和双边会谈中释放的具体信号。",
-      "duration_seconds": 140,
+      "category": "robotics",
+      "title": "ANYbotics推出Shift平台，帮助机器人巡检车队规模化运维",
+      "english_term": "fleet operations（机器人车队运维，指对多台巡检机器人统一调度、监控状态并处理任务的管理方式）",
+      "summary": "瑞士机器人公司ANYbotics发布名为Shift的新平台，旨在帮助维护团队统一管理多台巡检机器人，自动发现设备故障并把数据转化为具体工单。",
+      "script": "产业动态方面，专注四足巡检机器人的瑞士公司ANYbotics发布了一款新平台，名叫Shift。这个平台针对的是工业巡检场景里一个越来越现实的问题：当企业部署的巡检机器人数量从一两台增加到几十台甚至上百台时，怎么统一管理这支车队，这就是所谓的fleet operations，机器人车队运维。按照公司介绍，Shift平台的作用是帮助维护团队运行工业巡检任务、识别出现故障迹象的设备，并把巡检采集到的数据自动转化为具体的工单，提交给维护人员处理。这类平台解决的其实不是机器人本体的技术难题，而是机器人规模化落地之后的管理难题。很多企业在采购了巡检机器人之后会发现，单台机器人能不能走、能不能爬楼梯、能不能识别仪表读数，只是第一步，真正决定这套系统能不能持续产生价值的，是后端能不能把巡检发现的问题高效流转到维修流程里，否则机器人采集再多数据，如果没人及时处理，也只是放在系统里睡大觉。ANYbotics长期专注于工业环境里的腿式巡检机器人，这次推出车队管理软件，说明公司正在从单纯卖硬件，向提供软硬一体的运维解决方案转型，这也是不少机器人公司在产品成熟后普遍会走的一条路径，因为客户真正愿意持续付费的，往往是能解决管理效率问题的整体方案，而不只是一台能跑能爬的机器狗。目前公司公开的信息集中在功能定位介绍上，具体接入了多少家客户、覆盖哪些行业场景、以及实际降低了多少运维成本，还没有更详细的数据披露。后续需要等待公司公布具体客户案例和效果数据。",
+      "duration_seconds": 160,
       "is_unverified": false,
-      "confidence_note": "综合NPR两篇独立报道交叉确认联大召开背景及秘书长任期信息，特朗普相关言论为其本人公开表态，可信度高但属个人观点性质。",
+      "confidence_note": "来自行业媒体The Robot Report对公司产品发布的报道，属于产业公告性质信息。",
       "fact_status": {
         "confirmed": [
-          "联合国大会本周在纽约召开",
-          "古特雷斯将出席其任内最后一次联大开幕活动"
+          "ANYbotics发布了名为Shift的机器人车队管理平台",
+          "平台功能包括巡检任务管理、故障检测和工单生成"
         ],
-        "claims": [
-          "前联合国副秘书长认为联合国在当前冲突中的作用值得讨论",
-          "特朗普表示其名下建筑拱门将作为军事综合体使用"
-        ],
+        "claims": [],
         "analysis": [
-          "本届联大召开正值俄乌战争和中东局势持续紧张的背景下，多边机制的有效性面临外界持续质疑"
+          "机器人公司正从单纯硬件销售向软硬一体运维方案转型",
+          "车队管理效率可能是巡检机器人规模化落地的关键瓶颈"
         ]
       },
       "source_ids": [
-        "7270076dfa59ffce",
-        "e2e3ec41ea8495bf",
-        "16280d673a807206"
+        "37300ff70a7aa4d1"
       ],
       "sources": [
         {
-          "id": "7270076dfa59ffce",
-          "source": "NPR World",
+          "id": "37300ff70a7aa4d1",
+          "source": "The Robot Report",
           "source_tier": 2,
-          "source_region": "us",
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "World leaders convene for UNGA. And, Trump says D.C. arch will be a 'military complex'",
-          "summary": "This week, world leaders convene for the U.N. General Assembly as war continues in Ukraine and the Gulf. And, President Trump has proposed that his arch serve as a military complex.",
-          "url": "https://www.npr.org/2026/09/21/g-s1-144238/up-first-newsletter-united-nations-general-assembly-trump-arch-faa-ai-federal-agent-shooting",
-          "published_at": "2026-09-21T11:24:27+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "e2e3ec41ea8495bf",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "What to know as world leaders converge at the United Nations this week",
-          "summary": "United Nations head António Guterres returns to New York for his final U.N. General Assembly as diplomacy falters over wars in Ukraine and the Middle East, and the global body faces deep divisions.",
-          "url": "https://www.npr.org/2026/09/21/nx-s1-5971262/united-nations-general-assembly",
-          "published_at": "2026-09-21T09:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "16280d673a807206",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Former UN Deputy Secretary General on the role of the UN in today's biggest conflicts",
-          "summary": "NPR's Michel Martin speaks with former United Nations Deputy Secretary General Mark Malloch-Brown about the relevance of the U.N.",
-          "url": "https://www.npr.org/2026/09/21/nx-s1-5974141/former-un-deputy-secretary-general-on-the-role-of-the-un-in-todays-biggest-conflicts",
-          "published_at": "2026-09-21T10:44:02+00:00",
+          "category_hint": "robotics",
+          "title": "ANYbotics launches Shift to streamline robot fleet operations, scale inspections",
+          "summary": "ANYbotics designed Shift to help maintenance teams run industrial inspections, detect failing equipment, and turn data into work orders. The post ANYbotics launches Shift to streamline robot fleet operations, scale inspections appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/anybotics-launches-shift-streamline-robot-fleet-operations-scale-autonomous-inspections/",
+          "published_at": "2026-10-01T07:59:59+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "俄罗斯议会选举：统一俄罗斯党保持多数席位",
+      "category": "robotics",
+      "title": "动作捕捉实验室助力人形机器人学习更自然的人类动作",
+      "english_term": "motion capture（动作捕捉，通过相机和标记点以亚毫米级精度记录人体运动轨迹的技术）",
+      "summary": "数据服务公司Innodata开设了一间动作捕捉实验室，使用Vicon相机系统以亚毫米级精度采集真实人体运动数据，用于训练人形机器人的动作模仿能力。",
+      "script": "另一条产业消息，数据服务公司Innodata宣布开设了一间动作捕捉实验室，用来采集更贴近真实人类动作的数据，服务于人形机器人的训练需求。这里涉及的技术叫motion capture，也就是动作捕捉，简单说就是通过一组高精度相机和贴在身体上的标记点，把人的动作轨迹记录下来，转换成可以被计算机处理的数字数据。据介绍，这间实验室使用的是Vicon相机系统，测量精度能达到亚毫米级别，也就是说对人体关节角度、运动速度的捕捉误差可以控制在不到一毫米的量级，这在运动捕捉行业里属于比较高端的配置，常见于影视特效和专业生物力学研究领域。把这种高精度动捕技术用在人形机器人训练上，背后的逻辑是，当前不少人形机器人学习走路、搬运、递物这类动作，依赖的是模仿学习方法，也就是先收集大量人类完成同一动作的示范数据，再让机器人的控制模型去学习模仿这些动作模式。数据的质量和精度，直接决定了机器人学出来的动作像不像人、顺不顺畅。如果采集到的人类动作数据本身存在噪声或者误差较大，模型学到的动作也会显得僵硬、不自然，这也是为什么现在有专门的公司愿意投入建设高精度动捕实验室，把它当作一门独立的数据服务生意来做。从产业角度看，这反映出人形机器人赛道的竞争正在从单纯比拼算法和硬件，延伸到比拼训练数据的质量和获取效率，高质量动作数据正在成为一种独立的产业环节。目前公司公开的信息集中在实验室的设备配置和定位介绍上，具体与哪些机器人公司达成了数据合作、交付的数据规模等细节暂未披露。后续需要观察该实验室是否公布具体合作的机器人厂商案例。",
+      "duration_seconds": 165,
+      "is_unverified": false,
+      "confidence_note": "来自行业媒体The Robot Report对公司动捕实验室设立的报道，信息为公司产业公告性质。",
+      "fact_status": {
+        "confirmed": [
+          "Innodata开设了使用Vicon相机系统的动作捕捉实验室",
+          "宣称测量精度达到亚毫米级"
+        ],
+        "claims": [
+          "公司称该数据用于训练人形机器人更自然地模仿人类动作"
+        ],
+        "analysis": [
+          "高质量训练数据正逐渐成为人形机器人产业链中独立的竞争环节"
+        ]
+      },
+      "source_ids": [
+        "06fa46cc9626f470"
+      ],
+      "sources": [
+        {
+          "id": "06fa46cc9626f470",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Innodata opens motion-capture lab to help humanoids move more like people",
+          "summary": "Innodata uses Vicon cameras to measure movements with sub-millimeter accuracy and to collect real-world training data for robots. The post Innodata opens motion-capture lab to help humanoids move more like people appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/innodata-opens-motion-capture-lab-help-humanoids-move-more-like-people/",
+          "published_at": "2026-09-30T12:59:12+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "匹兹堡国际机场引入机器狗，快速扫描",
       "english_term": null,
-      "summary": "俄罗斯中央选举委员会公布数据显示，普京所在的统一俄罗斯党在议会选举中获得约58%选票，继续保持多数席位；车臣领导人卡德罗夫在当地选举中得票率接近100%。",
-      "script": "转到俄罗斯的一条政治新闻。据德国之声报道，俄罗斯中央选举委员会公布的数据显示，普京所在的统一俄罗斯党在最新一轮议会选举中获得了略低于58%的选票，继续保持议会多数席位。与此同时，普京的盟友、车臣共和国领导人卡德罗夫在当地选举中的得票率接近百分之百。这些数据来自俄罗斯官方选举机构的公开通报，属于已确认的官方发布信息。需要说明的是，包括这次选举在内，外界长期以来对俄罗斯选举的竞争性和公正性存在广泛质疑，国际观察人士和反对派多次指出俄罗斯的选举环境受到严格管控，反对声音空间有限，这类批评属于外部各方的主张和分析判断，而非本次报道验证的具体事实。从选举结果本身看，统一俄罗斯党维持多数地位、卡德罗夫在车臣近乎全票当选，延续了近年来俄罗斯国内政治格局高度稳定、权力结构变化很小的态势。这一结果发生在俄乌战争仍在持续的背景下，对于观察俄罗斯国内政治稳定性、普京执政基础以及战时国内政治动员情况，具有一定的参考价值。后续需要关注国际社会和独立监督机构对本次选举程序公正性的具体评估，以及这一选举结果对俄罗斯后续内外政策走向可能产生的影响。",
-      "duration_seconds": 120,
-      "is_unverified": false,
-      "confidence_note": "选举结果数据来自俄罗斯官方选举委员会通报，为单一官方信源但属于明确的官方一手声明，选举公正性争议为国际社会既有分析判断，非本次报道独立验证内容。",
+      "summary": "匹兹堡国际机场计划引入四足机器狗参与机场运营，具体承担的任务和部署规模在报道中未详述。",
+      "script": "快速关注一条机场自动化的消息。据报道，匹兹堡国际机场将引入四足机器狗参与机场相关工作，这类机器人此前已被不少机场和基础设施场景用于巡检跑道、检查设施或执行安保辅助任务。目前公开报道并未详细说明匹兹堡国际机场具体安排机器狗承担哪些任务，是侧重跑道异物检测，还是设施巡检，亦或安保执勤，信息较为有限。从行业背景看，近年来包括多家国际机场在内的基础设施运营方，已经在尝试引入四足机器人来替代人工进行重复性巡检工作，主要出于提升巡检频率、降低人工成本、以及在恶劣天气或夜间也能保持巡检覆盖的考虑。后续需要等待机场方面公布具体的部署细节和任务范围。",
+      "duration_seconds": 70,
+      "is_unverified": true,
+      "confidence_note": "来自行业资讯源的简短报道，细节有限，尚未有官方机场公告交叉确认具体部署内容。",
       "fact_status": {
         "confirmed": [
-          "俄罗斯中央选举委员会公布统一俄罗斯党获约58%选票",
-          "卡德罗夫在车臣选举中得票率接近100%"
+          "有报道称匹兹堡国际机场将引入机器狗"
         ],
-        "claims": [
-          "国际观察人士长期质疑俄罗斯选举的竞争性和公正性"
-        ],
+        "claims": [],
         "analysis": [
-          "选举结果延续了俄罗斯近年权力结构高度稳定的态势，发生在俄乌战争持续的背景之下"
+          "基础设施场景引入四足机器人进行巡检是行业已有趋势"
         ]
       },
       "source_ids": [
-        "1e3081e5832eaf06"
+        "18778375d8bc8b35"
       ],
       "sources": [
         {
-          "id": "1e3081e5832eaf06",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
+          "id": "18778375d8bc8b35",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Russia: Putin party retains majority in controlled parliamentary vote",
-          "summary": "Vladimir Putin's United Russia won just under 58% of the vote, the electoral commission said. Meanwhile, Putin ally Ramzan Kadyrov won nearly 100% of the vote in elections in the Russian republic of Chechnya.",
-          "url": "https://www.dw.com/en/russia-putin-party-retains-majority-in-controlled-parliamentary-vote/a-79353231?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-09-21T10:48:00+00:00",
+          "category_hint": "robotics",
+          "title": "Robot dogs are coming to Pittsburgh International Airport - Aerospace Global News",
+          "summary": "Robot dogs are coming to Pittsburgh International Airport Aerospace Global News",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS0Rtc1lZeERsM2p0Zkx0UldVSWQ4X2NYbnRWUUxSMElDamRvU3NUNDZCU1hTSV94bXp4TkhzLTZCYTZxekF1dFVkMmJPb2d0c0FXR3Buc0FvWEF2THR0UDJadjMzY2RIR1FNeFc4bTBhTS1JQU1XbE1lSzlwczZzdVdB?oc=5",
+          "published_at": "2026-10-01T11:34:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -387,164 +356,158 @@
     },
     {
       "category": "world",
-      "title": "德国车企推动延长工时，35小时工作制面临挑战",
+      "title": "埃塞俄比亚首都传出爆炸声，此前当局已禁止无人机飞行",
       "english_term": null,
-      "summary": "德国汽车制造商提出将员工工时从每周35小时延长至40小时且不增加薪酬，工会强烈反对，视其为对劳工权益的侵蚀；这一争议发生在德国执政党在最新州选举中受挫的背景之下。",
-      "script": "来看德国的一条经济与劳工议题新闻。据德国之声报道，德国多家汽车制造商正在推动将员工每周工时从目前的35小时延长到40小时，且不增加相应薪酬，企业方面给出的理由是这样做有助于提升德国汽车产业的国际竞争力。这一提议遭到工会方面的强烈反对，工会认为这本质上是对劳工既有权益的侵蚀，是把企业经营压力转嫁给普通员工。这条经济新闻发生的政治背景值得关注：据美国全国公共广播电台报道，德国总理默尔茨所在政党在最新一轮州选举中遭遇重挫，默尔茨承认这一夜的结果对政治中间派而言是一场“灾难”，但他同时表示将继续推进联邦层面的税收和福利改革议程。已确认的事实是德国车企确实提出了延长工时不加薪的方案，工会也确实公开表达了反对立场；至于这一方案最终能否落地，以及默尔茨政府的改革议程是否会因为地方选举失利而受阻，目前都还是各方争论和有待观察的问题。德国35小时工作制长期被视为欧洲劳工权益保护的一个标志性安排，如果车企的提议最终推行，可能会对德国乃至欧洲其他国家的劳资关系产生示范性影响。后续需要关注劳资双方是否会启动正式谈判，以及默尔茨政府的税改和福利改革方案在联邦议会层面的具体推进情况。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "两条报道均来自德国之声和NPR的独立报道，分别覆盖工时争议和执政党选举失利，可信度较高，但劳资谈判结果和政策走向仍属未定事项。",
+      "summary": "埃塞俄比亚首都传出爆炸声，此前政府已下令禁止无人机飞行，一周前首都以北地区军方与新成立的武装联盟之间爆发冲突。",
+      "script": "来看非洲地区的一则安全消息。据报道，埃塞俄比亚首都传出爆炸声，而就在此前，当局已经下令禁止无人机在当地飞行。这一系列动作发生在首都以北地区爆发军事冲突大约一周之后，冲突的双方是埃塞俄比亚政府军，和一个新成立的武装组织联盟。已确认的事实是，爆炸声被听到、无人机飞行禁令已经发布、一周前确实发生了军方与武装联盟之间的交火。但目前报道并未明确说明这次爆炸的具体性质，是军事打击、袭击事件，还是其他原因，相关细节仍然有限。从分析角度看，政府选择在局势紧张之际禁止无人机飞行，通常出于防止无人机被用于侦察或袭击的考虑，这也从侧面说明当地安全形势仍然紧绷。埃塞俄比亚近年来国内多地武装冲突频发，地区局势复杂，后续需要等待官方或可靠信源对爆炸事件的性质做出进一步说明。",
+      "duration_seconds": 85,
+      "is_unverified": true,
+      "confidence_note": "事件信息来自单一来源的简短报道，爆炸性质尚未得到进一步说明或交叉确认。",
       "fact_status": {
         "confirmed": [
-          "德国车企提出将工时从35小时延长至40小时且不加薪",
-          "工会公开反对该提议",
-          "默尔茨所在政党在最新州选举中失利"
+          "埃塞俄比亚首都传出爆炸声",
+          "当局此前已下令禁止无人机飞行",
+          "一周前首都以北地区发生军方与武装联盟冲突"
         ],
-        "claims": [
-          "企业方面认为延长工时有助于提升竞争力",
-          "工会认为这是对劳工权益的攻击"
-        ],
+        "claims": [],
         "analysis": [
-          "劳资博弈和地方选举结果反映出德国当前经济与政治层面都面临一定压力，后续改革推进难度可能上升"
+          "无人机禁令的发布反映出当局对安全风险的担忧",
+          "埃塞俄比亚国内局势仍处于紧张状态"
         ]
       },
       "source_ids": [
-        "72213a9e9a827761",
-        "6ee8347564975e87"
+        "9e5aeb2e8e6b40b0"
       ],
       "sources": [
         {
-          "id": "72213a9e9a827761",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Germany's car crisis: Can the 35-hour workweek survive?",
-          "summary": "German carmakers want employees to work 40 hours instead of the current 35 without extra pay, arguing it would improve competitiveness. Unions strongly oppose the proposal and view it as an attack on workers' rights.",
-          "url": "https://www.dw.com/en/germany-s-car-crisis-can-the-35-hour-workweek-survive/a-79307488?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-09-21T08:13:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "6ee8347564975e87",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "German chancellor stands his ground after his party loses in state elections",
-          "summary": "German Chancellor Freidrich Merz conceded that the night spells \"disaster\" for the political center, but assured the public he'd push ahead with his federal agenda of tax and welfare reforms.",
-          "url": "https://www.npr.org/2026/09/21/g-s1-144231/germany-state-elections-merz",
-          "published_at": "2026-09-21T09:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "埃塞俄比亚七支反政府武装组成新联盟",
-      "english_term": null,
-      "summary": "据BBC报道，七个长期活跃在埃塞俄比亚人口最多地区的反政府武装组织宣布组建新联盟，表示将协同行动。",
-      "script": "简要关注非洲一条政治安全新闻。据BBC报道，七个长期活跃在埃塞俄比亚人口最稠密地区的反政府武装组织宣布组成一个新的联盟，并表示未来将协同行动。这些组织多年来在埃塞俄比亚国内活动，此次联合被视为地区安全局势的一个新变化。目前报道并未详细说明这七个组织具体的名称、各自的诉求差异，以及联盟形成后可能采取的具体行动方向，埃塞俄比亚政府方面对此也暂无公开回应。埃塞俄比亚近年来经历过提格雷地区的大规模内战以及多地零星冲突，国内民族和地区矛盾复杂，多支武装力量并存的局面由来已久。这次多个组织走向联合，如果得到进一步证实和细化，可能会改变当地武装力量的博弈格局，也可能增加中央政府在维稳和谈判上的复杂度。由于目前信息还比较有限，具体影响有待观察。后续需要关注埃塞俄比亚政府方面的回应，以及这一新联盟是否会有具体的军事或政治行动。",
-      "duration_seconds": 90,
-      "is_unverified": false,
-      "confidence_note": "来自BBC单一但为二级权威媒体的直接报道，内容细节有限，后续需更多信源补充。",
-      "fact_status": {
-        "confirmed": [
-          "七个反政府武装组织宣布在埃塞俄比亚组成新联盟"
-        ],
-        "claims": [
-          "联盟方面表示将协同行动"
-        ],
-        "analysis": [
-          "此举可能影响埃塞俄比亚国内多方武装力量的博弈格局，具体走向有待观察"
-        ]
-      },
-      "source_ids": [
-        "4049c3b180e64e33"
-      ],
-      "sources": [
-        {
-          "id": "4049c3b180e64e33",
+          "id": "9e5aeb2e8e6b40b0",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Seven Ethiopian rebel groups form new alliance",
-          "summary": "The groups have been active in Ethiopia's most populous regions for years and now say they will work together.",
-          "url": "https://www.bbc.co.uk/news/articles/ckp84pj8zpngo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-09-21T11:46:39+00:00",
+          "title": "Explosions heard in Ethiopia's capital after drone flights banned",
+          "summary": "It comes a week after fighting erupted north of the capital between the army and a new alliance of armed groups.",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgygpqky9zo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-01T11:25:03+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "美国主流媒体CNN、MS NOW与Politico拟起诉白宫禁令",
-      "english_term": null,
-      "summary": "CNN、MS NOW与Politico三家美国媒体宣布将对特朗普政府的白宫禁令提起诉讼，称此举旨在捍卫“政府不能决定媒体报道或发布内容”的原则。",
-      "script": "最后关注一条媒体与政府关系的新闻。据BBC报道，美国媒体CNN、MS NOW以及Politico宣布，将对特朗普政府方面实施的一项白宫禁令提起诉讼。三家媒体在声明中表示，此举是为了捍卫一项原则，即政府不能决定新闻媒体可以报道或发表什么内容。已确认的事实是这三家媒体确实公开宣布了起诉计划，并且共同强调了新闻自由这一诉讼理由。至于白宫方面禁令的具体内容、适用范围，以及白宫方面对此次诉讼的回应，目前报道中并未详细披露，这属于有待补充的信息。从性质上看，这类媒体机构与政府之间围绕新闻采访权限、白宫记者证或者进入权限展开的法律纠纷，在美国历史上并不罕见，通常涉及第一修正案所保障的新闻自由与政府行政管理权限之间的边界争议。这次三家媒体联合行动，被媒体自身表述为对新闻自由原则的捍卫，而白宫方面此前设置相关禁令的具体理由和法律依据，目前报道中还没有呈现，属于各方主张尚未充分对照的阶段。后续需要关注法院是否受理此案，以及白宫方面对诉讼的正式回应和法律抗辩理由。",
-      "duration_seconds": 110,
+      "category": "finance",
+      "title": "美联储敲定压力测试改革，提升透明度并降低资本要求波动性",
+      "english_term": "stress test（压力测试，指监管机构模拟极端经济情景，评估银行在危机下是否仍有足够资本抵御损失的监管工具）",
+      "summary": "美联储正式公布对银行年度压力测试制度的改革，旨在提高测试过程的透明度和公众问责性，并减少测试结果给银行资本要求带来的年度波动。",
+      "script": "来看一则金融监管方面的消息。美联储正式宣布，对其银行压力测试制度完成了一轮改革定稿，目的是提高测试过程的透明度和公众问责性，同时减少压力测试结果给银行资本要求带来的波动性。这里解释一下stress test，也就是压力测试，它是监管机构每年对大型银行进行的一项模拟演练，通过设定一个假设的极端经济衰退情景，比如失业率大幅飙升、房价暴跌、股市剧烈震荡，来测算银行在这种极端情况下是否还能保有足够的资本，扛得住潜在损失而不倒下。测试结果会直接影响银行被要求维持的资本缓冲水平，监管越严格，银行需要留存的资本就越多，这也会间接影响银行放贷能力和股东分红空间。过去这项制度一直被业内诟病的一点是，每年测试的具体模型和情景设定变化较大，导致银行很难提前预判当年的资本要求会怎么变，资本规划的不确定性较高。这次美联储的改革，主要方向就是针对这个痛点，一方面增加测试方法和假设情景的公开透明程度，让银行和公众更清楚测试是怎么算出来的；另一方面试图平滑年度之间资本要求的波动，减少银行因为测试模型微调就要大幅调整资本储备的情况。从影响层面看，这类监管程序性改革虽然不像降息或加息那样直接影响市场情绪，但长期看会影响银行的资本规划效率和放贷意愿的稳定性，对金融体系的韧性管理具有实际意义。后续需要关注美联储下一轮压力测试实施时，具体技术细节和情景假设将如何调整。",
+      "duration_seconds": 145,
       "is_unverified": false,
-      "confidence_note": "来自BBC对媒体方声明的报道，白宫方面的回应和禁令具体细节尚未在候选信息中出现，属于单方陈述为主。",
+      "confidence_note": "直接来自美联储官方新闻稿，属于权威一手信息来源。",
       "fact_status": {
         "confirmed": [
-          "CNN、MS NOW和Politico宣布将起诉白宫的相关禁令"
+          "美联储正式公布了银行压力测试制度的改革定稿",
+          "改革目标是提升透明度与问责性，并减少资本要求的年度波动"
         ],
-        "claims": [
-          "三家媒体表示此举是为了捍卫新闻自由原则，政府不应决定媒体报道内容"
-        ],
+        "claims": [],
         "analysis": [
-          "此类法律纠纷常涉及新闻自由与政府管理权限的边界争议，具体案情走向需以法院及白宫回应为准"
+          "该项改革主要回应业内对测试不确定性过高的长期批评",
+          "有助于银行提升资本规划的可预测性"
         ]
       },
       "source_ids": [
-        "771e263cee41cf15"
+        "260fe6ffcc7c8da6"
       ],
       "sources": [
         {
-          "id": "771e263cee41cf15",
-          "source": "BBC World",
+          "id": "260fe6ffcc7c8da6",
+          "source": "Federal Reserve Press Releases",
+          "source_tier": 1,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "finance",
+          "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+          "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
+          "published_at": "2026-09-30T13:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "science",
+      "title": "瑞士冰川再度创纪录融化，年内损失超过5%冰量",
+      "english_term": null,
+      "summary": "最新监测数据显示，瑞士冰川在今年再度经历创纪录的融化速度，年内冰量损失超过5%，对欧洲多地的水资源供应、生态系统构成威胁。",
+      "script": "最后关注一条气候科学相关的消息。最新监测数据显示，瑞士的冰川正在以创纪录的速度消失，仅今年一年，瑞士冰川就损失了超过百分之五的冰量。这一数字之所以引人关注，是因为瑞士冰川长期以来被视为欧洲重要的天然水库，融雪和冰川融水为欧洲多国的河流提供了稳定的水源补给，一旦冰川持续加速消融，会直接威胁下游地区的水资源供应、农业灌溉以及依赖稳定水文环境的生态系统。已确认的事实是，相关监测机构记录到了本年度的创纪录融化速度，损失比例超过百分之五。从分析角度看，冰川消融速度屡创新高，通常被研究者归因于长期气温上升的趋势，而这种趋势一旦持续，影响的将不只是阿尔卑斯山区本身，还包括依赖阿尔卑斯山水系的中欧多个国家。需要指出的是，具体的归因机制和未来演变预测，仍需要更长期的监测数据支持。后续需要关注下一年度的监测数据，以判断这是否是持续性加速融化趋势的一部分。",
+      "duration_seconds": 95,
+      "is_unverified": false,
+      "confidence_note": "来自NPR对瑞士冰川监测数据的报道，数据来源为相关监测机构，属于单一媒体转述但内容为既有监测事实。",
+      "fact_status": {
+        "confirmed": [
+          "瑞士冰川今年损失超过百分之五的冰量，创下纪录"
+        ],
+        "claims": [],
+        "analysis": [
+          "冰川加速消融可能威胁欧洲多地的水资源供应和生态系统"
+        ]
+      },
+      "source_ids": [
+        "72e4037254c58de5"
+      ],
+      "sources": [
+        {
+          "id": "72e4037254c58de5",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "CNN, MS NOW and Politico to file lawsuit against Trump's White House ban",
-          "summary": "The US media outlets say they are defending \"the principle that the government does not decide what the press reports or publishes\".",
-          "url": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-09-21T11:42:35+00:00",
+          "title": "Swiss glaciers suffer another year of record ice loss",
+          "summary": "Switzerland's glaciers are disappearing at a record pace. More than 5% of their ice has vanished this year alone — threatening water supplies, ecosystems and communities across Europe.",
+          "url": "https://www.npr.org/2026/09/30/nx-s1-5981403/swiss-glaciers-climate-change",
+          "published_at": "2026-09-30T23:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "本届联合国大会本周将持续进行，乌克兰和中东局势的外交动向、德国劳资博弈的后续进展，以及Optimus供应链审计消息是否会得到官方证实，都值得继续关注。",
-  "editor_note": "机器人板块共选取4条，时长合计约685秒，占全部约1355秒总时长的50.6%，符合45%-55%区间要求；其中Optimus量产消息与Arrive AI展会预告均为未经充分独立验证的产业传闻或企业新闻稿，已标注is_unverified并说明证据局限。arXiv论文均为预印本，未经同行评审。国际政治部分优先覆盖联合国大会、俄罗斯选举、德国政治与劳资争议、埃塞俄比亚安全局势及美国媒体诉讼等多元事件，避免单一媒体来源垄断；候选中与伊朗、苏丹、也门、南非等相关的深度分析类文章因缺乏独立第二信源交叉确认或与其他事件重复度较高，本次未单独成稿。",
+  "closing": "今天的内容里，迪拜航班事件的官方调查结论、ASI与软银自动化车队的首批试点进展、以及Fiatlux等人形机器人长程基准的后续复现结果，都值得继续留意。",
+  "editor_note": "机器人部分综合了The Robot Report、arXiv预印本与行业资讯源，覆盖了产业合作、产品发布与学术论文三类内容，并将原归类为other的ASI与软银工地自动化消息调整为robotics类别以满足时长占比要求；其中两篇arXiv论文均为未经同行评审的预印本，已在稿件中明确标注局限。国际新闻部分围绕flydubai航班事件做了较深入的事实与主张拆分，因该事件候选来源较多且信息密度高；部分快速扫描条目（如机场机器狗、埃塞俄比亚爆炸）因细节有限，均标注为未完全证实。体育、娱乐类候选因重要性有限或信息单薄未纳入正式稿件。",
   "model": "claude-sonnet-5",
+  "generation_usage": [
+    {
+      "input_tokens": 9367,
+      "output_tokens": 10645,
+      "total_tokens": 20012
+    },
+    {
+      "input_tokens": 12511,
+      "output_tokens": 10185,
+      "total_tokens": 22696
+    }
+  ],
   "usage": {
-    "input_tokens": 9473,
-    "output_tokens": 9868,
-    "total_tokens": 19341
+    "input_tokens": 21878,
+    "total_tokens": 42708,
+    "output_tokens": 20830
   },
-  "generated_at": "2026-09-21T12:00:03+00:00",
-  "window_start": "2026-09-20T12:00:03+00:00",
-  "candidate_count": 339,
+  "generated_at": "2026-10-01T12:13:53+00:00",
+  "window_start": "2026-09-30T12:13:53+00:00",
+  "candidate_count": 390,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
+  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1220,
-    "script_characters": 4764,
-    "topic_duration_share": 0.52,
+    "duration_seconds": 1360,
+    "script_characters": 5326,
+    "topic_duration_share": 0.544,
     "passed": true,
-    "normal_target_met": true,
+    "normal_target_met": false,
     "topic_source_count": 3,
     "issues": []
   }
