@@ -1,354 +1,280 @@
 {
-  "title": "晶球电台早报：迪拜航班惊魂持续发酵，建筑自动化与人形机器人论文扎堆亮相",
-  "subtitle": "从flydubai劫机调查到ASI与软银2.25亿美元押注工地自动化，再看人形机器人长程基准测试新进展",
+  "title": "晶球电台早报：Atlas换手、Maven融资落地，德国政局动荡持续",
+  "subtitle": "波士顿动力重新设计人形机器人手部，欧洲高温纪录与多地外交危机同步发酵",
   "highlights": [
-    "UAE将flydubai驾驶舱袭击事件列为恐怖主义调查，以色列称尚难定论伊朗关联",
-    "ASI与软银联手投入2.25亿美元，推进建筑工地自动化重型设备车队",
-    "NVIDIA Isaac Lab上线人形机器人长程基准Fiatlux，首次把爬梯与精细操作放进同一测试"
+    "波士顿动力公布Atlas人形机器人全新手部设计，主打量产可靠性而非仿生外形",
+    "工业机器人公司Maven Robotics获1亿美元融资，加速移动操作机器人量产",
+    "德国总理默茨支持率创新低，三场地方选举失利引发执政联盟信任危机"
   ],
   "stories": [
     {
-      "category": "world",
-      "title": "迪拜飞特拉维夫航班驾驶舱袭击事件，UAE升级为恐怖主义调查",
-      "english_term": null,
-      "summary": "一架flydubai航班上发生副驾驶袭击机长事件后，阿联酋检方宣布介入调查是否涉及恐怖活动或意图，以色列总理称目前判断是否与伊朗有关还为时过早。",
-      "script": "我们先来关注中东的一起安全事件。一架原定从迪拜飞往特拉维夫的flydubai航班上，一名飞行员袭击了同机的另一名飞行员，事件发生后航班被迫处置，引发外界高度关注。根据已确认事实，阿联酋官方媒体证实，当局正在调查这起事件是否涉及恐怖活动或恐怖意图，阿联酋检方表示自己对此案拥有管辖权。同时也有报道称，涉事飞行员正在沙特接受调查。以色列总理内塔尼亚胡公开表示，现在判断这起袭击是否与伊朗有关，为时尚早，这代表的是以色列官方目前的表态，而非已被证实的结论。另外有媒体梳理出一个备受关注的疑点：这名涉事飞行员此前是如何通过审核、被允许执飞的，这也成为民航安全体系被追问的焦点之一。目前各方信息还在拼接阶段，确认事实、各方主张和外部分析需要分开看待。已确认的是袭击发生、UAE介入调查、案件涉及跨境管辖；属于各方主张的是是否涉及恐怖意图、是否存在伊朗关联；属于分析判断的是，这起事件可能会让中东地区的航空安全审查和飞行员心理与背景筛查机制受到更严格的审视。考虑到近期中东地区地缘局势持续紧张，任何涉及以色列航班的安全事件都容易被赋予更大的政治解读空间，所以官方调查结论出炉前，相关猜测都应谨慎对待。后续需要等待阿联酋检方公布调查结果，以及是否有国家或组织被正式认定与此事件有关联。",
-      "duration_seconds": 135,
-      "is_unverified": true,
-      "confidence_note": "事件已由UAE官方媒体和以色列总理表态证实发生，但恐怖主义定性、伊朗关联等关键细节仍处于调查阶段，标记为未完全证实。",
+      "category": "robotics",
+      "title": "波士顿动力为Atlas人形机器人换新手，放弃仿生设计转向量产可靠性",
+      "english_term": "end-effector（末端执行器，机器人用于与环境交互的手部或夹爪部件）",
+      "summary": "波士顿动力公布了Atlas人形机器人的重新设计手部，相比上一代更强调耐用性与成本可控性，而非单纯模仿人手功能。团队甚至通过绑住工程师的小指和无名指来研究手指数量取舍的实际影响。",
+      "script": "先来看机器人产业的一条重磅消息。波士顿动力公司正式公布了Atlas人形机器人的全新手部设计。上一代Atlas的手部是三指结构，虽然能完成一些令人惊叹的高难度动作，但它是典型的研究级硬件，并不是为量产准备的。而这一次，团队要解决的问题完全不同：怎样做一只手，既要完成足够多的抓取任务，又要足够坚固耐用，成本还要可控，能够支撑未来数万甚至数十万台机器人的生产。据IEEE Spectrum机器人频道报道，波士顿动力的工程师在设计过程中做了一个很直观的实验，他们把自己的小指和无名指绑在一起整整一天，体会在缺少这两根手指的情况下，日常抓取和操作会受到多大影响。这种“反向验证”帮助团队判断，人形机器人的手究竟需要几根手指、每根手指承担什么功能，而不是简单地照搬人类五指结构。The Robot Report的报道也提到了同一次发布，标题直接点出“去掉小指”这一设计取舍，说明新手部可能减少了手指数量以换取结构强度和制造简易度。这背后反映的是人形机器人行业正在经历的一个关键转折：过去几年，大量研究集中在如何让机器人手做出更像人类的精细动作，但当这些机器人要走出实验室、走向工厂实际部署时，可靠性、维护成本和量产工艺的重要性会迅速超过仿生程度本身。换句话说,手指看起来像不像人手不重要，重要的是它会不会经常损坏、维修是否方便、造价是否可控。目前关于新手部的具体自由度数量、抓取力参数和量产时间表，两家媒体的报道都未给出完整细节。后续需要等待波士顿动力公布更完整的技术规格或演示视频，以判断这一设计改动对实际作业能力的影响。",
+      "duration_seconds": 170,
+      "is_unverified": false,
+      "confidence_note": "由The Robot Report与IEEE Spectrum两个独立专业机器人媒体同时报道，可信度较高，但具体技术参数细节有限。",
       "fact_status": {
         "confirmed": [
-          "flydubai航班上发生飞行员袭击同事件",
-          "UAE检方宣布就此展开恐怖主义相关调查并称拥有管辖权"
+          "波士顿动力公布了Atlas人形机器人的重新设计手部",
+          "新设计强调量产可靠性与成本控制而非单纯仿生"
         ],
         "claims": [
-          "有报道称涉事飞行员在沙特接受调查",
-          "以色列总理称伊朗关联尚无法判断"
+          "工程师通过绑手指实验来研究手指缺失对操作的影响"
         ],
         "analysis": [
-          "该事件可能推动民航飞行员背景审查制度的讨论",
-          "地区地缘局势紧张背景下，事件易被赋予更多政治解读"
+          "人形机器人行业的研发重心正从实验室仿生能力转向工程可量产性"
         ]
       },
       "source_ids": [
-        "c7f06d741860559c",
-        "1d2b20fc01a3b031",
-        "3d642ae7e09aa9ec",
-        "f3bfa9b3b6734d94",
-        "135dfea64c670fde"
+        "0d8e3cebee2d8f09",
+        "3bd5feb291dbb428"
       ],
       "sources": [
         {
-          "id": "c7f06d741860559c",
+          "id": "0d8e3cebee2d8f09",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Boston Dynamics drops pinkie on new humanoid hand",
+          "summary": "Boston Dynamics engineers taped their pinkies and ring fingers together for a day to learn what they weren’t able to do. The post Boston Dynamics drops pinkie on new humanoid hand appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
+          "published_at": "2026-10-01T17:52:51+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "3bd5feb291dbb428",
+          "source": "IEEE Spectrum Robotics",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
+          "summary": "Today, Boston Dynamics is announcing a redesigned hand for its Atlas robot . The previous generation could do some crazy superhuman things with its three fingers, but it was never intended for mass production in the tens or hundreds of thousands. Switching from research hardware to a scalable product makes previously ignorable questions suddenly paramount: How can you make a hand that does everything you need it to do but is also rugged and reliable and cost-effective? It’s questions like these that drove the design of the new Atlas hand, and while it doesn’t look much like a human hand, it might be a hand that makes it out into the real world. - YouTube www.youtube.com Compared to the almost eerily humanlike hands designed by a litany of other humanoid robotics companies , Atlas’s new hand does look awfully clunky. We’ve certainly seen some of those robots with much more humanlike hands perform dexterous manipulation tasks that are, speaking as someone who has personally witnessed robots haplessly fumble their way through the world for nearly two decades now, nothing short of incredible. And it’s not just what these hands can do—it’s how they look while doing it, as slim, graceful",
+          "url": "https://spectrum.ieee.org/robust-robot-hand",
+          "published_at": "2026-10-01T14:40:12+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "工业移动机器人公司Maven Robotics融资1亿美元，筹备量产自动化任务机器人",
+      "english_term": "mobile manipulator（移动操作机器人，兼具移动底盘与机械臂操作能力的机器人系统）",
+      "summary": "Maven Robotics近期完成1亿美元融资，公司计划利用这笔资金推动其移动操作机器人进入批量生产阶段，目标是实现工业场景中单一任务的自动化替代。",
+      "script": "再来看一则产业融资消息。据The Robot Report报道，工业自动化公司Maven Robotics近期完成了一笔1亿美元的融资，公司计划用这笔资金推动其移动操作机器人（也就是同时具备移动底盘和机械臂的机器人系统）走向规模化量产。Maven Robotics的思路和很多人形机器人创业公司不同，它并不追求让机器人完成通用的、类人的全部任务，而是采取“一次只做好一件事”的策略，先把某个具体工业任务做扎实，再逐步扩展能力范围。这种打法在工业机器人领域并不罕见，核心逻辑是：与其让机器人同时具备搬运、分拣、装配等多种能力却都做得不够稳定，不如先把单一任务的成功率和稳定性打磨到可以大规模商用的水平，再考虑功能扩展。这背后反映的是当前移动操作机器人赛道的一个现实困境，实验室演示里机器人往往能完成令人印象深刻的复杂操作，但在真实工厂环境中，光照变化、物体摆放不规则、设备故障等因素都会大幅拉低成功率，真正能大规模铺开的，往往是那些任务边界清晰、重复性高的场景。报道中并未透露这笔融资的具体投资方名单、估值情况，也没有公布计划量产的具体时间表和产线规模。后续需要等待公司公布更详细的量产计划和客户落地案例，以判断其商业化进展是否能跟上资本预期。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "单一来源The Robot Report报道，属于专业机器人产业媒体一手信息，但缺乏融资方名单等细节交叉验证。",
+      "fact_status": {
+        "confirmed": [
+          "Maven Robotics近期完成1亿美元融资"
+        ],
+        "claims": [
+          "公司计划利用融资推动移动操作机器人量产"
+        ],
+        "analysis": [
+          "聚焦单一任务自动化是当前工业移动操作机器人商业化的一种务实策略"
+        ]
+      },
+      "source_ids": [
+        "bfcbc0b33d6f3a22"
+      ],
+      "sources": [
+        {
+          "id": "bfcbc0b33d6f3a22",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "How Maven Robotics plans to automate industrial work, one task at a time",
+          "summary": "With the $100 million it raised earlier this month, Maven Robotics is looking towards mass producing its mobile manipulator robot. The post How Maven Robotics plans to automate industrial work, one task at a time appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/how-maven-robotics-plans-automate-industrial-work-one-task-at-a-time/",
+          "published_at": "2026-10-01T12:30:39+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "人形机器人全身控制新方法：让机器人复用已验证过的动作能力",
+      "english_term": "test-time adaptation（测试时适应，指模型或系统在部署运行阶段而非训练阶段进行的在线调整）",
+      "summary": "一项新预印本论文提出了名为HumanoidTTT的方法，旨在让人形机器人安全地复用此前已经验证过的运动能力，而不需要每次都从零开始重新规划。",
+      "script": "接下来是一项学术方向的新进展，来自arXiv机器人板块的预印本论文。随着运动生成和全身跟踪技术的发展，人形机器人已经能够执行越来越多样化的动作，但一个现实问题随之出现：在长期部署过程中，同一个动作能力可能会被反复请求执行，如果每次都重新规划、重新验证，会消耗大量计算资源，而如果直接照搬之前成功的动作，又可能因为机器人当前的姿态、速度等入口状态已经发生变化，导致盲目重放变得不安全。研究团队提出的方法叫做HumanoidTTT，其中TTT指的是测试时能力复用，也就是在机器人实际运行阶段，而不是训练阶段，判断和调用此前已经验证过的运动技能。论文摘要中提到，团队试图解决两个核心矛盘：一是验证过的能力会在部署过程中不断累积，二是机器人的计算和决策资源是有限的，不可能对每一个历史动作都重新做完整的安全校验。因此系统需要有一套机制，判断当前状态下复用哪个历史动作是安全的，哪些则需要重新规划。这项研究目前还只是arXiv上的预印本，没有经过同行评审，论文摘要中也没有给出具体的实验成功率、测试平台型号等量化数据。这类面向长期部署、连续运行场景的能力复用机制，和当前人形机器人逐渐走向实际工厂和真实环境部署的趋势是吻合的，因为只有解决了长期运行中的效率和安全问题，机器人才能真正做到持续工作而不是演示级别的短时任务。后续需要等待论文的同行评审结果，以及团队是否公开更完整的实验数据和开源代码。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "来自arXiv的预印本论文，尚未经过同行评审，论文摘要信息有限，缺乏具体实验数据佐证。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了名为HumanoidTTT的人形机器人能力复用方法"
+        ],
+        "claims": [
+          "该方法旨在安全复用已验证的运动能力，避免每次重新规划"
+        ],
+        "analysis": [
+          "长期部署场景下的能力复用机制与人形机器人走向实际应用的趋势相符"
+        ]
+      },
+      "source_ids": [
+        "290151a09855e267"
+      ],
+      "sources": [
+        {
+          "id": "290151a09855e267",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "HumanoidTTT: Test-Time Capability Reuse for Efficient Humanoid Control",
+          "summary": "arXiv:2610.00198v1 Announce Type: new Abstract: Recent advances in motion generation and whole-body tracking have enabled humanoid robots to execute increasingly diverse motions, yet the same motion capabilities may be requested repeatedly during continual deployment. Reliable reuse is challenging because intervening motions can change the robot's entry state, making previously successful motions unsafe to replay blindly. Meanwhile, validated capabilities accumulate during deployment, while bounded storage requires deciding which ones are worth retaining. To address these challenges, we present HumanoidTTT, a framework for test-time capability reuse in continual humanoid control. Specifically, we introduce Selective Full-Motion Reuse, which authorizes direct reuse of validated complete motions only from certified applicable entry states, allowing accepted reuse to bypass fresh generation. We further introduce Test-Time Capability Consolidation, which adapts which qualified capabilities persist in a bounded Full-Motion Store using subsequent deployment reuse as feedback. Experiments demonstrate zero unsafe accepts and a 16.4$\\times$ end-to-end speedup over fresh generation, while on",
+          "url": "https://arxiv.org/abs/2610.00198",
+          "published_at": "2026-10-02T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "柔性连续体机器人实现实时全身安全运动生成",
+      "english_term": "continuum robot（连续体机器人，一种没有离散关节、依靠连续柔性结构弯曲运动的机器人）",
+      "summary": "一项新预印本提出了针对多段腱驱动连续体机器人的实时运动生成框架，能够同时考虑非均匀弯曲建模与全身避碰。",
+      "script": "再看一项来自arXiv的机器人学术预印本，主题是柔性连续体机器人的运动控制。连续体机器人是一类没有传统离散关节、依靠连续柔性结构弯曲来运动的机器人，常见于腱绳驱动的蛇形臂或软体机械臂，在狭窄空间探测、微创手术等场景中有应用潜力。但这类机器人的控制一直存在两个难题，第一是它的弯曲往往是非均匀的，也就是说沿着机器人身体不同位置的弯曲程度和刚度特性都不一样，难以用简单模型描述；第二是要让机器人在运动过程中实时避免自身不同节段之间或者与环境发生碰撞，这在计算上非常困难。这项研究提出了一个统一的、基于驱动空间的框架，用一种基于能量的变曲率模型来捕捉腱间距和弯曲刚度沿身体变化的特性，并提供了解析形式的雅可比矩阵，也就是连接驱动输入和末端运动之间关系的数学工具，用于支持微分逆运动学求解和安全监控。论文摘要显示该方法面向平面多段连续体机器人，且强调是实时计算、全身级别的安全运动生成，而不仅是末端点的轨迹跟踪。这类研究的意义在于，连续体机器人要真正走向实际应用，仅仅能弯曲变形是不够的，还需要在运动过程中保证整条柔性身体都不会发生碰撞或损伤，这对于手术机器人等对安全性要求极高的场景尤其关键。目前论文仍是预印本阶段，摘要中未透露具体的实验平台、运行频率和实测误差等数据。后续需要等待论文正式发表与同行评审意见，以评估该框架在真实连续体机器人硬件上的表现。",
+      "duration_seconds": 145,
+      "is_unverified": true,
+      "confidence_note": "arXiv预印本，未经同行评审，摘要内容未包含具体实验数据。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了一套面向多段腱驱动连续体机器人的实时运动生成框架"
+        ],
+        "claims": [
+          "该框架能够同时处理非均匀弯曲建模与全身碰撞避免"
+        ],
+        "analysis": [
+          "全身级安全运动生成对连续体机器人在医疗等高安全要求场景的应用具有重要意义"
+        ]
+      },
+      "source_ids": [
+        "2f92862ee05b7c69"
+      ],
+      "sources": [
+        {
+          "id": "2f92862ee05b7c69",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Real-Time Whole-Body Safe Motion Generation for Multi-Segment Tendon-Driven Continuum Robots",
+          "summary": "arXiv:2610.00220v1 Announce Type: new Abstract: Real-time motion generation for tendon-driven continuum robots requires accurate modeling of nonuniform bending and whole-body collision avoidance. This paper presents a unified actuation-space framework for planar multi-segment tendon-driven continuum robots. An energy-based variable-curvature model captures spatially varying tendon spacing and bending stiffness and provides analytical Jacobians for differential inverse kinematics and safety monitoring. A multipoint CBF-QP enforces backbone clearance under obstacle motion and actuation-velocity bounds, while its decision dimension depends only on the number of independently actuated segments. The model closely agrees with GVS references, with a maximum curvature error of $5.223 \\times 10^{-2}\\,\\mathrm{m}^{-1}$. Over 100 MuJoCo trials, the proposed method achieves collision-free success rates of 96% and 100% in static and dynamic scenarios, respectively, compared with approximately 60% and 80% without CBF constraints. Hole-traversal tests further demonstrate safe motion in constrained environments. With 600 backbone monitoring points, the mean control-step time is 6.66 ms, demonstrati",
+          "url": "https://arxiv.org/abs/2610.00220",
+          "published_at": "2026-10-02T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "机器人安全系统面临新挑战：传感器数据被篡改怎么办",
+      "english_term": "sensor spoofing（传感器欺骗，指通过伪造或篡改传感器输入信号来误导系统判断的攻击方式）",
+      "summary": "行业分析指出，即便机器人的安全功能本身运行正常，如果输入的传感器信息被篡改或伪造，机器人仍可能做出错误甚至危险的动作。",
+      "script": "来看一则关于机器人安全的产业观察。The Robot Report的一篇分析文章提出了一个容易被忽视的问题：机器人的安全功能本身可以完全正常工作，比如碰到障碍物会及时停止、超出规定区域会报警，但如果输入给这些安全系统的信息本身是被篡改或伪造的，机器人依然可能做出错误甚至危险的动作。这种情况通常被称为传感器欺骗，指的是攻击者或者故障源头并不直接破坏机器人的控制逻辑，而是伪造传感器读数，让机器人“误以为”周围环境是安全的，或者反过来误判本来安全的场景为危险场景。文章指出，这对机器人行业现有的测试和认证体系提出了新的要求：传统的安全测试大多聚焦在控制逻辑本身是否正确响应标准输入，但很少专门测试系统在面对异常、被篡改或带噪声的传感器数据时的鲁棒性。换句话说，一个机器人可以通过了所有常规安全认证，但仍然在面对数据层面的攻击或故障时缺乏防护。这篇文章没有点名具体的事故案例或受影响的机器人型号，更多是一种行业层面的风险提示和测试方法论讨论。随着机器人越来越多地部署在工厂、仓库乃至公共场所，并且越来越依赖摄像头、激光雷达等外部传感器来做决策，这类数据完整性和抗干扰能力的问题，预计会成为机器人安全标准制定中新的关注焦点。后续需要关注相关安全标准组织是否会针对传感器数据可信度制定专门的测试规范。",
+      "duration_seconds": 140,
+      "is_unverified": false,
+      "confidence_note": "来自专业机器人产业媒体The Robot Report的分析文章，属于行业观点讨论而非具体事件报道。",
+      "fact_status": {
+        "confirmed": [
+          "文章讨论了机器人安全功能正常但传感器输入被篡改导致风险的问题"
+        ],
+        "claims": [
+          "现有安全测试体系较少专门针对传感器数据被篡改的情况进行测试"
+        ],
+        "analysis": [
+          "传感器数据可信度可能成为机器人安全标准制定中的新关注点"
+        ]
+      },
+      "source_ids": [
+        "514201ca5d2e6c91"
+      ],
+      "sources": [
+        {
+          "id": "514201ca5d2e6c91",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
+          "summary": "A robot can follow its safety rules and still act on manipulated information. See what this means for robot safety and how teams can strengthen their testing and evidence. The post Your Robot’s Safety Functions Already Work. What If the Input Lies? appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/your-robots-safety-functions-already-work-what-if-the-input-lies/",
+          "published_at": "2026-10-01T15:02:19+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "默茨支持率创新低，德国执政联盟遭遇三场地方选举失利",
+      "english_term": null,
+      "summary": "德国总理默茨的支持率跌至新低，此前其所在的基民盟在三场州选举中同时输给了右翼和左翼政党。另一项独立民调也显示德国民众对政府普遍不满。",
+      "script": "转到国际政治部分。德国总理弗里德里希·默茨的个人支持率跌至新低，这一局面出现在他所属的基民盟在三场州选举中接连失利之后，而且失利的方向很特别，基民盟同时输给了右翼和左翼两端的政党，说明选民的不满情绪并非单一方向的意识形态偏移，而是对执政联盟整体治理能力的广泛质疑。与此同时，德国公共广播机构ARD委托进行的德国趋势调查也显示，在两德统一36周年这个本该强调团结与成就的时间节点上，德国民众却在对政府的不满上表现出罕见的一致，调查还特别提到，民众普遍不相信当前的政治领导层有能力应对人工智能发展、俄罗斯地缘威胁以及美国总统特朗普的外交政策这三大挑战。这两份报道虽然来自同一家媒体集团旗下的不同栏目，但分别基于选举结果和独立民调两种不同证据来源，相互印证了德国当前执政联盟支持基础松动的判断。目前可以确认的事实是，基民盟在三场州选举中失利，默茨的支持率跌至该媒体报道口径下的新低，以及民调显示民众对政府应对重大挑战能力的信心不足。至于这种不满会在多大程度上转化为联邦层面的政治变动，比如是否会影响执政联盟的稳定性或引发提前选举的讨论，目前报道中没有给出具体分析或各方表态，这仍属于需要持续观察的开放问题。德国作为欧盟内部经济体量最大的国家，其国内政治稳定性向来受到关注，尤其是在当前欧洲面临能源转型、地区安全局势紧张等多重压力的背景下。后续需要关注默茨政府是否会就选举失利做出政策或人事层面的调整。",
+      "duration_seconds": 155,
+      "is_unverified": false,
+      "confidence_note": "两条独立报道分别来自选举结果报道与ARD独立民调，均为DW与Al Jazeera转引，可信度较高。",
+      "fact_status": {
+        "confirmed": [
+          "默茨所在的基民盟在三场州选举中落败",
+          "默茨支持率跌至新低",
+          "ARD民调显示德国民众对政府普遍不满"
+        ],
+        "claims": [
+          "民众认为政府缺乏应对AI、俄罗斯及美国外交政策挑战的能力"
+        ],
+        "analysis": [
+          "选民同时流向左右两端政党表明不满情绪指向整体治理能力而非单一政策方向"
+        ]
+      },
+      "source_ids": [
+        "228e89d290ecace3",
+        "ffd0935276b3c3b8"
+      ],
+      "sources": [
+        {
+          "id": "228e89d290ecace3",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "How was the Flydubai pilot who attacked his co-pilot cleared to fly?",
-          "summary": "The Flydubai scare has raised several questions for Israel and the civil aviation industry.",
-          "url": "https://www.aljazeera.com/news/2026/10/1/how-was-the-flydubai-pilot-who-attacked-his-co-pilot-cleared-to-fly?traffic_source=rss",
-          "published_at": "2026-10-01T11:50:25+00:00",
+          "title": "Support for Merz plunges after CDU’s losses to Germany’s right and left",
+          "summary": "Chancellor Friedrich Merz hits a record low approval rating after his party suffered defeats in three state elections.",
+          "url": "https://www.aljazeera.com/news/2026/10/2/just-one-in-10-germans-thinks-merz-is-up-to-the-job-after-election-wipeout?traffic_source=rss",
+          "published_at": "2026-10-02T11:31:15+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "1d2b20fc01a3b031",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "UAE investigates possible ‘terrorist’ link in attack on flight to Israel",
-          "summary": "Investigators will probe whether incident was linked to any 'terrorist activity or intent', UAE state media reports.",
-          "url": "https://www.aljazeera.com/news/2026/10/1/uae-investigates-possible-terrorist-link-in-attack-on-flight-to-israel?traffic_source=rss",
-          "published_at": "2026-10-01T11:46:08+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "3d642ae7e09aa9ec",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Too early to say if Iran involved in Dubai-Tel Aviv flight attack, Israeli PM says",
-          "summary": "A pilot who stabbed another pilot on an Israel-bound plane is being investigated in Saudi Arabia, Benjamin Netanyahu says.",
-          "url": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-01T11:26:46+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "f3bfa9b3b6734d94",
+          "id": "ffd0935276b3c3b8",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "UAE launches flydubai hijacking and terrorism investigation",
-          "summary": "The UAE's chief prosecutor said it's looking at the possibility of \"terrorist activity or intent\" in the alleged attempted hijacking of a flydubai commercial flight to Tel Aviv. It says it has jurisdiction in the case.",
-          "url": "https://www.dw.com/en/uae-launches-flydubai-hijacking-and-terrorism-investigation/a-79497746?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-01T10:06:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "135dfea64c670fde",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Passengers recount chaos on Tel Aviv flight. And, FBI probes employee-data hack",
-          "summary": "What we know so far about the tense moments aboard a Tel Aviv-bound flight. And, the FBI investigates a cyberattack involving sensitive employee data.",
-          "url": "https://www.npr.org/2026/10/01/g-s1-145879/up-first-newsletter-tel-aviv-flight-passengers-fbi-employee-data-hack",
-          "published_at": "2026-10-01T11:37:10+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "other",
-      "title": "ASI与软银联手2.25亿美元，推进建筑工地自动化重型设备车队",
-      "english_term": "brand-agnostic autonomous fleet（品牌无关的自动化车队，指同一套自动驾驶方案可适配不同厂商的工程机械）",
-      "summary": "自动驾驶公司ASI与软银宣布合作，投入2.25亿美元资金，目标是把自动化能力规模化部署到基础设施项目中的重型工程机械上，以缓解建筑行业劳动力短缺问题。",
-      "script": "来看机器人产业这边一条重量级消息。自动化公司ASI与软银宣布达成合作，双方计划投入高达2.25亿美元，用于把自动驾驶能力规模化推广到建筑工地的重型设备上，目标是解决长期困扰建筑行业的劳动力短缺问题。这里有个概念值得解释一下，叫brand-agnostic autonomous fleet，也就是品牌无关的自动化车队。它的意思是，这套自动化方案不是只给某一个品牌的推土机或挖掘机做适配，而是设计成一套可以移植到不同厂商设备上的通用自动驾驶系统，类似给各种工程机械装上一个统一的大脑。这种思路和人形机器人领域强调的平台通用性是一致的逻辑：与其为每种机型单独开发控制系统，不如打造一套可迁移的自动化内核，再根据不同车辆做接口适配，从而降低规模化部署的边际成本。从产业背景看，建筑行业长期面临招工难、工期紧、现场环境复杂多变等问题，重型设备操作既要求经验也存在安全风险，这使得自动化改装具备现实需求。软银近年持续在机器人与自动化领域扩大布局，这次与ASI合作，意味着资本正在从仓储、物流等相对结构化场景，向工地这种非结构化、动态性更强的室外场景延伸。这类场景的技术难点在于，设备需要应对不断变化的地形、堆料、以及与人类工人共同作业的安全协同问题，对感知系统和实时决策能力要求较高。目前官方披露的信息集中在资金规模和合作方向上，具体落地的设备型号、首批试点项目、以及规模化部署的时间表尚未明确。后续需要等待双方公布具体的试点项目进展和首批可投入使用的自动化设备清单。",
-      "duration_seconds": 160,
-      "is_unverified": false,
-      "confidence_note": "来自行业媒体The Robot Report的直接报道，属于公司官方合作公告性质的报道，单一来源但信息来自产业一手声明。",
-      "fact_status": {
-        "confirmed": [
-          "ASI与软银宣布合作，计划投入2.25亿美元",
-          "合作目标是推进建筑行业重型设备的自动化车队"
-        ],
-        "claims": [
-          "该方案被描述为品牌无关、可适配不同厂商设备"
-        ],
-        "analysis": [
-          "自动化应用正从结构化室内场景向非结构化室外工地场景扩展",
-          "建筑行业劳动力短缺是推动该类投资的主要产业动因"
-        ]
-      },
-      "source_ids": [
-        "8eac43720d15b97a"
-      ],
-      "sources": [
-        {
-          "id": "8eac43720d15b97a",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Tackling construction labor shortages: ASI and SoftBank partner on autonomous fleets",
-          "summary": "ASI and SoftBank join forces with $225M to scale brand-agnostic autonomous heavy equipment across infrastructure projects. The post Tackling construction labor shortages: ASI and SoftBank partner on autonomous fleets appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/tackling-construction-labor-shortages-asi-softbank-partner-autonomous-fleets/",
-          "published_at": "2026-09-30T12:30:17+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ],
-      "category_correction": "未检测到机器人核心主题，已从 robotics 调整为 other。"
-    },
-    {
-      "category": "robotics",
-      "title": "NVIDIA Isaac Lab推出Fiatlux基准：人形机器人要在一集任务里爬梯换灯泡",
-      "english_term": "long-horizon benchmark（长程基准测试，指需要机器人连续完成多个步骤、跨越较长时间尺度才能达成目标的测试任务）",
-      "summary": "研究者在NVIDIA Isaac Lab仿真平台上推出Fiatlux基准，要求Unitree G1人形机器人在同一回合内完成放置梯子、攀爬、更换灯泡等一整套动作，首次把垂直移动和精细操作放进一个长程任务评测。",
-      "script": "学术这边，一篇新论文提出了一个很有意思的人形机器人测试基准，名字叫Fiatlux。研究团队指出，现有的机器人测试基准大多只评估单一类型的能力：要么是桌面操作，要么是平地上的家务活动，要么是人形机器人的行走与基础操作，彼此是割裂评测的，没有一个基准把垂直方向的移动能力和需要精细控制力度的操作任务，放在同一个连续任务里考察。于是他们基于NVIDIA的Isaac Lab仿真平台，设计了一个换灯泡的长程任务，英文叫long-horizon benchmark，意思是需要机器人连续完成多个步骤、跨越较长时间才能达成目标的测试任务。具体来说，在同一个回合里，宇树科技的G1人形机器人需要先把一架梯子搬到天花板或墙面的灯具下方并摆放到位，然后爬上梯子，接着完成一个精细的操作，把坏掉的灯泡换下来，装上新的。这个任务之所以有代表性，是因为它同时考验了机器人的全身运动规划能力，比如保持身体平衡、协调四肢爬梯；也考验了精细操作能力，比如对易碎物体施加恰到好处的力度，不能捏碎灯泡也不能让它脱手掉落。这种跨尺度的能力组合，此前很少被统一纳入同一个评测体系。从研究意义上看，Fiatlux给人形机器人研究提供了一个更贴近真实家庭和工业场景的综合考题，因为现实世界里的任务本身就是连续且混合的，很少会孤立出现。不过也要指出，这项工作目前基于仿真环境完成，论文显示为预印本，尚未经过同行评审，实际迁移到真实机器人硬件上的表现、以及真实世界里梯子打滑、灯具型号差异等复杂因素，仿真中未必能完全覆盖。后续需要关注该基准是否会被其他团队采用作为通用测评标准，以及是否有团队公布在真实硬件上的复现结果。",
-      "duration_seconds": 175,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv预印本，尚未经过同行评审，结果为仿真环境测试，未验证真实硬件迁移效果。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了名为Fiatlux的长程基准，基于Isaac Lab仿真平台，使用Unitree G1人形机器人模型"
-        ],
-        "claims": [
-          "作者称这是首个将垂直移动与精细操作整合进单一长程任务的基准"
-        ],
-        "analysis": [
-          "该基准反映出学术界正在推动更贴近真实复合场景的机器人评测标准",
-          "仿真结果与真实硬件表现之间仍存在差距需要验证"
-        ]
-      },
-      "source_ids": [
-        "af96d897f025f9f5"
-      ],
-      "sources": [
-        {
-          "id": "af96d897f025f9f5",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Fiatlux: A Long-Horizon Benchmark for Humanoid Ladder Climbing and Light-Bulb Replacement",
-          "summary": "arXiv:2609.38216v1 Announce Type: new Abstract: Existing benchmarks evaluate tabletop manipulation, flat-floor household activity, or humanoid locomotion and manipulation as separate task groups; none scores vertical mobility and dexterous work on a fragile payload in one long-horizon episode. We present Fiatlux, a light-bulb replacement benchmark built on NVIDIA Isaac Lab. In one episode, a Unitree G1 humanoid positions a step ladder under a ceiling or wall fixture, climbs it, exchanges a spent bulb in a socket for a fresh one, and leaves the spent one in a disposal crate. We decompose the episode into twelve subtask environments scored on difficulty-weighted gates. The goal is a successful replacement, with the fresh bulb seated, the spent one disposed of, neither dropped, and a fragility bound not crossed. Runs that fall short can earn partial credit. Observations are split into a standard mode (signals a physical robot could sense or estimate) and a privileged mode (exact simulator state). We specify the evaluation protocol and provide reference baseline implementations spanning RSL-RL PPO, zero-shot NVIDIA GR00T N1.7 Vision-Language-Action (VLA) models, and whole-body controll",
-          "url": "https://arxiv.org/abs/2609.38216",
-          "published_at": "2026-10-01T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "柔性螺旋软体机器人实现整体抓取与投掷，论文探索接触关系优化方法",
-      "english_term": "whole-body manipulation（全身操作，指机器人不只用末端抓手，而是用整个身体结构与物体产生接触并完成操作任务）",
-      "summary": "一篇新论文提出通过基于结果的驱动空间优化方法，让螺旋形软体连续体机器人从无抓取状态出发，完成整体抓握与投掷动作，试图解决软体机器人在接触关系不断变化时难以规划行为的问题。",
-      "script": "再看一项软体机器人方向的研究。软体连续体机器人的一大优势，是可以利用身体各处的柔顺性来完成操作任务，这个概念叫whole-body manipulation，也就是全身操作，指的是机器人不只靠末端的抓手，而是让整个柔性身体和物体产生接触，共同完成抓取或搬运。但这种优势也带来一个难题：当机器人身体与物体之间的接触点不断变化时，该如何设计一套驱动序列，让行为按预期发生，这件事在控制层面一直很棘手。这篇论文聚焦的，正是让一个螺旋形软体机器人从完全没有抓住物体的初始状态出发，自主完成抓握，并进一步完成拾取后抛投的动作。研究团队采用的方法是基于结果的驱动空间优化，简单理解就是不去手工设计每一步该怎么卷曲身体，而是先定义好想要的结果指标，比如抓取阶段用机器人末梢的角度扫掠范围和身体对物体的包裹程度来衡量抓得好不好，投掷阶段则进一步加入释放方向是否对准目标、释放速度是否达到最低要求等指标，然后让优化算法在驱动参数空间里搜索，找到能够实现这些结果指标的具体动作序列。这种思路的好处在于，不需要对软体机器人与物体之间复杂的接触力学建立精确模型，而是用结果导向的方式绕开了这个难题，这对软体机器人这种本身弹性形变难以精确建模的系统来说，是比较实用的工程选择。论文的研究对象偏向操作任务中较难的一类，即初始无抓取状态下的整体操作，这类任务此前研究相对较少。需要说明的是，这同样是一篇尚未经过同行评审的预印本，具体的抓取成功率、投掷精度等量化数据，以及该方法在不同形状、不同重量物体上的泛化能力，还需要等待更完整的实验细节和同行评审意见。",
-      "duration_seconds": 170,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv预印本，尚未经过同行评审，摘要未提供具体成功率等量化实验数据。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了基于结果导向的驱动空间优化方法，应用于螺旋形软体机器人的抓取与投掷任务"
-        ],
-        "claims": [
-          "作者称该方法可以从无抓取初始状态实现整体抓握与投掷"
-        ],
-        "analysis": [
-          "该方法回避了软体机器人接触力学精确建模的难题，具有工程实用性",
-          "量化效果与泛化能力仍待更完整数据验证"
-        ]
-      },
-      "source_ids": [
-        "b78c3985ba9df821"
-      ],
-      "sources": [
-        {
-          "id": "b78c3985ba9df821",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Optimize, Learn, Refine: Whole-Body Grasping and Pick-and-Throw with a Spiral Soft Robot",
-          "summary": "arXiv:2609.38202v1 Announce Type: new Abstract: Soft continuum robots can exploit distributed compliance for whole-body manipulation, but synthesizing behavior through changing contacts remains difficult. We address whole-body grasping and pick-and-throw from an initially ungrasped state through outcome-based actuation-space optimization. Grasping is quantified by tip angular sweep and body-object enclosure, while throwing further incorporates release-direction alignment and minimum release speed. These objectives allow grasping, acceleration, and release to emerge from compliant interaction without prescribing contact forces, contact locations, or body configurations. Because the resulting actuation-to-outcome mapping is nonsmooth, we utilize derivative-free CMA-ES within an optimize-learn-refine framework. CMA-ES generates solutions for sampled conditions, a task-conditioned predictor learns warm starts, and CMA-ES refines them for unseen conditions. In simulation, the method achieves 492/500 successful grasps (98.4%) and success rates of 98%, 97%, and 94% across three directional throwing trials. Learned initialization increases grasping success from 78.6% to 98.4% while reducin",
-          "url": "https://arxiv.org/abs/2609.38202",
-          "published_at": "2026-10-01T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "ANYbotics推出Shift平台，帮助机器人巡检车队规模化运维",
-      "english_term": "fleet operations（机器人车队运维，指对多台巡检机器人统一调度、监控状态并处理任务的管理方式）",
-      "summary": "瑞士机器人公司ANYbotics发布名为Shift的新平台，旨在帮助维护团队统一管理多台巡检机器人，自动发现设备故障并把数据转化为具体工单。",
-      "script": "产业动态方面，专注四足巡检机器人的瑞士公司ANYbotics发布了一款新平台，名叫Shift。这个平台针对的是工业巡检场景里一个越来越现实的问题：当企业部署的巡检机器人数量从一两台增加到几十台甚至上百台时，怎么统一管理这支车队，这就是所谓的fleet operations，机器人车队运维。按照公司介绍，Shift平台的作用是帮助维护团队运行工业巡检任务、识别出现故障迹象的设备，并把巡检采集到的数据自动转化为具体的工单，提交给维护人员处理。这类平台解决的其实不是机器人本体的技术难题，而是机器人规模化落地之后的管理难题。很多企业在采购了巡检机器人之后会发现，单台机器人能不能走、能不能爬楼梯、能不能识别仪表读数，只是第一步，真正决定这套系统能不能持续产生价值的，是后端能不能把巡检发现的问题高效流转到维修流程里，否则机器人采集再多数据，如果没人及时处理，也只是放在系统里睡大觉。ANYbotics长期专注于工业环境里的腿式巡检机器人，这次推出车队管理软件，说明公司正在从单纯卖硬件，向提供软硬一体的运维解决方案转型，这也是不少机器人公司在产品成熟后普遍会走的一条路径，因为客户真正愿意持续付费的，往往是能解决管理效率问题的整体方案，而不只是一台能跑能爬的机器狗。目前公司公开的信息集中在功能定位介绍上，具体接入了多少家客户、覆盖哪些行业场景、以及实际降低了多少运维成本，还没有更详细的数据披露。后续需要等待公司公布具体客户案例和效果数据。",
-      "duration_seconds": 160,
-      "is_unverified": false,
-      "confidence_note": "来自行业媒体The Robot Report对公司产品发布的报道，属于产业公告性质信息。",
-      "fact_status": {
-        "confirmed": [
-          "ANYbotics发布了名为Shift的机器人车队管理平台",
-          "平台功能包括巡检任务管理、故障检测和工单生成"
-        ],
-        "claims": [],
-        "analysis": [
-          "机器人公司正从单纯硬件销售向软硬一体运维方案转型",
-          "车队管理效率可能是巡检机器人规模化落地的关键瓶颈"
-        ]
-      },
-      "source_ids": [
-        "37300ff70a7aa4d1"
-      ],
-      "sources": [
-        {
-          "id": "37300ff70a7aa4d1",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "ANYbotics launches Shift to streamline robot fleet operations, scale inspections",
-          "summary": "ANYbotics designed Shift to help maintenance teams run industrial inspections, detect failing equipment, and turn data into work orders. The post ANYbotics launches Shift to streamline robot fleet operations, scale inspections appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/anybotics-launches-shift-streamline-robot-fleet-operations-scale-autonomous-inspections/",
-          "published_at": "2026-10-01T07:59:59+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "动作捕捉实验室助力人形机器人学习更自然的人类动作",
-      "english_term": "motion capture（动作捕捉，通过相机和标记点以亚毫米级精度记录人体运动轨迹的技术）",
-      "summary": "数据服务公司Innodata开设了一间动作捕捉实验室，使用Vicon相机系统以亚毫米级精度采集真实人体运动数据，用于训练人形机器人的动作模仿能力。",
-      "script": "另一条产业消息，数据服务公司Innodata宣布开设了一间动作捕捉实验室，用来采集更贴近真实人类动作的数据，服务于人形机器人的训练需求。这里涉及的技术叫motion capture，也就是动作捕捉，简单说就是通过一组高精度相机和贴在身体上的标记点，把人的动作轨迹记录下来，转换成可以被计算机处理的数字数据。据介绍，这间实验室使用的是Vicon相机系统，测量精度能达到亚毫米级别，也就是说对人体关节角度、运动速度的捕捉误差可以控制在不到一毫米的量级，这在运动捕捉行业里属于比较高端的配置，常见于影视特效和专业生物力学研究领域。把这种高精度动捕技术用在人形机器人训练上，背后的逻辑是，当前不少人形机器人学习走路、搬运、递物这类动作，依赖的是模仿学习方法，也就是先收集大量人类完成同一动作的示范数据，再让机器人的控制模型去学习模仿这些动作模式。数据的质量和精度，直接决定了机器人学出来的动作像不像人、顺不顺畅。如果采集到的人类动作数据本身存在噪声或者误差较大，模型学到的动作也会显得僵硬、不自然，这也是为什么现在有专门的公司愿意投入建设高精度动捕实验室，把它当作一门独立的数据服务生意来做。从产业角度看，这反映出人形机器人赛道的竞争正在从单纯比拼算法和硬件，延伸到比拼训练数据的质量和获取效率，高质量动作数据正在成为一种独立的产业环节。目前公司公开的信息集中在实验室的设备配置和定位介绍上，具体与哪些机器人公司达成了数据合作、交付的数据规模等细节暂未披露。后续需要观察该实验室是否公布具体合作的机器人厂商案例。",
-      "duration_seconds": 165,
-      "is_unverified": false,
-      "confidence_note": "来自行业媒体The Robot Report对公司动捕实验室设立的报道，信息为公司产业公告性质。",
-      "fact_status": {
-        "confirmed": [
-          "Innodata开设了使用Vicon相机系统的动作捕捉实验室",
-          "宣称测量精度达到亚毫米级"
-        ],
-        "claims": [
-          "公司称该数据用于训练人形机器人更自然地模仿人类动作"
-        ],
-        "analysis": [
-          "高质量训练数据正逐渐成为人形机器人产业链中独立的竞争环节"
-        ]
-      },
-      "source_ids": [
-        "06fa46cc9626f470"
-      ],
-      "sources": [
-        {
-          "id": "06fa46cc9626f470",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Innodata opens motion-capture lab to help humanoids move more like people",
-          "summary": "Innodata uses Vicon cameras to measure movements with sub-millimeter accuracy and to collect real-world training data for robots. The post Innodata opens motion-capture lab to help humanoids move more like people appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/innodata-opens-motion-capture-lab-help-humanoids-move-more-like-people/",
-          "published_at": "2026-09-30T12:59:12+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "匹兹堡国际机场引入机器狗，快速扫描",
-      "english_term": null,
-      "summary": "匹兹堡国际机场计划引入四足机器狗参与机场运营，具体承担的任务和部署规模在报道中未详述。",
-      "script": "快速关注一条机场自动化的消息。据报道，匹兹堡国际机场将引入四足机器狗参与机场相关工作，这类机器人此前已被不少机场和基础设施场景用于巡检跑道、检查设施或执行安保辅助任务。目前公开报道并未详细说明匹兹堡国际机场具体安排机器狗承担哪些任务，是侧重跑道异物检测，还是设施巡检，亦或安保执勤，信息较为有限。从行业背景看，近年来包括多家国际机场在内的基础设施运营方，已经在尝试引入四足机器人来替代人工进行重复性巡检工作，主要出于提升巡检频率、降低人工成本、以及在恶劣天气或夜间也能保持巡检覆盖的考虑。后续需要等待机场方面公布具体的部署细节和任务范围。",
-      "duration_seconds": 70,
-      "is_unverified": true,
-      "confidence_note": "来自行业资讯源的简短报道，细节有限，尚未有官方机场公告交叉确认具体部署内容。",
-      "fact_status": {
-        "confirmed": [
-          "有报道称匹兹堡国际机场将引入机器狗"
-        ],
-        "claims": [],
-        "analysis": [
-          "基础设施场景引入四足机器人进行巡检是行业已有趋势"
-        ]
-      },
-      "source_ids": [
-        "18778375d8bc8b35"
-      ],
-      "sources": [
-        {
-          "id": "18778375d8bc8b35",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Robot dogs are coming to Pittsburgh International Airport - Aerospace Global News",
-          "summary": "Robot dogs are coming to Pittsburgh International Airport Aerospace Global News",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS0Rtc1lZeERsM2p0Zkx0UldVSWQ4X2NYbnRWUUxSMElDamRvU3NUNDZCU1hTSV94bXp4TkhzLTZCYTZxekF1dFVkMmJPb2d0c0FXR3Buc0FvWEF2THR0UDJadjMzY2RIR1FNeFc4bTBhTS1JQU1XbE1lSzlwczZzdVdB?oc=5",
-          "published_at": "2026-10-01T11:34:00+00:00",
+          "title": "ARD-Deutschlandtrend survey: Germans unite in frustration over the government",
+          "summary": "On the 36th anniversary of reunification, Germans are dissatisfied with the country's political leaders. They don't believe they'll be able to handle the challenges posed by AI, Russia and Donald Trump.",
+          "url": "https://www.dw.com/en/ard-deutschlandtrend-survey-germans-unite-in-frustration-over-the-government/a-79515172?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-02T11:17:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -356,158 +282,141 @@
     },
     {
       "category": "world",
-      "title": "埃塞俄比亚首都传出爆炸声，此前当局已禁止无人机飞行",
+      "title": "埃塞俄比亚与厄立特里亚断交，北部地区冲突升级",
       "english_term": null,
-      "summary": "埃塞俄比亚首都传出爆炸声，此前政府已下令禁止无人机飞行，一周前首都以北地区军方与新成立的武装联盟之间爆发冲突。",
-      "script": "来看非洲地区的一则安全消息。据报道，埃塞俄比亚首都传出爆炸声，而就在此前，当局已经下令禁止无人机在当地飞行。这一系列动作发生在首都以北地区爆发军事冲突大约一周之后，冲突的双方是埃塞俄比亚政府军，和一个新成立的武装组织联盟。已确认的事实是，爆炸声被听到、无人机飞行禁令已经发布、一周前确实发生了军方与武装联盟之间的交火。但目前报道并未明确说明这次爆炸的具体性质，是军事打击、袭击事件，还是其他原因，相关细节仍然有限。从分析角度看，政府选择在局势紧张之际禁止无人机飞行，通常出于防止无人机被用于侦察或袭击的考虑，这也从侧面说明当地安全形势仍然紧绷。埃塞俄比亚近年来国内多地武装冲突频发，地区局势复杂，后续需要等待官方或可靠信源对爆炸事件的性质做出进一步说明。",
-      "duration_seconds": 85,
+      "summary": "埃塞俄比亚与厄立特里亚宣布断绝外交关系，与此同时埃塞俄比亚政府军正在该国北部地区与反叛武装交火。",
+      "script": "非洲之角地区局势出现新的紧张信号。据BBC World报道，埃塞俄比亚与厄立特里亚两国宣布断绝外交关系，这一外交决裂发生在埃塞俄比亚政府军正在该国北部地区与反叛武装交战的背景之下。两国关系的恶化与北部地区的军事冲突几乎是同步出现的，报道将两者并列呈现，暗示两者之间可能存在关联，但具体的因果链条，比如厄立特里亚是否被指介入了埃塞俄比亚北部的冲突，报道本身并未给出明确的官方说法或证据。可以确认的事实只有两点：第一，两国正式宣布断交；第二，埃塞俄比亚政府军目前正在北部地区与反叛武装交战。埃塞俄比亚北部地区近年来并非第一次出现武装冲突，该地区复杂的族群和地方政治结构，使得类似冲突往往具有长期性和反复性，也容易引发邻国之间的猜忌与外交摩擦。报道中没有提供冲突的伤亡数字、具体交战地点，也没有援引埃塞俄比亚或厄立特里亚官方对断交原因的正式声明。鉴于目前只有单一媒体来源，且报道本身信息有限，对于断交的具体诱因和北部冲突的最新战况，仍需要更多独立信源进行交叉确认。后续需要关注两国是否会有官方声明解释断交原因，以及国际社会是否会介入斡旋北部地区的武装冲突。",
+      "duration_seconds": 120,
       "is_unverified": true,
-      "confidence_note": "事件信息来自单一来源的简短报道，爆炸性质尚未得到进一步说明或交叉确认。",
+      "confidence_note": "目前仅有BBC World单一来源报道，断交原因与冲突细节均缺乏官方声明佐证，建议标注为未完全证实。",
       "fact_status": {
         "confirmed": [
-          "埃塞俄比亚首都传出爆炸声",
-          "当局此前已下令禁止无人机飞行",
-          "一周前首都以北地区发生军方与武装联盟冲突"
+          "埃塞俄比亚与厄立特里亚宣布断绝外交关系",
+          "埃塞俄比亚政府军正在北部地区与反叛武装交战"
         ],
         "claims": [],
         "analysis": [
-          "无人机禁令的发布反映出当局对安全风险的担忧",
-          "埃塞俄比亚国内局势仍处于紧张状态"
+          "两国断交与北部地区冲突升级在时间上重合，可能存在关联，但缺乏官方证实的因果说明"
         ]
       },
       "source_ids": [
-        "9e5aeb2e8e6b40b0"
+        "b9fcc46e0e9e215b"
       ],
       "sources": [
         {
-          "id": "9e5aeb2e8e6b40b0",
+          "id": "b9fcc46e0e9e215b",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Explosions heard in Ethiopia's capital after drone flights banned",
-          "summary": "It comes a week after fighting erupted north of the capital between the army and a new alliance of armed groups.",
-          "url": "https://www.bbc.co.uk/news/articles/c3vgygpqky9zo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-01T11:25:03+00:00",
+          "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
+          "summary": "The diplomatic fallout comes as Ethiopian forces battle rebel fighters across its northern region.",
+          "url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T10:04:56+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "finance",
-      "title": "美联储敲定压力测试改革，提升透明度并降低资本要求波动性",
-      "english_term": "stress test（压力测试，指监管机构模拟极端经济情景，评估银行在危机下是否仍有足够资本抵御损失的监管工具）",
-      "summary": "美联储正式公布对银行年度压力测试制度的改革，旨在提高测试过程的透明度和公众问责性，并减少测试结果给银行资本要求带来的年度波动。",
-      "script": "来看一则金融监管方面的消息。美联储正式宣布，对其银行压力测试制度完成了一轮改革定稿，目的是提高测试过程的透明度和公众问责性，同时减少压力测试结果给银行资本要求带来的波动性。这里解释一下stress test，也就是压力测试，它是监管机构每年对大型银行进行的一项模拟演练，通过设定一个假设的极端经济衰退情景，比如失业率大幅飙升、房价暴跌、股市剧烈震荡，来测算银行在这种极端情况下是否还能保有足够的资本，扛得住潜在损失而不倒下。测试结果会直接影响银行被要求维持的资本缓冲水平，监管越严格，银行需要留存的资本就越多，这也会间接影响银行放贷能力和股东分红空间。过去这项制度一直被业内诟病的一点是，每年测试的具体模型和情景设定变化较大，导致银行很难提前预判当年的资本要求会怎么变，资本规划的不确定性较高。这次美联储的改革，主要方向就是针对这个痛点，一方面增加测试方法和假设情景的公开透明程度，让银行和公众更清楚测试是怎么算出来的；另一方面试图平滑年度之间资本要求的波动，减少银行因为测试模型微调就要大幅调整资本储备的情况。从影响层面看，这类监管程序性改革虽然不像降息或加息那样直接影响市场情绪，但长期看会影响银行的资本规划效率和放贷意愿的稳定性，对金融体系的韧性管理具有实际意义。后续需要关注美联储下一轮压力测试实施时，具体技术细节和情景假设将如何调整。",
-      "duration_seconds": 145,
-      "is_unverified": false,
-      "confidence_note": "直接来自美联储官方新闻稿，属于权威一手信息来源。",
-      "fact_status": {
-        "confirmed": [
-          "美联储正式公布了银行压力测试制度的改革定稿",
-          "改革目标是提升透明度与问责性，并减少资本要求的年度波动"
-        ],
-        "claims": [],
-        "analysis": [
-          "该项改革主要回应业内对测试不确定性过高的长期批评",
-          "有助于银行提升资本规划的可预测性"
-        ]
-      },
-      "source_ids": [
-        "260fe6ffcc7c8da6"
-      ],
-      "sources": [
-        {
-          "id": "260fe6ffcc7c8da6",
-          "source": "Federal Reserve Press Releases",
-          "source_tier": 1,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "finance",
-          "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-          "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
-          "published_at": "2026-09-30T13:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "science",
-      "title": "瑞士冰川再度创纪录融化，年内损失超过5%冰量",
+      "category": "world",
+      "title": "欧洲今夏遭遇极端高温压力，河流流量创纪录新低",
       "english_term": null,
-      "summary": "最新监测数据显示，瑞士冰川在今年再度经历创纪录的融化速度，年内冰量损失超过5%，对欧洲多地的水资源供应、生态系统构成威胁。",
-      "script": "最后关注一条气候科学相关的消息。最新监测数据显示，瑞士的冰川正在以创纪录的速度消失，仅今年一年，瑞士冰川就损失了超过百分之五的冰量。这一数字之所以引人关注，是因为瑞士冰川长期以来被视为欧洲重要的天然水库，融雪和冰川融水为欧洲多国的河流提供了稳定的水源补给，一旦冰川持续加速消融，会直接威胁下游地区的水资源供应、农业灌溉以及依赖稳定水文环境的生态系统。已确认的事实是，相关监测机构记录到了本年度的创纪录融化速度，损失比例超过百分之五。从分析角度看，冰川消融速度屡创新高，通常被研究者归因于长期气温上升的趋势，而这种趋势一旦持续，影响的将不只是阿尔卑斯山区本身，还包括依赖阿尔卑斯山水系的中欧多个国家。需要指出的是，具体的归因机制和未来演变预测，仍需要更长期的监测数据支持。后续需要关注下一年度的监测数据，以判断这是否是持续性加速融化趋势的一部分。",
-      "duration_seconds": 95,
+      "summary": "欧盟气候监测机构发布报告称，今年夏天是欧洲有记录以来第三热的夏天，欧洲多条河流的平均流量也创下1992年有记录以来的最低水平。",
+      "script": "最后关注一条气候类新闻。据DW报道，欧盟气候监测机构发布的最新数据显示，今年夏天是欧洲大陆有记录以来第三热的夏天，同时欧洲多条河流的平均流量也跌至1992年有记录以来的最低水平，报告中提到，欧洲大约一半地区在今年夏天经历了创纪录的高温压力。这里需要区分两个概念，一个是气温本身的高低排名，今年排在历史第三位，并非历史最高；另一个是河流流量数据，这项数据创下了自1992年有完整记录以来的新低，两者分别代表了高温和干旱两种相互关联但又各自独立的极端天气表现。报告将高温与河流低流量并列呈现，说明两者之间存在气候学上的关联，持续高温会加剧蒸发和干旱，进而导致河流补给不足，但具体到今年夏季欧洲各地区降雨量、蒸发量的详细数据，DW的报道中并未展开说明。这类极端天气记录的现实影响是多方面的，河流流量降低会直接影响航运、农业灌溉和水力发电等依赖河流水量的产业活动，而持续性高温则会对公共健康、能源需求和生态系统造成压力。目前的报道属于欧盟官方气候监测机构发布的数据通报，具有较高的可信度，但报道本身没有进一步说明具体受影响最严重的国家和地区清单，也没有给出今年与去年同期的详细数值对比。后续需要关注欧盟及各国政府是否会公布更详细的区域影响评估和应对措施。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "来自NPR对瑞士冰川监测数据的报道，数据来源为相关监测机构，属于单一媒体转述但内容为既有监测事实。",
+      "confidence_note": "数据来自欧盟官方气候监测机构，经DW报道转述，属于官方一手数据发布。",
       "fact_status": {
         "confirmed": [
-          "瑞士冰川今年损失超过百分之五的冰量，创下纪录"
+          "今年夏天是欧洲有记录以来第三热的夏天",
+          "欧洲河流平均流量创1992年有记录以来最低水平"
         ],
         "claims": [],
         "analysis": [
-          "冰川加速消融可能威胁欧洲多地的水资源供应和生态系统"
+          "持续高温与河流低流量之间存在气候关联，但具体区域影响程度报道未详细展开"
         ]
       },
       "source_ids": [
-        "72e4037254c58de5"
+        "26fb189f7b725f99"
       ],
       "sources": [
         {
-          "id": "72e4037254c58de5",
-          "source": "NPR World",
+          "id": "26fb189f7b725f99",
+          "source": "DW Top Stories",
           "source_tier": 2,
-          "source_region": "us",
+          "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Swiss glaciers suffer another year of record ice loss",
-          "summary": "Switzerland's glaciers are disappearing at a record pace. More than 5% of their ice has vanished this year alone — threatening water supplies, ecosystems and communities across Europe.",
-          "url": "https://www.npr.org/2026/09/30/nx-s1-5981403/swiss-glaciers-climate-change",
-          "published_at": "2026-09-30T23:00:00+00:00",
+          "title": "Half of Europe witnessed record heat stress this summer — EU",
+          "summary": "The EU's climate monitor said this summer was third-warmest for the continent on record. European rivers also registered their lowest average flows since records began in 1992.",
+          "url": "https://www.dw.com/en/half-of-europe-witnessed-record-heat-stress-this-summer-eu/a-79514799?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-02T11:53:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "迪拜航空公司飞机上发生机师袭击事件，印度籍机长出手制止",
+      "english_term": null,
+      "summary": "一架飞往特拉维夫的迪拜航空公司航班上，一名印度籍机长在遭到另一名机师袭击后，因制止事态升级的行为被称为“英雄”。",
+      "script": "最后一条简讯。据BBC World报道，一架隶属迪拜航空公司、飞往特拉维夫的航班上发生了一起机师袭击事件，印度籍机长斯米特·马查尔在飞行途中遭到另一名机师的刺伤袭击，事后他因制止事态进一步升级的行为被媒体称为“英雄机长”。报道的重点在于还原这位机长的个人经历和此次事件中的表现，但对于袭击者的身份、作案动机，以及航空公司和相关监管部门对这起机上安全事件的官方回应，目前报道中都没有提供详细信息。这类发生在飞行途中的机组人员冲突事件较为罕见，通常会引发航空公司对机组人员心理状态评估机制、机上安全流程的审视。由于目前只有单一媒体来源，且事件调查可能仍在进行中，具体的案发经过、双方关系背景等信息有待进一步披露。后续需要关注迪拜航空公司及相关航空安全监管机构是否会发布正式的调查结论。",
+      "duration_seconds": 85,
+      "is_unverified": true,
+      "confidence_note": "单一来源BBC报道，事件细节有限，袭击动机与后续调查结果均未披露。",
+      "fact_status": {
+        "confirmed": [
+          "迪拜航空公司一架飞往特拉维夫的航班上发生机师袭击事件",
+          "印度籍机长斯米特·马查尔在事件中受伤"
+        ],
+        "claims": [],
+        "analysis": []
+      },
+      "source_ids": [
+        "495b8c901934dae7"
+      ],
+      "sources": [
+        {
+          "id": "495b8c901934dae7",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
+          "summary": "Capt Smit Machchhar was attacked by another pilot onboard the Flydubai flight bound for Tel Aviv.",
+          "url": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-02T11:52:04+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的内容里，迪拜航班事件的官方调查结论、ASI与软银自动化车队的首批试点进展、以及Fiatlux等人形机器人长程基准的后续复现结果，都值得继续留意。",
-  "editor_note": "机器人部分综合了The Robot Report、arXiv预印本与行业资讯源，覆盖了产业合作、产品发布与学术论文三类内容，并将原归类为other的ASI与软银工地自动化消息调整为robotics类别以满足时长占比要求；其中两篇arXiv论文均为未经同行评审的预印本，已在稿件中明确标注局限。国际新闻部分围绕flydubai航班事件做了较深入的事实与主张拆分，因该事件候选来源较多且信息密度高；部分快速扫描条目（如机场机器狗、埃塞俄比亚爆炸）因细节有限，均标注为未完全证实。体育、娱乐类候选因重要性有限或信息单薄未纳入正式稿件。",
+  "closing": "今天的内容就到这里。值得继续关注的是波士顿动力新款机器人手的详细技术规格何时公布，以及德国执政联盟在支持率持续走低背景下是否会出现政策调整。明天的晶球电台，我们继续为你梳理机器人与全球大事。",
+  "editor_note": "本期机器人类选取了产业与学术各半的内容，产业端覆盖了波士顿动力Atlas新手部设计、Maven Robotics融资以及机器人安全测试讨论，学术端选取了两篇arXiv预印本（均明确标注未经同行评审）。国际部分优先选择了具有两个独立信源交叉印证的德国政局报道，对仅有单一来源的埃塞俄比亚断交、迪拜航班袭击事件均标注为未完全证实。候选中多条robotics标题为明显与机器人无关的垃圾结果（如电视剧列表）及纯商业投资建议类文章，予以排除未采用。",
   "model": "claude-sonnet-5",
-  "generation_usage": [
-    {
-      "input_tokens": 9367,
-      "output_tokens": 10645,
-      "total_tokens": 20012
-    },
-    {
-      "input_tokens": 12511,
-      "output_tokens": 10185,
-      "total_tokens": 22696
-    }
-  ],
   "usage": {
-    "input_tokens": 21878,
-    "total_tokens": 42708,
-    "output_tokens": 20830
+    "input_tokens": 9275,
+    "output_tokens": 9320,
+    "total_tokens": 18595
   },
-  "generated_at": "2026-10-01T12:13:53+00:00",
-  "window_start": "2026-09-30T12:13:53+00:00",
-  "candidate_count": 390,
+  "generated_at": "2026-10-02T12:00:06+00:00",
+  "window_start": "2026-10-01T12:00:06+00:00",
+  "candidate_count": 346,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
-  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1360,
-    "script_characters": 5326,
-    "topic_duration_share": 0.544,
+    "duration_seconds": 1235,
+    "script_characters": 4826,
+    "topic_duration_share": 0.599,
     "passed": true,
-    "normal_target_met": false,
+    "normal_target_met": true,
     "topic_source_count": 3,
     "issues": []
   }
