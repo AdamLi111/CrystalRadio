@@ -1,63 +1,160 @@
 {
-  "title": "晶球电台早报：Atlas换手、Maven融资落地，德国政局动荡持续",
-  "subtitle": "波士顿动力重新设计人形机器人手部，欧洲高温纪录与多地外交危机同步发酵",
+  "title": "晶球电台早报：人形机器人安全过滤器新突破，俄西伯利亚肺鼠疫疑云与多起国际动荡",
+  "subtitle": "从人形机器人全身安全追踪到服务机器人销量暴涨，再到地缘政治与诺贝尔奖，一次说清今日要闻",
   "highlights": [
-    "波士顿动力公布Atlas人形机器人全新手部设计，主打量产可靠性而非仿生外形",
-    "工业机器人公司Maven Robotics获1亿美元融资，加速移动操作机器人量产",
-    "德国总理默茨支持率创新低，三场地方选举失利引发执政联盟信任危机"
+    "arXiv 新论文提出面向人形机器人全身控制的安全过滤器微调方法，试图解决强化学习策略与控制屏障函数结合时的保守性问题",
+    "国际机器人联合会数据显示专业服务机器人销量同比暴涨24%，法拉第未来机器人业务单月销量创新高",
+    "俄罗斯西伯利亚一研究所员工疑似感染肺鼠疫身亡，近200名接触者被隔离观察，当局否认关联",
+    "诺贝尔奖授予光遗传学关键发现者，三位科学家因揭示大脑工作机制获奖",
+    "美国空军突然撤离英国费尔福德皇家空军基地全部轰炸机，原因未明"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "波士顿动力为Atlas人形机器人换新手，放弃仿生设计转向量产可靠性",
-      "english_term": "end-effector（末端执行器，机器人用于与环境交互的手部或夹爪部件）",
-      "summary": "波士顿动力公布了Atlas人形机器人的重新设计手部，相比上一代更强调耐用性与成本可控性，而非单纯模仿人手功能。团队甚至通过绑住工程师的小指和无名指来研究手指数量取舍的实际影响。",
-      "script": "先来看机器人产业的一条重磅消息。波士顿动力公司正式公布了Atlas人形机器人的全新手部设计。上一代Atlas的手部是三指结构，虽然能完成一些令人惊叹的高难度动作，但它是典型的研究级硬件，并不是为量产准备的。而这一次，团队要解决的问题完全不同：怎样做一只手，既要完成足够多的抓取任务，又要足够坚固耐用，成本还要可控，能够支撑未来数万甚至数十万台机器人的生产。据IEEE Spectrum机器人频道报道，波士顿动力的工程师在设计过程中做了一个很直观的实验，他们把自己的小指和无名指绑在一起整整一天，体会在缺少这两根手指的情况下，日常抓取和操作会受到多大影响。这种“反向验证”帮助团队判断，人形机器人的手究竟需要几根手指、每根手指承担什么功能，而不是简单地照搬人类五指结构。The Robot Report的报道也提到了同一次发布，标题直接点出“去掉小指”这一设计取舍，说明新手部可能减少了手指数量以换取结构强度和制造简易度。这背后反映的是人形机器人行业正在经历的一个关键转折：过去几年，大量研究集中在如何让机器人手做出更像人类的精细动作，但当这些机器人要走出实验室、走向工厂实际部署时，可靠性、维护成本和量产工艺的重要性会迅速超过仿生程度本身。换句话说,手指看起来像不像人手不重要，重要的是它会不会经常损坏、维修是否方便、造价是否可控。目前关于新手部的具体自由度数量、抓取力参数和量产时间表，两家媒体的报道都未给出完整细节。后续需要等待波士顿动力公布更完整的技术规格或演示视频，以判断这一设计改动对实际作业能力的影响。",
+      "title": "人形机器人全身安全追踪：给强化学习策略装上更聪明的刹车",
+      "english_term": "Control Barrier Function, CBF（控制屏障函数，一种在系统状态接近危险边界时自动修正动作、保证安全约束不被违反的数学工具）",
+      "summary": "一篇新论文提出“过滤器感知微调”方法，让人形机器人的全身运动追踪策略在强化学习训练阶段就考虑到运行时安全过滤器的存在，从而减少动作被过度修正导致的笨拙和不稳定。",
+      "script": "先说一条来自学术界的机器人进展。人形机器人要在没有提前规划好的复杂环境里干活，首先得解决一个老问题：怎么保证它的全身动作既听指挥，又不会摔倒或撞坏东西。现在主流做法是分两层，上层是一个规划器或者遥操作员给出参考动作，下层由强化学习训练出的控制策略去尽量贴合这个参考，实现动态可行的全身控制。但光靠学出来的策略不够保险，所以工程师们通常会在执行的最后一道关卡加一个运行时安全过滤器，常见的实现方式就是控制屏障函数，它会在系统状态逼近危险边界时自动介入修正动作，防止摔倒、自碰撞或者超出关节极限这类事故发生。问题在于，这个安全过滤器是独立于策略训练之外加上去的模块，策略自己并不知道它的存在。结果就是策略生成的动作经常被过滤器大幅修正，修正多了动作就会变得保守、僵硬，甚至出现跟踪误差累积、动作卡顿的情况，等于是训练和执行两个阶段互相不买账。这篇题为《面向安全人形全身追踪的过滤器感知微调》的论文提出的思路，是让策略在微调阶段就能感知到安全过滤器会如何介入，把过滤器的修正行为也纳入训练信号里，而不是把过滤器当成训练完全不知情的黑盒补丁。这样策略就能学着提前规避容易触发过滤器大幅修正的那些危险区域，减少被动修正的频率和幅度，理论上能让最终的全身动作既安全又更加流畅自然。论文摘要里强调这是对现有做法的改进方向，具体在多少种任务、多大规模的机器人平台上做了验证，摘要信息有限，仍需要等待论文正文和同行评审结果公布后才能判断其效果的普适性和局限。这类工作目前都来自预印本平台，还没有经过同行评审，需要留意其实验设置是否全面、是否只在仿真环境里验证过。",
       "duration_seconds": 170,
-      "is_unverified": false,
-      "confidence_note": "由The Robot Report与IEEE Spectrum两个独立专业机器人媒体同时报道，可信度较高，但具体技术参数细节有限。",
+      "is_unverified": true,
+      "confidence_note": "来自 arXiv 预印本，摘要信息有限，未经同行评审，具体实验规模和效果需等待论文正文公布确认",
       "fact_status": {
         "confirmed": [
-          "波士顿动力公布了Atlas人形机器人的重新设计手部",
-          "新设计强调量产可靠性与成本控制而非单纯仿生"
+          "论文提出了一种让强化学习策略在训练阶段感知安全过滤器行为的微调方法，目标是人形机器人全身运动追踪"
         ],
         "claims": [
-          "工程师通过绑手指实验来研究手指缺失对操作的影响"
+          "作者主张该方法能减少安全过滤器对动作的过度修正，提升动作流畅性和安全性"
         ],
         "analysis": [
-          "人形机器人行业的研发重心正从实验室仿生能力转向工程可量产性"
+          "该方法代表了将运行时安全机制与训练目标统一考虑的趋势，但效果规模和落地场景仍待论文细节和后续验证"
         ]
       },
       "source_ids": [
-        "0d8e3cebee2d8f09",
-        "3bd5feb291dbb428"
+        "70a1cbb3cbfe9c4d"
       ],
       "sources": [
         {
-          "id": "0d8e3cebee2d8f09",
-          "source": "The Robot Report",
-          "source_tier": 2,
+          "id": "70a1cbb3cbfe9c4d",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Boston Dynamics drops pinkie on new humanoid hand",
-          "summary": "Boston Dynamics engineers taped their pinkies and ring fingers together for a day to learn what they weren’t able to do. The post Boston Dynamics drops pinkie on new humanoid hand appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
-          "published_at": "2026-10-01T17:52:51+00:00",
+          "title": "Filter-Aware Fine-Tuning for Safe Humanoid Whole-Body Tracking",
+          "summary": "arXiv:2610.02341v1 Announce Type: new Abstract: Safe whole-body motion is essential for deploying humanoid robots in unstructured environments. Modern humanoid control commonly separates reference specification from execution, with a planner, teleoperator, or motion generator providing a reference that a reinforcement-learning policy tracks through dynamically feasible whole-body control. Runtime safety filters, such as control barrier functions (CBFs), offer a promising approach for enforcing newly introduced constraints via interventions on the tracker's outputs. We show, however, that treating the tracking policy and safety filter independently induces fundamental mismatches, as filtering alters both the executed actions and the induced state distribution. We study this policy-filter interface through case studies that isolate dynamics, objective, and information mismatches, highlight their root causes, and use these insights to develop CoFiT (Constrained Filter-aware Tuning), a filter-aware fine-tuning method for pretrained trackers. Across diverse constraint scenes, CoFiT reduces violation time relative to filter-only training by 91% on TWIST2 and 21% on SONIC, while requiring",
+          "url": "https://arxiv.org/abs/2610.02341",
+          "published_at": "2026-10-05T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "触觉皮肤与人类示教：给灵巧操作补上触觉数据的短板",
+      "english_term": "Visuo-tactile manipulation（视觉-触觉操作，指机器人同时利用视觉和触觉信号完成精细抓取操作的能力）",
+      "summary": "新论文提出柔性触觉皮肤系统，试图解决灵巧操作中视触觉数据稀缺的问题，让人类示教数据也能带上与机器人匹配的触觉信号。",
+      "script": "另一篇值得关注的机器人学术论文聚焦在一个很实际的瓶颈上：触觉数据太少。越来越多研究显示，触觉信号能给机器人操作策略提供视觉之外的关键接触信息，尤其是在需要灵巧手指精细操作的场景里，比如捏取薄片物体或者调整抓取力度，纯靠摄像头看往往不够。但问题是收集带触觉信号的机器人示教数据非常昂贵，因为灵巧操作的示教通常需要遥操作机器人手，这个过程又慢又贵，数据规模很难做大。相比之下，让人类直接用手去做示教动作要便宜得多，也更容易规模化采集，但前提是人手和机器人手都得戴上能产生对应信号的触觉传感器，否则人类示教数据里就没有机器人能学习的触觉通道。这篇论文提出的柔性触觉皮肤系统，就是想解决人手和机器手触觉信号不兼容这个问题，让同一套触觉传感方案既能装在人类示教者手上，也能装在机器人手上，采集到可以互相对应、共同训练的视触觉数据。这个思路如果能跑通，理论上可以大幅降低触觉操作数据的采集成本，让灵巧操作的训练数据规模更快追上纯视觉数据的量级。不过这类柔性传感器方案通常要面对信号一致性、耐用性和量产成本的考验，论文摘要本身没有展开说明具体的传感精度和在下游操作任务上的表现提升幅度，仍属于未经同行评审的预印本工作，需要等正式论文和后续复现结果来验证其实际效果和局限。",
+      "duration_seconds": 135,
+      "is_unverified": true,
+      "confidence_note": "arXiv 预印本，未经同行评审，具体传感性能和任务提升数据需等待论文全文",
+      "fact_status": {
+        "confirmed": [
+          "论文提出一种柔性触觉皮肤系统，目标是让人类示教与机器人示教产生兼容的触觉信号"
+        ],
+        "claims": [
+          "作者主张此举可以降低视触觉操作数据的采集成本并扩大数据规模"
+        ],
+        "analysis": [
+          "若方案成熟，可能缓解灵巧操作领域长期存在的数据稀缺问题，但传感器一致性和量产可行性仍是未知数"
+        ]
+      },
+      "source_ids": [
+        "b36f2339d3f6af2f"
+      ],
+      "sources": [
+        {
+          "id": "b36f2339d3f6af2f",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "SoTa: Soft Tactile Skins for Dexterous Manipulation",
+          "summary": "arXiv:2610.02338v1 Announce Type: new Abstract: A growing body of work suggests that tactile sensing gives robot policies contact information that complements vision in dexterous manipulation. However, visuo-tactile robot data remains scarce: dexterous demonstrations require teleoperating robots, which limits dataset scale. Human demonstrations are far cheaper to collect and offer a path to scale this data, but only if human and robot hands carry tactile sensors with corresponding signals. This requires sensors that conform to different hand geometries, cover the full hand, and share a common layout across embodiments. We present SoTa, a low-cost capacitive tactile skin that provides full-hand coverage on humans and robots while preserving a shared layout of 202 taxels across corresponding finger and palm regions. Our multilayer design with fabric electrodes enables in-house fabrication of thin, soft skins with customizable geometry for under $10 in materials per skin. The sensor retains over 97% of its initial response span after 10,000 loading-unloading cycles with traces retaining continuity through 1,280 tight-fist folding cycles. The shared taxel layout supports human-robot co",
+          "url": "https://arxiv.org/abs/2610.02338",
+          "published_at": "2026-10-05T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "专业服务机器人销量同比暴涨24%，法拉第未来机器人单月再创纪录",
+      "english_term": "Professional service robot（专业服务机器人，指应用于物流、医疗、安防等非制造业场景、面向企业客户的机器人）",
+      "summary": "国际机器人联合会数据显示全球专业服务机器人销量同比增长24%，与此同时法拉第未来旗下机器人业务九月销量再创月度新高。",
+      "script": "再来看产业端的消息。国际机器人联合会，也就是常说的IFR，发布的最新数据显示，全球专业服务机器人销量同比增长了24%，这个增速相当可观，覆盖的领域包括物流仓储、医疗辅助、安防巡检等非制造业场景。专业服务机器人跟我们更熟悉的工业机械臂不同，它们通常直接面向企业客户提供特定场景的自动化服务，比如医院里的配送机器人、仓库里的分拣机器人。这个增长数字背后反映的是企业对自动化落地的需求在持续扩大，尤其是劳动力成本上升和部分行业用工紧张的大背景下，服务机器人正在从早期的示范项目逐步走向规模化采购。与此同时，另一条产业消息来自法拉第未来旗下的机器人业务单元，公司创始人贾跃亭在最新一期投资者更新中披露，旗下EAI机器人设备九月份的销售和交付量达到265台，创下月度新高，公司方面还提到计划推出新产品并寻求独立上市。需要说明的是，这个265台的数字相对于专业服务机器人的全球大盘来说体量还比较小，更多反映的是这家公司自身业务节奏的变化，而不是整个行业的风向标。法拉第未来本身长期以来在造车和机器人等多个业务线之间辗转，这次机器人业务的销量纪录能否持续，以及所谓的独立上市计划具体会以什么形式推进，都还需要时间观察。整体来看，这两条消息放在一起看，专业服务机器人市场确实呈现出需求扩张的态势，但具体到单个公司的销量数字，还需要结合更长期的财报和交付数据来判断其真实的市场份额和盈利状况。",
+      "duration_seconds": 150,
+      "is_unverified": false,
+      "confidence_note": "IFR数据与法拉第未来投资者更新均为公开产业信息，但法拉第未来数字来自公司自述，缺乏第三方审计确认",
+      "fact_status": {
+        "confirmed": [
+          "IFR公布专业服务机器人全球销量同比增长24%",
+          "法拉第未来披露旗下EAI机器人设备九月销售交付265台，为月度新高"
+        ],
+        "claims": [
+          "法拉第未来方面表示计划推出新产品并推动机器人业务独立上市"
+        ],
+        "analysis": [
+          "服务机器人需求扩张趋势明显，但单一公司销量纪录的行业代表性有限，独立上市计划的可行性仍待观察"
+        ]
+      },
+      "source_ids": [
+        "644cf3d1ebe10f8c",
+        "ce97b2eefd9d9ba6",
+        "3b7cb6a61899ac19"
+      ],
+      "sources": [
+        {
+          "id": "644cf3d1ebe10f8c",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "IFR: Professional Service Robot Sales Surge 24% Worldwide - Supply Chain Digital",
+          "summary": "IFR: Professional Service Robot Sales Surge 24% Worldwide Supply Chain Digital",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRjhLbGY4dTZxTmtoallkWDNTcEltWmZTRWdOcVJjcVZqSnZZSGh2Rk9RRG1lQmxMWnlrZU5feVdoTHBDLV9DWFFYRXFwV2RaYzlvdDgtZjg3eEpjUHlFNmsxRlI5Ri11bWMteXFRVGZFcWFrbG9STVozVXpoUnJjSExNUFVaUUdPWG5EMHNjb3ZmbWRIVHc?oc=5",
+          "published_at": "2026-10-05T11:39:19+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "3bd5feb291dbb428",
-          "source": "IEEE Spectrum Robotics",
-          "source_tier": 2,
+          "id": "ce97b2eefd9d9ba6",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
-          "summary": "Today, Boston Dynamics is announcing a redesigned hand for its Atlas robot . The previous generation could do some crazy superhuman things with its three fingers, but it was never intended for mass production in the tens or hundreds of thousands. Switching from research hardware to a scalable product makes previously ignorable questions suddenly paramount: How can you make a hand that does everything you need it to do but is also rugged and reliable and cost-effective? It’s questions like these that drove the design of the new Atlas hand, and while it doesn’t look much like a human hand, it might be a hand that makes it out into the real world. - YouTube www.youtube.com Compared to the almost eerily humanlike hands designed by a litany of other humanoid robotics companies , Atlas’s new hand does look awfully clunky. We’ve certainly seen some of those robots with much more humanlike hands perform dexterous manipulation tasks that are, speaking as someone who has personally witnessed robots haplessly fumble their way through the world for nearly two decades now, nothing short of incredible. And it’s not just what these hands can do—it’s how they look while doing it, as slim, graceful",
-          "url": "https://spectrum.ieee.org/robust-robot-hand",
-          "published_at": "2026-10-01T14:40:12+00:00",
+          "title": "Faraday Future Founder and Global CEO YT Jia Weekly Investor Update: Sales and Shipments of FF EAI Robotics Devices Reached 265 Units in September, Setting a New Monthly Record - 巴士的報",
+          "summary": "Faraday Future Founder and Global CEO YT Jia Weekly Investor Update: Sales and Shipments of FF EAI Robotics Devices Reached 265 Units in September, Setting a New Monthly Record 巴士的報",
+          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQdmREekVrc19PaGlLNlAzQmw2T0dPUUNreVRkOG5DTFBRcmdCb0hpN2lKWFRPQ0dwZFYtSW5UeGZXOGs5ZllRLVFTVmJ2WGlvcllmYnFxMU5BQmtVZXJ1T1VyZ2x5V3FDdXlNQnY3V2VTeFNjTmUyT1J5NDNlVDIxLWVWZnhTWUNicUtrbVhJa0xqTmV5LVFXbGFDOHU2ckxZZnRObmN1RGg4Y0VGZzg1aHVxQi1lc3dFdWRtOTU0Wm4xZDhLVEtmSDZsNmZkNDUwcmdtY3dyRWlJN1E1ckc0SzZJeGtyal8wUWVibG9LOVdobVBMOVB6eXI2cmlVRFA4NGNVNlJENEJDdEtZemdHYXFGNGdva1JjcTItRXUwdjJ6NUl3N0V0Q3JDN0FiWXpUbHRtLW9VdmhMaWpQa3g0bUxyTThZbFlnSnc?oc=5",
+          "published_at": "2026-10-05T11:32:30+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "3b7cb6a61899ac19",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Faraday Future robotics unit reports September sales record By Investing.com - Investing.com UK",
+          "summary": "Faraday Future robotics unit reports September sales record By Investing.com Investing.com UK",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNXprVGd1cnNlclhzMElrc0g2bW16OU9IMkc4bUo2VHM1dm41M2V5eHpTeUhyMVg2clhmV203N2RyVllaLVdDZlhUWVVNNThJOGNvX1Y0Ml9CQ1hMRmhxMS1YdzkzYWNXMW55bEpfZHY5aEVkSXFqWTVlNDFUWW9CaFZLLVhwVFduTlNISGZ1RVl1Yk1yQXFVcFM4VElCV1dDVlppODAweERTdWJPVzNGMG5NT1JMSUlxNFp3cg?oc=5",
+          "published_at": "2026-10-05T11:38:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -65,159 +162,39 @@
     },
     {
       "category": "robotics",
-      "title": "工业移动机器人公司Maven Robotics融资1亿美元，筹备量产自动化任务机器人",
-      "english_term": "mobile manipulator（移动操作机器人，兼具移动底盘与机械臂操作能力的机器人系统）",
-      "summary": "Maven Robotics近期完成1亿美元融资，公司计划利用这笔资金推动其移动操作机器人进入批量生产阶段，目标是实现工业场景中单一任务的自动化替代。",
-      "script": "再来看一则产业融资消息。据The Robot Report报道，工业自动化公司Maven Robotics近期完成了一笔1亿美元的融资，公司计划用这笔资金推动其移动操作机器人（也就是同时具备移动底盘和机械臂的机器人系统）走向规模化量产。Maven Robotics的思路和很多人形机器人创业公司不同，它并不追求让机器人完成通用的、类人的全部任务，而是采取“一次只做好一件事”的策略，先把某个具体工业任务做扎实，再逐步扩展能力范围。这种打法在工业机器人领域并不罕见，核心逻辑是：与其让机器人同时具备搬运、分拣、装配等多种能力却都做得不够稳定，不如先把单一任务的成功率和稳定性打磨到可以大规模商用的水平，再考虑功能扩展。这背后反映的是当前移动操作机器人赛道的一个现实困境，实验室演示里机器人往往能完成令人印象深刻的复杂操作，但在真实工厂环境中，光照变化、物体摆放不规则、设备故障等因素都会大幅拉低成功率，真正能大规模铺开的，往往是那些任务边界清晰、重复性高的场景。报道中并未透露这笔融资的具体投资方名单、估值情况，也没有公布计划量产的具体时间表和产线规模。后续需要等待公司公布更详细的量产计划和客户落地案例，以判断其商业化进展是否能跟上资本预期。",
-      "duration_seconds": 135,
+      "title": "社交机器人的脸该长什么样？研究建议用动物或动漫风格外观提升情感吸引力",
+      "english_term": "Social robot（社交陪伴机器人，设计用于提供陪伴、模拟人类或宠物行为以增强情感连接的机器人）",
+      "summary": "格拉斯哥大学一项新研究探讨社交机器人的外观设计，发现动物化或动漫风格的脸部与声音可能比过度拟人化的设计更能提升用户的情感认同。",
+      "script": "来看一条偏学术方向但很贴近产品设计的研究。格拉斯哥大学的研究团队关注的问题是，社交陪伴机器人应该长什么样才能让用户更愿意跟它产生情感连接。这类机器人通常通过模仿人类或者宠物的行为来提供陪伴和安慰，但一个长期存在争议的设计问题是，机器人的外观到底应该尽量逼近真人，还是刻意保持某种非人类的风格。这项研究给出的建议方向是，赋予机器人动物化或者动漫风格的脸部和声音，可能比追求高度逼真的人类外观更能最大化情感吸引力。这背后其实涉及一个机器人学里讨论已久的现象，叫做恐怖谷效应，简单说就是当机器人的外观越来越接近人类但又不完全像的时候，反而会让人产生不适和排斥感，而相对夸张或者卡通化的设计往往能绕开这个陷阱，让用户更容易放下防备、产生情感认同。这项研究的意义在于为社交机器人设计提供了一个可以参考的方向，尤其是对那些面向家庭陪伴、老年看护或者儿童互动场景的机器人产品来说，外观和声音的设计选择直接影响用户的接受度和长期使用意愿。不过这类研究通常基于特定的用户调研或实验样本，具体的样本规模、测试场景和年龄层分布，摘要中没有详细展开，其结论能否推广到所有文化背景和使用场景，还需要看论文全文里的实验设计细节。",
+      "duration_seconds": 130,
       "is_unverified": false,
-      "confidence_note": "单一来源The Robot Report报道，属于专业机器人产业媒体一手信息，但缺乏融资方名单等细节交叉验证。",
+      "confidence_note": "来自Robohub转载的大学研究新闻稿，已是正式发布内容，但实验细节和样本规模需查阅论文原文确认",
       "fact_status": {
         "confirmed": [
-          "Maven Robotics近期完成1亿美元融资"
+          "格拉斯哥大学发布了一项关于社交机器人外观设计的研究"
         ],
         "claims": [
-          "公司计划利用融资推动移动操作机器人量产"
+          "研究建议动物化或动漫风格的脸部和声音设计可能比高度拟人化外观更能提升情感吸引力"
         ],
         "analysis": [
-          "聚焦单一任务自动化是当前工业移动操作机器人商业化的一种务实策略"
+          "该方向呼应了恐怖谷效应等既有理论，但具体结论的普适性需要更多实验细节支撑"
         ]
       },
       "source_ids": [
-        "bfcbc0b33d6f3a22"
+        "286e51941a06e99f"
       ],
       "sources": [
         {
-          "id": "bfcbc0b33d6f3a22",
-          "source": "The Robot Report",
+          "id": "286e51941a06e99f",
+          "source": "Robohub",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "How Maven Robotics plans to automate industrial work, one task at a time",
-          "summary": "With the $100 million it raised earlier this month, Maven Robotics is looking towards mass producing its mobile manipulator robot. The post How Maven Robotics plans to automate industrial work, one task at a time appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/how-maven-robotics-plans-automate-industrial-work-one-task-at-a-time/",
-          "published_at": "2026-10-01T12:30:39+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "人形机器人全身控制新方法：让机器人复用已验证过的动作能力",
-      "english_term": "test-time adaptation（测试时适应，指模型或系统在部署运行阶段而非训练阶段进行的在线调整）",
-      "summary": "一项新预印本论文提出了名为HumanoidTTT的方法，旨在让人形机器人安全地复用此前已经验证过的运动能力，而不需要每次都从零开始重新规划。",
-      "script": "接下来是一项学术方向的新进展，来自arXiv机器人板块的预印本论文。随着运动生成和全身跟踪技术的发展，人形机器人已经能够执行越来越多样化的动作，但一个现实问题随之出现：在长期部署过程中，同一个动作能力可能会被反复请求执行，如果每次都重新规划、重新验证，会消耗大量计算资源，而如果直接照搬之前成功的动作，又可能因为机器人当前的姿态、速度等入口状态已经发生变化，导致盲目重放变得不安全。研究团队提出的方法叫做HumanoidTTT，其中TTT指的是测试时能力复用，也就是在机器人实际运行阶段，而不是训练阶段，判断和调用此前已经验证过的运动技能。论文摘要中提到，团队试图解决两个核心矛盘：一是验证过的能力会在部署过程中不断累积，二是机器人的计算和决策资源是有限的，不可能对每一个历史动作都重新做完整的安全校验。因此系统需要有一套机制，判断当前状态下复用哪个历史动作是安全的，哪些则需要重新规划。这项研究目前还只是arXiv上的预印本，没有经过同行评审，论文摘要中也没有给出具体的实验成功率、测试平台型号等量化数据。这类面向长期部署、连续运行场景的能力复用机制，和当前人形机器人逐渐走向实际工厂和真实环境部署的趋势是吻合的，因为只有解决了长期运行中的效率和安全问题，机器人才能真正做到持续工作而不是演示级别的短时任务。后续需要等待论文的同行评审结果，以及团队是否公开更完整的实验数据和开源代码。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv的预印本论文，尚未经过同行评审，论文摘要信息有限，缺乏具体实验数据佐证。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了名为HumanoidTTT的人形机器人能力复用方法"
-        ],
-        "claims": [
-          "该方法旨在安全复用已验证的运动能力，避免每次重新规划"
-        ],
-        "analysis": [
-          "长期部署场景下的能力复用机制与人形机器人走向实际应用的趋势相符"
-        ]
-      },
-      "source_ids": [
-        "290151a09855e267"
-      ],
-      "sources": [
-        {
-          "id": "290151a09855e267",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "HumanoidTTT: Test-Time Capability Reuse for Efficient Humanoid Control",
-          "summary": "arXiv:2610.00198v1 Announce Type: new Abstract: Recent advances in motion generation and whole-body tracking have enabled humanoid robots to execute increasingly diverse motions, yet the same motion capabilities may be requested repeatedly during continual deployment. Reliable reuse is challenging because intervening motions can change the robot's entry state, making previously successful motions unsafe to replay blindly. Meanwhile, validated capabilities accumulate during deployment, while bounded storage requires deciding which ones are worth retaining. To address these challenges, we present HumanoidTTT, a framework for test-time capability reuse in continual humanoid control. Specifically, we introduce Selective Full-Motion Reuse, which authorizes direct reuse of validated complete motions only from certified applicable entry states, allowing accepted reuse to bypass fresh generation. We further introduce Test-Time Capability Consolidation, which adapts which qualified capabilities persist in a bounded Full-Motion Store using subsequent deployment reuse as feedback. Experiments demonstrate zero unsafe accepts and a 16.4$\\times$ end-to-end speedup over fresh generation, while on",
-          "url": "https://arxiv.org/abs/2610.00198",
-          "published_at": "2026-10-02T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "柔性连续体机器人实现实时全身安全运动生成",
-      "english_term": "continuum robot（连续体机器人，一种没有离散关节、依靠连续柔性结构弯曲运动的机器人）",
-      "summary": "一项新预印本提出了针对多段腱驱动连续体机器人的实时运动生成框架，能够同时考虑非均匀弯曲建模与全身避碰。",
-      "script": "再看一项来自arXiv的机器人学术预印本，主题是柔性连续体机器人的运动控制。连续体机器人是一类没有传统离散关节、依靠连续柔性结构弯曲来运动的机器人，常见于腱绳驱动的蛇形臂或软体机械臂，在狭窄空间探测、微创手术等场景中有应用潜力。但这类机器人的控制一直存在两个难题，第一是它的弯曲往往是非均匀的，也就是说沿着机器人身体不同位置的弯曲程度和刚度特性都不一样，难以用简单模型描述；第二是要让机器人在运动过程中实时避免自身不同节段之间或者与环境发生碰撞，这在计算上非常困难。这项研究提出了一个统一的、基于驱动空间的框架，用一种基于能量的变曲率模型来捕捉腱间距和弯曲刚度沿身体变化的特性，并提供了解析形式的雅可比矩阵，也就是连接驱动输入和末端运动之间关系的数学工具，用于支持微分逆运动学求解和安全监控。论文摘要显示该方法面向平面多段连续体机器人，且强调是实时计算、全身级别的安全运动生成，而不仅是末端点的轨迹跟踪。这类研究的意义在于，连续体机器人要真正走向实际应用，仅仅能弯曲变形是不够的，还需要在运动过程中保证整条柔性身体都不会发生碰撞或损伤，这对于手术机器人等对安全性要求极高的场景尤其关键。目前论文仍是预印本阶段，摘要中未透露具体的实验平台、运行频率和实测误差等数据。后续需要等待论文正式发表与同行评审意见，以评估该框架在真实连续体机器人硬件上的表现。",
-      "duration_seconds": 145,
-      "is_unverified": true,
-      "confidence_note": "arXiv预印本，未经同行评审，摘要内容未包含具体实验数据。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了一套面向多段腱驱动连续体机器人的实时运动生成框架"
-        ],
-        "claims": [
-          "该框架能够同时处理非均匀弯曲建模与全身碰撞避免"
-        ],
-        "analysis": [
-          "全身级安全运动生成对连续体机器人在医疗等高安全要求场景的应用具有重要意义"
-        ]
-      },
-      "source_ids": [
-        "2f92862ee05b7c69"
-      ],
-      "sources": [
-        {
-          "id": "2f92862ee05b7c69",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Real-Time Whole-Body Safe Motion Generation for Multi-Segment Tendon-Driven Continuum Robots",
-          "summary": "arXiv:2610.00220v1 Announce Type: new Abstract: Real-time motion generation for tendon-driven continuum robots requires accurate modeling of nonuniform bending and whole-body collision avoidance. This paper presents a unified actuation-space framework for planar multi-segment tendon-driven continuum robots. An energy-based variable-curvature model captures spatially varying tendon spacing and bending stiffness and provides analytical Jacobians for differential inverse kinematics and safety monitoring. A multipoint CBF-QP enforces backbone clearance under obstacle motion and actuation-velocity bounds, while its decision dimension depends only on the number of independently actuated segments. The model closely agrees with GVS references, with a maximum curvature error of $5.223 \\times 10^{-2}\\,\\mathrm{m}^{-1}$. Over 100 MuJoCo trials, the proposed method achieves collision-free success rates of 96% and 100% in static and dynamic scenarios, respectively, compared with approximately 60% and 80% without CBF constraints. Hole-traversal tests further demonstrate safe motion in constrained environments. With 600 backbone monitoring points, the mean control-step time is 6.66 ms, demonstrati",
-          "url": "https://arxiv.org/abs/2610.00220",
-          "published_at": "2026-10-02T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "机器人安全系统面临新挑战：传感器数据被篡改怎么办",
-      "english_term": "sensor spoofing（传感器欺骗，指通过伪造或篡改传感器输入信号来误导系统判断的攻击方式）",
-      "summary": "行业分析指出，即便机器人的安全功能本身运行正常，如果输入的传感器信息被篡改或伪造，机器人仍可能做出错误甚至危险的动作。",
-      "script": "来看一则关于机器人安全的产业观察。The Robot Report的一篇分析文章提出了一个容易被忽视的问题：机器人的安全功能本身可以完全正常工作，比如碰到障碍物会及时停止、超出规定区域会报警，但如果输入给这些安全系统的信息本身是被篡改或伪造的，机器人依然可能做出错误甚至危险的动作。这种情况通常被称为传感器欺骗，指的是攻击者或者故障源头并不直接破坏机器人的控制逻辑，而是伪造传感器读数，让机器人“误以为”周围环境是安全的，或者反过来误判本来安全的场景为危险场景。文章指出，这对机器人行业现有的测试和认证体系提出了新的要求：传统的安全测试大多聚焦在控制逻辑本身是否正确响应标准输入，但很少专门测试系统在面对异常、被篡改或带噪声的传感器数据时的鲁棒性。换句话说，一个机器人可以通过了所有常规安全认证，但仍然在面对数据层面的攻击或故障时缺乏防护。这篇文章没有点名具体的事故案例或受影响的机器人型号，更多是一种行业层面的风险提示和测试方法论讨论。随着机器人越来越多地部署在工厂、仓库乃至公共场所，并且越来越依赖摄像头、激光雷达等外部传感器来做决策，这类数据完整性和抗干扰能力的问题，预计会成为机器人安全标准制定中新的关注焦点。后续需要关注相关安全标准组织是否会针对传感器数据可信度制定专门的测试规范。",
-      "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "来自专业机器人产业媒体The Robot Report的分析文章，属于行业观点讨论而非具体事件报道。",
-      "fact_status": {
-        "confirmed": [
-          "文章讨论了机器人安全功能正常但传感器输入被篡改导致风险的问题"
-        ],
-        "claims": [
-          "现有安全测试体系较少专门针对传感器数据被篡改的情况进行测试"
-        ],
-        "analysis": [
-          "传感器数据可信度可能成为机器人安全标准制定中的新关注点"
-        ]
-      },
-      "source_ids": [
-        "514201ca5d2e6c91"
-      ],
-      "sources": [
-        {
-          "id": "514201ca5d2e6c91",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
-          "summary": "A robot can follow its safety rules and still act on manipulated information. See what this means for robot safety and how teams can strengthen their testing and evidence. The post Your Robot’s Safety Functions Already Work. What If the Input Lies? appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/your-robots-safety-functions-already-work-what-if-the-input-lies/",
-          "published_at": "2026-10-01T15:02:19+00:00",
+          "title": "Research could guide the future design of social robots",
+          "summary": "By the University of Glasgow Giving robot companions animal-like or anime-style faces and voices could maximise their emotional appeal to users, according to new research which could help guide the growing field of social robotics. Social robots can provide companionship and comfort to their owners by mimicking human or petlike behaviours. Although the robots are […]",
+          "url": "https://robohub.org/research-could-guide-the-future-design-of-social-robots/",
+          "published_at": "2026-10-05T10:00:33+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -225,95 +202,96 @@
     },
     {
       "category": "world",
-      "title": "默茨支持率创新低，德国执政联盟遭遇三场地方选举失利",
-      "english_term": null,
-      "summary": "德国总理默茨的支持率跌至新低，此前其所在的基民盟在三场州选举中同时输给了右翼和左翼政党。另一项独立民调也显示德国民众对政府普遍不满。",
-      "script": "转到国际政治部分。德国总理弗里德里希·默茨的个人支持率跌至新低，这一局面出现在他所属的基民盟在三场州选举中接连失利之后，而且失利的方向很特别，基民盟同时输给了右翼和左翼两端的政党，说明选民的不满情绪并非单一方向的意识形态偏移，而是对执政联盟整体治理能力的广泛质疑。与此同时，德国公共广播机构ARD委托进行的德国趋势调查也显示，在两德统一36周年这个本该强调团结与成就的时间节点上，德国民众却在对政府的不满上表现出罕见的一致，调查还特别提到，民众普遍不相信当前的政治领导层有能力应对人工智能发展、俄罗斯地缘威胁以及美国总统特朗普的外交政策这三大挑战。这两份报道虽然来自同一家媒体集团旗下的不同栏目，但分别基于选举结果和独立民调两种不同证据来源，相互印证了德国当前执政联盟支持基础松动的判断。目前可以确认的事实是，基民盟在三场州选举中失利，默茨的支持率跌至该媒体报道口径下的新低，以及民调显示民众对政府应对重大挑战能力的信心不足。至于这种不满会在多大程度上转化为联邦层面的政治变动，比如是否会影响执政联盟的稳定性或引发提前选举的讨论，目前报道中没有给出具体分析或各方表态，这仍属于需要持续观察的开放问题。德国作为欧盟内部经济体量最大的国家，其国内政治稳定性向来受到关注，尤其是在当前欧洲面临能源转型、地区安全局势紧张等多重压力的背景下。后续需要关注默茨政府是否会就选举失利做出政策或人事层面的调整。",
-      "duration_seconds": 155,
-      "is_unverified": false,
-      "confidence_note": "两条独立报道分别来自选举结果报道与ARD独立民调，均为DW与Al Jazeera转引，可信度较高。",
+      "title": "西伯利亚疑似肺鼠疫致研究所员工死亡，近200人被隔离观察",
+      "english_term": "Pneumonic plague（肺鼠疫，鼠疫杆菌感染肺部引发的一种传染性极强、致死率高的疾病形式）",
+      "summary": "俄罗斯西伯利亚一家鼠疫研究机构的员工疑似感染肺鼠疫死亡，近200名密切接触者正接受医学观察，俄方否认此次死亡与该病原体有关联。",
+      "script": "一条需要谨慎对待的公共卫生消息。据报道，俄罗斯西伯利亚地区一家专门从事鼠疫研究的机构，有一名工作人员死亡，官方怀疑死因与肺鼠疫有关。肺鼠疫是鼠疫杆菌感染肺部后引发的一种疾病形式，相比淋巴腺鼠疫，肺鼠疫可以通过飞沫在人与人之间传播，传染性更强，如果不及时使用抗生素治疗，致死率非常高。目前已有近200名与死者有过接触的人员被置于医学观察之下，这个数字规模说明当地卫生部门正在采取相对严格的防控措施。但值得注意的是，俄罗斯官方对这起死亡事件与鼠疫病原体之间的关联予以否认，这意味着目前关于死因的说法存在官方与外部报道之间的分歧。与此同时，据报道美国方面正在关注和监测这一事件的进展。这里需要把已确认的事实和各方主张分开看：已经确认的是，涉事机构是一家从事鼠疫研究的机构，有一名员工死亡，近200人正在接受观察；而俄罗斯当局否认死亡与鼠疫病原体有关，这属于官方的主张，目前没有看到独立的第三方检测结果来证实或证伪这一说法。考虑到涉事机构本身就是鼠疫研究机构，也存在实验室内部安全事故或病原体意外暴露的可能性，但这纯属外部合理怀疑，并非已被证实的结论。这起事件后续需要等待俄罗斯卫生部门或世界卫生组织是否发布进一步的官方检测结果和流行病学调查结论。",
+      "duration_seconds": 135,
+      "is_unverified": true,
+      "confidence_note": "官方否认与鼠疫病原体的关联，死因尚无独立检测结果证实，事件本身存在信息不透明风险，需等待后续权威调查",
       "fact_status": {
         "confirmed": [
-          "默茨所在的基民盟在三场州选举中落败",
-          "默茨支持率跌至新低",
-          "ARD民调显示德国民众对政府普遍不满"
+          "俄罗斯西伯利亚一鼠疫研究机构员工死亡",
+          "近200名接触者正在接受医学观察",
+          "美国方面在监测该事件"
         ],
         "claims": [
-          "民众认为政府缺乏应对AI、俄罗斯及美国外交政策挑战的能力"
+          "俄罗斯当局否认此次死亡与鼠疫病原体存在关联"
         ],
+        "analysest": [],
         "analysis": [
-          "选民同时流向左右两端政党表明不满情绪指向整体治理能力而非单一政策方向"
+          "涉事机构本身从事鼠疫研究，外界对实验室安全事故的担忧合理存在，但目前缺乏独立检测证据支持或反驳官方说法"
         ]
       },
       "source_ids": [
-        "228e89d290ecace3",
-        "ffd0935276b3c3b8"
+        "a0aa85b2dd36ef09"
       ],
       "sources": [
         {
-          "id": "228e89d290ecace3",
+          "id": "a0aa85b2dd36ef09",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Suspected pneumonic plague in Siberia: What we know about the disease",
+          "summary": "A worker at a plague research institute in Siberia has died, and nearly 200 of her contacts are under medical observation. Russian authorities deny a link to the bacterial infection. The US is monitoring the situation.",
+          "url": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-05T11:58:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "美国空军突然撤离英国费尔福德基地全部轰炸机",
+      "english_term": null,
+      "summary": "美国空军未给出明确原因，突然将部署在英国RAF费尔福德基地的全部轰炸机撤离，此前该基地曾发生可疑车辆引发的安全警报事件。",
+      "script": "一条军事动向消息。据报道，美国空军已经将部署在英国皇家空军费尔福德基地的全部轰炸机撤离，目前美方没有公开说明具体原因。这一撤离行动发生在此前一周该基地发生过一起安全事件之后，当时警方曾因发现可疑车辆在基地附近出现而拉响警报。费尔福德基地长期以来是美军轰炸机在欧洲前沿部署的重要节点，承担着战略威慑和快速反应的角色，轰炸机的部署和撤离往往被外界视为观察美国在欧洲军事姿态变化的一个风向标。目前已经确认的事实是，美国空军确实撤走了该基地的全部轰炸机，此前基地附近也确实发生过可疑车辆引发的安全警报；但关于这次撤离具体是出于安全考虑、战略调整还是其他原因，官方没有给出说明，这部分目前只能算作外界的推测，缺乏权威信源的直接证实。考虑到这类战略资产的部署调整通常会综合安全风险评估和更大范围的军事部署规划，具体原因可能是多重因素叠加，而不是单一事件触发。这起事件后续需要等待美国国防部或英国军方是否会对撤离原因作出进一步说明。",
+      "duration_seconds": 105,
+      "is_unverified": true,
+      "confidence_note": "撤离原因官方未予说明，目前只有两家媒体的平行报道确认撤离事实本身，具体动机属于推测范畴",
+      "fact_status": {
+        "confirmed": [
+          "美国空军已撤离英国费尔福德基地的全部轰炸机",
+          "此前该基地附近曾因可疑车辆发生安全警报"
+        ],
+        "claims": [],
+        "analysis": [
+          "撤离具体原因未经官方说明，外界将其与此前的安全警报事件相联系，但这属于合理推测而非已证实的因果关系"
+        ]
+      },
+      "source_ids": [
+        "1e890794f23f957d",
+        "2ac98c9e204d4288"
+      ],
+      "sources": [
+        {
+          "id": "1e890794f23f957d",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Support for Merz plunges after CDU’s losses to Germany’s right and left",
-          "summary": "Chancellor Friedrich Merz hits a record low approval rating after his party suffered defeats in three state elections.",
-          "url": "https://www.aljazeera.com/news/2026/10/2/just-one-in-10-germans-thinks-merz-is-up-to-the-job-after-election-wipeout?traffic_source=rss",
-          "published_at": "2026-10-02T11:31:15+00:00",
+          "title": "US abruptly withdraws bombers from UK’s RAF Fairford",
+          "summary": "The US has abruptly withdrawn all of its aircraft from the UK’s RAF Fairford, citing concerns about a potential attack.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/us-abruptly-withdraws-bombers-from-uks-raf-fairford?traffic_source=rss",
+          "published_at": "2026-10-05T11:09:57+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "ffd0935276b3c3b8",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "ARD-Deutschlandtrend survey: Germans unite in frustration over the government",
-          "summary": "On the 36th anniversary of reunification, Germans are dissatisfied with the country's political leaders. They don't believe they'll be able to handle the challenges posed by AI, Russia and Donald Trump.",
-          "url": "https://www.dw.com/en/ard-deutschlandtrend-survey-germans-unite-in-frustration-over-the-government/a-79515172?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-02T11:17:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "埃塞俄比亚与厄立特里亚断交，北部地区冲突升级",
-      "english_term": null,
-      "summary": "埃塞俄比亚与厄立特里亚宣布断绝外交关系，与此同时埃塞俄比亚政府军正在该国北部地区与反叛武装交火。",
-      "script": "非洲之角地区局势出现新的紧张信号。据BBC World报道，埃塞俄比亚与厄立特里亚两国宣布断绝外交关系，这一外交决裂发生在埃塞俄比亚政府军正在该国北部地区与反叛武装交战的背景之下。两国关系的恶化与北部地区的军事冲突几乎是同步出现的，报道将两者并列呈现，暗示两者之间可能存在关联，但具体的因果链条，比如厄立特里亚是否被指介入了埃塞俄比亚北部的冲突，报道本身并未给出明确的官方说法或证据。可以确认的事实只有两点：第一，两国正式宣布断交；第二，埃塞俄比亚政府军目前正在北部地区与反叛武装交战。埃塞俄比亚北部地区近年来并非第一次出现武装冲突，该地区复杂的族群和地方政治结构，使得类似冲突往往具有长期性和反复性，也容易引发邻国之间的猜忌与外交摩擦。报道中没有提供冲突的伤亡数字、具体交战地点，也没有援引埃塞俄比亚或厄立特里亚官方对断交原因的正式声明。鉴于目前只有单一媒体来源，且报道本身信息有限，对于断交的具体诱因和北部冲突的最新战况，仍需要更多独立信源进行交叉确认。后续需要关注两国是否会有官方声明解释断交原因，以及国际社会是否会介入斡旋北部地区的武装冲突。",
-      "duration_seconds": 120,
-      "is_unverified": true,
-      "confidence_note": "目前仅有BBC World单一来源报道，断交原因与冲突细节均缺乏官方声明佐证，建议标注为未完全证实。",
-      "fact_status": {
-        "confirmed": [
-          "埃塞俄比亚与厄立特里亚宣布断绝外交关系",
-          "埃塞俄比亚政府军正在北部地区与反叛武装交战"
-        ],
-        "claims": [],
-        "analysis": [
-          "两国断交与北部地区冲突升级在时间上重合，可能存在关联，但缺乏官方证实的因果说明"
-        ]
-      },
-      "source_ids": [
-        "b9fcc46e0e9e215b"
-      ],
-      "sources": [
-        {
-          "id": "b9fcc46e0e9e215b",
+          "id": "2ac98c9e204d4288",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
-          "summary": "The diplomatic fallout comes as Ethiopian forces battle rebel fighters across its northern region.",
-          "url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-02T10:04:56+00:00",
+          "title": "US air force removes all bombers from British military base RAF Fairford",
+          "summary": "No reason has been given for the withdrawal, but it follows a major incident last week when police were alerted to \"suspicious vehicles\" near the airbase.",
+          "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-05T10:39:09+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -321,38 +299,77 @@
     },
     {
       "category": "world",
-      "title": "欧洲今夏遭遇极端高温压力，河流流量创纪录新低",
+      "title": "FBI逮捕一名涉嫌为中国监视台湾地区领导人家人的女子",
       "english_term": null,
-      "summary": "欧盟气候监测机构发布报告称，今年夏天是欧洲有记录以来第三热的夏天，欧洲多条河流的平均流量也创下1992年有记录以来的最低水平。",
-      "script": "最后关注一条气候类新闻。据DW报道，欧盟气候监测机构发布的最新数据显示，今年夏天是欧洲大陆有记录以来第三热的夏天，同时欧洲多条河流的平均流量也跌至1992年有记录以来的最低水平，报告中提到，欧洲大约一半地区在今年夏天经历了创纪录的高温压力。这里需要区分两个概念，一个是气温本身的高低排名，今年排在历史第三位，并非历史最高；另一个是河流流量数据，这项数据创下了自1992年有完整记录以来的新低，两者分别代表了高温和干旱两种相互关联但又各自独立的极端天气表现。报告将高温与河流低流量并列呈现，说明两者之间存在气候学上的关联，持续高温会加剧蒸发和干旱，进而导致河流补给不足，但具体到今年夏季欧洲各地区降雨量、蒸发量的详细数据，DW的报道中并未展开说明。这类极端天气记录的现实影响是多方面的，河流流量降低会直接影响航运、农业灌溉和水力发电等依赖河流水量的产业活动，而持续性高温则会对公共健康、能源需求和生态系统造成压力。目前的报道属于欧盟官方气候监测机构发布的数据通报，具有较高的可信度，但报道本身没有进一步说明具体受影响最严重的国家和地区清单，也没有给出今年与去年同期的详细数值对比。后续需要关注欧盟及各国政府是否会公布更详细的区域影响评估和应对措施。",
-      "duration_seconds": 135,
+      "summary": "美国FBI和检方指控一名化名Heather的女子监视台湾地区领导人之子及其家人，相关调查细节正在公开中。",
+      "script": "一条涉及跨国情报活动的司法消息。美国联邦调查局和检方指控一名女子涉嫌为中国监视台湾地区领导人的儿子及其家人，这名女子的中文名字是张婉莹，英文化名为Heather，目前已被逮捕。根据检方说法，她被指控对台湾地区领导人之子及其家庭成员进行了监视活动。这起案件目前处于司法程序的早期阶段，已经确认的事实是FBI和检方确实提出了这一指控并实施了逮捕，但案件具体的证据细节、监视的具体方式和持续时间，目前公开信息有限，这些细节通常会在后续的法庭程序中逐步披露。这类案件往往涉及复杂的情报与反情报操作，各方的说法在案件审理过程中可能会有进一步补充或反驳，目前被指控人本人的回应和辩护立场尚未见诸报道。考虑到案件涉及台湾地区领导人家庭成员的人身安全和两岸关系的敏感性，后续需要等待美国司法程序进一步公开检方证据以及被告方的回应。",
+      "duration_seconds": 90,
       "is_unverified": false,
-      "confidence_note": "数据来自欧盟官方气候监测机构，经DW报道转述，属于官方一手数据发布。",
+      "confidence_note": "基于NPR对FBI和检方指控的报道，案件处于早期司法阶段，细节有限",
       "fact_status": {
         "confirmed": [
-          "今年夏天是欧洲有记录以来第三热的夏天",
-          "欧洲河流平均流量创1992年有记录以来最低水平"
+          "FBI和美国检方逮捕一名化名Heather的女子，指控其监视台湾地区领导人之子及家人"
         ],
-        "claims": [],
+        "claims": [
+          "检方主张该女子的监视活动与中国有关"
+        ],
         "analysis": [
-          "持续高温与河流低流量之间存在气候关联，但具体区域影响程度报道未详细展开"
+          "案件处于早期阶段，具体证据和被告回应需等待后续法庭程序披露"
         ]
       },
       "source_ids": [
-        "26fb189f7b725f99"
+        "2712d03907652479"
       ],
       "sources": [
         {
-          "id": "26fb189f7b725f99",
-          "source": "DW Top Stories",
+          "id": "2712d03907652479",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "eu",
+          "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Half of Europe witnessed record heat stress this summer — EU",
-          "summary": "The EU's climate monitor said this summer was third-warmest for the continent on record. European rivers also registered their lowest average flows since records began in 1992.",
-          "url": "https://www.dw.com/en/half-of-europe-witnessed-record-heat-stress-this-summer-eu/a-79514799?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-02T11:53:00+00:00",
+          "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
+          "summary": "The FBI and U.S. prosecutors say Wanying Zhang, also know as Heather, surveilled the Taiwanese president's son and his family.",
+          "url": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
+          "published_at": "2026-10-05T11:47:36+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "science",
+      "title": "诺贝尔奖授予光遗传学关键发现者，表彰揭示大脑工作机制",
+      "english_term": "Optogenetics（光遗传学，一种利用光敏感蛋白质控制神经元活动，从而研究大脑功能的技术）",
+      "summary": "美国精神病学与神经学家卡尔·戴塞罗斯和两位德国同事彼得·黑格曼、格奥尔格·纳格尔因揭示大脑内部工作机制的研究获得诺贝尔奖。",
+      "script": "一条科学领域的重要消息。本年度诺贝尔奖的一项奖项授予了美国精神病学与神经学家卡尔·戴塞罗斯，以及他的两位德国同事彼得·黑格曼和格奥尔格·纳格尔，表彰他们在揭示大脑内部工作机制方面所做的研究。虽然具体技术细节的官方表述里没有展开，但从三位获奖者的研究背景来看，这类工作与光遗传学这一领域密切相关，光遗传学的核心思路是利用对光敏感的蛋白质来精确控制特定神经元的活动，从而让研究者能够以前所未有的精度观察和操控大脑内部的信息传递过程。这项技术自问世以来，极大推动了神经科学研究对大脑功能、行为与疾病机制之间关系的理解，被广泛应用在从基础神经环路研究到抑郁症、帕金森病等神经精神疾病机制探索的多个方向。诺贝尔奖委员会将奖项授予这一方向，反映的是学术界对工具性突破长期价值的认可，这类基础工具往往不会直接产生临床疗法，但会为后续几十年的神经科学研究打开新的技术路径。目前关于具体获奖理由的官方声明还需要进一步的完整通稿来确认细节，但三位科学家的研究方向和贡献已经得到广泛认可。",
+      "duration_seconds": 110,
+      "is_unverified": false,
+      "confidence_note": "基于BBC对诺贝尔奖公告的报道，获奖者和获奖方向已有官方来源确认",
+      "fact_status": {
+        "confirmed": [
+          "卡尔·戴塞罗斯、彼得·黑格曼、格奥尔格·纳格尔因揭示大脑内部工作机制的研究获得诺贝尔奖"
+        ],
+        "claims": [],
+        "analysis": [
+          "三位获奖者的研究方向与光遗传学技术密切相关，该技术对神经科学研究工具的发展具有长期推动作用"
+        ]
+      },
+      "source_ids": [
+        "c912139aa86602cd"
+      ],
+      "sources": [
+        {
+          "id": "c912139aa86602cd",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Nobel Prize awarded for showing inner workings of the brain",
+          "summary": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded for their work.",
+          "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-05T11:04:37+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -360,61 +377,104 @@
     },
     {
       "category": "world",
-      "title": "迪拜航空公司飞机上发生机师袭击事件，印度籍机长出手制止",
+      "title": "日本冲绳美军士兵涉嫌杀害女性引发民众愤怒",
       "english_term": null,
-      "summary": "一架飞往特拉维夫的迪拜航空公司航班上，一名印度籍机长在遭到另一名机师袭击后，因制止事态升级的行为被称为“英雄”。",
-      "script": "最后一条简讯。据BBC World报道，一架隶属迪拜航空公司、飞往特拉维夫的航班上发生了一起机师袭击事件，印度籍机长斯米特·马查尔在飞行途中遭到另一名机师的刺伤袭击，事后他因制止事态进一步升级的行为被媒体称为“英雄机长”。报道的重点在于还原这位机长的个人经历和此次事件中的表现，但对于袭击者的身份、作案动机，以及航空公司和相关监管部门对这起机上安全事件的官方回应，目前报道中都没有提供详细信息。这类发生在飞行途中的机组人员冲突事件较为罕见，通常会引发航空公司对机组人员心理状态评估机制、机上安全流程的审视。由于目前只有单一媒体来源，且事件调查可能仍在进行中，具体的案发经过、双方关系背景等信息有待进一步披露。后续需要关注迪拜航空公司及相关航空安全监管机构是否会发布正式的调查结论。",
-      "duration_seconds": 85,
-      "is_unverified": true,
-      "confidence_note": "单一来源BBC报道，事件细节有限，袭击动机与后续调查结果均未披露。",
+      "summary": "一名20岁美国海军陆战队士兵因涉嫌杀害一名女性在日本被捕，当事人否认指控，冲绳与东京民众举行抗议。",
+      "script": "一条涉及驻日美军的治安事件消息。一名20岁的美国海军陆战队士兵因涉嫌杀害一名女性在日本被逮捕，这名士兵本人否认这一指控。消息传出后，冲绳当地以及东京都出现了民众抗议活动，抗议者对驻日美军长期以来的治安问题表达不满。冲绳是美军在日本驻军最集中的地区之一，历史上曾多次发生美军人员涉及的刑事案件，每一次此类事件发生，都会重新点燃当地社会对美军基地存在本身的争议，包括基地占地规模、治外法权安排以及军人犯罪的司法管辖问题。目前已经确认的事实是，这名士兵已被逮捕，案件涉嫌杀害一名女性；士兵本人否认指控，这是辩护方的主张，案件的具体证据和审理程序细节目前报道中没有详细展开。考虑到此类案件的敏感性，接下来需要关注日本司法机构对案件的调查进展，以及这起事件是否会对日美关于驻军地位协定的讨论产生新的政治影响。",
+      "duration_seconds": 90,
+      "is_unverified": false,
+      "confidence_note": "基于半岛电视台报道，逮捕事实与抗议活动已被报道确认，案件细节和审理进展需等待后续司法程序",
       "fact_status": {
         "confirmed": [
-          "迪拜航空公司一架飞往特拉维夫的航班上发生机师袭击事件",
-          "印度籍机长斯米特·马查尔在事件中受伤"
+          "一名20岁美国海军陆战队士兵因涉嫌杀害一名女性在日本被捕",
+          "冲绳及东京出现抗议活动"
         ],
-        "claims": [],
-        "analysis": []
+        "claims": [
+          "被捕士兵否认指控"
+        ],
+        "analysis": [
+          "此类事件历史上常引发对驻日美军治外法权和基地存在问题的争议，后续政治影响有待观察"
+        ]
       },
       "source_ids": [
-        "495b8c901934dae7"
+        "9fea8f990cd0a8f3"
       ],
       "sources": [
         {
-          "id": "495b8c901934dae7",
-          "source": "BBC World",
+          "id": "9fea8f990cd0a8f3",
+          "source": "Al Jazeera",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?",
-          "summary": "Capt Smit Machchhar was attacked by another pilot onboard the Flydubai flight bound for Tel Aviv.",
-          "url": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-02T11:52:04+00:00",
+          "title": "Growing outrage in Japan after US Marine arrested in woman’s killing",
+          "summary": "The 20-year-old soldier denies the charge as protests held on Okinawa and in Tokyo.",
+          "url": "https://www.aljazeera.com/news/2026/10/5/growing-outrage-in-japan-after-us-marine-arrested-in-womans-killing?traffic_source=rss",
+          "published_at": "2026-10-05T11:25:45+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "美国最高法院审理重大气候变化案件，巴西大选进入第二轮",
+      "english_term": null,
+      "summary": "美国联邦最高法院开庭审理一起可能影响深远的气候变化相关案件，与此同时巴西总统选举因无人获得过半选票而进入第二轮投票。",
+      "script": "最后两条国际新闻快速带过。美国联邦最高法院开庭审理一起备受关注的气候变化相关案件，据报道这起案件的判决结果可能产生超出气候议题本身的广泛影响，具体会牵涉到哪些相关法律领域，报道中没有展开详细说明，需要等待法院审理进展和最终判决内容来进一步评估其影响范围。另一条消息是，巴西总统选举的结果显示没有候选人获得过半数选票，选举因此进入第二轮投票，目前选情被形容为胶着难料。这两条消息一个关乎美国司法体系对气候议题的介入深度，一个关乎拉美最大经济体的政治走向，都是后续值得持续关注的国际议题，具体进展需要等待美国最高法院的庭审结论和巴西第二轮投票的最终结果。",
+      "duration_seconds": 70,
+      "is_unverified": false,
+      "confidence_note": "基于NPR简讯报道，案件审理细节和巴西选情具体数字有限，属于快速消息汇总",
+      "fact_status": {
+        "confirmed": [
+          "美国最高法院开庭审理一起气候变化相关案件",
+          "巴西总统选举因无人过半进入第二轮投票"
+        ],
+        "claims": [],
+        "analysis": [
+          "两起事件后续走向均需等待正式结论，当前报道提供的细节有限"
+        ]
+      },
+      "source_ids": [
+        "9f122c2e40750618"
+      ],
+      "sources": [
+        {
+          "id": "9f122c2e40750618",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "SCOTUS hears major climate change case. And, Brazil's presidential race goes to runoff",
+          "summary": "The Supreme Court is set to hear a blockbuster climate change case that could affect more than just climate issues. And, Brazil's presidential race is too close to call.",
+          "url": "https://www.npr.org/2026/10/05/g-s1-146406/up-first-newsletter-flydubai-investigation-colorado-suncor-exxon-brazil-presidential-elections",
+          "published_at": "2026-10-05T11:07:09+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的内容就到这里。值得继续关注的是波士顿动力新款机器人手的详细技术规格何时公布，以及德国执政联盟在支持率持续走低背景下是否会出现政策调整。明天的晶球电台，我们继续为你梳理机器人与全球大事。",
-  "editor_note": "本期机器人类选取了产业与学术各半的内容，产业端覆盖了波士顿动力Atlas新手部设计、Maven Robotics融资以及机器人安全测试讨论，学术端选取了两篇arXiv预印本（均明确标注未经同行评审）。国际部分优先选择了具有两个独立信源交叉印证的德国政局报道，对仅有单一来源的埃塞俄比亚断交、迪拜航班袭击事件均标注为未完全证实。候选中多条robotics标题为明显与机器人无关的垃圾结果（如电视剧列表）及纯商业投资建议类文章，予以排除未采用。",
+  "closing": "今天的要闻就到这里。西伯利亚肺鼠疫事件的真实死因、美军撤离费尔福德基地的具体原因，以及人形机器人安全过滤器论文的同行评审结果，都还需要等待后续权威信源进一步确认。",
+  "editor_note": "机器人部分综合了arXiv预印本论文、Robohub研究报道与产业销量新闻，尽量覆盖学术与产业两端；多条标记为discovery_only的通用搜索结果因信息重复或缺乏独立来源交叉确认未被采用（如多条关于法拉第未来同一销量数据的重复报道已合并为单一事件处理）。国际新闻部分优先选择了具备明确事实与官方信源的条目，娱乐与体育类候选信息价值较低故未收录，以保证机器人内容时长占比符合要求。",
   "model": "claude-sonnet-5",
   "usage": {
-    "input_tokens": 9275,
-    "output_tokens": 9320,
-    "total_tokens": 18595
+    "input_tokens": 9334,
+    "output_tokens": 10150,
+    "total_tokens": 19484
   },
-  "generated_at": "2026-10-02T12:00:06+00:00",
-  "window_start": "2026-10-01T12:00:06+00:00",
-  "candidate_count": 346,
+  "generated_at": "2026-10-05T12:00:06+00:00",
+  "window_start": "2026-10-04T12:00:06+00:00",
+  "candidate_count": 306,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "quality": {
-    "duration_seconds": 1235,
-    "script_characters": 4826,
-    "topic_duration_share": 0.599,
+    "duration_seconds": 1185,
+    "script_characters": 4630,
+    "topic_duration_share": 0.494,
     "passed": true,
     "normal_target_met": true,
     "topic_source_count": 3,
