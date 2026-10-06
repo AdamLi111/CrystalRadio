@@ -1,49 +1,48 @@
 {
-  "title": "晶球电台早报：人形机器人安全过滤器新突破，俄西伯利亚肺鼠疫疑云与多起国际动荡",
-  "subtitle": "从人形机器人全身安全追踪到服务机器人销量暴涨，再到地缘政治与诺贝尔奖，一次说清今日要闻",
+  "title": "晶球电台早报：机器人静音导航与灵巧操作新进展，国际局势多线紧张",
+  "subtitle": "从四足机器人的脚步声到跨本体机械手，再到黑海无人艇袭击与魁北克独立公投",
   "highlights": [
-    "arXiv 新论文提出面向人形机器人全身控制的安全过滤器微调方法，试图解决强化学习策略与控制屏障函数结合时的保守性问题",
-    "国际机器人联合会数据显示专业服务机器人销量同比暴涨24%，法拉第未来机器人业务单月销量创新高",
-    "俄罗斯西伯利亚一研究所员工疑似感染肺鼠疫身亡，近200名接触者被隔离观察，当局否认关联",
-    "诺贝尔奖授予光遗传学关键发现者，三位科学家因揭示大脑工作机制获奖",
-    "美国空军突然撤离英国费尔福德皇家空军基地全部轰炸机，原因未明"
+    "arXiv同日上线多篇机器人论文，涵盖四足静音导航、跨本体灵巧操作、视频-动作统一模型等方向",
+    "Teradyne投资Bright Machines，将机器人与测试技术整合进AI基础设施制造",
+    "黑海再现无人艇袭击货船事件，俄乌战事风险外溢至商业航运",
+    "魁北克魁人党选举获胜，誓言推动独立公投，加拿大国家统一面临新考验"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "人形机器人全身安全追踪：给强化学习策略装上更聪明的刹车",
-      "english_term": "Control Barrier Function, CBF（控制屏障函数，一种在系统状态接近危险边界时自动修正动作、保证安全约束不被违反的数学工具）",
-      "summary": "一篇新论文提出“过滤器感知微调”方法，让人形机器人的全身运动追踪策略在强化学习训练阶段就考虑到运行时安全过滤器的存在，从而减少动作被过度修正导致的笨拙和不稳定。",
-      "script": "先说一条来自学术界的机器人进展。人形机器人要在没有提前规划好的复杂环境里干活，首先得解决一个老问题：怎么保证它的全身动作既听指挥，又不会摔倒或撞坏东西。现在主流做法是分两层，上层是一个规划器或者遥操作员给出参考动作，下层由强化学习训练出的控制策略去尽量贴合这个参考，实现动态可行的全身控制。但光靠学出来的策略不够保险，所以工程师们通常会在执行的最后一道关卡加一个运行时安全过滤器，常见的实现方式就是控制屏障函数，它会在系统状态逼近危险边界时自动介入修正动作，防止摔倒、自碰撞或者超出关节极限这类事故发生。问题在于，这个安全过滤器是独立于策略训练之外加上去的模块，策略自己并不知道它的存在。结果就是策略生成的动作经常被过滤器大幅修正，修正多了动作就会变得保守、僵硬，甚至出现跟踪误差累积、动作卡顿的情况，等于是训练和执行两个阶段互相不买账。这篇题为《面向安全人形全身追踪的过滤器感知微调》的论文提出的思路，是让策略在微调阶段就能感知到安全过滤器会如何介入，把过滤器的修正行为也纳入训练信号里，而不是把过滤器当成训练完全不知情的黑盒补丁。这样策略就能学着提前规避容易触发过滤器大幅修正的那些危险区域，减少被动修正的频率和幅度，理论上能让最终的全身动作既安全又更加流畅自然。论文摘要里强调这是对现有做法的改进方向，具体在多少种任务、多大规模的机器人平台上做了验证，摘要信息有限，仍需要等待论文正文和同行评审结果公布后才能判断其效果的普适性和局限。这类工作目前都来自预印本平台，还没有经过同行评审，需要留意其实验设置是否全面、是否只在仿真环境里验证过。",
-      "duration_seconds": 170,
+      "title": "四足机器人也要学会“轻手轻脚”：TACET让机器人按场合调整脚步声",
+      "english_term": "Quadruped Robot 四足机器人；Acoustic-Social Navigation 声学社交导航",
+      "summary": "一篇新论文提出TACET方法，让四足机器人根据所处场景（如医院、办公室）自动调整落脚产生的噪音，而不是用统一的安静模式。",
+      "script": "先说一条机器人学术进展。随着四足机器人越来越多进入医院、养老院和安静的办公环境，一个此前被忽视的问题浮出水面：机器人走路的声音。四足机器人的运动噪音主要来自脚与地面的撞击，这种噪音本身就是一种社交信号，吵闹的脚步声会打扰病人休息，或者在安静会议室里显得很突兀。过去的社交导航研究关注机器人该如何绕开行人、保持合适距离，但基本把机器人当成一个声音恒定的物体来处理；而专门做静音控制的方法虽然能降低噪音，但往往是设定一个固定的、不考虑场合的安静等级，没办法根据环境灵活调整。研究团队提出的TACET方法，试图让机器人理解“这里该多安静”这件事本身是随场景变化的——同样是走路，在空旷走廊和在病房门口，合适的音量是不一样的。这项工作把声学表现当作可以根据上下文实时调节的变量，纳入到运动控制里，而不是简单地一刀切降噪。这类研究的意义在于，它触及了机器人真正走进人类生活场景时一个很实际却容易被工程师忽略的细节：机器人不仅要在空间上表现得体，还要在“听觉”层面表现得体。目前这项成果以预印本形式挂在arXiv上，尚未经过同行评审，具体的噪音测量方法、实验场景覆盖范围和用户感知评估的严谨程度都还有待学术界进一步检验。后续需要等待论文的同行评审结果，以及是否有真实医院或办公场景的部署测试数据公布。",
+      "duration_seconds": 140,
       "is_unverified": true,
-      "confidence_note": "来自 arXiv 预印本，摘要信息有限，未经同行评审，具体实验规模和效果需等待论文正文公布确认",
+      "confidence_note": "来自arXiv预印本，未经同行评审，具体实验设计与效果评估有待验证。",
       "fact_status": {
         "confirmed": [
-          "论文提出了一种让强化学习策略在训练阶段感知安全过滤器行为的微调方法，目标是人形机器人全身运动追踪"
+          "论文已在arXiv公开，标题和摘要可查"
         ],
         "claims": [
-          "作者主张该方法能减少安全过滤器对动作的过度修正，提升动作流畅性和安全性"
+          "作者主张该方法能让机器人按场景调整运动噪音"
         ],
         "analysis": [
-          "该方法代表了将运行时安全机制与训练目标统一考虑的趋势，但效果规模和落地场景仍待论文细节和后续验证"
+          "该方向反映机器人进入人类生活场景时对细节社交信号的关注正在增加"
         ]
       },
       "source_ids": [
-        "70a1cbb3cbfe9c4d"
+        "43e1b40cbc6642cb"
       ],
       "sources": [
         {
-          "id": "70a1cbb3cbfe9c4d",
+          "id": "43e1b40cbc6642cb",
           "source": "arXiv Robotics (cs.RO)",
           "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Filter-Aware Fine-Tuning for Safe Humanoid Whole-Body Tracking",
-          "summary": "arXiv:2610.02341v1 Announce Type: new Abstract: Safe whole-body motion is essential for deploying humanoid robots in unstructured environments. Modern humanoid control commonly separates reference specification from execution, with a planner, teleoperator, or motion generator providing a reference that a reinforcement-learning policy tracks through dynamically feasible whole-body control. Runtime safety filters, such as control barrier functions (CBFs), offer a promising approach for enforcing newly introduced constraints via interventions on the tracker's outputs. We show, however, that treating the tracking policy and safety filter independently induces fundamental mismatches, as filtering alters both the executed actions and the induced state distribution. We study this policy-filter interface through case studies that isolate dynamics, objective, and information mismatches, highlight their root causes, and use these insights to develop CoFiT (Constrained Filter-aware Tuning), a filter-aware fine-tuning method for pretrained trackers. Across diverse constraint scenes, CoFiT reduces violation time relative to filter-only training by 91% on TWIST2 and 21% on SONIC, while requiring",
-          "url": "https://arxiv.org/abs/2610.02341",
-          "published_at": "2026-10-05T04:00:00+00:00",
+          "title": "TACET: Context-Appropriate Acoustic-Social Navigation for Quadrupeds",
+          "summary": "arXiv:2610.03828v1 Announce Type: new Abstract: Quadruped robots entering hospitals, care homes, and quiet offices must be context-appropriate not only in where they move but in how loudly they move: a legged robot's locomotion noise, dominated by foot-ground impacts, is itself a social variable. Prior social navigation respects human space but treats the robot as acoustically uniform, while quiet-locomotion methods reduce noise to an operator-specified, context-blind level. We present TACET, a context-appropriate acoustic-social navigation method that infers social context from the robot's egocentric view and decides both where it walks and how loudly, coupling a slow fine-tuned vision-language reasoner to a fast reactive controller through a single compact behavior token, . The same token conditions both a social costmap (where to go) and a quiet locomotion policy (how loudly to move), while a structured out-of-view memory keeps recently seen people in the reasoner's context after they leave the camera view. On a real quadruped, context-conditioned locomotion lowers locomotion noise by up to 9.3 dBA at matched speed, and across our scenarios the full method keeps personal-space c",
+          "url": "https://arxiv.org/abs/2610.03828",
+          "published_at": "2026-10-06T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -51,39 +50,79 @@
     },
     {
       "category": "robotics",
-      "title": "触觉皮肤与人类示教：给灵巧操作补上触觉数据的短板",
-      "english_term": "Visuo-tactile manipulation（视觉-触觉操作，指机器人同时利用视觉和触觉信号完成精细抓取操作的能力）",
-      "summary": "新论文提出柔性触觉皮肤系统，试图解决灵巧操作中视触觉数据稀缺的问题，让人类示教数据也能带上与机器人匹配的触觉信号。",
-      "script": "另一篇值得关注的机器人学术论文聚焦在一个很实际的瓶颈上：触觉数据太少。越来越多研究显示，触觉信号能给机器人操作策略提供视觉之外的关键接触信息，尤其是在需要灵巧手指精细操作的场景里，比如捏取薄片物体或者调整抓取力度，纯靠摄像头看往往不够。但问题是收集带触觉信号的机器人示教数据非常昂贵，因为灵巧操作的示教通常需要遥操作机器人手，这个过程又慢又贵，数据规模很难做大。相比之下，让人类直接用手去做示教动作要便宜得多，也更容易规模化采集，但前提是人手和机器人手都得戴上能产生对应信号的触觉传感器，否则人类示教数据里就没有机器人能学习的触觉通道。这篇论文提出的柔性触觉皮肤系统，就是想解决人手和机器手触觉信号不兼容这个问题，让同一套触觉传感方案既能装在人类示教者手上，也能装在机器人手上，采集到可以互相对应、共同训练的视触觉数据。这个思路如果能跑通，理论上可以大幅降低触觉操作数据的采集成本，让灵巧操作的训练数据规模更快追上纯视觉数据的量级。不过这类柔性传感器方案通常要面对信号一致性、耐用性和量产成本的考验，论文摘要本身没有展开说明具体的传感精度和在下游操作任务上的表现提升幅度，仍属于未经同行评审的预印本工作，需要等正式论文和后续复现结果来验证其实际效果和局限。",
+      "title": "跨本体灵巧手操作新框架GOTT：一个抓取原语通用多种机械手",
+      "english_term": "Dexterous Manipulation 灵巧操作；Cross-Embodiment 跨本体；Primitive 基础动作原语",
+      "summary": "新论文GOTT提出一个可在不同机械手之间复用的“接触-抓取”基础动作模块，试图解决多指机械手缺乏通用底层操作单元的问题。",
+      "script": "再看一项操作类机器人研究。现在的基础模型和大规模人类演示数据，已经能提供丰富的“该怎么操作物体”的意图信息，但把这种意图转化为多指机械手真正可执行的动作，一直是个难题。不同机械手的手指数量、关节结构、尺寸都不一样，导致研究者很难找到一个通用的、可以跨平台复用的底层动作单元，去可靠地完成“和物体建立接触”这第一步。研究团队提出的GOTT框架，核心思路是围绕一个可跨本体复用的接触抓取动作原语，构建“伸向物体、建立接触、移动物体”这样一个三段式流程。只要给定一个与具体机器人无关的物体运动轨迹，这个原语就可以被不同的机械手复用，而不需要为每一种手单独设计抓取逻辑。这种思路如果成立，意味着未来给机械手部署新任务时，可以更多依赖这种可复用的基础模块，减少每次换一种灵巧手就要重新设计底层控制的工作量，这对机械臂与操作研究中长期存在的“本体适配”痛点是个针对性的回应。不过，这仍然是一篇新发布的预印本，摘要中并未透露具体在多少种机械手、多少类物体上做了验证，泛化能力和失败情况也还需要完整论文和后续评审来确认。后续需要关注论文公开后的实验细节，以及是否有不同实验室在其他机械手上的复现结果。",
+      "duration_seconds": 125,
+      "is_unverified": true,
+      "confidence_note": "来自arXiv预印本，未经同行评审，实验覆盖范围和泛化效果有待完整论文确认。",
+      "fact_status": {
+        "confirmed": [
+          "论文已在arXiv公开"
+        ],
+        "claims": [
+          "作者主张该抓取原语可在不同机械手间复用"
+        ],
+        "analysis": [
+          "若有效，可能降低灵巧手跨平台部署的工程成本"
+        ]
+      },
+      "source_ids": [
+        "31165ed3180a8381"
+      ],
+      "sources": [
+        {
+          "id": "31165ed3180a8381",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "GOTT: Object-centric Dexterous Manipulation with a Reusable Cross-Embodiment Primitive",
+          "summary": "arXiv:2610.03861v1 Announce Type: new Abstract: Foundation models and large-scale human data provide rich sources of manipulation intent, but translating this intent into multi-fingered robot behavior remains difficult. Dexterous hands still lack a reusable low-level primitive that reliably establishes contact across tasks and embodiments. We propose GOTT, a reach-acquire-move framework built around a single cross-embodiment contact-acquisition primitive. Given a robot-agnostic object trajectory and a reach specification, GOTT first brings the hand near a task-relevant contact region. The shared closed-loop primitive then establishes stable contact from this approximate initialization, and a pose-conditioned controller tracks the desired object motion. Reach specifications may come from future-aware planning, external models, or human demonstrations, while the primitive and tracking backend remain unchanged. Simulation and real-world experiments show that GOTT is able to establish robust contact across diverse objects, arm-hand platforms, and seen and unseen hand morphologies. It also consistently improves end-to-end task success over open-loop grasp execution.",
+          "url": "https://arxiv.org/abs/2610.03861",
+          "published_at": "2026-10-06T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "从“预测动作”到“先想象后行动”：SUAVE尝试统一视频与动作模型",
+      "english_term": "Vision-Language-Action Model 视觉-语言-动作模型；World Action Model 世界动作模型；Masked Diffusion 掩码扩散",
+      "summary": "新论文SUAVE试图把擅长预测动作的VLA模型和擅长“想象未来画面”的世界动作模型结合起来，让机器人在行动前先在内部模拟结果。",
+      "script": "具身智能方向也有新动作。目前主流的视觉-语言-动作模型，也就是VLA，继承了预训练视觉语言模型强大的语义理解能力，但它们通常只被训练用来直接预测下一步动作，而不会去预测未来会看到什么画面——用论文的说法，它们“能看会做，但做之前不会想象未来”。另一类基于视频扩散模型搭建的世界动作模型，恰好擅长想象未来场景，却把语言指令当成一个固定不变的外部条件，没有真正把语言、视觉、动作放进同一个表示空间里统一处理。研究团队提出的SUAVE，尝试用掩码扩散这种技术路线，把视频预测和动作预测统一到一个模型框架里，让模型既能像世界模型一样对未来画面进行推演，又能像VLA一样输出具体的动作指令。这类“统一视频-动作模型”的思路，背后关心的问题是：机器人在采取行动之前，如果能在内部先推演一下“如果我这么做，接下来会发生什么”，是不是能减少现实世界里的试错成本、提高复杂任务的成功率。这是具身智能里一个比较前沿、也比较有野心的方向，试图打通感知预测和动作决策之间的壁垒。目前这项工作同样只是预印本阶段，论文摘要没有给出具体任务上的成功率数字，模型规模、训练数据量和实际机器人上的部署效果都还不清楚。后续需要等待论文公开更详细的实验结果与同行评审意见。",
       "duration_seconds": 135,
       "is_unverified": true,
-      "confidence_note": "arXiv 预印本，未经同行评审，具体传感性能和任务提升数据需等待论文全文",
+      "confidence_note": "来自arXiv预印本，未经同行评审，缺乏具体任务成功率等量化结果。",
       "fact_status": {
         "confirmed": [
-          "论文提出一种柔性触觉皮肤系统，目标是让人类示教与机器人示教产生兼容的触觉信号"
+          "论文已在arXiv公开"
         ],
         "claims": [
-          "作者主张此举可以降低视触觉操作数据的采集成本并扩大数据规模"
+          "作者主张该框架能统一未来画面预测与动作预测"
         ],
         "analysis": [
-          "若方案成熟，可能缓解灵巧操作领域长期存在的数据稀缺问题，但传感器一致性和量产可行性仍是未知数"
+          "这一方向代表具身智能中感知预测与动作决策融合的探索趋势"
         ]
       },
       "source_ids": [
-        "b36f2339d3f6af2f"
+        "ec3633323b79bcd7"
       ],
       "sources": [
         {
-          "id": "b36f2339d3f6af2f",
+          "id": "ec3633323b79bcd7",
           "source": "arXiv Robotics (cs.RO)",
           "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "SoTa: Soft Tactile Skins for Dexterous Manipulation",
-          "summary": "arXiv:2610.02338v1 Announce Type: new Abstract: A growing body of work suggests that tactile sensing gives robot policies contact information that complements vision in dexterous manipulation. However, visuo-tactile robot data remains scarce: dexterous demonstrations require teleoperating robots, which limits dataset scale. Human demonstrations are far cheaper to collect and offer a path to scale this data, but only if human and robot hands carry tactile sensors with corresponding signals. This requires sensors that conform to different hand geometries, cover the full hand, and share a common layout across embodiments. We present SoTa, a low-cost capacitive tactile skin that provides full-hand coverage on humans and robots while preserving a shared layout of 202 taxels across corresponding finger and palm regions. Our multilayer design with fabric electrodes enables in-house fabrication of thin, soft skins with customizable geometry for under $10 in materials per skin. The sensor retains over 97% of its initial response span after 10,000 loading-unloading cycles with traces retaining continuity through 1,280 tight-fist folding cycles. The shared taxel layout supports human-robot co",
-          "url": "https://arxiv.org/abs/2610.02338",
-          "published_at": "2026-10-05T04:00:00+00:00",
+          "title": "SUAVE: Unified Video-Action Models via Masked Diffusion",
+          "summary": "arXiv:2610.04009v1 Announce Type: new Abstract: Vision-language-action models (VLAs) inherit strong semantic grounding from pretrained vision-language backbones but are typically optimized for predicting actions rather than future observations. They can see and act, but they do not imagine the future before acting. World action models (WAMs) built on video diffusion backbones can imagine but treat language as frozen conditioning on a continuous latent space. Unified models bring these modalities into one architecture, but they either decode autoregressively, one token at a time, or keep video continuous with an auxiliary action head. In this work, we present SUAVE, a Single vocabulary Unified Action-Video modEl in which a masked diffusion transformer generates video and actions conditioned on language, with all three modalities represented as discrete tokens in a shared sequence. Choosing which tokens to mask at inference turns the same network into a world model, a robot policy, or a video-action model. For action-free co-training, the action positions of unlabeled video are filled with mask tokens and excluded from the loss. Simulation and real-world experiments demonstrate two f",
+          "url": "https://arxiv.org/abs/2610.04009",
+          "published_at": "2026-10-06T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -91,110 +130,79 @@
     },
     {
       "category": "robotics",
-      "title": "专业服务机器人销量同比暴涨24%，法拉第未来机器人单月再创纪录",
-      "english_term": "Professional service robot（专业服务机器人，指应用于物流、医疗、安防等非制造业场景、面向企业客户的机器人）",
-      "summary": "国际机器人联合会数据显示全球专业服务机器人销量同比增长24%，与此同时法拉第未来旗下机器人业务九月销量再创月度新高。",
-      "script": "再来看产业端的消息。国际机器人联合会，也就是常说的IFR，发布的最新数据显示，全球专业服务机器人销量同比增长了24%，这个增速相当可观，覆盖的领域包括物流仓储、医疗辅助、安防巡检等非制造业场景。专业服务机器人跟我们更熟悉的工业机械臂不同，它们通常直接面向企业客户提供特定场景的自动化服务，比如医院里的配送机器人、仓库里的分拣机器人。这个增长数字背后反映的是企业对自动化落地的需求在持续扩大，尤其是劳动力成本上升和部分行业用工紧张的大背景下，服务机器人正在从早期的示范项目逐步走向规模化采购。与此同时，另一条产业消息来自法拉第未来旗下的机器人业务单元，公司创始人贾跃亭在最新一期投资者更新中披露，旗下EAI机器人设备九月份的销售和交付量达到265台，创下月度新高，公司方面还提到计划推出新产品并寻求独立上市。需要说明的是，这个265台的数字相对于专业服务机器人的全球大盘来说体量还比较小，更多反映的是这家公司自身业务节奏的变化，而不是整个行业的风向标。法拉第未来本身长期以来在造车和机器人等多个业务线之间辗转，这次机器人业务的销量纪录能否持续，以及所谓的独立上市计划具体会以什么形式推进，都还需要时间观察。整体来看，这两条消息放在一起看，专业服务机器人市场确实呈现出需求扩张的态势，但具体到单个公司的销量数字，还需要结合更长期的财报和交付数据来判断其真实的市场份额和盈利状况。",
+      "title": "Teradyne投资Bright Machines，机器人测试技术押注AI基础设施制造",
+      "english_term": null,
+      "summary": "半导体自动化测试巨头Teradyne宣布投资制造平台公司Bright Machines，双方计划把机器人与测试技术整合进AI基础设施相关的制造场景。",
+      "script": "来看一条产业动态。自动化测试设备厂商Teradyne宣布投资制造平台公司Bright Machines，两家公司计划把Teradyne的机器人和测试技术，整合进Bright Machines的制造平台里，目标聚焦在AI基础设施相关的制造场景。Teradyne本身在半导体和电子产品的自动化测试领域有深厚积累，旗下也拥有协作机器人品牌，这次投资延续了它把测试能力与机器人自动化结合、向更广泛制造场景延伸的思路。Bright Machines则定位于软件定义的制造平台，试图用更灵活、可编程的方式替代传统刚性产线。这笔投资发生的背景，是当下AI基础设施建设热潮带来的服务器、芯片相关硬件制造需求快速增长，相关产线对自动化、柔性化和快速测试验证的要求也水涨船高——毕竟AI数据中心所需的服务器主板、模组种类繁多、迭代速度快，传统固定式产线很难快速响应。把机器人自动化和测试技术深度绑定进制造环节，意味着产线既能完成物理装配，又能在同一套系统里完成质量检测，减少环节切换带来的效率损失。对机器人产业而言，这也是一个信号：机器人公司越来越多地把目光投向AI硬件制造这个新兴的、需求旺盛的垂直市场，而不只是传统汽车电子产线。目前公开信息中没有披露具体投资金额、持股比例，也没有给出双方整合技术的具体时间表。后续需要关注官方是否公布投资金额、首批合作产线落地的时间与地点。",
       "duration_seconds": 150,
       "is_unverified": false,
-      "confidence_note": "IFR数据与法拉第未来投资者更新均为公开产业信息，但法拉第未来数字来自公司自述，缺乏第三方审计确认",
+      "confidence_note": "来自行业媒体The Robot Report报道，属单一来源，具体财务细节未披露。",
       "fact_status": {
         "confirmed": [
-          "IFR公布专业服务机器人全球销量同比增长24%",
-          "法拉第未来披露旗下EAI机器人设备九月销售交付265台，为月度新高"
+          "Teradyne宣布投资Bright Machines，双方计划整合机器人与测试技术"
         ],
         "claims": [
-          "法拉第未来方面表示计划推出新产品并推动机器人业务独立上市"
+          "双方表示合作聚焦AI基础设施相关制造"
         ],
         "analysis": [
-          "服务机器人需求扩张趋势明显，但单一公司销量纪录的行业代表性有限，独立上市计划的可行性仍待观察"
+          "反映机器人自动化厂商正加速布局AI硬件制造这一新兴垂直市场"
         ]
       },
       "source_ids": [
-        "644cf3d1ebe10f8c",
-        "ce97b2eefd9d9ba6",
-        "3b7cb6a61899ac19"
+        "5be22b61d70c14fd"
       ],
       "sources": [
         {
-          "id": "644cf3d1ebe10f8c",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "IFR: Professional Service Robot Sales Surge 24% Worldwide - Supply Chain Digital",
-          "summary": "IFR: Professional Service Robot Sales Surge 24% Worldwide Supply Chain Digital",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRjhLbGY4dTZxTmtoallkWDNTcEltWmZTRWdOcVJjcVZqSnZZSGh2Rk9RRG1lQmxMWnlrZU5feVdoTHBDLV9DWFFYRXFwV2RaYzlvdDgtZjg3eEpjUHlFNmsxRlI5Ri11bWMteXFRVGZFcWFrbG9STVozVXpoUnJjSExNUFVaUUdPWG5EMHNjb3ZmbWRIVHc?oc=5",
-          "published_at": "2026-10-05T11:39:19+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "ce97b2eefd9d9ba6",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Faraday Future Founder and Global CEO YT Jia Weekly Investor Update: Sales and Shipments of FF EAI Robotics Devices Reached 265 Units in September, Setting a New Monthly Record - 巴士的報",
-          "summary": "Faraday Future Founder and Global CEO YT Jia Weekly Investor Update: Sales and Shipments of FF EAI Robotics Devices Reached 265 Units in September, Setting a New Monthly Record 巴士的報",
-          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQdmREekVrc19PaGlLNlAzQmw2T0dPUUNreVRkOG5DTFBRcmdCb0hpN2lKWFRPQ0dwZFYtSW5UeGZXOGs5ZllRLVFTVmJ2WGlvcllmYnFxMU5BQmtVZXJ1T1VyZ2x5V3FDdXlNQnY3V2VTeFNjTmUyT1J5NDNlVDIxLWVWZnhTWUNicUtrbVhJa0xqTmV5LVFXbGFDOHU2ckxZZnRObmN1RGg4Y0VGZzg1aHVxQi1lc3dFdWRtOTU0Wm4xZDhLVEtmSDZsNmZkNDUwcmdtY3dyRWlJN1E1ckc0SzZJeGtyal8wUWVibG9LOVdobVBMOVB6eXI2cmlVRFA4NGNVNlJENEJDdEtZemdHYXFGNGdva1JjcTItRXUwdjJ6NUl3N0V0Q3JDN0FiWXpUbHRtLW9VdmhMaWpQa3g0bUxyTThZbFlnSnc?oc=5",
-          "published_at": "2026-10-05T11:32:30+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "3b7cb6a61899ac19",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Faraday Future robotics unit reports September sales record By Investing.com - Investing.com UK",
-          "summary": "Faraday Future robotics unit reports September sales record By Investing.com Investing.com UK",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNXprVGd1cnNlclhzMElrc0g2bW16OU9IMkc4bUo2VHM1dm41M2V5eHpTeUhyMVg2clhmV203N2RyVllaLVdDZlhUWVVNNThJOGNvX1Y0Ml9CQ1hMRmhxMS1YdzkzYWNXMW55bEpfZHY5aEVkSXFqWTVlNDFUWW9CaFZLLVhwVFduTlNISGZ1RVl1Yk1yQXFVcFM4VElCV1dDVlppODAweERTdWJPVzNGMG5NT1JMSUlxNFp3cg?oc=5",
-          "published_at": "2026-10-05T11:38:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "社交机器人的脸该长什么样？研究建议用动物或动漫风格外观提升情感吸引力",
-      "english_term": "Social robot（社交陪伴机器人，设计用于提供陪伴、模拟人类或宠物行为以增强情感连接的机器人）",
-      "summary": "格拉斯哥大学一项新研究探讨社交机器人的外观设计，发现动物化或动漫风格的脸部与声音可能比过度拟人化的设计更能提升用户的情感认同。",
-      "script": "来看一条偏学术方向但很贴近产品设计的研究。格拉斯哥大学的研究团队关注的问题是，社交陪伴机器人应该长什么样才能让用户更愿意跟它产生情感连接。这类机器人通常通过模仿人类或者宠物的行为来提供陪伴和安慰，但一个长期存在争议的设计问题是，机器人的外观到底应该尽量逼近真人，还是刻意保持某种非人类的风格。这项研究给出的建议方向是，赋予机器人动物化或者动漫风格的脸部和声音，可能比追求高度逼真的人类外观更能最大化情感吸引力。这背后其实涉及一个机器人学里讨论已久的现象，叫做恐怖谷效应，简单说就是当机器人的外观越来越接近人类但又不完全像的时候，反而会让人产生不适和排斥感，而相对夸张或者卡通化的设计往往能绕开这个陷阱，让用户更容易放下防备、产生情感认同。这项研究的意义在于为社交机器人设计提供了一个可以参考的方向，尤其是对那些面向家庭陪伴、老年看护或者儿童互动场景的机器人产品来说，外观和声音的设计选择直接影响用户的接受度和长期使用意愿。不过这类研究通常基于特定的用户调研或实验样本，具体的样本规模、测试场景和年龄层分布，摘要中没有详细展开，其结论能否推广到所有文化背景和使用场景，还需要看论文全文里的实验设计细节。",
-      "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "来自Robohub转载的大学研究新闻稿，已是正式发布内容，但实验细节和样本规模需查阅论文原文确认",
-      "fact_status": {
-        "confirmed": [
-          "格拉斯哥大学发布了一项关于社交机器人外观设计的研究"
-        ],
-        "claims": [
-          "研究建议动物化或动漫风格的脸部和声音设计可能比高度拟人化外观更能提升情感吸引力"
-        ],
-        "analysis": [
-          "该方向呼应了恐怖谷效应等既有理论，但具体结论的普适性需要更多实验细节支撑"
-        ]
-      },
-      "source_ids": [
-        "286e51941a06e99f"
-      ],
-      "sources": [
-        {
-          "id": "286e51941a06e99f",
-          "source": "Robohub",
+          "id": "5be22b61d70c14fd",
+          "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Research could guide the future design of social robots",
-          "summary": "By the University of Glasgow Giving robot companions animal-like or anime-style faces and voices could maximise their emotional appeal to users, according to new research which could help guide the growing field of social robotics. Social robots can provide companionship and comfort to their owners by mimicking human or petlike behaviours. Although the robots are […]",
-          "url": "https://robohub.org/research-could-guide-the-future-design-of-social-robots/",
-          "published_at": "2026-10-05T10:00:33+00:00",
+          "title": "Teradyne invests in Bright Machines to bring robotics to AI infrastructure manufacturing",
+          "summary": "The companies plan to integrate Teradyne robotics and test technologies with the Bright Machines manufacturing platform. The post Teradyne invests in Bright Machines to bring robotics to AI infrastructure manufacturing appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
+          "published_at": "2026-10-05T23:34:35+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "FCC对机器人相关设备的限制措施，可能加速本地化AI部署",
+      "english_term": "FCC 美国联邦通信委员会；Edge AI 边缘AI/本地化AI",
+      "summary": "有分析指出，美国联邦通信委员会对部分机器人相关设备的限制措施，可能促使企业把更多AI计算能力下沉到机器人本体而非依赖云端。",
+      "script": "另一条值得关注的产业趋势报道。据行业媒体分析，美国联邦通信委员会，也就是FCC，针对部分机器人相关设备出台的限制措施，正在促使部署物理AI系统的企业重新思考技术架构：哪些AI计算任务应该放在机器人本体上运行，哪些可以继续留在云端，以及现有的技术栈能否满足日益提高的安全性、运行安全和供应链透明度要求。这里说的物理AI，指的是搭载在实体机器人或智能设备上、直接与现实世界交互的人工智能系统，与纯软件层面运行的AI有所区别。报道认为，监管收紧可能会反过来加速行业向本地化AI，也就是把更多推理计算放在设备端完成，而不是依赖持续的云端连接。这背后的逻辑是，如果设备在数据传输、供应链来源等环节受到更严格审查，企业可能更倾向于减少对外部云服务和海外供应链的依赖，转而让机器人自己完成更多计算，同时也能降低网络延迟、提高系统在断网情况下的可靠性。不过，这则报道更多是行业分析和趋势判断，并未给出具体限制措施的条款内容、适用的设备类别范围，也没有点名受到直接影响的具体企业。对于机器人行业而言，这类监管动向通常会实质性影响企业的芯片选型、软件架构甚至供应链布局，但目前信息披露有限，具体影响程度还不明朗。后续需要关注FCC是否发布正式规则文本，以及受影响企业的具体回应。",
+      "duration_seconds": 135,
+      "is_unverified": true,
+      "confidence_note": "来自行业媒体分析文章，未给出监管条款原文和具体适用范围，存在信息不完整的情况。",
+      "fact_status": {
+        "confirmed": [
+          "The Robot Report发布了关于FCC机器人限制措施影响的分析报道"
+        ],
+        "claims": [
+          "报道认为该措施可能加速本地化AI部署"
+        ],
+        "analysis": [
+          "若属实，可能影响机器人企业在计算架构和供应链上的选择"
+        ]
+      },
+      "source_ids": [
+        "16ecb5f5efbe3676"
+      ],
+      "sources": [
+        {
+          "id": "16ecb5f5efbe3676",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "FCC robot restrictions could accelerate shift to local AI",
+          "summary": "Companies deploying physical AI today need to decide which AI workloads belong on the robot, what can remain in the cloud, and whether the underlying technology stack can meet rising expectations for security, safety, and supply-chain transparency. The post FCC robot restrictions could accelerate shift to local AI appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/fcc-robot-restrictions-could-accelerate-shift-to-local-ai/",
+          "published_at": "2026-10-05T17:30:12+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -202,42 +210,133 @@
     },
     {
       "category": "world",
-      "title": "西伯利亚疑似肺鼠疫致研究所员工死亡，近200人被隔离观察",
-      "english_term": "Pneumonic plague（肺鼠疫，鼠疫杆菌感染肺部引发的一种传染性极强、致死率高的疾病形式）",
-      "summary": "俄罗斯西伯利亚一家鼠疫研究机构的员工疑似感染肺鼠疫死亡，近200名密切接触者正接受医学观察，俄方否认此次死亡与该病原体有关联。",
-      "script": "一条需要谨慎对待的公共卫生消息。据报道，俄罗斯西伯利亚地区一家专门从事鼠疫研究的机构，有一名工作人员死亡，官方怀疑死因与肺鼠疫有关。肺鼠疫是鼠疫杆菌感染肺部后引发的一种疾病形式，相比淋巴腺鼠疫，肺鼠疫可以通过飞沫在人与人之间传播，传染性更强，如果不及时使用抗生素治疗，致死率非常高。目前已有近200名与死者有过接触的人员被置于医学观察之下，这个数字规模说明当地卫生部门正在采取相对严格的防控措施。但值得注意的是，俄罗斯官方对这起死亡事件与鼠疫病原体之间的关联予以否认，这意味着目前关于死因的说法存在官方与外部报道之间的分歧。与此同时，据报道美国方面正在关注和监测这一事件的进展。这里需要把已确认的事实和各方主张分开看：已经确认的是，涉事机构是一家从事鼠疫研究的机构，有一名员工死亡，近200人正在接受观察；而俄罗斯当局否认死亡与鼠疫病原体有关，这属于官方的主张，目前没有看到独立的第三方检测结果来证实或证伪这一说法。考虑到涉事机构本身就是鼠疫研究机构，也存在实验室内部安全事故或病原体意外暴露的可能性，但这纯属外部合理怀疑，并非已被证实的结论。这起事件后续需要等待俄罗斯卫生部门或世界卫生组织是否发布进一步的官方检测结果和流行病学调查结论。",
-      "duration_seconds": 135,
+      "title": "黑海再现无人艇袭击，货船沉没船员失踪",
+      "english_term": "Drone Attack 无人机/无人艇袭击",
+      "summary": "一艘货船在黑海遭无人艇袭击后沉没，船员下落不明，目前尚不清楚袭击方身份，事件发生在俄罗斯加强黑海军事行动的背景下。",
+      "script": "来看一条国际局势消息。据BBC报道，黑海海域发生一起无人艇袭击事件，一艘货船遇袭后沉没，船上船员目前下落不明。报道指出，目前尚不清楚发动此次袭击的具体是哪一方。这起事件发生在俄罗斯近期不断加强黑海军事行动、作为其对乌克兰战争一部分的大背景之下。黑海长期以来是俄乌冲突中粮食出口、能源运输和军事对抗交织的敏感水域，此前也曾发生过针对商船和港口设施的袭击事件，引发国际社会对黑海航运安全的持续担忧。目前已确认的信息是：有货船在黑海沉没，船员下落不明；尚未确认的是袭击的具体实施方、动机以及是否与近期俄乌军事行动直接相关。由于黑海水域局势复杂，牵涉俄罗斯、乌克兰以及周边多国利益，类似事件往往会引发各方互相指责，真实情况需要更多独立信源交叉验证才能厘清。这类针对商业航运的袭击一旦持续发生，可能进一步推高黑海地区的保险成本和航运风险，影响依赖该航线的粮食与能源贸易。后续需要关注是否有官方机构或多方信源确认袭击责任方，以及失踪船员的搜救进展。",
+      "duration_seconds": 105,
       "is_unverified": true,
-      "confidence_note": "官方否认与鼠疫病原体的关联，死因尚无独立检测结果证实，事件本身存在信息不透明风险，需等待后续权威调查",
+      "confidence_note": "事件本身由BBC报道确认，但袭击实施方身份未明，属于未解之谜，需多方信源进一步确认。",
       "fact_status": {
         "confirmed": [
-          "俄罗斯西伯利亚一鼠疫研究机构员工死亡",
-          "近200名接触者正在接受医学观察",
-          "美国方面在监测该事件"
+          "一艘货船在黑海遭无人艇袭击后沉没，船员下落不明"
         ],
         "claims": [
-          "俄罗斯当局否认此次死亡与鼠疫病原体存在关联"
+          "尚无明确信息确认袭击方身份"
         ],
-        "analysest": [],
         "analysis": [
-          "涉事机构本身从事鼠疫研究，外界对实验室安全事故的担忧合理存在，但目前缺乏独立检测证据支持或反驳官方说法"
+          "事件发生在俄罗斯加强黑海军事行动背景下，可能加剧地区航运风险"
         ]
       },
       "source_ids": [
-        "a0aa85b2dd36ef09"
+        "8402cd00a5e9e0c9"
       ],
       "sources": [
         {
-          "id": "a0aa85b2dd36ef09",
+          "id": "8402cd00a5e9e0c9",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Ship sinks and crew missing after Black Sea drone attack",
+          "summary": "It is not clear who is behind the attacks which come as Russia intensifies strikes in the Black Sea as part of its war against Ukraine.",
+          "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-06T11:53:21+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "魁人党选举获胜，魁北克独立公投议题重返加拿大政治焦点",
+      "english_term": "Parti Québécois 魁北克人党",
+      "summary": "主张魁北克独立的魁人党在选举中以少数席位获胜，并表示未来几年内将推动独立公投，给加拿大的国家统一带来新的不确定性。",
+      "script": "北美政治方面有重要消息。据BBC报道，主张魁北克独立的魁人党在最新一轮选举中胜出，组建了一个少数派政府，并且已经明确表态，将在未来几年内推动举行独立公投。这是加拿大国家统一议题近年来再次被摆上台面。魁北克是加拿大讲法语人口占多数的省份，围绕其是否应从加拿大独立出去的争论已经持续数十年，历史上魁北克曾在上世纪举行过两次独立公投，均未能通过，但独立诉求始终没有完全消失。这一次魁人党虽然只拿到了少数席位，意味着它在推动具体立法和公投安排时，需要与其他党派协调，难以单独强行推进，但其明确的公投时间表承诺，依然会给加拿大联邦政府和其他省份带来政治上的不确定性。目前已确认的是选举结果和魁人党关于未来推动公投的表态；至于公投是否真的会如期举行、具体时间表如何、能否获得足够的议会和民意支持，都还只是执政党的政治承诺，并非已经发生的既定事实。从分析角度看，魁北克独立议题一旦重新升温，可能对加拿大的宏观政策稳定性、联邦与地方关系，以及国际社会对加拿大政治稳定性的预期产生外溢影响。后续需要关注魁人党政府是否提出具体公投法案与时间表，以及加拿大联邦政府方面的回应。",
+      "duration_seconds": 120,
+      "is_unverified": false,
+      "confidence_note": "选举结果与政党表态均有BBC明确报道，公投是否实际举行属未来政治承诺，非既定事实。",
+      "fact_status": {
+        "confirmed": [
+          "魁人党在魁北克选举中以少数席位获胜"
+        ],
+        "claims": [
+          "魁人党表示未来几年内将推动独立公投"
+        ],
+        "analysis": [
+          "少数派政府地位可能制约公投推进的实际进度"
+        ]
+      },
+      "source_ids": [
+        "421e877f814b1049"
+      ],
+      "sources": [
+        {
+          "id": "421e877f814b1049",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Separatist party projected to win Quebec election, adding new test to Canada's unity",
+          "summary": "The Parti Québécois, which secured a minority, has vowed to hold an independence referendum in the years to come.",
+          "url": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-06T11:42:52+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "health",
+      "title": "肯尼亚确诊首例埃博拉死亡病例，病毒跨境传播引发警惕",
+      "english_term": "Ebola 埃博拉病毒",
+      "summary": "肯尼亚确认境内首例埃博拉死亡病例，患者此前从刚果民主共和国入境，当地卫生部门已提升监测警戒级别。",
+      "script": "公共卫生方面有一条值得关注的消息。据BBC和DW报道，肯尼亚确认了该国首例埃博拉死亡病例。患者此前从刚果民主共和国入境肯尼亚，入境后不久检测结果呈阳性，随后不治身亡。报道提到，刚果民主共和国今年已有超过四千人因埃博拉疫情死亡，是此轮疫情的主要爆发地。肯尼亚方面在确认病例后，卫生部门已经提高了监测和防控警戒级别，加强了对入境人员和密切接触者的追踪排查，以防止疫情在境内扩散。埃博拉病毒是一种致死率较高的出血热病毒，主要通过接触感染者的体液传播，防控的关键在于早期发现、隔离和追踪密切接触者。此次肯尼亚出现首例死亡病例，说明这轮始发于刚果民主共和国的疫情存在跨境传播的现实风险，周边国家的边境卫生检疫和监测能力正面临考验。目前已确认的信息是患者的入境轨迹、检测结果和死亡事实，以及刚果民主共和国今年的死亡总数；尚未明确的是肯尼亚是否会出现更多关联病例，以及病毒传播链条的具体细节。后续需要关注肯尼亚卫生部门是否通报新增病例，以及世界卫生组织等国际机构对本轮疫情的最新风险评估。",
+      "duration_seconds": 110,
+      "is_unverified": false,
+      "confidence_note": "BBC与DW两个独立来源均报道该事件，信息一致性较高。",
+      "fact_status": {
+        "confirmed": [
+          "肯尼亚确认首例埃博拉死亡病例，患者此前从刚果民主共和国入境",
+          "刚果民主共和国今年已有超过四千人因该疫情死亡"
+        ],
+        "claims": [],
+        "analysis": [
+          "该病例提示疫情存在跨境传播风险，周边国家边境卫生监测压力上升"
+        ]
+      },
+      "source_ids": [
+        "5fe32d1fa365420a",
+        "0f6012838f4513b7"
+      ],
+      "sources": [
+        {
+          "id": "5fe32d1fa365420a",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Kenya confirms its first Ebola death as outbreak spreads",
+          "summary": "The patient had been living in DR Congo, where more than 4,000 people have died from the disease this year.",
+          "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-06T11:51:26+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "0f6012838f4513b7",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Suspected pneumonic plague in Siberia: What we know about the disease",
-          "summary": "A worker at a plague research institute in Siberia has died, and nearly 200 of her contacts are under medical observation. Russian authorities deny a link to the bacterial infection. The US is monitoring the situation.",
-          "url": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-05T11:58:00+00:00",
+          "title": "Kenya reports first-ever Ebola death",
+          "summary": "The patient arrived in Kenya over the weekend from the Democratic Republic of Congo before testing positive for the virus. Health authorities are on high alert and monitoring for more cases.",
+          "url": "https://www.dw.com/en/kenya-reports-first-ever-ebola-death/a-79563120?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-06T11:14:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -245,239 +344,155 @@
     },
     {
       "category": "world",
-      "title": "美国空军突然撤离英国费尔福德基地全部轰炸机",
+      "title": "尼日利亚军机坠毁致25人全部遇难",
       "english_term": null,
-      "summary": "美国空军未给出明确原因，突然将部署在英国RAF费尔福德基地的全部轰炸机撤离，此前该基地曾发生可疑车辆引发的安全警报事件。",
-      "script": "一条军事动向消息。据报道，美国空军已经将部署在英国皇家空军费尔福德基地的全部轰炸机撤离，目前美方没有公开说明具体原因。这一撤离行动发生在此前一周该基地发生过一起安全事件之后，当时警方曾因发现可疑车辆在基地附近出现而拉响警报。费尔福德基地长期以来是美军轰炸机在欧洲前沿部署的重要节点，承担着战略威慑和快速反应的角色，轰炸机的部署和撤离往往被外界视为观察美国在欧洲军事姿态变化的一个风向标。目前已经确认的事实是，美国空军确实撤走了该基地的全部轰炸机，此前基地附近也确实发生过可疑车辆引发的安全警报；但关于这次撤离具体是出于安全考虑、战略调整还是其他原因，官方没有给出说明，这部分目前只能算作外界的推测，缺乏权威信源的直接证实。考虑到这类战略资产的部署调整通常会综合安全风险评估和更大范围的军事部署规划，具体原因可能是多重因素叠加，而不是单一事件触发。这起事件后续需要等待美国国防部或英国军方是否会对撤离原因作出进一步说明。",
-      "duration_seconds": 105,
-      "is_unverified": true,
-      "confidence_note": "撤离原因官方未予说明，目前只有两家媒体的平行报道确认撤离事实本身，具体动机属于推测范畴",
+      "summary": "一架尼日利亚军用飞机在该国南部坠毁，机上25人全部遇难，救援队已在事故现场展开搜救确认工作。",
+      "script": "一条简短的国际快讯。据DW报道，一架尼日利亚军用飞机在该国南部地区坠毁，机上共25人，目前已全部确认遇难。救援队伍在事发后前往坠机现场展开搜救与遇难者确认工作。报道中没有进一步说明坠机的具体原因，是否涉及机械故障、天气因素还是其他情况，尚待尼日利亚官方后续调查通报。军用飞机坠毁事故往往会引发对该国军用航空器维护状况、飞行安全监管的关注，但在没有官方调查结论之前，任何关于事故原因的猜测都缺乏依据。后续需要关注尼日利亚军方或民航事故调查部门是否公布初步事故调查结果。",
+      "duration_seconds": 60,
+      "is_unverified": false,
+      "confidence_note": "DW明确报道坠机事实及遇难人数，事故原因尚未公布。",
       "fact_status": {
         "confirmed": [
-          "美国空军已撤离英国费尔福德基地的全部轰炸机",
-          "此前该基地附近曾因可疑车辆发生安全警报"
+          "尼日利亚一架军用飞机坠毁，机上25人全部遇难"
         ],
         "claims": [],
-        "analysis": [
-          "撤离具体原因未经官方说明，外界将其与此前的安全警报事件相联系，但这属于合理推测而非已证实的因果关系"
-        ]
+        "analysis": []
       },
       "source_ids": [
-        "1e890794f23f957d",
-        "2ac98c9e204d4288"
+        "23cf11d367a71513"
       ],
       "sources": [
         {
-          "id": "1e890794f23f957d",
-          "source": "Al Jazeera",
+          "id": "23cf11d367a71513",
+          "source": "DW Top Stories",
           "source_tier": 2,
-          "source_region": "middle-east",
+          "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "US abruptly withdraws bombers from UK’s RAF Fairford",
-          "summary": "The US has abruptly withdrawn all of its aircraft from the UK’s RAF Fairford, citing concerns about a potential attack.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/us-abruptly-withdraws-bombers-from-uks-raf-fairford?traffic_source=rss",
-          "published_at": "2026-10-05T11:09:57+00:00",
+          "title": "Nigerian military plane crash kills all 25 on board",
+          "summary": "Rescue teams searched the crash site after the military aircraft went down in southern Nigeria, with everyone on board now confirmed to have died.",
+          "url": "https://www.dw.com/en/nigerian-military-plane-crash-kills-all-25-on-board/a-79552403?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-06T11:29:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "俄罗斯实验室工作人员死亡引发鼠疫隔离，网络流传信息存在误导",
+      "english_term": "Plague 鼠疫",
+      "summary": "俄罗斯一处鼠疫研究机构的实验室工作人员死亡后当地实施隔离措施，但围绕“实验室事故”“大规模感染”等网络传言被事实查核机构指出存在误导成分。",
+      "script": "最后一条国际消息，关于一起容易被误读的事件。俄罗斯一处鼠疫研究机构发生一名实验室工作人员死亡事件后，当地采取了隔离措施，随即网络上流传出多种说法，包括“实验室事故”、“已有数百人感染”以及“疫情可能向国际扩散”等说法。但据DW的事实查核报道，这些广泛传播的说法中有相当一部分缺乏证据支持，属于误导性信息。另据半岛电视台报道，鼠疫目前仍然是西伯利亚地区的地方性疾病，这片区域也是已知最早的史前人类鼠疫疫情的发生地，意味着当地出现零星鼠疫病例本身并不罕见。已确认的事实是：一名实验室工作人员死亡，当地采取了隔离措施；没有得到证实的是网络上流传的大规模感染人数和国际扩散的说法。这类事件很容易因为信息不透明和语言、信源转译的损耗，在社交媒体上被放大甚至扭曲，公众在看到类似“实验室鼠疫泄露”说法时，需要区分哪些是官方确认的隔离措施、哪些只是未经证实的网络传言。后续需要关注俄罗斯官方是否公布实验室工作人员的确切死因调查结果，以及隔离措施的具体规模和解除时间。",
+      "duration_seconds": 110,
+      "is_unverified": true,
+      "confidence_note": "DW为事实查核性质报道，明确指出网络流传说法存在误导，俄官方尚未公布详细死因调查结果。",
+      "fact_status": {
+        "confirmed": [
+          "俄罗斯一处鼠疫研究机构实验室工作人员死亡，当地采取隔离措施",
+          "鼠疫目前仍是西伯利亚地方性疾病"
+        ],
+        "claims": [
+          "网络流传说法称已有数百人感染并可能国际扩散"
+        ],
+        "analysis": [
+          "事实查核机构认为这些流传说法证据不足，存在误导性"
+        ]
+      },
+      "source_ids": [
+        "d13b91e624c6dbc7",
+        "85bd277e725933c1"
+      ],
+      "sources": [
+        {
+          "id": "d13b91e624c6dbc7",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Fact check: Misleading claims spark plague fears in Russia",
+          "summary": "The death of a lab worker at a plague research institute in Russia has sparked claims about a lab accident, hundreds of infections and international spread. Some of these viral narratives are misleading.",
+          "url": "https://www.dw.com/en/fact-check-misleading-claims-spark-plague-fears-in-russia/a-79560752?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-06T11:07:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "2ac98c9e204d4288",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "US air force removes all bombers from British military base RAF Fairford",
-          "summary": "No reason has been given for the withdrawal, but it follows a major incident last week when police were alerted to \"suspicious vehicles\" near the airbase.",
-          "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-05T10:39:09+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "FBI逮捕一名涉嫌为中国监视台湾地区领导人家人的女子",
-      "english_term": null,
-      "summary": "美国FBI和检方指控一名化名Heather的女子监视台湾地区领导人之子及其家人，相关调查细节正在公开中。",
-      "script": "一条涉及跨国情报活动的司法消息。美国联邦调查局和检方指控一名女子涉嫌为中国监视台湾地区领导人的儿子及其家人，这名女子的中文名字是张婉莹，英文化名为Heather，目前已被逮捕。根据检方说法，她被指控对台湾地区领导人之子及其家庭成员进行了监视活动。这起案件目前处于司法程序的早期阶段，已经确认的事实是FBI和检方确实提出了这一指控并实施了逮捕，但案件具体的证据细节、监视的具体方式和持续时间，目前公开信息有限，这些细节通常会在后续的法庭程序中逐步披露。这类案件往往涉及复杂的情报与反情报操作，各方的说法在案件审理过程中可能会有进一步补充或反驳，目前被指控人本人的回应和辩护立场尚未见诸报道。考虑到案件涉及台湾地区领导人家庭成员的人身安全和两岸关系的敏感性，后续需要等待美国司法程序进一步公开检方证据以及被告方的回应。",
-      "duration_seconds": 90,
-      "is_unverified": false,
-      "confidence_note": "基于NPR对FBI和检方指控的报道，案件处于早期司法阶段，细节有限",
-      "fact_status": {
-        "confirmed": [
-          "FBI和美国检方逮捕一名化名Heather的女子，指控其监视台湾地区领导人之子及家人"
-        ],
-        "claims": [
-          "检方主张该女子的监视活动与中国有关"
-        ],
-        "analysis": [
-          "案件处于早期阶段，具体证据和被告回应需等待后续法庭程序披露"
-        ]
-      },
-      "source_ids": [
-        "2712d03907652479"
-      ],
-      "sources": [
-        {
-          "id": "2712d03907652479",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
-          "summary": "The FBI and U.S. prosecutors say Wanying Zhang, also know as Heather, surveilled the Taiwanese president's son and his family.",
-          "url": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
-          "published_at": "2026-10-05T11:47:36+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "science",
-      "title": "诺贝尔奖授予光遗传学关键发现者，表彰揭示大脑工作机制",
-      "english_term": "Optogenetics（光遗传学，一种利用光敏感蛋白质控制神经元活动，从而研究大脑功能的技术）",
-      "summary": "美国精神病学与神经学家卡尔·戴塞罗斯和两位德国同事彼得·黑格曼、格奥尔格·纳格尔因揭示大脑内部工作机制的研究获得诺贝尔奖。",
-      "script": "一条科学领域的重要消息。本年度诺贝尔奖的一项奖项授予了美国精神病学与神经学家卡尔·戴塞罗斯，以及他的两位德国同事彼得·黑格曼和格奥尔格·纳格尔，表彰他们在揭示大脑内部工作机制方面所做的研究。虽然具体技术细节的官方表述里没有展开，但从三位获奖者的研究背景来看，这类工作与光遗传学这一领域密切相关，光遗传学的核心思路是利用对光敏感的蛋白质来精确控制特定神经元的活动，从而让研究者能够以前所未有的精度观察和操控大脑内部的信息传递过程。这项技术自问世以来，极大推动了神经科学研究对大脑功能、行为与疾病机制之间关系的理解，被广泛应用在从基础神经环路研究到抑郁症、帕金森病等神经精神疾病机制探索的多个方向。诺贝尔奖委员会将奖项授予这一方向，反映的是学术界对工具性突破长期价值的认可，这类基础工具往往不会直接产生临床疗法，但会为后续几十年的神经科学研究打开新的技术路径。目前关于具体获奖理由的官方声明还需要进一步的完整通稿来确认细节，但三位科学家的研究方向和贡献已经得到广泛认可。",
-      "duration_seconds": 110,
-      "is_unverified": false,
-      "confidence_note": "基于BBC对诺贝尔奖公告的报道，获奖者和获奖方向已有官方来源确认",
-      "fact_status": {
-        "confirmed": [
-          "卡尔·戴塞罗斯、彼得·黑格曼、格奥尔格·纳格尔因揭示大脑内部工作机制的研究获得诺贝尔奖"
-        ],
-        "claims": [],
-        "analysis": [
-          "三位获奖者的研究方向与光遗传学技术密切相关，该技术对神经科学研究工具的发展具有长期推动作用"
-        ]
-      },
-      "source_ids": [
-        "c912139aa86602cd"
-      ],
-      "sources": [
-        {
-          "id": "c912139aa86602cd",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Nobel Prize awarded for showing inner workings of the brain",
-          "summary": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded for their work.",
-          "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-05T11:04:37+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "日本冲绳美军士兵涉嫌杀害女性引发民众愤怒",
-      "english_term": null,
-      "summary": "一名20岁美国海军陆战队士兵因涉嫌杀害一名女性在日本被捕，当事人否认指控，冲绳与东京民众举行抗议。",
-      "script": "一条涉及驻日美军的治安事件消息。一名20岁的美国海军陆战队士兵因涉嫌杀害一名女性在日本被逮捕，这名士兵本人否认这一指控。消息传出后，冲绳当地以及东京都出现了民众抗议活动，抗议者对驻日美军长期以来的治安问题表达不满。冲绳是美军在日本驻军最集中的地区之一，历史上曾多次发生美军人员涉及的刑事案件，每一次此类事件发生，都会重新点燃当地社会对美军基地存在本身的争议，包括基地占地规模、治外法权安排以及军人犯罪的司法管辖问题。目前已经确认的事实是，这名士兵已被逮捕，案件涉嫌杀害一名女性；士兵本人否认指控，这是辩护方的主张，案件的具体证据和审理程序细节目前报道中没有详细展开。考虑到此类案件的敏感性，接下来需要关注日本司法机构对案件的调查进展，以及这起事件是否会对日美关于驻军地位协定的讨论产生新的政治影响。",
-      "duration_seconds": 90,
-      "is_unverified": false,
-      "confidence_note": "基于半岛电视台报道，逮捕事实与抗议活动已被报道确认，案件细节和审理进展需等待后续司法程序",
-      "fact_status": {
-        "confirmed": [
-          "一名20岁美国海军陆战队士兵因涉嫌杀害一名女性在日本被捕",
-          "冲绳及东京出现抗议活动"
-        ],
-        "claims": [
-          "被捕士兵否认指控"
-        ],
-        "analysis": [
-          "此类事件历史上常引发对驻日美军治外法权和基地存在问题的争议，后续政治影响有待观察"
-        ]
-      },
-      "source_ids": [
-        "9fea8f990cd0a8f3"
-      ],
-      "sources": [
-        {
-          "id": "9fea8f990cd0a8f3",
+          "id": "85bd277e725933c1",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Growing outrage in Japan after US Marine arrested in woman’s killing",
-          "summary": "The 20-year-old soldier denies the charge as protests held on Okinawa and in Tokyo.",
-          "url": "https://www.aljazeera.com/news/2026/10/5/growing-outrage-in-japan-after-us-marine-arrested-in-womans-killing?traffic_source=rss",
-          "published_at": "2026-10-05T11:25:45+00:00",
+          "title": "Russia plague quarantine following lab death: Should we be worried?",
+          "summary": "Plague is still endemic to Siberia, the location of the first known prehistoric human outbreak.",
+          "url": "https://www.aljazeera.com/news/2026/10/6/russia-plague-quarantine-following-lab-death-should-we-be-worried?traffic_source=rss",
+          "published_at": "2026-10-06T11:40:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "美国最高法院审理重大气候变化案件，巴西大选进入第二轮",
+      "category": "sports",
+      "title": "网坛世界第一辛纳因膝伤确认缺席2026赛季",
       "english_term": null,
-      "summary": "美国联邦最高法院开庭审理一起可能影响深远的气候变化相关案件，与此同时巴西总统选举因无人获得过半选票而进入第二轮投票。",
-      "script": "最后两条国际新闻快速带过。美国联邦最高法院开庭审理一起备受关注的气候变化相关案件，据报道这起案件的判决结果可能产生超出气候议题本身的广泛影响，具体会牵涉到哪些相关法律领域，报道中没有展开详细说明，需要等待法院审理进展和最终判决内容来进一步评估其影响范围。另一条消息是，巴西总统选举的结果显示没有候选人获得过半数选票，选举因此进入第二轮投票，目前选情被形容为胶着难料。这两条消息一个关乎美国司法体系对气候议题的介入深度，一个关乎拉美最大经济体的政治走向，都是后续值得持续关注的国际议题，具体进展需要等待美国最高法院的庭审结论和巴西第二轮投票的最终结果。",
-      "duration_seconds": 70,
+      "summary": "现男子网坛世界排名第一的辛纳因膝伤将缺席2026赛季剩余赛事，他自今年温网夺冠后就再未参赛。",
+      "script": "体育方面的消息。据半岛电视台报道，现男子网坛世界排名第一的亚尼克·辛纳，由于膝伤原因，将不会参加2026赛季的比赛。报道提到，他自今年温网夺冠之后，就再也没有参加过任何正式比赛，一直处于伤病恢复阶段。对于一名正处于职业生涯巅峰、占据世界第一位置的选手来说，长时间因伤缺席赛场，意味着他将不得不眼看着其他选手在各项大赛中争夺积分和排名，这对他保持世界第一的位置会构成现实压力。目前报道没有透露膝伤的具体性质、是否需要手术，以及预计的复出时间。后续需要关注辛纳及其团队是否公布更详细的伤情说明和复出计划。",
+      "duration_seconds": 65,
       "is_unverified": false,
-      "confidence_note": "基于NPR简讯报道，案件审理细节和巴西选情具体数字有限，属于快速消息汇总",
+      "confidence_note": "半岛电视台明确报道，信息来源单一但属常规体育新闻，可信度较高。",
       "fact_status": {
         "confirmed": [
-          "美国最高法院开庭审理一起气候变化相关案件",
-          "巴西总统选举因无人过半进入第二轮投票"
+          "辛纳因膝伤将缺席2026赛季比赛，自温网夺冠后未再参赛"
         ],
         "claims": [],
-        "analysis": [
-          "两起事件后续走向均需等待正式结论，当前报道提供的细节有限"
-        ]
+        "analysis": []
       },
       "source_ids": [
-        "9f122c2e40750618"
+        "e9594326b0f523d5"
       ],
       "sources": [
         {
-          "id": "9f122c2e40750618",
-          "source": "NPR World",
+          "id": "e9594326b0f523d5",
+          "source": "Al Jazeera",
           "source_tier": 2,
-          "source_region": "us",
+          "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "SCOTUS hears major climate change case. And, Brazil's presidential race goes to runoff",
-          "summary": "The Supreme Court is set to hear a blockbuster climate change case that could affect more than just climate issues. And, Brazil's presidential race is too close to call.",
-          "url": "https://www.npr.org/2026/10/05/g-s1-146406/up-first-newsletter-flydubai-investigation-colorado-suncor-exxon-brazil-presidential-elections",
-          "published_at": "2026-10-05T11:07:09+00:00",
+          "title": "Tennis: World number one Sinner will not play in 2026 due to knee injury",
+          "summary": "Jannik Sinner has not competed in a tournament since winning at Wimbledon in July and will continue his recovery.",
+          "url": "https://www.aljazeera.com/sports/2026/10/6/tennis-world-number-one-sinner-will-not-play-in-2026-due-to-knee-injury?traffic_source=rss",
+          "published_at": "2026-10-06T11:55:47+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的要闻就到这里。西伯利亚肺鼠疫事件的真实死因、美军撤离费尔福德基地的具体原因，以及人形机器人安全过滤器论文的同行评审结果，都还需要等待后续权威信源进一步确认。",
-  "editor_note": "机器人部分综合了arXiv预印本论文、Robohub研究报道与产业销量新闻，尽量覆盖学术与产业两端；多条标记为discovery_only的通用搜索结果因信息重复或缺乏独立来源交叉确认未被采用（如多条关于法拉第未来同一销量数据的重复报道已合并为单一事件处理）。国际新闻部分优先选择了具备明确事实与官方信源的条目，娱乐与体育类候选信息价值较低故未收录，以保证机器人内容时长占比符合要求。",
+  "closing": "今天的内容就到这里。机器人领域，几篇新论文从声音、操作、到感知-行动统一框架，都在尝试解决机器人进入复杂真实场景后暴露出的具体细节问题，这些工作目前都还停留在预印本阶段，后续需要关注同行评审的结果；产业层面，测试设备厂商与制造平台的整合，以及监管政策对计算架构选择的潜在影响，都值得继续跟踪。国际局势方面，黑海无人艇袭击的责任认定、魁北克独立公投的具体安排，以及肯尼亚埃博拉疫情的后续发展，都还有不少待确认的信息，我们会持续关注。",
+  "editor_note": "候选信息中机器人类目较多来自arXiv预印本及行业媒体The Robot Report，已在稿件中明确标注未经同行评审或细节有限；电商促销类机器人硬件新闻（如扫地机器人、割草机器人特价信息）因缺乏技术或产业深度，未纳入正式播报；部分世界类候选（如印度抗议、德国前情报官被捕、越南猫肉案等）因信息完整度或与其他议题重复度较低，经权衡未列入本期重点，以保证机器人内容时长占比符合要求。",
   "model": "claude-sonnet-5",
   "usage": {
-    "input_tokens": 9334,
-    "output_tokens": 10150,
-    "total_tokens": 19484
+    "input_tokens": 9251,
+    "output_tokens": 10003,
+    "total_tokens": 19254
   },
-  "generated_at": "2026-10-05T12:00:06+00:00",
-  "window_start": "2026-10-04T12:00:06+00:00",
-  "candidate_count": 306,
+  "generated_at": "2026-10-06T12:07:20+00:00",
+  "window_start": "2026-10-05T12:07:20+00:00",
+  "candidate_count": 454,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "quality": {
-    "duration_seconds": 1185,
-    "script_characters": 4630,
-    "topic_duration_share": 0.494,
+    "duration_seconds": 1255,
+    "script_characters": 4902,
+    "topic_duration_share": 0.546,
     "passed": true,
     "normal_target_met": true,
-    "topic_source_count": 3,
+    "topic_source_count": 2,
     "issues": []
   }
 }
