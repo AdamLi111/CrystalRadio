@@ -1,65 +1,63 @@
 {
-  "title": "晶球电台早报：乌克兰公交车袭击致33死，ETH苏黎世机械手独立行走引关注",
-  "subtitle": "战火持续升级、霍尔木兹海峡航运紧张，机器人学术界聚焦灵巧操作与具身智能新进展",
+  "title": "晶球电台早报：诺贝尔和平奖揭晓，具身智能论文与人形机器人量产进展并进",
+  "subtitle": "从触觉感知到物理AI工具链，机器人学术与产业双线推进；南非人权律师获诺贝尔和平奖，中东局势持续紧张",
   "highlights": [
-    "俄罗斯对乌克兰前线城市公交车发动袭击，造成33人死亡，乌电力系统持续承压",
-    "ETH苏黎世团队将机械手改造为可独立行走并操作环境的自治机器人，引发具身智能讨论",
-    "特斯拉Optimus人形机器人保密策略令华尔街投资者担忧，四足机器人城市导航新框架发布"
+    "南非人权律师纳维·皮莱获2026年诺贝尔和平奖",
+    "多篇机器人学术论文聚焦触觉感知、人形导航与四足多技能学习",
+    "AWS联合NVIDIA推出开源物理AI工具链，Jabil解读人形机器人量产节奏"
   ],
   "stories": [
     {
       "category": "world",
-      "title": "俄军袭击乌克兰前线城市公交车，33人遇难",
+      "title": "南非人权律师纳维·皮莱获2026年诺贝尔和平奖",
       "english_term": null,
-      "summary": "俄罗斯对乌克兰一座前线城市的公交车发动袭击，造成至少33人死亡、18人受伤，乌方指责俄方蓄意针对平民。",
-      "script": "俄乌战事近日再度升级。据多家媒体报道，俄罗斯军队对乌克兰东部一座前线城市的一辆载满乘客的公交车实施了打击，造成至少33人死亡，另有至少18人受伤。乌克兰官员指责俄方此举是蓄意针对平民、企图尽可能制造更大伤亡。目前，这起袭击的具体细节仍在核实中，但多家独立媒体对死亡人数的报道基本一致。与此同时，乌克兰首都基辅的电力中断情况也在恶化，持续的空袭已经对乌克兰能源基础设施造成严重破坏，许多居民区面临长时间停电。分析认为，随着冬季临近，俄罗斯针对乌克兰能源网络的打击可能会进一步加剧民生压力，也会让乌克兰的军事和社会韧性面临更严峻考验。国际社会对此次袭击反应不一，一些西方国家谴责俄方行为违反国际人道法，呼吁加强对乌克兰防空系统的支援。而俄方尚未就此次具体袭击事件作出公开回应。值得关注的是，这起事件发生之际，印度、土耳其、埃及和美国等多方近期都提出了旨在促成俄乌停火的新方案，试图保护全球能源和航运安全，但目前这些斡旋努力尚未取得实质突破。后续需要持续关注乌克兰能源系统的受损状况，以及国际斡旋能否推动双方达成任何形式的停火安排。",
-      "duration_seconds": 120,
+      "summary": "南非人权律师纳维·皮莱因在推动人权与国际法方面的长期贡献获得本年度诺贝尔和平奖。",
+      "script": "今天先从一则重要新闻说起。南非人权律师纳维·皮莱获得了2026年诺贝尔和平奖，获奖理由是她在推动人权与国际法方面做出的长期贡献。皮莱的职业生涯跨越数十年，她曾担任联合国人权事务高级专员，也曾在国际刑事法庭系统中任职，长期参与对种族灭绝、战争罪与反人类罪的调查与审判工作。诺贝尔委员会的表彰方向延续了近年来对人权捍卫者与国际法工作者的关注，强调在全球冲突频发、国际秩序面临挑战的背景下，个人与机构在推动问责制方面的作用。这一消息和另一则新闻形成呼应——同一时期，一名被控参与1994年卢旺达种族灭绝的医生将在英国受审，案件指控其在种族灭绝早期阶段担任暴力行为的组织者或监督者角色。两则新闻放在一起看，说明国际社会对历史性严重罪行的追责进程仍在持续推进，无论是通过长期的司法审判，还是通过表彰人权工作者来凸显问责机制的价值。目前关于皮莱获奖的具体表彰文本细节，以及卢旺达案件在英国的审理时间表，都需要等待官方后续公布。",
+      "duration_seconds": 105,
       "is_unverified": false,
-      "confidence_note": "BBC World与NPR World两个独立二级来源均报道了此次袭击及死亡人数，信息基本一致。",
+      "confidence_note": "诺贝尔和平奖信息来自NPR官方报道，属一手权威信源；卢旺达案件审判信息来自BBC World报道",
       "fact_status": {
         "confirmed": [
-          "俄罗斯对乌克兰前线城市的公交车发动袭击",
-          "袭击造成至少30-33人死亡，另有至少18人受伤",
-          "乌克兰基辅等地电力中断情况持续恶化"
+          "纳维·皮莱获得2026年诺贝尔和平奖",
+          "一名医生因涉嫌参与1994年卢旺达种族灭绝将在英国受审"
         ],
         "claims": [
-          "乌克兰官员指责俄方蓄意针对平民以制造最大伤亡"
+          "该医生被指控担任暴力行为的领导者或监督者角色"
         ],
         "analysis": [
-          "冬季临近可能使俄罗斯针对能源设施的打击进一步加剧乌克兰民生压力",
-          "国际斡旋努力短期内难有突破"
+          "两起事件共同反映国际社会对历史重大罪行问责机制的持续关注"
         ]
       },
       "source_ids": [
-        "030e7f7ffe80339d",
-        "f007f860ad3f031f"
+        "07269809ff6cafe3",
+        "9baba6246bca6c07"
       ],
       "sources": [
         {
-          "id": "030e7f7ffe80339d",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Russian strike on buses kills 33, say officials, as deadly attacks on Ukraine surge",
-          "summary": "Ukraine accused Russia of targeting the crowded bus in the frontline city to kill as many civilians as possible.",
-          "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-08T12:06:57+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "f007f860ad3f031f",
+          "id": "07269809ff6cafe3",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Strike on Ukrainian public bus leaves 30 dead as blackouts worsen in Kyiv",
-          "summary": "Russian strikes in eastern Ukraine have killed 30 people and injured at least 18, according to authorities. The attacks included a strike on a public bus and have worsened power outages in Kyiv.",
-          "url": "https://www.npr.org/2026/10/08/g-s1-147106/russia-ukraine-war",
-          "published_at": "2026-10-08T11:25:28+00:00",
+          "title": "South African human rights lawyer Navi Pillay wins the Nobel Peace Prize",
+          "summary": "South African human rights lawyer Navi Pillay wins the 2026 Nobel Peace Prize for advancing human rights and international law.",
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5994952/nobel-peace-prize",
+          "published_at": "2026-10-09T08:23:16+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "9baba6246bca6c07",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Doctor accused of 1994 Rwanda genocide offences to face trial in UK",
+          "summary": "Dr Vincent Brown was allegedly a \"leader\" or \"supervisor\" of violent acts carried out by others in the early days of the genocide.",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy47lzd1vyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-09T11:44:49+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -67,95 +65,70 @@
     },
     {
       "category": "world",
-      "title": "卡塔尔附近海域油轮遭多枚弹药击中，霍尔木兹局势持续紧张",
+      "title": "中东局势持续紧张：沙特机场遇袭、美国暂缓对伊行动",
       "english_term": null,
-      "summary": "一艘油轮在卡塔尔附近海湾遭多枚弹射物击中并出现人员伤亡，海事安全机构正在调查事件细节。",
-      "script": "海湾地区航运安全风险再度凸显。据海事安全机构通报，一艘油轮在卡塔尔附近海域遭到多枚弹射物击中，船上出现人员伤亡。海事情报公司将该船确认为一艘油化两用船。目前关于袭击方身份、动机等关键信息仍不明朗，事件仍在调查当中。这起事件发生在中东地区紧张局势持续发酵的背景下。另有报道显示，受霍尔木兹海峡周边安全风险上升影响，油轮船长的薪酬水涨船高，有报道称部分船长仅为完成一次霍尔木兹海峡航行就能获得十万美元以上薪资，外加五万美元的单次航行奖金，这从侧面反映出国际航运界对这一关键能源通道安全状况的担忧程度。霍尔木兹海峡是全球石油运输的核心咽喉要道，任何针对过往船只的袭击都可能冲击国际能源市场和海运保险成本。分析人士认为，此类事件如果持续发生，可能促使更多航运公司重新评估经过该区域的航线和保险安排，连带推高全球能源运输成本。目前尚无任何一方公开宣称对此次油轮遇袭事件负责，事件的真实背景和责任归属仍有待权威机构进一步调查确认。后续需要等待海事安全机构发布正式调查结果，以及是否有国家或组织对此事件作出回应或承担责任。",
-      "duration_seconds": 115,
-      "is_unverified": true,
-      "confidence_note": "目前仅有BBC World单一来源报道，细节依赖海事情报公司的初步判断，责任方未明，需等待更多独立信源证实。",
+      "summary": "胡塞武装近期多次对沙特机场发动袭击，造成人员伤亡；同时特朗普表示美国在中期选举前不会对伊朗采取军事行动。",
+      "script": "中东方向传来两条值得关注的消息。第一条，沙特阿拉伯首都利雅得机场在遭受胡塞武装袭击后已重新开放，这次袭击造成三人死亡。据报道，胡塞武装近期针对沙特发动了多次攻击，机场似乎成为主要打击目标。这一系列袭击发生在也门冲突持续、地区局势本就紧张的背景下，凸显出也门境内武装力量的打击能力并未因地区局势变化而明显削弱。第二条消息来自美国方面，特朗普表示美国在中期选举之前不会对伊朗采取军事行动。这一表态出现在美国与伊朗关系持续紧绷的背景下，此前美军“亚伯拉罕·林肯”号航母结束了创纪录的持续海上部署后返回圣迭戈，这次部署正是为了支持美方在伊朗方向的军事行动，期间曾有舰员压力过大与补给短缺的报道。将这几条信息放在一起看，可以观察到当前中东安全局势呈现出多线牵制的特征：一边是也门方向的代理人冲突持续外溢到沙特本土，另一边是美伊之间保持着高度戒备但暂未升级的状态。需要说明的是，关于胡塞武装袭击沙特机场的具体动机、美国对伊朗政策是否会在选举后调整，目前都只有各方表态，缺乏进一步细节确认。",
+      "duration_seconds": 110,
+      "is_unverified": false,
+      "confidence_note": "沙特机场遇袭来自半岛电视台报道；美国对伊政策表态与航母返航来自NPR报道，均为Tier 2独立信源",
       "fact_status": {
         "confirmed": [
-          "一艘油轮在卡塔尔附近海域遭多枚弹射物击中",
-          "船上出现人员伤亡"
+          "利雅得机场在胡塞武装袭击后重新开放，袭击造成三人死亡",
+          "美军亚伯拉罕·林肯号航母结束长期部署返回圣迭戈"
         ],
         "claims": [
-          "海事情报公司将涉事船只识别为油化两用船"
+          "特朗普表示美国在中期选举前不会对伊朗采取军事行动"
         ],
         "analysis": [
-          "事件可能进一步推高霍尔木兹海峡航运保险与人力成本",
-          "反映中东地区海上安全风险持续上升"
+          "也门方向冲突持续外溢、美伊关系维持高度戒备但未升级"
         ]
       },
       "source_ids": [
-        "da920ad4f54177b1",
-        "d695281e59e5b3bb"
+        "3b7816f8a9cfdb69",
+        "38d58940ce2e31d7",
+        "d44206322eb6aeaa"
       ],
       "sources": [
         {
-          "id": "da920ad4f54177b1",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says",
-          "summary": "Casualties have been reported on the vessel, identified by a maritime intelligence firm as the oil and chemical tanker, Acers.",
-          "url": "https://www.bbc.co.uk/news/articles/cqlydk7796wdo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-08T12:11:31+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "d695281e59e5b3bb",
+          "id": "3b7816f8a9cfdb69",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "The Hormuz bonus: Sailor salaries soar for transits amid Iran war",
-          "summary": "Reports have emerged that tanker captains are earning $100,000 plus a $50,000 per-trip bonus to transit the strait.",
-          "url": "https://www.aljazeera.com/news/2026/10/8/the-hormuz-bonus-sailor-salaries-soar-for-transits-amid-iran-war?traffic_source=rss",
-          "published_at": "2026-10-08T11:02:09+00:00",
+          "title": "Saudi Arabia reopens Riyadh airport after Houthi attack kills three",
+          "summary": "Saudi Arabia has seen several attacks by the Houthis in recent days, with airports appearing to be the primary target.",
+          "url": "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three?traffic_source=rss",
+          "published_at": "2026-10-09T11:46:39+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "ETH苏黎世把机械手变成能走路的自治机器人",
-      "english_term": "disembodied robotic hand（脱离躯干的机械手机器人）",
-      "summary": "苏黎世联邦理工学院研究团队将一款现成的机械手改造成无需手臂或躯干支撑、靠手指行走并同时能操作物体的自治机器人。",
-      "script": "通常我们设想机器人的手，总是长在手臂末端，由身体支撑。但瑞士苏黎世联邦理工学院，也就是ETH Zurich的研究团队，最近打破了这个默认设定。他们把一款市面上现成的机械手彻底改造，去掉了手臂和躯干的依赖，让这只手自己用手指走路，同时还能用同一组手指去抓取和操作周围的物体。这意味着这只手既是移动平台，又是操作工具，一身两用。从技术角度看，这项工作的核心挑战在于，手指原本是为精细操作设计的末端执行器，关节自由度和力矩输出都是按照抓取任务优化的，并不天然适合承担行走时需要的支撑体重、保持平衡、周期性摆动这些运动控制任务。研究团队需要重新设计控制策略，让同一套手指结构在走路模式和操作模式之间灵活切换，这对步态规划和实时控制算法提出了新的要求。这种思路属于更广义的具身智能，也就是Embodied AI研究范畴下，对机器人形态学，Morphology，的一次有趣探索——传统机器人学往往假设手在臂上、臂在身上的层级结构是最优解，而这项工作提示我们，在某些特定场景下，功能复用、结构极简的设计也可能带来独特优势，比如更小的体积、更低的成本，或者能钻进人形机器人无法进入的狭小空间执行任务。当然，这类原型目前更多是概念验证性质，报道中并未提及其负载能力、行走速度或续航等具体性能指标，距离实际工业或家庭应用场景还有相当距离。但它为机器人形态设计提供了一个新颖的思考方向：当我们不再默认机器人必须模仿人体结构时，还有哪些非常规的身体构型可能同样甚至更有效地完成移动和操作任务。后续需要关注该团队是否会公布更详细的技术论文，披露具体的控制算法和性能数据。",
-      "duration_seconds": 170,
-      "is_unverified": false,
-      "confidence_note": "来自IEEE Spectrum Robotics的专业报道，属于对ETH Zurich研究成果的权威技术媒体介绍，但具体论文细节和性能数据尚未在摘要中完整呈现。",
-      "fact_status": {
-        "confirmed": [
-          "ETH Zurich团队将现成机械手改造为可独立行走并操作物体的自治机器人"
-        ],
-        "claims": [],
-        "analysis": [
-          "该研究体现了机器人形态学设计思路的一种非常规探索",
-          "距离实际应用场景仍有较大距离，目前更偏向概念验证"
-        ]
-      },
-      "source_ids": [
-        "db2b811cf44c425c"
-      ],
-      "sources": [
+        },
         {
-          "id": "db2b811cf44c425c",
-          "source": "IEEE Spectrum Robotics",
+          "id": "38d58940ce2e31d7",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "global",
+          "source_region": "us",
           "language": "en",
-          "category_hint": "robotics",
-          "title": "This Disembodied Hand Is All the Robot You Need",
-          "summary": "A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic hand into a completely self-contained robot that walks on its fingertips while using those same fingers to manipulate its environment. Besides making the perfect Halloween accessory for anyone planning to dress up as a member of The Addams Family – who were famously accompanied by a disembodied walking hand called Thing – the researchers say the approach could make it possible to operate controls and handle objects in places a traditional robot arm can’t reach. Soft Robotics Lab, ETH Zurich/YouTube Amirhossein Kazemipour , a Ph.D. candidate in the Soft Robotics Lab at ETH Zurich in Switzerland who led the project, believes this hand could prove useful in contexts like fiddly maintenance tasks in industrial settings, or in search and rescue, where a robot could detach its hand to explore confined spaces too tight for the rest of its body. More broadly, he says, the work is a step toward a new approach to robotics in which body parts are not confined to a single role. “I wanted to see how m",
-          "url": "https://spectrum.ieee.org/walking-robotic-hand",
-          "published_at": "2026-10-08T12:00:02+00:00",
+          "category_hint": "world",
+          "title": "Trump says U.S. won't attack Iran before midterms. And, ICE agent shoots man in NYC",
+          "summary": "Trump announced that the U.S. will not attack Iran ahead of the midterms. And, a 28-year-old man is receiving treatment at the hospital after an ICE agent shot him in the neck.",
+          "url": "https://www.npr.org/2026/10/09/g-s1-147455/up-first-newsletter-hurricane-isaias-ukraine-russia-trump-iran-ice-shooting",
+          "published_at": "2026-10-09T11:37:04+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "d44206322eb6aeaa",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "The long-deployed USS Lincoln returns home to San Diego Bay",
+          "summary": "The USS Abraham Lincoln aircraft carrier has returned home after a record-setting uninterrupted time at sea supporting the Iran war. The extended deployment drew attention following reports of crew stress and supply shortages.",
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5995911/the-long-deployed-uss-lincoln-returns-home-to-san-diego-bay",
+          "published_at": "2026-10-09T00:05:48+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -163,79 +136,39 @@
     },
     {
       "category": "robotics",
-      "title": "特斯拉Optimus人形机器人保密策略引发华尔街担忧",
-      "english_term": "Optimus（特斯拉人形机器人项目）",
-      "summary": "特斯拉对Optimus人形机器人项目的进展保持高度保密，投资者担心缺乏透明度会影响对公司机器人业务估值的判断。",
-      "script": "特斯拉的人形机器人项目Optimus，最近因为过度保密而让华尔街的分析师和投资者感到不安。据报道，特斯拉迟迟没有披露Optimus项目在量产进度、成本控制、核心零部件供应链等方面的具体细节，这种信息真空正在让市场对这款被马斯克多次描述为未来最大业务的产品估值变得愈发困难。从行业背景看，人形机器人赛道这两年吸引了大量资本和媒体关注，从波士顿动力到国内的优必选、智元机器人，再到特斯拉自己，各家公司都在角逐这个被认为潜力巨大的市场。但人形机器人想要真正走向量产和商业化，需要跨过执行器成本、灵巧操作能力、电池续航、软件通用性等多重技术门槛，任何一家公司声称的进展，都需要具体的量产时间表、成本数据和应用场景来支撑市场信心。特斯拉过去曾展示过Optimus在工厂环境中执行简单任务的视频，并暗示未来可能应用于家庭服务场景，但始终未公布详细的技术路线图或者第三方可验证的性能测试结果。这种只给愿景、不给细节的沟通方式，在公司股价与机器人业务预期深度绑定的背景下，容易放大市场的不确定性情绪。分析人士认为，如果特斯拉希望Optimus真正成为支撑公司估值的叙事支柱，可能需要在接下来的财报或者产品发布会上提供更多可验证的量产和技术指标，否则持续的信息不透明可能会被解读为项目进展不及预期的信号。后续需要关注特斯拉是否会在即将到来的财报电话会或者其他公开场合，披露Optimus的具体量产时间表和技术细节。",
-      "duration_seconds": 155,
+      "title": "人形机器人触觉主动感知导航新方法：TAPNAV",
+      "english_term": "TAPNAV（Tactile Active Perception Navigation，触觉主动感知导航）",
+      "summary": "一项新研究提出让人形机器人在无视觉条件下，通过主动触碰环境结构来完成导航的框架。",
+      "script": "来看一篇聚焦人形机器人导航的新论文，题目是TAPNAV，核心思路是让人形机器人在视觉缺失的环境下，依靠触觉主动感知完成导航。研究背景是这样的：在视觉信息不可用的场景里，比如烟雾、黑暗或者传感器被遮挡的情况下，人形机器人只能依靠本体感知，也就是关节编码器和惯性测量单元IMU提供的运动信息来估计自身位姿，但这类里程计会随着时间推移产生漂移，定位的不确定性会迅速累积，机器人很容易走偏甚至迷失方向。研究团队提出的方法是维持一个基于里程计、IMU和触觉接触观测融合得到的姿态置信度估计，并让机器人主动去探触周围的结构物，比如墙壁或障碍物边缘，通过触碰获得的信息来修正位姿估计中的不确定性，而不是被动等待误差累积。这种“主动触探”的思路和此前更多依赖视觉同步定位与建图（SLAM）的方案形成对比，目标是在极端感知受限场景下提供一条可行路径。论文目前发布在arXiv预印本平台，还没有经过同行评审，具体的实验场景、机器人平台细节和定位精度数据需要等待论文正式发表或后续版本公布。从研究意义上看，这类方法如果得到验证，可能会为人形机器人在救援、工业巡检等视觉受限环境下的应用提供新的技术路径，但目前仍属于早期探索阶段，距离实际部署还有距离。",
+      "duration_seconds": 130,
       "is_unverified": true,
-      "confidence_note": "该内容来自聚合类机器人新闻搜索引用Barron's报道，属于市场情绪与分析性报道，缺乏特斯拉官方一手数据佐证，需谨慎对待。",
+      "confidence_note": "来自arXiv预印本，尚未经过同行评审，技术细节和实验结果有待论文正式发表后进一步核实",
       "fact_status": {
         "confirmed": [
-          "特斯拉尚未披露Optimus项目在量产、成本等方面的详细信息"
+          "该论文提出了名为TAPNAV的触觉主动感知导航框架"
         ],
         "claims": [
-          "华尔街分析师和投资者对此表示担忧，认为缺乏透明度影响估值判断"
+          "该方法声称可在视觉缺失环境下通过主动触探修正位姿不确定性"
         ],
         "analysis": [
-          "人形机器人商业化需要具体可验证数据支撑市场信心",
-          "信息不透明可能被解读为项目进展不及预期"
+          "该方向若得到验证，可能为视觉受限场景下的人形机器人导航提供新思路，但目前仍处于预印本阶段"
         ]
       },
       "source_ids": [
-        "e2749fc1883a8f25"
+        "5e013c5b92dedfb1"
       ],
       "sources": [
         {
-          "id": "e2749fc1883a8f25",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Tesla’s Secrecy Surrounding Optimus Robot Is Making Wall Street Nervous - Barron's",
-          "summary": "Tesla’s Secrecy Surrounding Optimus Robot Is Making Wall Street Nervous Barron's",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CQ1h0a05TX1p5Mm1hZVBxTC1TUmVUbHNXTU1mMGZsVDQtdDR3M0t2aDdieFJCc0t2ZDhqWkNBeWgxb0x5Sng3RnRnOEFhOEFjYmhkZ2lacTdpQ3IybTVrNHZXZV8zbzByOUhrSXJ1RldPMk9BYlE?oc=5",
-          "published_at": "2026-10-08T12:02:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "四足机器人端到端自动驾驶框架实现城市导航",
-      "english_term": "end-to-end autonomous driving policy（端到端自动驾驶策略）",
-      "summary": "研究团队提出Go2-DrivoR框架，将原本用于车辆的端到端自动驾驶轨迹规划方法适配到四足机器人的城市场景导航任务中。",
-      "script": "在移动机器人领域，如何让机器人在复杂城市环境中自主导航一直是核心难题。最近一篇发表在arXiv上的论文提出了一个名为Go2-DrivoR的框架，把原本为轮式车辆设计的端到端自动驾驶轨迹规划方法DrivoR，改造后应用到了四足机器人身上，让它们也能进行城市场景中的短距离目标导航。所谓端到端，指的是整个系统直接从传感器输入映射到行驶轨迹输出，中间不需要人工拆分成地图构建、路径规划、轨迹跟踪等独立模块，这种方式近年来在自动驾驶领域发展迅速。研究团队的核心思路，是给原有的轨迹生成过程加入一个目标令牌，也就是Goal Token，通过这个令牌，系统可以根据局部坐标系下给出的一个子目标点来调整生成的轨迹，同时对原本针对车辆设计的打分机制也做了适配，让它更符合四足机器人的运动特性。值得注意的是，整个方法没有对DrivoR原有的核心解码器结构进行重新设计，而是通过轻量化的改造实现了功能扩展，这种做法的好处是开发效率更高，也便于复用已有的车辆自动驾驶研究成果。从应用角度看，四足机器人相比轮式车辆具备更强的地形适应能力，能够在楼梯、碎石路、草地等非结构化环境中行动，如果能够叠加车辆级别的端到端自动驾驶能力，有望让四足机器人在城市配送、安防巡逻、灾后搜救等场景中拥有更强的自主导航能力。不过，这项研究目前还只是预印本阶段，并未经过同行评审，论文摘要中也未详细说明具体的实验环境规模、成功率等量化指标，其实际性能和泛化能力还有待进一步验证。后续需要等待论文正式发表和同行评审结果，以及是否有更多实机测试数据公布。",
-      "duration_seconds": 165,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv机器人学板块的预印本论文，尚未经过同行评审，摘要中未给出具体实验数据，需等待正式发表后验证。",
-      "fact_status": {
-        "confirmed": [
-          "研究团队提出了名为Go2-DrivoR的框架，将端到端自动驾驶方法DrivoR适配到四足机器人导航任务"
-        ],
-        "claims": [],
-        "analysis": [
-          "该方法若验证有效，可能提升四足机器人在城市非结构化环境中的自主导航能力",
-          "目前仅为预印本，缺乏具体量化实验结果"
-        ]
-      },
-      "source_ids": [
-        "d6ce4ff9f14005f6"
-      ],
-      "sources": [
-        {
-          "id": "d6ce4ff9f14005f6",
+          "id": "5e013c5b92dedfb1",
           "source": "arXiv Robotics (cs.RO)",
           "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Taming an End-to-End Autonomous Driving Policy for Urban Navigation of Quadruped Robots",
-          "summary": "arXiv:2610.08812v1 Announce Type: new Abstract: We present Go2-DrivoR, a goal-conditioned adaptation of the end-to-end autonomous driving trajectory planning framework DrivoR for urban navigation with quadrupedal robots. By conditioning trajectory generation on a local-frame subgoal through a goal token and adapting the vehicle-centric scoring formulation, the method extends DrivoR to short-horizon goal-conditioned local planning without redesigning its core decoders. Specifically, we redefine drivable-area compliance for sidewalk-oriented navigation and reformulate the original ego progress term as goal-conditioned ego progress. Trained exclusively on TartanGround simulation data, Go2-DrivoR improves waypoint-conditioned planning performance on unseen simulation environments and transfers zero-shot to open-loop real-world trajectory prediction.",
-          "url": "https://arxiv.org/abs/2610.08812",
-          "published_at": "2026-10-08T04:00:00+00:00",
+          "title": "TAPNAV: Humanoid Navigation through Tactile Active Perception",
+          "summary": "arXiv:2610.10748v1 Announce Type: new Abstract: Navigation in vision-denied environments is challenging for humanoid robots because proprioceptive odometry drifts and localization uncertainty accumulates rapidly. We present TAPNAV, a tactile active-perception framework that enables humanoid navigation toward a goal by actively probing surrounding structures without relying on vision. TAPNAV maintains a pose belief from odometry, IMU, and tactile contact observations, and couples uncertainty-aware global route planning with information-gain-driven local probing. The global planner searches for routes that keep predicted localization uncertainty bounded by exploiting opportunities for tactile correction, while the local planner selects probe actions that maximize expected information gain. A whole-body controller coordinates the humanoid's locomotion and end-effector contact to execute the planned navigation and probe motions. We evaluate TAPNAV in simulation and on a Unitree G1 across different floor plans and obstacle geometries. TAPNAV achieves lower state estimation error and a higher task completion rate than baselines. These results demonstrate that actively planning physical i",
+          "url": "https://arxiv.org/abs/2610.10748",
+          "published_at": "2026-10-09T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -243,38 +176,39 @@
     },
     {
       "category": "robotics",
-      "title": "低成本声学传感实现机械手抓取中的打滑与破裂检测",
-      "english_term": "slip and fracture detection（打滑与破裂检测）",
-      "summary": "研究人员提出名为SAFE的低成本感知方案，利用两枚压电薄膜声学传感器配合电机本体感知，实时检测机器人抓取脆弱物体时的打滑和破裂情况。",
-      "script": "机器人抓取易碎物体，一直是操作，也就是Manipulation研究中的一个难点。当机器人手爪抓住一个不知道材质特性的物体时，怎么判断它是不是正在打滑、或者已经被捏碎了，这个问题如果处理不好，轻则抓取失败，重则损坏物品。最近一篇arXiv论文提出了一套名为SAFE的低成本感知方案，试图统一解决打滑检测和破裂检测这两个问题。这套方案的硬件非常简洁，只用了两枚被动式的聚偏二氟乙烯，也就是PVDF压电薄膜声学传感器，再配合电机的本体感知信号，既不依赖摄像头视觉输入，也不需要复杂的触觉传感器阵列。PVDF是一种常见的压电材料，受到机械形变时会产生电信号，因此可以用来捕捉抓取过程中产生的细微振动和声音信号，这些信号里就隐藏着物体打滑或者材料开始断裂的早期特征。研究团队的思路是，通过分析这些声学信号和电机的转矩、位置等本体感知数据的组合模式，实时识别出打滑和破裂这两种不同的失败模式，并且整个方案不需要提前知道被抓取物体的材料属性。这种方法的价值在于，它用非常低成本的传感器组合，替代了原本可能需要高分辨率视觉系统或者昂贵触觉传感器阵列才能完成的任务，如果效果理想，将有助于降低机器人在复杂抓取场景中的硬件成本。不过，目前这项研究同样处于预印本阶段，论文摘要没有披露具体的检测准确率、响应延迟等关键性能指标，也没有说明该方法在多大范围的物体材质和形状上进行过验证，这些都需要等待论文正式发表和同行评审后才能获得更全面的评估。后续需要关注论文完整版中公布的具体实验数据和适用范围。",
-      "duration_seconds": 165,
+      "title": "四足机器人技能学习新方法：强化学习结合模仿学习与对抗任务选择",
+      "english_term": "RL与IL结合的三阶段训练框架（Reinforcement Learning强化学习，Imitation Learning模仿学习）",
+      "summary": "一项新研究提出三阶段训练框架，让四足机器人在单一策略下掌握行走、挖掘、近距离测绘等多种差异很大的技能。",
+      "script": "另一篇值得关注的论文聚焦四足机器人，也就是常说的“机器狗”，如何学会一系列差异很大的技能。背景是这样的：现有的强化学习方法已经能让四足机器人完成单一任务下的多种动作，但像农业机器人或者太空探测这类应用，往往需要机器人同时具备行走、挖掘、近距离测绘等差异很大的能力。如果用端到端的方式训练一个策略去同时学会这些任务，会遇到两个典型问题：一是样本效率低，训练成本高；二是多任务学习中不同任务之间容易出现梯度冲突，也就是针对不同任务优化的方向会互相干扰，导致训练效果打折扣。研究团队为此提出了一个三阶段的训练框架，结合强化学习与模仿学习，并引入对抗式的任务选择机制，具体做法是在训练过程中动态挑选当前策略表现较弱或容易产生冲突的任务重点训练，从而缓解梯度冲突、提升整体学习效率。这个方向延续了近年来机器人学习领域对多任务、多技能融合的探索趋势，和此前单纯依赖强化学习走单一任务路线的方法形成对比。论文同样发布在arXiv上，尚未经过同行评审，论文中提到的具体任务集合、实验平台和量化对比数据还需要等待正式发表或后续版本公布，才能做更准确的评估。",
+      "duration_seconds": 120,
       "is_unverified": true,
-      "confidence_note": "arXiv预印本，尚未经过同行评审，缺乏具体性能数据，仅作为学术热点呈现。",
+      "confidence_note": "来自arXiv预印本，尚未经过同行评审，具体实验结果和任务设置有待进一步核实",
       "fact_status": {
         "confirmed": [
-          "研究团队提出了名为SAFE的低成本声学感知方案，用于检测机器人抓取中的打滑与破裂"
+          "论文提出了结合强化学习与模仿学习的三阶段训练框架，并引入对抗式任务选择机制"
         ],
-        "claims": [],
+        "claims": [
+          "该方法声称可缓解多任务学习中的梯度冲突并提升样本效率"
+        ],
         "analysis": [
-          "若方案有效，有望降低机器人精细抓取任务的硬件成本",
-          "具体性能和适用范围仍需后续验证"
+          "该研究面向农业机器人、空间探测等需要多技能融合的应用场景，但目前仍处于预印本阶段，缺乏同行评审"
         ]
       },
       "source_ids": [
-        "cb488407f2d6b608"
+        "94f5afd3ec79cdd8"
       ],
       "sources": [
         {
-          "id": "cb488407f2d6b608",
+          "id": "94f5afd3ec79cdd8",
           "source": "arXiv Robotics (cs.RO)",
           "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "SAFE: Unified Slip and Fracture Detection with Low-Cost Acoustic Sensing in Robotic Grasping",
-          "summary": "arXiv:2610.08802v1 Announce Type: new Abstract: Manipulating fragile objects remains challenging as robots must understand the state of what they grasp, such as slip or fracture, to respond appropriately, especially when material properties are unknown. In this paper, we present SAFE: a low-cost, general-purpose sensing approach that detects both slip and fracture in real time using two passive polyvinylidene fluoride (PVDF) acoustic sensors and motor proprioception, without relying on vision or prior material knowledge. The sensors are mounted on a compliant Fin Ray gripper, and a unified HistGradientBoosting classifier reports the state (normal, slip, or fracture) from a 79-dimensional feature vector. Under leave-one-grasp-out cross-validation, SAFE achieves an Alert-F1 of 0.884 with near-zero slip-fracture confusion, and ablations confirm that acoustic sensing is indispensable. An adaptive grasp controller built on this detection layer runs at 104 Hz on a Jetson Orin Nano, achieving 91.3% success across 46 closed-loop robot trials spanning diverse object categories, while each fixed-force strategy drops to 0% on object conditions that mismatch its preset. It further reaches 82.4",
-          "url": "https://arxiv.org/abs/2610.08802",
-          "published_at": "2026-10-08T04:00:00+00:00",
+          "title": "Teaching a Robot Dog New Tricks: Diverse Quadruped Skills via Combined Reinforcement and Imitation Learning with Adversarial Task Selection",
+          "summary": "arXiv:2610.10601v1 Announce Type: new Abstract: Reinforcement Learning (RL) has enabled legged robots to perform a range of skills in single-task settings. However, applications such as farm robotics or space exploration require diverse skills such as locomotion, digging, or close-range surveying. Training an end-to-end policy to address this problem remains difficult due to challenges such as sample inefficiency and gradient conflict between tasks in multi-task learning. We propose a three-stage method that trains a single policy to perform distinct tasks such as walking, digging, and hopping, and compose them into novel behaviors such as crawling. First, multiple teacher policies are trained using RL on narrowly defined tasks. Then, two additional stages train a student policy with a multi-teacher distillation setup that uses a combined RL and Imitation Learning (IL) objective under an adversarial task selection process that focuses training on the worst-performing task. With this method, we train a student policy that performs 22 tasks using 8 teachers. Evaluations show our method preserves motion quality and tracks commands more accurately than PPO and distill-then-finetune bas",
+          "url": "https://arxiv.org/abs/2610.10601",
+          "published_at": "2026-10-09T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -282,79 +216,109 @@
     },
     {
       "category": "robotics",
-      "title": "泰瑞达机器人与Elite Robots达成和解，结束协作机器人软件纠纷",
-      "english_term": "cobot（协作机器人）",
-      "summary": "泰瑞达旗下机器人业务与中国协作机器人公司Elite Robots就软件纠纷达成和解，具体条款未公开。",
-      "script": "协作机器人，也就是Cobot领域的一起商业纠纷近日落下帷幕。泰瑞达机器人，也就是Teradyne Robotics，和中国协作机器人厂商节卡机器人旗下品牌Elite Robots，已经就此前的软件争议达成和解，双方同意结束这起法律案件，但并未对外披露具体的和解条款。虽然报道中没有详细说明争议的具体技术内容，但从行业背景来看，协作机器人市场近年来竞争日趋激烈，不少厂商在核心控制软件、运动规划算法等方面存在专利或知识产权方面的摩擦，这类纠纷往往涉及机器人控制系统底层代码的归属权，或者是否存在未经授权使用竞争对手技术方案的问题。泰瑞达旗下拥有包括Universal Robots在内的知名协作机器人品牌，是全球协作机器人市场的重要参与者，而Elite Robots作为中国市场增长较快的协作机器人厂商，近年来也在积极拓展海外业务。两家公司选择庭外和解而非继续诉讼，通常意味着双方都希望避免旷日持久的法律成本，并尽快将精力重新投入到产品竞争中去。这类纠纷的和解，对行业本身也有一定警示意义，它提醒越来越多涌入协作机器人赛道的厂商，在产品研发和市场拓展过程中需要更加重视知识产权边界的清晰界定。由于具体和解条款没有公开，外界无法判断这次纠纷最终是以何种方式收场，比如是否涉及赔偿金额或者技术授权安排。后续需要关注双方是否会在公开场合进一步说明合作或竞争关系的变化。",
-      "duration_seconds": 150,
+      "title": "AWS联合NVIDIA推出开源物理AI工具链",
+      "english_term": "Physical AI Toolchain（物理AI工具链）",
+      "summary": "亚马逊云科技AWS发布开源物理AI工具链，整合合成数据生成、模型训练、仿真验证与边缘部署等环节，服务机器人开发全流程。",
+      "script": "产业层面，AWS也就是亚马逊云科技宣布推出一套开源的物理AI工具链，整合了AWS自身和NVIDIA的工具，覆盖机器人开发流程中的多个关键环节，包括合成数据生成、模型训练、仿真验证、边缘部署以及持续优化改进。这套工具链的意义在于，它试图把原本分散在不同厂商、不同平台上的机器人开发工具串联成一条相对完整的流水线。对机器人公司而言，开发一款新机器人往往需要先用仿真环境生成大量合成数据来训练感知和控制模型，再通过仿真验证模型的安全性和可靠性，最后才部署到真实的边缘计算设备上，这个过程涉及多个异构工具的衔接，工程成本和集成难度都不低。AWS和NVIDIA的合作，背后反映的是云计算巨头与芯片厂商在机器人这一新兴赛道上的协同布局——云厂商提供弹性算力和数据管理能力，芯片厂商提供仿真引擎和硬件加速能力，两者结合试图降低机器人开发的门槛。这和同期另一则消息形成呼应：机器人仿真安全公司SafeWorld也在近期从隐身模式中公开亮相，专注于为企业提供机器人安全仿真测试平台，这说明仿真与安全验证正在成为机器人产业链中愈发受重视的独立环节。目前AWS工具链的具体技术细节、合作深度以及首批接入的机器人厂商，还需要等待官方进一步公布。",
+      "duration_seconds": 130,
       "is_unverified": false,
-      "confidence_note": "The Robot Report为行业专业媒体，但和解具体条款未公开，相关细节依赖该单一来源。",
+      "confidence_note": "来自The Robot Report官方报道，Tier 2专业信源",
       "fact_status": {
         "confirmed": [
-          "泰瑞达机器人与Elite Robots就软件纠纷达成和解，结束法律案件"
+          "AWS发布开源物理AI工具链，整合AWS与NVIDIA工具",
+          "工具链覆盖合成数据生成、模型训练、仿真验证、边缘部署等环节"
         ],
         "claims": [],
         "analysis": [
-          "和解条款未公开，具体纠纷性质和解决方式无法完全判断",
-          "反映协作机器人行业知识产权摩擦日益增多"
+          "云厂商与芯片厂商正在机器人开发工具链上形成协同布局，试图降低机器人开发门槛"
         ]
       },
       "source_ids": [
-        "28ac0d7a00015c49"
+        "f8230322ae2a6a51",
+        "63fe0dfe207250c4"
       ],
       "sources": [
         {
-          "id": "28ac0d7a00015c49",
+          "id": "f8230322ae2a6a51",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Teradyne Robotics, Elite Robots settle cobot dispute",
-          "summary": "Teradyne Robotics and Elite Robots have settled their software dispute, ending the legal case without disclosing the terms of the agreement. The post Teradyne Robotics, Elite Robots settle cobot dispute appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/terayne-robotics-elite-robots-settle-cobot-dispute/",
-          "published_at": "2026-10-07T16:20:52+00:00",
+          "title": "AWS launches open-source Physical AI Toolchain for robotics",
+          "summary": "The toolchain combines AWS and NVIDIA tools for synthetic data generation, model training, simulation and validation, edge deployment, and continuous improvement. The post AWS launches open-source Physical AI Toolchain for robotics appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/",
+          "published_at": "2026-10-08T13:23:58+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "63fe0dfe207250c4",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "SafeWorld emerges from stealth to build, deploy robot safety simulation technologies",
+          "summary": "SafeWorld’s platform provides testing and simulation software to help enterprises evaluate and deploy robots safely and responsibly. The post SafeWorld emerges from stealth to build, deploy robot safety simulation technologies appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/safeworld-emerges-stealth-build-deploy-robot-safety-simulation-technologies/",
+          "published_at": "2026-10-08T21:09:48+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "other",
-      "title": "施耐德电气收购PTC，意图在工业软件领域挑战西门子",
-      "english_term": "digital thread（数字线程）",
-      "summary": "施耐德电气通过收购工业软件公司PTC，试图打通从产品设计到运营管理的完整数字化链条，以此在工业自动化软件市场与西门子展开竞争。",
-      "script": "工业自动化和机器人产业的软件生态版图正在发生新的变化。施耐德电气近日完成对工业软件公司PTC的收购，分析机构Interact Analysis指出，这笔交易让施耐德电气获得了一条从产品设计一直延伸到生产运营的数字线程，也就是Digital Thread，能力，这通常指的是将产品全生命周期中产生的设计数据、制造数据和运营数据打通串联，形成一个连续可追溯的数据链条。对于机器人和自动化产业来说，这种数字线程能力意味着企业可以在产品设计阶段就引入仿真和虚拟调试，在生产阶段实时获取设备运行数据，并将这些数据反馈回设计环节进行持续优化，从而缩短产品迭代周期、降低生产成本。PTC作为老牌工业软件公司，在计算机辅助设计、产品生命周期管理等领域有深厚积累，而施耐德电气本身则是工业自动化和能源管理领域的重要厂商，两者的结合被外界视为施耐德电气正面挑战西门子在工业软件领域主导地位的重要一步。西门子多年来凭借其工业软件平台Xcelerator，在从设计仿真到工厂自动化的全链条布局上占据领先位置，施耐德电气此次收购显然是希望弥补自身在软件层面的短板。不过，分析机构同时也提醒，施耐德电气接下来面临的真正挑战在于数据和软件系统的整合，收购只是第一步，如何把PTC原有的软件体系与施耐德电气自身的硬件和运营管理系统无缝对接，将直接决定这笔收购能否真正转化为市场竞争力。后续需要关注施耐德电气公布具体的整合路线图和时间表。",
-      "duration_seconds": 155,
+      "category": "robotics",
+      "title": "Jabil解读人形机器人量产节奏，Helm.ai基础模型获7000万美元商业合同",
+      "english_term": "Foundation Model（基础模型）",
+      "summary": "代工巨头Jabil分享了与Apptronik等公司合作中观察到的人形机器人量产进展，同时自动驾驶AI公司Helm.ai宣布其基础模型已获得7000万美元签约合同。",
+      "script": "再看两条产业消息。首先是电子制造服务巨头Jabil，它长期与人形机器人公司Apptronik等企业合作，为人形机器人提供设计与制造方面的视角。Jabil在最新分享中谈到了人形机器人从原型走向量产过程中的节奏问题，这类讨论的价值在于，Jabil作为代工方，直接参与机器人从设计图纸到实际生产线的转化过程，它的观察往往能反映出人形机器人产业当前面临的真实工程挑战，比如零部件供应链的成熟度、产线良率爬坡速度，以及成本控制等问题，而不仅仅是机器人公司自己发布的演示视频所展现的理想状态。另一条消息来自自动驾驶人工智能公司Helm.ai，该公司宣布其基础模型已经累计获得7000万美元的签约商业合同。Helm.ai的技术路线是用一种被称为“深度教学”的无监督学习方法，让模型自主掌握物理世界的结构规律，而不依赖大规模人工标注数据。这种思路和当前具身智能领域普遍采用的大规模示教数据加强化学习的路线形成对比，如果其无监督方法能够在实际商业场景中持续验证有效，可能为降低机器人和自动驾驶系统的数据标注成本提供另一种选择。不过，目前关于这7000万美元合同的具体客户名单、应用场景分布，以及Jabil所说的人形机器人量产时间表细节，都还需要等待公司方面进一步披露。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "The Robot Report援引分析机构Interact Analysis观点进行报道，属于行业专业媒体对并购交易的解读性报道。",
+      "confidence_note": "均来自The Robot Report官方报道，为公司一手信息",
       "fact_status": {
         "confirmed": [
-          "施耐德电气完成对PTC的收购"
+          "Jabil分享了其在人形机器人设计制造合作中的观察",
+          "Helm.ai宣布其基础模型已获得7000万美元签约商业合同"
         ],
         "claims": [
-          "Interact Analysis认为此举让施耐德电气获得了数字线程能力，意图挑战西门子"
+          "Helm.ai称其无监督深度教学方法能让模型掌握物理世界结构规律"
         ],
         "analysis": [
-          "收购后的数据与软件整合将是决定交易成效的关键",
-          "反映工业自动化软件市场竞争格局正在重塑"
+          "代工企业的参与程度和基础模型商业化进展，是观察人形机器人产业成熟度的重要指标"
         ]
       },
       "source_ids": [
-        "59bcffafcacdbc4d"
+        "db9a7f34861fafe0",
+        "84c5eb0fd338fa34"
       ],
       "sources": [
         {
-          "id": "59bcffafcacdbc4d",
+          "id": "db9a7f34861fafe0",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "PTC acquisition positions Schneider Electric to challenge Siemens",
-          "summary": "The Schneider Electric acquisition of PTC gives it a 'digital thread' from design through operations, but it needs to integrate data and software, says Interact Analysis. The post PTC acquisition positions Schneider Electric to challenge Siemens appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/ptc-acquisition-positions-schneider-electric-challenge-siemens/",
-          "published_at": "2026-10-07T21:07:53+00:00",
+          "title": "Jabil discusses the pace of humanoid robot development and production",
+          "summary": "Jabil, which is working with robot developers such as Apptronik, provides a design perspective on humanoid progress. The post Jabil discusses the pace of humanoid robot development and production appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/jabil-discusses-pace-humanoid-robot-development-production/",
+          "published_at": "2026-10-08T16:16:21+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "84c5eb0fd338fa34",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Helm.ai reaches $70M in signed commercial contracts for its foundation models",
+          "summary": "Helm.ai trained its foundation models using its unsupervised 'deep teaching' methodology to master the structure of the physical world itself. The post Helm.ai reaches $70M in signed commercial contracts for its foundation models appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/helm-ai-reaches-70m-signed-commercial-contracts-foundation-models/",
+          "published_at": "2026-10-08T15:55:31+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -362,123 +326,156 @@
     },
     {
       "category": "world",
-      "title": "意大利大幅改革选举制度，执政党与反对派各执一词",
+      "title": "法国学生抗议持续，政府承诺增派3000名教师",
       "english_term": null,
-      "summary": "意大利总理梅洛尼推动的选举制度改革获得通过，执政方称有助于形成稳定政府，反对党则指责此举意在巩固其个人权力。",
-      "script": "意大利政坛迎来一次重大制度变革。经过激烈辩论，意大利对选举制度进行了全面改革。意大利总理焦尔吉娅·梅洛尼表示，这次改革将有助于该国形成更加稳定的政府，结束意大利长期以来政府更迭频繁的局面。然而，反对党对此提出了尖锐批评，认为梅洛尼此举真实目的是巩固自己和执政联盟的权力基础，而非单纯出于提升治理效率的考虑。意大利长期以来因为比例代表制等因素，政府平均任期较短，执政联盟更替频繁，这在一定程度上影响了政策的连续性和国际社会对意大利政治稳定性的信心。梅洛尼自上任以来，一直试图通过制度层面的调整来延长执政周期、强化行政权力的稳定性，此次选举制度改革被视为她任内最重要的政治举措之一。从各方主张来看，这场围绕选举制度改革的争论，本质上反映了意大利国内对于效率优先还是权力制衡优先这两种执政理念的根本分歧。支持改革的一方认为，稳定的政府才能推行长期政策、吸引外资、应对欧盟层面的各项谈判；而反对的一方则担心，削弱比例代表制可能会压缩小党派和多元声音的政治空间，让权力过度集中在执政联盟手中。目前这一改革已经获得通过，但其实际效果，包括是否真的能够带来更稳定的政府，以及反对党后续是否会采取进一步的政治或法律手段应对，仍有待观察。后续需要关注意大利下一次选举中这一新制度的实际运作效果。",
-      "duration_seconds": 140,
+      "summary": "法国高中生持续举行示威抗议，部分场面出现暴力冲突，教育部长宣布将增派3000名教师作为缓和举措的第一步。",
+      "script": "法国国内的学生抗议活动持续发酵，教育部长爱德华·热弗雷宣布将增派3000名教师，作为平息学生抗议的第一步举措。此前几天，法国多地高中生持续举行示威游行，部分场面出现了暴力冲突。从目前的信息看，政府提出增派教师更多是一种安抚性质的回应，具体是否能从根本上解决学生们抗议所指向的教育资源分配、师资短缺等深层问题，目前还难以判断。这起事件也和法国国内近期政治氛围的紧张程度有关，学生抗议往往是社会情绪的放大器，需要观察政府后续是否会推出更系统性的教育政策调整，以及学生抗议活动是否会随着这一表态而降温。",
+      "duration_seconds": 65,
       "is_unverified": false,
-      "confidence_note": "BBC World作为Tier 2来源进行了报道，但为单一来源，文中已明确区分官方立场与反对党主张。",
+      "confidence_note": "来自BBC World官方报道",
       "fact_status": {
         "confirmed": [
-          "意大利通过了选举制度改革"
+          "法国教育部长宣布将增派3000名教师",
+          "法国近期发生多起学生抗议活动，部分出现暴力冲突"
         ],
-        "claims": [
-          "梅洛尼称改革将带来更稳定的政府",
-          "反对党指责梅洛尼此举意在巩固个人及执政联盟权力"
-        ],
+        "claims": [],
         "analysis": [
-          "改革反映意大利国内在效率与权力制衡之间的政治分歧",
-          "实际效果需要在下一次选举中检验"
+          "增派教师被视为缓和学生抗议的初步举措，能否解决深层问题仍待观察"
         ]
       },
       "source_ids": [
-        "a4345d3c9fff452b"
+        "d9457e58995202aa"
       ],
       "sources": [
         {
-          "id": "a4345d3c9fff452b",
+          "id": "d9457e58995202aa",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Italy overhauls electoral system after fiercely contested debate",
-          "summary": "Prime Minister Giorgia Meloni says the move will deliver more stable government, but opposition parties say her aim is to stay in power.",
-          "url": "https://www.bbc.co.uk/news/articles/c6zxjdw8rdl5o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-08T12:02:04+00:00",
+          "title": "France promises 3,000 extra teachers in first step to calm student protests",
+          "summary": "Education minister Edouard Geffray makes the offer after another day of sometimes violent demonstrations by high-school students.",
+          "url": "https://www.bbc.co.uk/news/articles/c6vg98lw017po?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-09T11:35:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "保加利亚与罗马尼亚邻近黑海海域沉船事件引发欧洲对俄无人机威胁的担忧",
-      "english_term": null,
-      "summary": "保加利亚与罗马尼亚附近海域近日各有一艘船只因疑似无人机袭击而沉没，保加利亚对此尚未明确指责俄罗斯，引发外界对黑海地区安全格局的讨论。",
-      "script": "黑海地区的安全局势再度引发关注。据报道，近期保加利亚和罗马尼亚沿岸附近海域各有一艘船只沉没，事发前疑似遭到无人机袭击。值得注意的是，保加利亚政府在此事上表现得颇为谨慎，并未像其他一些受到类似威胁的国家那样，直接将矛头指向俄罗斯。这种克制态度引发了外界对保加利亚是否会成为欧洲黑海防御体系中薄弱环节的讨论。黑海地区自俄乌冲突爆发以来，一直是双方海上力量较量和无人机、导弹袭击的高风险区域，乌克兰多次利用海上无人艇对俄黑海舰队发动打击，而俄罗斯方面也被指控对途经黑海的商船和基础设施发动袭击或采取胁迫手段。保加利亚和罗马尼亚都是北约成员国，两国沿岸船只接连发生疑似无人机袭击导致沉没的事件，如果被证实与俄罗斯有关，将意味着黑海冲突的外溢效应正在进一步扩大到更广泛的北约成员国水域。分析指出，保加利亚国内政治环境复杂，与俄罗斯历史上关系密切，这可能是其在归因问题上保持谨慎的部分原因，但这种态度也可能被解读为地区防御协调上的裂痕，削弱北约在黑海方向形成统一应对立场的能力。目前关于这两起沉船事件的袭击来源，尚无权威机构给出最终认定结论。后续需要关注保加利亚及欧盟相关机构是否会公布正式调查结果，以明确责任归属。",
-      "duration_seconds": 130,
-      "is_unverified": true,
-      "confidence_note": "DW Top Stories为唯一来源，事件归因尚不明确，保加利亚官方未指认责任方，信息具有不确定性。",
+      "category": "finance",
+      "title": "美联储对美国运通采取执法行动，涉及反洗钱监测失职",
+      "english_term": "Enforcement Action（执法行动）",
+      "summary": "美联储宣布对美国运通公司采取执法行动，原因包括该公司未能充分识别和上报某些涉嫌洗钱的可疑活动。",
+      "script": "金融监管方面，美联储宣布对美国运通公司采取执法行动，主要原因是该公司未能充分侦测和上报某些与洗钱相关的可疑活动。这是美联储作为银行监管机构行使执法权的一次典型案例，反映出监管部门对金融机构反洗钱合规体系的持续关注。反洗钱监测通常要求金融机构建立自动化的交易监控系统，对异常资金流动模式进行识别并及时上报监管部门，一旦这套机制出现漏洞，监管机构就可能采取包括罚款、整改要求在内的执法措施。目前公告中并未详细披露具体涉及的违规金额、整改期限等细节，这些信息需要等待美联储或美国运通方面进一步公布。",
+      "duration_seconds": 65,
+      "is_unverified": false,
+      "confidence_note": "来自美联储官方新闻稿，Tier 1一手信源",
       "fact_status": {
         "confirmed": [
-          "保加利亚和罗马尼亚附近海域近期各有一艘船只沉没，事发前疑似遭无人机袭击"
+          "美联储对美国运通公司采取执法行动，原因包括未能充分识别和上报可疑洗钱活动"
         ],
-        "claims": [
-          "保加利亚政府对此事未明确指责俄罗斯"
-        ],
+        "claims": [],
         "analysis": [
-          "事件可能反映黑海冲突外溢效应扩大",
-          "保加利亚的谨慎态度可能影响北约在该地区的统一应对立场"
+          "该行动反映监管机构对大型金融机构反洗钱合规体系的持续审查"
         ]
       },
       "source_ids": [
-        "18dc4287a0c48417"
+        "016b129bf96cb95a"
       ],
       "sources": [
         {
-          "id": "18dc4287a0c48417",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
+          "id": "016b129bf96cb95a",
+          "source": "Federal Reserve Press Releases",
+          "source_tier": 1,
+          "source_region": "us",
           "language": "en",
-          "category_hint": "world",
-          "title": "Security in the Black Sea region: is Bulgaria the weak link in Europe's defense against threats from Russia?",
-          "summary": "Two ships have sunk off the coast of Bulgaria and Romania after drone attacks in recent days. Sofia has held back on pointing the finger at Russia. What does that mean for security in the Black Sea and the region?",
-          "url": "https://www.dw.com/en/security-in-the-black-sea-region-is-bulgaria-the-weak-link-in-europe-s-defense-against-threats-from-russia/a-79592663?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-08T11:45:00+00:00",
+          "category_hint": "finance",
+          "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+          "summary": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+          "published_at": "2026-10-08T20:30:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "science",
+      "title": "NASA将举行记者会介绍对日本火星卫星探测任务的贡献",
+      "english_term": "MMX（Martian Moons eXploration，火星卫星探测任务）",
+      "summary": "NASA宣布将举行媒体电话会议，介绍其在日本宇宙航空研究开发机构JAXA的火星卫星探测任务中的贡献，该任务计划近期发射。",
+      "script": "最后关注一条航天消息。NASA宣布将举行一场媒体电话会议，内容是介绍其在日本宇宙航空研究开发机构，也就是JAXA主导的“火星卫星探测任务”中所做的贡献，这项任务的英文缩写是MMX。根据公告，这次任务计划从日本种子岛航天中心发射，目标是探测火星的卫星。NASA作为国际合作伙伴参与其中，通常会提供科学仪器、数据分析支持或者载荷层面的合作。这类国际深空探测合作项目往往涉及多国科研机构的分工协作，比如由主导方负责发射与总体任务设计，合作方提供特定科学载荷或数据处理能力。具体NASA在这次任务中承担的仪器或技术细节，需要等待发布会上的正式介绍。",
+      "duration_seconds": 70,
+      "is_unverified": false,
+      "confidence_note": "来自NASA官方公告，Tier 1一手信源",
+      "fact_status": {
+        "confirmed": [
+          "NASA将举行媒体电话会议介绍其在JAXA火星卫星探测任务中的贡献",
+          "该任务计划从日本种子岛航天中心发射"
+        ],
+        "claims": [],
+        "analysis": [
+          "该任务体现国际航天机构在深空探测领域的分工合作模式"
+        ]
+      },
+      "source_ids": [
+        "32fee866675e4675"
+      ],
+      "sources": [
+        {
+          "id": "32fee866675e4675",
+          "source": "NASA",
+          "source_tier": 1,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "science",
+          "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
+          "summary": "Media are invited to join NASA for a media teleconference at 4 p.m. EDT, Thursday, Oct. 15, to preview the agency’s contributions to JAXA’s (Japan Aerospace Exploration Agency) Martian Moons eXploration (MMX) mission. The mission is scheduled to launch from JAXA’s Tanegashima Space Center in Japan on Monday, Oct. 19 EDT (Tuesday, Oct. 20 JST). […]",
+          "url": "https://www.nasa.gov/news-release/nasa-briefing-to-highlight-contributions-to-martian-moons-mission/",
+          "published_at": "2026-10-08T20:22:12+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的内容就到这里。乌克兰前线局势、霍尔木兹海峡航运风险，以及机器人产业和学术界的多项新动态，都值得持续关注后续进展。",
-  "editor_note": "本期机器人部分综合了IEEE Spectrum Robotics、The Robot Report、arXiv等多个专业来源，覆盖产业并购、法律纠纷与学术预印本；由于候选中多篇arXiv论文和Barron's报道均属预印本或市场分析性质，已对应标注is_unverified及评审局限。国际新闻部分因候选高度集中于俄乌冲突与中东紧张局势，对同类事件进行了取舍，优先选择信息最完整、来源交叉验证度最高的报道；南非黑海沉船事件及霍尔木兹油轮遇袭因来源有限，均标注为未完全证实。机器人类事件总时长占比约为51%，符合均衡覆盖要求；施耐德电气收购PTC事件因未涉及机器人核心主题，归类为other。",
+  "closing": "今天的内容就到这里。后续需要等待NASA与JAXA关于火星卫星探测任务发射的进一步细节，也需要等待多篇机器人学术论文的同行评审结果和公司方面对人形机器人量产节奏的具体时间表。",
+  "editor_note": "为将机器人时长比例调整至45%-55%区间，本版移除原“农业机器人与低成本人形机器人”快速扫描一项，保留四篇核心机器人报道（触觉导航论文、四足多技能学习论文、AWS物理AI工具链、Jabil与Helm.ai产业动态），机器人时长合计515秒，占全部1030秒的约50%，符合要求。机器人部分兼顾了arXiv学术预印本与The Robot Report产业信源，均标注评审状态。国际政治部分覆盖诺贝尔和平奖、中东紧张局势与法国国内抗议；体育、娱乐类候选信息因重要性相对有限，本期未纳入。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 9606,
-      "output_tokens": 10814,
-      "total_tokens": 20420
+      "input_tokens": 9392,
+      "output_tokens": 8863,
+      "total_tokens": 18255
     },
     {
-      "input_tokens": 12680,
-      "output_tokens": 10352,
-      "total_tokens": 23032
+      "input_tokens": 10718,
+      "output_tokens": 7550,
+      "total_tokens": 18268
     }
   ],
   "usage": {
-    "input_tokens": 22286,
-    "output_tokens": 21166,
-    "total_tokens": 43452
+    "total_tokens": 36523,
+    "input_tokens": 20110,
+    "output_tokens": 16413
   },
-  "generated_at": "2026-10-08T12:12:58+00:00",
-  "window_start": "2026-10-07T12:12:58+00:00",
-  "candidate_count": 367,
+  "generated_at": "2026-10-09T12:06:51+00:00",
+  "window_start": "2026-10-08T12:06:51+00:00",
+  "candidate_count": 350,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1465,
-    "script_characters": 5698,
-    "topic_duration_share": 0.549,
+    "duration_seconds": 930,
+    "script_characters": 3627,
+    "topic_duration_share": 0.554,
     "passed": true,
     "normal_target_met": false,
-    "topic_source_count": 4,
+    "topic_source_count": 2,
     "issues": []
   }
 }
