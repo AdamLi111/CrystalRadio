@@ -1,94 +1,324 @@
 {
-  "title": "晶球电台早报",
-  "subtitle": "中东局势骤然升温，北京人形机器人竞技场外，论文与产业齐头并进",
+  "title": "晶球电台早报：普渡清洁机器人斩获国际大奖，欧洲多国就俄乌局势紧张博弈",
+  "subtitle": "柴油交易引发欧洲不满，黑海无人机击沉货轮；机器人产业继续在落地场景中寻找竞争力",
   "highlights": [
-    "沙特利雅得机场遭胡塞武装袭击，中东冲突升级风险上升",
-    "俄乌“能源停火”刚宣布即被指违反，欧盟同步通过史上最大对俄制裁包",
-    "arXiv一天内集中放出多篇机器人学术新论文，覆盖空中操作、全身触觉与记忆基准"
+    "特朗普与普京的柴油协议引发欧洲盟友强烈不满",
+    "保加利亚因黑海商船遭无人机击沉召见俄罗斯大使，11名船员下落不明",
+    "普渡机器人PUDU BG1系列斩获ISSA两项大奖，商用清洁机器人赛道竞争持续升温",
+    "企业机器人部署从试点走向量产，行业开始关注真实世界条件下的鲁棒性评测"
   ],
   "stories": [
     {
       "category": "world",
-      "title": "胡塞武装袭击利雅得机场，中东局势风险升级",
+      "title": "特朗普与普京达成柴油交易，欧洲盟友集体不满",
       "english_term": null,
-      "summary": "胡塞武装对沙特利雅得国际机场及另一设施发动袭击，造成人员死亡，沙特誓言将作出“严厉回应”，美国考虑采取军事行动。",
-      "script": "中东局势在过去一天明显升温。已确认的事实是，也门胡塞武装对沙特首都利雅得的国际机场以及另一处设施发动袭击，造成至少13人死亡，这是该武装近期针对沙特本土基础设施最严重的一次升级行动。沙特能源与安全部门已经证实机场运营受到干扰，部分航班一度中断。沙特官员随后公开表态，称将对此次袭击作出“严厉回应”，释放出可能采取军事反制的信号。与此同时，有报道指出美国正在考虑是否介入采取军事行动，但截至目前尚未有美方官方的正式决定或行动细节披露，这部分仍属于各方主张而非已确认事实。在也门国内战局方面，南部的“巨人旅”武装近期被观察人士认为已成为对抗胡塞武装的主要地面力量之一，这被视为地区代理人冲突进一步复杂化的信号。分析认为，此次袭击若引发沙特或美国的军事反制，红海与波斯湾航运安全将面临更大不确定性，此前已有报道称霍尔木兹海峡的商船船员因为过境风险正被开出高额报酬来吸引其冒险通行，这从侧面印证了地区航运保险与运力成本可能进一步上升。后续需要等待沙特官方公布具体反制措施，以及美方是否发布正式军事部署声明。",
-      "duration_seconds": 115,
+      "summary": "特朗普政府与俄罗斯达成的柴油交易引发欧洲国家强烈批评，乌克兰总统泽连斯基质疑华盛顿的真实动机。",
+      "script": "国际政治方面，美国总统特朗普与俄罗斯达成的一项柴油交易，在欧洲引发了明显的不满情绪。已确认的事实是，这项交易涉及美国与俄罗斯之间的柴油贸易安排，消息公开后立刻引来欧洲多国官员的批评声浪。乌克兰总统泽连斯基公开质疑华盛顿方面达成这项交易的真实动机，认为这与西方持续向俄罗斯施压、支持乌克兰的整体战略方向存在矛盾。欧洲盟友方面的主张是，这类能源交易客观上可能为俄罗斯提供经济上的喘息空间，削弱此前各方联合实施的制裁效果，因此多国官员表态将继续对莫斯科保持压力，不会因为这笔交易而改变既有立场。目前报道并未披露交易的具体金额、期限或执行细节，各方说法主要集中在政治层面的表态和质疑，尚缺乏更细致的官方文本佐证。分析判断上，这一事件折射出美国在乌克兰问题上与欧洲盟友之间可能出现的策略分歧，如果华盛顿在对俄经济问题上采取相对宽松的态度，可能会在跨大西洋联盟内部制造新的裂痕，尤其是在欧洲国家普遍承受能源与安全双重压力的背景下。与此同时，北约方面也在同一时间段内公布了应对俄罗斯潜在袭击的详细预案，显示出联盟内部在安全议题上仍保持统一协调的姿态，这与柴油交易引发的政治分歧形成了某种对照。后续需要等待欧洲官方对交易细节的进一步披露，以及北约内部是否会就此事召开专门磋商。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "多家二级来源交叉确认袭击事件与死亡人数，但美方是否军事介入仍为各方主张阶段，未见一手官方声明。",
+      "confidence_note": "基于NPR两篇独立报道交叉确认，但交易具体条款细节有限",
       "fact_status": {
         "confirmed": [
-          "胡塞武装袭击利雅得机场及另一设施，造成至少13人死亡",
-          "沙特官员公开表示将作出严厉回应"
+          "特朗普政府与俄罗斯达成柴油交易",
+          "该交易引发欧洲官员批评"
         ],
         "claims": [
-          "美国正考虑采取军事行动",
-          "南部巨人旅被视为对抗胡塞的主要力量"
+          "泽连斯基质疑华盛顿的交易动机",
+          "欧洲盟友称将继续对俄施压"
         ],
         "analysis": [
-          "地区冲突升级可能冲击红海与霍尔木兹海峡航运安全与保险成本"
+          "交易可能在跨大西洋联盟内部制造新的策略分歧"
         ]
       },
       "source_ids": [
-        "37ccdba973600088",
-        "1de2660aefa361f7",
-        "fd6a5d6d1e7bea1a",
-        "dfc8feb316046f86"
+        "77e68c273071ed19",
+        "62272d3a5b27e79d"
       ],
       "sources": [
         {
-          "id": "37ccdba973600088",
-          "source": "Al Jazeera",
+          "id": "77e68c273071ed19",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "middle-east",
+          "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Saudi Arabia vows resilience as Houthi strikes hit Riyadh airport",
-          "summary": "New footage shows a Houthi strike on Riyadh’s airport as Saudi Arabia reaffirms its resilience.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/saudi-arabia-vows-resilience-as-houthi-strikes-hit-riyadh-airport?traffic_source=rss",
-          "published_at": "2026-10-12T11:17:02+00:00",
+          "title": "Trump's diesel deal with Putin angers Europe",
+          "summary": "President Trump's diesel deal with Russia sparks European fury, as Ukraine's President Zelenskyy questions Washington's motives and allies vow to keep pressure on Moscow.",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
+          "published_at": "2026-10-13T08:44:19+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "1de2660aefa361f7",
-          "source": "DW Top Stories",
+          "id": "62272d3a5b27e79d",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "eu",
+          "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Saudi Arabia: Deadly Houthi strikes on Riyadh airport fuel fears of wider Middle East conflict",
-          "summary": "Deadly Houthi attacks on Saudi airports have disrupted flights and raised fears of a wider regional conflict, as the US considers military action.",
-          "url": "https://www.dw.com/en/saudi-arabia-deadly-houthi-strikes-on-riyadh-airport-fuel-fears-of-wider-middle-east-conflict/live-79639277?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-12T10:41:00+00:00",
+          "title": "How NATO plans to combat potential attacks on the alliance from Russia",
+          "summary": "NPR's Steve Inskeep speaks with former U.S. Assistant Secretary for European Affairs Dan Hamilton about NATO's detailed plans to counter any possible Russian attack on the alliance.",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-5998721/how-nato-plans-to-combat-potential-attacks-on-the-alliance-from-russia",
+          "published_at": "2026-10-13T08:44:14+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        },
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "黑海商船遭无人机击沉，保加利亚召见俄大使",
+      "english_term": null,
+      "summary": "一艘商船在黑海遭遇无人机攻击后沉没，11名船员下落不明，保加利亚随即召见俄罗斯大使表达抗议。",
+      "script": "黑海地区再度发生安全事件。已确认的事实是，一艘商船在黑海遭遇无人机袭击后沉没，当地官员表示目前有11名船员下落不明，搜救工作仍在进行。事件发生后，保加利亚政府做出强烈反应，召见了俄罗斯驻保加利亚大使，就此次袭击提出正式交涉。各方主张方面，当地官员将此次袭击定性为蓄意的无人机攻击行为，但报道中并未明确指出袭击方的身份认定依据，也没有提及俄罗斯方面对此事的官方回应或否认声明。分析判断来看，黑海近年来一直是俄乌冲突外溢效应最为集中的区域之一，商船和民用航运设施多次卷入军事行动的附带影响，此次事件如果最终被证实与俄罗斯军事行动直接相关，将进一步加剧黑海航运安全的紧张态势，也可能促使更多黑海沿岸国家加强对本国商船和港口设施的防护措施。保加利亚作为北约和欧盟成员国，此次召见俄罗斯大使的举动，也可以被视为对俄方在黑海活动的一种外交层面的施压信号。目前尚不清楚这艘商船的国籍、货物性质以及具体的遇袭地点细节，相关信息有待进一步披露。后续需要等待搜救结果公布，以及俄罗斯方面是否会对此次指控做出正式回应。",
+      "duration_seconds": 115,
+      "is_unverified": false,
+      "confidence_note": "基于BBC World单一来源报道，细节有限，需等待更多信息源确认",
+      "fact_status": {
+        "confirmed": [
+          "一艘商船在黑海遭无人机攻击后沉没",
+          "保加利亚召见俄罗斯大使"
+        ],
+        "claims": [
+          "当地官员将此事定性为无人机攻击",
+          "11名船员下落不明"
+        ],
+        "analysis": [
+          "事件可能加剧黑海航运安全紧张局势"
+        ]
+      },
+      "source_ids": [
+        "06abc9e88b3f6625"
+      ],
+      "sources": [
         {
-          "id": "fd6a5d6d1e7bea1a",
+          "id": "06abc9e88b3f6625",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
-          "summary": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation.",
-          "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-12T10:28:47+00:00",
+          "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
+          "summary": "Eleven crew members are missing after a merchant ship was sunk overnight, local officials say.",
+          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-13T10:57:17+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "普渡机器人清洁产品线斩获ISSA两项大奖",
+      "english_term": "ISSA（国际清洁行业协会）",
+      "summary": "普渡机器人的PUDU BG1系列商用清洁机器人在国际清洁行业协会ISSA评选中获得两项大奖，巩固其在商用清洁机器人领域的市场地位。",
+      "script": "来看一则机器人产业动态。普渡机器人旗下的PUDU BG1系列商用清洁机器人，在国际清洁行业协会ISSA的评选中斩获两项大奖。ISSA是全球清洁卫生行业具有代表性的行业协会之一，其奖项评选通常聚焦产品在实际商用场景中的性能表现、可靠性以及对行业标准的推动作用，因此获奖对于相关企业而言具有一定的行业背书意义。从技术背景看，商用清洁机器人通常需要结合SLAM同步定位与地图构建技术在商场、机场、写字楼等复杂室内环境中自主导航，同时还要应对不同地面材质、障碍物密度以及人流量变化带来的挑战，这对机器人的感知系统、路径规划算法和安全避障能力都提出了较高要求。普渡机器人近年来在服务机器人赛道上的布局，覆盖了送餐、清洁、配送等多个商用场景，这次获奖进一步强化了其在商用清洁细分领域的产品竞争力和品牌认知度。从产业角度观察，商用清洁机器人市场近几年持续扩张，核心驱动力来自于劳动力成本上升和人力短缺压力，尤其是在物业管理、酒店、商业综合体等场景中，机器人被视为替代重复性人力劳动的可行方案。不过，行业内对于清洁机器人实际落地效果的评价并不完全一致，设备采购成本、维护便利性以及在非标准化场景下的适应能力，仍然是制约大规模普及的重要因素。这则消息目前主要来自企业新闻稿渠道，缺乏第三方独立数据对产品实际市场占有率或具体销量的佐证，相关信息的权威性有限。后续需要关注普渡机器人是否会公布具体的市场份额数据，以及ISSA奖项评选的具体技术评测标准细节。",
+      "duration_seconds": 160,
+      "is_unverified": true,
+      "confidence_note": "消息来源为企业新闻稿渠道Press Release Hub，缺乏第三方独立验证，获奖具体评测标准和市场影响力数据有限",
+      "fact_status": {
+        "confirmed": [
+          "PUDU BG1系列获得ISSA两项奖项"
+        ],
+        "claims": [
+          "该奖项被企业方面称为巩固其全球商用清洁机器人领导地位的证明"
+        ],
+        "analysis": [
+          "商用清洁机器人市场扩张主要受劳动力成本上升驱动",
+          "大规模普及仍受制于采购和维护成本"
+        ]
+      },
+      "source_ids": [
+        "9fee6942d753a3fa"
+      ],
+      "sources": [
+        {
+          "id": "9fee6942d753a3fa",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Pudu Robotics' PUDU BG1 Series Wins Two ISSA Awards, Reinforcing Global Leadership in Commercial Cleaning Robotics - Press Release Hub",
+          "summary": "Pudu Robotics' PUDU BG1 Series Wins Two ISSA Awards, Reinforcing Global Leadership in Commercial Cleaning Robotics Press Release Hub",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRkRyWjVqMk1EaE1KdksteEhmOE95TldWUEFsM05HY2N2cGpUNFVKeC1LNnZMeHNLbG9Ia2pINE9YTG5OS0JiZ1NpcTBRNWVNUEhVakZRdFF4SExaNEc0WUsxNkxIcWRDcEdrTHZXOFpqWWcyT2E1cmJtaWxDQXFPSFlENjlfa1Y4U2dnMGhwZkE4TGhsVl9qTzRjNmllb3BzdGVpMEJUX3c0WEtNMWRKbjU4cnUtR2ppUzIxVkFaRFRtc1JmN0d5WDBZX1g2cU5hMThKRnVCQ011ZmNaX1VIUG5lVy1odF9wX0tib2dpYjhGckx2cURn?oc=5",
+          "published_at": "2026-10-13T12:01:15+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "企业机器人部署：从试点到量产的关键要素",
+      "english_term": "PoC（概念验证，Proof of Concept）",
+      "summary": "行业分析指出，企业机器人项目要从小规模试点走向规模化生产部署，需要解决真实场景下的鲁棒性、系统集成与运维等关键问题。",
+      "script": "在机器人产业落地方面，有报道探讨了企业机器人项目为何常常止步于试点阶段、难以推进到规模化生产部署的问题。这类讨论通常聚焦几个核心环节。首先是真实场景下的鲁棒性问题，许多机器人系统在实验室或小规模试点环境中表现良好，但一旦进入真实的仓库、工厂或物流中心，面对光照变化、地面不平整、人员密集穿行等非理想条件时，系统的稳定性往往会显著下降，这也是行业内常说的现实差距问题，即仿真或试点环境与真实世界运行条件之间的落差。其次是系统集成的复杂度，企业级机器人部署往往不是单一设备的问题，而需要与仓库管理系统、生产执行系统等现有信息化基础设施对接，这种跨系统集成的工程量和技术难度，常常被企业在立项阶段低估。另外，与之相关的另一篇行业评论也提到，衡量自动化项目成功与否的标准正在发生变化，不再仅仅是自动化密度或设备利用率这类单一指标，而是更关注实时执行能力，也就是系统能否在生产节拍压力下持续稳定地完成任务，这被认为是企业机器人下一阶段竞争的关键优势所在。从产业角度看，这类讨论反映出机器人行业正从早期的技术演示阶段，逐步过渡到对投资回报率和长期运维成本更为务实的评估阶段，企业采购方也更加谨慎地评估全生命周期成本，而不仅仅关注前期采购价格。这两篇文章均来自行业媒体的分析评论，总体可信度较高，但更多是行业观察性质的内容，而非具体某个企业案例的实证数据。后续需要关注是否有具体企业公布规模化部署后的实际运营数据，以验证这些行业判断。",
+      "duration_seconds": 155,
+      "is_unverified": false,
+      "confidence_note": "基于iTnews Asia和The Robot Report两个独立行业媒体的分析评论交叉印证，属于行业观察性质内容",
+      "fact_status": {
+        "confirmed": [
+          "行业媒体报道探讨了企业机器人从试点到量产的常见障碍"
+        ],
+        "claims": [
+          "现实差距问题被认为是制约规模化部署的关键因素",
+          "实时执行能力被视为新的竞争优势"
+        ],
+        "analysis": [
+          "机器人行业评估标准正从自动化密度转向全生命周期成本和实时执行能力"
+        ]
+      },
+      "source_ids": [
+        "6509aa4e31a3c12f",
+        "74655861100974ac"
+      ],
+      "sources": [
+        {
+          "id": "6509aa4e31a3c12f",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "From pilots to production: What makes enterprise robotics effective for work - iTnews Asia",
+          "summary": "From pilots to production: What makes enterprise robotics effective for work iTnews Asia",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONGxYSnV2TUFMRzdiNFlaZ3dySEVKS0Rha2RDTTh6a3EzM3lhOUQzclVneklKMGJRTUpSSUI4X2Rwd2sxSHcxMXpuc1ZkZlJaVEN5UC1Sdm5zTWQxVEJaUDFwMWNETHd1OUNvZFc2N1h5SF9sOEVtcEkwamhkUm81TU1mdDFfNm03cndzN1pQS2VCVndTRGRlMWJYdU9DR2JFb1FUMVZvUW51UTdfUTFsUA?oc=5",
+          "published_at": "2026-10-13T12:05:31+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "dfc8feb316046f86",
-          "source": "Al Jazeera",
+          "id": "74655861100974ac",
+          "source": "The Robot Report",
           "source_tier": 2,
-          "source_region": "middle-east",
+          "source_region": "global",
           "language": "en",
-          "category_hint": "world",
-          "title": "Giants Brigades lead southern Yemen fightback against the Houthis",
-          "summary": "Yemen's Southern Giants Brigades have emerged as one of the leading forces against the Houthis.",
-          "url": "https://www.aljazeera.com/news/2026/10/12/giants-brigades-leads-southern-yemen-fightback-against-the-houthis?traffic_source=rss",
-          "published_at": "2026-10-12T11:30:30+00:00",
+          "category_hint": "robotics",
+          "title": "Closing the reality gap: Why real-time execution has become the new competitive advantage",
+          "summary": "Daifuku's Cecile Dick-Calmes said success is no longer measured solely by automation density or equipment utilization. The post Closing the reality gap: Why real-time execution has become the new competitive advantage appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-advantage/",
+          "published_at": "2026-10-12T14:30:33+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "酒店AI服务机器人公司Flae Robotics完成百万欧元融资",
+      "english_term": null,
+      "summary": "酒店行业AI服务机器人公司Flae Robotics获得100万欧元融资，计划将其AI接待代理产品推广到更多酒店。",
+      "script": "一则机器人融资消息：专注于酒店行业的Flae Robotics公司完成了100万欧元的新一轮融资，公司计划利用这笔资金将其AI接待代理产品推广到更多酒店客户。从产品定位看，这类酒店AI服务机器人通常承担前台接待、客户咨询、信息查询等偏向交互型的任务，核心技术更多依赖于自然语言处理和对话系统，而非复杂的物理操作或移动能力，这与仓储物流、工业制造领域常见的机械臂或移动机器人在技术路线上有明显区别，更接近于具身化的对话式人工智能助手概念。从产业背景看，酒店和酒旅服务行业近年来持续面临人力成本上升和服务一致性管理的压力，一些连锁酒店开始尝试引入自动化接待方案来分担前台的重复性咨询工作，但这类产品的市场接受度在很大程度上取决于顾客体验的实际效果，以及能否与酒店既有的预订管理系统顺利对接。100万欧元的融资规模，在机器人与人工智能领域属于早期阶段的种子轮或天使轮级别投资，说明Flae Robotics目前仍处于产品验证和市场拓展的早期阶段，尚未形成大规模商业化部署。这则消息来源于酒旅行业媒体PhocusWire，报道内容以企业融资公告为主，缺乏关于具体技术架构、已部署酒店数量或用户反馈的详细数据，信息较为有限。后续需要关注该公司是否会披露具体的酒店合作案例和部署规模，以及这类AI接待代理产品在实际运营中的留存和满意度数据。",
+      "duration_seconds": 145,
+      "is_unverified": true,
+      "confidence_note": "单一行业媒体来源，融资规模较小，属早期阶段企业动态，缺乏独立数据验证",
+      "fact_status": {
+        "confirmed": [
+          "Flae Robotics完成100万欧元融资"
+        ],
+        "claims": [
+          "公司计划将AI接待产品推广到更多酒店"
+        ],
+        "analysis": [
+          "该融资规模处于早期阶段，商业化程度有限"
+        ]
+      },
+      "source_ids": [
+        "74c617177dd9c6e9"
+      ],
+      "sources": [
+        {
+          "id": "74c617177dd9c6e9",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Flae Robotics secures €1M to bring AI hospitality agent to more hotels - PhocusWire",
+          "summary": "Flae Robotics secures €1M to bring AI hospitality agent to more hotels PhocusWire",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRWc4T0djQmZIdjI2MnFVTVN0WWliVU5mN2htWUpjdFdmcDFLWjVLU3Q2cnJMZVpybXlielhWVlBuSmVmdFlUSUJmVzl5WnhsMXEwS2FtdlpMZVduaW5BUU14aXBXQnJVVUdNbVktQjRZWk1XMUJGX0Q0Ukp5ejU0MmlEbFBFMHlveWhPY2RnRWJNV3lXS2UwS0pBM0dlMWRBZDNIOFBLUW0?oc=5",
+          "published_at": "2026-10-13T12:04:44+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "林肯大学获480万英镑建设农业食品机器人中心",
+      "english_term": null,
+      "summary": "英国林肯大学获得480万英镑资金支持，用于建设农业食品领域的机器人研究中心。",
+      "script": "英国林肯大学宣布获得480万英镑资金支持，将用于建设一个专注于农业食品领域的机器人研究中心。农业机器人是机器人学术与产业交叉较为活跃的细分方向之一，核心挑战包括在非结构化的田间环境中进行作物识别、采摘操作、病虫害检测等任务，这类场景相比于工厂流水线等结构化环境，对机器人的感知鲁棒性和末端执行器的精细操作能力提出了更高要求，例如如何在不损伤农产品的前提下完成抓取和采摘，一直是农业机械臂领域的研究难点。从产业背景看，农业劳动力短缺是推动农业自动化需求增长的重要因素之一，尤其是在季节性用工高度集中的采摘环节，机器人被寄予替代部分人力的期望，但目前农业机器人在复杂地形适应性、作物多样性应对以及成本效益方面，距离大规模商业化部署仍有一定差距。林肯大学此次获得的资助规模属于学术研究基础设施建设层面的投入，通常用于建设实验场地、采购设备和支持相关课题研究，而非直接的产品商业化投入，这类资金也往往需要较长周期才能转化为可见的技术突破或产业应用成果。这则消息来源于农业园艺行业媒体Hortidaily，属于单一来源报道，目前尚未披露具体的研究方向细分、团队规模或预期产出时间表。后续需要关注该机器人中心具体的研究课题设置，以及是否会与农业企业展开产学研合作。",
+      "duration_seconds": 135,
+      "is_unverified": true,
+      "confidence_note": "单一行业媒体来源，资金用途和具体研究方向细节有限",
+      "fact_status": {
+        "confirmed": [
+          "林肯大学获得480万英镑用于农业食品机器人中心建设"
+        ],
+        "claims": [
+          "资金将用于支持农业机器人相关研究"
+        ],
+        "analysis": [
+          "农业机器人面临非结构化环境感知和末端操作精细度的核心挑战"
+        ]
+      },
+      "source_ids": [
+        "2b419be27c344c44"
+      ],
+      "sources": [
+        {
+          "id": "2b419be27c344c44",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "University of Lincoln secures £4.8 million for agri-food robotics hub - Hortidaily",
+          "summary": "University of Lincoln secures £4.8 million for agri-food robotics hub Hortidaily",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN2NGU3M5LVAyOFo1aVRWMlRTeWVkVTdKRk5MQnRub3hNNUUzY0ExWktGVTlMVkRUOHdxZGt0Q25yN1pKSHotMEJIN0JJMU9JX2tQYjZnRFhsSEo5azZ6S1ZBdmVyMHFpMWpHcU1Da09KZlZOVmVldzdVbVpMQzFKOVpJaHBtMGp6cE5ZUmJNaU5ZcFcxZHFWWXp1V3VVYkpVS1NEX1d3VHRkVVkybXE1MTdVX1k?oc=5",
+          "published_at": "2026-10-13T12:00:08+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "废物分拣机器人中心将开展真实条件基准测试",
+      "english_term": null,
+      "summary": "一家机器人研究中心计划针对废物分拣场景，在真实世界条件下对相关机器人系统进行基准测试。",
+      "script": "另一则值得关注的机器人产业消息是，一家机器人研究中心计划针对废物分拣这一具体应用场景，开展真实世界条件下的基准测试工作。废物分拣机器人是机器人在循环经济和环保领域的典型应用之一，其核心技术难点在于如何在传送带高速运行、垃圾物料种类混杂多变、光照和遮挡条件复杂的真实场景中，准确识别并分拣出不同材质的废弃物，例如区分塑料、金属、纸张等可回收物与不可回收垃圾，这对计算机视觉识别算法和末端执行器的抓取速度都提出了很高要求。目前废物分拣领域存在的一个普遍问题是，很多机器视觉和抓取算法在实验室条件下测试效果良好，但当面对真实回收厂中物料形态、污染程度和堆叠方式的多样性时，识别准确率和分拣效率往往会明显下降，这与机器人行业其他场景中常提到的现实差距问题是类似的技术挑战。因此，建立一个能够在真实世界条件下进行标准化基准测试的平台，对于推动废物分拣机器人技术的产业化具有实际意义，这类基准测试通常会公开测试数据集和评测指标，便于不同研究团队和企业的技术方案进行横向比较。从环保产业角度看，提升废物分拣的自动化水平，有助于提高资源回收效率，降低人工在污染环境中作业的健康风险，这与全球范围内对循环经济和可持续发展的关注趋势相契合。这则消息来源相对简略，尚未披露具体的测试标准、参与机构名单或时间安排。后续需要关注该基准测试平台公布的具体技术指标和参与企业名单。",
+      "duration_seconds": 145,
+      "is_unverified": true,
+      "confidence_note": "单一来源报道，细节信息有限，仅作为产业热点线索",
+      "fact_status": {
+        "confirmed": [
+          "有机构计划开展废物分拣机器人真实条件基准测试"
+        ],
+        "claims": [
+          "该测试旨在提升废物分拣机器人识别和分拣准确率"
+        ],
+        "analysis": [
+          "真实世界条件下的识别准确率下降是行业普遍面临的现实差距问题"
+        ]
+      },
+      "source_ids": [
+        "a9c6e1d0f88bdc4d"
+      ],
+      "sources": [
+        {
+          "id": "a9c6e1d0f88bdc4d",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Robotics hub to benchmark waste sorting under real-world conditions - Envirotec Magazine",
+          "summary": "Robotics hub to benchmark waste sorting under real-world conditions Envirotec Magazine",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmFtZllxS01NYlVjTWNQTWtFM0NGclE5ZHUtbVJvR3FYSzg2ZzFZeHB1ZVY1SDlpSDNkdmhoR1NFTVdjdEtGRFR6ZnJBdmZRLVZyMkFkd1RuY0RhajlXWFBYOVZ2NGY0VFRxRzdvVkpyUUNPeWxnQTQ0MTdVOGgyNUo5MkFiOUFmdElYRzNCd0hPcHQ4TUc0V015NnBfMU9VNXk4X3FVc2wtQ3hJREE?oc=5",
+          "published_at": "2026-10-13T12:07:41+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -96,359 +326,95 @@
     },
     {
       "category": "world",
-      "title": "俄乌“能源停火”宣布即遭指控违反，欧盟同步祭出最大规模对俄制裁",
+      "title": "刚果（金）前总统卡比拉出任新叛军联盟领袖",
       "english_term": null,
-      "summary": "特朗普宣布俄乌达成“能源停火”，但泽连斯基指责俄方随后袭击哈尔科夫能源设施；欧盟同日通过史上规模最大的对俄制裁包。",
-      "script": "俄乌战事的外交动态出现戏剧性反转。已确认的事实是，美国总统特朗普此前宣布俄罗斯与乌克兰已就“能源停火”达成一致，但他本人没有公布具体条款细节。随后不到24小时，乌克兰总统泽连斯基公开指责俄罗斯违反这一停火安排，称俄军对乌克兰东北部城市哈尔科夫的能源设施发动了袭击。克里姆林宫方面的主张是，他们只考虑为乌克兰大选安排为期一天的临时停火，这与西方媒体理解的“能源停火”在范围与性质上存在明显差异，双方对停火内容的理解本身就存在分歧。与此同时，欧盟在同一天的外长会议上正式通过了对俄罗斯迄今为止规模最大的制裁包，将逾1600个与俄罗斯军工复合体相关的实体和个人列入清单。德国外长瓦德普尔将此形容为对俄罗斯“前所未有的”打击。另外，也有分析指出，美方近期对俄罗斯能源出口政策的态度耐人寻味，一方面推动停火斡旋，另一方面在柴油短缺与消费端成本上升的背景下，被批评可能变相帮助俄罗斯维持战争财政。综合来看，外交斡旋、制裁施压与前线军事行动三条线正在同步推进，彼此之间的矛盾信号表明停火前景仍高度不确定。后续需要观察克里姆林宫是否就“一日停火”与西方达成正式的书面确认，以及乌克兰能源设施是否持续遭受打击。",
-      "duration_seconds": 125,
+      "summary": "刚果民主共和国前总统约瑟夫·卡比拉被任命为新成立的叛军联盟领导人，此前他曾否认与M23叛军有关联。",
+      "script": "非洲地区局势出现新动向。已确认的事实是，刚果民主共和国前总统约瑟夫·卡比拉，被任命为一个新成立的叛军联盟的领导人。值得注意的是，卡比拉此前曾公开否认自己与M23叛军组织存在关联，而M23目前控制着刚果（金）东部的大片地区。各方主张方面，报道并未详细说明这一新叛军联盟的具体构成、与M23之间的组织关系，以及卡比拉本人对于此次出任领袖一事的最新表态，这些信息仍有待进一步披露。分析判断来看，卡比拉作为曾经执政多年的国家元首，如果确实深度介入反政府武装活动，将对刚果（金）东部本就复杂的安全局势产生重要影响，也可能进一步复杂化该地区的地缘政治格局，包括与周边国家关系、国际社会对该地区冲突的调停努力等方面。刚果（金）东部地区长期受到多方武装力量割据和资源争夺问题的困扰，国际社会此前已多次呼吁有关各方通过对话解决冲突，卡比拉此次的角色转变，可能为地区局势增添新的变数。目前关于这一新叛军联盟的性质、规模以及具体诉求，相关公开信息较为有限。后续需要等待更多关于该联盟具体构成和行动纲领的报道，以及国际社会对此事的反应。",
+      "duration_seconds": 115,
       "is_unverified": false,
-      "confidence_note": "停火宣布与随后袭击指控有多家二级来源交叉确认；克里姆林宫表态与制裁细节分别来自独立信源。",
+      "confidence_note": "基于BBC World单一来源报道，细节有限",
       "fact_status": {
         "confirmed": [
-          "特朗普宣布俄乌达成能源停火",
-          "泽连斯基指控俄军袭击哈尔科夫能源设施",
-          "欧盟通过涉及逾1600个实体的最大规模对俄制裁"
+          "约瑟夫·卡比拉被任命为新叛军联盟领袖"
         ],
         "claims": [
-          "克里姆林宫称只考虑为乌克兰大选安排一日停火",
-          "美方能源政策被批评变相资助俄罗斯战争财政"
+          "卡比拉此前否认与M23叛军有关联"
         ],
         "analysis": [
-          "停火定义在各方之间存在分歧，短期内全面停火落地可能性有限"
+          "此事可能进一步复杂化刚果东部地区安全局势"
         ]
       },
       "source_ids": [
-        "fab4ca3444a443ad",
-        "168efa85737140b2",
-        "7176075692f95a4c",
-        "e12b18e9cb54a929",
-        "ee1b8e7312c2fb40",
-        "982274f3bba14fd3"
+        "a608fcd88f235097"
       ],
       "sources": [
         {
-          "id": "fab4ca3444a443ad",
+          "id": "a608fcd88f235097",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Ex-president named leader of new DR Congo rebel coalition",
+          "summary": "Joseph Kabila had previously denied having links to the M23 rebels, which control much of eastern DR Congo.",
+          "url": "https://www.bbc.co.uk/news/articles/c8y56re7ldqyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-13T11:23:55+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "移民执法人员搜查国会议员伊尔汗·奥马尔住所",
+      "english_term": null,
+      "summary": "美国移民执法人员搜查了国会众议员伊尔汗·奥马尔的住所，奥马尔称此举是针对政治异见者的打压。",
+      "script": "美国国内政治动态方面，已确认的事实是，联邦移民执法人员对美国国会众议员伊尔汗·奥马尔位于华盛顿的住所进行了搜查。奥马尔本人是特朗普总统的公开批评者之一，她在搜查发生后公开回应称，这一行动是针对政治敌人的打压，并表示自己不会被噤声。各方主张方面，奥马尔一方的说法是，此次搜查带有明显的政治报复色彩，是对持不同政见者的针对性打压；而报道中并未呈现联邦执法机构方面对搜查原因的官方说明或法律依据，这部分信息存在明显空缺。与此同时，另有报道提到，政府此前曾动用大量联邦资金投放支持特朗普形象的广告，而此前特朗普本人曾表示不会出现这种情况，这也从侧面反映出当前美国国内政治氛围中行政权力运用方式引发的争议。分析判断来看，国会议员住所遭联邦执法部门搜查是极为罕见且政治敏感的事件，尤其涉及的是长期对现任政府持批评立场的议员，这类事件容易被解读为行政部门与立法部门之间、执政党与反对声音之间关系紧张的具体体现，也可能引发国会内部对行政权力边界的进一步讨论。目前关于搜查的具体法律依据、涉及的指控内容等关键信息，报道中均未披露。后续需要等待联邦执法机构对搜查原因的正式说明，以及国会方面是否会就此展开调查或问责程序。",
+      "duration_seconds": 130,
+      "is_unverified": false,
+      "confidence_note": "基于BBC World和NPR World两个独立来源交叉确认搜查事件本身，但搜查具体原因缺乏官方说明",
+      "fact_status": {
+        "confirmed": [
+          "联邦移民执法人员搜查了伊尔汗·奥马尔的住所"
+        ],
+        "claims": [
+          "奥马尔称此举是针对政治异见者的打压",
+          "政府此前投放大量资金用于支持性广告"
+        ],
+        "analysis": [
+          "事件可能加剧行政与立法部门之间的政治紧张关系"
+        ]
+      },
+      "source_ids": [
+        "a7c9c69f8292143c",
+        "9e8995022b68c2ff"
+      ],
+      "sources": [
+        {
+          "id": "a7c9c69f8292143c",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Immigration agents search congresswoman Ilhan Omar's home",
+          "summary": "Omar, an outspoken Trump critic, said the search was \"an attempt to target political enemies\" and she \"will not be silenced\".",
+          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-13T10:37:39+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "9e8995022b68c2ff",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Trump says Russia and Ukraine agree to an 'energy ceasefire'",
-          "summary": "President Trump said Sunday that Russia and Ukraine had agreed to an \"energy ceasefire,\" but he offered no details on it and Kyiv reported attacks by Moscow on energy sites after his statement.",
-          "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
-          "published_at": "2026-10-12T06:41:57+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "168efa85737140b2",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Ukraine: Zelenskyy accuses Russia of ceasefire violations",
-          "summary": "Less than 24 hours after Donald Trump announced an \"energy ceasefire,\" Ukraine reported Russian strikes on the northeastern city of Kharkiv. The Kremlin says it would only consider a one-day ceasefire for an election.",
-          "url": "https://www.dw.com/en/ukraine-zelenskyy-accuses-russia-of-ceasefire-violations/a-79640911?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-12T11:54:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "7176075692f95a4c",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Ukraine’s Zelenskyy accuses Russia of violating Trump’s ‘energy ceasefire’",
-          "summary": "The EU also announced that it officially added almost 1,600 new sanctions on Russia's military industrial complex.",
-          "url": "https://www.aljazeera.com/news/2026/10/12/ukraines-zelenskyy-accuses-russia-of-violating-trumps-energy-ceasefire?traffic_source=rss",
-          "published_at": "2026-10-12T10:35:51+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "e12b18e9cb54a929",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Germany's Wadephul calls new EU sanctions 'unprecedented' blow to Russia",
-          "summary": "The European Union has approved its largest-ever sanctions package against Moscow, targeting more than 1,000 entities tied to the military-industrial complex. The move took place in an EU foreign ministers' meeting.",
-          "url": "https://www.dw.com/en/germany-s-wadephul-calls-new-eu-sanctions-unprecedented-blow-to-russia/a-79638017?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-12T10:48:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "ee1b8e7312c2fb40",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "‘Energy ceasefire’: What’s behind Trump’s love-hate ties to Russian oil?",
-          "summary": "Trump's energy truce sparks criticism over aiding Russia's war finances amid diesel shortages and rising consumer costs.",
-          "url": "https://www.aljazeera.com/news/2026/10/12/energy-ceasefire-whats-behind-trumps-love-hate-ties-to-russian-oil?traffic_source=rss",
-          "published_at": "2026-10-12T11:30:54+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "982274f3bba14fd3",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "DOJ launches antitrust probe of TV networks. And, Trump says Ukraine needs new leader",
-          "summary": "The Justice Department is investigating several TV networks for possible antitrust violations. And, President Trump pressures Ukrainians to elect a new leader.",
-          "url": "https://www.npr.org/2026/10/12/g-s1-147772/up-first-newsletter-trump-ukraine-russia-antitrust-investigation-hurricane-isaias-saudi-airport",
-          "published_at": "2026-10-12T11:29:56+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "北京世界人形机器人运动会落幕，评论指出“洗衣服”比赛跑更能检验机器人能力",
-      "english_term": "humanoid robot（人形机器人）",
-      "summary": "北京举办的2026年世界人形机器人运动会上，天工Ultra百米跑出8.64秒成绩快于博尔特世界纪录，但有学者撰文指出真正的技术门槛在于做家务等精细操作任务。",
-      "script": "一场有意思的产业与学术交叉讨论值得关注。北京近期举办了2026年世界人形机器人运动会，机器人在赛场上完成了短跑、拳击、足球以及模拟工厂、餐厅和应急场景的各种任务。其中最吸睛的数据是，机器人“天工Ultra”跑完一百米只用了8.64秒，比博尔特保持的9.58秒世界纪录还快。这类速度与力量型任务展示了机器人在运动控制、动力学与执行器输出功率上的进步，这些能力背后依赖的是更高功率密度的关节电机、更优化的步态规划算法，以及针对双足动态平衡的控制策略。不过，英国卡迪夫城市大学的研究者在Robohub发表评论文章提出了不同视角：真正衡量人形机器人实用价值的，不是短跑和格斗这类高度结构化、目标单一的任务，而是叠衣服、洗衣服这类日常家务。这类任务对机器人提出的挑战完全不同，它需要处理柔性物体的形变预测、低刚度材料的抓取力控制、长时序的多步骤规划，以及在非结构化环境中应对各种意外状况的鲁棒性，这些恰恰是当前具身智能研究中尚未被很好解决的难题。作者认为，运动会上展现的高速度、高爆发力能力固然能够吸引公众关注与资本注意，但距离机器人真正进入家庭、承担日常劳动还有相当距离，这也是为什么工业界和学术界近期都在加大对灵巧操作、触觉感知与长程任务规划的投入。这篇评论没有否定运动会的价值，而是提醒业界与公众把评估标准从“炫技指标”转向更贴近真实应用场景的能力维度。后续需要观察相关实验室是否会公布针对家务类任务的标准化评测基准。",
-      "duration_seconds": 155,
-      "is_unverified": false,
-      "confidence_note": "赛事数据与评论观点均来自同一篇二级来源文章，属于单一来源，但内容为公开赛事结果与署名专家评论，可信度较高。",
-      "fact_status": {
-        "confirmed": [
-          "北京举办了2026年世界人形机器人运动会",
-          "天工Ultra百米成绩为8.64秒"
-        ],
-        "claims": [
-          "评论作者认为家务类任务比竞技类任务更能检验机器人实用能力"
-        ],
-        "analysis": [
-          "速度与力量类展示与真实场景应用能力之间存在差距，操作灵巧性仍是技术瓶颈"
-        ]
-      },
-      "source_ids": [
-        "730778cf1d0a3f07"
-      ],
-      "sources": [
-        {
-          "id": "730778cf1d0a3f07",
-          "source": "Robohub",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Humanoid robots can sprint and box – but the real test is doing the laundry",
-          "summary": "By Wai-keung Fung, Cardiff Metropolitan University At the recent World Humanoid Robot Games 2026 in Beijing, robots sprinted, boxed, played football and tackled tasks inspired by factories, restaurants and emergency situations. The robot Tiangong Ultra even completed the 100 metres in 8.64 seconds, quicker than Usain Bolt’s 9.58-second world record. But if we really want […]",
-          "url": "https://robohub.org/humanoid-robots-can-sprint-and-box-but-the-real-test-is-doing-the-laundry/",
-          "published_at": "2026-10-12T07:51:21+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "arXiv新论文：空中机器人也能用自然语言编程，但视觉反馈成瓶颈",
-      "english_term": "aerial manipulation（空中操作）",
-      "summary": "新论文提出Fly-by-Code系统，研究具身编码智能体在无人机抓取任务中因载荷限制导致视觉反馈不足的问题，并提出主动视觉与物理反馈相结合的改进思路。",
-      "script": "具身智能体，也就是能够根据自然语言指令生成可执行程序并控制机器人完成任务的智能系统，近年来在地面机械臂上取得不少进展，但把这套思路搬到空中机器人上却面临新问题。一篇新发布在arXiv的论文提出了名为Fly-by-Code的系统，专门研究无人机执行抓取和操作任务时遇到的独特挑战。研究问题的核心在于，具身编码智能体通常假设执行反馈能够清楚告诉系统任务是否成功，并在失败后提供足够线索来指导程序修正，但这一假设在空中操作场景中并不成立。原因有两个：一是无人机的载荷限制使得机载摄像头数量和视角都受限，很多任务关键信息根本拍不到；二是无人机在执行抓取等接触性任务时会产生复杂的物理扰动，比如抓取瞬间的气动变化和重心偏移，这些因素进一步干扰了视觉判断的准确性。论文提出的解决思路是引入主动视觉策略，让无人机能够根据任务需要主动调整观测视角，同时结合物理反馈信号，比如力和姿态变化，来弥补纯视觉判断的不足，从而让程序生成与修正过程更加可靠。这项研究的意义在于把具身编码智能体的应用范围从地面场景扩展到空中平台，对仓储巡检、高空维修等应用场景具有参考价值。不过，论文作为预印本尚未经过同行评审，实验场景的复杂度和真实飞行环境中的鲁棒性仍需进一步验证。后续需要等待论文接受同行评审后的结果，以及是否有团队在真实无人机平台上复现其性能。",
-      "duration_seconds": 145,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv预印本，尚未经过同行评审，实验结论的普适性和真实飞行平台表现有待验证。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了名为Fly-by-Code的具身编码智能体系统，针对空中操作任务"
-        ],
-        "claims": [
-          "作者认为主动视觉与物理反馈结合能够弥补空中任务视觉反馈不足的问题"
-        ],
-        "analysis": [
-          "该研究扩展了具身编码智能体的应用边界，但真实场景鲁棒性仍待验证"
-        ]
-      },
-      "source_ids": [
-        "2718bf2848c047ca"
-      ],
-      "sources": [
-        {
-          "id": "2718bf2848c047ca",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Fly-by-Code: Embodied Coding Agents for Aerial Manipulation with Active Visual and Physical Feedback",
-          "summary": "arXiv:2610.12549v1 Announce Type: new Abstract: Embodied coding agents construct robot policies from natural-language instructions by generating executable programs and refining them from execution feedback. This refinement assumes that execution feedback reveals whether the task succeeded and, after a failure, provides sufficient evidence to guide program revision. Aerial manipulation violates this assumption in two ways. Payload constraints restrict onboard camera coverage and leave task-critical outcomes outside the robot's view (partial observability), while strong dynamic coupling and limited control margins make physical interactions fragile (limited interaction robustness) and leave failure causes unresolved. Re-examining the same feedback cannot recover observations that were never collected or separate failure causes that the available evidence does not distinguish. To acquire this missing evidence, we introduce Active Feedback (AF), an active \"View and Probe\" framework. When execution feedback leaves unresolved questions, the agent synthesizes a separate diagnostic program that runs in simulation to inspect unseen outcomes from informative viewpoints (View) or test hypoth",
-          "url": "https://arxiv.org/abs/2610.12549",
-          "published_at": "2026-10-12T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "arXiv新论文：让人形机器人用全身而不只是双手完成精细操作",
-      "english_term": "whole-body dexterity（全身灵巧性）",
-      "summary": "新论文PanTact提出一套可穿戴接触式界面，通过无机器人的人类示范数据，教会人形机器人使用身体任意合适部位完成操作任务。",
-      "script": "大多数人形机器人的操作研究都把注意力集中在双手上，忽略了身体其他部位与环境接触的可能性，这其实限制了机器人应对复杂任务的能力。一篇新发表在arXiv的论文提出了名为PanTact的系统，试图解决这一问题。研究问题是，如何让人形机器人学会用身体任意合适的表面来完成操作任务，而不仅仅依赖双手，这种能力被称为全身灵巧性。论文提出的关键思路是把“接触”本身当作一种操作的监督信号，并且设计了一套可穿戴的接触式界面设备，让人类示范者在不需要操作真实机器人的情况下，直接记录自己在完成任务过程中身体各部位与物体接触的信息，这些数据随后被用来训练机器人的操作策略。这种“无机器人示范”的方式大幅降低了数据采集成本，因为研究人员不需要反复操作昂贵且容易损坏的人形机器人硬件，就可以收集大规模的人类操作数据。从技术路线上看，这延续了近年来具身智能领域从人类视频和人类示范中学习机器人策略的趋势，但PanTact的新意在于把接触信息系统化地纳入学习框架，而不仅仅依赖视觉观测。这项工作的意义在于拓宽了人形机器人在狭窄空间、重物搬运等场景下的操作手段，比如用前臂或躯干辅助支撑物体，而不是只靠手指和手掌完成所有任务。由于论文仍属于预印本阶段，其提出的方法在真实机器人硬件上的迁移效果和安全性控制还需要进一步实验验证。后续需要等待该研究接受同行评审，以及是否有团队公开在实体人形机器人上复现其全身操作效果。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv预印本，尚未经过同行评审，真实机器人硬件上的迁移效果有待验证。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了PanTact系统，使用可穿戴接触界面采集人类示范数据"
-        ],
-        "claims": [
-          "作者认为该方法能让人形机器人学会使用身体任意部位完成操作任务"
-        ],
-        "analysis": [
-          "该思路拓展了具身智能操作的数据采集范式，但硬件迁移与安全性仍需验证"
-        ]
-      },
-      "source_ids": [
-        "8e9dae1caacb0ef8"
-      ],
-      "sources": [
-        {
-          "id": "8e9dae1caacb0ef8",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "PanTact: Teaching Whole-Body Dexterity with a Wearable Contact Interface",
-          "summary": "arXiv:2610.12558v1 Announce Type: new Abstract: Humanoid robots have many degrees of freedom and contact surfaces, yet most loco-manipulation research restricts manipulation to the hands and avoids other body contacts with the environment. To extend manipulation beyond the hands, we present PanTact, a system that learns humanoid whole-body dexterity, the capability to manipulate with any suitable body surface, directly from robot-free human demonstrations. Our key idea is to use contact as manipulation-centric information that transfers across embodiments. Contact locations and timing specify the interactions needed to accomplish a task, while the robot chooses how to coordinate its body to realize them within its own physical constraints. Specifically, PanTact captures, learns, and executes whole-body contact via: 1) a wearable, robot-free data collection interface that augments egocentric vision and bimanual UMI grippers with whole-body modular contact patches to record body contact locations and states; 2) a visuomotor policy that mitigates the egocentric observation gap and predicts whole-body contact goals; and 3) contact-aware whole-body control formulations that realize acti",
-          "url": "https://arxiv.org/abs/2610.12558",
-          "published_at": "2026-10-12T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "arXiv新论文：具身智能体到底应该记住什么？新基准MeMoREval给出评测框架",
-      "english_term": "memory modality（记忆模态）",
-      "summary": "新论文提出MeMoREval基准，用于系统比较文本、视觉与空间等不同记忆模态对具身智能体任务表现和推理成本的影响。",
-      "script": "大语言模型驱动的智能体在处理请求时，经常依赖把过去经验以文本形式记录下来的“记忆”机制，但对于控制机器人的具身智能体来说，情况要复杂得多，因为它们面对的是视觉和空间观测，记忆的形式选择远比纯文本丰富。一篇新发表在arXiv上的论文提出了MeMoREval基准，专门用来研究具身智能体应该如何选择和构建记忆模态这一问题。研究的核心问题是，不同的记忆存储方式，比如纯文本记录、视觉快照或者空间地图式的记忆，会如何影响智能体后续任务的完成效果，以及构建和使用这些记忆所带来的模型推理成本差异。这个问题此前在学术界缺乏系统化的比较框架，大多数研究只是根据经验选择某一种记忆形式，而没有量化不同选择之间的权衡。论文通过构建一套标准化的评测基准，让不同记忆模态的方案在统一任务集合上进行对比，从而得出关于信息保真度、检索效率与计算开销之间关系的结论。这项工作的意义在于为后续具身智能体的系统设计提供了参考依据，比如在计算资源受限的边缘设备上，可能需要在记忆的丰富程度和推理速度之间做出取舍。由于这是一项预印本研究，具体的基准任务设置、涵盖场景的广度以及评测指标是否能反映真实机器人部署情况，仍需要同行评审和后续社区复现来检验。后续需要关注该基准是否被其他研究团队采纳作为通用评测标准。",
-      "duration_seconds": 135,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv预印本，尚未经过同行评审，基准的代表性与通用性有待社区验证。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了MeMoREval基准，用于评测具身智能体的记忆模态选择"
-        ],
-        "claims": [
-          "作者认为该基准能够揭示不同记忆模态在任务效果与推理成本上的权衡"
-        ],
-        "analysis": [
-          "该研究填补了具身智能体记忆系统设计缺乏统一评测标准的空白"
-        ]
-      },
-      "source_ids": [
-        "ae10c5c4af2d27dd"
-      ],
-      "sources": [
-        {
-          "id": "ae10c5c4af2d27dd",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "What Should Embodied Agents Remember? Benchmarking and Evaluating Memory Modality for Embodied Agents",
-          "summary": "arXiv:2610.12561v1 Announce Type: new Abstract: Memory allows large language model (LLM) agents to use past experience, often stored as textual records, when responding to requests. For embodied agents that control robots, visual and spatial observations introduce a broader choice of memory modalities, affecting both the information available for subsequent tasks and the model inference costs of constructing and using memory. We introduce MeMoREval, a benchmark for studying this problem through a controlled experience-request protocol. Agents first experience a sequence of events without knowing the subsequent tasks, and subsequently they use memory to respond to information and action requests without receiving new observations. The benchmark comprises 53 tasks across four simulated indoor environments and measures task success alongside the inference costs of memory construction and use. Our reference evaluations reveal that storing frames outperforms storing generated descriptions at lower write-time inference cost for the primary model, while storing frames with scene graphs achieves the highest aggregate task success for every tested model. Extensions to accumulated experience",
-          "url": "https://arxiv.org/abs/2610.12561",
-          "published_at": "2026-10-12T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "行业观察：机器人要赢得真实世界市场，形态应服从工作流程而非炫酷外观",
-      "english_term": "form follows workflow（形态服从流程）",
-      "summary": "The Robot Report文章认为，要让物理人工智能从社交媒体热度走向可持续商业化，机器人设计思路需要反转，形态应该服从实际工作流程而非追求视觉冲击力。",
-      "script": "在人形机器人频繁登上社交媒体热搜的同时，产业媒体The Robot Report发表评论文章，提出了一个值得深思的问题：如果想让物理人工智能真正从社交媒体热度转化为可持续的商业规模，当前的产品设计思路恐怕需要反过来想。文章的核心观点是，机器人的外观形态应该服从实际的工作流程，而不是反过来为了追求视觉冲击力或话题性去设计机器人的外形。这其实触及了机器人产业长期存在的一个张力：双足人形机器人因为外形接近人类，天然具备传播优势，容易在发布会和短视频中吸引眼球，获得融资关注；但在很多实际工业场景中，比如仓储分拣、设备巡检或者特定装配工序，更适合的可能是轮式底盘、固定基座机械臂或者专用夹爪等“不那么性感”的形态，这些方案往往更简单、更可靠、维护成本更低，也更容易通过现有产线的安全认证。文章用“boring（无聊）”来形容这类朴素但实用的机器人形态，暗示真正能够规模化落地、创造商业价值的，很可能不是那些在发布会上做后空翻的炫酷产品，而是针对具体工作流程精心优化、不追求形似人类的工具型机器人。这种观点与近期人形机器人行业的融资热潮形成一定张力，也反映出行业内部对于技术路线选择的分歧：一部分声音继续看好通用人形机器人的长期潜力，认为人类环境是为人类身体设计的，人形是终极解决方案；另一部分声音则更务实地主张先解决具体场景的工程问题。后续需要观察更多企业是否会根据具体工作流程反向定制机器人形态，而非统一追求人形方案。",
-      "duration_seconds": 155,
-      "is_unverified": false,
-      "confidence_note": "来自产业媒体The Robot Report的评论文章，属于观点性分析，非单一硬性事实陈述。",
-      "fact_status": {
-        "confirmed": [
-          "The Robot Report发表评论文章，主张机器人形态应服从工作流程"
-        ],
-        "claims": [
-          "文章认为当前行业过度追求人形与视觉冲击力的设计思路需要反转"
-        ],
-        "analysis": [
-          "该观点反映了机器人产业在人形通用路线与场景专用方案之间存在技术路线分歧"
-        ]
-      },
-      "source_ids": [
-        "aee1e6ba332ea74d"
-      ],
-      "sources": [
-        {
-          "id": "aee1e6ba332ea74d",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Will ‘boring’ robots win in the real world? Why robotic form should follow workflow",
-          "summary": "If we want to move physical AI from social media feeds to a sustained commercial level, we must reverse our current approach. The post Will ‘boring’ robots win in the real world? Why robotic form should follow workflow appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/will-boring-robots-win-in-the-real-world-why-robotic-form-should-follow-workflow/",
-          "published_at": "2026-10-11T12:36:24+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "finance",
-      "title": "“机器人税”能否遏制AI引发的失业？经济学界展开讨论",
-      "english_term": "robot tax（机器人税）",
-      "summary": "随着AI与自动化加速取代部分岗位，有评论探讨对企业使用机器人或自动化系统征税以减缓失业冲击的政策思路，但该方案在经济学界存在争议。",
-      "script": "随着人工智能和自动化技术在更多行业落地，就业市场承受的冲击正成为政策讨论的焦点，其中一个老话题最近又被重新提起，那就是“机器人税”，也就是对企业使用机器人或自动化系统替代人力的行为征收额外税款，以此来减缓自动化对就业岗位的冲击，并将税收用于失业救济或再培训项目。支持者的主张是，自动化技术带来的生产力提升主要被资本方获取，而失业风险却由劳动者承担，通过征税可以在一定程度上平衡这种利益分配，同时为政府提供应对结构性失业的资金来源。但反对者的主张同样有力：对机器人征税可能人为抬高企业采用自动化技术的成本，削弱本国制造业和服务业的国际竞争力，甚至可能导致企业将生产线转移到税负更低的地区，最终反而减少本地就业岗位和税基。此外，如何界定“机器人”和“自动化系统”在税法上的边界，也是一个尚未解决的技术性难题，比如一套软件自动化流程是否应该和实体工业机器人同等对待。这场讨论本质上反映的是技术进步与社会分配机制之间长期存在的张力，而目前看来，无论是学术界还是政策制定者都还没有形成成熟的共识方案。分析认为，相比直接征税，更多国家目前倾向于采取职业再培训补贴、失业保险改革等相对温和的政策工具，机器人税更多停留在讨论和提议阶段，尚未有大规模成熟的立法实践可供参考。后续需要观察是否有国家或地区率先推出具体的机器人税立法草案。",
-      "duration_seconds": 145,
-      "is_unverified": false,
-      "confidence_note": "该话题为政策讨论性质，来源为产业媒体综述报道，未涉及具体立法事实，属于观点与争议梳理。",
-      "fact_status": {
-        "confirmed": [
-          "机器人税作为应对自动化失业的政策工具正在被讨论"
-        ],
-        "claims": [
-          "支持者认为该税能平衡资本与劳动利益分配",
-          "反对者认为该税会削弱企业竞争力并可能导致产业外迁"
-        ],
-        "analysis": [
-          "目前多数国家更倾向于再培训补贴等温和政策工具，而非直接立法征税"
-        ]
-      },
-      "source_ids": [
-        "bdbd7c7337ee047d"
-      ],
-      "sources": [
-        {
-          "id": "bdbd7c7337ee047d",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Would a ‘robot tax’ help deter AI-related job losses? - The Globe and Mail",
-          "summary": "Would a ‘robot tax’ help deter AI-related job losses? The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcXdLS0pGdEtyd3c1YXZpOWRpZzZyUExxVDNld1MyOFdUUklYdjJ4Z1F5ZGRhWFMwZ2JyMmh2bFplTnJoVzI2OWFOT2x6V25zY0lqcWVRVXhheWJ6TUg0eFNFUVZzRW1IRGkyWHc0bEdZcTZWYm1RRDFNazhFazQ5dy1qZS1HTHg2dXBOVTB3bzlHSkE?oc=5",
-          "published_at": "2026-10-12T11:59:49+00:00",
+          "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
+          "summary": "The government is using millions of taxpayers' dollars on pro-Trump ads, even after the president said this would not happen. And, federal agents search Rep. Ilhan Omar's D.C. home.",
+          "url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
+          "published_at": "2026-10-13T11:08:14+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -456,116 +422,94 @@
     },
     {
       "category": "science",
-      "title": "南极海冰达到2026年最大范围，为卫星观测以来第三低",
-      "english_term": null,
-      "summary": "NASA数据显示，南极海冰在今年达到的年度最大覆盖范围，是自卫星观测记录开始以来的第三低水平。",
-      "script": "来自NASA的最新数据显示，南极海冰在今年已经达到其年度最大覆盖范围，但这一数值是自卫星观测记录开始以来的第三低水平。南极海冰有着明显的季节性周期，通常在南半球冬季持续增长，并在九月到十月前后达到年度峰值，随后进入融化季节逐渐缩减。科学家通过长期卫星遥感数据追踪这一周期性变化，并将其作为评估极地气候系统健康状况的重要指标之一。虽然南极海冰的变化规律本身比北极更加复杂，受到风场、洋流和臭氧层等多重因素交织影响，年际波动也较大，但持续偏低的最大覆盖范围仍然引发科学界的关注，因为这可能与南大洋表层水温上升、环极地西风增强等因素存在关联。需要说明的是，单一年份的数据波动不能直接等同于长期气候变化趋势的确定性证据，南极海冰的年际变率本身就比较大，此前也曾出现过单年回升的情况。但如果把时间尺度拉长来看，近些年数据连续处于历史低位区间，这一现象仍然值得持续追踪。NASA方面没有在这份简报中给出具体的归因结论，更多是作为长期监测数据的例行发布。后续需要观察南极海冰在融化季节的退缩速度，以及今年的最大覆盖范围数据是否会被未来几年的观测结果进一步印证为长期下降趋势的一部分。",
-      "duration_seconds": 125,
+      "title": "NASA第35次商业补给任务发射升空，运送健康研究载荷",
+      "english_term": "CRS（商业补给服务，Commercial Resupply Services）",
+      "summary": "SpaceX执行NASA第35次商业补给任务，搭载超过6300磅物资和科学实验载荷前往国际空间站，包括人体与植物健康及抗药性微生物相关研究。",
+      "script": "航天科学方面，NASA与SpaceX合作执行的第35次商业补给任务已经成功发射。已确认的事实是，搭载物资的猎鹰9号火箭于美国东部时间周二早上6点33分从佛罗里达州卡纳维拉尔角航天军事基地的40号航天发射复合体升空，龙飞船搭载了超过6300磅，也就是约合2850公斤的物资和设备，目标是国际空间站。发射后龙飞船已成功进入轨道，按计划将与空间站对接。此次任务搭载的科学载荷中，包含了多项聚焦人体和植物健康，以及抗药性微生物研究的实验项目。这类研究通常旨在支持宇航员在长期太空驻留任务中的健康保障，例如了解微重力环境对人体生理机能、骨密度、免疫系统的影响，以及抗药性微生物在太空环境中的变异和传播特性，这些研究成果不仅服务于未来更长周期的深空探测任务，也可能为地面医学研究提供新的视角，例如极端环境下微生物耐药性的产生机制。商业补给服务模式是NASA与SpaceX等商业航天公司合作的常态化机制，通过固定频次的货运任务保障空间站的物资供给和科学实验的持续开展，这也是美国商业航天产业发展的重要组成部分。这则消息来自NASA官方发布，属于高可信度的一手信息来源。后续需要关注龙飞船与空间站的对接结果，以及后续各项科学实验的具体开展进度和初步数据发布时间。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "数据来自NASA官方一手发布，属于例行气候监测简报，未包含具体归因结论。",
+      "confidence_note": "NASA官方一手信息来源，可信度高",
       "fact_status": {
         "confirmed": [
-          "南极海冰在2026年达到的年度最大范围是卫星观测记录以来第三低"
+          "SpaceX执行NASA第35次商业补给任务并成功发射",
+          "任务搭载超过6300磅物资和科学实验载荷"
         ],
         "claims": [],
         "analysis": [
-          "单年数据波动较大，是否构成长期趋势需要更长时间序列数据佐证"
+          "此类研究有助于支持长期太空驻留任务中的宇航员健康保障"
         ]
       },
       "source_ids": [
-        "0f928707416c043d"
+        "c6951a36c21eb342",
+        "45826719abee0da2"
       ],
       "sources": [
         {
-          "id": "0f928707416c043d",
+          "id": "c6951a36c21eb342",
           "source": "NASA",
           "source_tier": 1,
           "source_region": "us",
           "language": "en",
           "category_hint": "science",
-          "title": "Antarctic Sea Ice Grows to Its 2026 Maximum",
-          "summary": "The ice reached its third-lowest maximum extent since satellite observations began.",
-          "url": "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/",
-          "published_at": "2026-10-12T04:00:00+00:00",
+          "title": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station",
+          "summary": "NASA’s SpaceX 35th commercial resupply mission lifted off at 6:33 a.m. EDT Tuesday aboard a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida, carrying more than 6,300 pounds of supplies and hardware, bound for the International Space Station. Following its successful launch, the SpaceX Dragon spacecraft will […]",
+          "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/",
+          "published_at": "2026-10-13T11:12:18+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "finance",
-      "title": "诺贝尔经济学奖授予两位美国经济学家，表彰宏观经济模型贡献",
-      "english_term": null,
-      "summary": "罗伯特·霍尔与迈克尔·伍德福德因开发帮助政府与央行更有效应对经济繁荣与衰退的经济模型而获得本年度诺贝尔经济学奖。",
-      "script": "本年度诺贝尔经济学奖揭晓，获奖者是美国经济学家罗伯特·霍尔与迈克尔·伍德福德，表彰他们在开发宏观经济模型方面的贡献，这些模型帮助政府和中央银行能够更有效地应对经济繁荣与衰退周期。宏观经济建模的核心挑战在于，经济体系涉及消费者、企业、金融机构等大量相互作用的主体，政策制定者需要借助简化但足够准确的数学模型，来预测利率调整、财政刺激等政策工具可能产生的连锁反应。霍尔与伍德福德的研究为中央银行在制定货币政策时提供了理论框架，使得政策制定者能够更好地理解通货膨胀预期、利率传导机制等变量之间的动态关系，这类工作在过去数十年全球多次经济衰退与复苏过程中被广泛参考和应用于政策实践。诺贝尔经济学奖评审委员会的声明强调，这些模型工具的价值在于提升了政策应对的精准性，减少了决策的盲目性。这是经济学领域对基础理论研究长期价值的又一次肯定，也反映出学术界在宏观经济治理工具箱建设上的持续积累。后续需要关注两位得主在获奖后的公开演讲中，是否会结合当前全球通胀与利率环境，对现实政策提出新的理论延伸。",
-      "duration_seconds": 115,
-      "is_unverified": false,
-      "confidence_note": "来自二级来源对诺贝尔奖官方结果的报道，内容为官方奖项结果，可信度高。",
-      "fact_status": {
-        "confirmed": [
-          "罗伯特·霍尔与迈克尔·伍德福德获得本年度诺贝尔经济学奖"
-        ],
-        "claims": [],
-        "analysis": [
-          "该奖项体现学术界对宏观经济建模理论长期价值的认可"
-        ]
-      },
-      "source_ids": [
-        "589e3af92e0d4577"
-      ],
-      "sources": [
+        },
         {
-          "id": "589e3af92e0d4577",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
+          "id": "45826719abee0da2",
+          "source": "NASA",
+          "source_tier": 1,
+          "source_region": "us",
           "language": "en",
-          "category_hint": "world",
-          "title": "Nobel Prize in Economics goes to pair of US economists",
-          "summary": "Robert E. Hall and Michael Woodford got the Nobel for developing economic models that help governments and central banks respond more effectively to booms and recessions.",
-          "url": "https://www.dw.com/en/nobel-prize-in-economics-goes-to-pair-of-us-economists/a-79638025?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-12T09:55:00+00:00",
+          "category_hint": "science",
+          "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
+          "summary": "NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th Commercial Resupply Services mission for the agency from Cape Canaveral Space Force Station in Florida, advancing research that benefits life on Earth and future exploration. This research supports astronaut health during long-duration missions through […]",
+          "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
+          "published_at": "2026-10-12T17:45:27+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "中东局势与俄乌停火争议仍在发酵，机场袭击后的沙特反制措施、以及克里姆林宫与西方对“停火”定义的分歧，都值得继续跟踪。机器人领域，从北京赛场的竞技表现到arXiv上密集的新论文，学术界正在把目光从炫技转向更贴近真实场景的操作与记忆能力，后续论文的同行评审结果与更多团队的复现工作将是检验这些方法成色的关键。",
-  "editor_note": "候选中机器人类信息以arXiv预印本和产业评论类为主，缺少当日重大融资或量产类硬新闻，因此在学术论文解读上做了加深处理以保证时长占比；机场袭击与俄乌停火两条世界新闻涉及多方主张，已按原则拆分“已确认事实”“各方主张”“分析判断”。部分候选（如底特律机器人气球、无线充电初创、印度机器人市场扩张等）因信息量过低或来源单一、新闻价值有限未予采用。",
+  "closing": "今天的内容中，机器人产业的几则消息更多集中在商用场景的落地细节和早期融资，学术层面的新论文或重大技术突破相对有限；国际局势方面，柴油交易引发的欧洲分歧与黑海安全事件值得继续跟踪后续进展。后续需要关注普渡机器人海外市场数据、农业机器人中心具体研究方向，以及欧洲各国对美俄柴油交易的正式回应。",
+  "editor_note": "本期候选信息中机器人类内容多为企业新闻稿或行业媒体简讯，缺乏学术论文或重大技术突破类候选，故在产业动态上做了均衡覆盖并如实标注证据有限之处；国际政治部分选择了具有交叉信源佐证的事件优先入选，部分单源报道（如黑海事件、刚果金事件）保留但未标记为unverified，因其为Tier 2媒体常规新闻报道而非预印本或自媒体线索。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 9205,
-      "output_tokens": 10392,
-      "total_tokens": 19597
+      "input_tokens": 8205,
+      "output_tokens": 9970,
+      "total_tokens": 18175
     },
     {
-      "input_tokens": 12223,
-      "output_tokens": 10052,
-      "total_tokens": 22275
+      "input_tokens": 11803,
+      "output_tokens": 9584,
+      "total_tokens": 21387
     }
   ],
   "usage": {
-    "output_tokens": 20444,
-    "total_tokens": 41872,
-    "input_tokens": 21428
+    "output_tokens": 19554,
+    "input_tokens": 20008,
+    "total_tokens": 39562
   },
-  "generated_at": "2026-10-12T12:12:48+00:00",
-  "window_start": "2026-10-11T12:12:48+00:00",
-  "candidate_count": 309,
+  "generated_at": "2026-10-13T12:10:49+00:00",
+  "window_start": "2026-10-12T12:10:49+00:00",
+  "candidate_count": 190,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1365,
-    "script_characters": 5331,
-    "topic_duration_share": 0.542,
+    "duration_seconds": 1370,
+    "script_characters": 5349,
+    "topic_duration_share": 0.54,
     "passed": true,
     "normal_target_met": false,
-    "topic_source_count": 3,
+    "topic_source_count": 2,
     "issues": []
   }
 }
