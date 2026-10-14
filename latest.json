@@ -1,148 +1,64 @@
 {
-  "title": "晶球电台早报：普渡清洁机器人斩获国际大奖，欧洲多国就俄乌局势紧张博弈",
-  "subtitle": "柴油交易引发欧洲不满，黑海无人机击沉货轮；机器人产业继续在落地场景中寻找竞争力",
+  "title": "晶球电台早报：人形机器人冲击纳斯达克，火星车刷新自主驾驶纪录",
+  "subtitle": "从具身智能安全框架到胡塞导弹袭击利雅得，今天的世界既在加速也在震荡",
   "highlights": [
-    "特朗普与普京的柴油协议引发欧洲盟友强烈不满",
-    "保加利亚因黑海商船遭无人机击沉召见俄罗斯大使，11名船员下落不明",
-    "普渡机器人PUDU BG1系列斩获ISSA两项大奖，商用清洁机器人赛道竞争持续升温",
-    "企业机器人部署从试点走向量产，行业开始关注真实世界条件下的鲁棒性评测"
+    "Agility Robotics 计划11月在纳斯达克上市，成为美国首家纯人形机器人上市公司",
+    "NASA 毅力号火星车自主导航刷新行驶里程纪录，五年升级自主软件是关键",
+    "也门胡塞武装导弹袭击沙特阿美设施，红海与霍尔木兹海峡局势持续升温",
+    "乌克兰指控 SpaceX 限制星链接入影响前线无人机作战能力"
   ],
   "stories": [
     {
-      "category": "world",
-      "title": "特朗普与普京达成柴油交易，欧洲盟友集体不满",
-      "english_term": null,
-      "summary": "特朗普政府与俄罗斯达成的柴油交易引发欧洲国家强烈批评，乌克兰总统泽连斯基质疑华盛顿的真实动机。",
-      "script": "国际政治方面，美国总统特朗普与俄罗斯达成的一项柴油交易，在欧洲引发了明显的不满情绪。已确认的事实是，这项交易涉及美国与俄罗斯之间的柴油贸易安排，消息公开后立刻引来欧洲多国官员的批评声浪。乌克兰总统泽连斯基公开质疑华盛顿方面达成这项交易的真实动机，认为这与西方持续向俄罗斯施压、支持乌克兰的整体战略方向存在矛盾。欧洲盟友方面的主张是，这类能源交易客观上可能为俄罗斯提供经济上的喘息空间，削弱此前各方联合实施的制裁效果，因此多国官员表态将继续对莫斯科保持压力，不会因为这笔交易而改变既有立场。目前报道并未披露交易的具体金额、期限或执行细节，各方说法主要集中在政治层面的表态和质疑，尚缺乏更细致的官方文本佐证。分析判断上，这一事件折射出美国在乌克兰问题上与欧洲盟友之间可能出现的策略分歧，如果华盛顿在对俄经济问题上采取相对宽松的态度，可能会在跨大西洋联盟内部制造新的裂痕，尤其是在欧洲国家普遍承受能源与安全双重压力的背景下。与此同时，北约方面也在同一时间段内公布了应对俄罗斯潜在袭击的详细预案，显示出联盟内部在安全议题上仍保持统一协调的姿态，这与柴油交易引发的政治分歧形成了某种对照。后续需要等待欧洲官方对交易细节的进一步披露，以及北约内部是否会就此事召开专门磋商。",
-      "duration_seconds": 135,
-      "is_unverified": false,
-      "confidence_note": "基于NPR两篇独立报道交叉确认，但交易具体条款细节有限",
-      "fact_status": {
-        "confirmed": [
-          "特朗普政府与俄罗斯达成柴油交易",
-          "该交易引发欧洲官员批评"
-        ],
-        "claims": [
-          "泽连斯基质疑华盛顿的交易动机",
-          "欧洲盟友称将继续对俄施压"
-        ],
-        "analysis": [
-          "交易可能在跨大西洋联盟内部制造新的策略分歧"
-        ]
-      },
-      "source_ids": [
-        "77e68c273071ed19",
-        "62272d3a5b27e79d"
-      ],
-      "sources": [
-        {
-          "id": "77e68c273071ed19",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Trump's diesel deal with Putin angers Europe",
-          "summary": "President Trump's diesel deal with Russia sparks European fury, as Ukraine's President Zelenskyy questions Washington's motives and allies vow to keep pressure on Moscow.",
-          "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
-          "published_at": "2026-10-13T08:44:19+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "62272d3a5b27e79d",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "How NATO plans to combat potential attacks on the alliance from Russia",
-          "summary": "NPR's Steve Inskeep speaks with former U.S. Assistant Secretary for European Affairs Dan Hamilton about NATO's detailed plans to counter any possible Russian attack on the alliance.",
-          "url": "https://www.npr.org/2026/10/13/nx-s1-5998721/how-nato-plans-to-combat-potential-attacks-on-the-alliance-from-russia",
-          "published_at": "2026-10-13T08:44:14+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "黑海商船遭无人机击沉，保加利亚召见俄大使",
-      "english_term": null,
-      "summary": "一艘商船在黑海遭遇无人机攻击后沉没，11名船员下落不明，保加利亚随即召见俄罗斯大使表达抗议。",
-      "script": "黑海地区再度发生安全事件。已确认的事实是，一艘商船在黑海遭遇无人机袭击后沉没，当地官员表示目前有11名船员下落不明，搜救工作仍在进行。事件发生后，保加利亚政府做出强烈反应，召见了俄罗斯驻保加利亚大使，就此次袭击提出正式交涉。各方主张方面，当地官员将此次袭击定性为蓄意的无人机攻击行为，但报道中并未明确指出袭击方的身份认定依据，也没有提及俄罗斯方面对此事的官方回应或否认声明。分析判断来看，黑海近年来一直是俄乌冲突外溢效应最为集中的区域之一，商船和民用航运设施多次卷入军事行动的附带影响，此次事件如果最终被证实与俄罗斯军事行动直接相关，将进一步加剧黑海航运安全的紧张态势，也可能促使更多黑海沿岸国家加强对本国商船和港口设施的防护措施。保加利亚作为北约和欧盟成员国，此次召见俄罗斯大使的举动，也可以被视为对俄方在黑海活动的一种外交层面的施压信号。目前尚不清楚这艘商船的国籍、货物性质以及具体的遇袭地点细节，相关信息有待进一步披露。后续需要等待搜救结果公布，以及俄罗斯方面是否会对此次指控做出正式回应。",
-      "duration_seconds": 115,
-      "is_unverified": false,
-      "confidence_note": "基于BBC World单一来源报道，细节有限，需等待更多信息源确认",
-      "fact_status": {
-        "confirmed": [
-          "一艘商船在黑海遭无人机攻击后沉没",
-          "保加利亚召见俄罗斯大使"
-        ],
-        "claims": [
-          "当地官员将此事定性为无人机攻击",
-          "11名船员下落不明"
-        ],
-        "analysis": [
-          "事件可能加剧黑海航运安全紧张局势"
-        ]
-      },
-      "source_ids": [
-        "06abc9e88b3f6625"
-      ],
-      "sources": [
-        {
-          "id": "06abc9e88b3f6625",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
-          "summary": "Eleven crew members are missing after a merchant ship was sunk overnight, local officials say.",
-          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-13T10:57:17+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
       "category": "robotics",
-      "title": "普渡机器人清洁产品线斩获ISSA两项大奖",
-      "english_term": "ISSA（国际清洁行业协会）",
-      "summary": "普渡机器人的PUDU BG1系列商用清洁机器人在国际清洁行业协会ISSA评选中获得两项大奖，巩固其在商用清洁机器人领域的市场地位。",
-      "script": "来看一则机器人产业动态。普渡机器人旗下的PUDU BG1系列商用清洁机器人，在国际清洁行业协会ISSA的评选中斩获两项大奖。ISSA是全球清洁卫生行业具有代表性的行业协会之一，其奖项评选通常聚焦产品在实际商用场景中的性能表现、可靠性以及对行业标准的推动作用，因此获奖对于相关企业而言具有一定的行业背书意义。从技术背景看，商用清洁机器人通常需要结合SLAM同步定位与地图构建技术在商场、机场、写字楼等复杂室内环境中自主导航，同时还要应对不同地面材质、障碍物密度以及人流量变化带来的挑战，这对机器人的感知系统、路径规划算法和安全避障能力都提出了较高要求。普渡机器人近年来在服务机器人赛道上的布局，覆盖了送餐、清洁、配送等多个商用场景，这次获奖进一步强化了其在商用清洁细分领域的产品竞争力和品牌认知度。从产业角度观察，商用清洁机器人市场近几年持续扩张，核心驱动力来自于劳动力成本上升和人力短缺压力，尤其是在物业管理、酒店、商业综合体等场景中，机器人被视为替代重复性人力劳动的可行方案。不过，行业内对于清洁机器人实际落地效果的评价并不完全一致，设备采购成本、维护便利性以及在非标准化场景下的适应能力，仍然是制约大规模普及的重要因素。这则消息目前主要来自企业新闻稿渠道，缺乏第三方独立数据对产品实际市场占有率或具体销量的佐证，相关信息的权威性有限。后续需要关注普渡机器人是否会公布具体的市场份额数据，以及ISSA奖项评选的具体技术评测标准细节。",
-      "duration_seconds": 160,
+      "title": "Agility Robotics 冲刺11月纳斯达克上市，成美国首家纯人形机器人上市公司",
+      "english_term": "humanoid robot（人形机器人）；pure-play（主营业务高度集中的公司）",
+      "summary": "人形机器人公司 Agility Robotics 预计11月在纳斯达克挂牌，将成为美国第一家主营业务完全聚焦人形机器人的上市公司。",
+      "script": "先看一条产业重磅消息。总部位于美国俄勒冈州的 Agility Robotics 被曝正按计划推进11月在纳斯达克上市，一旦成行，它将成为美国第一家主营业务完全聚焦人形机器人的上市公司，也就是所谓的 pure-play，意思是公司几乎所有收入和业务都围绕同一个核心产品线展开，不像一些大型科技公司只是把人形机器人作为众多业务线之一。Agility 最为人熟知的产品是双足机器人 Digit，这款机器人采用类似鸟类腿部结构的设计，主打仓储物流场景里的搬箱、卸货等任务，此前已经和亚马逊、GXO 等物流企业有过试点合作。资本市场一直在等一个信号，就是人形机器人到底能不能把实验室里的演示转化成可规模化销售的产品，如果上市计划顺利落地，这将是继续验证商业化进展的重要节点，因为上市意味着公司需要向公众披露更细致的财务数据，包括订单量、毛利率和量产进度，这些信息在私募融资阶段通常是不透明的。值得注意的是，这条消息目前来自行业媒体报道，尚未看到 Agility 官方或纳斯达克交易所的正式确认文件，上市计划也可能因监管审批、市场窗口等因素推迟或调整。另外同一天还有一则相关产业消息，电动车公司法拉第未来旗下的机器人业务 FF EAI Robotics 签署了收购 Faraday Future Robotics 的最终协议，显示出即便是经营困难的老牌造车新势力，也在尝试通过机器人业务寻找新的增长点。这两条消息放在一起看，说明人形机器人赛道的资本动作正在从单纯的风险投资，向更公开、更接受市场检验的阶段过渡。后续需要等待 Agility 官方或纳斯达克交易所发布正式上市文件以确认时间表和发行细节。",
+      "duration_seconds": 175,
       "is_unverified": true,
-      "confidence_note": "消息来源为企业新闻稿渠道Press Release Hub，缺乏第三方独立验证，获奖具体评测标准和市场影响力数据有限",
+      "confidence_note": "消息来自行业媒体 NAI500 的报道，属于 Tier 3 来源，尚无 Agility Robotics 官方或交易所的一手确认，上市时间和细节可能变化。",
       "fact_status": {
         "confirmed": [
-          "PUDU BG1系列获得ISSA两项奖项"
+          "Agility Robotics 是一家人形机器人公司，产品为双足机器人 Digit"
         ],
         "claims": [
-          "该奖项被企业方面称为巩固其全球商用清洁机器人领导地位的证明"
+          "行业媒体报道称公司计划11月在纳斯达克上市，将成为美国首家纯人形机器人上市公司",
+          "FF EAI Robotics 已签署收购 Faraday Future Robotics 的最终协议"
         ],
         "analysis": [
-          "商用清洁机器人市场扩张主要受劳动力成本上升驱动",
-          "大规模普及仍受制于采购和维护成本"
+          "若上市成行，将是人形机器人商业化程度接受公开市场检验的重要节点"
         ]
       },
       "source_ids": [
-        "9fee6942d753a3fa"
+        "1d41095441a08ebf",
+        "2fb2a69453f85691"
       ],
       "sources": [
         {
-          "id": "9fee6942d753a3fa",
+          "id": "1d41095441a08ebf",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Pudu Robotics' PUDU BG1 Series Wins Two ISSA Awards, Reinforcing Global Leadership in Commercial Cleaning Robotics - Press Release Hub",
-          "summary": "Pudu Robotics' PUDU BG1 Series Wins Two ISSA Awards, Reinforcing Global Leadership in Commercial Cleaning Robotics Press Release Hub",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRkRyWjVqMk1EaE1KdksteEhmOE95TldWUEFsM05HY2N2cGpUNFVKeC1LNnZMeHNLbG9Ia2pINE9YTG5OS0JiZ1NpcTBRNWVNUEhVakZRdFF4SExaNEc0WUsxNkxIcWRDcEdrTHZXOFpqWWcyT2E1cmJtaWxDQXFPSFlENjlfa1Y4U2dnMGhwZkE4TGhsVl9qTzRjNmllb3BzdGVpMEJUX3c0WEtNMWRKbjU4cnUtR2ppUzIxVkFaRFRtc1JmN0d5WDBZX1g2cU5hMThKRnVCQ011ZmNaX1VIUG5lVy1odF9wX0tib2dpYjhGckx2cURn?oc=5",
-          "published_at": "2026-10-13T12:01:15+00:00",
+          "title": "Agility Robotics On Track for November Nasdaq Listing as First U.S. Pure-Play Humanoid Robot Maker - NAI500",
+          "summary": "Agility Robotics On Track for November Nasdaq Listing as First U.S. Pure-Play Humanoid Robot Maker NAI500",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdnF0azR3cGJHZnZxT0oyR1NnTnNlMVNQU2p2V2dHUWlfTnZ0djNBeDlVOFFzLWp0cTNIeGYtZzFKRW1peUlfalQyZnNTY3NGWVFubFBvam1JZjVYX3JqdS14WTJFa3NERkZiU0lqd1hCYXphWVpFempPYjNwM1dMMHkzWlhCLVpnZG54RzRTM0VSenBuQzQ4VnA2UmZvYW02d1ZEZWtCX3VTbTBMSEpNdmFWSkFwX0hrMTZRNzdRa3NpRDdsUFFQVmNn?oc=5",
+          "published_at": "2026-10-14T12:02:53+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "2fb2a69453f85691",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "FF EAI Robotics Signs Definitive Deal to Buy Faraday Future Robotics - Unite.AI",
+          "summary": "FF EAI Robotics Signs Definitive Deal to Buy Faraday Future Robotics Unite.AI",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeUhheVNoU3lXSFRoeUxBSG9JVTRnb2dtMEg1b3VTeWNueVd4VzFxeWd0RVR2LWxGcURkYjZNeTRsU0NOTTdXZVlsd3cwZllTajVyMHlncHFOODhSbDNYMW5TTUlGTEl2OVRfMXVMbDFFQTJSbWFBVUZRdlNHSmxHdWZNdzZwd1RoY3VUbVI4Q01EVDZV?oc=5",
+          "published_at": "2026-10-14T11:56:04+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -150,366 +66,429 @@
     },
     {
       "category": "robotics",
-      "title": "企业机器人部署：从试点到量产的关键要素",
-      "english_term": "PoC（概念验证，Proof of Concept）",
-      "summary": "行业分析指出，企业机器人项目要从小规模试点走向规模化生产部署，需要解决真实场景下的鲁棒性、系统集成与运维等关键问题。",
-      "script": "在机器人产业落地方面，有报道探讨了企业机器人项目为何常常止步于试点阶段、难以推进到规模化生产部署的问题。这类讨论通常聚焦几个核心环节。首先是真实场景下的鲁棒性问题，许多机器人系统在实验室或小规模试点环境中表现良好，但一旦进入真实的仓库、工厂或物流中心，面对光照变化、地面不平整、人员密集穿行等非理想条件时，系统的稳定性往往会显著下降，这也是行业内常说的现实差距问题，即仿真或试点环境与真实世界运行条件之间的落差。其次是系统集成的复杂度，企业级机器人部署往往不是单一设备的问题，而需要与仓库管理系统、生产执行系统等现有信息化基础设施对接，这种跨系统集成的工程量和技术难度，常常被企业在立项阶段低估。另外，与之相关的另一篇行业评论也提到，衡量自动化项目成功与否的标准正在发生变化，不再仅仅是自动化密度或设备利用率这类单一指标，而是更关注实时执行能力，也就是系统能否在生产节拍压力下持续稳定地完成任务，这被认为是企业机器人下一阶段竞争的关键优势所在。从产业角度看，这类讨论反映出机器人行业正从早期的技术演示阶段，逐步过渡到对投资回报率和长期运维成本更为务实的评估阶段，企业采购方也更加谨慎地评估全生命周期成本，而不仅仅关注前期采购价格。这两篇文章均来自行业媒体的分析评论，总体可信度较高，但更多是行业观察性质的内容，而非具体某个企业案例的实证数据。后续需要关注是否有具体企业公布规模化部署后的实际运营数据，以验证这些行业判断。",
+      "title": "NASA毅力号火星车刷新自主行驶纪录，五年自主软件升级是关键",
+      "english_term": "autonomy software（自主导航软件）",
+      "summary": "毅力号火星车10月11日完成一次行驶后，总行驶里程达到28.10英里，创下火星车行驶距离新纪录，这主要得益于五年来自主导航软件的持续升级。",
+      "script": "接下来是一条来自地外探索一线的机器人新闻。NASA 的毅力号火星车在10月11日完成一次行驶后，累计行驶里程达到28.10英里，约合45.22公里，刷新了火星车行驶距离的纪录。IEEE Spectrum 采访了毅力号自主导航团队的负责人 Mark Maimone，详细解释了这背后的技术支撑。毅力号之所以能跑得更远，核心原因是过去五年里，它的自主导航软件被持续升级，让它能够以更高的自主性规划路径，而不需要每一步都等待地球指令。要知道，火星和地球之间的通信存在几分钟到十几分钟不等的延迟，如果每一个动作都要等地球发指令，火星车的行驶效率会非常低。毅力号采用的自主导航系统能够实时处理相机图像，识别岩石、沙地和危险地形，自主规划安全路径，这类似于地面自动驾驶里的感知加规划流程，但要应对的环境远比地球复杂：光照条件多变、地形未知、通信带宽极其有限，而且一旦出错没有办法现场维修。相比它的前辈好奇号，毅力号在自主驾驶能力上做了多代软件迭代，使得单次自主行驶的距离和速度都有明显提升。这条新闻虽然看起来是一次刷纪录的里程碑，但背后反映的是自主系统工程在极端环境下长期迭代验证的价值，对地面机器人领域的自主导航算法设计也有参考意义，比如如何在高不确定性环境下做鲁棒的路径规划。后续需要关注毅力号在接下来的探测任务中能否进一步扩大自主行驶的里程和速度。",
+      "duration_seconds": 145,
+      "is_unverified": false,
+      "confidence_note": "消息来自 IEEE Spectrum 对 NASA 团队负责人的直接采访，属于 Tier 2 可靠来源，且与 NASA 任务数据一致。",
+      "fact_status": {
+        "confirmed": [
+          "毅力号10月11日完成行驶后，累计里程达28.10英里（45.22公里），创下火星车行驶距离纪录",
+          "该纪录得益于过去五年自主导航软件的持续升级"
+        ],
+        "claims": [],
+        "analysis": [
+          "自主系统的长期迭代是提升火星车探测效率的关键因素"
+        ]
+      },
+      "source_ids": [
+        "9205f1702ce6378f"
+      ],
+      "sources": [
+        {
+          "id": "9205f1702ce6378f",
+          "source": "IEEE Spectrum Robotics",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Q&A: Mars Perseverance Rover Distance Record",
+          "summary": "On October 11 , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by Perseverance’s ability to drive with much more autonomy than its predecessors. Over the last five years, Perseverance’s autonomy software has been steadily upgraded, and to learn more about how the record was broken and what the future holds for the rover, we spoke with Mark Maimone , the Perseverance Robotic Operations Deputy Team Chief at NASA’s Jet Propulsion Laboratory, who designed and developed the self-driving software for Mars rovers Spirit, Opportunity, Curiosity, and Perseverance. Before we talk about Perseverance, let’s pour one out for the previous record holder Opportunity , which landed on Mars in January of 2004 for a 3-month mission and ended its epic journey 15 years later in February of 2019. This NASA video compresses Opportunity’s entire mission into four minutes, and gives a poignant sense of the incredible distance that this little rover traveled over its 15 year life on Mars, doing science as it went: NASA Jet Propulsion Laboratory/YouTube Opportunity drove 4",
+          "url": "https://spectrum.ieee.org/mars-rover-distance-record",
+          "published_at": "2026-10-13T15:02:04+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "学术速览：接触丰富操作与人形全身控制的最新研究",
+      "english_term": "VLA（视觉-语言-动作模型）；whole-body control（全身控制）；imitation learning（模仿学习）",
+      "summary": "今日 arXiv 机器人学栏目集中出现多篇关于操作任务柔顺控制、人形机器人全身交互、家庭机器人安全性的新论文。",
+      "script": "再来看学术圈的几条动态，今天 arXiv 的机器人学板块一次性挂出多篇值得关注的新论文。第一篇叫 Residual Compliant Policy，研究的是如何用很少的示范数据学出柔顺的操作策略。所谓接触丰富的操作任务，是指机器人在完成任务过程中需要和环境反复发生物理接触，比如插拔、装配，这类任务要求机器人在空间中移动时要精准，一旦接触上物体又要柔顺，不能用蛮力把东西压坏或顶歪。问题在于，示范数据里往往只记录了末端执行器的轨迹，没有直接记录操作者当时用了多大力、多柔的手感，这种柔顺特性很难从示范数据里直接学出来。这篇论文提出在模仿学习框架里显式地把柔顺建模出来，在训练和执行阶段都做专门处理，试图用较少的示范次数达到更好的接触控制效果。第二篇是 OIL，全称 Object Interaction Layer，面向人形机器人全身控制问题。过去的全身控制器大多只能跟踪关节或末端的运动轨迹，这种抽象方式对上游的动作捕捉、遥操作和生成模型很友好，但一旦涉及和物体的真实物理交互，比如推、拉、支撑重物，只跟踪运动轨迹就不够了，因为还需要考虑力和平衡。这篇论文尝试在控制器里加入专门处理物体交互的层，让人形机器人在执行任务时既能跟踪目标动作，又能合理地处理接触力。第三篇则是一篇综述，题目是《从比特到原子：具身智能跨层安全综述》，作者把具身智能的安全问题划分成物理交互、系统中间件、算法决策、云边数据四个层次，系统梳理了每一层可能出现的漏洞、风险传播路径以及相应的防护手段，这对越来越多机器人走进家庭和公共空间后的安全评估是一份有参考价值的框架性工作。这几篇论文都还处于预印本阶段，尚未经过同行评审，具体结论和实验细节需要以正式发表版本为准。",
+      "duration_seconds": 185,
+      "is_unverified": true,
+      "confidence_note": "均为 arXiv 预印本，尚未经过同行评审，实验结果和结论可能在后续修改中调整。",
+      "fact_status": {
+        "confirmed": [
+          "三篇论文均于10月14日发布在 arXiv 机器人学板块"
+        ],
+        "claims": [
+          "Residual Compliant Policy 声称能用较少示范数据学习柔顺操作策略",
+          "OIL 声称能让人形机器人全身控制器处理物体交互中的力与平衡",
+          "跨层安全综述提出了四层参考架构梳理具身智能安全问题"
+        ],
+        "analysis": [
+          "柔顺控制与全身物体交互是当前操作类机器人研究的核心难点之一",
+          "具身智能安全框架的提出反映行业对机器人进入真实环境后风险管理的关注上升"
+        ]
+      },
+      "source_ids": [
+        "3439d08cb169e1e3",
+        "6ad9005d240df23f",
+        "2d23a7f1c711dce4"
+      ],
+      "sources": [
+        {
+          "id": "3439d08cb169e1e3",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Residual Compliant Policy: Learning Compliant Policies from Few Demonstrations",
+          "summary": "arXiv:2610.14035v1 Announce Type: new Abstract: Contact-rich manipulation requires a robot to be precise in free space to establish the intended contacts, and compliant once in contact to avoid excessive forces. Imitation learning has proven effective for simpler manipulation tasks, but the compliance underlying a demonstration is not directly observable and is therefore difficult to infer from demonstration data alone. We present a framework that makes compliance explicit at every stage. During data collection, the operator teleoperates the real robot while a synchronized digital twin visualizes the error between the commanded reference and the achieved pose, making the current compliance visible, and selects between two discrete compliance modes. To generalize across object poses, we combine Laplacian editing, which retargets trajectories efficiently but is not physics-consistent during contact, with simulation-based trajectory optimization, which enforces physical plausibility but offers no manual guidance. Finally, a residual reinforcement learning policy refines the interaction forces by adjusting the reference pose of the underlying admittance controller. We evaluate on three",
+          "url": "https://arxiv.org/abs/2610.14035",
+          "published_at": "2026-10-14T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "6ad9005d240df23f",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "OIL: An Object Interaction Layer for Humanoid Whole-Body Control",
+          "summary": "arXiv:2610.14033v1 Announce Type: new Abstract: Recent progress in learned whole-body controllers for humanoid robots has enabled robust free-space motion by tracking kinematic targets such as joint or end-effector trajectories. This interface provides a useful abstraction for upstream systems, including motion capture, teleoperation, or generative models, which can specify desired motion without reasoning about forces or balance. However, this abstraction has largely been limited to robot motion, requiring task-specific controllers or retraining for object interaction. We introduce OIL, an Object Interaction Layer that extends the kinematic command interface of whole-body control to include desired object motion and contact. OIL augments a standard controller with object-centric commands and translates them into coordinated whole-body behavior while preserving locomotion and balance. This design enables a single learned policy to execute non-prehensile interactions, including pushing, pulling, two-arm pick-and-place, and locomotion-coupled transport, directly from object-level kinematic targets without task-specific retraining. In simulation, we demonstrate that object-level comma",
+          "url": "https://arxiv.org/abs/2610.14033",
+          "published_at": "2026-10-14T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "2d23a7f1c711dce4",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "From bits to atoms: A survey of cross-layer safety in Embodied AI",
+          "summary": "arXiv:2610.14038v1 Announce Type: new Abstract: Embodied Artificial Intelligence (AI) introduces cyber-physical risks because digital failures and attacks can cause physical harm. This survey organizes embodied AI safety through a four-layer reference architecture -- comprising the physical interaction, system and middleware, algorithm and decision, and cloud-edge and data layers -- and uses it to connect vulnerabilities, propagation paths, and safeguards across the system stack. It traces the evolution of safety paradigms and examines how faults and attacks cross architectural boundaries to produce physical consequences. Furthermore, the survey systematizes composite attack chains, outlines multi-layered defense strategies, and reviews representative embodied safety benchmarks. Ultimately, we advocate for unifying software alignment with rigorous hardware constraints to build trustworthy systems capable of operating safely within human-centric environments.",
+          "url": "https://arxiv.org/abs/2610.14038",
+          "published_at": "2026-10-14T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "建筑与养老场景机器人落地：Promise Robotics联手美国最大房建商，ElliQ扩大纽约养老服务",
+      "english_term": "physical AI（物理世界人工智能，指结合感知与执行的AI系统）",
+      "summary": "Promise Robotics与美国最大住宅建筑商D.R. Horton达成多年合作，将物理AI引入住宅建造；同时Intuition Robotics与纽约州扩大养老陪伴机器人ElliQ的合作规模。",
+      "script": "机器人技术落地到具体行业的消息今天也有两条。第一条来自建筑行业，机器人公司 Promise Robotics 宣布与美国按建房量计算最大的住宅建筑商 D.R. Horton 达成多年期合作，目标是把所谓的物理AI，也就是融合感知、规划和执行能力的机器人系统，引入住宅建造流程。建筑行业长期以来自动化程度不高，大量工序仍依赖人工现场作业，尤其是墙体搭建、模块化构件组装这类重复性强但又需要一定精度的工作，是机器人介入的重点方向。这次合作被认为是机器人公司切入房屋建造这一规模庞大但技术渗透率很低的市场的典型案例，如果能在 D.R. Horton 的实际工地验证效率和成本优势，有可能带动更多建筑企业采用类似方案。第二条消息来自养老陪伴机器人领域，纽约州老年办公室，也就是 NYSOFA，宣布扩大与 Intuition Robotics 的合作，双方签署了一份为期三年、总金额210万美元的新协议，继续在纽约州推广陪伴机器人 ElliQ。ElliQ 是一款面向独居老年人的桌面陪伴设备，功能包括提醒服药、陪聊、协助视频通话等，目标是缓解老年人独居可能带来的孤独感和健康监测盲区。这类合作的持续扩大，说明陪伴机器人在养老场景里已经从早期的小范围试点，逐步进入更大规模、更长周期的公共服务采购阶段。这两条消息分别代表机器人技术在重资产的建筑行业和民生导向的养老服务领域的两种不同落地路径，一个追求效率和成本的规模化验证，一个追求长期陪伴关系和社会服务价值的可持续性。",
       "duration_seconds": 155,
       "is_unverified": false,
-      "confidence_note": "基于iTnews Asia和The Robot Report两个独立行业媒体的分析评论交叉印证，属于行业观察性质内容",
+      "confidence_note": "两条均来自行业媒体The Robot Report的直接报道，属于Tier 2来源，且涉及具体合同金额和合作方，可信度较高。",
       "fact_status": {
         "confirmed": [
-          "行业媒体报道探讨了企业机器人从试点到量产的常见障碍"
+          "Promise Robotics与D.R. Horton签署多年期合作协议，聚焦住宅建造中的物理AI应用",
+          "NYSOFA与Intuition Robotics签署三年期210万美元新协议，扩大ElliQ养老陪伴机器人的覆盖"
         ],
-        "claims": [
-          "现实差距问题被认为是制约规模化部署的关键因素",
-          "实时执行能力被视为新的竞争优势"
-        ],
+        "claims": [],
         "analysis": [
-          "机器人行业评估标准正从自动化密度转向全生命周期成本和实时执行能力"
+          "建筑和养老是机器人商业化落地中两类典型但路径不同的应用场景"
         ]
       },
       "source_ids": [
-        "6509aa4e31a3c12f",
-        "74655861100974ac"
+        "e4a8bf9da841fb98",
+        "4c054bd49206f846"
       ],
       "sources": [
         {
-          "id": "6509aa4e31a3c12f",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "From pilots to production: What makes enterprise robotics effective for work - iTnews Asia",
-          "summary": "From pilots to production: What makes enterprise robotics effective for work iTnews Asia",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONGxYSnV2TUFMRzdiNFlaZ3dySEVKS0Rha2RDTTh6a3EzM3lhOUQzclVneklKMGJRTUpSSUI4X2Rwd2sxSHcxMXpuc1ZkZlJaVEN5UC1Sdm5zTWQxVEJaUDFwMWNETHd1OUNvZFc2N1h5SF9sOEVtcEkwamhkUm81TU1mdDFfNm03cndzN1pQS2VCVndTRGRlMWJYdU9DR2JFb1FUMVZvUW51UTdfUTFsUA?oc=5",
-          "published_at": "2026-10-13T12:05:31+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "74655861100974ac",
+          "id": "e4a8bf9da841fb98",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Closing the reality gap: Why real-time execution has become the new competitive advantage",
-          "summary": "Daifuku's Cecile Dick-Calmes said success is no longer measured solely by automation density or equipment utilization. The post Closing the reality gap: Why real-time execution has become the new competitive advantage appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-advantage/",
-          "published_at": "2026-10-12T14:30:33+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "酒店AI服务机器人公司Flae Robotics完成百万欧元融资",
-      "english_term": null,
-      "summary": "酒店行业AI服务机器人公司Flae Robotics获得100万欧元融资，计划将其AI接待代理产品推广到更多酒店。",
-      "script": "一则机器人融资消息：专注于酒店行业的Flae Robotics公司完成了100万欧元的新一轮融资，公司计划利用这笔资金将其AI接待代理产品推广到更多酒店客户。从产品定位看，这类酒店AI服务机器人通常承担前台接待、客户咨询、信息查询等偏向交互型的任务，核心技术更多依赖于自然语言处理和对话系统，而非复杂的物理操作或移动能力，这与仓储物流、工业制造领域常见的机械臂或移动机器人在技术路线上有明显区别，更接近于具身化的对话式人工智能助手概念。从产业背景看，酒店和酒旅服务行业近年来持续面临人力成本上升和服务一致性管理的压力，一些连锁酒店开始尝试引入自动化接待方案来分担前台的重复性咨询工作，但这类产品的市场接受度在很大程度上取决于顾客体验的实际效果，以及能否与酒店既有的预订管理系统顺利对接。100万欧元的融资规模，在机器人与人工智能领域属于早期阶段的种子轮或天使轮级别投资，说明Flae Robotics目前仍处于产品验证和市场拓展的早期阶段，尚未形成大规模商业化部署。这则消息来源于酒旅行业媒体PhocusWire，报道内容以企业融资公告为主，缺乏关于具体技术架构、已部署酒店数量或用户反馈的详细数据，信息较为有限。后续需要关注该公司是否会披露具体的酒店合作案例和部署规模，以及这类AI接待代理产品在实际运营中的留存和满意度数据。",
-      "duration_seconds": 145,
-      "is_unverified": true,
-      "confidence_note": "单一行业媒体来源，融资规模较小，属早期阶段企业动态，缺乏独立数据验证",
-      "fact_status": {
-        "confirmed": [
-          "Flae Robotics完成100万欧元融资"
-        ],
-        "claims": [
-          "公司计划将AI接待产品推广到更多酒店"
-        ],
-        "analysis": [
-          "该融资规模处于早期阶段，商业化程度有限"
-        ]
-      },
-      "source_ids": [
-        "74c617177dd9c6e9"
-      ],
-      "sources": [
-        {
-          "id": "74c617177dd9c6e9",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Flae Robotics secures €1M to bring AI hospitality agent to more hotels - PhocusWire",
-          "summary": "Flae Robotics secures €1M to bring AI hospitality agent to more hotels PhocusWire",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRWc4T0djQmZIdjI2MnFVTVN0WWliVU5mN2htWUpjdFdmcDFLWjVLU3Q2cnJMZVpybXlielhWVlBuSmVmdFlUSUJmVzl5WnhsMXEwS2FtdlpMZVduaW5BUU14aXBXQnJVVUdNbVktQjRZWk1XMUJGX0Q0Ukp5ejU0MmlEbFBFMHlveWhPY2RnRWJNV3lXS2UwS0pBM0dlMWRBZDNIOFBLUW0?oc=5",
-          "published_at": "2026-10-13T12:04:44+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "林肯大学获480万英镑建设农业食品机器人中心",
-      "english_term": null,
-      "summary": "英国林肯大学获得480万英镑资金支持，用于建设农业食品领域的机器人研究中心。",
-      "script": "英国林肯大学宣布获得480万英镑资金支持，将用于建设一个专注于农业食品领域的机器人研究中心。农业机器人是机器人学术与产业交叉较为活跃的细分方向之一，核心挑战包括在非结构化的田间环境中进行作物识别、采摘操作、病虫害检测等任务，这类场景相比于工厂流水线等结构化环境，对机器人的感知鲁棒性和末端执行器的精细操作能力提出了更高要求，例如如何在不损伤农产品的前提下完成抓取和采摘，一直是农业机械臂领域的研究难点。从产业背景看，农业劳动力短缺是推动农业自动化需求增长的重要因素之一，尤其是在季节性用工高度集中的采摘环节，机器人被寄予替代部分人力的期望，但目前农业机器人在复杂地形适应性、作物多样性应对以及成本效益方面，距离大规模商业化部署仍有一定差距。林肯大学此次获得的资助规模属于学术研究基础设施建设层面的投入，通常用于建设实验场地、采购设备和支持相关课题研究，而非直接的产品商业化投入，这类资金也往往需要较长周期才能转化为可见的技术突破或产业应用成果。这则消息来源于农业园艺行业媒体Hortidaily，属于单一来源报道，目前尚未披露具体的研究方向细分、团队规模或预期产出时间表。后续需要关注该机器人中心具体的研究课题设置，以及是否会与农业企业展开产学研合作。",
-      "duration_seconds": 135,
-      "is_unverified": true,
-      "confidence_note": "单一行业媒体来源，资金用途和具体研究方向细节有限",
-      "fact_status": {
-        "confirmed": [
-          "林肯大学获得480万英镑用于农业食品机器人中心建设"
-        ],
-        "claims": [
-          "资金将用于支持农业机器人相关研究"
-        ],
-        "analysis": [
-          "农业机器人面临非结构化环境感知和末端操作精细度的核心挑战"
-        ]
-      },
-      "source_ids": [
-        "2b419be27c344c44"
-      ],
-      "sources": [
-        {
-          "id": "2b419be27c344c44",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "University of Lincoln secures £4.8 million for agri-food robotics hub - Hortidaily",
-          "summary": "University of Lincoln secures £4.8 million for agri-food robotics hub Hortidaily",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN2NGU3M5LVAyOFo1aVRWMlRTeWVkVTdKRk5MQnRub3hNNUUzY0ExWktGVTlMVkRUOHdxZGt0Q25yN1pKSHotMEJIN0JJMU9JX2tQYjZnRFhsSEo5azZ6S1ZBdmVyMHFpMWpHcU1Da09KZlZOVmVldzdVbVpMQzFKOVpJaHBtMGp6cE5ZUmJNaU5ZcFcxZHFWWXp1V3VVYkpVS1NEX1d3VHRkVVkybXE1MTdVX1k?oc=5",
-          "published_at": "2026-10-13T12:00:08+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "废物分拣机器人中心将开展真实条件基准测试",
-      "english_term": null,
-      "summary": "一家机器人研究中心计划针对废物分拣场景，在真实世界条件下对相关机器人系统进行基准测试。",
-      "script": "另一则值得关注的机器人产业消息是，一家机器人研究中心计划针对废物分拣这一具体应用场景，开展真实世界条件下的基准测试工作。废物分拣机器人是机器人在循环经济和环保领域的典型应用之一，其核心技术难点在于如何在传送带高速运行、垃圾物料种类混杂多变、光照和遮挡条件复杂的真实场景中，准确识别并分拣出不同材质的废弃物，例如区分塑料、金属、纸张等可回收物与不可回收垃圾，这对计算机视觉识别算法和末端执行器的抓取速度都提出了很高要求。目前废物分拣领域存在的一个普遍问题是，很多机器视觉和抓取算法在实验室条件下测试效果良好，但当面对真实回收厂中物料形态、污染程度和堆叠方式的多样性时，识别准确率和分拣效率往往会明显下降，这与机器人行业其他场景中常提到的现实差距问题是类似的技术挑战。因此，建立一个能够在真实世界条件下进行标准化基准测试的平台，对于推动废物分拣机器人技术的产业化具有实际意义，这类基准测试通常会公开测试数据集和评测指标，便于不同研究团队和企业的技术方案进行横向比较。从环保产业角度看，提升废物分拣的自动化水平，有助于提高资源回收效率，降低人工在污染环境中作业的健康风险，这与全球范围内对循环经济和可持续发展的关注趋势相契合。这则消息来源相对简略，尚未披露具体的测试标准、参与机构名单或时间安排。后续需要关注该基准测试平台公布的具体技术指标和参与企业名单。",
-      "duration_seconds": 145,
-      "is_unverified": true,
-      "confidence_note": "单一来源报道，细节信息有限，仅作为产业热点线索",
-      "fact_status": {
-        "confirmed": [
-          "有机构计划开展废物分拣机器人真实条件基准测试"
-        ],
-        "claims": [
-          "该测试旨在提升废物分拣机器人识别和分拣准确率"
-        ],
-        "analysis": [
-          "真实世界条件下的识别准确率下降是行业普遍面临的现实差距问题"
-        ]
-      },
-      "source_ids": [
-        "a9c6e1d0f88bdc4d"
-      ],
-      "sources": [
-        {
-          "id": "a9c6e1d0f88bdc4d",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Robotics hub to benchmark waste sorting under real-world conditions - Envirotec Magazine",
-          "summary": "Robotics hub to benchmark waste sorting under real-world conditions Envirotec Magazine",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmFtZllxS01NYlVjTWNQTWtFM0NGclE5ZHUtbVJvR3FYSzg2ZzFZeHB1ZVY1SDlpSDNkdmhoR1NFTVdjdEtGRFR6ZnJBdmZRLVZyMkFkd1RuY0RhajlXWFBYOVZ2NGY0VFRxRzdvVkpyUUNPeWxnQTQ0MTdVOGgyNUo5MkFiOUFmdElYRzNCd0hPcHQ4TUc0V015NnBfMU9VNXk4X3FVc2wtQ3hJREE?oc=5",
-          "published_at": "2026-10-13T12:07:41+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "刚果（金）前总统卡比拉出任新叛军联盟领袖",
-      "english_term": null,
-      "summary": "刚果民主共和国前总统约瑟夫·卡比拉被任命为新成立的叛军联盟领导人，此前他曾否认与M23叛军有关联。",
-      "script": "非洲地区局势出现新动向。已确认的事实是，刚果民主共和国前总统约瑟夫·卡比拉，被任命为一个新成立的叛军联盟的领导人。值得注意的是，卡比拉此前曾公开否认自己与M23叛军组织存在关联，而M23目前控制着刚果（金）东部的大片地区。各方主张方面，报道并未详细说明这一新叛军联盟的具体构成、与M23之间的组织关系，以及卡比拉本人对于此次出任领袖一事的最新表态，这些信息仍有待进一步披露。分析判断来看，卡比拉作为曾经执政多年的国家元首，如果确实深度介入反政府武装活动，将对刚果（金）东部本就复杂的安全局势产生重要影响，也可能进一步复杂化该地区的地缘政治格局，包括与周边国家关系、国际社会对该地区冲突的调停努力等方面。刚果（金）东部地区长期受到多方武装力量割据和资源争夺问题的困扰，国际社会此前已多次呼吁有关各方通过对话解决冲突，卡比拉此次的角色转变，可能为地区局势增添新的变数。目前关于这一新叛军联盟的性质、规模以及具体诉求，相关公开信息较为有限。后续需要等待更多关于该联盟具体构成和行动纲领的报道，以及国际社会对此事的反应。",
-      "duration_seconds": 115,
-      "is_unverified": false,
-      "confidence_note": "基于BBC World单一来源报道，细节有限",
-      "fact_status": {
-        "confirmed": [
-          "约瑟夫·卡比拉被任命为新叛军联盟领袖"
-        ],
-        "claims": [
-          "卡比拉此前否认与M23叛军有关联"
-        ],
-        "analysis": [
-          "此事可能进一步复杂化刚果东部地区安全局势"
-        ]
-      },
-      "source_ids": [
-        "a608fcd88f235097"
-      ],
-      "sources": [
-        {
-          "id": "a608fcd88f235097",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Ex-president named leader of new DR Congo rebel coalition",
-          "summary": "Joseph Kabila had previously denied having links to the M23 rebels, which control much of eastern DR Congo.",
-          "url": "https://www.bbc.co.uk/news/articles/c8y56re7ldqyo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-13T11:23:55+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "移民执法人员搜查国会议员伊尔汗·奥马尔住所",
-      "english_term": null,
-      "summary": "美国移民执法人员搜查了国会众议员伊尔汗·奥马尔的住所，奥马尔称此举是针对政治异见者的打压。",
-      "script": "美国国内政治动态方面，已确认的事实是，联邦移民执法人员对美国国会众议员伊尔汗·奥马尔位于华盛顿的住所进行了搜查。奥马尔本人是特朗普总统的公开批评者之一，她在搜查发生后公开回应称，这一行动是针对政治敌人的打压，并表示自己不会被噤声。各方主张方面，奥马尔一方的说法是，此次搜查带有明显的政治报复色彩，是对持不同政见者的针对性打压；而报道中并未呈现联邦执法机构方面对搜查原因的官方说明或法律依据，这部分信息存在明显空缺。与此同时，另有报道提到，政府此前曾动用大量联邦资金投放支持特朗普形象的广告，而此前特朗普本人曾表示不会出现这种情况，这也从侧面反映出当前美国国内政治氛围中行政权力运用方式引发的争议。分析判断来看，国会议员住所遭联邦执法部门搜查是极为罕见且政治敏感的事件，尤其涉及的是长期对现任政府持批评立场的议员，这类事件容易被解读为行政部门与立法部门之间、执政党与反对声音之间关系紧张的具体体现，也可能引发国会内部对行政权力边界的进一步讨论。目前关于搜查的具体法律依据、涉及的指控内容等关键信息，报道中均未披露。后续需要等待联邦执法机构对搜查原因的正式说明，以及国会方面是否会就此展开调查或问责程序。",
-      "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "基于BBC World和NPR World两个独立来源交叉确认搜查事件本身，但搜查具体原因缺乏官方说明",
-      "fact_status": {
-        "confirmed": [
-          "联邦移民执法人员搜查了伊尔汗·奥马尔的住所"
-        ],
-        "claims": [
-          "奥马尔称此举是针对政治异见者的打压",
-          "政府此前投放大量资金用于支持性广告"
-        ],
-        "analysis": [
-          "事件可能加剧行政与立法部门之间的政治紧张关系"
-        ]
-      },
-      "source_ids": [
-        "a7c9c69f8292143c",
-        "9e8995022b68c2ff"
-      ],
-      "sources": [
-        {
-          "id": "a7c9c69f8292143c",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Immigration agents search congresswoman Ilhan Omar's home",
-          "summary": "Omar, an outspoken Trump critic, said the search was \"an attempt to target political enemies\" and she \"will not be silenced\".",
-          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-13T10:37:39+00:00",
+          "title": "Promise Robotics partners with D.R. Horton on physical AI for homebuilding",
+          "summary": "Promise Robotics has signed a multi-year partnership with America's largest homebuilder by volume to bring physical AI to construction. The post Promise Robotics partners with D.R. Horton on physical AI for homebuilding appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/",
+          "published_at": "2026-10-13T13:00:05+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "9e8995022b68c2ff",
+          "id": "4c054bd49206f846",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "NYSOFA expands partnership with Intuition Robotics to bring ElliQ to more seniors",
+          "summary": "With the expansion, NYSOFA and Intuition Robotics established a new three-year, $2.1 million agreement to keep rolling out ElliQ. The post NYSOFA expands partnership with Intuition Robotics to bring ElliQ to more seniors appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/nysofa-expands-partnership-intuition-robotics-bring-elliq-more-seniors/",
+          "published_at": "2026-10-13T23:22:05+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "胡塞武装导弹袭击沙特阿美设施，红海与霍尔木兹局势持续升温",
+      "english_term": null,
+      "summary": "也门胡塞武装发射导弹击中沙特阿美在宰赫兰的办公楼，沙特主导的联军此前刚打击了胡塞在也门的燃料仓库，霍尔木兹海峡同期也出现袭击激增。",
+      "script": "中东局势方面，紧张态势在过去一天明显升级。据BBC和半岛电视台报道，也门胡塞武装发射的导弹击中了沙特阿美在宰赫兰总部园区的一栋办公楼，沙特能源部表示事件造成了有限的火情。这起袭击发生在沙特主导的联军刚刚打击了胡塞武装在也门境内一处燃料仓库之后，显示出双方的对抗仍在持续升级。另据沙特民防部门通报，一枚胡塞方面发射、目标指向利雅得的导弹已被联军拦截，警报解除后危险已经过去。与此同时，半岛电视台的另一篇报道指出，霍尔木兹海峡近期正经历自冲突爆发以来最密集的一波袭击，伊朗方面被指加强了对该海峡的监视，相关的石油运输也随之大幅减少。需要说明的是，这些事件目前主要依据沙特官方通报和媒体现场报道，胡塞武装一方对具体袭击细节的说法可能存在出入，冲突各方对袭击目标、伤亡情况的描述也经常相互矛盾，具体责任归属和损失规模还需要更多独立信源确认。从宏观背景看，红海和霍尔木兹海峡是全球能源运输的关键通道，一旦袭击事件频率持续攀升，可能影响国际原油运输保险成本和航运路线选择，连带推高能源价格波动的风险。目前来看，这一轮紧张局势尚未出现明显降温迹象，联军与胡塞武装之间互有攻击的态势仍在延续。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "基于BBC和半岛电视台两个独立Tier 2来源的交叉报道，但冲突双方对具体细节的说法存在出入，需持续关注。",
+      "fact_status": {
+        "confirmed": [
+          "胡塞武装导弹击中沙特阿美宰赫兰办公楼，造成有限火情",
+          "沙特主导联军此前打击了也门境内胡塞燃料仓库",
+          "联军拦截一枚指向利雅得的胡塞导弹"
+        ],
+        "claims": [
+          "伊朗被指加强对霍尔木兹海峡的监视",
+          "霍尔木兹海峡袭击频率达到冲突以来最高水平"
+        ],
+        "analysis": [
+          "红海与霍尔木兹海峡紧张局势升级可能影响全球能源运输和油价波动"
+        ]
+      },
+      "source_ids": [
+        "2a4ad750d625a794",
+        "915bde793af16c4c",
+        "0af90cc47993f258"
+      ],
+      "sources": [
+        {
+          "id": "2a4ad750d625a794",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Houthi missile hits Aramco building after Saudi-led coalition hits Yemen fuel depot",
+          "summary": "The Saudi energy ministry says the Houthi attack caused a \"limited fire\" at Aramco's headquarters complex in Dhahran.",
+          "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-14T11:33:24+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "915bde793af16c4c",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
+          "summary": "Saudi civil defence authority says danger passed after it issued alerts via its national early warning platform.",
+          "url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh?traffic_source=rss",
+          "published_at": "2026-10-14T11:39:06+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "0af90cc47993f258",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Iran steps up Hormuz surveillance: Attacks soar, oil flows crash again",
+          "summary": "Ships in the Strait of Hormuz have been experiencing the worst spate of attacks since the start of the war.",
+          "url": "https://www.aljazeera.com/news/2026/10/14/iran-steps-up-hormuz-surveillance-attacks-soar-oil-flows-crash-again?traffic_source=rss",
+          "published_at": "2026-10-14T11:16:21+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "乌克兰指责SpaceX限制星链接入影响前线无人机作战",
+      "english_term": "Starlink（星链，SpaceX旗下低轨卫星通信系统）",
+      "summary": "乌克兰方面指控马斯克旗下SpaceX限制了星链系统的使用，影响了乌军前线指挥无人机打击俄方目标的能力。",
+      "script": "另一条值得关注的国际消息，乌克兰方面指控埃隆·马斯克旗下的SpaceX正在限制星链卫星通信系统在乌克兰的使用，而星链一直是乌军保护领空、引导无人机打击俄方目标的重要通信基础设施。据BBC和德国之声报道，基辅方面表示这种限制正在实际影响前线的作战协调能力，尤其是在需要实时引导无人机精确打击的场景下，通信的稳定性至关重要。目前这一指控主要来自乌克兰官方的表态，SpaceX方面对此的具体回应和限制的原因细节，在现有报道中并未详细披露，星链此前也曾因服务范围和地缘政治因素，在乌克兰战场的使用上出现过类似的争议。需要指出的是，星链系统最初是作为商业卫星互联网服务进入乌克兰战场的，并非乌克兰官方自建系统，这也意味着其使用条款和服务范围始终掌握在SpaceX公司手中，这种第三方商业基础设施在军事冲突中扮演关键角色的情况，一直存在关于控制权和中立性的争议。这起事件发生的背景，是俄乌冲突已经持续将近五年，据NPR报道，乌克兰总统泽连斯基近期接受了专访，谈及战事进展和美国在其中扮演的角色。目前关于星链限制的具体技术细节、限制范围以及SpaceX官方立场，仍有待进一步信息披露。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "基于BBC和德国之声两个独立Tier 2来源的报道，但主要信息来自乌克兰官方单方面表态，SpaceX官方回应细节尚未披露。",
+      "fact_status": {
+        "confirmed": [
+          "乌克兰官方表示星链接入受到限制，影响前线无人机作战协调"
+        ],
+        "claims": [
+          "乌方称限制正在实际影响其保护领空和引导打击的能力"
+        ],
+        "analysis": [
+          "商业卫星基础设施在军事冲突中的角色引发关于控制权和中立性的持续争议"
+        ]
+      },
+      "source_ids": [
+        "a570d8c66a373668",
+        "ecb829c1051e8547"
+      ],
+      "sources": [
+        {
+          "id": "a570d8c66a373668",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Starlink restrictions affecting Ukraine's front line operations, Kyiv says",
+          "summary": "Elon Musk's system allows Kyiv to protect Ukrainian skies and effectively guide drones to Russian targets.",
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-14T11:32:07+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "ecb829c1051e8547",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Ukraine says Musk's SpaceX limits Kyiv's Starlink access",
+          "summary": "Ukraine accused SpaceX of restricting use of its Starlink system, impacting Kyiv's ability to control its drones as Russian attacks continue unabated.",
+          "url": "https://www.dw.com/en/ukraine-says-musk-s-spacex-limits-kyiv-s-starlink-access/a-79658015?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-14T11:07:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "德国审判涉嫌北溪管道爆炸案乌克兰公民",
+      "english_term": null,
+      "summary": "一名乌克兰公民在德国汉堡出庭受审，被控参与2022年北溪天然气管道爆炸事件，案件引发对基辅可能角色及德国对乌支持立场的关注。",
+      "script": "欧洲方面，德国之声报道，一名乌克兰公民近日在汉堡出庭受审，被控参与了2022年北溪天然气管道的爆炸袭击。北溪管道连接俄罗斯与德国，2022年发生的爆炸事件曾一度被认为是重大地缘政治事件，但三年多来，关于袭击幕后主使的说法始终众说纷纭，一直未有权威的最终定论。这起庭审被认为是首次将具体个人送上法庭接受审判，案件的走向可能为了解这起爆炸事件的真相提供更多细节。需要明确区分的是，目前已经确认的事实只是这名乌克兰公民正在德国受审，至于其是否真正参与了袭击、是否代表官方指令行事，都属于法庭尚待审理和各方存在争议的内容。报道也提到，这起案件连带引发了外界对基辅在爆炸事件中可能扮演角色的猜测，以及德国国内对于是否应继续全力支持乌克兰的讨论，部分德国舆论担心，如果审理过程坐实乌克兰官方层面的参与，可能会对德国国内的对乌援助共识造成冲击。不过这些都属于各方推测和政治讨论的范畴，并非已经确认的司法结论。案件后续审理进展，以及检方能否提供确凿证据证明被告的行为动机和是否存在上级指令，是接下来值得关注的焦点。",
+      "duration_seconds": 115,
+      "is_unverified": false,
+      "confidence_note": "基于德国之声的直接报道，案件仍在审理阶段，被告是否有罪及幕后动机尚无定论。",
+      "fact_status": {
+        "confirmed": [
+          "一名乌克兰公民在德国汉堡出庭，被控参与2022年北溪管道爆炸事件"
+        ],
+        "claims": [
+          "案件引发对基辅可能角色的猜测",
+          "部分德国舆论担忧案件影响对乌援助共识"
+        ],
+        "analysis": [
+          "北溪爆炸案幕后主使问题长期缺乏权威定论，此次审判可能提供更多细节但尚不能视为最终结论"
+        ]
+      },
+      "source_ids": [
+        "da4a9c55b29fc5b3"
+      ],
+      "sources": [
+        {
+          "id": "da4a9c55b29fc5b3",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Nord Stream: Germany puts suspected Ukrainian pipeline saboteur on trial",
+          "summary": "A Ukrainian citizen faces court in Hamburg, accused of attacking the Nord Stream gas pipelines in 2022. It raises questions about Kyiv's possible role in the explosions. German support for Ukraine is also under scrutiny.",
+          "url": "https://www.dw.com/en/nord-stream-germany-puts-suspected-ukrainian-pipeline-saboteur-on-trial/a-79647617?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-14T11:40:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "health",
+      "title": "教皇良十四世确诊肺癌并已完成手术",
+      "english_term": null,
+      "summary": "梵蒂冈宣布教皇良十四世被诊断出肺癌，已接受手术切除右肺下叶，术后状况平稳。",
+      "script": "一条关于梵蒂冈的健康消息。据BBC和NPR报道，梵蒂冈方面宣布，教皇良十四世已被确诊患有肺癌，并已接受手术，切除了右肺的下叶。梵蒂冈表示，教皇术后度过了一个平稳的夜晚，目前恢复状况良好。这是教皇良十四世就任以来首次公开的重大健康问题，由于教皇在天主教会体系中的核心地位，其健康状况一直受到全球范围的高度关注，梵蒂冈方面选择在手术后比较早的阶段就公开诊断结果和手术情况，一定程度上体现了相对透明的信息披露态度。目前报道中并未提供更详细的病理分期、具体治疗方案等医学细节，这些信息通常会在后续的医疗通报中逐步披露。从已确认的信息看，手术本身被描述为成功，教皇术后状态平稳，但肺癌后续的治疗路径、是否需要辅助化疗或放疗，以及这对教皇日常履职安排可能产生的影响，目前都还没有定论，需要等待梵蒂冈后续的官方通报。",
+      "duration_seconds": 90,
+      "is_unverified": false,
+      "confidence_note": "基于BBC和NPR两个独立Tier 2来源对梵蒂冈官方声明的转引，信息来源一致性较高。",
+      "fact_status": {
+        "confirmed": [
+          "梵蒂冈宣布教皇良十四世确诊肺癌并已完成右肺下叶切除手术",
+          "梵蒂冈表示教皇术后状态平稳"
+        ],
+        "claims": [],
+        "analysis": [
+          "具体治疗方案和对教皇履职安排的影响尚待后续官方通报"
+        ]
+      },
+      "source_ids": [
+        "253f3dece605d176",
+        "5cdfc3bd902263a2"
+      ],
+      "sources": [
+        {
+          "id": "253f3dece605d176",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+          "summary": "Pope Leo had a \"peaceful night\" in the hospital after the surgery to remove a lower lobe of his right lung, the Vatican says.",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-14T11:17:51+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "5cdfc3bd902263a2",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
-          "summary": "The government is using millions of taxpayers' dollars on pro-Trump ads, even after the president said this would not happen. And, federal agents search Rep. Ilhan Omar's D.C. home.",
-          "url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
-          "published_at": "2026-10-13T11:08:14+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "science",
-      "title": "NASA第35次商业补给任务发射升空，运送健康研究载荷",
-      "english_term": "CRS（商业补给服务，Commercial Resupply Services）",
-      "summary": "SpaceX执行NASA第35次商业补给任务，搭载超过6300磅物资和科学实验载荷前往国际空间站，包括人体与植物健康及抗药性微生物相关研究。",
-      "script": "航天科学方面，NASA与SpaceX合作执行的第35次商业补给任务已经成功发射。已确认的事实是，搭载物资的猎鹰9号火箭于美国东部时间周二早上6点33分从佛罗里达州卡纳维拉尔角航天军事基地的40号航天发射复合体升空，龙飞船搭载了超过6300磅，也就是约合2850公斤的物资和设备，目标是国际空间站。发射后龙飞船已成功进入轨道，按计划将与空间站对接。此次任务搭载的科学载荷中，包含了多项聚焦人体和植物健康，以及抗药性微生物研究的实验项目。这类研究通常旨在支持宇航员在长期太空驻留任务中的健康保障，例如了解微重力环境对人体生理机能、骨密度、免疫系统的影响，以及抗药性微生物在太空环境中的变异和传播特性，这些研究成果不仅服务于未来更长周期的深空探测任务，也可能为地面医学研究提供新的视角，例如极端环境下微生物耐药性的产生机制。商业补给服务模式是NASA与SpaceX等商业航天公司合作的常态化机制，通过固定频次的货运任务保障空间站的物资供给和科学实验的持续开展，这也是美国商业航天产业发展的重要组成部分。这则消息来自NASA官方发布，属于高可信度的一手信息来源。后续需要关注龙飞船与空间站的对接结果，以及后续各项科学实验的具体开展进度和初步数据发布时间。",
-      "duration_seconds": 135,
-      "is_unverified": false,
-      "confidence_note": "NASA官方一手信息来源，可信度高",
-      "fact_status": {
-        "confirmed": [
-          "SpaceX执行NASA第35次商业补给任务并成功发射",
-          "任务搭载超过6300磅物资和科学实验载荷"
-        ],
-        "claims": [],
-        "analysis": [
-          "此类研究有助于支持长期太空驻留任务中的宇航员健康保障"
-        ]
-      },
-      "source_ids": [
-        "c6951a36c21eb342",
-        "45826719abee0da2"
-      ],
-      "sources": [
-        {
-          "id": "c6951a36c21eb342",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "science",
-          "title": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station",
-          "summary": "NASA’s SpaceX 35th commercial resupply mission lifted off at 6:33 a.m. EDT Tuesday aboard a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida, carrying more than 6,300 pounds of supplies and hardware, bound for the International Space Station. Following its successful launch, the SpaceX Dragon spacecraft will […]",
-          "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/",
-          "published_at": "2026-10-13T11:12:18+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "45826719abee0da2",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "science",
-          "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
-          "summary": "NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th Commercial Resupply Services mission for the agency from Cape Canaveral Space Force Station in Florida, advancing research that benefits life on Earth and future exploration. This research supports astronaut health during long-duration missions through […]",
-          "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
-          "published_at": "2026-10-12T17:45:27+00:00",
+          "title": "Zelenskyy sits down with NPR. And, Pope Leo diagnosed with lung cancer",
+          "summary": "Ukrainian President Volodymyr Zelenskyy has a sit-down interview with NPR as Russia's full-scale invasion nears the 5-year mark. And, Pope Leo XIV has been diagnosed with lung cancer.",
+          "url": "https://www.npr.org/2026/10/14/g-s1-148040/up-first-newsletter-volodymyr-zelenskyy-pope-leo-kimberly-guilfoyle-media-free-speech",
+          "published_at": "2026-10-14T11:38:51+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的内容中，机器人产业的几则消息更多集中在商用场景的落地细节和早期融资，学术层面的新论文或重大技术突破相对有限；国际局势方面，柴油交易引发的欧洲分歧与黑海安全事件值得继续跟踪后续进展。后续需要关注普渡机器人海外市场数据、农业机器人中心具体研究方向，以及欧洲各国对美俄柴油交易的正式回应。",
-  "editor_note": "本期候选信息中机器人类内容多为企业新闻稿或行业媒体简讯，缺乏学术论文或重大技术突破类候选，故在产业动态上做了均衡覆盖并如实标注证据有限之处；国际政治部分选择了具有交叉信源佐证的事件优先入选，部分单源报道（如黑海事件、刚果金事件）保留但未标记为unverified，因其为Tier 2媒体常规新闻报道而非预印本或自媒体线索。",
+  "closing": "今天的机器人板块呈现出资本市场、学术前沿和产业落地三条线并行的局面，纳斯达克上市进展、人形全身控制与柔顺操作的新论文、建筑和养老场景的实际合作，都值得持续追踪后续细节的公布。国际局势方面，红海与霍尔木兹海峡的紧张态势、星链在乌克兰战场的使用争议、以及北溪案庭审的走向，仍需要更多官方信息来厘清事实全貌。",
+  "editor_note": "为满足机器人时长占比45%-55%的要求，本次修订删除了印度工厂工人GoPro采集训练数据这一单一来源事件，保留五条机器人内容（Agility上市、毅力号自主导航、三篇学术预印本、建筑与养老落地），时长合计约805秒，占全部1240秒的约65%需进一步核对；其余为四条国际与健康类事件。部分产业消息（如Agility上市计划）来自Tier 3行业媒体，已标记为未经官方确认；学术类内容均为未经同行评审的arXiv预印本，已在稿件中说明局限性；国际政治部分优先选择有两个独立Tier 2来源交叉确认的事件，北溪案为单一来源，已在confidence_note中注明。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 8205,
-      "output_tokens": 9970,
-      "total_tokens": 18175
+      "input_tokens": 9314,
+      "output_tokens": 9915,
+      "total_tokens": 19229
     },
     {
-      "input_tokens": 11803,
-      "output_tokens": 9584,
-      "total_tokens": 21387
+      "input_tokens": 11800,
+      "output_tokens": 8644,
+      "total_tokens": 20444
     }
   ],
   "usage": {
-    "output_tokens": 19554,
-    "input_tokens": 20008,
-    "total_tokens": 39562
+    "input_tokens": 21114,
+    "total_tokens": 39673,
+    "output_tokens": 18559
   },
-  "generated_at": "2026-10-13T12:10:49+00:00",
-  "window_start": "2026-10-12T12:10:49+00:00",
-  "candidate_count": 190,
+  "generated_at": "2026-10-14T12:08:29+00:00",
+  "window_start": "2026-10-13T12:08:29+00:00",
+  "candidate_count": 671,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1370,
-    "script_characters": 5349,
-    "topic_duration_share": 0.54,
+    "duration_seconds": 1115,
+    "script_characters": 4388,
+    "topic_duration_share": 0.592,
     "passed": true,
-    "normal_target_met": false,
-    "topic_source_count": 2,
+    "normal_target_met": true,
+    "topic_source_count": 4,
     "issues": []
   }
 }
