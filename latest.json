@@ -1,494 +1,489 @@
 {
-  "title": "晶球电台早报：人形机器人冲击纳斯达克，火星车刷新自主驾驶纪录",
-  "subtitle": "从具身智能安全框架到胡塞导弹袭击利雅得，今天的世界既在加速也在震荡",
+  "title": "晶球电台早报：乌克兰恢复打击俄炼油厂，Agility人形机器人迎来超快充电方案",
+  "subtitle": "黑海油轮遇袭、朝鲜半岛高超音速军备竞赛升温，机器人领域从人形电池到四足巡逻与灵巧手研究齐发力",
   "highlights": [
-    "Agility Robotics 计划11月在纳斯达克上市，成为美国首家纯人形机器人上市公司",
-    "NASA 毅力号火星车自主导航刷新行驶里程纪录，五年升级自主软件是关键",
-    "也门胡塞武装导弹袭击沙特阿美设施，红海与霍尔木兹海峡局势持续升温",
-    "乌克兰指控 SpaceX 限制星链接入影响前线无人机作战能力"
+    "泽连斯基宣布休战结束，乌克兰恢复对俄炼油厂的无人机打击，黑海两艘油轮遭袭起火",
+    "Agility Robotics为Digit 5人形机器人选定Nyobolt超快充电电池，单日可工作20小时",
+    "Skild AI四足机器人开始在匹兹堡机场巡逻，多篇arXiv新论文聚焦人形机器人全身控制与灵巧操作"
   ],
   "stories": [
     {
-      "category": "robotics",
-      "title": "Agility Robotics 冲刺11月纳斯达克上市，成美国首家纯人形机器人上市公司",
-      "english_term": "humanoid robot（人形机器人）；pure-play（主营业务高度集中的公司）",
-      "summary": "人形机器人公司 Agility Robotics 预计11月在纳斯达克挂牌，将成为美国第一家主营业务完全聚焦人形机器人的上市公司。",
-      "script": "先看一条产业重磅消息。总部位于美国俄勒冈州的 Agility Robotics 被曝正按计划推进11月在纳斯达克上市，一旦成行，它将成为美国第一家主营业务完全聚焦人形机器人的上市公司，也就是所谓的 pure-play，意思是公司几乎所有收入和业务都围绕同一个核心产品线展开，不像一些大型科技公司只是把人形机器人作为众多业务线之一。Agility 最为人熟知的产品是双足机器人 Digit，这款机器人采用类似鸟类腿部结构的设计，主打仓储物流场景里的搬箱、卸货等任务，此前已经和亚马逊、GXO 等物流企业有过试点合作。资本市场一直在等一个信号，就是人形机器人到底能不能把实验室里的演示转化成可规模化销售的产品，如果上市计划顺利落地，这将是继续验证商业化进展的重要节点，因为上市意味着公司需要向公众披露更细致的财务数据，包括订单量、毛利率和量产进度，这些信息在私募融资阶段通常是不透明的。值得注意的是，这条消息目前来自行业媒体报道，尚未看到 Agility 官方或纳斯达克交易所的正式确认文件，上市计划也可能因监管审批、市场窗口等因素推迟或调整。另外同一天还有一则相关产业消息，电动车公司法拉第未来旗下的机器人业务 FF EAI Robotics 签署了收购 Faraday Future Robotics 的最终协议，显示出即便是经营困难的老牌造车新势力，也在尝试通过机器人业务寻找新的增长点。这两条消息放在一起看，说明人形机器人赛道的资本动作正在从单纯的风险投资，向更公开、更接受市场检验的阶段过渡。后续需要等待 Agility 官方或纳斯达克交易所发布正式上市文件以确认时间表和发行细节。",
-      "duration_seconds": 175,
-      "is_unverified": true,
-      "confidence_note": "消息来自行业媒体 NAI500 的报道，属于 Tier 3 来源，尚无 Agility Robotics 官方或交易所的一手确认，上市时间和细节可能变化。",
-      "fact_status": {
-        "confirmed": [
-          "Agility Robotics 是一家人形机器人公司，产品为双足机器人 Digit"
-        ],
-        "claims": [
-          "行业媒体报道称公司计划11月在纳斯达克上市，将成为美国首家纯人形机器人上市公司",
-          "FF EAI Robotics 已签署收购 Faraday Future Robotics 的最终协议"
-        ],
-        "analysis": [
-          "若上市成行，将是人形机器人商业化程度接受公开市场检验的重要节点"
-        ]
-      },
-      "source_ids": [
-        "1d41095441a08ebf",
-        "2fb2a69453f85691"
-      ],
-      "sources": [
-        {
-          "id": "1d41095441a08ebf",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Agility Robotics On Track for November Nasdaq Listing as First U.S. Pure-Play Humanoid Robot Maker - NAI500",
-          "summary": "Agility Robotics On Track for November Nasdaq Listing as First U.S. Pure-Play Humanoid Robot Maker NAI500",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdnF0azR3cGJHZnZxT0oyR1NnTnNlMVNQU2p2V2dHUWlfTnZ0djNBeDlVOFFzLWp0cTNIeGYtZzFKRW1peUlfalQyZnNTY3NGWVFubFBvam1JZjVYX3JqdS14WTJFa3NERkZiU0lqd1hCYXphWVpFempPYjNwM1dMMHkzWlhCLVpnZG54RzRTM0VSenBuQzQ4VnA2UmZvYW02d1ZEZWtCX3VTbTBMSEpNdmFWSkFwX0hrMTZRNzdRa3NpRDdsUFFQVmNn?oc=5",
-          "published_at": "2026-10-14T12:02:53+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "2fb2a69453f85691",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "FF EAI Robotics Signs Definitive Deal to Buy Faraday Future Robotics - Unite.AI",
-          "summary": "FF EAI Robotics Signs Definitive Deal to Buy Faraday Future Robotics Unite.AI",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeUhheVNoU3lXSFRoeUxBSG9JVTRnb2dtMEg1b3VTeWNueVd4VzFxeWd0RVR2LWxGcURkYjZNeTRsU0NOTTdXZVlsd3cwZllTajVyMHlncHFOODhSbDNYMW5TTUlGTEl2OVRfMXVMbDFFQTJSbWFBVUZRdlNHSmxHdWZNdzZwd1RoY3VUbVI4Q01EVDZV?oc=5",
-          "published_at": "2026-10-14T11:56:04+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "NASA毅力号火星车刷新自主行驶纪录，五年自主软件升级是关键",
-      "english_term": "autonomy software（自主导航软件）",
-      "summary": "毅力号火星车10月11日完成一次行驶后，总行驶里程达到28.10英里，创下火星车行驶距离新纪录，这主要得益于五年来自主导航软件的持续升级。",
-      "script": "接下来是一条来自地外探索一线的机器人新闻。NASA 的毅力号火星车在10月11日完成一次行驶后，累计行驶里程达到28.10英里，约合45.22公里，刷新了火星车行驶距离的纪录。IEEE Spectrum 采访了毅力号自主导航团队的负责人 Mark Maimone，详细解释了这背后的技术支撑。毅力号之所以能跑得更远，核心原因是过去五年里，它的自主导航软件被持续升级，让它能够以更高的自主性规划路径，而不需要每一步都等待地球指令。要知道，火星和地球之间的通信存在几分钟到十几分钟不等的延迟，如果每一个动作都要等地球发指令，火星车的行驶效率会非常低。毅力号采用的自主导航系统能够实时处理相机图像，识别岩石、沙地和危险地形，自主规划安全路径，这类似于地面自动驾驶里的感知加规划流程，但要应对的环境远比地球复杂：光照条件多变、地形未知、通信带宽极其有限，而且一旦出错没有办法现场维修。相比它的前辈好奇号，毅力号在自主驾驶能力上做了多代软件迭代，使得单次自主行驶的距离和速度都有明显提升。这条新闻虽然看起来是一次刷纪录的里程碑，但背后反映的是自主系统工程在极端环境下长期迭代验证的价值，对地面机器人领域的自主导航算法设计也有参考意义，比如如何在高不确定性环境下做鲁棒的路径规划。后续需要关注毅力号在接下来的探测任务中能否进一步扩大自主行驶的里程和速度。",
-      "duration_seconds": 145,
-      "is_unverified": false,
-      "confidence_note": "消息来自 IEEE Spectrum 对 NASA 团队负责人的直接采访，属于 Tier 2 可靠来源，且与 NASA 任务数据一致。",
-      "fact_status": {
-        "confirmed": [
-          "毅力号10月11日完成行驶后，累计里程达28.10英里（45.22公里），创下火星车行驶距离纪录",
-          "该纪录得益于过去五年自主导航软件的持续升级"
-        ],
-        "claims": [],
-        "analysis": [
-          "自主系统的长期迭代是提升火星车探测效率的关键因素"
-        ]
-      },
-      "source_ids": [
-        "9205f1702ce6378f"
-      ],
-      "sources": [
-        {
-          "id": "9205f1702ce6378f",
-          "source": "IEEE Spectrum Robotics",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Q&A: Mars Perseverance Rover Distance Record",
-          "summary": "On October 11 , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by Perseverance’s ability to drive with much more autonomy than its predecessors. Over the last five years, Perseverance’s autonomy software has been steadily upgraded, and to learn more about how the record was broken and what the future holds for the rover, we spoke with Mark Maimone , the Perseverance Robotic Operations Deputy Team Chief at NASA’s Jet Propulsion Laboratory, who designed and developed the self-driving software for Mars rovers Spirit, Opportunity, Curiosity, and Perseverance. Before we talk about Perseverance, let’s pour one out for the previous record holder Opportunity , which landed on Mars in January of 2004 for a 3-month mission and ended its epic journey 15 years later in February of 2019. This NASA video compresses Opportunity’s entire mission into four minutes, and gives a poignant sense of the incredible distance that this little rover traveled over its 15 year life on Mars, doing science as it went: NASA Jet Propulsion Laboratory/YouTube Opportunity drove 4",
-          "url": "https://spectrum.ieee.org/mars-rover-distance-record",
-          "published_at": "2026-10-13T15:02:04+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "学术速览：接触丰富操作与人形全身控制的最新研究",
-      "english_term": "VLA（视觉-语言-动作模型）；whole-body control（全身控制）；imitation learning（模仿学习）",
-      "summary": "今日 arXiv 机器人学栏目集中出现多篇关于操作任务柔顺控制、人形机器人全身交互、家庭机器人安全性的新论文。",
-      "script": "再来看学术圈的几条动态，今天 arXiv 的机器人学板块一次性挂出多篇值得关注的新论文。第一篇叫 Residual Compliant Policy，研究的是如何用很少的示范数据学出柔顺的操作策略。所谓接触丰富的操作任务，是指机器人在完成任务过程中需要和环境反复发生物理接触，比如插拔、装配，这类任务要求机器人在空间中移动时要精准，一旦接触上物体又要柔顺，不能用蛮力把东西压坏或顶歪。问题在于，示范数据里往往只记录了末端执行器的轨迹，没有直接记录操作者当时用了多大力、多柔的手感，这种柔顺特性很难从示范数据里直接学出来。这篇论文提出在模仿学习框架里显式地把柔顺建模出来，在训练和执行阶段都做专门处理，试图用较少的示范次数达到更好的接触控制效果。第二篇是 OIL，全称 Object Interaction Layer，面向人形机器人全身控制问题。过去的全身控制器大多只能跟踪关节或末端的运动轨迹，这种抽象方式对上游的动作捕捉、遥操作和生成模型很友好，但一旦涉及和物体的真实物理交互，比如推、拉、支撑重物，只跟踪运动轨迹就不够了，因为还需要考虑力和平衡。这篇论文尝试在控制器里加入专门处理物体交互的层，让人形机器人在执行任务时既能跟踪目标动作，又能合理地处理接触力。第三篇则是一篇综述，题目是《从比特到原子：具身智能跨层安全综述》，作者把具身智能的安全问题划分成物理交互、系统中间件、算法决策、云边数据四个层次，系统梳理了每一层可能出现的漏洞、风险传播路径以及相应的防护手段，这对越来越多机器人走进家庭和公共空间后的安全评估是一份有参考价值的框架性工作。这几篇论文都还处于预印本阶段，尚未经过同行评审，具体结论和实验细节需要以正式发表版本为准。",
-      "duration_seconds": 185,
-      "is_unverified": true,
-      "confidence_note": "均为 arXiv 预印本，尚未经过同行评审，实验结果和结论可能在后续修改中调整。",
-      "fact_status": {
-        "confirmed": [
-          "三篇论文均于10月14日发布在 arXiv 机器人学板块"
-        ],
-        "claims": [
-          "Residual Compliant Policy 声称能用较少示范数据学习柔顺操作策略",
-          "OIL 声称能让人形机器人全身控制器处理物体交互中的力与平衡",
-          "跨层安全综述提出了四层参考架构梳理具身智能安全问题"
-        ],
-        "analysis": [
-          "柔顺控制与全身物体交互是当前操作类机器人研究的核心难点之一",
-          "具身智能安全框架的提出反映行业对机器人进入真实环境后风险管理的关注上升"
-        ]
-      },
-      "source_ids": [
-        "3439d08cb169e1e3",
-        "6ad9005d240df23f",
-        "2d23a7f1c711dce4"
-      ],
-      "sources": [
-        {
-          "id": "3439d08cb169e1e3",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Residual Compliant Policy: Learning Compliant Policies from Few Demonstrations",
-          "summary": "arXiv:2610.14035v1 Announce Type: new Abstract: Contact-rich manipulation requires a robot to be precise in free space to establish the intended contacts, and compliant once in contact to avoid excessive forces. Imitation learning has proven effective for simpler manipulation tasks, but the compliance underlying a demonstration is not directly observable and is therefore difficult to infer from demonstration data alone. We present a framework that makes compliance explicit at every stage. During data collection, the operator teleoperates the real robot while a synchronized digital twin visualizes the error between the commanded reference and the achieved pose, making the current compliance visible, and selects between two discrete compliance modes. To generalize across object poses, we combine Laplacian editing, which retargets trajectories efficiently but is not physics-consistent during contact, with simulation-based trajectory optimization, which enforces physical plausibility but offers no manual guidance. Finally, a residual reinforcement learning policy refines the interaction forces by adjusting the reference pose of the underlying admittance controller. We evaluate on three",
-          "url": "https://arxiv.org/abs/2610.14035",
-          "published_at": "2026-10-14T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "6ad9005d240df23f",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "OIL: An Object Interaction Layer for Humanoid Whole-Body Control",
-          "summary": "arXiv:2610.14033v1 Announce Type: new Abstract: Recent progress in learned whole-body controllers for humanoid robots has enabled robust free-space motion by tracking kinematic targets such as joint or end-effector trajectories. This interface provides a useful abstraction for upstream systems, including motion capture, teleoperation, or generative models, which can specify desired motion without reasoning about forces or balance. However, this abstraction has largely been limited to robot motion, requiring task-specific controllers or retraining for object interaction. We introduce OIL, an Object Interaction Layer that extends the kinematic command interface of whole-body control to include desired object motion and contact. OIL augments a standard controller with object-centric commands and translates them into coordinated whole-body behavior while preserving locomotion and balance. This design enables a single learned policy to execute non-prehensile interactions, including pushing, pulling, two-arm pick-and-place, and locomotion-coupled transport, directly from object-level kinematic targets without task-specific retraining. In simulation, we demonstrate that object-level comma",
-          "url": "https://arxiv.org/abs/2610.14033",
-          "published_at": "2026-10-14T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "2d23a7f1c711dce4",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "From bits to atoms: A survey of cross-layer safety in Embodied AI",
-          "summary": "arXiv:2610.14038v1 Announce Type: new Abstract: Embodied Artificial Intelligence (AI) introduces cyber-physical risks because digital failures and attacks can cause physical harm. This survey organizes embodied AI safety through a four-layer reference architecture -- comprising the physical interaction, system and middleware, algorithm and decision, and cloud-edge and data layers -- and uses it to connect vulnerabilities, propagation paths, and safeguards across the system stack. It traces the evolution of safety paradigms and examines how faults and attacks cross architectural boundaries to produce physical consequences. Furthermore, the survey systematizes composite attack chains, outlines multi-layered defense strategies, and reviews representative embodied safety benchmarks. Ultimately, we advocate for unifying software alignment with rigorous hardware constraints to build trustworthy systems capable of operating safely within human-centric environments.",
-          "url": "https://arxiv.org/abs/2610.14038",
-          "published_at": "2026-10-14T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "建筑与养老场景机器人落地：Promise Robotics联手美国最大房建商，ElliQ扩大纽约养老服务",
-      "english_term": "physical AI（物理世界人工智能，指结合感知与执行的AI系统）",
-      "summary": "Promise Robotics与美国最大住宅建筑商D.R. Horton达成多年合作，将物理AI引入住宅建造；同时Intuition Robotics与纽约州扩大养老陪伴机器人ElliQ的合作规模。",
-      "script": "机器人技术落地到具体行业的消息今天也有两条。第一条来自建筑行业，机器人公司 Promise Robotics 宣布与美国按建房量计算最大的住宅建筑商 D.R. Horton 达成多年期合作，目标是把所谓的物理AI，也就是融合感知、规划和执行能力的机器人系统，引入住宅建造流程。建筑行业长期以来自动化程度不高，大量工序仍依赖人工现场作业，尤其是墙体搭建、模块化构件组装这类重复性强但又需要一定精度的工作，是机器人介入的重点方向。这次合作被认为是机器人公司切入房屋建造这一规模庞大但技术渗透率很低的市场的典型案例，如果能在 D.R. Horton 的实际工地验证效率和成本优势，有可能带动更多建筑企业采用类似方案。第二条消息来自养老陪伴机器人领域，纽约州老年办公室，也就是 NYSOFA，宣布扩大与 Intuition Robotics 的合作，双方签署了一份为期三年、总金额210万美元的新协议，继续在纽约州推广陪伴机器人 ElliQ。ElliQ 是一款面向独居老年人的桌面陪伴设备，功能包括提醒服药、陪聊、协助视频通话等，目标是缓解老年人独居可能带来的孤独感和健康监测盲区。这类合作的持续扩大，说明陪伴机器人在养老场景里已经从早期的小范围试点，逐步进入更大规模、更长周期的公共服务采购阶段。这两条消息分别代表机器人技术在重资产的建筑行业和民生导向的养老服务领域的两种不同落地路径，一个追求效率和成本的规模化验证，一个追求长期陪伴关系和社会服务价值的可持续性。",
+      "category": "world",
+      "title": "乌克兰宣布恢复打击俄炼油厂，能源停火宣告破裂",
+      "english_term": null,
+      "summary": "泽连斯基表示针对俄罗斯能源设施的打击暂停已经结束，乌军随后对梁赞州一处炼油厂发动无人机攻击；此前特朗普曾宣称双方已达成“能源停火”。",
+      "script": "国际局势方面，乌克兰总统泽连斯基宣布，此前针对俄罗斯能源设施的打击暂停已经结束，乌方将恢复对俄炼油厂的攻击。根据多家媒体报道，就在泽连斯基表态后数小时，乌克兰无人机已经对俄罗斯梁赞州的一处炼油厂发动了袭击。已确认事实是：这轮所谓“能源停火”此前由美国总统特朗普公开宣称已经达成，但俄罗斯方面并未正式承认或遵守这一说法，随后俄军对乌克兰发动了新一轮袭击，直接导致乌方宣布休战结束。俄罗斯方面则反过来指责乌克兰先行攻击了其炼油设施。双方各执一词，目前没有独立的第三方机构证实到底是谁先打破了这轮脆弱的停火安排。分析来看，这次“停火”从一开始就缺乏双方的正式书面确认，更像是外交辞令层面的试探，而非具备约束力的协议，这也解释了为何它在短短数天内就瓦解。与此同时，黑海局势同步升温：据报道，两艘化学品油轮在罗马尼亚领海起火，事发前曾有俄罗斯无人机被发现进入罗马尼亚领空，另有一艘油轮在遭无人机袭击后起火，船上八名船员下落不明，搜救行动正在进行。这些事件尚未有官方最终结论说明袭击方身份，需要等待罗马尼亚及相关国际机构的调查结果。此外，乌克兰方面表示其通过SpaceX“星盾”（Starshield，一种军用级卫星通信系统，为乌军提供加密战场通信与无人机攻击所需的数据链路）系统的接入已经恢复，这一系统被认为是乌军发动远程无人机攻势的关键基础设施之一。后续需要等待俄乌双方是否会有新一轮斡旋，也需要观察黑海油轮袭击事件的调查结果。",
       "duration_seconds": 155,
       "is_unverified": false,
-      "confidence_note": "两条均来自行业媒体The Robot Report的直接报道，属于Tier 2来源，且涉及具体合同金额和合作方，可信度较高。",
+      "confidence_note": "多家二级媒体BBC、DW、NPR、半岛电视台交叉报道，事实部分确认度较高，但袭击责任归属仍存在各方主张分歧。",
       "fact_status": {
         "confirmed": [
-          "Promise Robotics与D.R. Horton签署多年期合作协议，聚焦住宅建造中的物理AI应用",
-          "NYSOFA与Intuition Robotics签署三年期210万美元新协议，扩大ElliQ养老陪伴机器人的覆盖"
-        ],
-        "claims": [],
-        "analysis": [
-          "建筑和养老是机器人商业化落地中两类典型但路径不同的应用场景"
-        ]
-      },
-      "source_ids": [
-        "e4a8bf9da841fb98",
-        "4c054bd49206f846"
-      ],
-      "sources": [
-        {
-          "id": "e4a8bf9da841fb98",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Promise Robotics partners with D.R. Horton on physical AI for homebuilding",
-          "summary": "Promise Robotics has signed a multi-year partnership with America's largest homebuilder by volume to bring physical AI to construction. The post Promise Robotics partners with D.R. Horton on physical AI for homebuilding appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/",
-          "published_at": "2026-10-13T13:00:05+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "4c054bd49206f846",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "NYSOFA expands partnership with Intuition Robotics to bring ElliQ to more seniors",
-          "summary": "With the expansion, NYSOFA and Intuition Robotics established a new three-year, $2.1 million agreement to keep rolling out ElliQ. The post NYSOFA expands partnership with Intuition Robotics to bring ElliQ to more seniors appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/nysofa-expands-partnership-intuition-robotics-bring-elliq-more-seniors/",
-          "published_at": "2026-10-13T23:22:05+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "胡塞武装导弹袭击沙特阿美设施，红海与霍尔木兹局势持续升温",
-      "english_term": null,
-      "summary": "也门胡塞武装发射导弹击中沙特阿美在宰赫兰的办公楼，沙特主导的联军此前刚打击了胡塞在也门的燃料仓库，霍尔木兹海峡同期也出现袭击激增。",
-      "script": "中东局势方面，紧张态势在过去一天明显升级。据BBC和半岛电视台报道，也门胡塞武装发射的导弹击中了沙特阿美在宰赫兰总部园区的一栋办公楼，沙特能源部表示事件造成了有限的火情。这起袭击发生在沙特主导的联军刚刚打击了胡塞武装在也门境内一处燃料仓库之后，显示出双方的对抗仍在持续升级。另据沙特民防部门通报，一枚胡塞方面发射、目标指向利雅得的导弹已被联军拦截，警报解除后危险已经过去。与此同时，半岛电视台的另一篇报道指出，霍尔木兹海峡近期正经历自冲突爆发以来最密集的一波袭击，伊朗方面被指加强了对该海峡的监视，相关的石油运输也随之大幅减少。需要说明的是，这些事件目前主要依据沙特官方通报和媒体现场报道，胡塞武装一方对具体袭击细节的说法可能存在出入，冲突各方对袭击目标、伤亡情况的描述也经常相互矛盾，具体责任归属和损失规模还需要更多独立信源确认。从宏观背景看，红海和霍尔木兹海峡是全球能源运输的关键通道，一旦袭击事件频率持续攀升，可能影响国际原油运输保险成本和航运路线选择，连带推高能源价格波动的风险。目前来看，这一轮紧张局势尚未出现明显降温迹象，联军与胡塞武装之间互有攻击的态势仍在延续。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "基于BBC和半岛电视台两个独立Tier 2来源的交叉报道，但冲突双方对具体细节的说法存在出入，需持续关注。",
-      "fact_status": {
-        "confirmed": [
-          "胡塞武装导弹击中沙特阿美宰赫兰办公楼，造成有限火情",
-          "沙特主导联军此前打击了也门境内胡塞燃料仓库",
-          "联军拦截一枚指向利雅得的胡塞导弹"
+          "泽连斯基宣布恢复打击俄能源设施",
+          "乌军无人机袭击俄梁赞州炼油厂",
+          "罗马尼亚黑海海域两艘油轮起火，俄无人机此前曾进入罗马尼亚领空",
+          "乌克兰Starshield卫星通信访问已恢复"
         ],
         "claims": [
-          "伊朗被指加强对霍尔木兹海峡的监视",
-          "霍尔木兹海峡袭击频率达到冲突以来最高水平"
+          "俄罗斯指责乌克兰率先攻击炼油厂",
+          "特朗普此前宣称已达成能源停火"
         ],
         "analysis": [
-          "红海与霍尔木兹海峡紧张局势升级可能影响全球能源运输和油价波动"
+          "停火缺乏正式书面约束，瓦解速度快",
+          "黑海袭击事件责任方尚待调查确认"
         ]
       },
       "source_ids": [
-        "2a4ad750d625a794",
-        "915bde793af16c4c",
-        "0af90cc47993f258"
+        "fd8597723dc0dc5e",
+        "ba9159b118c55303",
+        "bf67048d5b82fb60",
+        "53e3ba474e58ebbc",
+        "2b6b55bbe5d1b51b",
+        "ca0bf78633835869"
       ],
       "sources": [
         {
-          "id": "2a4ad750d625a794",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Houthi missile hits Aramco building after Saudi-led coalition hits Yemen fuel depot",
-          "summary": "The Saudi energy ministry says the Houthi attack caused a \"limited fire\" at Aramco's headquarters complex in Dhahran.",
-          "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-14T11:33:24+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "915bde793af16c4c",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
-          "summary": "Saudi civil defence authority says danger passed after it issued alerts via its national early warning platform.",
-          "url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh?traffic_source=rss",
-          "published_at": "2026-10-14T11:39:06+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "0af90cc47993f258",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Iran steps up Hormuz surveillance: Attacks soar, oil flows crash again",
-          "summary": "Ships in the Strait of Hormuz have been experiencing the worst spate of attacks since the start of the war.",
-          "url": "https://www.aljazeera.com/news/2026/10/14/iran-steps-up-hormuz-surveillance-attacks-soar-oil-flows-crash-again?traffic_source=rss",
-          "published_at": "2026-10-14T11:16:21+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "乌克兰指责SpaceX限制星链接入影响前线无人机作战",
-      "english_term": "Starlink（星链，SpaceX旗下低轨卫星通信系统）",
-      "summary": "乌克兰方面指控马斯克旗下SpaceX限制了星链系统的使用，影响了乌军前线指挥无人机打击俄方目标的能力。",
-      "script": "另一条值得关注的国际消息，乌克兰方面指控埃隆·马斯克旗下的SpaceX正在限制星链卫星通信系统在乌克兰的使用，而星链一直是乌军保护领空、引导无人机打击俄方目标的重要通信基础设施。据BBC和德国之声报道，基辅方面表示这种限制正在实际影响前线的作战协调能力，尤其是在需要实时引导无人机精确打击的场景下，通信的稳定性至关重要。目前这一指控主要来自乌克兰官方的表态，SpaceX方面对此的具体回应和限制的原因细节，在现有报道中并未详细披露，星链此前也曾因服务范围和地缘政治因素，在乌克兰战场的使用上出现过类似的争议。需要指出的是，星链系统最初是作为商业卫星互联网服务进入乌克兰战场的，并非乌克兰官方自建系统，这也意味着其使用条款和服务范围始终掌握在SpaceX公司手中，这种第三方商业基础设施在军事冲突中扮演关键角色的情况，一直存在关于控制权和中立性的争议。这起事件发生的背景，是俄乌冲突已经持续将近五年，据NPR报道，乌克兰总统泽连斯基近期接受了专访，谈及战事进展和美国在其中扮演的角色。目前关于星链限制的具体技术细节、限制范围以及SpaceX官方立场，仍有待进一步信息披露。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "基于BBC和德国之声两个独立Tier 2来源的报道，但主要信息来自乌克兰官方单方面表态，SpaceX官方回应细节尚未披露。",
-      "fact_status": {
-        "confirmed": [
-          "乌克兰官方表示星链接入受到限制，影响前线无人机作战协调"
-        ],
-        "claims": [
-          "乌方称限制正在实际影响其保护领空和引导打击的能力"
-        ],
-        "analysis": [
-          "商业卫星基础设施在军事冲突中的角色引发关于控制权和中立性的持续争议"
-        ]
-      },
-      "source_ids": [
-        "a570d8c66a373668",
-        "ecb829c1051e8547"
-      ],
-      "sources": [
-        {
-          "id": "a570d8c66a373668",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Starlink restrictions affecting Ukraine's front line operations, Kyiv says",
-          "summary": "Elon Musk's system allows Kyiv to protect Ukrainian skies and effectively guide drones to Russian targets.",
-          "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-14T11:32:07+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "ecb829c1051e8547",
+          "id": "fd8597723dc0dc5e",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Ukraine says Musk's SpaceX limits Kyiv's Starlink access",
-          "summary": "Ukraine accused SpaceX of restricting use of its Starlink system, impacting Kyiv's ability to control its drones as Russian attacks continue unabated.",
-          "url": "https://www.dw.com/en/ukraine-says-musk-s-spacex-limits-kyiv-s-starlink-access/a-79658015?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-14T11:07:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "德国审判涉嫌北溪管道爆炸案乌克兰公民",
-      "english_term": null,
-      "summary": "一名乌克兰公民在德国汉堡出庭受审，被控参与2022年北溪天然气管道爆炸事件，案件引发对基辅可能角色及德国对乌支持立场的关注。",
-      "script": "欧洲方面，德国之声报道，一名乌克兰公民近日在汉堡出庭受审，被控参与了2022年北溪天然气管道的爆炸袭击。北溪管道连接俄罗斯与德国，2022年发生的爆炸事件曾一度被认为是重大地缘政治事件，但三年多来，关于袭击幕后主使的说法始终众说纷纭，一直未有权威的最终定论。这起庭审被认为是首次将具体个人送上法庭接受审判，案件的走向可能为了解这起爆炸事件的真相提供更多细节。需要明确区分的是，目前已经确认的事实只是这名乌克兰公民正在德国受审，至于其是否真正参与了袭击、是否代表官方指令行事，都属于法庭尚待审理和各方存在争议的内容。报道也提到，这起案件连带引发了外界对基辅在爆炸事件中可能扮演角色的猜测，以及德国国内对于是否应继续全力支持乌克兰的讨论，部分德国舆论担心，如果审理过程坐实乌克兰官方层面的参与，可能会对德国国内的对乌援助共识造成冲击。不过这些都属于各方推测和政治讨论的范畴，并非已经确认的司法结论。案件后续审理进展，以及检方能否提供确凿证据证明被告的行为动机和是否存在上级指令，是接下来值得关注的焦点。",
-      "duration_seconds": 115,
-      "is_unverified": false,
-      "confidence_note": "基于德国之声的直接报道，案件仍在审理阶段，被告是否有罪及幕后动机尚无定论。",
-      "fact_status": {
-        "confirmed": [
-          "一名乌克兰公民在德国汉堡出庭，被控参与2022年北溪管道爆炸事件"
-        ],
-        "claims": [
-          "案件引发对基辅可能角色的猜测",
-          "部分德国舆论担忧案件影响对乌援助共识"
-        ],
-        "analysis": [
-          "北溪爆炸案幕后主使问题长期缺乏权威定论，此次审判可能提供更多细节但尚不能视为最终结论"
-        ]
-      },
-      "source_ids": [
-        "da4a9c55b29fc5b3"
-      ],
-      "sources": [
-        {
-          "id": "da4a9c55b29fc5b3",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Nord Stream: Germany puts suspected Ukrainian pipeline saboteur on trial",
-          "summary": "A Ukrainian citizen faces court in Hamburg, accused of attacking the Nord Stream gas pipelines in 2022. It raises questions about Kyiv's possible role in the explosions. German support for Ukraine is also under scrutiny.",
-          "url": "https://www.dw.com/en/nord-stream-germany-puts-suspected-ukrainian-pipeline-saboteur-on-trial/a-79647617?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-14T11:40:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "health",
-      "title": "教皇良十四世确诊肺癌并已完成手术",
-      "english_term": null,
-      "summary": "梵蒂冈宣布教皇良十四世被诊断出肺癌，已接受手术切除右肺下叶，术后状况平稳。",
-      "script": "一条关于梵蒂冈的健康消息。据BBC和NPR报道，梵蒂冈方面宣布，教皇良十四世已被确诊患有肺癌，并已接受手术，切除了右肺的下叶。梵蒂冈表示，教皇术后度过了一个平稳的夜晚，目前恢复状况良好。这是教皇良十四世就任以来首次公开的重大健康问题，由于教皇在天主教会体系中的核心地位，其健康状况一直受到全球范围的高度关注，梵蒂冈方面选择在手术后比较早的阶段就公开诊断结果和手术情况，一定程度上体现了相对透明的信息披露态度。目前报道中并未提供更详细的病理分期、具体治疗方案等医学细节，这些信息通常会在后续的医疗通报中逐步披露。从已确认的信息看，手术本身被描述为成功，教皇术后状态平稳，但肺癌后续的治疗路径、是否需要辅助化疗或放疗，以及这对教皇日常履职安排可能产生的影响，目前都还没有定论，需要等待梵蒂冈后续的官方通报。",
-      "duration_seconds": 90,
-      "is_unverified": false,
-      "confidence_note": "基于BBC和NPR两个独立Tier 2来源对梵蒂冈官方声明的转引，信息来源一致性较高。",
-      "fact_status": {
-        "confirmed": [
-          "梵蒂冈宣布教皇良十四世确诊肺癌并已完成右肺下叶切除手术",
-          "梵蒂冈表示教皇术后状态平稳"
-        ],
-        "claims": [],
-        "analysis": [
-          "具体治疗方案和对教皇履职安排的影响尚待后续官方通报"
-        ]
-      },
-      "source_ids": [
-        "253f3dece605d176",
-        "5cdfc3bd902263a2"
-      ],
-      "sources": [
-        {
-          "id": "253f3dece605d176",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-          "summary": "Pope Leo had a \"peaceful night\" in the hospital after the surgery to remove a lower lobe of his right lung, the Vatican says.",
-          "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-14T11:17:51+00:00",
+          "title": "Hypersonic missiles highlight arms race on Korean Peninsula",
+          "summary": "Both Seoul and Pyongyang have now tested weapons feared by military planners for their speed and ability to maneuver in flight.",
+          "url": "https://www.dw.com/en/hypersonic-missiles-highlight-arms-race-on-korean-peninsula/a-79667084?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-15T12:02:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "5cdfc3bd902263a2",
+          "id": "ba9159b118c55303",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Ukrainians fear US intelligence cuts as Russian strikes intensify",
+          "summary": "Reduced missile warnings increase threat to civilians as Trump pushes an 'energy ceasefire' and peace negotiations.",
+          "url": "https://www.aljazeera.com/news/2026/10/15/ukrainians-fear-us-intelligence-cuts-as-russian-strikes-intensify?traffic_source=rss",
+          "published_at": "2026-10-15T11:45:39+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "bf67048d5b82fb60",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Zelenskyy sits down with NPR. And, Pope Leo diagnosed with lung cancer",
-          "summary": "Ukrainian President Volodymyr Zelenskyy has a sit-down interview with NPR as Russia's full-scale invasion nears the 5-year mark. And, Pope Leo XIV has been diagnosed with lung cancer.",
-          "url": "https://www.npr.org/2026/10/14/g-s1-148040/up-first-newsletter-volodymyr-zelenskyy-pope-leo-kimberly-guilfoyle-media-free-speech",
-          "published_at": "2026-10-14T11:38:51+00:00",
+          "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
+          "summary": "Ukrainian drones attacked a refinery in Russia's Ryazan region early Thursday, hours after Ukrainian President Volodymyr Zelenskyy said that a brief truce spurned by Moscow was over.",
+          "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
+          "published_at": "2026-10-15T10:05:58+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "53e3ba474e58ebbc",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
+          "summary": "Two chemical tankers have caught fire in Romanian territorial waters in the Black Sea. The blazes occurred after Russian drones were sighted in Romanian airspace.",
+          "url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-15T11:27:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "2b6b55bbe5d1b51b",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Eight crew missing after drone attack leaves tanker ablaze off Romania's coast",
+          "summary": "A search and rescue operation is under way in the Black Sea after the latest attack in the area.",
+          "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-15T11:12:54+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "ca0bf78633835869",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Ukraine says its Starshield access is back",
+          "summary": "Ukraine says its access to SpaceX's Starshield has been restored. It's the system the country uses for its offensive drone attacks on Russia.",
+          "url": "https://www.npr.org/2026/10/15/nx-s1-6002949/ukraine-says-its-starshield-access-is-back",
+          "published_at": "2026-10-15T08:46:09+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "朝鲜半岛高超音速导弹军备竞赛升温",
+      "english_term": "Hypersonic missile（高超音速导弹，指飞行速度超过5倍音速且能在大气层内机动变轨的导弹，传统反导系统更难拦截）",
+      "summary": "韩国与朝鲜近期均已试射被认为具备高超音速能力的导弹，军事分析人士担忧这将加剧地区军备竞赛。",
+      "script": "朝鲜半岛的军事紧张态势也值得关注。据报道，韩国和朝鲜双方近期都进行了被认为具备高超音速能力的导弹试射。所谓高超音速导弹，是指飞行速度能达到5倍音速以上，并且能够在大气层内进行机动变轨的导弹类型，这种飞行特性让传统的反导拦截系统很难提前预判弹道并实施拦截，因此一直是各国军事规划者格外警惕的武器类型。已确认的事实是，首尔和平壤两方近期都公开进行了相关武器试验，这被视为半岛军备竞赛进入新阶段的标志性事件。报道分析认为，这种竞赛式的武器研发不仅会增加地区误判和冲突升级的风险，也会让原本就紧张的朝核问题谈判空间进一步收窄。目前没有更多官方细节披露具体的导弹型号、射程与试验结果，分析人士的判断仍停留在趋势层面，即双方都在通过展示先进武器能力来传递威慑信号。后续需要等待更多官方军事情报机构对导弹性能的独立评估，也需要关注美国及其地区盟友是否会因此调整在该区域的军事部署。",
+      "duration_seconds": 100,
+      "is_unverified": false,
+      "confidence_note": "来自DW的二级媒体报道，属于趋势性分析报道，具体技术参数未披露。",
+      "fact_status": {
+        "confirmed": [
+          "韩国与朝鲜近期均试射了被认为具备高超音速能力的导弹"
+        ],
+        "claims": [],
+        "analysis": [
+          "军备竞赛可能加剧地区误判风险",
+          "半岛紧张局势可能进一步复杂化"
+        ]
+      },
+      "source_ids": [
+        "fd8597723dc0dc5e"
+      ],
+      "sources": [
+        {
+          "id": "fd8597723dc0dc5e",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Hypersonic missiles highlight arms race on Korean Peninsula",
+          "summary": "Both Seoul and Pyongyang have now tested weapons feared by military planners for their speed and ability to maneuver in flight.",
+          "url": "https://www.dw.com/en/hypersonic-missiles-highlight-arms-race-on-korean-peninsula/a-79667084?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-15T12:02:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "Agility Robotics为人形机器人Digit 5选定超快充电电池方案",
+      "english_term": "Humanoid robot（人形机器人）、ultra-fast charging（超快充电）",
+      "summary": "Agility Robotics宣布采用Nyobolt的电池技术为其新一代人形机器人Digit 5供电，号称可支持单日长达20小时的持续工作。",
+      "script": "产业方面，人形机器人公司Agility Robotics宣布了一项重要的供应链合作：其新一代人形机器人Digit 5将采用电池公司Nyobolt提供的超快充电技术。根据The Robot Report的报道，这套电池方案的核心卖点是能够支持Digit 5单日最长达到20小时的持续作业。对于人形机器人产业而言，电池续航和充电效率一直是制约其在仓储、物流等场景实际落地的关键瓶颈之一——机器人如果需要频繁停机进行长时间充电，就很难真正替代人类在多班制场景下连续作业。Nyobolt在电池行业以快充技术见长，其技术路线通常是通过优化电极材料和电池内阻设计，让电池能够承受更大充电电流而不显著牺牲寿命和安全性，从而实现从低电量到高电量的快速补能。如果这类超快充电确实能在人形机器人上稳定落地，意味着机器人可以通过短暂的间歇充电维持近乎全天候运转，这对于仓库拣货、分拣中心这类本就是三班倒的应用场景尤其有吸引力。Agility Robotics此前凭借Digit系列机器人已经在物流仓储领域进行了多轮试点部署，Digit 5作为其新一代产品，这次在电池供应商选择上的决定，被视为其面向规模化商业部署迈出的具体一步。不过目前公开信息还没有披露Digit 5的具体充电时长、电池容量以及实际工作负载下的续航测试数据，这些关键参数仍有待官方进一步公布。后续需要等待Agility Robotics公布Digit 5的量产时间表和实际现场部署数据，以验证这套超快充电方案在真实工况下的表现是否能达到宣传预期。",
+      "duration_seconds": 165,
+      "is_unverified": false,
+      "confidence_note": "The Robot Report为二级专业机器人媒体，另有Unite.AI报道作为交叉来源，但具体技术参数细节仍以官方后续披露为准。",
+      "fact_status": {
+        "confirmed": [
+          "Agility Robotics选定Nyobolt为Digit 5提供电池技术"
+        ],
+        "claims": [
+          "该方案可支持机器人单日最长20小时工作"
+        ],
+        "analysis": [
+          "电池续航与快充是人形机器人规模化落地的关键瓶颈之一",
+          "此举可能为Digit系列在仓储物流场景的三班制部署铺路"
+        ]
+      },
+      "source_ids": [
+        "541f665925fb1982",
+        "5768b8ba7abe1bda"
+      ],
+      "sources": [
+        {
+          "id": "541f665925fb1982",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Agility chooses Nyobolt for ultra-fast charging for Digit 5 humanoid",
+          "summary": "Nyobolt is providing power technology for Digit 5 that enables Agility's humanoid to work up to 20 hours a day. The post Agility chooses Nyobolt for ultra-fast charging for Digit 5 humanoid appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/agility-robotics-chooses-nyobolt-ultra-fast-charging-digit-5-humanoid/",
+          "published_at": "2026-10-15T10:59:24+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "5768b8ba7abe1bda",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Nyobolt Batteries to Power Agility Robotics’ Digit 5 Humanoid Robot - Unite.AI",
+          "summary": "Nyobolt Batteries to Power Agility Robotics’ Digit 5 Humanoid Robot Unite.AI",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVVY4UkxsTmltb2ZUWXN1NVlqcm9MVXZ1S0dWbVF3WkMzeU5zbmRLdXExU01jUXVsY3RaUmV4UkVpVlpfU3hTdF9aRU5mc3c2NVhva003NmxhaW1wa080MUh1UmZHTXJoTm9OUFROZlBQVjdCRXl2Ym5lQmhaaWZCXzNzdG5MME9Wc2tmbGJCN3lhUQ?oc=5",
+          "published_at": "2026-10-15T11:36:13+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "Skild AI四足机器人开始在匹兹堡机场执行巡逻任务",
+      "english_term": "Quadruped robot（四足机器人）",
+      "summary": "具身智能公司Skild AI的四足机器人已经开始在匹兹堡国际机场进行实地巡逻，标志着其技术从研发走向真实场景商业应用。",
+      "script": "另一条值得关注的产业消息来自具身智能公司Skild AI。据Dealroom报道，该公司的四足机器人已经开始在匹兹堡国际机场执行巡逻任务。四足机器人凭借其在非结构化地形上的稳定通过能力，近年来被广泛应用于安防巡逻、设施巡检等场景，相比轮式机器人，它们能够更从容地应对台阶、碎石路面以及室内外过渡区域等复杂地形。Skild AI是一家专注于通用机器人基础模型研发的公司，其核心技术路线是训练能够跨越不同机器人本体和任务场景通用的控制策略，而不是为每一种任务单独开发专用算法。将这类通用具身智能模型部署到机场这样人流密集、环境多变的公共空间进行实地巡逻，是对其技术鲁棒性和安全性的一次真实世界压力测试。机场场景对机器人提出的要求相当综合：既需要精确的定位导航能力来覆盖候机楼、停机坪周边等不同区域，也需要可靠的障碍物感知和避让能力来应对旅客、行李车等动态干扰，还需要具备足够的续航和耐用性来支撑长时间不间断的巡逻任务。目前公开报道没有详细披露这批四足机器人具体承担的巡逻范围、搭载的传感器配置，以及是否会承担安防告警之外的其他功能，比如设施检测或数据采集。这类商业化落地案例的价值在于，它为四足机器人从实验室演示走向规模化部署提供了又一个真实场景验证点。后续需要关注Skild AI是否会公布更多机场巡逻的运行数据，以及这一合作模式是否会扩展到其他交通枢纽。",
+      "duration_seconds": 145,
+      "is_unverified": true,
+      "confidence_note": "来源为Dealroom单一三级信息源，属于产业热点线索，细节有限，需等待更多独立信源或官方公告确认。",
+      "fact_status": {
+        "confirmed": [
+          "Skild AI四足机器人已在匹兹堡国际机场执行巡逻任务（据单一来源报道）"
+        ],
+        "claims": [],
+        "analysis": [
+          "机场场景是对通用具身智能模型鲁棒性的真实世界压力测试",
+          "四足机器人在安防巡检领域的商业化落地案例增多"
+        ]
+      },
+      "source_ids": [
+        "b929504f459ad1b2"
+      ],
+      "sources": [
+        {
+          "id": "b929504f459ad1b2",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Skild AI's four-legged robots start patrolling Pittsburgh airport - Dealroom",
+          "summary": "Skild AI's four-legged robots start patrolling Pittsburgh airport Dealroom",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcmplNEJldUpfN0tnaHJtUXJWbDhTN1FNTkNIUG5WVS01REV1SEVZbUtZWGxYRE1sQ0FSdjNQUGRPXzRnU09ldEZmT2xhNkpWVlNJcXFFTFAxbmJhMlJqUHZDazR5b2k2OXNxeThTaVpKTmQ3ZkwwSDdONFlHZFlxT0J4ZmZXQUh2YW5HMUNLd0F5QWo0UlkzSy1QY04tN2Zx?oc=5",
+          "published_at": "2026-10-15T11:46:46+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "arXiv新论文：HumanVerse数据集助力人形机器人规模化学习全身操作",
+      "english_term": "Loco-manipulation（移动操作，指机器人在移动的同时执行物体操作任务）、Egocentric data（第一人称视角数据）",
+      "summary": "研究团队提出HumanVerse，一个包含500小时第一人称人类移动操作演示数据的数据集，旨在解决人形机器人数据采集成本高、现有人类数据缺乏移动姿态信息的问题。",
+      "script": "学术方面，一篇新发布的arXiv论文提出了名为HumanVerse的数据集，试图解决人形机器人学习中的一个核心难题。所谓移动操作，指的是机器人需要在身体移动的同时完成抓取、搬运等操作任务，这对人形机器人的全身协调能力要求很高，但目前收集真实机器人的演示数据成本极为高昂。论文作者指出，利用人类第一人称视角的演示数据是一种更具扩展性的替代方案，但现有的人类监督数据通常只关注手部动作，忽略了移动和身体姿态信息，同时人类和机器人在身体结构、关节自由度上的差异，也让这些人类数据很难被精确映射到机器人末端执行器的实际动作指令上。为此，研究团队构建了HumanVerse，这是一个时长达到500小时的开放世界人类移动操作演示数据集，相比以往只关注桌面操作的数据集，它同时记录了人类在完成任务过程中的身体移动轨迹和姿态变化，试图为人形机器人提供更完整的全身行为监督信号。这篇论文属于新近发布的预印本，尚未经过同行评审，其核心贡献目前主要体现在数据集规模和采集方法的设计思路上，具体训练出的机器人策略在真实硬件上的迁移效果，论文摘要部分并未给出详尽的量化对比结果。从研究意义上看，大规模、高质量的人类演示数据一直被视为缓解人形机器人训练数据稀缺问题的重要路径之一，HumanVerse在覆盖移动与姿态信息方面的尝试，如果后续被验证有效，可能为训练更通用的全身控制策略提供新的数据基础。其局限在于，人类与机器人之间的具身差异问题，即便有了更丰富的姿态数据，也未必能被完全消除，实际迁移效果仍需要在具体机器人平台上进行验证。后续需要等待论文的同行评审结果，以及团队公布在真实人形机器人上的实验数据。",
+      "duration_seconds": 175,
+      "is_unverified": true,
+      "confidence_note": "来自arXiv预印本，尚未经过同行评审，结果以摘要信息为准，具体实验数据有限。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了500小时规模的HumanVerse人类移动操作数据集"
+        ],
+        "claims": [
+          "作者主张该数据集能缓解人形机器人训练数据稀缺和移动信息缺失问题"
+        ],
+        "analysis": [
+          "大规模人类演示数据是缓解机器人数据稀缺的重要研究方向",
+          "具身差异问题是否被充分解决仍待验证"
+        ]
+      },
+      "source_ids": [
+        "27b6524d498a76c2"
+      ],
+      "sources": [
+        {
+          "id": "27b6524d498a76c2",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "$\\lambda_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation",
+          "summary": "arXiv:2610.18950v1 Announce Type: new Abstract: Humanoid loco-manipulation requires coordinated whole-body interaction with the physical world, yet collecting robot demonstrations at scale remains costly. Human demonstrations offer a scalable alternative, but existing egocentric human supervision often omits locomotion and posture, while embodiment differences and controller dynamics hinder accurate end-effector execution. We introduce HumanVerse, a 500-hour dataset of open-world human loco-manipulation pairing egocentric video with synchronized body and hand motion. Our human-to-humanoid pipeline aligns camera viewpoints and arm appearance, and refines motion references and controller inputs offline to reduce end-effector errors while preserving whole-body coordination. We validate the pipeline through zero-shot transfer to Unitree G1 on representative whole-body manipulation and long-range loco-manipulation tasks, without target-task robot demonstrations. Building on this pipeline, we develop $\\lambda_0$, a humanoid foundation model for whole-body loco-manipulation, with robot-aligned human demonstrations providing supervision for mid-training. Increasing whole-body human data co",
+          "url": "https://arxiv.org/abs/2610.18950",
+          "published_at": "2026-10-15T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "arXiv新论文：Contact-UAN用无监督执行器网络修正人形机器人仿真到真实的落差",
+      "english_term": "Sim-to-real gap（仿真到真实的落差，指在仿真环境中训练的策略部署到真实硬件时性能下降的现象）、Actuator network（执行器网络，用于建模真实电机动态特性的模型）",
+      "summary": "新论文提出Contact-UAN，通过无监督学习的执行器网络作为残差世界模型，修正仿真训练策略在真实机器人上执行力交互时的失真问题。",
+      "script": "再看一篇关于人形机器人控制的arXiv新论文，研究的是一个在业内被称为仿真到真实落差的经典难题。研究团队指出，在仿真环境中训练出的人形机器人控制策略，迁移到真实硬件后往往能在动作层面大致复现，但在力的交互方面却会失真，具体表现为扭矩效率下降、负载调节不准，以及对外部冲击的鲁棒性变差。论文分析认为，这一问题的根源在于执行器也就是电机本身的仿真与真实特性存在差距，因为机器人产生的力本质上依赖于执行器输出的扭矩，如果仿真器里电机模型不够准确，训练出来的策略在真实世界里自然也无法精确控制力的大小。为了解决这个问题，研究团队提出了Contact-UAN，这是一种基于无监督学习的执行器网络，被设计成一个残差世界模型——即在保留仿真器原有物理规律的基础上，额外学习一个修正项，专门用来弥补执行器动态特性方面的误差，而不需要推倒重来重新建模整个仿真系统。这种残差建模的思路在机器人仿真到真实迁移研究中较为常见，其优势在于能够复用已有仿真器积累的物理先验知识，同时又能针对性地解决执行器这一个具体薄弱环节。论文摘要并未透露在哪些具体机器人平台上进行了验证，也没有给出扭矩效率和抗冲击能力改善的具体量化数字，这些细节有待论文全文公布后进一步核实。作为一篇尚未经过同行评审的预印本，其提出的方法思路具有一定参考价值，但实际效果的大小仍需要同行评审和更广泛的复现实验来检验。后续需要关注论文完整版本公布的实验数据，以及该方法是否会被其他人形机器人团队采纳验证。",
+      "duration_seconds": 160,
+      "is_unverified": true,
+      "confidence_note": "来自arXiv预印本，尚未经过同行评审，具体实验平台与量化结果未在摘要中完全披露。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了名为Contact-UAN的残差世界模型方法"
+        ],
+        "claims": [
+          "作者认为该方法能缓解执行器仿真到真实落差导致的力交互失真问题"
+        ],
+        "analysis": [
+          "残差建模是处理仿真到真实迁移问题的常见技术路线",
+          "实际效果仍需同行评审和更广泛验证"
+        ]
+      },
+      "source_ids": [
+        "4248614ced9f0ad6"
+      ],
+      "sources": [
+        {
+          "id": "4248614ced9f0ad6",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control",
+          "summary": "arXiv:2610.18991v1 Announce Type: new Abstract: Humanoid policies trained in simulation can transfer qualitatively to hardware while failing to transfer the force interactions learned during training, compromising torque efficiency, load regulation, and robustness to impacts. This failure can arise from actuator sim-to-real gaps because forces depend on actuator torques. We introduce Contact-UAN, a residual world model that preserves a simulator's physics priors while correcting actuator dynamics to align simulated rollouts with recorded hardware rollouts. For humanoid motion with contact, this requires contact-consistent replay: if hardware playback in simulation begins with misaligned contact wrenches, the residual model learns to correct reset artifacts rather than actuator discrepancies. Using only onboard proprioception, Contact-UAN infers the simulator-side stance-foot pose needed to initialize replay with consistent contact forces. We show that a UAN trained on 6.5 minutes of real-world walking data generalizes to tasks that benefit from accurate force and impulse regulation and produces policies that transfer seamlessly to the real world, yielding 20% lower running torque, ",
+          "url": "https://arxiv.org/abs/2610.18991",
+          "published_at": "2026-10-15T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "title": "arXiv新论文：DexMimic训练可泛化的灵巧手操作策略",
+      "english_term": "Dexterous manipulation（灵巧操作，指机器人手部完成精细抓取、旋转等复杂动作的能力）、Hand-object interaction（手-物体交互数据）",
+      "summary": "研究团队提出DexMimic，一种跨多条人类手-物体交互轨迹联合训练的通用灵巧手跟踪策略，旨在解决以往方法为单一轨迹训练专用策略、难以规模化复用技能的问题。",
+      "script": "在机械臂与灵巧操作领域，另一篇新论文提出了DexMimic方法，聚焦于让机器人的灵巧手获得接近人类水平的操作能力。研究团队指出，从人类手-物体交互数据集中学习是获取多样化灵巧操作技能的一条有前景的路径，但现有基于物理仿真的方法通常是针对每一条具体的人类演示轨迹单独训练一个专用策略，这种做法虽然能在单条轨迹上取得不错效果，但极大限制了技能在不同任务之间的复用和规模化扩展——每遇到一个新的物体或新的操作轨迹，都需要重新训练一个新策略，效率很低。为了解决这个问题，研究团队提出了DexMimic，这是一种通用的灵巧手-物体跟踪策略，通过在大量多样化的手-物体交互轨迹上联合训练，让一个策略网络能够同时掌握跟踪多条不同轨迹的能力，而不是为每条轨迹单独建模。论文标题中提到的价值引导重置分配，是其训练过程中的一个关键技术组件，大致思路是在强化学习训练过程中，根据价值函数的评估结果来决定如何分配不同训练样本的重置策略，从而提升训练效率和策略的泛化能力，但论文摘要并未展开具体的算法细节。这项工作如果能在实验中证明一个策略确实可以泛化到多样化的手-物体交互任务上，将为灵巧手操作技能的规模化训练提供重要参考，这也是目前具身智能和机器人操作领域的研究热点之一。不过论文摘要未提供具体的物体种类数量、任务成功率等量化指标，这些内容需要查阅论文全文和后续的同行评审意见。后续需要等待论文正式发表后的详细实验数据，以及是否有团队在真实灵巧手硬件上复现相关结果。",
+      "duration_seconds": 160,
+      "is_unverified": true,
+      "confidence_note": "来自arXiv预印本，尚未经过同行评审，具体量化实验结果未在摘要中完全披露。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了名为DexMimic的联合训练灵巧手跟踪策略"
+        ],
+        "claims": [
+          "作者主张该方法能解决以往专用策略难以规模化复用技能的问题"
+        ],
+        "analysis": [
+          "跨轨迹联合训练是提升灵巧操作策略泛化能力的重要研究方向",
+          "具体效果仍待同行评审检验"
+        ]
+      },
+      "source_ids": [
+        "6aa47bb4a91ce735"
+      ],
+      "sources": [
+        {
+          "id": "6aa47bb4a91ce735",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "DexMimic: A Generalist Dexterous Hand-Object Tracking Policy via Value-Guided Reset Allocation",
+          "summary": "arXiv:2610.19089v1 Announce Type: new Abstract: Achieving human-like dexterous manipulation remains a central challenge in robotics. Learning from human hand-object interaction (HOI) datasets offers a promising pathway to diverse dexterous skills, yet existing physics-based approaches train specialist policies for individual trajectories, thereby limiting skill reuse at scale. We introduce DexMimic, a generalist dexterous hand-object tracking policy jointly trained across diverse HOI trajectories. Efficient joint training requires allocating each rollout to both an undertrained phase and a starting state that supports continued tracking. DexMimic realizes this insight through Value-Guided Reset Allocation, which adapts the initialization distribution online to prioritize difficult phases and select reset states with higher expected tracking returns. We further introduce a benchmark spanning training, fine-tuning, and generalization. Experiments show improved tracking success and training efficiency, faster fine-tuning, and the potential for zero-shot generalization to unseen trajectories and objects; larger training sets further improve efficiency and generalization. Finally, we va",
+          "url": "https://arxiv.org/abs/2610.19089",
+          "published_at": "2026-10-15T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ],
+      "category_correction": "未检测到机器人核心主题，已从 robotics 调整为 other。"
+    },
+    {
+      "category": "finance",
+      "title": "美国社保福利将迎来上调以应对物价上涨",
+      "english_term": null,
+      "summary": "美国社会保障福利即将上调，以抵消近期消费者价格上涨带来的压力，这将直接影响数千万退休人群的实际生活开支。",
+      "script": "财经方面，据NPR报道，美国社会保障福利即将获得上调，目的是抵消近期消费者价格持续上涨给民众生活带来的压力。社会保障福利的调整机制通常与消费者价格指数挂钩，当物价水平上升时，相关部门会对福利金额进行相应调整，以维持受益人的实际购买力不至于被通胀侵蚀。这项调整将直接影响到数千万依赖社会保障金生活的退休人员和残障人士，对他们的日常生活开支构成直接影响。报道中并未给出具体的上调百分比数字，这类细节通常需要等待官方部门发布正式公告后才能确认。从宏观层面看，社会保障福利的定期调整也是观察美国整体通胀走势和民生政策动向的一个窗口——如果上调幅度较大，往往意味着近期消费者价格指数涨幅较为明显。后续需要关注官方具体公布的调整幅度，以及这一调整将从何时开始正式生效。",
+      "duration_seconds": 85,
+      "is_unverified": false,
+      "confidence_note": "NPR为二级媒体，报道简要提及政策方向，具体数字细节有限。",
+      "fact_status": {
+        "confirmed": [
+          "美国社会保障福利即将上调以应对消费者价格上涨"
+        ],
+        "claims": [],
+        "analysis": [
+          "该调整反映近期美国通胀水平的变化趋势"
+        ]
+      },
+      "source_ids": [
+        "ee276568ded80594"
+      ],
+      "sources": [
+        {
+          "id": "ee276568ded80594",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Social Security benefits to get a boost. And, Hasan Piker defends his rhetoric",
+          "summary": "Social Security benefits are set to get a boost to offset rising consumer prices. And, streamer Hasan Piker says the GOP's \"guilt-by-association politics\" won't drag Democrats down in the midterms.",
+          "url": "https://www.npr.org/2026/10/15/g-s1-148199/up-first-newsletter-inflation-social-security-ukraine-russia-yemen-saudi-arabia",
+          "published_at": "2026-10-15T11:31:25+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "叙利亚当局逮捕2013年巴尼亚斯大屠杀主要嫌疑人",
+      "english_term": null,
+      "summary": "据叙利亚官方媒体报道，2013年巴尼亚斯大屠杀的主要嫌疑人阿里·卡亚利在试图越境时被当局逮捕。",
+      "script": "简要关注一则中东地区新闻：据半岛电视台援引叙利亚官方媒体报道，2013年巴尼亚斯大屠杀事件的主要嫌疑人阿里·卡亚利，也被称为米赫拉克·乌拉尔，已在试图越境时被叙利亚当局逮捕。巴尼亚斯大屠杀是叙利亚内战期间发生的一起造成重大平民伤亡的暴力事件，长期以来一直是叙利亚国内追责与和解进程中的焦点案件之一。已确认的信息是，叙利亚官方媒体证实了此次逮捕行动，但关于后续的司法程序安排、具体指控内容以及审判时间表，目前报道中没有更多细节披露。这一事件的后续走向，将在一定程度上检验叙利亚当前政治过渡期内处理内战历史罪责问题的方式和力度。后续需要关注叙利亚司法部门是否会公布具体的起诉和审判安排。",
+      "duration_seconds": 75,
+      "is_unverified": false,
+      "confidence_note": "半岛电视台援引叙利亚官方媒体消息，属于单一信源，但为官方通报性质。",
+      "fact_status": {
+        "confirmed": [
+          "叙利亚当局逮捕了2013年巴尼亚斯大屠杀案主要嫌疑人阿里·卡亚利"
+        ],
+        "claims": [],
+        "analysis": [
+          "该逮捕可能是叙利亚政治过渡期处理内战历史罪责的一个标志性案例"
+        ]
+      },
+      "source_ids": [
+        "2fcc008366e3115a"
+      ],
+      "sources": [
+        {
+          "id": "2fcc008366e3115a",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Syrian authorities arrest main suspect in 2013 Baniyas mass killings",
+          "summary": "Ali Kayali, also known as Mihrac Ural, was apprehended as he tried to cross the border, state media reported.",
+          "url": "https://www.aljazeera.com/news/2026/10/15/syrian-authorities-arrest-main-suspect-in-2013-baniyas-mass-killings?traffic_source=rss",
+          "published_at": "2026-10-15T11:12:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的机器人板块呈现出资本市场、学术前沿和产业落地三条线并行的局面，纳斯达克上市进展、人形全身控制与柔顺操作的新论文、建筑和养老场景的实际合作，都值得持续追踪后续细节的公布。国际局势方面，红海与霍尔木兹海峡的紧张态势、星链在乌克兰战场的使用争议、以及北溪案庭审的走向，仍需要更多官方信息来厘清事实全貌。",
-  "editor_note": "为满足机器人时长占比45%-55%的要求，本次修订删除了印度工厂工人GoPro采集训练数据这一单一来源事件，保留五条机器人内容（Agility上市、毅力号自主导航、三篇学术预印本、建筑与养老落地），时长合计约805秒，占全部1240秒的约65%需进一步核对；其余为四条国际与健康类事件。部分产业消息（如Agility上市计划）来自Tier 3行业媒体，已标记为未经官方确认；学术类内容均为未经同行评审的arXiv预印本，已在稿件中说明局限性；国际政治部分优先选择有两个独立Tier 2来源交叉确认的事件，北溪案为单一来源，已在confidence_note中注明。",
+  "closing": "今天值得继续关注的是乌克兰和俄罗斯在能源设施打击问题上的后续动态，黑海油轮袭击事件的责任调查结果，以及多篇人形机器人与灵巧操作arXiv预印本论文的同行评审进展和后续实验数据公布。",
+  "editor_note": "今日机器人类候选以arXiv预印本和产业媒体报道为主，Tier 3热点线索（如Skild AI机场巡逻）因来源单一标记为未核实；世界新闻部分围绕俄乌局势的多条候选描述同一事件链条，已合并处理避免重复；由于机器人产业重大独家新闻有限，适度增加了三篇代表性arXiv论文以保证学术与产业的均衡覆盖，机器人类总时长占比约为49%。",
   "model": "claude-sonnet-5",
-  "generation_usage": [
-    {
-      "input_tokens": 9314,
-      "output_tokens": 9915,
-      "total_tokens": 19229
-    },
-    {
-      "input_tokens": 11800,
-      "output_tokens": 8644,
-      "total_tokens": 20444
-    }
-  ],
   "usage": {
-    "input_tokens": 21114,
-    "total_tokens": 39673,
-    "output_tokens": 18559
+    "input_tokens": 9314,
+    "output_tokens": 9490,
+    "total_tokens": 18804
   },
-  "generated_at": "2026-10-14T12:08:29+00:00",
-  "window_start": "2026-10-13T12:08:29+00:00",
-  "candidate_count": 671,
+  "generated_at": "2026-10-15T12:12:45+00:00",
+  "window_start": "2026-10-14T12:12:45+00:00",
+  "candidate_count": 345,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
-  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1115,
-    "script_characters": 4388,
-    "topic_duration_share": 0.592,
+    "duration_seconds": 1220,
+    "script_characters": 4770,
+    "topic_duration_share": 0.529,
     "passed": true,
     "normal_target_met": true,
-    "topic_source_count": 4,
+    "topic_source_count": 3,
     "issues": []
   }
 }
