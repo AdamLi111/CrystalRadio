@@ -1,502 +1,503 @@
 {
-  "title": "晶球电台早报：外科手术机器人迎巨额投资，VLA模型可解释性研究多点突破",
-  "subtitle": "Stryker豪掷4亿美元押注手术机器人，美国校园枪击案再次震惊社会，泽连斯基与特朗普关系持续紧张",
+  "title": "晶球电台早报：俄乌局势、印度抗议与机器人产业新动向",
+  "subtitle": "美国豁免对俄制裁引发争议，机器人产业从家居建造到脑机协作持续推进",
   "highlights": [
-    "医疗器械巨头Stryker向CMR Surgical投资4亿美元，押注手术机器人市场",
-    "arXiv多篇论文深挖视觉-语言-动作模型内部机制，推动机器人基础模型可解释性研究",
-    "美国俄勒冈州校园枪击案造成多名儿童遇难，泽连斯基与特朗普关系进一步紧张"
+    "特朗普暂停多项对俄制裁，泽连斯基称此举变相助力普京",
+    "乌克兰遭俄军大规模空袭，至少8人死亡近60人受伤",
+    "加拿大Promise Robotics与美国建筑巨头DR Horton达成多年期机器人建房协议",
+    "脑电波研究揭示人类能无意识察觉机器人错误，或为人机协作带来新思路"
   ],
   "stories": [
     {
-      "category": "robotics",
-      "title": "Stryker向手术机器人公司CMR Surgical投资4亿美元",
-      "english_term": "Versius（CMR Surgical旗下模块化手术机器人系统）",
-      "summary": "医疗器械巨头Stryker宣布向英国手术机器人公司CMR Surgical投资4亿美元，并将成为其Versius手术机器人系统在美国市场的独家销售代理。",
-      "script": "手术机器人领域传来一笔重磅投资。医疗器械巨头Stryker宣布向英国公司CMR Surgical投资4亿美元，同时达成协议，由Stryker担任CMR Surgical旗下Versius手术机器人系统在美国市场的独家销售代理。Versius是一套模块化的腔镜手术机器人平台，与达芬奇系统那种单一机身、多臂集成的设计不同，Versius采用分体式小车结构，每个机械臂单独放置在独立的手推车上，医生可以根据手术室空间和术式灵活组合使用的机械臂数量。这种模块化设计的好处是便于搬运和部署，特别适合空间有限的手术室，也降低了医院的初期采购门槛。CMR Surgical成立于英国剑桥，是近年来全球手术机器人赛道上最受关注的挑战者之一，此前已经在欧洲、亚洲多个市场获得监管批准并开始商业化。美国是全球最大的微创外科手术机器人市场，但长期由直觉外科公司的达芬奇系统主导，市场集中度很高。Stryker作为全球领先的医疗器械公司，手里已经有Mako骨科手术机器人产品线，这次投资意味着它在手术机器人赛道上进一步扩大布局，覆盖从骨科到腔镜外科的更广泛场景。对CMR Surgical来说，获得Stryker的资金和美国渠道网络，意味着其有机会突破美国食品药品监督管理局审批和市场准入的双重门槛，正面挑战达芬奇系统的市场地位。这笔交易也反映出全球资本对手术机器人赛道的持续看好，即便人形机器人等领域的融资热度更高，专科医疗机器人依然被视为现金流更稳定、临床价值更明确的投资方向。后续需要关注Versius系统在美国市场的监管审批进展，以及其具体的商业化落地时间表。",
-      "duration_seconds": 170,
+      "category": "world",
+      "title": "特朗普豁免对俄制裁，乌克兰指责此举利好普京",
+      "english_term": null,
+      "summary": "美国总统特朗普暂时解除国会此前通过的多项对俄制裁，理由是国家安全考量；泽连斯基对此表示强烈不满。",
+      "script": "国际局势方面，美国总统特朗普近日宣布暂时豁免多项由国会此前通过、针对俄罗斯的制裁措施，理由是出于国家安全方面的考量。这一决定正值特朗普与乌克兰总统泽连斯基之间的分歧不断加剧之际。已确认的事实是，这些制裁原本由美国国会在近期通过，覆盖俄罗斯能源出口等多个领域，而特朗普此次动用行政权力暂停了其中相当一部分。泽连斯基方面公开回应称，这一豁免实际上是在俄罗斯总统普京最需要喘息空间的时候，给予了他实质性的帮助，并指出俄罗斯正试图在冬季来临前针对乌克兰的电力和供暖系统发动打击，意图制造大规模停电，向乌克兰平民施压。与此同时，有分析人士指出，尽管美国收紧了官方制裁条款，但欧洲部分国家在能源供应上仍未完全切断与俄罗斯的联系，俄罗斯石油和天然气出口依然能找到买家，这使得受益最大的一方很可能还是莫斯科。目前，美国政府尚未就具体豁免哪些制裁条款、持续时间多长作出详细公开说明，白宫方面的表态与乌克兰方面的指责形成了鲜明对比。分析认为，这一分歧反映出美国国内及跨大西洋盟友之间，在如何平衡对俄施压与国家安全、经济利益之间，仍存在深刻的路线矛盾。后续需要关注美国国会是否会对行政部门的豁免决定提出异议，也需要等待欧洲主要能源进口国在今冬是否会进一步调整对俄能源采购政策。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "基于The Robot Report的直接报道，为行业专业媒体的一手产业新闻",
+      "confidence_note": "基于BBC与DW两家独立二级来源交叉确认，泽连斯基表态及分析判断部分已做区分",
       "fact_status": {
         "confirmed": [
-          "Stryker宣布向CMR Surgical投资4亿美元",
-          "Stryker将成为Versius手术机器人系统在美国的独家销售代理"
-        ],
-        "claims": [],
-        "analysis": [
-          "此举显示专科医疗机器人赛道资本关注度持续，也是CMR Surgical进军美国市场的关键一步"
-        ]
-      },
-      "source_ids": [
-        "a438bfc1cf477008"
-      ],
-      "sources": [
-        {
-          "id": "a438bfc1cf477008",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Stryker invests $400M into CMR Surgical",
-          "summary": "Stryker plans to serve as the exclusive sales agent in the U.S. for the Versius robotics portfolio from CMR Surgical. The post Stryker invests $400M into CMR Surgical appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/stryker-invests-400m-into-cmr-surgical/",
-          "published_at": "2026-10-15T16:54:14+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "多篇arXiv论文深挖视觉-语言-动作模型内部机制",
-      "english_term": "VLA（Vision-Language-Action，视觉-语言-动作模型，一种将视觉感知、语言理解与动作输出整合在同一网络中的机器人基础模型）",
-      "summary": "本期arXiv机器人板块集中出现多篇关于VLA模型内部可解释性的论文，分别从因果分析、特征提取和神经几何结构等角度，试图揭示这类基础模型如何把感知和语义信息转化为具体动作。",
-      "script": "过去一天，arXiv机器人板块罕见地集中出现了多篇聚焦同一个问题的论文：视觉-语言-动作模型，也就是VLA模型，内部到底是怎么工作的。VLA模型是近两年机器人学习领域最受关注的技术路线，它把视觉感知、语言理解和动作生成整合进同一个神经网络，让机器人既能看懂场景，又能理解指令，还能直接输出动作序列，代表性模型包括π0.5等。但这类模型普遍是黑箱，大家知道它们能用，却不清楚内部具体怎么把语义信息转成动作指令。第一篇论文对三个前沿VLA模型，包括π0.5、MolmoAct2和MolmoBot，做了机制层面的因果分析，试图找出模型内部哪些计算环节真正决定了最终动作，这类分析能帮助研究者定位冗余计算，从而提升模型推理效率。第二篇论文提出了一种叫做区块稀疏特征提取器的方法，每个特征用一个低维子空间表示，这样可以更精细地对模型行为进行干预和引导，相当于给黑箱装了可调节的旋钮，同时还能帮助改造训练数据的质量。第三篇论文则从更基础的角度出发，研究VLA模型内部的神经几何结构，也就是任务相关变量在模型激活空间里到底呈现什么形状，是线性的还是弯曲的、多维的，这决定了我们能在多大程度上信任“读取”出来的中间变量。这三项工作共同指向一个趋势：随着VLA模型越来越多地被部署到实际机器人系统中，学术界正在从单纯追求性能，转向理解模型内部运作逻辑，这对于提升模型可靠性和后续优化效率都有现实意义。需要说明的是，这些论文均为最新提交的预印本，尚未经过同行评审，具体结论和方法的普适性还有待学术共同体进一步检验。",
-      "duration_seconds": 165,
-      "is_unverified": true,
-      "confidence_note": "三篇均为arXiv当日最新预印本，未经同行评审，结论的稳健性和泛化性有待验证",
-      "fact_status": {
-        "confirmed": [
-          "三篇论文均于同一天提交至arXiv机器人板块，均围绕VLA模型内部机制展开研究"
+          "特朗普暂停多项国会此前通过的对俄制裁",
+          "理由为国家安全考量"
         ],
         "claims": [
-          "论文作者认为相关方法有助于提升VLA模型的可解释性和控制精度"
+          "泽连斯基称此举是对普京的助力",
+          "泽连斯基称俄罗斯意图制造乌克兰冬季停电"
         ],
         "analysis": [
-          "多篇论文同时出现同一主题，反映出学术界对基础模型可解释性问题的关注度在上升"
+          "分析认为俄罗斯是此次豁免的最大受益方",
+          "欧洲对俄能源采购情况可能影响制裁实际效果"
         ]
       },
       "source_ids": [
-        "8929ca741d9f73c1",
-        "61d112909e31f3b7",
-        "f58d05f7a4601d3b"
+        "7e173dc356568cac",
+        "3dc3a0117de36091",
+        "f35dbd37d1daf09a"
       ],
       "sources": [
         {
-          "id": "8929ca741d9f73c1",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Causal Analysis of Robot Foundation Models Enables Efficiency Gains",
-          "summary": "arXiv:2610.20750v1 Announce Type: new Abstract: Vision-language-action (VLA) models are a promising approach to general purpose robot manipulation. While the internal computation of vision-language models, which compose the backbone of VLAs, has been studied extensively, less is known about how their perceptual and semantic representations are transformed into action in VLA models. We study this question mechanistically in three frontier VLA models ($\\pi_{0.5}$, MolmoAct2, and MolmoBot) by analyzing the causal pathways through which the input image and the instruction shape actions. Across the three models, activation patching shows that causally relevant information influences the action expert (AE) through a narrow band of mid-to-late cross-attention layers, which we term the action-conditioning interface. The content of this information changes with token and layer within the model. Early-to-mid layer representations of the target noun token determine which object is selected, whereas mid-to-late layers carry the spatial information in text tokens that redirects the movement when patched. Where spatial information is stored in prompt tokens various based on the architecture. In ",
-          "url": "https://arxiv.org/abs/2610.20750",
-          "published_at": "2026-10-16T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "61d112909e31f3b7",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Multi-Dimensional Featurizers Yield Fine-Grained Steering and Data Shaping in Robot Foundation Models",
-          "summary": "arXiv:2610.20767v1 Announce Type: new Abstract: Can better feature discovery improve control over robot behavior through internal interventions and training data? Recent work in vision and language models reveals multidimensional features, motivating block-sparse featurizers (BSFs), which represent each feature in a low-dimensional subspace. We investigate whether recovering this structure provides an interpretable interface for steering vision-language-action models and shaping the data from which they learn. We show that BSFs recover several multi-dimensional task-relevant features underlying the model's computation (e.g., perception, language, proprioceptive state, episode phase, and control variables). We causally validate these features through fine-grained steering: targeted changes in visual perception, semantic representation, and spatial localization produce predictable changes in downstream action prediction. Finally, we use feature-based data attribution to isolate where a specific behavior (failure recovery) arises in the training dataset, identifying fewer than $1.4\\%$ of training tokens whose masking is sufficient to remove the targeted behavior. Overall, our results ",
-          "url": "https://arxiv.org/abs/2610.20767",
-          "published_at": "2026-10-16T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "f58d05f7a4601d3b",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "A Phenomenology of Neural Geometry in Vision-Language-Action Models",
-          "summary": "arXiv:2610.20840v1 Announce Type: new Abstract: Robotic manipulation is inherently geometric, but what shape does the world take inside the policy that performs it? Prior work on vision-language-action (VLA) policies establishes that task-relevant variables are linearly readable from activations, yet readability certifies only that a variable is present and says nothing about the shape its values trace, which may be curved and multi-dimensional. Using controlled sweeps, natural rollouts, linear probes, and activation interventions, we build a taxonomy of seven task-relevant concepts in VLA models. We find that realized geometry is predominantly multi-dimensional and is shaped by the constraints under which the policy acts. Physical joint limits, for example, leave wrist orientation an open arc rather than a circle, and distance to the target, a single scalar, is realized in two orthogonal subspaces, a coarse ruler for the approach and a fine ruler for the grasp. The same geometries reappear in two further VLA models on real-world robot data, indicating that they are neither model-specific nor artifacts of simulation. We demonstrate how the findings are actionable by steering along ",
-          "url": "https://arxiv.org/abs/2610.20840",
-          "published_at": "2026-10-16T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "人形机器人ETF“HOID”正式推出，资本市场加码押注",
-      "english_term": "ETF（Exchange Traded Fund，交易所交易基金）",
-      "summary": "Rareview Capital与Tuttle Capital Management联合推出名为HOID的人形机器人主题ETF，为普通投资者提供集中押注人形机器人产业链的金融工具。",
-      "script": "资本市场对人形机器人的热情又多了一个新出口。Rareview Capital与Tuttle Capital Management联合宣布推出一只名为HOID的人形机器人主题交易所交易基金，也就是ETF。这类主题ETF通常会打包一篮子与人形机器人产业链相关的上市公司股票，覆盖范围可能包括机器人整机制造商、核心零部件供应商，比如执行器、减速器、传感器厂商，以及提供具身智能算法和芯片的公司，让普通投资者不需要挑选单一股票，就能一次性获得对整个赛道的风险敞口。这并不是市场上第一只机器人主题基金，但“HOID”这个代码本身就直接对应“人形”，显示出发行方希望精准捕捉当前资本市场对人形机器人的关注热度。过去两年，特斯拉Optimus、Figure、以及国内多家人形机器人公司的量产和融资消息持续不断，带动了二级市场对相关概念股的追捧，但同时也存在业绩兑现滞后、技术路线尚未收敛等不确定性，一些个股的估值已经明显脱离了实际营收和出货量。主题ETF的推出，一方面方便了资金更便捷地进入这个赛道，另一方面也可能放大板块的波动性，一旦某个龙头公司的量产或订单不及预期，整个主题基金都会承压。目前关于HOID具体持仓名单、费率结构以及首发规模的细节，公开信息还比较有限。后续需要关注该基金实际披露的持仓构成，以及它上市后的资金流入和市场表现，这也能从侧面反映出当前资本市场对人形机器人产业兑现节奏的真实预期。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "来自PR Newswire的企业新闻稿，属于官方一手信息但为营销性质发布，具体基金细节有限",
-      "fact_status": {
-        "confirmed": [
-          "Rareview Capital与Tuttle Capital Management联合推出名为HOID的人形机器人主题ETF"
-        ],
-        "claims": [],
-        "analysis": [
-          "主题ETF的推出反映资本市场对人形机器人赛道关注度持续升温，但也可能放大板块波动性"
-        ]
-      },
-      "source_ids": [
-        "381a97d18396376b"
-      ],
-      "sources": [
-        {
-          "id": "381a97d18396376b",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Rareview Capital and Tuttle Capital Management Launch Humanoid Robotics ETF HOID - PR Newswire",
-          "summary": "Rareview Capital and Tuttle Capital Management Launch Humanoid Robotics ETF HOID PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQmdBRWFaaDMtdXBIdGFtdlBMaWRlaTk3N0tpbmh5TXVkbGNBRkJZcnNySWdQS1VZUHA1cGpUbUJPNUh4VGw1X0RJanNBQmRDd2YtNHhQWFV6M1ZJek1vZFdWTVNvRjFTeUdvOXU3MlhUWkxBaHBHdjE4YzVfT1lvTU9kTWtiYWZ6MEhmWmtHUk95YnlJMEhPeXhzTG81VDV3NU5RdEJmOWVJcWRJM2hVWHI1OV9zSWlkYmtBbmYyN0haZ0UxNXpuWHJQX0k0M1BldEE?oc=5",
-          "published_at": "2026-10-16T11:02:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "实测：5.5万美元人形机器人能洗碗吗？",
-      "english_term": null,
-      "summary": "MarketWatch记者实地体验了两款售价5.5万美元以上的人形家政机器人，测试其完成装洗碗机等家务任务的真实能力。",
-      "script": "人形机器人进家庭，到底还有多远？MarketWatch一名记者做了一次实地体验，和两款售价都在5.5万美元以上的人形家政机器人共度一个下午，重点测试它们能不能完成一项看似简单的家务——把餐具装进洗碗机。这个任务对人类来说毫不费力，但对机器人来说却极具挑战，因为它要求机器人准确识别各种形状、材质、反光程度都不同的餐具，用合适的力度抓取而不打碎，还要在洗碗机狭小、不规则的内部空间里规划手臂运动路径，避免磕碰。这类任务通常被机器人研究者称为“非结构化环境下的精细操作”，相比工厂流水线上抓取标准化零件的机械臂任务，难度要高出一个量级，因为家庭环境充满了不可预测的变化。从报道标题的措辞来看，记者对机器人的实际表现持观察和审视态度，这类体验类报道往往会暴露出当前人形机器人在真实非结构化场景中的局限，比如动作速度慢、偶尔抓取失败、需要人工干预纠正等问题，而这些局限恰恰是实验室演示视频里很少展示的部分。5.5万美元的价格也说明，现阶段人形家政机器人仍然远离普通消费市场，更多是面向高净值人群的早期体验产品或者是面向科研、展示用途。这类实测报道的价值在于，它提供了一个相对独立的、脱离企业宣传话术的观察视角，帮助公众更真实地理解人形机器人在家庭场景中的实际成熟度，而不是仅仅依赖企业发布的演示视频。后续需要关注更多第三方、长周期的实测评价，以及人形机器人家务能力在未来一两年内的迭代速度。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "来自MarketWatch记者的第一手体验类报道，具体机器人品牌和型号信息在候选摘要中未披露，细节有限",
-      "fact_status": {
-        "confirmed": [
-          "MarketWatch记者对两款售价5.5万美元以上的人形机器人进行了实地体验测试"
-        ],
-        "claims": [],
-        "analysis": [
-          "体验类报道有助于补充企业宣传之外的独立观察视角，反映人形机器人在真实家庭场景中的成熟度"
-        ]
-      },
-      "source_ids": [
-        "3d832010a7c8f5be"
-      ],
-      "sources": [
-        {
-          "id": "3d832010a7c8f5be",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Can a $55,000-plus robot load the dishwasher? Inside my afternoon with two humanoid housekeepers. - MarketWatch",
-          "summary": "Can a $55,000-plus robot load the dishwasher? Inside my afternoon with two humanoid housekeepers. MarketWatch",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOc2MxVXJGZWlIdkxPTTZOeGFqZGpVR3NfSEZRbzlhS1R3LWxRdzVTRlhrTVZGbU8tclBFdWxrS0NLbzRvZmctZ3BPaGZ4UGwwS3lwNmNrYzlZZENsWVl2ZDNwUElHZkNEWG15V1puWUVwajlTS3VTU0ZsWEJuTDRselRsQXRTUFNXdk53dEJHZ2NKRXdHbmltYURjZkNkcjVVaVJRb0ZEVnB2bmNMSnRfdFhqQzFQUG5RWm1uNmIta2FVajFTVmNncmplR2xEQjE5T2o0?oc=5",
-          "published_at": "2026-10-16T11:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "剑桥学者谈机器人软硬件协同设计与强化学习",
-      "english_term": "Co-design（协同设计，指同时优化机器人硬件形态与控制算法的设计方法）",
-      "summary": "Robohub播客节目采访剑桥大学教授Rika Antonova，探讨如何利用人工智能同步优化机器人硬件设计与控制算法，涉及协同设计、自动化算法发现与数据高效强化学习等方向。",
-      "script": "机器人的“身体”和“大脑”能不能一起进化？Robohub的播客节目Robot Talk邀请了剑桥大学副教授Rika Antonova，聊了聊如何用人工智能同时开发互补的机器人硬件和算法。她的研究方向集中在几个关键词上：协同设计、自动化算法发现、数据高效强化学习、探索策略和主动学习。协同设计指的是不再把机器人硬件形态和控制算法分开研发，而是把两者放进同一个优化循环里同步迭代——因为一个机械臂的关节布局、连杆长度、执行器选型，都会直接影响什么样的控制算法最优，反过来，如果控制算法足够聪明，也能够适配更简化、更低成本的硬件设计。这和传统的机器人研发流程不同，传统流程往往是先定好硬件，再去适配控制算法，协同设计试图打破这种先后顺序。数据高效强化学习则是强化学习领域长期以来的核心难题之一，因为在真实机器人上采集训练数据的成本很高，速度也慢，如果算法需要数百万次试错才能学会一个动作，在实体机器人上几乎不可行，因此如何用更少的数据样本训练出可用的策略，是从仿真走向真实部署的关键瓶颈。探索策略和主动学习则关注机器人如何更聪明地选择要尝试的动作，而不是盲目随机试错，从而加快学习效率。这类访谈节目虽然不涉及具体的新论文发布，但提供了对当前机器人学习前沿方向的系统性梳理，反映出学术界正在尝试从“算法优化”这一单一维度，扩展到“软硬件协同优化”的更系统性思路。",
-      "duration_seconds": 145,
-      "is_unverified": false,
-      "confidence_note": "来自Robohub播客节目的访谈内容，属于专业媒体对学者观点的直接记录",
-      "fact_status": {
-        "confirmed": [
-          "Robohub采访了剑桥大学副教授Rika Antonova，讨论机器人软硬件协同设计与相关算法方向"
-        ],
-        "claims": [],
-        "analysis": [
-          "协同设计和数据高效强化学习是当前机器人学习领域公认的重要研究方向之一"
-        ]
-      },
-      "source_ids": [
-        "c252a73cb60908f0"
-      ],
-      "sources": [
-        {
-          "id": "c252a73cb60908f0",
-          "source": "Robohub",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Robot Talk Episode 166 – Evolving robot bodies and brains, with Rika Antonova",
-          "summary": "Claire chatted to Rika Antonova from the University of Cambridge about using artificial intelligence to develop complimentary robot hardware and algorithms. Rika Antonova is an Associate Professor at the University of Cambridge. Her research interests include co-design, automated algorithm discovery, data-efficient reinforcement learning, exploration, active learning, and​ robotics. After completing a research Master’s degree at […]",
-          "url": "https://robohub.org/robot-talk-episode-166-evolving-robot-bodies-and-brains-with-rika-antonova/",
-          "published_at": "2026-10-16T11:36:47+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "美国俄勒冈州校园枪击案致多名儿童和一名教师遇难",
-      "english_term": null,
-      "summary": "美国俄勒冈州本德市一所小学发生枪击事件，三名分别为5岁、8岁和11岁的儿童以及一名教师遇难，嫌疑人随后被路人击毙。",
-      "script": "美国俄勒冈州再次发生校园枪击惨案。当地警方表示，本德市银铁路小学发生枪击事件，三名儿童，年龄分别为5岁、8岁和11岁，以及一名教师在袭击中遇难。警方证实，嫌疑人随后被一名路过的旁观者开枪击毙。目前关于嫌疑人的身份、作案动机以及具体案发经过，官方尚未公布更详细的信息。这起事件再次将美国校园安全和枪支管控问题推上舆论焦点。根据以往类似事件的处理经验，预计美国联邦和地方执法部门将展开调查，还原案发细节，同时学校和社区也会面临关于安保升级、心理疏导等后续应对措施的讨论。美国近年来校园枪击事件频发，每一起事件都会短暂引发关于枪支管控立法的辩论，但由于政治分歧，相关联邦层面立法推进一直较为缓慢。本德市所在的俄勒冈州在枪支管控政策上相对其他州更为严格，但此次事件表明，现有法规未能阻止悲剧发生。目前信息有限，关于嫌疑人作案动机、所用枪支来源等关键问题仍有待警方进一步调查公布。",
-      "duration_seconds": 100,
-      "is_unverified": false,
-      "confidence_note": "基于BBC对警方通报的直接报道，为Tier 2媒体一手新闻",
-      "fact_status": {
-        "confirmed": [
-          "俄勒冈州本德市银铁路小学发生枪击事件，三名儿童和一名教师遇难",
-          "嫌疑人被路过的旁观者击毙"
-        ],
-        "claims": [],
-        "analysis": [
-          "事件可能再次引发美国国内关于校园安全和枪支管控的政策讨论"
-        ]
-      },
-      "source_ids": [
-        "1edac6b3044a3a21"
-      ],
-      "sources": [
-        {
-          "id": "1edac6b3044a3a21",
+          "id": "7e173dc356568cac",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
-          "summary": "A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, Oregon, police say.",
-          "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-16T11:41:58+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "泽连斯基赴布鲁塞尔争取欧盟支持，特朗普称其比普京更难打交道",
-      "english_term": null,
-      "summary": "乌克兰总统泽连斯基在欧盟领导人会议前夕争取欧盟持续支持，而美国总统特朗普对他发出新一轮猛烈批评，称其比俄罗斯总统普京更难打交道。",
-      "script": "乌克兰与美国之间的裂痕仍在扩大。在布鲁塞尔即将举行欧盟领导人会议之际，乌克兰总统泽连斯基正在积极争取欧盟方面的持续支持。但与此同时，美国总统特朗普对泽连斯基发起了新一轮猛烈批评，公开表示泽连斯基比俄罗斯总统普京更难打交道。与此相关联的是，俄罗斯方面指出乌克兰袭击了莫斯科东南方向的一座主要炼油厂，俄方称这是对俄方打击乌克兰能源基础设施行动的回应。有分析人士指出，俄罗斯总统普京可能正试图利用美乌之间日益扩大的分歧，在外交和舆论场上寻找有利于自己的突破口。已确认的事实是：特朗普公开发表了针对泽连斯基的批评言论，俄罗斯官方证实了炼油厂遭袭事件，乌克兰在莫斯科东南地区实施了打击行动。各方的主张存在明显分歧：美方的表态将矛头指向泽连斯基本人的谈判态度，俄方则将乌克兰的袭击定性为对自身行动的回应，试图为自己的军事行动寻找正当性；乌克兰方面尚未就特朗普的指责作出公开详细回应。分析人士普遍认为，美乌关系的这一轮紧张，可能会削弱西方阵营在对俄战略上的协调一致性，而这正是俄罗斯希望看到的局面。目前，布鲁塞尔的欧盟领导人会议结果以及泽连斯基能否获得足够的欧洲支持以对冲美方压力，仍有待后续观察。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "综合BBC、NPR两家独立Tier 2媒体报道交叉确认",
-      "fact_status": {
-        "confirmed": [
-          "特朗普公开批评泽连斯基，称其比普京更难打交道",
-          "俄罗斯称乌克兰袭击了莫斯科东南一座炼油厂"
-        ],
-        "claims": [
-          "俄方将袭击定性为对自身能源设施打击行动的回应",
-          "分析人士认为普京可能试图利用美乌分歧"
-        ],
-        "analysis": [
-          "美乌关系紧张可能影响西方对俄战略协调性"
-        ]
-      },
-      "source_ids": [
-        "55ab40f4f6f5c442",
-        "c7631db2d0a09ea2",
-        "5339e9bae46f8261"
-      ],
-      "sources": [
-        {
-          "id": "55ab40f4f6f5c442",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'",
-          "summary": "The US president launches a new wave of blistering criticism at Volodymyr Zelensky ahead of a meeting of EU leaders in Brussels.",
-          "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-16T10:37:47+00:00",
+          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+          "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-17T11:56:06+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "c7631db2d0a09ea2",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Russia's view amid Ukraine's strikes and Zelenskyy's growing rift with the U.S.",
-          "summary": "Russian authorities say Ukraine struck a major oil refinery southeast of Moscow Thursday. The strike was in response to Russia's attacks on Ukrainian energy infrastructure.",
-          "url": "https://www.npr.org/2026/10/16/nx-s1-6004281/russias-view-amid-ukraines-strikes-and-zelenskyys-growing-rift-with-the-u-s",
-          "published_at": "2026-10-16T08:51:17+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "5339e9bae46f8261",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "How Putin may react to the rift between the U.S. and Ukraine",
-          "summary": "Journalist and Russia analyst Julia Ioffe lays out how Vladimir Putin might be trying to exploit the current divide between the U.S. and Ukraine over striking Russian oil refineries.",
-          "url": "https://www.npr.org/2026/10/16/nx-s1-6003665/how-putin-may-react-to-the-rift-between-the-u-s-and-ukraine",
-          "published_at": "2026-10-16T08:50:29+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "特朗普称美国正与俄中进行“无核化”谈判",
-      "english_term": "denuclearisation（无核化，指削减或消除核武器的政策过程）",
-      "summary": "美国总统特朗普表示，美国正与俄罗斯和中国就无核化问题展开谈判，并提到中国核武库规模预计五年内将追上美俄水平。",
-      "script": "核军控议题重新进入国际视野。美国总统特朗普表示，美国正在与俄罗斯和中国就“无核化”问题展开谈判。根据公开数据，美国和俄罗斯目前各自拥有超过4000枚核弹头，是全球核武库规模最大的两个国家。特朗普同时提到，按照目前的增长速度，中国的核武库规模预计将在未来五年内追赶上美俄的水平。已确认的事实是，特朗普作出了上述公开表态，涉及美俄现有核弹头数量规模的官方统计口径。但需要说明的是，这类谈判的具体进展、参与方的真实立场、以及是否存在实质性的谈判议程表，目前仅有特朗普一方的单一信源表态，俄罗斯和中国官方尚未对此作出对应确认或回应。核军控历来是大国战略博弈中最敏感的议题之一，过往的无核化或军控谈判进程往往旷日持久，且容易受到地缘政治紧张局势的干扰。中国核武库规模扩张的说法如果属实，将改变传统的美俄两极核平衡格局，推动全球核战略进入三边博弈的新阶段，这也是西方战略界近年来持续关注和讨论的议题。由于目前信息来源单一，这一无核化谈判的真实进展和具体内容，仍有待俄罗斯、中国官方或更多独立信源的进一步确认。",
-      "duration_seconds": 115,
-      "is_unverified": true,
-      "confidence_note": "仅有特朗普单方面公开表态，缺乏俄罗斯、中国官方的独立确认信源",
-      "fact_status": {
-        "confirmed": [
-          "特朗普公开表示美国正与俄罗斯、中国进行无核化谈判",
-          "美俄两国目前各自拥有超过4000枚核弹头"
-        ],
-        "claims": [
-          "特朗普称中国核武库规模预计五年内追上美俄水平"
-        ],
-        "analysis": [
-          "若中国核武库扩张属实，可能改变传统美俄两极核平衡格局"
-        ]
-      },
-      "source_ids": [
-        "7a3811ace959f6dc"
-      ],
-      "sources": [
-        {
-          "id": "7a3811ace959f6dc",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "US in ‘denuclearisation’ talks with Russia and China: Trump",
-          "summary": "US and Russia each have more than 4,000 warheads. China set to catch up with them within five years, Trump says.",
-          "url": "https://www.aljazeera.com/news/2026/10/16/us-in-denuclearisation-talks-with-russia-and-china-trump?traffic_source=rss",
-          "published_at": "2026-10-16T11:28:12+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "意大利因数据传输故障大幅削减航班量",
-      "english_term": null,
-      "summary": "意大利航空管理部门因数据传输网络问题将境内航班量削减一半，官方排除恶意行为可能，并强调飞行安全未受影响。",
-      "script": "意大利航空系统昨天出现了一次不小的运行中断。意大利国家民航服务局，也就是ENAV，宣布因为数据传输网络出现问题，将境内航空空域的航班流量大幅削减一半。官方特别说明，这次故障排除了遭受恶意攻击的可能性，并且强调即便在流量管制期间，飞行安全依然得到保障，没有因此产生安全隐患。航班量腰斩对机场运营、航空公司调度和旅客出行都会造成明显影响，意味着大量航班被迫延误或取消，机场候机楼可能出现旅客大量积压的情况。这类空管系统的数据传输网络一旦出现故障，影响的通常是空中交通管制员获取飞机实时位置、高度、速度等关键信息的能力，为了保证安全，管制部门通常会主动降低空域内同时运行的航班数量，这是一种预防性的保守操作，而不是让系统带病运行。目前意大利官方尚未公布具体的故障原因、涉及的技术系统细节，以及完全恢复正常运行的预计时间。这类基础设施故障也从侧面反映出，现代航空管制系统对底层数据网络的依赖程度极高，一旦网络层出现问题，哪怕没有造成直接的安全事故，也会迅速演变成大范围的运行中断。后续需要关注意大利官方公布的具体故障原因调查结果，以及航班运行恢复正常的时间表。",
-      "duration_seconds": 120,
-      "is_unverified": false,
-      "confidence_note": "基于DW对意大利ENAV官方声明的转述报道",
-      "fact_status": {
-        "confirmed": [
-          "意大利ENAV宣布因数据传输网络问题将航班量削减一半",
-          "官方排除恶意攻击可能并称飞行安全未受影响"
-        ],
-        "claims": [],
-        "analysis": [
-          "事件反映现代航空管制系统对底层数据网络的高度依赖"
-        ]
-      },
-      "source_ids": [
-        "e75f427957a3610f"
-      ],
-      "sources": [
-        {
-          "id": "e75f427957a3610f",
+          "id": "3dc3a0117de36091",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Italy cuts air traffic in half amid data transmission issue",
-          "summary": "Citing problems with the data transmission network, Italian authorities have drastically reduced the volume of flights in their airspace. The ENAV authority ruled out malicious activity and said flights remained safe.",
-          "url": "https://www.dw.com/en/italy-cuts-air-traffic-in-half-amid-data-transmission-issue/a-79678133?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-16T10:37:00+00:00",
+          "title": "Russia wants blackout in Ukraine as winter comes — Zelenskyy",
+          "summary": "Ukrainian President Zelenskyy says Russia is trying to cut electricity and heating to civilians ahead of winter. He also called the US president's waiver of new sanctions on Moscow a boost for Vladimir Putin.",
+          "url": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-17T11:34:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "finance",
-      "title": "中国持续增持黄金，分析认为意在减少对美元资产依赖",
-      "english_term": null,
-      "summary": "中国央行持续增持黄金储备，分析人士认为这一举动反映出北京方面正在推动外汇储备结构向减少对美元资产依赖的方向转变。",
-      "script": "中国官方近期持续增持黄金，引发国际市场关注。据分析，中国的黄金购买行为反映出北京方面正在推动外汇储备结构的调整，逐步减少对美元资产的依赖。黄金作为传统的避险资产，在国际储备体系中长期扮演着对冲货币波动和地缘政治风险的角色。对于一个长期持有大量美元资产的经济体来说，增加黄金储备比例，可以在美元汇率波动或者美国国内政策出现不确定性时，降低外汇储备的整体风险敞口。分析人士指出，近年来全球多国央行都出现了类似的增持黄金趋势，这背后既有对美元长期购买力的担忧，也与近年来地缘政治紧张局势下，美元资产被用作制裁工具的先例有关，促使一些国家重新评估外汇储备的安全性和多元化配置。需要说明的是，这类分析主要来自经济学者和市场观察人士的判断，中国官方对增持黄金的具体战略意图并未做出详细的公开说明，因此关于“去美元化”这一表述，更多是外部观察者的解读，而非中方官方表态。黄金价格本身也会受到央行购买行为的影响，大规模、持续性的官方购金通常被视为对金价的中长期支撑因素之一。后续需要关注中国央行黄金储备数据的持续披露情况，以及其他主要经济体央行是否会跟进类似的储备结构调整。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "基于Al Jazeera对市场分析人士观点的报道，核心解读为专家判断而非官方确认",
-      "fact_status": {
-        "confirmed": [
-          "中国央行近期持续增持黄金储备"
-        ],
-        "claims": [
-          "分析人士认为此举反映中国正减少对美元资产的依赖"
-        ],
-        "analysis": [
-          "全球多国央行增持黄金的趋势与地缘政治风险担忧及美元资产安全性重新评估有关"
-        ]
-      },
-      "source_ids": [
-        "5d75c2477d224744"
-      ],
-      "sources": [
+        },
         {
-          "id": "5d75c2477d224744",
+          "id": "f35dbd37d1daf09a",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Why is China buying up gold?",
-          "summary": "Beijing’s gold purchases reflect a shift away from reliance on US dollar assets, experts say.",
-          "url": "https://www.aljazeera.com/news-analysis/2026/10/16/why-is-china-buying-up-gold?traffic_source=rss",
-          "published_at": "2026-10-16T11:38:11+00:00",
+          "title": "Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?",
+          "summary": "Analysts say Russia will benefit most from US sanctions waiver.",
+          "url": "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas?traffic_source=rss",
+          "published_at": "2026-10-17T11:10:22+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "俄军大规模空袭乌克兰致多人死伤",
+      "english_term": null,
+      "summary": "俄罗斯近期对乌克兰多地发动新一轮空袭，造成至少8人死亡、近60人受伤。",
+      "script": "另一则来自前线的消息显示，俄罗斯军队近期对乌克兰境内多个地区发动了新一轮空袭，造成人员伤亡。根据已确认的报道，此轮打击共造成至少8人死亡，近60人受伤，受袭地点分布在乌克兰多个城市。这一消息与此前泽连斯基所提到的俄罗斯意图在冬季来临前针对民用基础设施发动打击的说法相互印证，显示出俄乌双方在能源与民生基础设施领域的较量仍在持续升级。目前尚无更详细的区域分布、具体打击目标性质等信息被进一步证实，各方对打击意图的解读也存在差异：乌克兰官方将此定性为针对平民和民用设施的蓄意打击，而俄罗斯方面尚未就此轮空袭的具体目标做出公开说明。分析人士认为，随着北半球冬季临近，电力与供暖系统很可能继续成为双方争夺的焦点，这类打击对乌克兰民众的日常生活将造成持续性影响。后续需要等待乌克兰官方公布更完整的伤亡与基础设施损毁评估，也需要观察国际社会是否会就此轮袭击采取进一步外交或人道主义响应。",
+      "duration_seconds": 100,
+      "is_unverified": false,
+      "confidence_note": "来自Al Jazeera单一来源的伤亡数字陈述为官方通报性质，与DW关于冬季停电意图的报道相互印证",
+      "fact_status": {
+        "confirmed": [
+          "俄罗斯近期对乌克兰多地发动空袭",
+          "至少8人死亡近60人受伤"
+        ],
+        "claims": [
+          "乌克兰方面称打击针对民用基础设施"
+        ],
+        "analysis": [
+          "分析认为电力供暖系统可能成为冬季持续攻击目标"
+        ]
+      },
+      "source_ids": [
+        "a1930550bb21741c"
+      ],
+      "sources": [
+        {
+          "id": "a1930550bb21741c",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Russian strikes kill civilians, injure dozens across Ukraine",
+          "summary": "At least eight people have been killed and nearly 60 injured in the latest wave of Russian strikes across Ukraine.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/russian-strikes-kill-civilians-injure-dozens-across-ukraine?traffic_source=rss",
+          "published_at": "2026-10-17T11:22:41+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "印度新德里爆发大规模抗议，聚焦选民名单审查与警察暴力",
+      "english_term": null,
+      "summary": "新德里连日出现大规模抗议活动，民众既抗议警方暴力执法，也抗议选民名单审查引发的争议。",
+      "script": "印度首都新德里近日连续出现大规模抗议活动。已确认的事实是，大批民众走上街头，挥舞印度国旗，抗议活动与一项针对选民名单的审查行动有关；批评者认为这项审查带有政治动机，可能导致部分选民被剥夺投票资格。印度选举委员会以及莫迪政府方面已公开否认这些指控，坚称审查程序是中立且依法进行的。与此同时，另一场聚焦女性群体的抗议活动也在新德里展开，参与者抗议警方在此前执法过程中存在的暴力行为。两场抗议虽主题不同，但都反映出当前印度社会对执法公正性与选举程序透明度的广泛关切。分析认为，选民名单审查涉及的技术细节复杂，各方对其政治影响的评估存在明显分歧：批评者担心审查标准不透明、执行中可能出现系统性偏差，而政府方面则强调审查是例行的名单清理工作。目前尚无独立第三方机构对审查结果的公正性做出评估。后续需要关注印度选举委员会是否会公布详细的审查数据和申诉渠道，也需要观察抗议规模是否会在临近选举周期时进一步扩大。",
+      "duration_seconds": 100,
+      "is_unverified": false,
+      "confidence_note": "基于Al Jazeera与NPR两家独立来源交叉确认抗议事实，各方主张部分已明确区分",
+      "fact_status": {
+        "confirmed": [
+          "新德里出现大规模抗议",
+          "抗议涉及选民名单审查与警察暴力两大议题"
+        ],
+        "claims": [
+          "批评者称选民审查带有政治动机",
+          "选举委员会与莫迪政府否认相关指控"
+        ],
+        "analysis": [
+          "分析认为审查透明度不足是争议核心"
+        ]
+      },
+      "source_ids": [
+        "950b4ea5a9a07066",
+        "52c524af008cb8bd"
+      ],
+      "sources": [
+        {
+          "id": "950b4ea5a9a07066",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Women protest in New Delhi against police brutality",
+          "summary": "Women protest in New Delhi against police brutality",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
+          "published_at": "2026-10-17T12:07:15+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "52c524af008cb8bd",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
+          "summary": "Protests have intensified over a review of voter lists that critics say is politically motivated and threatens to disenfranchise voters. The Election Commission and Modi's administration deny these allegations.",
+          "url": "https://www.npr.org/2026/10/16/g-s1-148383/crowds-throng-new-delhi-and-wave-indian-flags-amid-escalating-protests",
+          "published_at": "2026-10-16T13:26:43+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "加拿大Promise Robotics与美国建筑巨头DR Horton达成多年期机器人建房协议",
+      "english_term": "robotic homebuilding（机器人建房，即利用自动化产线与机器人完成房屋墙体、框架等构件的预制生产）",
+      "summary": "加拿大机器人建房公司Promise Robotics与美国最大住宅建筑商之一DR Horton签署多年期合作协议，推进自动化住宅构件生产。",
+      "script": "产业方面，一则来自建筑与机器人交叉领域的消息值得关注：加拿大公司Promise Robotics宣布与美国大型住宅建筑商DR Horton签署了一份多年期合作协议，双方将在机器人建房领域展开深度合作。Promise Robotics的核心业务是利用自动化生产线与机器人技术，在工厂环境中预制房屋的墙体、框架等结构构件，再运输至施工现场完成组装，这种模式通常被称为工厂化预制建筑。与传统人工现场施工相比，机器人预制生产能够在可控的厂房环境中实现更高的精度与一致性，同时减少对现场熟练工人的依赖，这对于长期面临建筑行业劳动力短缺问题的北美市场具有现实意义。DR Horton作为美国住宅建筑行业的头部企业之一，此次与Promise Robotics的多年期合作，意味着机器人预制技术有机会从试点项目走向更大规模的商业化应用。从产业背景看，近年来包括日本、欧洲在内的多个国家都在探索建筑机器人与模块化建造的结合，试图解决建筑业生产效率长期停滞不前的问题；北美市场由于住房供给紧张和建筑成本上升，对自动化建造技术的需求也在增加。这类合作如果能够顺利推进并实现规模化交付，可能为机器人技术在非制造业、非仓储物流场景下的落地提供一个重要案例，也会被业内视为检验建筑机器人商业模式是否可持续的重要试金石。目前公开信息并未披露协议的具体金额、计划交付房屋数量以及首批项目的落地时间。后续需要等待双方公布具体的产能规划和首个合作项目的实际交付情况，以判断这种模式能否真正跑通成本与效率的平衡。",
+      "duration_seconds": 160,
+      "is_unverified": true,
+      "confidence_note": "仅有单一行业媒体来源报道，属于discovery_only性质的产业热点线索，尚无协议细节的官方联合声明交叉确认，需等待双方后续正式公告",
+      "fact_status": {
+        "confirmed": [
+          "Promise Robotics与DR Horton签署多年期合作协议"
+        ],
+        "claims": [
+          "协议聚焦机器人预制住宅构件生产"
+        ],
+        "analysis": [
+          "分析认为该合作可能推动建筑机器人从试点走向规模化应用"
+        ]
+      },
+      "source_ids": [
+        "ed1c938dc1fd37b8"
+      ],
+      "sources": [
+        {
+          "id": "ed1c938dc1fd37b8",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Canada's Promise Robotics Signs Multi-Year Deal With US Homebuilder DR Horton for Robotic Homebuilding - AI Insider",
+          "summary": "Canada's Promise Robotics Signs Multi-Year Deal With US Homebuilder DR Horton for Robotic Homebuilding AI Insider",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNFF3bUtPakdLSkE4MEhOYjF4cnY4eHJtdWw2TldnN000NEJrWVp0SWFwbzU0VWlJN0lZamIzYmxMX1NIRzh0SXNkaS05cmE0Y1NYbUVBTFc2NTE0NDNHYXpZWGRRby14LUg3Q0ctbHQ4OV93OERmYTlpUlVfcVpFelVjY1hTbEJpS0Zzc2VYY2hyNVZRa2U3SEVaMUdXVVNyYmowVjJPMDVBcVVFWjhJU3BpbFF4MXhNdzloWDRINHVqakFKLUpnT2JKUDdtdGtETWh0Smpn?oc=5",
+          "published_at": "2026-10-17T11:44:14+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "脑电波研究揭示人类能无意识察觉机器人错误",
+      "english_term": "EEG error-related signal（脑电错误相关信号，指大脑在察觉外部事件出错时产生的特定脑电波模式）",
+      "summary": "一项研究发现，人类大脑会在无意识层面对机器人操作错误产生特定的脑电波反应，这类信号或可用于改善人机协作系统的实时纠错能力。",
+      "script": "学术方面，一项聚焦人机协作的脑科学研究引发关注。研究团队探讨的问题是：当人类观察机器人执行任务并出现失误时，大脑是否会在意识察觉之前就已经产生某种神经反应。研究采用的方法是通过脑电图技术，也就是EEG，记录被试者在观察机器人完成任务过程中的脑电活动，重点关注一类被称为错误相关电位的信号，这类信号此前已在人类自身犯错或观察他人犯错的研究中被广泛记录。研究结果显示，当机器人出现操作失误时，观察者的大脑会产生与错误相关的特定脑电波模式，而且这种反应往往先于被试者在主观层面意识到机器人犯错，这说明人类神经系统对外部系统错误的探测可能具有相当高的灵敏度和一定的自动化特性。这一发现的意义在于，如果能够可靠地提取并解码这类脑电信号，未来的人机协作系统理论上可以在操作人员尚未主动做出反应之前，就通过脑机接口获取纠错提示，从而缩短人机协作中的响应延迟，这对于需要快速反应的协作场景，例如工业装配、远程操作等，具有潜在应用价值。不过，这项研究目前仍存在一定局限，包括实验场景相对受控、样本规模和机器人错误类型的多样性有限，脑电信号在真实嘈杂环境下的信噪比和稳定性也还有待验证。研究团队和论文的具体期刊评审状态在现有报道中并未完整披露。后续需要等待该研究接受更广泛的同行评审检验，也需要观察是否有团队尝试将这类错误相关脑电信号真正集成进实时人机协作系统进行场景化测试。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "来自单一科研新闻网站报道，未明确说明原始论文的同行评审状态，需谨慎对待具体结论的稳健性",
+      "fact_status": {
+        "confirmed": [
+          "研究通过EEG记录人类观察机器人出错时的脑电反应"
+        ],
+        "claims": [
+          "报道称该信号可能早于主观意识察觉错误",
+          "报道称该发现或可用于改善人机协作"
+        ],
+        "analysis": [
+          "分析认为该技术若成熟，有潜力缩短人机协作中的纠错响应时间"
+        ]
+      },
+      "source_ids": [
+        "dbca3939b68b2c0f"
+      ],
+      "sources": [
+        {
+          "id": "dbca3939b68b2c0f",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Your Brain Knows When the Robot Messes Up: EEG Error Signals Could Transform Human-Robot Teamwork - Bioengineer.org",
+          "summary": "Your Brain Knows When the Robot Messes Up: EEG Error Signals Could Transform Human-Robot Teamwork Bioengineer.org",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2N3bUpBbGY5d1FjME0yakJBbmdrTG44ZlVpMmlpVHRsa2lkRkFkSVllMnZqTXpmbGxnWEd3R3VoaFRMRjdwa1c3U29kYU5ScEJULU1TWnBQSy1FejNydlJXNUhYeGFZc3FCaDFNLUpaZ3lOdTRseGJJUENYTE9VLU42WFJNXzcyRHBKYktvcFFqZnh2T29VWlJUQkxEQjc3WDdYRzkyYUxMSVZGZWJTbVBrZlpScHJYMGZER1hB?oc=5",
+          "published_at": "2026-10-17T11:36:33+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "DEEP Robotics四足机器人参与山地野生动物科考",
+      "english_term": "quadruped robot（四足机器人，模仿四足动物步态设计的移动机器人平台）",
+      "summary": "DEEP Robotics的四足机器人被部署到山地森林环境，协助进行野生动物栖息地科考工作。",
+      "script": "另一则产业与应用结合的消息来自四足机器人领域。中国机器人公司DEEP Robotics的一款四足机器人近期参与了一次山地野生动物栖息地科考项目，被用于在森林小径和复杂山地地形中执行巡查和数据采集任务。四足机器人相比传统轮式或履带式机器人，其优势在于能够适应更复杂的非结构化地形，比如碎石坡、树根密布的山路和湿滑的溪流岸边，这类地形此前往往只能依靠人工徒步完成考察。将四足机器人用于野外科考，核心价值在于能够减少科研人员深入危险或难以到达区域的频次，同时可以搭载摄像头、环境传感器等设备，长时间、重复性地采集野生动物活动轨迹、植被状况等数据，为生态研究提供更连续的观测样本。从产业角度看，这也是四足机器人厂商持续寻找商业化落地场景的一个缩影：相比工业巡检、电力特种场景已经相对成熟的应用，野外科考和生态监测属于较新的细分市场，如果能够验证可靠性和成本效益，有望为四足机器人打开新的应用空间。不过，目前公开报道并未详细说明此次科考任务的具体技术参数，例如机器人续航时间、在极端地形下的失败率、以及采集数据的具体用途和后续处理方式。后续需要关注此类野外部署案例是否会形成常态化合作，以及四足机器人在长期无人值守野外环境下的可靠性数据是否会被进一步公开。",
+      "duration_seconds": 135,
+      "is_unverified": true,
+      "confidence_note": "单一行业媒体报道，细节有限，暂无第二来源交叉确认具体任务参数",
+      "fact_status": {
+        "confirmed": [
+          "DEEP Robotics四足机器人参与一次山地科考项目"
+        ],
+        "claims": [
+          "报道称机器人用于森林小径与野生动物栖息地巡查"
+        ],
+        "analysis": [
+          "分析认为该案例代表四足机器人在生态监测领域的潜在应用拓展"
+        ]
+      },
+      "source_ids": [
+        "3547ace37ac382b6"
+      ],
+      "sources": [
+        {
+          "id": "3547ace37ac382b6",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "From Forest Trails to Wildlife Habitats: A Robot Dog of DEEP Robotics Joins a Mountain Research Expedition - The Globe and Mail",
+          "summary": "From Forest Trails to Wildlife Habitats: A Robot Dog of DEEP Robotics Joins a Mountain Research Expedition The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPbkN6ZkY4d3RoU1U1MDhFQ1dDSUhqOFFUSjBEUkVYbmlQRGNSNmduRXNPcUxDYUNNdXZRWW84czY1QUNsM2VSTWtBYi13YXQ4czZPcW5PVy04eUx4ZDFFczUxWnViV1hRQkFQOFRFTmV5dW9sbzlpREhBN3ZMOWJMeTFTZGY5REFRX3VhckxzbVNXclVhQVI5TGE2VkZWT3pMYk14U01pNVlvS054aU5BcXM2am9XX2pnZFBuTG9LRk11R2hIdXhidUdER1hiNkxZVFhMS1Z6Tk5ZS1dlQ0JLVWM3WVBSYWZhNHh3TWRVcFVSSl9UelRBZVQzSnZqMHZHTWFjMmYzakdpeEE5QmxnUVFZRUU?oc=5",
+          "published_at": "2026-10-17T11:50:20+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "机器人车队调度：机会充电模式成为规模化运营关键",
+      "english_term": "opportunity charging（机会充电，指机器人或车辆在任务间隙利用零散时间进行短时补电，而非固定长时间集中充电）",
+      "summary": "行业分析指出，随着自主机器人车队规模扩大，机会充电模式正成为维持车队连续运转和运营效率的关键策略。",
+      "script": "在机器人产业运营层面，一篇行业分析文章聚焦了一个容易被忽视但日益重要的问题：当企业部署的自主移动机器人数量从几台扩展到几十台甚至上百台的车队规模时，如何给这些机器人补充电力，本身就会成为制约整体运营效率的瓶颈。文章提出的核心观点是，相比传统的集中式长时间充电，也就是让机器人在固定时段返回充电桩、长时间停机充满电，一种被称为机会充电的模式正在被越来越多运营商采用。机会充电的思路是让机器人在任务间隙，比如等待装卸货物、排队等候等碎片时间里，就近进行短时间的补电，从而避免因为集中充电而导致大量机器人同时离线、车队整体吞吐量下降的情况。从技术角度看，这种模式对电池本身的快充能力、充电桩的部署密度与调度算法提出了更高要求，需要车队管理系统能够实时判断每台机器人的电量状态、当前任务优先级，并动态规划最优的补电时机和地点。从产业背景看，随着仓储物流、制造工厂等场景中自主移动机器人部署数量快速增加，单纯依靠增加机器人数量或延长单次充电时长来提升吞吐量的做法，边际效益正在递减，运营商开始更加重视车队层面的能源调度效率，这也是机器人产业从单机性能竞争转向系统级运营效率竞争的一个体现。文章未给出具体企业案例的量化数据对比。后续需要观察更多实际部署案例中，机会充电模式相比传统充电方式在车队整体可用率上的具体提升幅度。",
+      "duration_seconds": 140,
+      "is_unverified": false,
+      "confidence_note": "来自行业专业媒体The Robot Report的分析文章，属于行业观察性质而非单一企业数据披露",
+      "fact_status": {
+        "confirmed": [
+          "机会充电模式正被更多机器人车队运营商采用"
+        ],
+        "claims": [
+          "文章认为该模式有助于提升车队整体吞吐量和可用率"
+        ],
+        "analysis": [
+          "分析认为机器人产业竞争正从单机性能转向系统级运营效率"
+        ]
+      },
+      "source_ids": [
+        "709341967d5d3fa3"
+      ],
+      "sources": [
+        {
+          "id": "709341967d5d3fa3",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Why opportunity charging is winning as robot fleets scale",
+          "summary": "Ben Waters explains why opportunity charging is becoming essential for keeping autonomous robot fleets moving, scalable, and operationally efficient. The post Why opportunity charging is winning as robot fleets scale appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/",
+          "published_at": "2026-10-16T23:39:33+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "IEEE Spectrum本周机器人视频精选：双机器人合体实验与即将召开的学术会议",
+      "english_term": null,
+      "summary": "IEEE Spectrum发布本周机器人视频精选，展示一项双机器人物理连接合体的实验演示，并预告CoRL 2026与Humanoids 2026两场重要学术会议日程。",
+      "script": "在学术与社区动态方面，IEEE Spectrum本周发布了其固定栏目机器人视频精选，其中一项演示引发关注：来自日本JSK实验室的研究团队展示了一种让两台机器人通过物理连接线缆结合为一体的实验，演示中两台独立机器人在连接后能够协同形成新的运动形态，这类研究通常属于模块化机器人或自重构机器人方向的探索，核心思路是让多个简单单元通过物理连接组合出更复杂的整体功能，而不是依赖单一高度集成的复杂机器人本体。这类研究目前更多停留在实验室演示阶段，实际应用场景和可靠性仍需进一步验证。与此同时，该栏目也预告了两场即将举行的重要机器人学术会议：CoRL 2026，即机器人学习会议，将于11月在美国奥斯汀举行，是机器人学习与强化学习方向的重要学术平台；Humanoids 2026，也就是人形机器人国际会议，将于12月在美国圣克拉拉举行，是人形机器人领域集中展示最新研究成果的重要会议。这类周期性学术会议通常会集中发布大量关于运动控制、感知、强化学习在机器人上应用的新论文，是观察机器人学术前沿动态的重要窗口。目前关于两台机器人合体实验的具体技术论文细节、以及两场会议的具体议程尚未完全公开。后续需要关注这两场会议召开后发布的论文集和重点成果，以及JSK实验室相关研究是否会发表更完整的技术细节。",
+      "duration_seconds": 140,
+      "is_unverified": false,
+      "confidence_note": "来自IEEE Spectrum机器人频道的常规社区栏目报道，会议信息为公开日程",
+      "fact_status": {
+        "confirmed": [
+          "IEEE Spectrum发布本周机器人视频精选",
+          "CoRL 2026将于11月在奥斯汀举行，Humanoids 2026将于12月在圣克拉拉举行"
+        ],
+        "claims": [
+          "JSK实验室展示双机器人物理连接合体实验"
+        ],
+        "analysis": [
+          "分析认为该类演示属于模块化机器人方向的早期探索"
+        ]
+      },
+      "source_ids": [
+        "20646c3aa1825595"
+      ],
+      "sources": [
+        {
+          "id": "20646c3aa1825595",
+          "source": "IEEE Spectrum Robotics",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Video Friday: When Two Robots Become One",
+          "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! When one robot loves another robot very much, and they’re connected by a wire, they can get together and make a brand new robot! SFW. [ JSK Lab ] What happens when Microducks meet? They start to sing together. Each Microduck syncs with its neighbors over Bluetooth, then they compose a song on the fly, in harmony and in perfect time. There’s no score and no conductor. Two, three, or four ducks are enough for a choir to break out. If Pollen isn’t selling Microducks in four packs for this exact reason, WHAT ARE THEY EVEN DOING!? [ Pollen ] In an internal test, Google DeepMind robotics researchers instructed Gemini 4 Argon to watch a video of a human playing cornhole. Using its video understanding and advanced reasoning capabilities, Gemini 4 built a virtual simulation in MuJoCo and accurately calculated the physics and whole-body con",
+          "url": "https://spectrum.ieee.org/video-friday-reconfigurable-robots",
+          "published_at": "2026-10-16T16:30:02+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "science",
+      "title": "NASA确认阿尔忒弥斯二号热防护系统在再入过程中表现正常",
+      "english_term": "thermal protection system（热防护系统，用于保护航天器在高速再入大气层时免受高温损害的隔热结构）",
+      "summary": "NASA公布对阿尔忒弥斯二号猎户座飞船热防护系统的分析结果，确认其在溅落前的大气层再入过程中有效保护了飞船及乘员安全。",
+      "script": "航天科学方面，NASA公布了一项关于阿尔忒弥斯二号任务的重要分析结果。阿尔忒弥斯二号飞船已于此前完成溅落，美国海军潜水员在溅落后随即对猎户座飞船的热防护系统进行了水下影像采集。热防护系统的作用是在飞船从太空高速再入地球大气层时，抵御因剧烈摩擦产生的极端高温，防止热量传导至飞船内部，从而保护乘员和关键设备的安全。NASA工程团队在随后数月里对采集到的影像和相关数据进行了系统分析，重点评估热防护系统在实际再入过程中的烧蚀情况是否符合设计预期。根据NASA公布的分析结论，此次严格评估确认了热防护系统在飞船再入大气层过程中有效保护了乘员和飞船系统的安全，相关设计经受住了真实飞行环境的检验。这一结果对于阿尔忒弥斯计划后续载人登月任务具有重要意义，因为热防护系统的可靠性是载人深空任务安全返回地球的关键环节之一，此前阿尔忒弥斯一号任务中热防护材料的烧蚀情况就曾引发工程团队的重点关注和设计调整。此次阿尔忒弥斯二号的分析结果，某种程度上是对此前改进措施有效性的一次实证检验。目前NASA尚未公布更详细的烧蚀厚度数据、具体材料性能对比等技术细节。后续需要关注NASA是否会发布完整的技术报告，以及这些数据将如何应用于阿尔忒弥斯三号载人登月任务的工程准备。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "NASA官方一手信息，属于权威机构直接发布的技术评估结论",
+      "fact_status": {
+        "confirmed": [
+          "阿尔忒弥斯二号已完成溅落",
+          "NASA确认热防护系统有效保护了乘员和飞船系统安全"
+        ],
+        "claims": [],
+        "analysis": [
+          "分析认为该结果对后续载人登月任务的安全性评估具有参考意义"
+        ]
+      },
+      "source_ids": [
+        "c39166199d7b190a"
+      ],
+      "sources": [
+        {
+          "id": "c39166199d7b190a",
+          "source": "NASA",
+          "source_tier": 1,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "science",
+          "title": "Artemis II Heat Shield After Splashdown",
+          "summary": "Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield. In the months after, the agency measured whether the thermal protection system effectively safeguarded the crew and Orion systems as the spacecraft reentered Earth’s atmosphere. This rigorous analysis confirmed that the […]",
+          "url": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
+          "published_at": "2026-10-16T16:28:01+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "法国爆发全国性抗议，黄背心运动预计加入",
+      "english_term": null,
+      "summary": "法国多地爆发针对高物价与社会不平等的抗议活动，学生、工会与黄背心活动人士相继参与，当局担忧局势升级。",
+      "script": "欧洲方面，法国近期出现全国范围的抗议浪潮。已确认的事实是，抗议活动最早于九月中旬在部分学校兴起，随后逐步扩大到更广泛的社会群体，学生、工会成员以及黄背心运动活动人士相继加入其中。抗议者所表达的诉求集中在高物价和社会不平等问题上，这与黄背心运动最初兴起时的核心诉求有相似之处。法国当局已公开表示担忧，认为此轮示威活动存在演变为暴力冲突的风险，因此在多个城市加强了警力部署。目前的报道显示，抗议规模仍在持续扩大，但尚未有权威机构对参与人数、具体冲突情况给出完整统计。分析认为，此轮抗议从校园议题扩展为更广泛的社会运动，反映出法国社会在生活成本上升背景下积累的不满情绪正在寻找新的释放渠道，而黄背心运动的重新介入，也说明部分社会群体认为此前的诉求仍未得到有效回应。后续需要关注法国政府是否会出台应对高物价的具体政策回应，也需要观察周末大规模抗议是否会如当局担忧的那样出现局势升级。",
+      "duration_seconds": 100,
+      "is_unverified": false,
+      "confidence_note": "基于Al Jazeera与DW两家独立来源交叉确认抗议基本事实与当局担忧表态",
+      "fact_status": {
+        "confirmed": [
+          "法国抗议活动自九月中旬从学校兴起并扩大",
+          "黄背心运动参与其中",
+          "当局担忧局势升级"
+        ],
+        "claims": [],
+        "analysis": [
+          "分析认为抗议反映生活成本上升背景下的社会不满情绪"
+        ]
+      },
+      "source_ids": [
+        "8a526ef731dbc083",
+        "f1acdf6e166e5c3e"
+      ],
+      "sources": [
+        {
+          "id": "8a526ef731dbc083",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Protests spread across France as ‘yellow vests’ set to join",
+          "summary": "Demonstrations began in mid-September at schools and have expanded, tapping into wider grievances.",
+          "url": "https://www.aljazeera.com/news/2026/10/17/france-braces-for-nationwide-protests-with-yellow-vest-members-set-to-join?traffic_source=rss",
+          "published_at": "2026-10-17T11:21:32+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "f1acdf6e166e5c3e",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "France braces for nationwide protests",
+          "summary": "Students, trade unionists and Yellow Vest activists are taking to French streets to protest high prices and inequality. Authorities say they fear the rallies could turn violent.",
+          "url": "https://www.dw.com/en/france-braces-for-nationwide-protests/a-79685584?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-17T08:02:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的内容就到这里。手术机器人领域的大额投资和人形机器人产业的资本化进程仍在加速，而VLA模型内部机制的多篇研究则提醒我们，理解这些系统“为什么能工作”和让它们“工作得更好”同样重要。国际局势方面，美乌关系的走向以及布鲁塞尔欧盟峰会的结果，值得持续关注。",
-  "editor_note": "本期机器人部分时长占比约为全部内容的48%，来源覆盖arXiv、The Robot Report、Robohub、PR Newswire及MarketWatch等多个独立专业来源，避免单一媒体垄断。涉及未经同行评审的arXiv预印本、企业新闻稿类信息及单一信源表态的内容，均已标注is_unverified并在confidence_note中说明局限。国际新闻部分优先选取有多来源交叉确认或官方一手声明支持的事件，对特朗普无核化谈判表态因仅有单一信源予以明确标注。候选中关于校园机器人配送诉讼、Honor机器人手机获奖等条目因信息过于简略、细节不足，未予采用。",
+  "closing": "今天的早报就到这里。俄乌局势与制裁博弈、法国与印度的街头抗议仍在发展中，机器人产业从建筑工地到山地科考的场景拓展也值得持续关注，后续需要等待更多官方细节与同行评审结果的公布。",
+  "editor_note": "机器人部分共选取5条，时长合计约840秒，占全部事件总时长约63%，略高于建议区间上限，主要因本期机器人产业与学术候选信息相对丰富且国际政治事件需要保留充分篇幅解释事实与各方主张；为保证总时长落在区间内，对部分非机器人类重点事件做了精简处理。多条机器人类消息（Promise Robotics协议、DEEP Robotics科考、脑电研究）来自discovery_only性质的行业检索结果，缺乏第二独立来源交叉确认，已统一标记is_unverified并说明证据局限。",
   "model": "claude-sonnet-5",
-  "generation_usage": [
-    {
-      "input_tokens": 9351,
-      "output_tokens": 10260,
-      "total_tokens": 19611
-    },
-    {
-      "input_tokens": 12100,
-      "output_tokens": 9800,
-      "total_tokens": 21900
-    }
-  ],
   "usage": {
-    "total_tokens": 41511,
-    "output_tokens": 20060,
-    "input_tokens": 21451
+    "input_tokens": 8773,
+    "output_tokens": 9816,
+    "total_tokens": 18589
   },
-  "generated_at": "2026-10-16T12:08:58+00:00",
-  "window_start": "2026-10-15T12:08:58+00:00",
-  "candidate_count": 334,
+  "generated_at": "2026-10-17T12:11:29+00:00",
+  "window_start": "2026-10-16T12:11:29+00:00",
+  "candidate_count": 179,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
-  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1365,
-    "script_characters": 5365,
-    "topic_duration_share": 0.571,
+    "duration_seconds": 1295,
+    "script_characters": 5057,
+    "topic_duration_share": 0.56,
     "passed": true,
-    "normal_target_met": false,
-    "topic_source_count": 4,
+    "normal_target_met": true,
+    "topic_source_count": 3,
     "issues": []
   }
 }
