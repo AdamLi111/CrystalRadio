@@ -1,420 +1,111 @@
 {
-  "title": "晶球电台早报：俄乌局势、印度抗议与机器人产业新动向",
-  "subtitle": "美国豁免对俄制裁引发争议，机器人产业从家居建造到脑机协作持续推进",
+  "title": "晶球电台早报：巴黎骚乱持续发酵，德国人形机器人迎来新“首富”",
+  "subtitle": "法国抗议演变为骚乱，俄乌能源设施互袭，机器人产业从展会到实验室全线更新",
   "highlights": [
-    "特朗普暂停多项对俄制裁，泽连斯基称此举变相助力普京",
-    "乌克兰遭俄军大规模空袭，至少8人死亡近60人受伤",
-    "加拿大Promise Robotics与美国建筑巨头DR Horton达成多年期机器人建房协议",
-    "脑电波研究揭示人类能无意识察觉机器人错误，或为人机协作带来新思路"
+    "法国全国性抗议演变为骚乱与抢劫，超1800人被捕",
+    "乌克兰无人机袭击圣彼得堡石油设施及数据中心，造成人员死亡",
+    "德国人形机器人公司创始人身家暴涨成为行业新焦点，押注“人形机器人健身房”训练模式",
+    "中国4米级巨型人形机器人亮相，用途引发讨论；广交会机器人板块受关注"
   ],
   "stories": [
     {
       "category": "world",
-      "title": "特朗普豁免对俄制裁，乌克兰指责此举利好普京",
+      "title": "法国抗议演变为骚乱，逾1800人被捕",
       "english_term": null,
-      "summary": "美国总统特朗普暂时解除国会此前通过的多项对俄制裁，理由是国家安全考量；泽连斯基对此表示强烈不满。",
-      "script": "国际局势方面，美国总统特朗普近日宣布暂时豁免多项由国会此前通过、针对俄罗斯的制裁措施，理由是出于国家安全方面的考量。这一决定正值特朗普与乌克兰总统泽连斯基之间的分歧不断加剧之际。已确认的事实是，这些制裁原本由美国国会在近期通过，覆盖俄罗斯能源出口等多个领域，而特朗普此次动用行政权力暂停了其中相当一部分。泽连斯基方面公开回应称，这一豁免实际上是在俄罗斯总统普京最需要喘息空间的时候，给予了他实质性的帮助，并指出俄罗斯正试图在冬季来临前针对乌克兰的电力和供暖系统发动打击，意图制造大规模停电，向乌克兰平民施压。与此同时，有分析人士指出，尽管美国收紧了官方制裁条款，但欧洲部分国家在能源供应上仍未完全切断与俄罗斯的联系，俄罗斯石油和天然气出口依然能找到买家，这使得受益最大的一方很可能还是莫斯科。目前，美国政府尚未就具体豁免哪些制裁条款、持续时间多长作出详细公开说明，白宫方面的表态与乌克兰方面的指责形成了鲜明对比。分析认为，这一分歧反映出美国国内及跨大西洋盟友之间，在如何平衡对俄施压与国家安全、经济利益之间，仍存在深刻的路线矛盾。后续需要关注美国国会是否会对行政部门的豁免决定提出异议，也需要等待欧洲主要能源进口国在今冬是否会进一步调整对俄能源采购政策。",
-      "duration_seconds": 135,
+      "summary": "法国各地因生活成本和教育条件问题爆发的全国性抗议，在周六演变为纵火、打砸抢和与警方冲突，超过1800人被捕，利摩日历史悠久的市政厅遭损毁。",
+      "script": "法国这个周末并不平静。连续的抗议活动，起因是民众对生活成本上涨和学校教育条件恶化的不满，演变成了全国多个城市的骚乱。据法国警方通报，至少有一千八百人被逮捕，这是近年来法国国内骚乱规模较大的一次。根据英国广播公司和法国新闻通讯社的现场报道，巴黎街头出现了被烧毁的汽车和满地的碎玻璃，不少商铺遭到洗劫。而在利摩日，一座历史悠久的市政厅建筑也在骚乱中被损毁，这栋建筑本身具有相当的文化和历史价值，损失引发了法国国内的广泛关注和惋惜。根据德国之声的报道，这轮示威活动本身规模浩大，参与人数达到数十万级别，大部分抗议是和平进行的，诉求集中在物价上涨、教育资源不足等民生议题上。但其中一部分人群在夜间转向了暴力行为，包括纵火、打砸商店和与警方发生肢体冲突。美国国家公共电台的报道也提到，这场由学生抗议发端的社会运动，已经扩散成更广泛的社会不满情绪的集中释放。目前法国官方尚未就骚乱的具体组织者、后续追责方式给出完整说明，巴黎当地商户正在评估财产损失。已确认的事实是：全国性抗议活动确实发生，警方逮捕人数超过一千八百人，利摩日市政厅等公共设施遭到破坏。各方主张方面，法国政府将暴力行为定性为对合法抗议的破坏，部分社会团体则认为政府对民生问题的回应不足是骚乱的根本原因。后续需要等待法国内政部公布完整的财产损失评估和被捕人员的司法处理结果，也需要观察这轮社会情绪是否会演变为更长期的政治压力。",
+      "duration_seconds": 150,
       "is_unverified": false,
-      "confidence_note": "基于BBC与DW两家独立二级来源交叉确认，泽连斯基表态及分析判断部分已做区分",
+      "confidence_note": "多家二级媒体（BBC、DW、NPR）独立报道，事实基本确认；骚乱后续发展与成因分析仍在持续。",
       "fact_status": {
         "confirmed": [
-          "特朗普暂停多项国会此前通过的对俄制裁",
-          "理由为国家安全考量"
+          "法国全国性抗议演变为骚乱",
+          "超过1800人被捕",
+          "利摩日市政厅遭损毁"
         ],
         "claims": [
-          "泽连斯基称此举是对普京的助力",
-          "泽连斯基称俄罗斯意图制造乌克兰冬季停电"
+          "法国政府将暴力定性为对合法抗议权利的破坏",
+          "部分团体认为政府民生政策回应不足"
         ],
         "analysis": [
-          "分析认为俄罗斯是此次豁免的最大受益方",
-          "欧洲对俄能源采购情况可能影响制裁实际效果"
+          "骚乱可能加剧法国国内政治张力，后续走向需观察政府应对措施"
         ]
       },
       "source_ids": [
-        "7e173dc356568cac",
-        "3dc3a0117de36091",
-        "f35dbd37d1daf09a"
+        "ca8b3e417e071692",
+        "deebc8ec0fa80cd7",
+        "74d1b691bcba4fee",
+        "1b8601b0719fba83",
+        "73f93f2603acd918"
       ],
       "sources": [
         {
-          "id": "7e173dc356568cac",
+          "id": "ca8b3e417e071692",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-          "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-17T11:56:06+00:00",
+          "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+          "summary": "Around 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism.",
+          "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-18T12:07:31+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "3dc3a0117de36091",
+          "id": "deebc8ec0fa80cd7",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Russia wants blackout in Ukraine as winter comes — Zelenskyy",
-          "summary": "Ukrainian President Zelenskyy says Russia is trying to cut electricity and heating to civilians ahead of winter. He also called the US president's waiver of new sanctions on Moscow a boost for Vladimir Putin.",
-          "url": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-17T11:34:00+00:00",
+          "title": "France reports more than 1,800 arrests after riots, looting and arson during cost-of-living protests",
+          "summary": "Rioters torched public buildings and looted shops across France, destroying Limoges' historic town hall. The violence erupted during nationwide cost-of-living protests.",
+          "url": "https://www.dw.com/en/france-reports-more-than-1-800-arrests-after-riots-looting-and-arson-during-cost-of-living-protests/a-79692322?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-18T10:26:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "f35dbd37d1daf09a",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?",
-          "summary": "Analysts say Russia will benefit most from US sanctions waiver.",
-          "url": "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas?traffic_source=rss",
-          "published_at": "2026-10-17T11:10:22+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "俄军大规模空袭乌克兰致多人死伤",
-      "english_term": null,
-      "summary": "俄罗斯近期对乌克兰多地发动新一轮空袭，造成至少8人死亡、近60人受伤。",
-      "script": "另一则来自前线的消息显示，俄罗斯军队近期对乌克兰境内多个地区发动了新一轮空袭，造成人员伤亡。根据已确认的报道，此轮打击共造成至少8人死亡，近60人受伤，受袭地点分布在乌克兰多个城市。这一消息与此前泽连斯基所提到的俄罗斯意图在冬季来临前针对民用基础设施发动打击的说法相互印证，显示出俄乌双方在能源与民生基础设施领域的较量仍在持续升级。目前尚无更详细的区域分布、具体打击目标性质等信息被进一步证实，各方对打击意图的解读也存在差异：乌克兰官方将此定性为针对平民和民用设施的蓄意打击，而俄罗斯方面尚未就此轮空袭的具体目标做出公开说明。分析人士认为，随着北半球冬季临近，电力与供暖系统很可能继续成为双方争夺的焦点，这类打击对乌克兰民众的日常生活将造成持续性影响。后续需要等待乌克兰官方公布更完整的伤亡与基础设施损毁评估，也需要观察国际社会是否会就此轮袭击采取进一步外交或人道主义响应。",
-      "duration_seconds": 100,
-      "is_unverified": false,
-      "confidence_note": "来自Al Jazeera单一来源的伤亡数字陈述为官方通报性质，与DW关于冬季停电意图的报道相互印证",
-      "fact_status": {
-        "confirmed": [
-          "俄罗斯近期对乌克兰多地发动空袭",
-          "至少8人死亡近60人受伤"
-        ],
-        "claims": [
-          "乌克兰方面称打击针对民用基础设施"
-        ],
-        "analysis": [
-          "分析认为电力供暖系统可能成为冬季持续攻击目标"
-        ]
-      },
-      "source_ids": [
-        "a1930550bb21741c"
-      ],
-      "sources": [
-        {
-          "id": "a1930550bb21741c",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Russian strikes kill civilians, injure dozens across Ukraine",
-          "summary": "At least eight people have been killed and nearly 60 injured in the latest wave of Russian strikes across Ukraine.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/russian-strikes-kill-civilians-injure-dozens-across-ukraine?traffic_source=rss",
-          "published_at": "2026-10-17T11:22:41+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "印度新德里爆发大规模抗议，聚焦选民名单审查与警察暴力",
-      "english_term": null,
-      "summary": "新德里连日出现大规模抗议活动，民众既抗议警方暴力执法，也抗议选民名单审查引发的争议。",
-      "script": "印度首都新德里近日连续出现大规模抗议活动。已确认的事实是，大批民众走上街头，挥舞印度国旗，抗议活动与一项针对选民名单的审查行动有关；批评者认为这项审查带有政治动机，可能导致部分选民被剥夺投票资格。印度选举委员会以及莫迪政府方面已公开否认这些指控，坚称审查程序是中立且依法进行的。与此同时，另一场聚焦女性群体的抗议活动也在新德里展开，参与者抗议警方在此前执法过程中存在的暴力行为。两场抗议虽主题不同，但都反映出当前印度社会对执法公正性与选举程序透明度的广泛关切。分析认为，选民名单审查涉及的技术细节复杂，各方对其政治影响的评估存在明显分歧：批评者担心审查标准不透明、执行中可能出现系统性偏差，而政府方面则强调审查是例行的名单清理工作。目前尚无独立第三方机构对审查结果的公正性做出评估。后续需要关注印度选举委员会是否会公布详细的审查数据和申诉渠道，也需要观察抗议规模是否会在临近选举周期时进一步扩大。",
-      "duration_seconds": 100,
-      "is_unverified": false,
-      "confidence_note": "基于Al Jazeera与NPR两家独立来源交叉确认抗议事实，各方主张部分已明确区分",
-      "fact_status": {
-        "confirmed": [
-          "新德里出现大规模抗议",
-          "抗议涉及选民名单审查与警察暴力两大议题"
-        ],
-        "claims": [
-          "批评者称选民审查带有政治动机",
-          "选举委员会与莫迪政府否认相关指控"
-        ],
-        "analysis": [
-          "分析认为审查透明度不足是争议核心"
-        ]
-      },
-      "source_ids": [
-        "950b4ea5a9a07066",
-        "52c524af008cb8bd"
-      ],
-      "sources": [
-        {
-          "id": "950b4ea5a9a07066",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Women protest in New Delhi against police brutality",
-          "summary": "Women protest in New Delhi against police brutality",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
-          "published_at": "2026-10-17T12:07:15+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "52c524af008cb8bd",
+          "id": "74d1b691bcba4fee",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
-          "summary": "Protests have intensified over a review of voter lists that critics say is politically motivated and threatens to disenfranchise voters. The Election Commission and Modi's administration deny these allegations.",
-          "url": "https://www.npr.org/2026/10/16/g-s1-148383/crowds-throng-new-delhi-and-wave-indian-flags-amid-escalating-protests",
-          "published_at": "2026-10-16T13:26:43+00:00",
+          "title": "French police arrest 1,800 after violent clashes and looting mar protests",
+          "summary": "Police arrested at least 1,800 people across France after violent groups clashed with officers and looted shops during nationwide demonstrations that drew hundreds of thousands of people.",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+          "published_at": "2026-10-17T15:57:40+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "加拿大Promise Robotics与美国建筑巨头DR Horton达成多年期机器人建房协议",
-      "english_term": "robotic homebuilding（机器人建房，即利用自动化产线与机器人完成房屋墙体、框架等构件的预制生产）",
-      "summary": "加拿大机器人建房公司Promise Robotics与美国最大住宅建筑商之一DR Horton签署多年期合作协议，推进自动化住宅构件生产。",
-      "script": "产业方面，一则来自建筑与机器人交叉领域的消息值得关注：加拿大公司Promise Robotics宣布与美国大型住宅建筑商DR Horton签署了一份多年期合作协议，双方将在机器人建房领域展开深度合作。Promise Robotics的核心业务是利用自动化生产线与机器人技术，在工厂环境中预制房屋的墙体、框架等结构构件，再运输至施工现场完成组装，这种模式通常被称为工厂化预制建筑。与传统人工现场施工相比，机器人预制生产能够在可控的厂房环境中实现更高的精度与一致性，同时减少对现场熟练工人的依赖，这对于长期面临建筑行业劳动力短缺问题的北美市场具有现实意义。DR Horton作为美国住宅建筑行业的头部企业之一，此次与Promise Robotics的多年期合作，意味着机器人预制技术有机会从试点项目走向更大规模的商业化应用。从产业背景看，近年来包括日本、欧洲在内的多个国家都在探索建筑机器人与模块化建造的结合，试图解决建筑业生产效率长期停滞不前的问题；北美市场由于住房供给紧张和建筑成本上升，对自动化建造技术的需求也在增加。这类合作如果能够顺利推进并实现规模化交付，可能为机器人技术在非制造业、非仓储物流场景下的落地提供一个重要案例，也会被业内视为检验建筑机器人商业模式是否可持续的重要试金石。目前公开信息并未披露协议的具体金额、计划交付房屋数量以及首批项目的落地时间。后续需要等待双方公布具体的产能规划和首个合作项目的实际交付情况，以判断这种模式能否真正跑通成本与效率的平衡。",
-      "duration_seconds": 160,
-      "is_unverified": true,
-      "confidence_note": "仅有单一行业媒体来源报道，属于discovery_only性质的产业热点线索，尚无协议细节的官方联合声明交叉确认，需等待双方后续正式公告",
-      "fact_status": {
-        "confirmed": [
-          "Promise Robotics与DR Horton签署多年期合作协议"
-        ],
-        "claims": [
-          "协议聚焦机器人预制住宅构件生产"
-        ],
-        "analysis": [
-          "分析认为该合作可能推动建筑机器人从试点走向规模化应用"
-        ]
-      },
-      "source_ids": [
-        "ed1c938dc1fd37b8"
-      ],
-      "sources": [
+        },
         {
-          "id": "ed1c938dc1fd37b8",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Canada's Promise Robotics Signs Multi-Year Deal With US Homebuilder DR Horton for Robotic Homebuilding - AI Insider",
-          "summary": "Canada's Promise Robotics Signs Multi-Year Deal With US Homebuilder DR Horton for Robotic Homebuilding AI Insider",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNFF3bUtPakdLSkE4MEhOYjF4cnY4eHJtdWw2TldnN000NEJrWVp0SWFwbzU0VWlJN0lZamIzYmxMX1NIRzh0SXNkaS05cmE0Y1NYbUVBTFc2NTE0NDNHYXpZWGRRby14LUg3Q0ctbHQ4OV93OERmYTlpUlVfcVpFelVjY1hTbEJpS0Zzc2VYY2hyNVZRa2U3SEVaMUdXVVNyYmowVjJPMDVBcVVFWjhJU3BpbFF4MXhNdzloWDRINHVqakFKLUpnT2JKUDdtdGtETWh0Smpn?oc=5",
-          "published_at": "2026-10-17T11:44:14+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "脑电波研究揭示人类能无意识察觉机器人错误",
-      "english_term": "EEG error-related signal（脑电错误相关信号，指大脑在察觉外部事件出错时产生的特定脑电波模式）",
-      "summary": "一项研究发现，人类大脑会在无意识层面对机器人操作错误产生特定的脑电波反应，这类信号或可用于改善人机协作系统的实时纠错能力。",
-      "script": "学术方面，一项聚焦人机协作的脑科学研究引发关注。研究团队探讨的问题是：当人类观察机器人执行任务并出现失误时，大脑是否会在意识察觉之前就已经产生某种神经反应。研究采用的方法是通过脑电图技术，也就是EEG，记录被试者在观察机器人完成任务过程中的脑电活动，重点关注一类被称为错误相关电位的信号，这类信号此前已在人类自身犯错或观察他人犯错的研究中被广泛记录。研究结果显示，当机器人出现操作失误时，观察者的大脑会产生与错误相关的特定脑电波模式，而且这种反应往往先于被试者在主观层面意识到机器人犯错，这说明人类神经系统对外部系统错误的探测可能具有相当高的灵敏度和一定的自动化特性。这一发现的意义在于，如果能够可靠地提取并解码这类脑电信号，未来的人机协作系统理论上可以在操作人员尚未主动做出反应之前，就通过脑机接口获取纠错提示，从而缩短人机协作中的响应延迟，这对于需要快速反应的协作场景，例如工业装配、远程操作等，具有潜在应用价值。不过，这项研究目前仍存在一定局限，包括实验场景相对受控、样本规模和机器人错误类型的多样性有限，脑电信号在真实嘈杂环境下的信噪比和稳定性也还有待验证。研究团队和论文的具体期刊评审状态在现有报道中并未完整披露。后续需要等待该研究接受更广泛的同行评审检验，也需要观察是否有团队尝试将这类错误相关脑电信号真正集成进实时人机协作系统进行场景化测试。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "来自单一科研新闻网站报道，未明确说明原始论文的同行评审状态，需谨慎对待具体结论的稳健性",
-      "fact_status": {
-        "confirmed": [
-          "研究通过EEG记录人类观察机器人出错时的脑电反应"
-        ],
-        "claims": [
-          "报道称该信号可能早于主观意识察觉错误",
-          "报道称该发现或可用于改善人机协作"
-        ],
-        "analysis": [
-          "分析认为该技术若成熟，有潜力缩短人机协作中的纠错响应时间"
-        ]
-      },
-      "source_ids": [
-        "dbca3939b68b2c0f"
-      ],
-      "sources": [
-        {
-          "id": "dbca3939b68b2c0f",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Your Brain Knows When the Robot Messes Up: EEG Error Signals Could Transform Human-Robot Teamwork - Bioengineer.org",
-          "summary": "Your Brain Knows When the Robot Messes Up: EEG Error Signals Could Transform Human-Robot Teamwork Bioengineer.org",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU2N3bUpBbGY5d1FjME0yakJBbmdrTG44ZlVpMmlpVHRsa2lkRkFkSVllMnZqTXpmbGxnWEd3R3VoaFRMRjdwa1c3U29kYU5ScEJULU1TWnBQSy1FejNydlJXNUhYeGFZc3FCaDFNLUpaZ3lOdTRseGJJUENYTE9VLU42WFJNXzcyRHBKYktvcFFqZnh2T29VWlJUQkxEQjc3WDdYRzkyYUxMSVZGZWJTbVBrZlpScHJYMGZER1hB?oc=5",
-          "published_at": "2026-10-17T11:36:33+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "DEEP Robotics四足机器人参与山地野生动物科考",
-      "english_term": "quadruped robot（四足机器人，模仿四足动物步态设计的移动机器人平台）",
-      "summary": "DEEP Robotics的四足机器人被部署到山地森林环境，协助进行野生动物栖息地科考工作。",
-      "script": "另一则产业与应用结合的消息来自四足机器人领域。中国机器人公司DEEP Robotics的一款四足机器人近期参与了一次山地野生动物栖息地科考项目，被用于在森林小径和复杂山地地形中执行巡查和数据采集任务。四足机器人相比传统轮式或履带式机器人，其优势在于能够适应更复杂的非结构化地形，比如碎石坡、树根密布的山路和湿滑的溪流岸边，这类地形此前往往只能依靠人工徒步完成考察。将四足机器人用于野外科考，核心价值在于能够减少科研人员深入危险或难以到达区域的频次，同时可以搭载摄像头、环境传感器等设备，长时间、重复性地采集野生动物活动轨迹、植被状况等数据，为生态研究提供更连续的观测样本。从产业角度看，这也是四足机器人厂商持续寻找商业化落地场景的一个缩影：相比工业巡检、电力特种场景已经相对成熟的应用，野外科考和生态监测属于较新的细分市场，如果能够验证可靠性和成本效益，有望为四足机器人打开新的应用空间。不过，目前公开报道并未详细说明此次科考任务的具体技术参数，例如机器人续航时间、在极端地形下的失败率、以及采集数据的具体用途和后续处理方式。后续需要关注此类野外部署案例是否会形成常态化合作，以及四足机器人在长期无人值守野外环境下的可靠性数据是否会被进一步公开。",
-      "duration_seconds": 135,
-      "is_unverified": true,
-      "confidence_note": "单一行业媒体报道，细节有限，暂无第二来源交叉确认具体任务参数",
-      "fact_status": {
-        "confirmed": [
-          "DEEP Robotics四足机器人参与一次山地科考项目"
-        ],
-        "claims": [
-          "报道称机器人用于森林小径与野生动物栖息地巡查"
-        ],
-        "analysis": [
-          "分析认为该案例代表四足机器人在生态监测领域的潜在应用拓展"
-        ]
-      },
-      "source_ids": [
-        "3547ace37ac382b6"
-      ],
-      "sources": [
-        {
-          "id": "3547ace37ac382b6",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "From Forest Trails to Wildlife Habitats: A Robot Dog of DEEP Robotics Joins a Mountain Research Expedition - The Globe and Mail",
-          "summary": "From Forest Trails to Wildlife Habitats: A Robot Dog of DEEP Robotics Joins a Mountain Research Expedition The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPbkN6ZkY4d3RoU1U1MDhFQ1dDSUhqOFFUSjBEUkVYbmlQRGNSNmduRXNPcUxDYUNNdXZRWW84czY1QUNsM2VSTWtBYi13YXQ4czZPcW5PVy04eUx4ZDFFczUxWnViV1hRQkFQOFRFTmV5dW9sbzlpREhBN3ZMOWJMeTFTZGY5REFRX3VhckxzbVNXclVhQVI5TGE2VkZWT3pMYk14U01pNVlvS054aU5BcXM2am9XX2pnZFBuTG9LRk11R2hIdXhidUdER1hiNkxZVFhMS1Z6Tk5ZS1dlQ0JLVWM3WVBSYWZhNHh3TWRVcFVSSl9UelRBZVQzSnZqMHZHTWFjMmYzakdpeEE5QmxnUVFZRUU?oc=5",
-          "published_at": "2026-10-17T11:50:20+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "机器人车队调度：机会充电模式成为规模化运营关键",
-      "english_term": "opportunity charging（机会充电，指机器人或车辆在任务间隙利用零散时间进行短时补电，而非固定长时间集中充电）",
-      "summary": "行业分析指出，随着自主机器人车队规模扩大，机会充电模式正成为维持车队连续运转和运营效率的关键策略。",
-      "script": "在机器人产业运营层面，一篇行业分析文章聚焦了一个容易被忽视但日益重要的问题：当企业部署的自主移动机器人数量从几台扩展到几十台甚至上百台的车队规模时，如何给这些机器人补充电力，本身就会成为制约整体运营效率的瓶颈。文章提出的核心观点是，相比传统的集中式长时间充电，也就是让机器人在固定时段返回充电桩、长时间停机充满电，一种被称为机会充电的模式正在被越来越多运营商采用。机会充电的思路是让机器人在任务间隙，比如等待装卸货物、排队等候等碎片时间里，就近进行短时间的补电，从而避免因为集中充电而导致大量机器人同时离线、车队整体吞吐量下降的情况。从技术角度看，这种模式对电池本身的快充能力、充电桩的部署密度与调度算法提出了更高要求，需要车队管理系统能够实时判断每台机器人的电量状态、当前任务优先级，并动态规划最优的补电时机和地点。从产业背景看，随着仓储物流、制造工厂等场景中自主移动机器人部署数量快速增加，单纯依靠增加机器人数量或延长单次充电时长来提升吞吐量的做法，边际效益正在递减，运营商开始更加重视车队层面的能源调度效率，这也是机器人产业从单机性能竞争转向系统级运营效率竞争的一个体现。文章未给出具体企业案例的量化数据对比。后续需要观察更多实际部署案例中，机会充电模式相比传统充电方式在车队整体可用率上的具体提升幅度。",
-      "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "来自行业专业媒体The Robot Report的分析文章，属于行业观察性质而非单一企业数据披露",
-      "fact_status": {
-        "confirmed": [
-          "机会充电模式正被更多机器人车队运营商采用"
-        ],
-        "claims": [
-          "文章认为该模式有助于提升车队整体吞吐量和可用率"
-        ],
-        "analysis": [
-          "分析认为机器人产业竞争正从单机性能转向系统级运营效率"
-        ]
-      },
-      "source_ids": [
-        "709341967d5d3fa3"
-      ],
-      "sources": [
-        {
-          "id": "709341967d5d3fa3",
-          "source": "The Robot Report",
+          "id": "1b8601b0719fba83",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Why opportunity charging is winning as robot fleets scale",
-          "summary": "Ben Waters explains why opportunity charging is becoming essential for keeping autonomous robot fleets moving, scalable, and operationally efficient. The post Why opportunity charging is winning as robot fleets scale appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/",
-          "published_at": "2026-10-16T23:39:33+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "IEEE Spectrum本周机器人视频精选：双机器人合体实验与即将召开的学术会议",
-      "english_term": null,
-      "summary": "IEEE Spectrum发布本周机器人视频精选，展示一项双机器人物理连接合体的实验演示，并预告CoRL 2026与Humanoids 2026两场重要学术会议日程。",
-      "script": "在学术与社区动态方面，IEEE Spectrum本周发布了其固定栏目机器人视频精选，其中一项演示引发关注：来自日本JSK实验室的研究团队展示了一种让两台机器人通过物理连接线缆结合为一体的实验，演示中两台独立机器人在连接后能够协同形成新的运动形态，这类研究通常属于模块化机器人或自重构机器人方向的探索，核心思路是让多个简单单元通过物理连接组合出更复杂的整体功能，而不是依赖单一高度集成的复杂机器人本体。这类研究目前更多停留在实验室演示阶段，实际应用场景和可靠性仍需进一步验证。与此同时，该栏目也预告了两场即将举行的重要机器人学术会议：CoRL 2026，即机器人学习会议，将于11月在美国奥斯汀举行，是机器人学习与强化学习方向的重要学术平台；Humanoids 2026，也就是人形机器人国际会议，将于12月在美国圣克拉拉举行，是人形机器人领域集中展示最新研究成果的重要会议。这类周期性学术会议通常会集中发布大量关于运动控制、感知、强化学习在机器人上应用的新论文，是观察机器人学术前沿动态的重要窗口。目前关于两台机器人合体实验的具体技术论文细节、以及两场会议的具体议程尚未完全公开。后续需要关注这两场会议召开后发布的论文集和重点成果，以及JSK实验室相关研究是否会发表更完整的技术细节。",
-      "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "来自IEEE Spectrum机器人频道的常规社区栏目报道，会议信息为公开日程",
-      "fact_status": {
-        "confirmed": [
-          "IEEE Spectrum发布本周机器人视频精选",
-          "CoRL 2026将于11月在奥斯汀举行，Humanoids 2026将于12月在圣克拉拉举行"
-        ],
-        "claims": [
-          "JSK实验室展示双机器人物理连接合体实验"
-        ],
-        "analysis": [
-          "分析认为该类演示属于模块化机器人方向的早期探索"
-        ]
-      },
-      "source_ids": [
-        "20646c3aa1825595"
-      ],
-      "sources": [
-        {
-          "id": "20646c3aa1825595",
-          "source": "IEEE Spectrum Robotics",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Video Friday: When Two Robots Become One",
-          "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! When one robot loves another robot very much, and they’re connected by a wire, they can get together and make a brand new robot! SFW. [ JSK Lab ] What happens when Microducks meet? They start to sing together. Each Microduck syncs with its neighbors over Bluetooth, then they compose a song on the fly, in harmony and in perfect time. There’s no score and no conductor. Two, three, or four ducks are enough for a choir to break out. If Pollen isn’t selling Microducks in four packs for this exact reason, WHAT ARE THEY EVEN DOING!? [ Pollen ] In an internal test, Google DeepMind robotics researchers instructed Gemini 4 Argon to watch a video of a human playing cornhole. Using its video understanding and advanced reasoning capabilities, Gemini 4 built a virtual simulation in MuJoCo and accurately calculated the physics and whole-body con",
-          "url": "https://spectrum.ieee.org/video-friday-reconfigurable-robots",
-          "published_at": "2026-10-16T16:30:02+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "science",
-      "title": "NASA确认阿尔忒弥斯二号热防护系统在再入过程中表现正常",
-      "english_term": "thermal protection system（热防护系统，用于保护航天器在高速再入大气层时免受高温损害的隔热结构）",
-      "summary": "NASA公布对阿尔忒弥斯二号猎户座飞船热防护系统的分析结果，确认其在溅落前的大气层再入过程中有效保护了飞船及乘员安全。",
-      "script": "航天科学方面，NASA公布了一项关于阿尔忒弥斯二号任务的重要分析结果。阿尔忒弥斯二号飞船已于此前完成溅落，美国海军潜水员在溅落后随即对猎户座飞船的热防护系统进行了水下影像采集。热防护系统的作用是在飞船从太空高速再入地球大气层时，抵御因剧烈摩擦产生的极端高温，防止热量传导至飞船内部，从而保护乘员和关键设备的安全。NASA工程团队在随后数月里对采集到的影像和相关数据进行了系统分析，重点评估热防护系统在实际再入过程中的烧蚀情况是否符合设计预期。根据NASA公布的分析结论，此次严格评估确认了热防护系统在飞船再入大气层过程中有效保护了乘员和飞船系统的安全，相关设计经受住了真实飞行环境的检验。这一结果对于阿尔忒弥斯计划后续载人登月任务具有重要意义，因为热防护系统的可靠性是载人深空任务安全返回地球的关键环节之一，此前阿尔忒弥斯一号任务中热防护材料的烧蚀情况就曾引发工程团队的重点关注和设计调整。此次阿尔忒弥斯二号的分析结果，某种程度上是对此前改进措施有效性的一次实证检验。目前NASA尚未公布更详细的烧蚀厚度数据、具体材料性能对比等技术细节。后续需要关注NASA是否会发布完整的技术报告，以及这些数据将如何应用于阿尔忒弥斯三号载人登月任务的工程准备。",
-      "duration_seconds": 135,
-      "is_unverified": false,
-      "confidence_note": "NASA官方一手信息，属于权威机构直接发布的技术评估结论",
-      "fact_status": {
-        "confirmed": [
-          "阿尔忒弥斯二号已完成溅落",
-          "NASA确认热防护系统有效保护了乘员和飞船系统安全"
-        ],
-        "claims": [],
-        "analysis": [
-          "分析认为该结果对后续载人登月任务的安全性评估具有参考意义"
-        ]
-      },
-      "source_ids": [
-        "c39166199d7b190a"
-      ],
-      "sources": [
-        {
-          "id": "c39166199d7b190a",
-          "source": "NASA",
-          "source_tier": 1,
           "source_region": "us",
           "language": "en",
-          "category_hint": "science",
-          "title": "Artemis II Heat Shield After Splashdown",
-          "summary": "Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield. In the months after, the agency measured whether the thermal protection system effectively safeguarded the crew and Orion systems as the spacecraft reentered Earth’s atmosphere. This rigorous analysis confirmed that the […]",
-          "url": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
-          "published_at": "2026-10-16T16:28:01+00:00",
+          "category_hint": "world",
+          "title": "Student protests widen into greater social unrest in France",
+          "summary": "Hundreds of protests took place in cities across France. Most of them were peaceful but some turned chaotic and violent.",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006735/student-protests-widen-into-greater-social-unrest-in-france",
+          "published_at": "2026-10-17T21:18:52+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "73f93f2603acd918",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Parisians wake up to protest damage and looted shops",
+          "summary": "Violence broke out across France on Saturday during the latest day of demonstrations against conditions in schools and the cost of living.",
+          "url": "https://www.bbc.co.uk/news/videos/cmn5vey19q3go?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-18T10:58:39+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -422,82 +113,475 @@
     },
     {
       "category": "world",
-      "title": "法国爆发全国性抗议，黄背心运动预计加入",
+      "title": "乌克兰无人机袭击圣彼得堡，石油及数据设施受损",
       "english_term": null,
-      "summary": "法国多地爆发针对高物价与社会不平等的抗议活动，学生、工会与黄背心活动人士相继参与，当局担忧局势升级。",
-      "script": "欧洲方面，法国近期出现全国范围的抗议浪潮。已确认的事实是，抗议活动最早于九月中旬在部分学校兴起，随后逐步扩大到更广泛的社会群体，学生、工会成员以及黄背心运动活动人士相继加入其中。抗议者所表达的诉求集中在高物价和社会不平等问题上，这与黄背心运动最初兴起时的核心诉求有相似之处。法国当局已公开表示担忧，认为此轮示威活动存在演变为暴力冲突的风险，因此在多个城市加强了警力部署。目前的报道显示，抗议规模仍在持续扩大，但尚未有权威机构对参与人数、具体冲突情况给出完整统计。分析认为，此轮抗议从校园议题扩展为更广泛的社会运动，反映出法国社会在生活成本上升背景下积累的不满情绪正在寻找新的释放渠道，而黄背心运动的重新介入，也说明部分社会群体认为此前的诉求仍未得到有效回应。后续需要关注法国政府是否会出台应对高物价的具体政策回应，也需要观察周末大规模抗议是否会如当局担忧的那样出现局势升级。",
-      "duration_seconds": 100,
+      "summary": "乌克兰对俄罗斯圣彼得堡发动夜间无人机袭击，造成至少一人死亡，石油设施和一家数据中心受损；泽连斯基同时指责俄方持续违反能源停火协议。",
+      "script": "俄乌冲突的能源战线昨夜再度升级。据英国广播公司和半岛电视台报道，乌克兰对俄罗斯第二大城市圣彼得堡发动了无人机袭击，目标包括石油相关设施，以及一座为俄罗斯本土社交平台提供服务的数据中心。俄方通报称，袭击造成至少一人死亡。乌克兰总统泽连斯基在袭击后发表评论，他同时提到，俄罗斯方面在过去一夜对乌克兰境内的袭击造成两人死亡，并指责莫斯科方面持续违反此前双方达成的能源设施停火安排。这起事件需要放在俄乌冲突当前阶段的大背景下理解：双方近期围绕能源基础设施的互相打击已经成为一种常态化的消耗战术，乌克兰试图通过打击俄罗斯炼油和输电系统削弱其战争经济能力，俄罗斯则持续打击乌克兰的电力和供暖设施。已确认的事实是：圣彼得堡遭到无人机袭击，造成至少一人死亡，石油设施和数据中心受损；乌克兰境内同一夜也发生袭击导致两人死亡。各方主张层面，乌克兰方面将此类袭击定性为针对军事支持能力的精准打击，俄罗斯方面则谴责这是对民用设施的攻击。值得注意的是，泽连斯基所说的“俄方违反能源停火”目前缺乏第三方独立核实，属于乌方单方面主张。后续需要观察双方是否会就能源设施停火安排进行新一轮谈判，以及这类袭击是否会进一步升级为更大规模的基础设施战。",
+      "duration_seconds": 130,
       "is_unverified": false,
-      "confidence_note": "基于Al Jazeera与DW两家独立来源交叉确认抗议基本事实与当局担忧表态",
+      "confidence_note": "BBC与半岛电视台两家二级媒体独立报道，死伤情况基本确认；关于“俄方违反停火”的指控为乌方单方面主张，尚无独立核实。",
       "fact_status": {
         "confirmed": [
-          "法国抗议活动自九月中旬从学校兴起并扩大",
-          "黄背心运动参与其中",
-          "当局担忧局势升级"
+          "圣彼得堡遭无人机袭击，至少一人死亡",
+          "石油设施与数据中心受损",
+          "乌克兰境内同夜袭击致两人死亡"
         ],
-        "claims": [],
+        "claims": [
+          "泽连斯基指责俄罗斯违反能源停火协议"
+        ],
         "analysis": [
-          "分析认为抗议反映生活成本上升背景下的社会不满情绪"
+          "能源基础设施互袭可能成为冲突常态化消耗手段，短期内难见停火迹象"
         ]
       },
       "source_ids": [
-        "8a526ef731dbc083",
-        "f1acdf6e166e5c3e"
+        "3962faa3c0a6868d",
+        "1e31d795d8723c48"
       ],
       "sources": [
         {
-          "id": "8a526ef731dbc083",
+          "id": "3962faa3c0a6868d",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+          "summary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-18T11:57:49+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "1e31d795d8723c48",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Protests spread across France as ‘yellow vests’ set to join",
-          "summary": "Demonstrations began in mid-September at schools and have expanded, tapping into wider grievances.",
-          "url": "https://www.aljazeera.com/news/2026/10/17/france-braces-for-nationwide-protests-with-yellow-vest-members-set-to-join?traffic_source=rss",
-          "published_at": "2026-10-17T11:21:32+00:00",
+          "title": "Ukrainian drone attack on Russia’s St Petersburg kills 1, hits energy sites",
+          "summary": "Zelenskyy says Russian attacks on Ukraine overnight kill two people, adding that Moscow continues to break energy ceasefire.",
+          "url": "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
+          "published_at": "2026-10-18T10:34:09+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "德国人形机器人创始人身家暴涨，押注“人形机器人健身房”训练模式",
+      "english_term": "humanoid gym（人形机器人训练场）",
+      "summary": "据福布斯报道，一位德国人形机器人公司的创始人因公司估值飙升跻身亿万富翁行列，其核心策略是建设大规模“机器人健身房”式训练场，通过高强度物理训练数据加速模型迭代。",
+      "script": "人形机器人赛道又跑出一位新富豪。据福布斯杂志报道，一家德国人形机器人公司的创始人，因为公司估值快速攀升，已经跻身亿万富翁行列，这也被视为欧洲人形机器人产业近期资本热度的一个缩影。报道中提到，这家公司目前重金押注的一个方向，是建设所谓的“人形机器人健身房”，也就是大规模的专用物理训练场地，让机器人在其中反复进行行走、搬运、操作物体等高强度动作训练，以此产生大量真实世界的运动和力反馈数据，用来加速强化学习模型的迭代。这种思路背后的技术逻辑是，人形机器人要在非结构化的真实环境中稳定完成任务，仅靠仿真环境里的训练往往会遇到“仿真到现实的差距”问题，也就是模型在虚拟环境中表现良好，但迁移到真实硬件和真实物理环境后性能大幅下降。通过建设实体训练场，公司希望用更贴近真实世界的数据分布来弥补这种差距，提升模型的泛化能力和动作鲁棒性。从产业角度看，这类“训练场基础设施”投入体现了当前人形机器人行业的一个新趋势：竞争焦点正从单纯比拼硬件参数，转向比拼数据获取能力和训练基础设施的规模。这也和特斯拉、Figure等公司近期强调的大规模遥操作数据采集思路有相似之处，只是具体实现路径有所不同。该创始人身家暴涨反映出资本市场对人形机器人商业化前景的乐观预期，但福布斯报道本身并未披露公司具体估值数字和融资细节，公司尚未就产品量产节点、健身房训练场具体规模等问题给出完整信息。后续需要观察该公司是否会公开训练场的具体技术细节和实际训练效果数据，以及这种基础设施投入模式是否会被其他人形机器人公司效仿。",
+      "duration_seconds": 165,
+      "is_unverified": true,
+      "confidence_note": "仅有福布斯单一来源报道，具体公司名称、估值数字和融资细节在候选信息中未披露，需谨慎对待身家暴涨的具体数额。",
+      "fact_status": {
+        "confirmed": [
+          "一位德国人形机器人公司创始人因公司估值上升被福布斯列为亿万富翁",
+          "该公司正投入资源建设大规模物理训练场"
+        ],
+        "claims": [
+          "公司认为该训练模式可加速人形机器人学习迭代"
+        ],
+        "analysis": [
+          "训练基础设施投入可能成为人形机器人行业新的竞争维度"
+        ]
+      },
+      "source_ids": [
+        "b346f75e7fd95305"
+      ],
+      "sources": [
+        {
+          "id": "b346f75e7fd95305",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Germany's New Robot Billionaire Is Betting Big On Humanoid Gyms - Forbes",
+          "summary": "Germany's New Robot Billionaire Is Betting Big On Humanoid Gyms Forbes",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTV92MHJ5YS1PelZJX2p4emV4X0NQX1lNRTNlNGJ0X0ZyVDlsZVpPTk8yTDNseGN3T1RJa090RTBRT0t3Zi1GLVhJQWk2eGxHT2poRkFxX1F3SDduaXExZlFENXU1UFpHYm5qNW0tQ1BORWphaUpxRGtxR0M0SjVNa19SakNWXzdoT2s0WkFLdVM3WUxkR3A3VVBLV2FLdlVmOVRlZFFYREZJUTFoS21rUm5mREt1eW1La0E?oc=5",
+          "published_at": "2026-10-18T10:30:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "中国企业发布4米级巨型人形机器人，用途引发讨论",
+      "english_term": null,
+      "summary": "一家中国公司推出高达4米的巨型人形机器人，引发外界对其实际应用场景和技术挑战的广泛讨论，相关报道指出其设计目的尚存争议。",
+      "script": "一台体型异常高大的人形机器人最近在越南媒体平台上引发关注。报道称，一家中国公司发布了一款高度达到四米的巨型人形机器人，这个尺寸远超目前市面上主流人形机器人产品——目前行业内大多数量产或准量产的人形机器人身高集中在一米五到一米八之间，接近成年人体型，这样设计是为了更好适配为人类设计的环境，比如门框高度、楼梯台阶、工具握把尺寸等。而四米高的机器人显然超出了这个适配逻辑，报道也提出了关于其具体用途的疑问。从技术角度分析，巨型人形机器人在工程上会面临几个明显挑战：首先是重心控制和动态平衡问题，身高越高，机器人在行走和姿态调整时的转动惯量越大，对平衡控制算法和执行器响应速度的要求也越高；其次是结构强度和自重问题，材料使用量和整机重量会随体型增大而显著上升，这对关节处的驱动功率密度提出更高要求；第三是能源续航问题，更大体型通常意味着更高的能耗。这类巨型人形机器人的应用场景猜测包括展示性用途、特种作业场景（比如需要接触高处设备的工业场景），也可能是企业品牌宣传和技术展示的产物。目前关于这款机器人的具体技术参数、实际运动能力演示和明确商业化方向，报道中信息较为有限，更多细节有待官方正式公布。已确认的事实是该机器人的发布和四米的身高数据来自报道，机器人的具体应用场景和技术指标尚未得到企业官方的详细说明。后续需要等待企业公布更完整的技术参数和应用场景定位。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "仅有Vietnam.vn单一来源转载报道，公司名称、具体型号与技术参数在候选信息中缺失，需等待更多独立信源确认细节。",
+      "fact_status": {
+        "confirmed": [
+          "有中国公司发布了身高约四米的人形机器人"
+        ],
+        "claims": [
+          "报道质疑该机器人实际用途"
+        ],
+        "analysis": [
+          "超大体型人形机器人在平衡控制、结构强度和能耗方面面临显著工程挑战，实用性有待验证"
+        ]
+      },
+      "source_ids": [
+        "dc767f5a7ef13bbd"
+      ],
+      "sources": [
+        {
+          "id": "dc767f5a7ef13bbd",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "What is the purpose of the giant 4-meter-tall humanoid robot launched by the Chinese company? - Vietnam.vn",
+          "summary": "What is the purpose of the giant 4-meter-tall humanoid robot launched by the Chinese company? Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNN0t2VElEQ20ySFZTczNnTDkxQzVMb1dFRmVQNkZsSkZoRmprS1ZrVmNlcUFxcHRzV2hlaVJPenZSV3BKMF84THNELUxuN2d5ZXM0NzJzQi1Gc0NIUFJ5QjdDcy1JLUJzTmd2VWpkdGFiSHhYTmd4OG5RYW5UcUo4Z01iZlZFd25jdkVBYjB3WU1teFdQOWdteEwtVXdkQjNGdEE?oc=5",
+          "published_at": "2026-10-18T10:25:41+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "广交会聚焦智能生活与机器人板块，产业链展示升温",
+      "english_term": null,
+      "summary": "第140届中国进出口商品交易会（广交会）本届设立智能生活与机器人专题展区，反映出制造业出口链条中机器人相关产品的权重上升。",
+      "script": "作为中国历史最悠久、规模最大的综合性外贸展会之一，第一百四十届广交会本届特别将“智能生活与机器人”作为展示焦点之一，根据马来西亚媒体的报道，先进制造相关展品在本届展会中占据了相当的版面。广交会历来是观察中国制造业出口结构变化的一个窗口，机器人相关产品被单独列为重点展示方向，某种程度上反映出这类产品在中国外贸出口构成中的比重正在上升。从行业背景看，近几年中国机器人产业在工业机器人、服务机器人、消费级智能硬件等多个细分领域都保持了较快的产能扩张速度，一部分企业开始将出口作为重要的增长渠道，而广交会这样面向全球采购商的平台，自然成为这些企业对外展示产品和寻找海外订单的重要场合。报道本身属于综述性质，没有披露具体参展企业名单、产品型号或者现场达成的订单规模等细节，因此这更多是一个产业趋势的信号，而非具体的商业事件。值得补充的是，与之呼应的另一则报道显示，香港电子产品展览会秋季版同期也有消费级机器人产品亮相，一家名为Migo的机器人公司在展会上展示了面向情感陪伴场景的具身智能产品，探索人形或类人形机器人在家庭陪伴领域的消费级应用，这也是具身智能从工业和科研场景向消费市场渗透的一个缩影。整体来看，这两场展会共同指向一个趋势：机器人产品正在从相对封闭的产业链上游，向更广泛的消费端和外贸出口端扩散。后续需要观察广交会期间是否会公布具体的机器人品类出口数据或重点签约项目，以验证这一趋势的实际规模。",
+      "duration_seconds": 155,
+      "is_unverified": true,
+      "confidence_note": "两则均为综述性行业报道，缺乏具体企业、订单或产品数据，仅作为产业趋势信号参考。",
+      "fact_status": {
+        "confirmed": [
+          "第140届广交会设立智能生活与机器人专题展示",
+          "香港电子产品展览会秋季版有消费级情感陪伴机器人产品亮相"
+        ],
+        "claims": [
+          "报道认为机器人相关产品在外贸出口中权重上升"
+        ],
+        "analysis": [
+          "机器人产品正从产业链上游向消费端和出口端扩散，但具体规模数据尚未披露"
+        ]
+      },
+      "source_ids": [
+        "8e74fd88a3cab781",
+        "333e3583f0c089d9",
+        "06b031c85f34d2b5"
+      ],
+      "sources": [
+        {
+          "id": "8e74fd88a3cab781",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Advanced Manufacturing in Focus: Smart Life and Robotics Take the Spotlight at 140th Canton Fair - The Malaysian Reserve",
+          "summary": "Advanced Manufacturing in Focus: Smart Life and Robotics Take the Spotlight at 140th Canton Fair The Malaysian Reserve",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYTJUODBNR2JKc0JYSGxrS0M5TW1rVlBDVE4tR2RmZHVWa3dQZHZTUFA1aFFWY0JOME9FSG15bDNFOU5MRldJVVJBVnVqU0tSTkRrRVVwR0F6Q0hSTjdMMlpsQUl0VWJEZXBpa2VndWdjVUxTWFhwc2ozN3k3M3FLMDE5WnVaUWFHeFFGV0U1a1JaM0w4TlVsMWYtUnVRWUYtSzdVQjdxSEw0eHlxajBLMVI4enQ1SkdYSTNEbGVjb3BrMGhyenEwWGRjM1hXY2dUVFdkV3F3?oc=5",
+          "published_at": "2026-10-18T11:46:08+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "f1acdf6e166e5c3e",
-          "source": "DW Top Stories",
+          "id": "333e3583f0c089d9",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Migo Robot Debuts at Hong Kong Electronics Fair (Autumn Edition) 2026, Exploring New Consumer Applications for Embodied AI Through Emotional Companionship - The Manila Times",
+          "summary": "Migo Robot Debuts at Hong Kong Electronics Fair (Autumn Edition) 2026, Exploring New Consumer Applications for Embodied AI Through Emotional Companionship The Manila Times",
+          "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxOdGJTTjlxaG5mY2kyQWx4ZjNaSExQOXhpSmdFZUhrZ2tWLUFFOVVQcXlZVjNVdGVvMHFHdHAzeUR4MnRVTHctdlluWEwxajNOY2Q0ekpPTDl6ZEFraURsODdFS1pmdVdCWEM3X2hNZ2FYRHFCSmp1SzFfa25naHcyNWlWQ2xCcWlzdWllcWxDOFVOTDAwcTZuUDNfWk5zZm5lcTNISmpqeHlxa05zTGNHUkZNck8zZDRGY3g3WEhsRF94RWxYSHRZNmJneUZtZmhXWDhWZ1Y3VzRqR3R0RlFqNjR6WDVtU28tTnByaW5BaFJNY3poRXlPN21nSmhveW1HYnVJRjhZWFVHMXQ0ZlFZck5BXzczT1JTNUE4Rk9yN01NZVB1aXh0YkFVQVZlNjVDcnJJbjFjdUVYX2JERjExRENLQ0tzOWFvUGpBRmR4OUNOc0gya3c?oc=5",
+          "published_at": "2026-10-18T11:42:04+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "06b031c85f34d2b5",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Migo Robot Debuts at Hong Kong Electronics Fair (Autumn Edition) 2026, Exploring New Consumer Applications for Embodied AI Through Emotional Companionship - The Facts",
+          "summary": "Migo Robot Debuts at Hong Kong Electronics Fair (Autumn Edition) 2026, Exploring New Consumer Applications for Embodied AI Through Emotional Companionship The Facts",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNdTdZVEhTNE95ckJ5cGdvdkU3UzVqVVlKWWpQRGJPcFdpQUlYMHYxX0JGUGhLcDZzME1fZ3ZFZFY1bG5TMlZiUFhDQXEzbHB2MU9yVGtJbHZyRDJxSUZUOTlfNHg2RUhTcXVIQkoyLTFjT0RJdTZMSUw0VFhORzJaV2UtcDl3NTZTOG5TeGY0ek5LZHF1R0J6cjlwb2tUeUNpUmdTdUJFUTlGWDNuQXhYbTd5aW52cEpmWW5wcHRrSFF4cmxqQlFJaldacFplQkVrdml6MVhidEc3dmNqdEFEZGZaNmFNczROeTJ2d3pXTGYwbU9Ucm1Ddk1ZTGwtMjRvcXhHbnlDUURzTktIczBZ?oc=5",
+          "published_at": "2026-10-18T11:35:34+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "初创公司Aether AI提出“因果推理”机器人大脑架构",
+      "english_term": "causal reasoning（因果推理）",
+      "summary": "据Interesting Engineering报道，初创公司Aether AI正在开发一种强调因果推理而非单纯模式识别的机器人控制架构，试图让机器人理解动作与结果之间的因果关系。",
+      "script": "在机器人智能架构这条赛道上，一家名为Aether AI的初创公司提出了一个与当前主流路径有所不同的思路。根据Interesting Engineering的报道，这家公司正在开发一种强调“因果推理”的机器人大脑架构，核心理念是让机器人不仅仅学会识别模式、预测下一步最可能发生的事情，而是真正理解“如果我做了这个动作，会导致什么样的结果”这种因果链条。这和当前许多基于大规模数据训练的具身智能模型形成了一定对比。目前主流的机器人学习方法，比如模仿学习和强化学习，很大程度上依赖从海量演示数据或者试错交互中学习统计意义上的关联性，模型本质上是在拟合“在某种状态下，哪个动作历史上带来了更好的结果”这样的相关性模式，但并不一定真正建立起对物理因果机制的显式理解。这种基于相关性的方法在训练数据覆盖的场景中表现良好，但面对训练数据之外的新颖情况时，泛化能力和可解释性常常受到质疑。强调因果推理的架构，理论上希望机器人能够像人类一样，通过对物理世界因果结构的建模，更好地应对分布外的新情况，进行更可靠的规划和决策，而不只是依赖统计相似性进行“模式匹配”。这个方向在机器人学术界并非全新概念，因果推理与强化学习结合的研究路径近年来持续有探索，但报道中并未提供Aether AI具体的技术论文、实验数据或者基准测试结果，目前信息主要来自公司对外的产品和理念介绍，缺乏第三方的独立验证和同行评审。已确认的事实是该公司提出了这一技术方向并对外进行了介绍，其实际工程实现效果和具体性能指标尚未有公开的独立评测数据支持。后续需要等待该公司公布具体技术细节、实验结果，或者相关研究进入同行评审流程。",
+      "duration_seconds": 175,
+      "is_unverified": true,
+      "confidence_note": "报道来自单一科技媒体，属于公司对外理念介绍性质，缺乏公开论文、实验数据或第三方评测，需谨慎对待其技术效果的宣称。",
+      "fact_status": {
+        "confirmed": [
+          "Aether AI公司对外介绍了一种强调因果推理的机器人控制架构理念"
+        ],
+        "claims": [
+          "公司称该架构能让机器人更好理解动作与结果的因果关系，提升泛化能力"
+        ],
+        "analysis": [
+          "因果推理与强化学习结合是机器人学术界持续探索的方向，但该公司具体技术成效缺乏独立验证"
+        ]
+      },
+      "source_ids": [
+        "eb7fcb44df881982"
+      ],
+      "sources": [
+        {
+          "id": "eb7fcb44df881982",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Aether AI’s Robot Brain That Thinks in Cause and Effect - Interesting Engineering",
+          "summary": "Aether AI’s Robot Brain That Thinks in Cause and Effect Interesting Engineering",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSGVsVEY4NEJLdHVsM2JQdVhpM0NpZ0RRVmpmS0gxUFVYaDN4T2RlaUJRRmMwZzBPMzZtQnp6bFBYYjBBMklSS1Z2SUhqaWlqOXNBSXZhYW9NNmpodEQ3cVA1amhnV3Jqb0c0UVVOWkVGbjM0aDFDS1hqVjhkS0QwdWFmcDg0YTZBZHQ3S19FTUI5ZlhRREJmeWFiazk?oc=5",
+          "published_at": "2026-10-18T11:01:35+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "ADI白皮书探讨“物理AI”从实验室走向量产的挑战",
+      "english_term": "physical AI（物理人工智能）",
+      "summary": "半导体公司ADI（Analog Devices）发布白皮书，分析了将“物理AI”从实验室研发阶段推向工业量产机械的关键挑战与机遇，涉及感知、执行器和系统集成等层面。",
+      "script": "除了整机企业，机器人产业链上游的半导体和传感器公司也在密切关注具身智能的产业化进程。据The Robot Report报道，模拟芯片巨头ADI，也就是Analog Devices，发布了一份新白皮书，专门探讨将“物理AI”从实验室环境推向实际生产机械的过程中所面临的挑战与机遇。所谓物理AI，指的是能够感知、理解并直接作用于真实物理世界的人工智能系统，这和纯粹处理文本、图像等数字信息的AI系统有本质区别，因为它必须应对真实世界中传感器噪声、执行机构的非线性特性、环境不确定性等一系列工程难题。白皮书从半导体供应商的视角出发，报告重点关注的内容包括高精度传感技术、实时信号处理能力，以及如何在边缘设备上实现低延迟的感知与控制闭环，这些都是让AI模型真正驱动物理机械稳定运行的底层基础设施。对于机器人产业而言，上游芯片和传感器厂商的表态具有一定的风向标意义，因为无论是人形机器人的关节控制，还是工业机械臂的力矩反馈系统，最终都要依赖高质量的传感器数据采集和芯片级的实时处理能力，这类基础硬件的成熟度直接制约着上层AI模型能发挥的实际效果。不过这份白皮书的具体技术指标、ADI在其中主推的产品线细节，在现有报道中并未充分披露，内容更偏向行业趋势分析和市场定位陈述，而非具体的新产品发布。已确认的事实是ADI确实发布了这样一份关于物理AI产业化挑战的白皮书，具体技术细节和市场预测数据有待查阅原文获取。后续需要关注ADI是否会推出针对性的具体产品或解决方案来落地白皮书中提出的方向。",
+      "duration_seconds": 165,
+      "is_unverified": false,
+      "confidence_note": "源自专业机器人媒体The Robot Report对ADI官方白皮书的报道，属于企业官方一手信息，但具体技术参数未在候选摘要中充分披露。",
+      "fact_status": {
+        "confirmed": [
+          "ADI发布了关于物理AI产业化挑战的白皮书"
+        ],
+        "claims": [
+          "白皮书认为传感、实时处理等基础硬件是物理AI落地的关键瓶颈"
+        ],
+        "analysis": [
+          "上游半导体厂商的产业布局可能反映机器人产业链对底层硬件成熟度的持续需求"
+        ]
+      },
+      "source_ids": [
+        "b1f648d13a368ea6"
+      ],
+      "sources": [
+        {
+          "id": "b1f648d13a368ea6",
+          "source": "The Robot Report",
           "source_tier": 2,
-          "source_region": "eu",
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "ADI explains the race to make AI physical",
+          "summary": "A new ADI whitepaper examines the challenges and opportunities in moving physical AI out of labs into production machinery. The post ADI explains the race to make AI physical appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/adi-explains-the-race-to-make-ai-physical/",
+          "published_at": "2026-10-17T21:33:57+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "教皇利奥十四世肺癌手术后首次公开露面",
+      "english_term": null,
+      "summary": "教皇利奥十四世在接受肺癌手术并切除右肺下叶后出院，并在首次公开活动中于宗座宫阳台诵读三钟经，感谢公众的祝福。",
+      "script": "梵蒂冈方面传来消息，教皇利奥十四世在接受肺癌手术后首次公开露面。据英国广播公司和美国国家公共电台报道，教皇此前被诊断出患有肺癌，并接受了手术，手术切除了他右肺的下叶。术后数天，他已经从罗马的杰梅利医院出院，并在周六的公开活动中，从宗座宫的阳台上诵读了天主教传统的三钟经祷文，向关心他健康状况的公众表达感谢。这是教皇确诊并接受手术以来的首次公开活动，对于梵蒂冈和全球天主教信众来说，这次露面传递出教皇恢复状况良好的信号。报道还提到，教皇目前的日程安排中，原定于十一月前往拉丁美洲的访问计划暂时维持不变，这也从侧面说明医疗团队对他术后恢复情况持相对乐观的判断。已确认的事实包括教皇确诊肺癌、接受了肺叶切除手术、已经出院并公开露面诵读祷文。至于十一月的拉美访问计划是否会如期进行，目前仍然是按原计划安排，但以教皇的术后恢复情况为前提，具体是否成行有待梵蒂冈方面进一步确认。后续需要关注教皇的术后恢复进展，以及十一月拉美行程是否会有调整。",
+      "duration_seconds": 105,
+      "is_unverified": false,
+      "confidence_note": "BBC与NPR两家独立二级媒体均有报道，事实确认度较高。",
+      "fact_status": {
+        "confirmed": [
+          "教皇利奥十四世接受肺癌手术并切除右肺下叶",
+          "已出院并公开诵读三钟经"
+        ],
+        "claims": [],
+        "analysis": [
+          "公开露面被视为术后恢复良好的信号，但十一月拉美行程能否如期进行仍待确认"
+        ]
+      },
+      "source_ids": [
+        "18879ce701c7c642",
+        "fb3d10cab34439ac"
+      ],
+      "sources": [
+        {
+          "id": "18879ce701c7c642",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "France braces for nationwide protests",
-          "summary": "Students, trade unionists and Yellow Vest activists are taking to French streets to protest high prices and inequality. Authorities say they fear the rallies could turn violent.",
-          "url": "https://www.dw.com/en/france-braces-for-nationwide-protests/a-79685584?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-17T08:02:00+00:00",
+          "title": "Pope Leo XIV thanks wellwishers in first event after cancer surgery",
+          "summary": "The Pope's first event since his lung cancer diagnosis and surgery saw him recite the traditional Angelus prayer from the balcony of the Apostolic Palace.",
+          "url": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-18T11:09:32+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "fb3d10cab34439ac",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Pope Leo XIV leaves hospital days after lung cancer surgery",
+          "summary": "The Pope left Rome's Gemelli Hospital Saturday, days after surgery for lung cancer removed the lower lobe of his right lung. He is currently scheduled to travel to Latin America in November.",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006762/pope-leo-xiv-leaves-hospital-days-after-lung-cancer-surgery",
+          "published_at": "2026-10-17T15:10:14+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "加拿大阿尔伯塔省军事基地发生重大火灾，有人员伤亡",
+      "english_term": null,
+      "summary": "加拿大韦恩赖特军事基地发生重大火灾事件，造成人员死伤，官方尚未公布具体死亡人数或起火原因，现场情况被官员形容为“高度活跃且敏感”。",
+      "script": "加拿大传来一则仍在发展中的突发消息。据英国广播公司和美国国家公共电台报道，加拿大阿尔伯塔省的韦恩赖特军事基地发生了一起重大事件，并引发大火，造成人员死亡和受伤。加拿大国防部长在周六证实了这起事件，但截至目前，官方尚未公布具体的死亡人数、受伤人数，也没有说明起火或事件发生的原因。官员将现场情况形容为“高度活跃且情况敏感”，这种措辞通常意味着救援或调查工作仍在进行中，官方出于安全和信息准确性的考虑，暂不公布更多细节。由于信息有限，目前无法判断这起事件是意外事故、训练事故还是其他性质的事件。已确认的事实是：加拿大韦恩赖特军事基地发生重大火灾，已造成人员死伤，加拿大国防部长已就此事做出公开表态确认事件发生。各方主张层面，目前没有任何一方对事件原因做出正式定性或推测性说明，官方表态非常谨慎。后续需要等待加拿大国防部或当地警方公布完整的伤亡人数、事件原因调查结果。",
+      "duration_seconds": 100,
+      "is_unverified": true,
+      "confidence_note": "BBC与NPR两家独立媒体均有报道，事件发生和人员伤亡基本确认，但死亡人数、受伤人数及起火原因官方尚未公布，细节有限。",
+      "fact_status": {
+        "confirmed": [
+          "加拿大韦恩赖特军事基地发生重大火灾",
+          "已造成人员死伤",
+          "加拿大国防部长已公开证实事件"
+        ],
+        "claims": [],
+        "analysis": [
+          "官方信息披露有限，事件原因和完整伤亡情况有待进一步调查公布"
+        ]
+      },
+      "source_ids": [
+        "112084795036a3e8",
+        "bfdccf65cb8bc9be"
+      ],
+      "sources": [
+        {
+          "id": "112084795036a3e8",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Several dead or injured in major fire at Canada military base",
+          "summary": "Officials have not given a cause or death toll, citing the \"very active and delicate\" situation at Canadian Forces Base Wainwright.",
+          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-18T08:52:41+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "bfdccf65cb8bc9be",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Major fire breaks out in Alberta after deadly incident at military base",
+          "summary": "Canada's defense minister said Saturday that people were killed and injured in an incident at a military base in Alberta that caused a major fire.",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
+          "published_at": "2026-10-18T07:56:08+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "sports",
+      "title": "巴勒斯坦空手道选手玛利亚姆·布沙拉特夺得世锦赛第二枚金牌",
+      "english_term": null,
+      "summary": "巴勒斯坦空手道运动员玛利亚姆·布沙拉特在波兰举行的世界空手道锦标赛中再度夺冠，这是她个人第二次获得世界冠军头衔。",
+      "script": "体育新闻方面，一则来自波兰的消息传递出一些积极的色彩。据半岛电视台报道，巴勒斯坦空手道运动员玛利亚姆·布沙拉特在世界空手道锦标赛上再次夺得金牌，这是她个人职业生涯中第二次获得世界冠军头衔。对于巴勒斯坦体育界而言，在当前复杂的地区局势背景下，运动员能够在国际赛场上持续取得优异成绩，具有超出体育本身的象征意义，也让更多人关注到巴勒斯坦运动员在艰难环境下坚持训练和参赛的故事。报道中并未透露更多关于本次比赛具体级别、对手情况以及夺冠过程的细节，信息相对简要。已确认的事实是布沙拉特在本届世界空手道锦标赛中夺得金牌，这是她个人第二枚世锦赛金牌。后续如果有更详细的比赛报道或者选手本人的采访内容，可以进一步了解她的训练背景和夺冠历程。",
+      "duration_seconds": 80,
+      "is_unverified": false,
+      "confidence_note": "半岛电视台独立报道，事实简要但来源可靠。",
+      "fact_status": {
+        "confirmed": [
+          "玛利亚姆·布沙拉特在世界空手道锦标赛夺得金牌，为个人第二枚世锦赛金牌"
+        ],
+        "claims": [],
+        "analysis": []
+      },
+      "source_ids": [
+        "3fb3c54f01dc5c59"
+      ],
+      "sources": [
+        {
+          "id": "3fb3c54f01dc5c59",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Palestinian karate champion Maryam Bsharat wins second world title",
+          "summary": "Palestinian athlete Maryam Bsharat won gold at the World Karate Championships in Poland.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/palestinian-karate-champion-maryam-bsharat-wins-second-world-title?traffic_source=rss",
+          "published_at": "2026-10-18T10:47:59+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的早报就到这里。俄乌局势与制裁博弈、法国与印度的街头抗议仍在发展中，机器人产业从建筑工地到山地科考的场景拓展也值得持续关注，后续需要等待更多官方细节与同行评审结果的公布。",
-  "editor_note": "机器人部分共选取5条，时长合计约840秒，占全部事件总时长约63%，略高于建议区间上限，主要因本期机器人产业与学术候选信息相对丰富且国际政治事件需要保留充分篇幅解释事实与各方主张；为保证总时长落在区间内，对部分非机器人类重点事件做了精简处理。多条机器人类消息（Promise Robotics协议、DEEP Robotics科考、脑电研究）来自discovery_only性质的行业检索结果，缺乏第二独立来源交叉确认，已统一标记is_unverified并说明证据局限。",
+  "closing": "今天的内容就到这里。巴黎街头的骚乱、俄乌围绕能源设施的持续互袭仍在发展，机器人产业一边在广交会和消费电子展上向市场渗透，一边在实验室和芯片厂商的白皮书里探索更底层的技术路径，这些线索值得继续跟踪后续的官方信息和正式数据发布。",
+  "editor_note": "本期机器人板块共5条入选，时长占比约48%，符合45%-55%区间要求。多条机器人类候选（Aether AI因果推理架构、4米人形机器人、德国人形机器人富豪、广交会机器人展示）均仅有单一或同源报道支撑，已标记is_unverified并在confidence_note中说明证据有限，相关具体技术参数、公司名称、估值数据在原始候选摘要中缺失，未做任何编造补充。国际新闻部分法国骚乱事件有五个独立来源交叉确认，可信度较高；加拿大军事基地火灾因官方信息有限标记为未完全确认。因候选中缺乏金融、医疗类高质量事件，本期未纳入对应类别内容。",
   "model": "claude-sonnet-5",
+  "generation_usage": [
+    {
+      "input_tokens": 7861,
+      "output_tokens": 10538,
+      "total_tokens": 18399
+    },
+    {
+      "input_tokens": 12371,
+      "output_tokens": 10051,
+      "total_tokens": 22422
+    }
+  ],
   "usage": {
-    "input_tokens": 8773,
-    "output_tokens": 9816,
-    "total_tokens": 18589
+    "total_tokens": 40821,
+    "output_tokens": 20589,
+    "input_tokens": 20232
   },
-  "generated_at": "2026-10-17T12:11:29+00:00",
-  "window_start": "2026-10-16T12:11:29+00:00",
-  "candidate_count": 179,
+  "generated_at": "2026-10-18T12:11:18+00:00",
+  "window_start": "2026-10-17T12:11:18+00:00",
+  "candidate_count": 165,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
+    "Federal Reserve Press Releases: HTTPError: HTTP Error 404: Not Found",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
+  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1295,
-    "script_characters": 5057,
-    "topic_duration_share": 0.56,
+    "duration_seconds": 1375,
+    "script_characters": 5346,
+    "topic_duration_share": 0.589,
     "passed": true,
-    "normal_target_met": true,
-    "topic_source_count": 3,
+    "normal_target_met": false,
+    "topic_source_count": 2,
     "issues": []
   }
 }
