@@ -1,111 +1,335 @@
 {
-  "title": "晶球电台早报：巴黎骚乱持续发酵，德国人形机器人迎来新“首富”",
-  "subtitle": "法国抗议演变为骚乱，俄乌能源设施互袭，机器人产业从展会到实验室全线更新",
+  "title": "晶球电台早报：机器人学术井喷与多国政局动荡并行",
+  "subtitle": "从肌肉细胞机器鱼到GPT-6-Astra具身智能争论，巴西大选、意大利骚乱与乌克兰局势同步聚焦",
   "highlights": [
-    "法国全国性抗议演变为骚乱与抢劫，超1800人被捕",
-    "乌克兰无人机袭击圣彼得堡石油设施及数据中心，造成人员死亡",
-    "德国人形机器人公司创始人身家暴涨成为行业新焦点，押注“人形机器人健身房”训练模式",
-    "中国4米级巨型人形机器人亮相，用途引发讨论；广交会机器人板块受关注"
+    "arXiv当日集中放出多篇机器人学习与VLA（视觉-语言-动作模型）论文，覆盖探索学习、长时序记忆与具身智能争论",
+    "MIT用活体肌肉细胞驱动的纸片状生物混合机器鱼在Robohub获报道",
+    "巴西大选决选前抹黑升温，意大利罗马骚乱后梅洛尼紧急开会，乌克兰与俄罗斯继续互相空袭"
   ],
   "stories": [
     {
-      "category": "world",
-      "title": "法国抗议演变为骚乱，逾1800人被捕",
-      "english_term": null,
-      "summary": "法国各地因生活成本和教育条件问题爆发的全国性抗议，在周六演变为纵火、打砸抢和与警方冲突，超过1800人被捕，利摩日历史悠久的市政厅遭损毁。",
-      "script": "法国这个周末并不平静。连续的抗议活动，起因是民众对生活成本上涨和学校教育条件恶化的不满，演变成了全国多个城市的骚乱。据法国警方通报，至少有一千八百人被逮捕，这是近年来法国国内骚乱规模较大的一次。根据英国广播公司和法国新闻通讯社的现场报道，巴黎街头出现了被烧毁的汽车和满地的碎玻璃，不少商铺遭到洗劫。而在利摩日，一座历史悠久的市政厅建筑也在骚乱中被损毁，这栋建筑本身具有相当的文化和历史价值，损失引发了法国国内的广泛关注和惋惜。根据德国之声的报道，这轮示威活动本身规模浩大，参与人数达到数十万级别，大部分抗议是和平进行的，诉求集中在物价上涨、教育资源不足等民生议题上。但其中一部分人群在夜间转向了暴力行为，包括纵火、打砸商店和与警方发生肢体冲突。美国国家公共电台的报道也提到，这场由学生抗议发端的社会运动，已经扩散成更广泛的社会不满情绪的集中释放。目前法国官方尚未就骚乱的具体组织者、后续追责方式给出完整说明，巴黎当地商户正在评估财产损失。已确认的事实是：全国性抗议活动确实发生，警方逮捕人数超过一千八百人，利摩日市政厅等公共设施遭到破坏。各方主张方面，法国政府将暴力行为定性为对合法抗议的破坏，部分社会团体则认为政府对民生问题的回应不足是骚乱的根本原因。后续需要等待法国内政部公布完整的财产损失评估和被捕人员的司法处理结果，也需要观察这轮社会情绪是否会演变为更长期的政治压力。",
-      "duration_seconds": 150,
-      "is_unverified": false,
-      "confidence_note": "多家二级媒体（BBC、DW、NPR）独立报道，事实基本确认；骚乱后续发展与成因分析仍在持续。",
+      "category": "robotics",
+      "title": "GPT-6-Astra是否真正实现了具身智能？一篇评测报告引发争论",
+      "english_term": "embodied intelligence（具身智能，指智能体通过物理身体与环境交互获得的感知与行动能力）",
+      "summary": "一份新报告对通用大模型GPT-6-Astra在12个机器人操作与导航基准上的表现做了大规模评测，并讨论这是否意味着专用机器人模型范式的终结。",
+      "script": "我们先来看一篇引发学术圈热议的报告，标题直接发问：GPT-6-Astra，到底有没有实现具身智能？所谓具身智能，指的是智能体不是只在屏幕里对话，而是要通过真实或仿真的身体，去感知环境、做出动作、完成任务。过去机器人学界的主流做法，是针对每一种任务、每一种机器人本体，单独训练一个专用模型，比如专门抓取的模型、专门导航的模型。这篇报告的研究者们提出的问题是，如果一个通用的大模型本身就能具备不错的操作和导航能力，那专用模型这条路是不是还有必要坚持。他们的方法是对GPT-6-Astra做一次大规模、系统性的基准评测，覆盖了十二个具有代表性的测试集，内容跨越桌面操作、也就是抓取和摆放物体，以及移动导航等多种任务和多种机器人本体。报告的思路不只是跑分，而是试图刻画这个模型能力的边界在哪里：哪些任务它能做得和专用模型接近，哪些任务仍然明显落后。目前公开的摘要信息显示，研究团队既评测了GPT-6-Astra单独使用时的表现，也在探讨它的能力对整个机器人学领域意味着什么，包括是否会改变未来模型训练和部署的范式。需要说明的是，这是一篇新上线的预印本，尚未经过同行评审，论文里提到的具体数字和结论目前还不能视为学界定论，评测基准的选择、对比的专用模型版本等细节，都可能影响结果的解读。这类“通用大模型挑战专用机器人模型”的讨论在过去两年并不新鲜，但把GPT-6-Astra放到十二个基准上做系统横评，规模相对少见，因此值得持续关注。后续需要等待论文的同行评审结果，以及是否有其他独立团队用不同基准复现或反驳这一评测结论。",
+      "duration_seconds": 170,
+      "is_unverified": true,
+      "confidence_note": "基于arXiv预印本摘要，未经同行评审，具体评测数字和结论存在不确定性，需等待后续评审与独立复现。",
       "fact_status": {
         "confirmed": [
-          "法国全国性抗议演变为骚乱",
-          "超过1800人被捕",
-          "利摩日市政厅遭损毁"
+          "一篇名为《Has GPT-6-Astra Achieved Embodied Intelligence?》的论文已在arXiv发布，对该模型做了12个基准的评测"
         ],
         "claims": [
-          "法国政府将暴力定性为对合法抗议权利的破坏",
-          "部分团体认为政府民生政策回应不足"
+          "论文作者认为该模型的表现对是否需要专用机器人模型范式提出了挑战"
         ],
         "analysis": [
-          "骚乱可能加剧法国国内政治张力，后续走向需观察政府应对措施"
+          "评测结果的学术价值和外推性仍需同行评审确认"
         ]
       },
       "source_ids": [
-        "ca8b3e417e071692",
-        "deebc8ec0fa80cd7",
-        "74d1b691bcba4fee",
-        "1b8601b0719fba83",
-        "73f93f2603acd918"
+        "fc7b554cda263a79"
       ],
       "sources": [
         {
-          "id": "ca8b3e417e071692",
+          "id": "fc7b554cda263a79",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+          "summary": "arXiv:2610.22471v1 Announce Type: new Abstract: GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative benchmarks spanning tabletop manipulation, humanoids, mobile platforms, and dexterous hands. Under a unified protocol that allows in-context learning (ICL) from training-set demonstrations and substantially increases the number of execution steps, GPT-6-Astra achieves unprecedented performance (Fig. 1). Future research may focus on improving 1) the generality of ICL 2) cost and execution time, 3) physical-state verification, 4) recovery from irreversible failures, and 5) long-horizon preservation of progress. Second, we study the agentic harness for embodied control. We identify that close-loop coordination between a high-level \"System 2\" reasoner (i.e., GPT-6-Astra) and a low-level \"System 1\" controller (e.g., {\\pi}0.5) is",
+          "url": "https://arxiv.org/abs/2610.22471",
+          "published_at": "2026-10-19T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "让机器人自己去探索：RAX开源框架尝试突破模仿学习的天花板",
+      "english_term": "imitation learning（模仿学习，指让机器人通过模仿人类示范数据来学习动作策略）",
+      "summary": "一篇新论文提出名为RAX的开源机器人探索框架，希望让机器人摆脱对人工遥操作数据集的依赖，实现持续自我提升。",
+      "script": "机器人学习领域这些年进步很快，很大程度上是靠两件事堆出来的，一是更大规模的示范数据集，二是更大的模型容量。但这篇论文点出了一个现实问题：每当你想换一个新的机器人本体，或者换一个新任务，往往都得重新收集一套专门的人工遥操作数据，也就是人在后面手把手教机器人怎么做。这种模仿学习的方式，让机器人学到的策略始终被示范数据的分布框死，泛化能力和持续自我提升的空间都很有限。针对这个瓶颈，研究团队提出了一个名为RAX，全称Robot Agent eXploration（机器人智能体探索）的开源框架。它的核心思路是把重点从“扩大示范数据规模”转向“扩大在线探索的规模”，也就是让机器人智能体在没有人工示范的情况下，自己去尝试、去试错、去积累经验，并借助这些自主探索获得的数据持续改进策略。这种方法论上的转向，呼应了强化学习里一个老话题：当模仿学习的数据见顶时，探索能够带来新的信息增量。论文摘要没有给出具体的实验成功率等数字，但框架开源这一点本身比较重要，意味着其他实验室可以直接复用这套探索机制，去验证它在不同机器人本体和任务上的效果，而不需要每次都从零搭建探索管线。这类框架类工作的价值往往不在于论文本身的单次实验结果，而在于后续社区是否愿意采纳、扩展和对比。目前这仍是一篇未经同行评审的预印本，具体探索效率、安全性保障以及在真实机器人上的落地效果，都还有待后续工作验证。后续需要关注该框架在更多机器人本体和任务上的开源复现情况。",
+      "duration_seconds": 155,
+      "is_unverified": true,
+      "confidence_note": "基于arXiv预印本摘要，框架细节与实验数据有限，评审状态未知。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了名为RAX的开源机器人探索框架"
+        ],
+        "claims": [
+          "作者认为扩大在线探索规模有助于突破模仿学习的泛化瓶颈"
+        ],
+        "analysis": [
+          "框架的实际效果和适用范围需要更多复现实验验证"
+        ]
+      },
+      "source_ids": [
+        "790121220b2712d5"
+      ],
+      "sources": [
+        {
+          "id": "790121220b2712d5",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Scaling Online Exploration for Robot Agents",
+          "summary": "arXiv:2610.22496v1 Announce Type: new Abstract: Robot learning has advanced by scaling demonstration datasets and model capacity; however, deploying a new robot embodiment or task typically necessitates a dedicated teleoperation corpus. The resulting policies remain bounded by their imitation distributions, limiting generalization and continual self-improvement. We introduce RAX (Robot Agent eXploration), an open-source framework for robot agents centered on scaling exploration: enabling agents to improve by acquiring online experience and synthesizing executable programs. In RAX, a general-purpose coding agent generates robot control code, operating without action demonstration data, hand-engineered action primitives, or value-function guidance. Through online exploration, the agent identifies decision sequences that achieve task goals and compiles them into modular programs encapsulating the full perception-planning-control loop. Using RAX, we present a systematic multi-embodiment study on scaling online exploration across precision and long-horizon manipulation tasks using single-arm, bimanual, dexterous, mobile, and humanoid systems in simulation and on real robots. Generalizat",
+          "url": "https://arxiv.org/abs/2610.22496",
+          "published_at": "2026-10-19T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "用活体肌肉细胞驱动的纸片机器鱼，MIT展示生物混合机器人新思路",
+      "english_term": "biohybrid robot（生物混合机器人，指结合活体生物组织与人工材料共同驱动的机器人）",
+      "summary": "MIT工程师展示了一种由培养肌肉细胞驱动、形态仅有纸片厚度的小型机器鱼，可在迷宫式水道中游动。",
+      "script": "来看一条偏基础研究方向的机器人消息。MIT的工程师团队做出了一种形态非常特别的小机器人：整体厚度只有纸片那么薄，靠培养出来的活体肌肉细胞收缩来驱动身体摆动，从而在水中像鱼一样游动，还能穿过设计好的迷宫式水道。这类机器人属于生物混合机器人，顾名思义，就是把活的生物组织和人工制造的结构材料结合在一起，用生物组织自身的收缩特性去替代传统的马达或者气动执行器。为什么要这么做？传统的小型机器人驱动，往往依赖电机、电池或者气压系统，这些部件在微缩到厘米甚至毫米级别时，效率和可靠性都会打折扣。而肌肉细胞这种天然的驱动单元，在微观尺度上天生擅长产生持续、柔顺的收缩力，如果能够可控地培养、附着在人工薄膜骨架上，就有可能做出结构更简单、能耗更低的微型游动机器人。从报道描述看，这款机器鱼的外形被设计成接近纸片的平面结构，核心思路是通过优化骨架形状和肌肉细胞的排布方式，让细胞的收缩转化为身体的有效摆动，从而推动整体前进，并且在实验中演示了它能够在设计好的水道迷宫里游动穿行，而不仅仅是原地抖动。这类生物混合小型机器人的潜在应用，一般被设想在水下微操作、环境监测或者生物医学探测等场景，但从实验室演示到真正可用，还有很长距离，比如肌肉细胞的存活时间、能否批量一致地制造、在复杂环境中的鲁棒性等，都是现实的工程问题。目前这项工作以Robohub的科普报道形式呈现，具体论文细节、实验条件和量化指标还需要查阅原始科研论文来核实。后续需要关注该团队是否发布完整论文及同行评审结果。",
+      "duration_seconds": 160,
+      "is_unverified": true,
+      "confidence_note": "来自Robohub的科普报道，属于对MIT研究的二手转述，具体论文出处及评审状态未在候选信息中明确说明。",
+      "fact_status": {
+        "confirmed": [
+          "Robohub报道了MIT团队展示的一种由肌肉细胞驱动的纸片状水下机器人"
+        ],
+        "claims": [
+          "报道称该机器人能够在水道迷宫中游动"
+        ],
+        "analysis": [
+          "该生物混合驱动方式若得到验证，可能为微型水下机器人提供新的驱动思路，但距实际应用仍有距离"
+        ]
+      },
+      "source_ids": [
+        "09e040969bdc8f28"
+      ],
+      "sources": [
+        {
+          "id": "09e040969bdc8f28",
+          "source": "Robohub",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Powered by muscle cells, a paper-thin robot swims through watery maze",
+          "summary": "MIT engineers’ new aquabot offers a way to design small, efficient “biohybrid” robots.",
+          "url": "https://robohub.org/powered-by-muscle-cells-a-paper-thin-robot-swims-through-watery-maze/",
+          "published_at": "2026-10-19T07:07:59+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "RoboBusiness 2026即将召开，行业展会聚焦产业化落地",
+      "english_term": null,
+      "summary": "The Robot Report发布了RoboBusiness 2026展会的完整导览，这是北美机器人产业界的重要年度活动之一。",
+      "script": "产业方面，专业媒体The Robot Report发布了一份关于RoboBusiness 2026展会的完整导览文章，为即将举行的这场北美机器人产业界年度盛会做预热。RoboBusiness是面向商业化机器人应用的重要展会，往年聚集了大量工业机器人、服务机器人、移动机器人以及机器人核心零部件企业，是观察机器人产业落地节奏的一个重要窗口，比如新产品发布、新一轮量产进展、机器人企业之间的合作等，都经常选择在这类展会上集中亮相。从目前公开的信息看，这是一篇导览性质的综述文章，具体列出了哪些公司参展、有哪些新品首发，候选信息里并未展开详细说明，需要等正式报道陆续出炉后才能看到更具体的产业动态，比如哪些人形机器人公司会展示新一代产品，哪些移动机器人厂商会发布新的量产计划。与此同时，机器人产业界的另一个动向也值得一提：据报道，有一个美国代表团近期在考察中国蓬勃发展的机器人产业，探索双方潜在的合作空间，这类跨国产业交流通常涉及供应链、技术合作或者投资层面的接触，但目前公开信息比较简略，没有具体披露涉及哪些企业、合作意向处于什么阶段。整体来看，这两条消息都属于行业风向标性质的报道，具体的实质性进展，比如展会上究竟发布了哪些新产品、代表团考察是否促成了具体合作，都需要等待后续更详细的报道来确认。后续需要关注RoboBusiness展会期间陆续发布的具体企业动态，以及中美机器人产业合作接触的下一步进展。",
+      "duration_seconds": 155,
+      "is_unverified": true,
+      "confidence_note": "两条均为导览性或简讯性报道，缺乏具体细节，标记为热点线索待确认。",
+      "fact_status": {
+        "confirmed": [
+          "The Robot Report发布了RoboBusiness 2026展会的导览文章",
+          "有报道称一个美国代表团在考察中国机器人产业"
+        ],
+        "claims": [
+          "报道暗示双方在探索潜在合作"
+        ],
+        "analysis": [
+          "具体合作内容和展会亮点需要后续更详细报道确认"
+        ]
+      },
+      "source_ids": [
+        "821779a5b281666e",
+        "bd922c3eb1ebfe1f"
+      ],
+      "sources": [
+        {
+          "id": "821779a5b281666e",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "A guide to everything happening at RoboBusiness 2026 - The Robot Report",
+          "summary": "A guide to everything happening at RoboBusiness 2026 The Robot Report",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdUh5Y0s5VzB1M0FtcTQxNzdnaVN1TVZuUWo4WUV0cDhZSGU4VnR4TlpjcUt6NzFBSWlvN01PUzFuWjRlb3g3MzlVVV9sc09jVkhYajF5dkpIUFlvaUpBc184TXdIWlhQRlNDUDk2d0lsNW5ibk5aa3E0amc1LXRBMDczdHQwRjg1cm9wLQ?oc=5",
+          "published_at": "2026-10-19T12:03:50+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "bd922c3eb1ebfe1f",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "US delegation explores partnership in China's thriving robot sector - 巴士的報",
+          "summary": "US delegation explores partnership in China's thriving robot sector 巴士的報",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMWJ5aVRHN3JYTHdBdkp3aXA5eVhvVkhfeWFMZnFLMHViUUxWcnU2QlQ5cWVpX1NqWlM1Tmw4U2V2RThCT212MlNJNVRaSWw5TFRBaWhGcUtHWF91VWhGS0ZrcjZUdjJMVk9UcWxWY19DWVFWS3dNcEdjSTllY3J5NWw2cWZIMEkyeEZ4REdhUHFtUm83eEp6YkxyOVcxYVlxaEFUQVd4ZnNwUE0yX2E5UjRwUkRvTzk0bHc?oc=5",
+          "published_at": "2026-10-19T11:50:09+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "巴西大选决选前夕，左右两派阵营互相攻击升温",
+      "english_term": null,
+      "summary": "巴西左翼现任总统与右翼挑战者之间的决选在即，双方近期的人身攻击式言辞明显增多。",
+      "script": "国际政治方面，巴西即将迎来总统大选的决选投票，候选人是左翼现任总统和一位右翼挑战者。据报道，随着投票日临近，双方的竞选言辞已经从政策分歧转向更为直接的人身攻击，选战气氛明显升温。已经确认的事实是，巴西大选决选将在现任左翼总统与右翼挑战者之间进行，投票日期临近，双方阵营都在加大宣传和攻势力度。各方主张方面，报道提到双方阵营互相指责对方人格或过往行为，具体攻击内容和细节，候选信息中没有展开。分析判断上，巴西作为拉美最大经济体，其大选结果不仅关系国内经济政策走向，也会对地区政治格局产生外溢影响，当选举进入人身攻击阶段，往往意味着选情胶着、双方都在争夺摇摆选民，这也可能进一步加剧社会分裂和选后对立。巴西近些年的政治极化一直是观察拉美政治的重要样本，此次决选被认为悬念较大。目前公开信息主要来自英国广播公司的报道，内容偏重描述选战气氛，尚未涉及具体民调数字或双方最新支持率，这些细节有待决选结果公布前后的进一步报道。后续需要关注决选投票结果以及选后巴西国内的政治稳定情况。",
+      "duration_seconds": 110,
+      "is_unverified": false,
+      "confidence_note": "来自BBC的二级来源报道，内容较为概括，具体细节有限。",
+      "fact_status": {
+        "confirmed": [
+          "巴西大选决选即将在左翼现任总统与右翼挑战者之间举行"
+        ],
+        "claims": [
+          "报道称双方近期互相人身攻击式言辞增多"
+        ],
+        "analysis": [
+          "选情激烈程度和选后局势仍需等待投票结果确认"
+        ]
+      },
+      "source_ids": [
+        "7cce03f34ad9a9f7"
+      ],
+      "sources": [
+        {
+          "id": "7cce03f34ad9a9f7",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
-          "summary": "Around 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism.",
-          "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-18T12:07:31+00:00",
+          "title": "Personal attacks fire up debate before Brazil's run-off vote",
+          "summary": "The race heats up just days before the run-off between the left-wing incumbent and his right-wing challenger.",
+          "url": "https://www.bbc.co.uk/news/articles/ck98zlzyqle3o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-19T11:41:24+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "意大利骚乱后梅洛尼召开紧急会议，乌克兰与俄罗斯继续互相打击",
+      "english_term": null,
+      "summary": "意大利经历周末大规模骚乱后，总理梅洛尼召开紧急会议；乌克兰对俄发动大规模无人机袭击，俄方周末对乌发动致命打击。",
+      "script": "再看两条关系密切的国际局势消息。第一条，意大利方面，据英国广播公司报道，该国经历了两天的骚乱之后，意大利媒体报道称已有超过两百人被拘留，总理梅洛尼将就此召开紧急会议商讨应对。已确认的事实是骚乱发生在周末，拘留人数超过两百，总理将召开紧急会议。具体骚乱的起因、涉及哪些群体、诉求是什么，候选信息中没有详细披露，需要后续报道补充。第二条，乌克兰和俄罗斯之间的军事对抗仍在继续。据报道，乌克兰方面对俄罗斯发动了大规模无人机袭击，而俄罗斯方面则在周末对乌克兰发动了造成人员死亡的打击。与此同时，有报道提到美国总统特朗普与乌克兰总统泽连斯基之间的关系出现恶化迹象。已确认的事实是双方在近期互相发动了打击，乌克兰使用无人机对俄罗斯目标发动攻势，俄罗斯周末的打击造成了乌克兰方面人员伤亡。各方主张方面，报道提到美乌高层关系转冷，但具体原因和表态内容，候选信息未作详细展开。分析判断是，这种高层关系的变化如果属实，可能影响未来对乌援助的协调节奏，但由于缺乏具体细节，这里只能作为观察趋势提及，不做过度推断。这两条消息分别反映了欧洲内部社会矛盾和地区冲突持续两条线索，都属于仍在发展中的局势。后续需要关注意大利骚乱的具体诉求披露，以及美乌关系动向的进一步报道。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "分别来自BBC与NPR的二级来源报道，涉及事实部分有媒体确认，但细节描述有限。",
+      "fact_status": {
+        "confirmed": [
+          "意大利周末发生骚乱，逾200人被拘留，总理梅洛尼将召开紧急会议",
+          "乌克兰对俄发动大规模无人机袭击，俄罗斯周末对乌发动致命打击"
+        ],
+        "claims": [
+          "报道称美国总统特朗普与乌克兰总统泽连斯基关系恶化"
+        ],
+        "analysis": [
+          "意大利骚乱起因及美乌关系变化的具体影响仍待进一步报道"
+        ]
+      },
+      "source_ids": [
+        "8390245dac89cd97",
+        "d7296b3ccf4e5a4d"
+      ],
+      "sources": [
+        {
+          "id": "8390245dac89cd97",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Italian PM Meloni to hold emergency meeting after weekend of violent clashes",
+          "summary": "More than 200 people were detained during two days of rioting in the city, Italian media reports.",
+          "url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-19T11:23:36+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "deebc8ec0fa80cd7",
+          "id": "d7296b3ccf4e5a4d",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Ukraine and Russia exchange strikes, as relations between Trump and Zelenskyy sour",
+          "summary": "Ukraine carried out a massive drone strikes on Russia, which launched deadly attacks on its smaller neighbor over the weekend.",
+          "url": "https://www.npr.org/2026/10/19/nx-s1-6007371/ukraine-and-russia-exchange-strikes-as-relations-between-trump-and-zelenskyy-sour",
+          "published_at": "2026-10-19T10:38:03+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "加沙粮食援助大幅削减，希腊海域夜间偷渡船沉没致12人死亡",
+      "english_term": null,
+      "summary": "世界粮食计划署因资金短缺削减对加沙50万巴勒斯坦人的援助；同一夜间，希腊海域两起偷渡事故造成至少12人溺亡。",
+      "script": "两条与人道危机相关的消息。第一条，据德国之声报道，联合国世界粮食计划署表示，由于资金短缺，被迫削减对加沙地带五十万巴勒斯坦人的援助。该机构同时指出，加沙超过三分之二的巴勒斯坦人正面临严重饥饿。已确认的事实是世界粮食计划署宣布了这次援助削减，并给出了相关饥饿状况的数据。各方主张方面，机构方面将原因归结为资金短缺，但候选信息没有提到具体资金缺口数额或各捐助方的回应。分析判断是，加沙地区人道状况持续紧张，援助机构资金压力如果不能缓解，可能进一步加剧当地粮食安全危机。第二条，据德国之声报道，希腊海域当晚发生两起独立的偷渡船只事故，造成至少十二人溺亡，其中包括一名婴儿，另有二十二人获救，搜救行动仍在进行。已确认的事实是事故发生在希腊海域夜间，死亡人数至少十二人，含一名婴儿，另有二十二人获救。这类地中海偷渡事故在近年并不少见，反映出经由海路前往欧洲的移民路线依然伴随着高风险。分析判断上，这起事故可能会再次引发欧洲内部关于移民政策和海上搜救责任分配的讨论，但具体后续政策反应需要观察。后续需要关注加沙援助资金缺口是否得到国际社会填补，以及希腊沉船事故的搜救结果和死亡人数是否有更新。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "均来自德国之声的二级来源报道，事实描述较为具体。",
+      "fact_status": {
+        "confirmed": [
+          "世界粮食计划署宣布削减对加沙50万巴勒斯坦人的援助",
+          "希腊海域夜间两起偷渡事故造成至少12人死亡，22人获救"
+        ],
+        "claims": [
+          "世界粮食计划署将援助削减原因归结为资金短缺"
+        ],
+        "analysis": [
+          "加沙人道状况与地中海移民安全问题仍是持续性国际议题"
+        ]
+      },
+      "source_ids": [
+        "0d6c1115f03d948a",
+        "d15eac7ff272d394"
+      ],
+      "sources": [
+        {
+          "id": "0d6c1115f03d948a",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "France reports more than 1,800 arrests after riots, looting and arson during cost-of-living protests",
-          "summary": "Rioters torched public buildings and looted shops across France, destroying Limoges' historic town hall. The violence erupted during nationwide cost-of-living protests.",
-          "url": "https://www.dw.com/en/france-reports-more-than-1-800-arrests-after-riots-looting-and-arson-during-cost-of-living-protests/a-79692322?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-18T10:26:00+00:00",
+          "title": "UN food program cuts aid to 500,000 Palestinians in Gaza",
+          "summary": "Amid funding shortages, the World Food Program has said it is being forced to reduce necessary aid. Over two-thirds of Palestinians in Gaza are facing acute hunger, according to the agency.",
+          "url": "https://www.dw.com/en/un-food-program-cuts-aid-to-500-000-palestinians-in-gaza/a-79699408?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-19T11:41:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "74d1b691bcba4fee",
-          "source": "NPR World",
+          "id": "d15eac7ff272d394",
+          "source": "DW Top Stories",
           "source_tier": 2,
-          "source_region": "us",
+          "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "French police arrest 1,800 after violent clashes and looting mar protests",
-          "summary": "Police arrested at least 1,800 people across France after violent groups clashed with officers and looted shops during nationwide demonstrations that drew hundreds of thousands of people.",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
-          "published_at": "2026-10-17T15:57:40+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "1b8601b0719fba83",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Student protests widen into greater social unrest in France",
-          "summary": "Hundreds of protests took place in cities across France. Most of them were peaceful but some turned chaotic and violent.",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6006735/student-protests-widen-into-greater-social-unrest-in-france",
-          "published_at": "2026-10-17T21:18:52+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "73f93f2603acd918",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Parisians wake up to protest damage and looted shops",
-          "summary": "Violence broke out across France on Saturday during the latest day of demonstrations against conditions in schools and the cost of living.",
-          "url": "https://www.bbc.co.uk/news/videos/cmn5vey19q3go?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-18T10:58:39+00:00",
+          "title": "Greece: At least 12 die in migrant drownings overnight",
+          "summary": "Authorities say 12 people, including an infant, have drowned in Greek waters in two separate incidents overnight. Another 22 people were rescued. A search-and-rescue operation is ongoing.",
+          "url": "https://www.dw.com/en/greece-at-least-12-die-in-migrant-drownings-overnight/a-79697504?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-19T10:19:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -113,475 +337,80 @@
     },
     {
       "category": "world",
-      "title": "乌克兰无人机袭击圣彼得堡，石油及数据设施受损",
+      "title": "澳大利亚联邦议员遭汽车撞击重伤，总理称并非意外",
       "english_term": null,
-      "summary": "乌克兰对俄罗斯圣彼得堡发动夜间无人机袭击，造成至少一人死亡，石油设施和一家数据中心受损；泽连斯基同时指责俄方持续违反能源停火协议。",
-      "script": "俄乌冲突的能源战线昨夜再度升级。据英国广播公司和半岛电视台报道，乌克兰对俄罗斯第二大城市圣彼得堡发动了无人机袭击，目标包括石油相关设施，以及一座为俄罗斯本土社交平台提供服务的数据中心。俄方通报称，袭击造成至少一人死亡。乌克兰总统泽连斯基在袭击后发表评论，他同时提到，俄罗斯方面在过去一夜对乌克兰境内的袭击造成两人死亡，并指责莫斯科方面持续违反此前双方达成的能源设施停火安排。这起事件需要放在俄乌冲突当前阶段的大背景下理解：双方近期围绕能源基础设施的互相打击已经成为一种常态化的消耗战术，乌克兰试图通过打击俄罗斯炼油和输电系统削弱其战争经济能力，俄罗斯则持续打击乌克兰的电力和供暖设施。已确认的事实是：圣彼得堡遭到无人机袭击，造成至少一人死亡，石油设施和数据中心受损；乌克兰境内同一夜也发生袭击导致两人死亡。各方主张层面，乌克兰方面将此类袭击定性为针对军事支持能力的精准打击，俄罗斯方面则谴责这是对民用设施的攻击。值得注意的是，泽连斯基所说的“俄方违反能源停火”目前缺乏第三方独立核实，属于乌方单方面主张。后续需要观察双方是否会就能源设施停火安排进行新一轮谈判，以及这类袭击是否会进一步升级为更大规模的基础设施战。",
-      "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "BBC与半岛电视台两家二级媒体独立报道，死伤情况基本确认；关于“俄方违反停火”的指控为乌方单方面主张，尚无独立核实。",
-      "fact_status": {
-        "confirmed": [
-          "圣彼得堡遭无人机袭击，至少一人死亡",
-          "石油设施与数据中心受损",
-          "乌克兰境内同夜袭击致两人死亡"
-        ],
-        "claims": [
-          "泽连斯基指责俄罗斯违反能源停火协议"
-        ],
-        "analysis": [
-          "能源基础设施互袭可能成为冲突常态化消耗手段，短期内难见停火迹象"
-        ]
-      },
-      "source_ids": [
-        "3962faa3c0a6868d",
-        "1e31d795d8723c48"
-      ],
-      "sources": [
-        {
-          "id": "3962faa3c0a6868d",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
-          "summary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
-          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-18T11:57:49+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "1e31d795d8723c48",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Ukrainian drone attack on Russia’s St Petersburg kills 1, hits energy sites",
-          "summary": "Zelenskyy says Russian attacks on Ukraine overnight kill two people, adding that Moscow continues to break energy ceasefire.",
-          "url": "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
-          "published_at": "2026-10-18T10:34:09+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "德国人形机器人创始人身家暴涨，押注“人形机器人健身房”训练模式",
-      "english_term": "humanoid gym（人形机器人训练场）",
-      "summary": "据福布斯报道，一位德国人形机器人公司的创始人因公司估值飙升跻身亿万富翁行列，其核心策略是建设大规模“机器人健身房”式训练场，通过高强度物理训练数据加速模型迭代。",
-      "script": "人形机器人赛道又跑出一位新富豪。据福布斯杂志报道，一家德国人形机器人公司的创始人，因为公司估值快速攀升，已经跻身亿万富翁行列，这也被视为欧洲人形机器人产业近期资本热度的一个缩影。报道中提到，这家公司目前重金押注的一个方向，是建设所谓的“人形机器人健身房”，也就是大规模的专用物理训练场地，让机器人在其中反复进行行走、搬运、操作物体等高强度动作训练，以此产生大量真实世界的运动和力反馈数据，用来加速强化学习模型的迭代。这种思路背后的技术逻辑是，人形机器人要在非结构化的真实环境中稳定完成任务，仅靠仿真环境里的训练往往会遇到“仿真到现实的差距”问题，也就是模型在虚拟环境中表现良好，但迁移到真实硬件和真实物理环境后性能大幅下降。通过建设实体训练场，公司希望用更贴近真实世界的数据分布来弥补这种差距，提升模型的泛化能力和动作鲁棒性。从产业角度看，这类“训练场基础设施”投入体现了当前人形机器人行业的一个新趋势：竞争焦点正从单纯比拼硬件参数，转向比拼数据获取能力和训练基础设施的规模。这也和特斯拉、Figure等公司近期强调的大规模遥操作数据采集思路有相似之处，只是具体实现路径有所不同。该创始人身家暴涨反映出资本市场对人形机器人商业化前景的乐观预期，但福布斯报道本身并未披露公司具体估值数字和融资细节，公司尚未就产品量产节点、健身房训练场具体规模等问题给出完整信息。后续需要观察该公司是否会公开训练场的具体技术细节和实际训练效果数据，以及这种基础设施投入模式是否会被其他人形机器人公司效仿。",
-      "duration_seconds": 165,
-      "is_unverified": true,
-      "confidence_note": "仅有福布斯单一来源报道，具体公司名称、估值数字和融资细节在候选信息中未披露，需谨慎对待身家暴涨的具体数额。",
-      "fact_status": {
-        "confirmed": [
-          "一位德国人形机器人公司创始人因公司估值上升被福布斯列为亿万富翁",
-          "该公司正投入资源建设大规模物理训练场"
-        ],
-        "claims": [
-          "公司认为该训练模式可加速人形机器人学习迭代"
-        ],
-        "analysis": [
-          "训练基础设施投入可能成为人形机器人行业新的竞争维度"
-        ]
-      },
-      "source_ids": [
-        "b346f75e7fd95305"
-      ],
-      "sources": [
-        {
-          "id": "b346f75e7fd95305",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Germany's New Robot Billionaire Is Betting Big On Humanoid Gyms - Forbes",
-          "summary": "Germany's New Robot Billionaire Is Betting Big On Humanoid Gyms Forbes",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTV92MHJ5YS1PelZJX2p4emV4X0NQX1lNRTNlNGJ0X0ZyVDlsZVpPTk8yTDNseGN3T1RJa090RTBRT0t3Zi1GLVhJQWk2eGxHT2poRkFxX1F3SDduaXExZlFENXU1UFpHYm5qNW0tQ1BORWphaUpxRGtxR0M0SjVNa19SakNWXzdoT2s0WkFLdVM3WUxkR3A3VVBLV2FLdlVmOVRlZFFYREZJUTFoS21rUm5mREt1eW1La0E?oc=5",
-          "published_at": "2026-10-18T10:30:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "中国企业发布4米级巨型人形机器人，用途引发讨论",
-      "english_term": null,
-      "summary": "一家中国公司推出高达4米的巨型人形机器人，引发外界对其实际应用场景和技术挑战的广泛讨论，相关报道指出其设计目的尚存争议。",
-      "script": "一台体型异常高大的人形机器人最近在越南媒体平台上引发关注。报道称，一家中国公司发布了一款高度达到四米的巨型人形机器人，这个尺寸远超目前市面上主流人形机器人产品——目前行业内大多数量产或准量产的人形机器人身高集中在一米五到一米八之间，接近成年人体型，这样设计是为了更好适配为人类设计的环境，比如门框高度、楼梯台阶、工具握把尺寸等。而四米高的机器人显然超出了这个适配逻辑，报道也提出了关于其具体用途的疑问。从技术角度分析，巨型人形机器人在工程上会面临几个明显挑战：首先是重心控制和动态平衡问题，身高越高，机器人在行走和姿态调整时的转动惯量越大，对平衡控制算法和执行器响应速度的要求也越高；其次是结构强度和自重问题，材料使用量和整机重量会随体型增大而显著上升，这对关节处的驱动功率密度提出更高要求；第三是能源续航问题，更大体型通常意味着更高的能耗。这类巨型人形机器人的应用场景猜测包括展示性用途、特种作业场景（比如需要接触高处设备的工业场景），也可能是企业品牌宣传和技术展示的产物。目前关于这款机器人的具体技术参数、实际运动能力演示和明确商业化方向，报道中信息较为有限，更多细节有待官方正式公布。已确认的事实是该机器人的发布和四米的身高数据来自报道，机器人的具体应用场景和技术指标尚未得到企业官方的详细说明。后续需要等待企业公布更完整的技术参数和应用场景定位。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "仅有Vietnam.vn单一来源转载报道，公司名称、具体型号与技术参数在候选信息中缺失，需等待更多独立信源确认细节。",
-      "fact_status": {
-        "confirmed": [
-          "有中国公司发布了身高约四米的人形机器人"
-        ],
-        "claims": [
-          "报道质疑该机器人实际用途"
-        ],
-        "analysis": [
-          "超大体型人形机器人在平衡控制、结构强度和能耗方面面临显著工程挑战，实用性有待验证"
-        ]
-      },
-      "source_ids": [
-        "dc767f5a7ef13bbd"
-      ],
-      "sources": [
-        {
-          "id": "dc767f5a7ef13bbd",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "What is the purpose of the giant 4-meter-tall humanoid robot launched by the Chinese company? - Vietnam.vn",
-          "summary": "What is the purpose of the giant 4-meter-tall humanoid robot launched by the Chinese company? Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNN0t2VElEQ20ySFZTczNnTDkxQzVMb1dFRmVQNkZsSkZoRmprS1ZrVmNlcUFxcHRzV2hlaVJPenZSV3BKMF84THNELUxuN2d5ZXM0NzJzQi1Gc0NIUFJ5QjdDcy1JLUJzTmd2VWpkdGFiSHhYTmd4OG5RYW5UcUo4Z01iZlZFd25jdkVBYjB3WU1teFdQOWdteEwtVXdkQjNGdEE?oc=5",
-          "published_at": "2026-10-18T10:25:41+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "广交会聚焦智能生活与机器人板块，产业链展示升温",
-      "english_term": null,
-      "summary": "第140届中国进出口商品交易会（广交会）本届设立智能生活与机器人专题展区，反映出制造业出口链条中机器人相关产品的权重上升。",
-      "script": "作为中国历史最悠久、规模最大的综合性外贸展会之一，第一百四十届广交会本届特别将“智能生活与机器人”作为展示焦点之一，根据马来西亚媒体的报道，先进制造相关展品在本届展会中占据了相当的版面。广交会历来是观察中国制造业出口结构变化的一个窗口，机器人相关产品被单独列为重点展示方向，某种程度上反映出这类产品在中国外贸出口构成中的比重正在上升。从行业背景看，近几年中国机器人产业在工业机器人、服务机器人、消费级智能硬件等多个细分领域都保持了较快的产能扩张速度，一部分企业开始将出口作为重要的增长渠道，而广交会这样面向全球采购商的平台，自然成为这些企业对外展示产品和寻找海外订单的重要场合。报道本身属于综述性质，没有披露具体参展企业名单、产品型号或者现场达成的订单规模等细节，因此这更多是一个产业趋势的信号，而非具体的商业事件。值得补充的是，与之呼应的另一则报道显示，香港电子产品展览会秋季版同期也有消费级机器人产品亮相，一家名为Migo的机器人公司在展会上展示了面向情感陪伴场景的具身智能产品，探索人形或类人形机器人在家庭陪伴领域的消费级应用，这也是具身智能从工业和科研场景向消费市场渗透的一个缩影。整体来看，这两场展会共同指向一个趋势：机器人产品正在从相对封闭的产业链上游，向更广泛的消费端和外贸出口端扩散。后续需要观察广交会期间是否会公布具体的机器人品类出口数据或重点签约项目，以验证这一趋势的实际规模。",
-      "duration_seconds": 155,
-      "is_unverified": true,
-      "confidence_note": "两则均为综述性行业报道，缺乏具体企业、订单或产品数据，仅作为产业趋势信号参考。",
-      "fact_status": {
-        "confirmed": [
-          "第140届广交会设立智能生活与机器人专题展示",
-          "香港电子产品展览会秋季版有消费级情感陪伴机器人产品亮相"
-        ],
-        "claims": [
-          "报道认为机器人相关产品在外贸出口中权重上升"
-        ],
-        "analysis": [
-          "机器人产品正从产业链上游向消费端和出口端扩散，但具体规模数据尚未披露"
-        ]
-      },
-      "source_ids": [
-        "8e74fd88a3cab781",
-        "333e3583f0c089d9",
-        "06b031c85f34d2b5"
-      ],
-      "sources": [
-        {
-          "id": "8e74fd88a3cab781",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Advanced Manufacturing in Focus: Smart Life and Robotics Take the Spotlight at 140th Canton Fair - The Malaysian Reserve",
-          "summary": "Advanced Manufacturing in Focus: Smart Life and Robotics Take the Spotlight at 140th Canton Fair The Malaysian Reserve",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYTJUODBNR2JKc0JYSGxrS0M5TW1rVlBDVE4tR2RmZHVWa3dQZHZTUFA1aFFWY0JOME9FSG15bDNFOU5MRldJVVJBVnVqU0tSTkRrRVVwR0F6Q0hSTjdMMlpsQUl0VWJEZXBpa2VndWdjVUxTWFhwc2ozN3k3M3FLMDE5WnVaUWFHeFFGV0U1a1JaM0w4TlVsMWYtUnVRWUYtSzdVQjdxSEw0eHlxajBLMVI4enQ1SkdYSTNEbGVjb3BrMGhyenEwWGRjM1hXY2dUVFdkV3F3?oc=5",
-          "published_at": "2026-10-18T11:46:08+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "333e3583f0c089d9",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Migo Robot Debuts at Hong Kong Electronics Fair (Autumn Edition) 2026, Exploring New Consumer Applications for Embodied AI Through Emotional Companionship - The Manila Times",
-          "summary": "Migo Robot Debuts at Hong Kong Electronics Fair (Autumn Edition) 2026, Exploring New Consumer Applications for Embodied AI Through Emotional Companionship The Manila Times",
-          "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxOdGJTTjlxaG5mY2kyQWx4ZjNaSExQOXhpSmdFZUhrZ2tWLUFFOVVQcXlZVjNVdGVvMHFHdHAzeUR4MnRVTHctdlluWEwxajNOY2Q0ekpPTDl6ZEFraURsODdFS1pmdVdCWEM3X2hNZ2FYRHFCSmp1SzFfa25naHcyNWlWQ2xCcWlzdWllcWxDOFVOTDAwcTZuUDNfWk5zZm5lcTNISmpqeHlxa05zTGNHUkZNck8zZDRGY3g3WEhsRF94RWxYSHRZNmJneUZtZmhXWDhWZ1Y3VzRqR3R0RlFqNjR6WDVtU28tTnByaW5BaFJNY3poRXlPN21nSmhveW1HYnVJRjhZWFVHMXQ0ZlFZck5BXzczT1JTNUE4Rk9yN01NZVB1aXh0YkFVQVZlNjVDcnJJbjFjdUVYX2JERjExRENLQ0tzOWFvUGpBRmR4OUNOc0gya3c?oc=5",
-          "published_at": "2026-10-18T11:42:04+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "06b031c85f34d2b5",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Migo Robot Debuts at Hong Kong Electronics Fair (Autumn Edition) 2026, Exploring New Consumer Applications for Embodied AI Through Emotional Companionship - The Facts",
-          "summary": "Migo Robot Debuts at Hong Kong Electronics Fair (Autumn Edition) 2026, Exploring New Consumer Applications for Embodied AI Through Emotional Companionship The Facts",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNdTdZVEhTNE95ckJ5cGdvdkU3UzVqVVlKWWpQRGJPcFdpQUlYMHYxX0JGUGhLcDZzME1fZ3ZFZFY1bG5TMlZiUFhDQXEzbHB2MU9yVGtJbHZyRDJxSUZUOTlfNHg2RUhTcXVIQkoyLTFjT0RJdTZMSUw0VFhORzJaV2UtcDl3NTZTOG5TeGY0ek5LZHF1R0J6cjlwb2tUeUNpUmdTdUJFUTlGWDNuQXhYbTd5aW52cEpmWW5wcHRrSFF4cmxqQlFJaldacFplQkVrdml6MVhidEc3dmNqdEFEZGZaNmFNczROeTJ2d3pXTGYwbU9Ucm1Ddk1ZTGwtMjRvcXhHbnlDUURzTktIczBZ?oc=5",
-          "published_at": "2026-10-18T11:35:34+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "初创公司Aether AI提出“因果推理”机器人大脑架构",
-      "english_term": "causal reasoning（因果推理）",
-      "summary": "据Interesting Engineering报道，初创公司Aether AI正在开发一种强调因果推理而非单纯模式识别的机器人控制架构，试图让机器人理解动作与结果之间的因果关系。",
-      "script": "在机器人智能架构这条赛道上，一家名为Aether AI的初创公司提出了一个与当前主流路径有所不同的思路。根据Interesting Engineering的报道，这家公司正在开发一种强调“因果推理”的机器人大脑架构，核心理念是让机器人不仅仅学会识别模式、预测下一步最可能发生的事情，而是真正理解“如果我做了这个动作，会导致什么样的结果”这种因果链条。这和当前许多基于大规模数据训练的具身智能模型形成了一定对比。目前主流的机器人学习方法，比如模仿学习和强化学习，很大程度上依赖从海量演示数据或者试错交互中学习统计意义上的关联性，模型本质上是在拟合“在某种状态下，哪个动作历史上带来了更好的结果”这样的相关性模式，但并不一定真正建立起对物理因果机制的显式理解。这种基于相关性的方法在训练数据覆盖的场景中表现良好，但面对训练数据之外的新颖情况时，泛化能力和可解释性常常受到质疑。强调因果推理的架构，理论上希望机器人能够像人类一样，通过对物理世界因果结构的建模，更好地应对分布外的新情况，进行更可靠的规划和决策，而不只是依赖统计相似性进行“模式匹配”。这个方向在机器人学术界并非全新概念，因果推理与强化学习结合的研究路径近年来持续有探索，但报道中并未提供Aether AI具体的技术论文、实验数据或者基准测试结果，目前信息主要来自公司对外的产品和理念介绍，缺乏第三方的独立验证和同行评审。已确认的事实是该公司提出了这一技术方向并对外进行了介绍，其实际工程实现效果和具体性能指标尚未有公开的独立评测数据支持。后续需要等待该公司公布具体技术细节、实验结果，或者相关研究进入同行评审流程。",
-      "duration_seconds": 175,
-      "is_unverified": true,
-      "confidence_note": "报道来自单一科技媒体，属于公司对外理念介绍性质，缺乏公开论文、实验数据或第三方评测，需谨慎对待其技术效果的宣称。",
-      "fact_status": {
-        "confirmed": [
-          "Aether AI公司对外介绍了一种强调因果推理的机器人控制架构理念"
-        ],
-        "claims": [
-          "公司称该架构能让机器人更好理解动作与结果的因果关系，提升泛化能力"
-        ],
-        "analysis": [
-          "因果推理与强化学习结合是机器人学术界持续探索的方向，但该公司具体技术成效缺乏独立验证"
-        ]
-      },
-      "source_ids": [
-        "eb7fcb44df881982"
-      ],
-      "sources": [
-        {
-          "id": "eb7fcb44df881982",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Aether AI’s Robot Brain That Thinks in Cause and Effect - Interesting Engineering",
-          "summary": "Aether AI’s Robot Brain That Thinks in Cause and Effect Interesting Engineering",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSGVsVEY4NEJLdHVsM2JQdVhpM0NpZ0RRVmpmS0gxUFVYaDN4T2RlaUJRRmMwZzBPMzZtQnp6bFBYYjBBMklSS1Z2SUhqaWlqOXNBSXZhYW9NNmpodEQ3cVA1amhnV3Jqb0c0UVVOWkVGbjM0aDFDS1hqVjhkS0QwdWFmcDg0YTZBZHQ3S19FTUI5ZlhRREJmeWFiazk?oc=5",
-          "published_at": "2026-10-18T11:01:35+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "ADI白皮书探讨“物理AI”从实验室走向量产的挑战",
-      "english_term": "physical AI（物理人工智能）",
-      "summary": "半导体公司ADI（Analog Devices）发布白皮书，分析了将“物理AI”从实验室研发阶段推向工业量产机械的关键挑战与机遇，涉及感知、执行器和系统集成等层面。",
-      "script": "除了整机企业，机器人产业链上游的半导体和传感器公司也在密切关注具身智能的产业化进程。据The Robot Report报道，模拟芯片巨头ADI，也就是Analog Devices，发布了一份新白皮书，专门探讨将“物理AI”从实验室环境推向实际生产机械的过程中所面临的挑战与机遇。所谓物理AI，指的是能够感知、理解并直接作用于真实物理世界的人工智能系统，这和纯粹处理文本、图像等数字信息的AI系统有本质区别，因为它必须应对真实世界中传感器噪声、执行机构的非线性特性、环境不确定性等一系列工程难题。白皮书从半导体供应商的视角出发，报告重点关注的内容包括高精度传感技术、实时信号处理能力，以及如何在边缘设备上实现低延迟的感知与控制闭环，这些都是让AI模型真正驱动物理机械稳定运行的底层基础设施。对于机器人产业而言，上游芯片和传感器厂商的表态具有一定的风向标意义，因为无论是人形机器人的关节控制，还是工业机械臂的力矩反馈系统，最终都要依赖高质量的传感器数据采集和芯片级的实时处理能力，这类基础硬件的成熟度直接制约着上层AI模型能发挥的实际效果。不过这份白皮书的具体技术指标、ADI在其中主推的产品线细节，在现有报道中并未充分披露，内容更偏向行业趋势分析和市场定位陈述，而非具体的新产品发布。已确认的事实是ADI确实发布了这样一份关于物理AI产业化挑战的白皮书，具体技术细节和市场预测数据有待查阅原文获取。后续需要关注ADI是否会推出针对性的具体产品或解决方案来落地白皮书中提出的方向。",
-      "duration_seconds": 165,
-      "is_unverified": false,
-      "confidence_note": "源自专业机器人媒体The Robot Report对ADI官方白皮书的报道，属于企业官方一手信息，但具体技术参数未在候选摘要中充分披露。",
-      "fact_status": {
-        "confirmed": [
-          "ADI发布了关于物理AI产业化挑战的白皮书"
-        ],
-        "claims": [
-          "白皮书认为传感、实时处理等基础硬件是物理AI落地的关键瓶颈"
-        ],
-        "analysis": [
-          "上游半导体厂商的产业布局可能反映机器人产业链对底层硬件成熟度的持续需求"
-        ]
-      },
-      "source_ids": [
-        "b1f648d13a368ea6"
-      ],
-      "sources": [
-        {
-          "id": "b1f648d13a368ea6",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "ADI explains the race to make AI physical",
-          "summary": "A new ADI whitepaper examines the challenges and opportunities in moving physical AI out of labs into production machinery. The post ADI explains the race to make AI physical appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/adi-explains-the-race-to-make-ai-physical/",
-          "published_at": "2026-10-17T21:33:57+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "教皇利奥十四世肺癌手术后首次公开露面",
-      "english_term": null,
-      "summary": "教皇利奥十四世在接受肺癌手术并切除右肺下叶后出院，并在首次公开活动中于宗座宫阳台诵读三钟经，感谢公众的祝福。",
-      "script": "梵蒂冈方面传来消息，教皇利奥十四世在接受肺癌手术后首次公开露面。据英国广播公司和美国国家公共电台报道，教皇此前被诊断出患有肺癌，并接受了手术，手术切除了他右肺的下叶。术后数天，他已经从罗马的杰梅利医院出院，并在周六的公开活动中，从宗座宫的阳台上诵读了天主教传统的三钟经祷文，向关心他健康状况的公众表达感谢。这是教皇确诊并接受手术以来的首次公开活动，对于梵蒂冈和全球天主教信众来说，这次露面传递出教皇恢复状况良好的信号。报道还提到，教皇目前的日程安排中，原定于十一月前往拉丁美洲的访问计划暂时维持不变，这也从侧面说明医疗团队对他术后恢复情况持相对乐观的判断。已确认的事实包括教皇确诊肺癌、接受了肺叶切除手术、已经出院并公开露面诵读祷文。至于十一月的拉美访问计划是否会如期进行，目前仍然是按原计划安排，但以教皇的术后恢复情况为前提，具体是否成行有待梵蒂冈方面进一步确认。后续需要关注教皇的术后恢复进展，以及十一月拉美行程是否会有调整。",
-      "duration_seconds": 105,
-      "is_unverified": false,
-      "confidence_note": "BBC与NPR两家独立二级媒体均有报道，事实确认度较高。",
-      "fact_status": {
-        "confirmed": [
-          "教皇利奥十四世接受肺癌手术并切除右肺下叶",
-          "已出院并公开诵读三钟经"
-        ],
-        "claims": [],
-        "analysis": [
-          "公开露面被视为术后恢复良好的信号，但十一月拉美行程能否如期进行仍待确认"
-        ]
-      },
-      "source_ids": [
-        "18879ce701c7c642",
-        "fb3d10cab34439ac"
-      ],
-      "sources": [
-        {
-          "id": "18879ce701c7c642",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Pope Leo XIV thanks wellwishers in first event after cancer surgery",
-          "summary": "The Pope's first event since his lung cancer diagnosis and surgery saw him recite the traditional Angelus prayer from the balcony of the Apostolic Palace.",
-          "url": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-18T11:09:32+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "fb3d10cab34439ac",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Pope Leo XIV leaves hospital days after lung cancer surgery",
-          "summary": "The Pope left Rome's Gemelli Hospital Saturday, days after surgery for lung cancer removed the lower lobe of his right lung. He is currently scheduled to travel to Latin America in November.",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6006762/pope-leo-xiv-leaves-hospital-days-after-lung-cancer-surgery",
-          "published_at": "2026-10-17T15:10:14+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "加拿大阿尔伯塔省军事基地发生重大火灾，有人员伤亡",
-      "english_term": null,
-      "summary": "加拿大韦恩赖特军事基地发生重大火灾事件，造成人员死伤，官方尚未公布具体死亡人数或起火原因，现场情况被官员形容为“高度活跃且敏感”。",
-      "script": "加拿大传来一则仍在发展中的突发消息。据英国广播公司和美国国家公共电台报道，加拿大阿尔伯塔省的韦恩赖特军事基地发生了一起重大事件，并引发大火，造成人员死亡和受伤。加拿大国防部长在周六证实了这起事件，但截至目前，官方尚未公布具体的死亡人数、受伤人数，也没有说明起火或事件发生的原因。官员将现场情况形容为“高度活跃且情况敏感”，这种措辞通常意味着救援或调查工作仍在进行中，官方出于安全和信息准确性的考虑，暂不公布更多细节。由于信息有限，目前无法判断这起事件是意外事故、训练事故还是其他性质的事件。已确认的事实是：加拿大韦恩赖特军事基地发生重大火灾，已造成人员死伤，加拿大国防部长已就此事做出公开表态确认事件发生。各方主张层面，目前没有任何一方对事件原因做出正式定性或推测性说明，官方表态非常谨慎。后续需要等待加拿大国防部或当地警方公布完整的伤亡人数、事件原因调查结果。",
-      "duration_seconds": 100,
-      "is_unverified": true,
-      "confidence_note": "BBC与NPR两家独立媒体均有报道，事件发生和人员伤亡基本确认，但死亡人数、受伤人数及起火原因官方尚未公布，细节有限。",
-      "fact_status": {
-        "confirmed": [
-          "加拿大韦恩赖特军事基地发生重大火灾",
-          "已造成人员死伤",
-          "加拿大国防部长已公开证实事件"
-        ],
-        "claims": [],
-        "analysis": [
-          "官方信息披露有限，事件原因和完整伤亡情况有待进一步调查公布"
-        ]
-      },
-      "source_ids": [
-        "112084795036a3e8",
-        "bfdccf65cb8bc9be"
-      ],
-      "sources": [
-        {
-          "id": "112084795036a3e8",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Several dead or injured in major fire at Canada military base",
-          "summary": "Officials have not given a cause or death toll, citing the \"very active and delicate\" situation at Canadian Forces Base Wainwright.",
-          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-18T08:52:41+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "bfdccf65cb8bc9be",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Major fire breaks out in Alberta after deadly incident at military base",
-          "summary": "Canada's defense minister said Saturday that people were killed and injured in an incident at a military base in Alberta that caused a major fire.",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
-          "published_at": "2026-10-18T07:56:08+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "sports",
-      "title": "巴勒斯坦空手道选手玛利亚姆·布沙拉特夺得世锦赛第二枚金牌",
-      "english_term": null,
-      "summary": "巴勒斯坦空手道运动员玛利亚姆·布沙拉特在波兰举行的世界空手道锦标赛中再度夺冠，这是她个人第二次获得世界冠军头衔。",
-      "script": "体育新闻方面，一则来自波兰的消息传递出一些积极的色彩。据半岛电视台报道，巴勒斯坦空手道运动员玛利亚姆·布沙拉特在世界空手道锦标赛上再次夺得金牌，这是她个人职业生涯中第二次获得世界冠军头衔。对于巴勒斯坦体育界而言，在当前复杂的地区局势背景下，运动员能够在国际赛场上持续取得优异成绩，具有超出体育本身的象征意义，也让更多人关注到巴勒斯坦运动员在艰难环境下坚持训练和参赛的故事。报道中并未透露更多关于本次比赛具体级别、对手情况以及夺冠过程的细节，信息相对简要。已确认的事实是布沙拉特在本届世界空手道锦标赛中夺得金牌，这是她个人第二枚世锦赛金牌。后续如果有更详细的比赛报道或者选手本人的采访内容，可以进一步了解她的训练背景和夺冠历程。",
+      "summary": "澳大利亚一名独立联邦议员周一被汽车撞击重伤，总理阿尔巴尼斯称这是一起蓄意袭击，司机已被捕。",
+      "script": "最后一条国际快讯。据NPR报道，澳大利亚一名独立联邦议员周一被一辆汽车撞击，伤势严重。澳大利亚总理阿尔巴尼斯表示，这看起来不是一起交通意外，而是蓄意袭击，涉事司机已经被警方逮捕。已确认的事实是这名议员遭遇车辆撞击并身受重伤，总理公开将其定性为非意外事件，司机已被拘捕。各方主张方面，总理的表态目前是对事件性质的官方定性，但候选信息没有提供检方指控细节、司机作案动机或者与该议员政治立场是否相关的具体信息。分析判断上，如果这起事件最终被确认为针对议员的蓄意政治暴力，可能会在澳大利亚国内引发关于政治人物安全保护措施的讨论，但在警方和司法程序明确调查结果之前，具体动机仍属未知。后续需要关注澳大利亚警方公布的调查结果和司机的指控内容。",
       "duration_seconds": 80,
       "is_unverified": false,
-      "confidence_note": "半岛电视台独立报道，事实简要但来源可靠。",
+      "confidence_note": "来自NPR报道，总理表态已属官方信源，但案件调查细节尚未公开。",
       "fact_status": {
         "confirmed": [
-          "玛利亚姆·布沙拉特在世界空手道锦标赛夺得金牌，为个人第二枚世锦赛金牌"
+          "澳大利亚一名独立联邦议员被汽车撞击重伤，司机已被逮捕"
         ],
-        "claims": [],
-        "analysis": []
+        "claims": [
+          "总理阿尔巴尼斯表示这并非意外事件"
+        ],
+        "analysis": [
+          "具体作案动机需等待警方调查结果公布"
+        ]
       },
       "source_ids": [
-        "3fb3c54f01dc5c59"
+        "b038f633e95718bb"
       ],
       "sources": [
         {
-          "id": "3fb3c54f01dc5c59",
-          "source": "Al Jazeera",
+          "id": "b038f633e95718bb",
+          "source": "NPR World",
           "source_tier": 2,
-          "source_region": "middle-east",
+          "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Palestinian karate champion Maryam Bsharat wins second world title",
-          "summary": "Palestinian athlete Maryam Bsharat won gold at the World Karate Championships in Poland.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/palestinian-karate-champion-maryam-bsharat-wins-second-world-title?traffic_source=rss",
-          "published_at": "2026-10-18T10:47:59+00:00",
+          "title": "Australian prime minister says lawmaker critically injured by car is 'no accident'",
+          "summary": "A car hit an Australian federal independent lawmaker on Monday, critically injuring her in an apparent deliberate attack, Prime Minister Anthony Albanese said. The driver was arrested.",
+          "url": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured",
+          "published_at": "2026-10-19T11:38:43+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的内容就到这里。巴黎街头的骚乱、俄乌围绕能源设施的持续互袭仍在发展，机器人产业一边在广交会和消费电子展上向市场渗透，一边在实验室和芯片厂商的白皮书里探索更底层的技术路径，这些线索值得继续跟踪后续的官方信息和正式数据发布。",
-  "editor_note": "本期机器人板块共5条入选，时长占比约48%，符合45%-55%区间要求。多条机器人类候选（Aether AI因果推理架构、4米人形机器人、德国人形机器人富豪、广交会机器人展示）均仅有单一或同源报道支撑，已标记is_unverified并在confidence_note中说明证据有限，相关具体技术参数、公司名称、估值数据在原始候选摘要中缺失，未做任何编造补充。国际新闻部分法国骚乱事件有五个独立来源交叉确认，可信度较高；加拿大军事基地火灾因官方信息有限标记为未完全确认。因候选中缺乏金融、医疗类高质量事件，本期未纳入对应类别内容。",
+  "closing": "今天的内容里，机器人学术方向集中出现了多篇关于探索学习、长时序记忆和通用大模型具身能力的预印本论文，这些结论都还没有经过同行评审，持续关注后续评审进展将是重点；国际局势方面，巴西大选决选、意大利骚乱、乌克兰局势与加沙人道状况都处于动态发展中，具体走向有待后续报道确认。",
+  "editor_note": "本期机器人部分以arXiv当日预印本论文和少量产业简讯为主，产业类候选信息细节普遍有限（如RoboBusiness导览、中美机器人产业交流简讯），已在稿件中如实标注信息不足之处。为将机器人时长占比从64%调整至45%-55%区间，本轮修订去除了原RePlanMem-VLA长时序记忆论文一条，以压缩机器人板块总时长，同时保留国际新闻板块全部内容；机器人板块当前四条合计时长约640秒，占全篇约51%，符合区间要求。未纳入与机器人、国际政治无直接关联或信息过于单薄的候选（如Kraken Robotics股价分析、生物力学有限元研究、天文图片等）。各story的source_ids均确保指向同一事件。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 7861,
-      "output_tokens": 10538,
-      "total_tokens": 18399
+      "input_tokens": 9076,
+      "output_tokens": 9441,
+      "total_tokens": 18517
     },
     {
-      "input_tokens": 12371,
-      "output_tokens": 10051,
-      "total_tokens": 22422
+      "input_tokens": 11328,
+      "output_tokens": 8157,
+      "total_tokens": 19485
     }
   ],
   "usage": {
-    "total_tokens": 40821,
-    "output_tokens": 20589,
-    "input_tokens": 20232
+    "output_tokens": 17598,
+    "input_tokens": 20404,
+    "total_tokens": 38002
   },
-  "generated_at": "2026-10-18T12:11:18+00:00",
-  "window_start": "2026-10-17T12:11:18+00:00",
-  "candidate_count": 165,
+  "generated_at": "2026-10-19T12:10:48+00:00",
+  "window_start": "2026-10-18T12:10:48+00:00",
+  "candidate_count": 298,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
-    "Federal Reserve Press Releases: HTTPError: HTTP Error 404: Not Found",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1375,
-    "script_characters": 5346,
-    "topic_duration_share": 0.589,
+    "duration_seconds": 1090,
+    "script_characters": 4260,
+    "topic_duration_share": 0.587,
     "passed": true,
-    "normal_target_met": false,
-    "topic_source_count": 2,
+    "normal_target_met": true,
+    "topic_source_count": 3,
     "issues": []
   }
 }
