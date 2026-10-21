@@ -1,526 +1,486 @@
 {
-  "title": "晶球电台早报：Digit 5 发布、Gecko Robotics 拿下海军大单，Oslo 谈判前夕俄乌局势再起波澜",
-  "subtitle": "人形机器人进入规模化工作场景，乌克兰危机外交斡旋与也门危机同步发酵",
+  "title": "晶球电台早报：Agile拿下英伟达合作，三星论文直面具身智能长程推理难题",
+  "subtitle": "人形机器人量产提速、空间机器人融资与灵巧抓取新方法齐聚今日科技版面，国际局势聚焦美俄人质交换",
   "highlights": [
-    "Agility Robotics 发布第五代人形机器人 Digit 5，目标是实现仓库场景的规模化部署",
-    "Gecko Robotics 获得美国海军3亿美元合同，机器人检测技术进入核心军事领域",
-    "泽连斯基准备在奥斯陆与美方特使会谈，鲁比奥否认美国扣留情报的指控"
+    "德国机器人公司Agile与英伟达合作，计划生产最多2000台人形机器人",
+    "中国空间机器人初创公司Sinxbot完成数千万美元融资，布局在轨加注与离轨服务",
+    "arXiv新论文聚焦跨构型灵巧抓取、具身智能长程推理基准与错误恢复训练方法",
+    "美国公民Stephen Hubbard获俄罗斯释放，特朗普特使同期与普京会面"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "Agility Robotics发布Digit 5：目标是让人形机器人规模化进入仓库工作",
+      "title": "德国Agile联手英伟达，计划量产最多2000台人形机器人",
       "english_term": "humanoid robot（人形机器人）",
-      "summary": "Agility Robotics 联合创始人撰文介绍新一代人形机器人 Digit 5，称其设计目标是首个能够安全、经济地大规模完成实际工作的人形机器人。",
-      "script": "我们先从一台机器人说起。Agility Robotics，这家从俄勒冈州立大学实验室孵化出来、2015年成立的公司，刚刚发布了第五代人形机器人Digit 5。公司联合创始人亲自撰文介绍了这款机器人的设计思路，标题就叫“我没想到会造出这样一个机器人”。根据介绍，Digit 5的核心目标不是炫技，而是真正能够在仓库场景里安全、经济地规模化工作，让成千上万台人形机器人进入现实的物流环节。具体参数方面，Digit 5能够将23公斤重的箱子举到高处货架，电池支持90分钟连续运行，只需要9分钟就能完成充电，这意味着它可以像人类工人一样按班次连续作业，中间穿插短暂的补能时间。这种设计思路其实反映了人形机器人产业这两年的一个明显转向：早期的人形机器人演示更多强调跑跳、翻跟头这类吸引眼球的动作能力，但到了真正要落地仓储、物流这些劳动密集型场景时，决定成败的往往是续航、负载能力、充电效率和作业的稳定性，而不是单次的动作炫技。Agility Robotics此前的Digit系列已经在部分仓库场景中做过试点部署，这次发布的第五代产品被定位为“经济可行”的工作伙伴，暗示公司在成本控制和可靠性上做了进一步打磨，试图跨过从演示验证到商业化规模部署之间的那道门槛。人形机器人要大规模进入仓库，除了机器人本体的硬件能力，还涉及到与现有仓储管理系统的协同、安全认证、以及和人类工人共同作业时的安全规范等一系列配套问题，这些往往比机器人本身的技术参数更耗时间。后续需要等待公司公布具体的客户部署案例和量产时间表，以及实际工作场景中的任务完成率等运营数据。",
-      "duration_seconds": 170,
-      "is_unverified": false,
-      "confidence_note": "基于IEEE Spectrum对Agility Robotics联合创始人自述文章的报道，属于公司一手信息，具体商业化进度仍需后续数据验证。",
-      "fact_status": {
-        "confirmed": [
-          "Agility Robotics发布了第五代人形机器人Digit 5",
-          "官方给出23公斤负载、90分钟续航、9分钟充电等参数"
-        ],
-        "claims": [
-          "公司称这是首个能安全经济规模化工作的人形机器人"
-        ],
-        "analysis": [
-          "人形机器人产业重心正从动作演示转向仓储物流等劳动密集场景的实际部署能力"
-        ]
-      },
-      "source_ids": [
-        "b93e94fe79d3b792"
-      ],
-      "sources": [
-        {
-          "id": "b93e94fe79d3b792",
-          "source": "IEEE Spectrum Robotics",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "The Robot I Didn’t Expect to Build",
-          "summary": "Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high shelves and with a battery that can run for 90 minutes on a 9-minute charge, Digit 5’s goal is to handle heavy warehouse tasks shift after shift, filling the need for labor in jobs that are too physically stressful or too dull for humans to want to do. Digit 5 is what Agility has been working toward for over a decade. But the robot is heavy and bulky, lacking the graceful natural motion of its predecessors, and it’s farther than I thought possible from the robot I dreamed of building when I started this company. To deliver a useful commercial product, Agility has taken a path that is very different from what I first imagined. From ATRIAS to Digit My dream has always been to build robots that combine locomotion and manipulation to move through the world and interact with it as people do. I seek a mastery of motion, achieved throug",
-          "url": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
-          "published_at": "2026-10-19T13:00:03+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "Gecko Robotics获美国海军3亿美元合同，机器人检测进入核心军事装备维护",
-      "english_term": "predictive maintenance（预测性维护）",
-      "summary": "机器人检测公司Gecko Robotics与美国海军签署3亿美元合同，公司称这标志着五角大楼认可其技术是核心军事能力。",
-      "script": "再看产业端的一条大单。专注于基础设施和工业资产检测的机器人公司Gecko Robotics，宣布与美国海军签署了一份价值3亿美元的合同。公司方面表示，这笔合同释放的信号是，五角大楼已经把他们的技术视为一种核心的军事能力，而不只是辅助性的外包服务。Gecko Robotics的主营业务是用机器人搭载传感器，对舰船、发电厂、工业管线等大型基础设施进行结构健康检测，通俗地说，就是让机器人代替人工去爬上船体、设备外壳，采集超声波、热成像等数据，提前发现金属疲劳、腐蚀、裂纹等隐患，这类技术通常被称为预测性维护。对于美国海军而言，舰艇的维护保养是一项耗时耗力且专业性极高的工作，传统上依赖人工定期检查和拆解式维修，而机器人检测可以在不影响舰艇正常使用的情况下持续采集数据，理论上能够更早发现问题、减少非计划停航时间。这笔合同的规模和性质也说明，机器人技术正在从早期的商业工业检测场景，进一步渗透进国防装备维护这类高价值、高门槛的垂直领域。值得注意的是，这类军方合同往往意味着更严格的技术验证流程和更长的交付周期，公司能够拿下这样规模的合同，某种程度上也反映出其技术方案已经经过了相当程度的实地验证。不过这笔合同目前只有公司一方的表态作为信息来源，具体的技术交付细节、海军方面的官方评价，以及合同执行的具体时间表，还有待更多信息公开。后续需要观察合同的实际执行进度，以及是否会有其他军种或盟国海军跟进采购类似的检测服务。",
-      "duration_seconds": 155,
+      "summary": "德国机器人公司Agile的首席执行官表示，公司将与英伟达合作，生产最多2000台人形机器人。这是人形机器人赛道从原型演示迈向规模化量产的又一个信号。",
+      "script": "我们先看人形机器人产业的一条新消息。德国机器人公司Agile的首席执行官对外透露，公司计划与英伟达合作，生产最多2000台人形机器人。这个数字放在整个行业里不算最大，但值得注意的是，这又是一家欧洲公司宣布进入规模化生产阶段，而不再停留在实验室演示或小批量交付。目前公开信息里对具体机型、应用场景和交付时间表都还没有详细披露，这也是这条新闻目前比较单薄的地方——我们只看到两家媒体转载了同一条CEO表态，信息源相对单一。从产业逻辑看，英伟达在人形机器人赛道的角色正在变得清晰：它不直接造机器人整机，而是通过提供计算芯片、仿真平台和机器人基础模型工具链，成为几乎所有主流人形机器人公司背后的算力和软件供应商，这种“卖铲子”模式在人形机器人热潮中复刻了它在AI大模型时代的打法。如果Agile真的能把2000台的产能落地，这将是欧洲人形机器人产业链是否具备规模化制造能力的一次实际检验，因为此前大部分量产消息都来自中国和美国的厂商。后续需要等待Agile或英伟达官方给出更具体的产品定义、目标客户和量产时间表，也需要观察是否有第三方独立信源进一步确认这一合作的具体条款。",
+      "duration_seconds": 125,
       "is_unverified": true,
-      "confidence_note": "目前主要依据The Robot Report对公司声明的报道，属于单一信息来源，海军方面的官方确认细节有限，故标记为未完全验证。",
+      "confidence_note": "两条候选均来自同一CEO表态的不同媒体转载，缺乏官方新闻稿或第二类独立信源佐证具体产能与时间表，故标记为未完全证实。",
       "fact_status": {
         "confirmed": [
-          "Gecko Robotics与美国海军签署3亿美元合同"
+          "Agile首席执行官公开表示计划与英伟达合作生产人形机器人"
         ],
         "claims": [
-          "公司称合同标志着五角大楼认可其技术为核心军事能力"
+          "计划产能最多可达2000台"
         ],
         "analysis": [
-          "机器人检测技术正从商业工业场景向国防装备维护领域扩展"
+          "该消息延续了人形机器人行业从演示走向量产的趋势，英伟达在产业链中扮演算力与软件供应商角色"
         ]
       },
       "source_ids": [
-        "45e1c37e5fce7d21"
+        "2e5fe71b8eae1bd0",
+        "726836e93ac2f935"
       ],
       "sources": [
         {
-          "id": "45e1c37e5fce7d21",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
-          "summary": "Gecko claimed this signals the Pentagon’s confidence that it is a core military capability that is delivering results. The post Gecko Robotics secures $300M contract with the U.S. Navy appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/",
-          "published_at": "2026-10-20T10:25:47+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "arXiv论文：DUET框架实现人形机器人上下肢解耦控制",
-      "english_term": "loco-manipulation（移动操作）",
-      "summary": "一篇新论文提出DUET框架，让人形机器人的行走控制与手臂操作控制可以独立训练、同时运行，无需重新训练整个平衡控制器。",
-      "script": "接下来是一篇值得关注的机器人学术论文。研究者提出了一个名为DUET的框架，试图解决人形机器人身上一个很实际的工程问题：如果要更换机器人的操作策略，比如让它学会一种新的抓取或搬运方式，是不是必须把维持身体平衡的那套控制器也重新训练一遍？论文给出的答案是不需要。DUET的核心思路是把上肢和下肢的控制解耦，也就是拆分开来独立运行，两者的指令只在机器人的接口层面上做组合，而不是在底层网络里深度耦合在一起。具体来说，一个基于强化学习的行走控制策略负责管理12个腿部关节和一个腰部偏航关节，专门追踪平面速度、转向等运动指标，保证机器人在行走和转身时不会摔倒；与此同时，另一套独立的操作控制策略负责处理手臂的任务动作。这种架构设计的意义在于，当工程师想给机器人换一套新的操作任务时，理论上可以只训练或更新操作那部分的策略，而不用动已经调试好的、负责平衡和行走的控制器，这对工程效率和系统稳定性都有实际价值，因为重新训练一个涉及全身平衡的控制器往往是耗时且有风险的过程，稍有不慎可能让已经验证过的行走能力出现退化。这类任务无关、即插即用式的控制架构，反映了当前人形机器人研究的一个趋势：与其追求一个端到端、包揽全身所有动作的单一神经网络，不如把身体切分成功能相对独立的模块，分别优化、再在执行层组合，这样既便于调试，也便于后续迭代升级其中某一部分而不影响全局。论文目前发布在arXiv上，还处于预印本阶段，尚未经过同行评审，实际效果需要更多实验数据和同行评审意见来检验，具体的测试场景、机器人平台型号等细节也需要进一步阅读原文确认。后续需要关注该方法是否会在真实人形机器人硬件上进行更大范围的验证。",
-      "duration_seconds": 180,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv cs.RO的预印本论文，尚未经过同行评审，实际性能和适用范围有待学术界进一步验证。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了DUET解耦执行框架，用于人形机器人的移动与操作控制"
-        ],
-        "claims": [
-          "论文作者称该框架可以让操作策略更新而无需重新训练行走平衡控制器"
-        ],
-        "analysis": [
-          "该研究体现了人形机器人控制架构向模块化、解耦化方向发展的趋势"
-        ]
-      },
-      "source_ids": [
-        "67a975535874b902"
-      ],
-      "sources": [
-        {
-          "id": "67a975535874b902",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "DUET: Decoupled Upper- and Lower-Body Execution for Task-Agnostic Humanoid Loco-Manipulation",
-          "summary": "arXiv:2610.23872v1 Announce Type: new Abstract: Changing a humanoid robot's manipulation policy should not require retraining the controller that maintains the robot's balance. This study introduces DUET, a decoupled execution framework that enables locomotion and manipulation controllers to operate simultaneously by combining their commands only at the robot interface. A reinforcement-learning locomotion policy controls the 12 leg joints and a waist yaw joint, tracking planar velocity, turning rate, and pelvis height from deep crouching to upright standing on a 23-degree-of-freedom Unitree G1. The 10 arm joints are excluded from the action space, while their positions and velocities are included only as observations, so that any compatible manipulation policy that generates arm-joint targets can control the upper body, and the locomotion policy keeps the lower body stable without requiring shared training or direct coordination. This study demonstrates the modular approach on hardware by pairing the same locomotion checkpoint with two different vision-language-action models, GR00T N1.7 and pi0.5. In simulation evaluation, the locomotion controller kept the robot's lower body stabl",
-          "url": "https://arxiv.org/abs/2610.23872",
-          "published_at": "2026-10-20T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "Daimon Robotics布局触觉智能基础设施，连接触觉传感与仿真数据",
-      "english_term": "tactile sensing（触觉感知）",
-      "summary": "初创公司Daimon Robotics致力于打通触觉传感器、真实数据采集、仿真平台和AI模型这几个环节，希望以此提升机器人完成物理操作任务的可靠性。",
-      "script": "在机器人感知这条线上，有一家叫Daimon Robotics的公司值得介绍。这家公司给自己的定位是搭建“触觉智能的基础设施层”，具体来说，就是把触觉传感器、来自真实世界的数据采集、仿真平台，以及训练AI模型这几个环节打通，形成一条完整的链路，目标是让机器人在执行物理操作任务时更加可靠。这里涉及到机器人领域一个长期的痛点：相比视觉感知，触觉感知的研究进展一直相对滞后。人类在拿捏一个易碎的鸡蛋、拧紧一颗螺丝、或者在黑暗中摸索抓取物体时，很大程度上依赖手指皮肤传来的压力、滑动、形变等触觉反馈，而不是单纯依靠眼睛看。但机器人要获得类似的能力，首先需要可靠、高分辨率又成本可控的触觉传感器硬件，其次需要大量真实世界的触觉交互数据用于训练模型，而这类数据的采集成本远高于图像数据，因为需要机器人或人类操作者实际去触碰、挤压、滑动各种材质和形状的物体。Daimon Robotics想做的，正是把这条数据链路做成一个相对标准化的基础设施，让下游的机器人公司不用从零开始搭建触觉数据采集和建模的全套流程。如果这个思路能够跑通，意义在于能够降低其他机器人公司在精细操作任务上的研发门槛，比如水果分拣、电子元件装配、医疗操作辅助等对触觉反馈要求较高的场景，都可能从中受益。不过触觉传感器本身的标准化程度目前还比较低，不同厂商的传感器原理和输出格式差异较大，这也是这类基础设施类公司需要面对的现实挑战。后续需要关注该公司是否公布具体的传感器参数、数据规模以及合作的下游客户案例。",
-      "duration_seconds": 160,
-      "is_unverified": false,
-      "confidence_note": "基于The Robot Report对公司业务的报道，属于公司商业定位介绍，具体技术指标和客户案例细节有限。",
-      "fact_status": {
-        "confirmed": [
-          "Daimon Robotics定位为连接触觉传感、数据采集、仿真与AI模型的基础设施公司"
-        ],
-        "claims": [
-          "公司称该方案能够提升机器人完成物理操作任务的可靠性"
-        ],
-        "analysis": [
-          "触觉感知长期落后于视觉感知，相关基础设施建设可能是精细操作类机器人应用的关键瓶颈之一"
-        ]
-      },
-      "source_ids": [
-        "1353f167d539f1d8"
-      ],
-      "sources": [
-        {
-          "id": "1353f167d539f1d8",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Daimon Robotics building the infrastructure layer for tactile intelligence",
-          "summary": "The company is connecting tactile sensing, real-world data collection, simulation, and AI models to help robots perform physical tasks more reliably. The post Daimon Robotics building the infrastructure layer for tactile intelligence appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/",
-          "published_at": "2026-10-19T17:07:52+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "快速扫描：林业机器人融资与AI机密性风险",
-      "english_term": null,
-      "summary": "初创公司Kodama完成700万美元融资，计划以远程操作起步推进林业和伐木设备自动化；另有报道关注机器人公司面临的AI机密性风险。",
-      "script": "两条机器人产业快讯。第一条，初创公司Kodama完成了700万美元融资，目标是推动林业和伐木设备的自动化。公司的切入点比较务实，先从远程操作做起，也就是让操作员在相对安全的位置远程控制伐木设备，与此同时收集作业过程中的数据，为后续真正实现自动化打基础。林业和伐木作业的工作环境复杂、地形崎岖，且存在较高的安全风险，这类场景长期以来自动化程度很低，Kodama选择从远程操作切入，再逐步积累数据走向自动化，是机器人公司在高风险、非结构化场景中常见的渐进式路径。第二条快讯关注的是机器人行业内部的一个风险话题：有报道指出，随着机器人公司越来越多地依赖AI模型处理操作数据和客户信息，机密信息保护方面的漏洞正在成为这些公司面临的一项现实负债。这类问题通常涉及训练数据中混入敏感信息、模型输出意外泄露客户工艺细节等情形，对于那些给企业客户提供定制化机器人解决方案的公司而言，数据和商业机密保护正在成为需要认真对待的运营风险点。",
-      "duration_seconds": 105,
-      "is_unverified": false,
-      "confidence_note": "基于The Robot Report与Robotics & Automation News两条独立产业报道，均属常规产业动态。",
-      "fact_status": {
-        "confirmed": [
-          "Kodama完成700万美元融资，计划推进林业设备自动化",
-          "有报道指出机器人公司面临AI机密性管理方面的风险"
-        ],
-        "claims": [],
-        "analysis": [
-          "机器人公司在拓展高风险非结构化场景时常采用远程操作到自动化的渐进路径"
-        ]
-      },
-      "source_ids": [
-        "c3fe36a96e11c51b",
-        "1924de32395d720f"
-      ],
-      "sources": [
-        {
-          "id": "c3fe36a96e11c51b",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Kodama raises $7M to bring robotics to forestry",
-          "summary": "Kodama is working on automating forestry and logging equipment, starting with teleoperation and collecting valuable data on the way. The post Kodama raises $7M to bring robotics to forestry appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/kodama-raises-7m-bring-robotics-forestry/",
-          "published_at": "2026-10-19T15:55:12+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "1924de32395d720f",
+          "id": "2e5fe71b8eae1bd0",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "How AI Confidentiality Gaps Are Becoming a Liability for Robotics Firms - Robotics & Automation News",
-          "summary": "How AI Confidentiality Gaps Are Becoming a Liability for Robotics Firms Robotics & Automation News",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdWd0NnM3MFYxbEx5a0l3WUNWMkR1dDdpclh6Nkh3U08xOEx4Nm53OW9RSTItOGR0YWV3XzhLRXZZbkQwUFZyRS1GUHJOSmdkYUFWN0t3eTVoVzhKeEgyb1lSYnY2dWJBajVvbGJIRnk0ZkZHVEE3cGlrenRKNG9VOHE5eTFKa0hSUjdDSGx1MmozR05XdHVaN1pwMWRYc0w5TllETWdmTVNYeXlWWWxjUFd6VDgxQktFTVA3N0NvSEQ1dzdhLVdB?oc=5",
-          "published_at": "2026-10-20T11:47:15+00:00",
+          "title": "Germany's Agile to make up to 2,000 humanoid robots with Nvidia, CEO says - StreetInsider",
+          "summary": "Germany's Agile to make up to 2,000 humanoid robots with Nvidia, CEO says StreetInsider",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZDVEUjdwbFpHUldwS3c2VmRxZ19LWTZqUm42TVp3aDIwM1F0OVNuQVd4dy04WmVfSTNpaXdNNGwtXy1yWENVbFVNdEh3YmxzaFZGcndDd1JEQnpoZkE3VG83a0JFQjY1ekp1SkRPTnAxSDN4czY4cnJtNlFNNTY4dVlfMHVhdEo2TlJxeHVFRGlSQ04zUEtiN094WlNvS3lURXpzUEo5Q1RCcnZrZ3ItYWREQ2xTa0NZRDlyMkVzVTJOUUw3MjJR?oc=5",
+          "published_at": "2026-10-21T12:04:17+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "726836e93ac2f935",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Germany's Agile to make up to 2,000 humanoid robots with Nvidia, CEO says - TradingView",
+          "summary": "Germany's Agile to make up to 2,000 humanoid robots with Nvidia, CEO says TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcmJoT2ZIZ1ZTOF9RY1JyQXB6QVg5bEZoNU1MT1pxS2w4aWNuOV9LZW5yVm9wZWYwYkZZRHBqd3ZCWEoyZHRhakdzSVFackRHbkRaSElUU2JJdmFaUUVwUjU4OXVUSEtYT1I4VHZqbTBtRGFTbnE5T01OREgydU13MGN4YkpXUlZwUklfUm9PQ1RuazZYUlU1Z3ZXUUhLUFhyTjVtSExvZFJIQllLamJWMDZFRU92c3doN0RQLU9mN0QzSnk5Tnl3aTJ1b1IzLTBkRjIwUktnQXlSUQ?oc=5",
+          "published_at": "2026-10-21T12:01:29+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "泽连斯基准备奥斯陆会谈，鲁比奥否认美方扣留情报指控",
-      "english_term": null,
-      "summary": "乌克兰总统泽连斯基准备在奥斯陆与美方特使会谈，美国国务卿鲁比奥否认有关美国扣留对乌情报导致乌克兰人员伤亡的指控。",
-      "script": "俄乌局势方面有新的外交动态。乌克兰总统泽连斯基正在准备前往奥斯陆，与美国派出的特使举行会谈。与此同时，美国国务卿鲁比奥公开否认了此前流传的一种说法，即美国曾经扣留对乌克兰的情报支持，导致乌克兰人员因此伤亡。这一否认直接回应了外界此前的质疑和指责。与这条消息相关联的，是另一组报道提到的背景：特朗普总统近期在处理对俄关系上，采取了一系列被外界形容为对俄罗斯友好的举动，分析人士认为，这与即将到来的美国中期选举前，国内能源价格高企的政治压力有关，特朗普方面希望能够找到某种途径推动俄乌战争走向结束。已经确认的事实是，泽连斯基正在筹备奥斯陆会谈，鲁比奥已就情报扣留指控做出公开否认。各方主张方面，此前有说法指责美国扣留情报导致乌方伤亡，鲁比奥方面则明确予以否认；对于特朗普政府整体对俄政策转向的性质和动机，不同分析人士给出的解读并不一致，有观点认为这是出于实际推动和谈的考虑，也有分析将其与国内政治和选举周期联系起来讨论。整体来看，奥斯陆会谈能否取得实质性进展，以及美国情报支持政策的实际执行情况，目前还缺乏更多细节披露。后续需要关注奥斯陆会谈的具体议程和结果，以及美方关于对乌情报支持政策是否会有进一步的官方说明。",
-      "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "综合BBC World与NPR World两家独立二级来源交叉报道，关于特朗普对俄政策动机的解读部分属于媒体分析，已在稿件中明确区分。",
-      "fact_status": {
-        "confirmed": [
-          "泽连斯基准备在奥斯陆与美方特使会谈",
-          "鲁比奥公开否认美国扣留对乌情报的指控"
-        ],
-        "claims": [
-          "此前有说法指责美国扣留情报导致乌克兰人员伤亡",
-          "有分析认为特朗普对俄友好举动与中期选举前能源价格压力有关"
-        ],
-        "analysis": [
-          "美国对俄对乌政策的走向仍存在不确定性，奥斯陆会谈结果将是观察重点"
-        ]
-      },
-      "source_ids": [
-        "b9c53f105a1badaf",
-        "9cac448507c7c353",
-        "8d32268c192e6101"
-      ],
-      "sources": [
-        {
-          "id": "b9c53f105a1badaf",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Zelensky prepares for Oslo talks with US envoys as Rubio denies withholding intelligence",
-          "summary": "The US secretary of state rejects accusations Ukrainians were dying because the US was withholding intelligence.",
-          "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-20T12:08:41+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "9cac448507c7c353",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Trump makes Russia-friendly moves as he looks for a way to end the war with Ukraine",
-          "summary": "President Trump's up and down relationship with Russia is back on as he presses to find an end to the war in Ukraine amid high energy costs ahead of the U.S. midterms.",
-          "url": "https://www.npr.org/2026/10/20/nx-s1-6007897/trump-makes-russia-friendly-moves-as-he-looks-for-a-way-to-end-the-war-with-ukraine",
-          "published_at": "2026-10-20T11:03:52+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "8d32268c192e6101",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Former U.S. ambassador on Trump's recent moves to embrace Russia",
-          "summary": "NPR's Steve Inskeep speaks with former U.S. Ambassador to Russia Michael McFaul about President Trump's latest embrace of Russia and what it means for Ukraine and any hopes of peace.",
-          "url": "https://www.npr.org/2026/10/20/nx-s1-6007865/former-u-s-ambassador-on-trumps-recent-moves-to-embrace-russia",
-          "published_at": "2026-10-20T11:03:48+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "也门战事重燃，英国派遣台风战机协助沙特防御胡塞武装袭击",
-      "english_term": null,
-      "summary": "也门战争重新升级导致该国机场关闭，重症患者被困国内无法就医；同时英国宣布将派遣台风战机协助沙特阿拉伯防御胡塞武装袭击。",
-      "script": "也门局势也出现了令人担忧的新进展。随着也门战事重新燃起，该国的机场陆续关闭，这直接导致国内那些患有慢性重症、急需出国就医的病人被困在国内，无法获得必要的治疗。这类患者本身依赖定期转往国外接受治疗，机场关闭等于切断了他们的生命通道。与此同时，英国国防部宣布，将派遣台风战斗机协助沙特阿拉伯防御来自胡塞武装的袭击，国防部方面特别强调，这些战机将执行的是防御性角色，不会被用于对也门境内的胡塞武装发起进攻。这一表态试图将英国的军事介入限定在防御范畴内，避免被解读为直接参与对也门一方的军事打击。已经确认的事实是，也门战事重新升级导致机场关闭，重症患者被困；英国国防部已正式宣布向沙特派遣台风战机执行防御任务。各方主张层面，英国政府强调此举属于防御性质，不针对胡塞武装发起攻击，但胡塞武装及地区其他相关方对此次部署的反应和解读目前报道中未见详细说明。分析层面来看，也门局势的再度恶化，叠加地区大国军事介入的升级，可能进一步加剧也门国内本已脆弱的人道主义状况，尤其是对于依赖外部医疗资源的重症患者群体而言，机场关闭带来的影响是直接且紧迫的。后续需要关注机场重新开放的时间表，以及国际人道组织对滞留重症患者的救助安排进展。",
-      "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "基于Al Jazeera两篇独立报道交叉确认，分别涉及人道状况与英国军事部署两个层面的事实。",
-      "fact_status": {
-        "confirmed": [
-          "也门战事重新升级，机场关闭导致重症患者被困",
-          "英国国防部宣布派遣台风战机协助沙特防御胡塞武装袭击"
-        ],
-        "claims": [
-          "英国国防部称战机将执行防御性角色，不用于进攻胡塞武装"
-        ],
-        "analysis": [
-          "也门人道局势可能因战事升级和地区军事介入进一步恶化"
-        ]
-      },
-      "source_ids": [
-        "6fa0a906d6b46a97",
-        "47d31e0485d673cd"
-      ],
-      "sources": [
-        {
-          "id": "6fa0a906d6b46a97",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Yemen’s critically ill are trapped as war closes the country’s airports",
-          "summary": "A re-ignition of Yemen's war has left the chronically sick who need treatment trapped in the country.",
-          "url": "https://www.aljazeera.com/features/2026/10/20/yemens-critically-ill-are-trapped-as-war-closes-the-countrys-airports?traffic_source=rss",
-          "published_at": "2026-10-20T11:52:11+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "47d31e0485d673cd",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks",
-          "summary": "Ministry of Defence says warplanes will operate in 'defensive role' and not be used to attack Yemeni group.",
-          "url": "https://www.aljazeera.com/news/2026/10/20/uk-to-deploy-raf-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks?traffic_source=rss",
-          "published_at": "2026-10-20T11:37:43+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "澳大利亚国会议员遭汽车袭击，嫌疑人已被起诉",
-      "english_term": null,
-      "summary": "澳大利亚国会议员海伦·海恩斯在办公室外遭遇汽车袭击失去一条腿，目前仍处于危重状态，嫌疑人布伦丹·纽金特已被正式起诉。",
-      "script": "一则令人震惊的政治暴力事件后续进展。澳大利亚国会议员海伦·海恩斯此前在其办公室外遭遇汽车袭击，失去了一条腿，目前仍然处于危重状态。警方已经对嫌疑人布伦丹·纽金特提出正式指控。值得注意的细节是，嫌疑人的家人向媒体表示，他们与海恩斯议员相识超过20年，是多年的家庭朋友，这一关系让整起事件显得更加令人困惑和复杂。已经确认的事实是，海恩斯议员在车辆袭击中严重受伤并失去一条腿，目前仍在危重状态中接受治疗；嫌疑人已被警方正式起诉。各方主张方面，嫌疑人家属强调双方长期的私人友谊，暗示事件背后可能并非单纯的政治动机，但具体作案动机目前尚未有官方定论。这起事件也再次引发外界对于公职人员人身安全保障的关注，尤其是在当前国际上政治极化、针对公职人员的暴力事件时有发生的背景下。后续需要等待警方和司法程序进一步披露案件细节和作案动机，以及海恩斯议员的伤情恢复情况。",
-      "duration_seconds": 95,
-      "is_unverified": false,
-      "confidence_note": "基于Al Jazeera与BBC World两家独立来源交叉报道确认基本事实。",
-      "fact_status": {
-        "confirmed": [
-          "海伦·海恩斯议员遭遇汽车袭击并失去一条腿，目前处于危重状态",
-          "嫌疑人布伦丹·纽金特已被正式起诉"
-        ],
-        "claims": [
-          "嫌疑人家属称与海恩斯议员是多年家庭朋友"
-        ],
-        "analysis": [
-          "案件具体动机尚不明确，有待司法程序进一步披露"
-        ]
-      },
-      "source_ids": [
-        "92cfb9608ac2b29e",
-        "9e3272229a04291e"
-      ],
-      "sources": [
-        {
-          "id": "92cfb9608ac2b29e",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Australian MP Helen Haines remains in critical condition after car attack",
-          "summary": "Australian MP Helen Haines lost a leg and remains in critical condition after a car attack outside her office.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/australian-mp-helen-haines-remains-in-critical-condition-after-car-attack-2?traffic_source=rss",
-          "published_at": "2026-10-20T11:29:35+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "9e3272229a04291e",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Man charged with attack on Australian MP as suspect's father says she is family friend",
-          "summary": "Brendan Nugent's family say they have known Helen Haines, who remains in a critical condition, for more than 20 years.",
-          "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-20T11:25:35+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "朝鲜工人在俄罗斯无人机工厂遭“奴役式”对待，报告引发担忧",
-      "english_term": null,
-      "summary": "一份新报告披露朝鲜派往俄罗斯无人机工厂的工人遭受类似奴役的恶劣待遇，报告同时警告朝鲜可能借此获得先进无人机技术的实操经验。",
-      "script": "一份新发布的报告披露了朝鲜工人在俄罗斯一家无人机工厂内所遭受的恶劣处境，报告使用了奴役这样的字眼来形容他们的工作和生活状态。报告同时提出了一个更值得关注的担忧：朝鲜借由派遣工人进入这类工厂工作，有可能获得先进无人机武器系统的实际操作和制造经验，这意味着朝鲜的无人机技术能力可能因此获得实质性提升。已经确认的事实是，报告披露了朝鲜工人在俄罗斯无人机工厂内的恶劣待遇情况。各方主张方面，报告作者提出了朝鲜可能借工人派遣获取先进武器系统技术知识的担忧，但这属于报告方的推断和警示，并非已经证实的既成事实。分析层面看，如果朝俄在军工和无人机制造领域的合作持续深化，不仅涉及劳工权益问题，也可能对地区军事技术扩散格局产生影响，尤其是考虑到无人机技术近年来在实战中的重要性不断上升。后续需要关注是否有更多独立机构或政府部门对这份报告的内容进行核实，以及朝俄两国官方对相关指控的回应。",
-      "duration_seconds": 100,
+      "category": "robotics",
+      "title": "中国空间机器人初创公司Sinxbot完成数千万美元融资，瞄准在轨服务",
+      "english_term": "on-orbit servicing（在轨服务，指为在轨卫星提供加注、维修、离轨等服务的技术）",
+      "summary": "中国空间机器人初创公司Sinxbot宣布完成数千万美元融资，业务方向是卫星在轨加注与离轨服务。这是空间机器人赛道在融资端的最新动作。",
+      "script": "接下来关注一条跨界新闻：机器人技术正在加速进入太空产业。中国空间机器人初创公司Sinxbot宣布完成了一轮数千万美元规模的融资，公司主攻方向是卫星的在轨加注和离轨服务。简单解释一下这两个概念：在轨加注，是指通过机器人技术给已经在太空运行、燃料即将耗尽的卫星补充推进剂，从而延长卫星寿命，避免整颗卫星因为燃料用尽而报废；离轨服务，则是帮助寿命到期或发生故障的卫星安全离开轨道，减少太空垃圾对其他航天器造成的碰撞风险。这两项能力背后，核心技术挑战都落在机器人学上——如何让一个航天器在太空中捕获、对接一个本身没有设计配合接口的“非合作目标”，这需要精确的轨道交会对接控制、视觉感知与机械臂操作的高度协同。太空垃圾治理和卫星延寿本身也是全球航天产业近几年增长较快的细分赛道，中国、美国和欧洲都有多家公司在布局类似业务。目前公开信息没有披露Sinxbot具体融资金额、投资方名单和技术路线细节，后续需要等待公司或投资方发布更详细的官方公告。",
+      "duration_seconds": 105,
       "is_unverified": true,
-      "confidence_note": "目前主要依据DW对单一报告内容的转述，报告本身的调查方法和信源未完全披露，相关指控有待进一步独立核实。",
+      "confidence_note": "消息来自单一行业媒体SpaceNews，未见第二来源交叉确认具体融资金额与投资方，列为未完全证实。",
       "fact_status": {
         "confirmed": [
-          "有报告披露朝鲜工人在俄罗斯无人机工厂内的恶劣待遇"
+          "Sinxbot是一家中国空间机器人初创公司，宣布完成数千万美元级别融资"
         ],
         "claims": [
-          "报告担忧朝鲜可能借此获得先进无人机武器系统的实操知识"
+          "公司业务方向为在轨加注与离轨服务"
         ],
         "analysis": [
-          "若属实，可能影响地区军事技术扩散态势，但具体情况有待进一步核实"
+          "空间机器人在轨服务是航天产业与机器人技术交叉的新兴赛道，核心难点在于非合作目标捕获与操作"
         ]
       },
       "source_ids": [
-        "9f036dcb170e6cd7"
+        "05580ff7bcd1e8d5"
       ],
       "sources": [
         {
-          "id": "9f036dcb170e6cd7",
+          "id": "05580ff7bcd1e8d5",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Chinese space robotics startup Sinxbot raises tens of millions of dollars for on-orbit refueling, deorbit services - SpaceNews",
+          "summary": "Chinese space robotics startup Sinxbot raises tens of millions of dollars for on-orbit refueling, deorbit services SpaceNews",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZUQtT2JueUZwR2FJcE5OQ3JLODkyTDh3emVNaXRvcmtLT1lNTDFCbHBWV3l0UGVmUXFnc28zWnhRaVFFTWw1a0hnLXhlYm8tUHBVbnNKQTlGOGxmU2dWanV6Sm5aLUNzeXBmUW5OczZLc3BOU2xJOGpqNnVhdUhHZUtYc3VuV0dpaFFIM1YteXVtR2RLWFFERXUyRUM4OWtRQXdvb1dQNW51MVdZQ0c0RUNfaENTQ0hzaXpCNWQtYVZxNzFlQWdoZU1Hc3AwZExTclE?oc=5",
+          "published_at": "2026-10-21T11:39:02+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "跨构型灵巧抓取新方法：DexGraspFlow融合几何与运动学拓扑信息",
+      "english_term": "SE(3) flow matching（SE(3)流匹配，一种用于生成机器人末端位姿序列的生成式方法）",
+      "summary": "一篇新论文提出DexGraspFlow框架，尝试解决不同机械手之间手指结构、关节参数差异导致的跨构型灵巧抓取生成难题。",
+      "script": "来看一篇机器人操作领域的新论文，研究主题是跨构型灵巧抓取生成，英文叫cross-embodiment dexterous grasp generation。这个问题是什么意思呢？现实中不同机械手的手指数量、关节自由度、几何尺寸都不一样，一个为某款机械手训练出来的抓取策略，很难直接搬到另一款手型完全不同的机械手上使用，这给通用抓取算法的研发带来很大障碍。研究团队提出的方法叫DexGraspFlow，核心思路是用条件化的、基于连杆层级的SE(3)流匹配框架来生成抓取姿态。这里SE(3)指的是三维空间中刚体位置和姿态的数学描述，流匹配则是近年来在图像生成和机器人动作生成中逐渐流行的一类生成模型训练方法，相比传统扩散模型通常训练和采样效率更高。论文的关键创新在于，团队认为仅仅描述手指连杆之间的空间相对关系还不够，必须同时把手的运动学拓扑结构——也就是各个关节是如何连接、如何驱动的——编码进模型里，才能让生成的抓取动作在不同手型之间真正具备可迁移性。具体做法是让模型同时编码局部物体几何信息和手部连杆的几何与拓扑关系，生成跨构型都适用的抓取位姿。这项工作的意义在于，如果跨构型抓取生成能力得到验证，未来研发新机械手时可能不需要为每一款硬件都重新采集数据、重新训练抓取模型，能够显著降低灵巧操作算法的迁移成本。目前这仍是一篇新发布的预印本论文，尚未经过同行评审，论文中具体在多少种手型、多少个物体上做了验证，效果相比现有方法提升多少，都需要等待后续评审或开源代码验证。",
+      "duration_seconds": 160,
+      "is_unverified": true,
+      "confidence_note": "来自arXiv的预印本论文，尚未经过同行评审，实验细节和效果数据需等待后续验证。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了名为DexGraspFlow的跨构型灵巧抓取生成框架"
+        ],
+        "claims": [
+          "该方法通过融合几何关系与运动学拓扑信息提升跨构型抓取生成的泛化能力"
+        ],
+        "analysis": [
+          "跨构型抓取是机械手操作领域的难点问题，若方法有效，可降低不同硬件间算法迁移的成本"
+        ]
+      },
+      "source_ids": [
+        "f92b5ac3a1c9bd4d"
+      ],
+      "sources": [
+        {
+          "id": "f92b5ac3a1c9bd4d",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "DexGraspFlow: Topology-Aware SE(3) Flow Matching for Cross-Embodiment Dexterous Grasp Generation",
+          "summary": "arXiv:2610.26962v1 Announce Type: new Abstract: Differences in hand geometry, joint parameterization, and kinematic topology pose challenges for cross-embodiment dexterous grasp generation. However, spatial relations among links alone are insufficient to fully capture the hand's kinematic topology. We propose DexGraspFlow, a conditional link-level $\\mathrm{SE}(3)$ flow-matching framework integrating geometric relations and kinematic topology. The framework encodes local object geometry, link geometry, and current poses. A dual-stream DiT models link--link coordination and link--object interaction, while attention biases derived from kinematic-tree distances provide explicit structural information for modeling evolving geometric interactions. The model jointly learns translational and rotational velocity fields, integrates them to generate link poses, and recovers joint configurations through inverse kinematics. Additionally, inference-time palm-orientation guidance enables controllable grasp generation without retraining. Across three robotic hands and 30 object--hand pairs, DexGraspFlow achieves a 95.33\\% average simulation success rate, with an average generation latency, includi",
+          "url": "https://arxiv.org/abs/2610.26962",
+          "published_at": "2026-10-21T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "具身智能新基准Embodied Playground：考察长程物理、策略与空间推理能力",
+      "english_term": "long-horizon reasoning（长程推理，指模型需要在多个连续步骤中保持任务状态一致性的推理能力）",
+      "summary": "新论文提出Embodied Playground基准，用于评估基础模型驱动的机器人智能体在长程任务中协调物理执行、策略规划与空间推理的能力。",
+      "script": "再来看一篇具身智能领域的基准测试论文，叫做Embodied Playground。背景是这样的：现在越来越多研究尝试把大模型，也就是基础模型，直接用作机器人的“大脑”，让它来决定机器人下一步该做什么。但是研究团队发现，真正困难的不是让模型完成单一动作，而是让它在长时间跨度、多个相互依赖的阶段里，始终保持连贯的推理和可靠的物理执行，这就是所谓的长程推理问题。比如一个需要十几个步骤才能完成的任务，模型必须记住此前完成了哪些子目标、当前状态是否满足进入下一步的条件，还要在执行出错时及时调整计划，这对模型的记忆、规划和纠错能力都是综合考验。为此，研究团队设计了Embodied Playground这个基准测试环境，专门用来评估基础模型驱动的智能体在物理执行、策略规划和空间推理这三个维度上的综合表现，要求智能体持续追踪任务进度、满足中间阶段的约束条件，并能根据执行反馈修正后续计划。这类基准测试论文的价值在于，它给整个具身智能研究社区提供了一把统一的尺子，让不同团队提出的基础模型方案可以在同一套长程任务上做公平比较，而不是各自用自定义的简单任务来证明自己方法有效。目前这仍是一篇新发布的预印本，具体包含多少个任务场景、测试了哪些现有基础模型、它们的表现如何，论文摘要中没有展开，需要等待完整论文公开和同行评审意见。",
+      "duration_seconds": 145,
+      "is_unverified": true,
+      "confidence_note": "来自arXiv的预印本论文，尚未经过同行评审，具体任务集规模与模型测试结果需查阅完整论文。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了名为Embodied Playground的长程具身智能体基准测试"
+        ],
+        "claims": [
+          "该基准用于评估基础模型智能体在物理、策略、空间三类推理上的综合表现"
+        ],
+        "analysis": [
+          "长程推理是当前具身智能研究的核心难点之一，统一基准有助于不同方法间的公平比较"
+        ]
+      },
+      "source_ids": [
+        "570e7a2cdaf46881"
+      ],
+      "sources": [
+        {
+          "id": "570e7a2cdaf46881",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Embodied Playground: A Long-Horizon Agentic Robotics Benchmark for Physical, Strategic, and Spatial Reasoning",
+          "summary": "arXiv:2610.27039v1 Announce Type: new Abstract: Foundation models offer a promising basis for robotic agents, but long-horizon tasks require them to sustain coherent reasoning and reliable physical execution across interdependent stages. We introduce Embodied Playground, a benchmark for evaluating how foundation-model agents coordinate physical, strategic, and spatial reasoning throughout such tasks. Agents must track task progress, satisfy intermediate constraints, and revise their plans using execution feedback as earlier actions shape subsequent decisions. The playground comprises 410 task environments spanning basic manipulation, sequential puzzles, and multi-stage household activities, with variations in planning depth, geometric constraints, and physical execution demands. We curate EP-100, a representative selection of 100 tasks across five suites and 16 task types, together with the EP-Easy and EP-Hard difficulty splits and the compact EP-20 selection. A shared protocol specifies observation and tool access, resource budgets, repeated trials, and independent checks of goal completion, task-rule compliance, and physical validity. Embodied Playground provides a unified framew",
+          "url": "https://arxiv.org/abs/2610.27039",
+          "published_at": "2026-10-21T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "通过可验证交互训练具身视觉语言模型的错误恢复能力",
+      "english_term": "VLM（Vision-Language Model，视觉语言模型，能同时理解图像和文本的大模型）",
+      "summary": "新论文提出一种强化学习式训练方法，让具身视觉语言模型在操作任务出错后，能基于验证过的动作结果重新规划，而不是依赖固定的恢复策略。",
+      "script": "另一篇值得关注的论文，解决的是机器人操作中一个很实际的问题：出错之后怎么办。论文标题直译是“通过可验证交互训练重新规划以实现错误恢复”。背景是，现在的具身视觉语言模型，也就是能同时理解图像和语言指令、并输出机器人动作的大模型，已经能完成越来越复杂的操作任务，但执行过程中难免出错，一旦出错，环境状态就可能变得和最初设定的不一样，这时候模型需要重新规划才能恢复任务。研究团队指出，现有的恢复方法要么依赖推理阶段的固定策略、不会从错误中学习，要么是从失败案例和人工标注的修正方案中学习，而不是从真正验证过的动作结果中学习，这就导致恢复策略的可靠性存疑。团队提出的解决方案，核心是让模型通过“可验证交互”来学习恢复策略，具体采用了一种叫Action-Grouped Turn-GSPO的训练方法，这是一种强化学习式的训练机制，通过对动作序列分组、并验证每组动作实际造成的环境变化是否符合预期，来给模型提供更可靠的训练信号，而不是单纯模仿人类给出的纠正示范。这个研究方向的意义在于，机器人在真实环境里部署时，完美执行几乎不可能，如何让机器人具备自我纠错能力，是从实验室演示走向实际可靠部署的关键一环。目前论文仍是预印本阶段，具体在哪些操作任务上做了测试、恢复成功率相比基线方法提升多少，需要等待完整论文和同行评审结果公布。",
+      "duration_seconds": 145,
+      "is_unverified": true,
+      "confidence_note": "来自arXiv的预印本论文，尚未经过同行评审，具体实验任务与量化结果需查阅完整论文。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了名为Action-Grouped Turn-GSPO的训练方法，用于具身视觉语言模型的错误恢复"
+        ],
+        "claims": [
+          "该方法通过可验证交互学习恢复策略，优于依赖固定策略或人工修正示范的现有方法"
+        ],
+        "analysis": [
+          "错误恢复能力是机器人操作系统走向实际可靠部署的关键环节之一"
+        ]
+      },
+      "source_ids": [
+        "784af7af77727d3e"
+      ],
+      "sources": [
+        {
+          "id": "784af7af77727d3e",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Replan for Error Recovery: Training Embodied VLMs through Verifiable Interaction with Action-Grouped Turn-GSPO",
+          "summary": "arXiv:2610.27003v1 Announce Type: new Abstract: Embodied VLMs can execute increasingly complex manipulation tasks, yet execution errors can leave the environment in states that require replanning for recovery. Existing recovery methods either rely on inference-time mechanisms with fixed policies or learn from failure examples and reference corrections rather than verified action outcomes. To enable recovery learning through verifiable interaction, we introduce the Embodied Replanning for Recovery Environment (ERR-Env), which provides feedback on task progress and execution errors. We further construct ERR-Bench, a benchmark with held-out tasks spanning nominal, intermediate, and error states for evaluating recovery capability and execution reliability. We then propose Action-Grouped Turn-GSPO (AGT-GSPO), an online reinforcement learning method combining turn-level rewards for task progress and error states with action-grouped advantage estimation, and use it to train ERR-VLM, a compact 2B embodied VLM. Evaluation on ERR-Bench reveals a mismatch between task progress and execution reliability across diverse VLMs. AGT-GSPO improves ERR-VLM by 10.25 percentage points in Strict Success",
+          "url": "https://arxiv.org/abs/2610.27003",
+          "published_at": "2026-10-21T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "美国公民Stephen Hubbard获俄罗斯释放，特朗普特使同期与普京会面",
+      "english_term": null,
+      "summary": "俄罗斯总统普京宣布释放此前被关押的美国公民Stephen Hubbard，此次释放未附带交换条件，恰逢特朗普特使维特科夫赴莫斯科会谈。",
+      "script": "国际新闻方面，74岁的美国公民、前教师Stephen Hubbard被俄罗斯释放。根据多家媒体报道，俄罗斯总统普京宣布，应特朗普的请求释放了Hubbard，而且特朗普方面表示，这次释放没有附带任何“交换”条件。这一消息发生的背景，是特朗普的特使维特科夫正在莫斯科与普京举行会谈，同时在此之前，维特科夫刚刚与乌克兰总统泽连斯基会面过。已经确认的事实是：Hubbard此前作为美国公民在俄罗斯被关押多年，这次获释得到了俄方和白宫双方的公开证实。各方表态上，特朗普方面强调这是“请求”而非“交换”促成的结果，试图把此事塑造成外交善意的体现；但外部观察人士，包括前美国驻乌克兰大使赫伯斯特在内，对特朗普近期在乌克兰问题上向俄罗斯靠拢的整体姿态提出了疑问和担忧，认为需要观察这种单方面释放是否会被解读为对等让步的开端。分析判断上，这次人质获释发生在俄乌和谈特使穿梭外交的敏感节点上，很可能是双方释放善意、为后续谈判铺路的信号，但目前没有证据表明这与乌克兰战争的实质性谈判进展直接挂钩。后续需要等待克里姆林宫和白宫是否会公布更多关于此次释放背景的细节，也需要关注维特科夫此轮莫斯科之行是否会带来俄乌谈判的实质性进展。",
+      "duration_seconds": 130,
+      "is_unverified": false,
+      "confidence_note": "多家二级媒体BBC、NPR、DW均独立报道并确认此次释放事件，信息来源充分。",
+      "fact_status": {
+        "confirmed": [
+          "美国公民Stephen Hubbard被俄罗斯释放",
+          "特朗普特使维特科夫在释放消息公布前后赴莫斯科与普京会面"
+        ],
+        "claims": [
+          "特朗普方面表示此次释放未附带交换条件",
+          "前美国驻乌克兰大使对特朗普向俄罗斯靠拢的姿态表达担忧"
+        ],
+        "analysis": [
+          "此次释放可能是俄美释放外交善意、为俄乌谈判铺路的信号，但尚无证据表明与实质性谈判进展挂钩"
+        ]
+      },
+      "source_ids": [
+        "5f59a46c4cbbcd8d",
+        "6e05c4e615590738",
+        "96063e5c9f9a2080",
+        "43277bd761a2b326"
+      ],
+      "sources": [
+        {
+          "id": "5f59a46c4cbbcd8d",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
+          "summary": "The 74-year-old former teacher has been released without any \"swap\" required, Trump says.",
+          "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-21T12:00:33+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "6e05c4e615590738",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Russia releases imprisoned U.S. citizen Stephen Hubbard following Trump's request",
+          "summary": "Russian President Vladimir Putin says he has freed an American, Stephen Hubbard, from a Russian prison following a request from President Trump.",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
+          "published_at": "2026-10-21T10:20:50+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "96063e5c9f9a2080",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "North Korean workers treated as 'slaves' at Russian drone factory, says new report",
-          "summary": "A new report reveals the plight of North Korean workers at a drone factory in Russia. It also raised concerns that Pyongyang could gain hands-on knowledge of advanced weapons systems through the workers it sends there.",
-          "url": "https://www.dw.com/en/north-korean-workers-treated-as-slaves-at-russian-drone-factory-says-new-report/a-79710877?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-20T11:30:00+00:00",
+          "title": "Russia frees jailed American Stephen Hubbard during Witkoff talks",
+          "summary": "Russian President Vladimir Putin announced the release of Stephen Hubbard, an American taken captive by Russian forces years ago in Ukraine.",
+          "url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-21T09:42:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "43277bd761a2b326",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Former U.S. Ambassador to Ukraine on Trump's turn toward Russia",
+          "summary": "NPR's Steve Inskeep asks former U.S. Ambassador to Ukraine John Herbst about President Trump's embrace of Russia as envoy Steve Witkoff heads to Moscow after meeting Ukraine's Volodymyr Zelenskyy.",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6009376/former-u-s-ambassador-to-ukraine-on-trumps-turn-toward-russia",
+          "published_at": "2026-10-21T10:56:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "science",
-      "title": "新研究聚焦人类活动对地球水循环的影响",
-      "english_term": "water cycle（水循环）",
-      "summary": "NASA发布的一项新研究显示，人类活动已经深度介入全球各大洲的水资源分布格局，相关影响正在被更清晰地量化呈现。",
-      "script": "最后关注一项地球科学领域的新研究。NASA发布的报道介绍了一项新研究成果，核心结论是：人类活动已经与地球水循环在各大洲的分布紧密交织在一起，换句话说，如今全球范围内水资源如何在陆地上分布，已经很难脱离人类活动的影响单独讨论。研究团队通过新的分析手段，把这种人类活动对水循环的影响呈现得更加清晰和精确。水循环本身是指水在海洋、大气、陆地之间通过蒸发、降水、径流等方式循环流动的自然过程，而人类活动，比如大规模灌溉农业、地下水开采、水库建设和城市化对地表径流的改变，都会直接干预这一循环的节奏和路径。这项研究的意义在于，为理解当前全球水资源分布状况提供了更精确的量化依据，这类数据对于水资源管理、农业规划以及气候变化应对决策而言，都具有参考价值。报道中没有给出具体的研究方法细节和量化数值，相关内容需要查阅原始研究论文才能获得更完整的信息。后续需要关注该研究的具体发表期刊和详细数据，以及是否有其他独立研究团队的类似发现进行交叉印证。",
-      "duration_seconds": 105,
-      "is_unverified": false,
-      "confidence_note": "基于NASA官方发布的报道，属于一手信息来源，但具体研究论文细节和期刊信息未在候选材料中完整给出。",
+      "category": "world",
+      "title": "欧洲多国与法国爆发生活成本抗议，法国抗议口号引发关注",
+      "english_term": null,
+      "summary": "半岛电视台报道称，生活成本抗议不仅限于欧洲，法国抗议者高呼特定口号，反映出民众对一系列民生议题的不满。",
+      "script": "转向民生与社会议题。半岛电视台的报道指出，围绕生活成本上涨的抗议活动并不只局限于欧洲，而是在更大范围内蔓延。与此同时，法国国内的抗议者喊出了一句颇具标志性的口号，这句口号目前已经成为整个抗议运动所承载的一系列民生诉求的象征。已经确认的事实是，法国近期确实出现了围绕生活成本问题的街头抗议活动，抗议者使用了特定口号来表达诉求；半岛电视台将此与欧洲以外地区同类抗议现象做了关联报道。需要说明的是，候选信息中并未提供这句口号的具体中文含义、抗议的具体规模、参与人数或政府回应，也没有给出欧洲以外具体是哪些国家出现了类似抗议，这些细节仍有待更完整的报道补充。从宏观背景看，近年来全球多地都出现了因能源价格、食品价格和整体通胀压力上升而引发的街头抗议，这类生活成本抗议往往不是单一政策问题触发，而是多重经济压力长期累积的结果。分析判断上，如果生活成本抗议确实呈现出跨地区蔓延的态势，这将是观察全球通胀压力和社会稳定性的一个重要信号，值得持续关注其后续发展，包括各国政府是否会出台针对性的民生纾困政策。",
+      "duration_seconds": 115,
+      "is_unverified": true,
+      "confidence_note": "候选信息仅为标题式摘要，缺乏具体事实细节，法国抗议口号的具体内容和含义未在候选中说明，暂按有限信息处理。",
       "fact_status": {
         "confirmed": [
-          "NASA发布报道称新研究显示人类活动已深度介入全球水循环分布格局"
+          "法国近期出现了围绕生活成本问题的抗议活动"
         ],
-        "claims": [],
+        "claims": [
+          "半岛电视台报道称此类生活成本抗议不仅限于欧洲地区"
+        ],
         "analysis": [
-          "该研究为水资源管理和相关政策制定提供了更精确的参考依据"
+          "若生活成本抗议呈现跨地区蔓延趋势，可能反映全球通胀压力对社会稳定性的影响"
         ]
       },
       "source_ids": [
-        "dc59e3c1214539a8"
+        "d9edcf5c45abb12c",
+        "7ef07c68ebae9200"
       ],
       "sources": [
         {
-          "id": "dc59e3c1214539a8",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
+          "id": "d9edcf5c45abb12c",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
           "language": "en",
-          "category_hint": "science",
-          "title": "The Human Fingerprint on Earth’s Water Cycle",
-          "summary": "Human activities have become intertwined with how water is distributed across the continents. A new study brings their effects into sharper focus.",
-          "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
-          "published_at": "2026-10-20T04:01:00+00:00",
+          "category_hint": "world",
+          "title": "Cost of living protests aren’t just happening in Europe",
+          "summary": "Cost of living protests aren’t just happening in Europe",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/cost-of-living-protests-arent-just-happening-in-europe?traffic_source=rss",
+          "published_at": "2026-10-21T10:49:44+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "7ef07c68ebae9200",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
+          "summary": "The slogan has come to represent a whole array of grievances that lie at the heart of the protest movement.",
+          "url": "https://www.aljazeera.com/news/2026/10/21/why-are-french-protesters-chanting-bismillah-cest-les?traffic_source=rss",
+          "published_at": "2026-10-21T10:35:34+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "title": "马斯克确认正在考虑特斯拉与SpaceX合并",
+      "english_term": null,
+      "summary": "埃隆·马斯克公开表示，特斯拉和SpaceX两家公司都已成立专门委员会，研究一项可能的超级合并方案。",
+      "script": "商业新闻方面，埃隆·马斯克公开确认，他正在考虑将特斯拉和SpaceX这两家公司合并。根据报道，两家公司内部都已经成立了专门委员会，用来研究这项可能的“超级合并”方案是否可行。已经确认的事实是，马斯克本人公开承认了这一考虑，并且提到两家公司已经启动内部评估程序。目前候选信息没有披露合并的具体方案细节，比如合并后的股权结构、对两家公司各自股东的影响、是否需要监管部门批准等关键问题都尚未公开。各方主张方面，由于特斯拉是上市公司而SpaceX是私人公司，两者业务领域也分属电动车和航天完全不同的行业，外界对于这项合并的商业逻辑存在疑问，具体是出于资本运作、业务协同还是其他战略考虑，目前没有权威信息说明。分析判断上，如果合并方案最终推进，这将是全球资本市场近年来规模和跨度都极为罕见的一次企业重组，涉及的监管审查、股东利益平衡和公司治理问题都会相当复杂，预计会引发市场和监管机构的高度关注。后续需要等待两家公司委员会的评估结果，以及是否有正式的合并提案提交董事会或监管部门。",
+      "duration_seconds": 110,
+      "is_unverified": true,
+      "confidence_note": "消息来自单一来源BBC对马斯克公开表态的报道，合并方案细节尚未公开，具有高度不确定性。",
+      "fact_status": {
+        "confirmed": [
+          "马斯克公开表示正在考虑特斯拉与SpaceX合并",
+          "两家公司已成立专门委员会评估该方案"
+        ],
+        "claims": [],
+        "analysis": [
+          "若合并推进，将涉及复杂的监管审查与公司治理问题，是否存在明确商业逻辑尚不清楚"
+        ]
+      },
+      "source_ids": [
+        "15726e7c9919a782"
+      ],
+      "sources": [
+        {
+          "id": "15726e7c9919a782",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+          "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-21T08:42:49+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "health",
+      "title": "肯尼亚确认九例埃博拉病例，美国建议公民重新考虑赴肯尼亚旅行",
+      "english_term": "Ebola（埃博拉病毒，一种高致死率的出血热病毒）",
+      "summary": "肯尼亚出现九例埃博拉确诊病例，美国已建议本国公民重新考虑前往肯尼亚旅行的计划，肯尼亚政府则努力安抚民众情绪。",
+      "script": "公共卫生方面，肯尼亚目前已经确认出现九例埃博拉病例，美国已经发布旅行提示，建议本国公民重新考虑前往肯尼亚的旅行计划。埃博拉是一种高致死率的出血热病毒，主要通过接触感染者体液传播，历史上曾在非洲多国引发严重疫情，病死率在不同暴发中差异较大，但总体偏高，因此国际社会对任何新增病例都保持高度警惕。已经确认的事实是，肯尼亚境内出现了九例确诊病例，美国已就此发布旅行提示。各方主张方面，肯尼亚政府正在努力向公众和国际社会传递疫情可控的信息，试图平息外界的担忧情绪，但具体采取了哪些防控措施、病例的地理分布和传播链条是否已经查明，候选信息中没有详细说明。分析判断上，埃博拉疫情的防控关键在于早期病例追踪、密切接触者隔离和医疗资源调配，九例病例的规模目前看相对有限，但国际旅行提示的发布说明外部对局势发展仍持谨慎态度。后续需要关注肯尼亚卫生部门和世界卫生组织是否会发布更详细的疫情通报，以及病例数是否会进一步增加。",
+      "duration_seconds": 105,
+      "is_unverified": false,
+      "confidence_note": "来自BBC的报道，信息相对明确，但具体传播链条和防控细节仍有限。",
+      "fact_status": {
+        "confirmed": [
+          "肯尼亚确认出现九例埃博拉病例",
+          "美国已建议本国公民重新考虑赴肯尼亚旅行"
+        ],
+        "claims": [
+          "肯尼亚政府表示正努力安抚民众、控制局势"
+        ],
+        "analysis": [
+          "疫情规模目前相对有限，但仍需持续关注病例数变化和官方通报"
+        ]
+      },
+      "source_ids": [
+        "2894b37b24b74c3d"
+      ],
+      "sources": [
+        {
+          "id": "2894b37b24b74c3d",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Is Ebola under control in Kenya after nine cases confirmed?",
+          "summary": "The US has advised its citizens to reconsider travelling to Kenya but the government tries to reassure people.",
+          "url": "https://www.bbc.co.uk/news/articles/c693z948px0jo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-21T09:55:15+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的节目就到这里。奥斯陆会谈能否推动俄乌局势出现实质性转圜，也门机场何时重新开放，以及人形机器人规模化部署的实际进展，都值得继续关注。",
-  "editor_note": "候选信息中机器人类内容以The Robot Report与arXiv cs.RO预印本为主，已尽量平衡产业与学术报道并控制单一来源占比；部分arXiv论文和朝鲜劳工报告因证据有限标记为未验证。国际新闻部分以BBC、Al Jazeera、NPR、DW等多家二级来源交叉确认为主，纯娱乐体育类候选信息质量较低或缺乏完整独立事件，故未单独成稿。",
+  "closing": "今天的内容就到这里。人形机器人量产消息、空间机器人融资和具身智能几篇新论文，共同勾勒出机器人产业与学术两条线并行推进的图景；国际局势方面，俄美人质释放事件发生在俄乌和谈特使穿梭之际，后续走向值得持续关注。",
+  "editor_note": "为满足机器人时长占比45%-55%的要求，本版删去三菱电机物理AI系统一条产业新闻，机器人部分保留两条产业消息（Agile与英伟达合作、Sinxbot融资）和三篇学术论文（DexGraspFlow、Embodied Playground、错误恢复训练方法），并适当压缩各篇篇幅。机器人部分来源涵盖产业媒体与arXiv两类独立信源。国际部分以俄美人质释放为主线索（多来源交叉确认），生活成本抗议和肯尼亚埃博拉疫情因候选信息细节有限，按已有信息客观呈现。未选用部分机器人展会/奖项类候选及三菱电机条目，以保证总时长与占比平衡。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 9526,
-      "output_tokens": 10132,
-      "total_tokens": 19658
+      "input_tokens": 9533,
+      "output_tokens": 10287,
+      "total_tokens": 19820
     },
     {
-      "input_tokens": 11967,
-      "output_tokens": 9656,
-      "total_tokens": 21623
+      "input_tokens": 12142,
+      "output_tokens": 8939,
+      "total_tokens": 21081
     }
   ],
   "usage": {
-    "output_tokens": 19788,
-    "input_tokens": 21493,
-    "total_tokens": 41281
+    "output_tokens": 19226,
+    "total_tokens": 40901,
+    "input_tokens": 21675
   },
-  "generated_at": "2026-10-20T12:12:32+00:00",
-  "window_start": "2026-10-19T12:12:32+00:00",
-  "candidate_count": 424,
+  "generated_at": "2026-10-21T12:08:54+00:00",
+  "window_start": "2026-10-20T12:08:54+00:00",
+  "candidate_count": 315,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
-    "Robohub: TimeoutError: The read operation timed out",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1330,
-    "script_characters": 5189,
-    "topic_duration_share": 0.579,
+    "duration_seconds": 1140,
+    "script_characters": 4430,
+    "topic_duration_share": 0.596,
     "passed": true,
-    "normal_target_met": false,
-    "topic_source_count": 4,
+    "normal_target_met": true,
+    "topic_source_count": 2,
     "issues": []
   }
 }
