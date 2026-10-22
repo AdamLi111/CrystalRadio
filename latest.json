@@ -1,63 +1,141 @@
 {
-  "title": "晶球电台早报：Agile拿下英伟达合作，三星论文直面具身智能长程推理难题",
-  "subtitle": "人形机器人量产提速、空间机器人融资与灵巧抓取新方法齐聚今日科技版面，国际局势聚焦美俄人质交换",
+  "title": "晶球电台早报：特斯拉人形机器人下线、AGCO引入Digit，伊朗局势与国际快讯",
+  "subtitle": "人形机器人产业迎来密集进展，同时伊朗、乌克兰局势持续牵动全球目光",
   "highlights": [
-    "德国机器人公司Agile与英伟达合作，计划生产最多2000台人形机器人",
-    "中国空间机器人初创公司Sinxbot完成数千万美元融资，布局在轨加注与离轨服务",
-    "arXiv新论文聚焦跨构型灵巧抓取、具身智能长程推理基准与错误恢复训练方法",
-    "美国公民Stephen Hubbard获俄罗斯释放，特朗普特使同期与普京会面"
+    "特斯拉人形机器人Optimus正式下线，马斯克设定一年内周产两万台目标",
+    "Agility Robotics新一代人形机器人Digit 5将搭载英伟达IGX Thor计算平台，同时AGCO宣布2027年在堪萨斯工厂试点部署Digit",
+    "美国与以色列据称正筹划美国中期选举后对伊朗采取军事行动"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "德国Agile联手英伟达，计划量产最多2000台人形机器人",
+      "title": "特斯拉人形机器人Optimus正式下线，马斯克设定周产两万台目标",
       "english_term": "humanoid robot（人形机器人）",
-      "summary": "德国机器人公司Agile的首席执行官表示，公司将与英伟达合作，生产最多2000台人形机器人。这是人形机器人赛道从原型演示迈向规模化量产的又一个信号。",
-      "script": "我们先看人形机器人产业的一条新消息。德国机器人公司Agile的首席执行官对外透露，公司计划与英伟达合作，生产最多2000台人形机器人。这个数字放在整个行业里不算最大，但值得注意的是，这又是一家欧洲公司宣布进入规模化生产阶段，而不再停留在实验室演示或小批量交付。目前公开信息里对具体机型、应用场景和交付时间表都还没有详细披露，这也是这条新闻目前比较单薄的地方——我们只看到两家媒体转载了同一条CEO表态，信息源相对单一。从产业逻辑看，英伟达在人形机器人赛道的角色正在变得清晰：它不直接造机器人整机，而是通过提供计算芯片、仿真平台和机器人基础模型工具链，成为几乎所有主流人形机器人公司背后的算力和软件供应商，这种“卖铲子”模式在人形机器人热潮中复刻了它在AI大模型时代的打法。如果Agile真的能把2000台的产能落地，这将是欧洲人形机器人产业链是否具备规模化制造能力的一次实际检验，因为此前大部分量产消息都来自中国和美国的厂商。后续需要等待Agile或英伟达官方给出更具体的产品定义、目标客户和量产时间表，也需要观察是否有第三方独立信源进一步确认这一合作的具体条款。",
-      "duration_seconds": 125,
+      "summary": "特斯拉宣布其人形机器人Optimus已正式下线，马斯克提出一年内实现周产两万台的目标。",
+      "script": "先来看机器人产业最受关注的一条消息。据36氪报道，特斯拉的人形机器人Optimus已经正式下线，这意味着该项目从原型机阶段迈入了量产线组装阶段。马斯克在相关表态中提出，希望在未来一年内将周产能提升到两万台。这个数字如果实现，将是人形机器人行业迄今为止最大规模的量产尝试，远超目前任何一家厂商公开披露的产能规划。从技术角度看，人形机器人要实现规模化量产，核心难点并不在于单台整机的功能验证，而在于执行器、减速器、传感器等核心部件的良率与供应链稳定性，以及总装线的自动化程度。目前公开信息中并未详细说明此次下线车型所搭载的具体硬件版本、执行器方案是否发生代际更新，也没有披露良率、测试标准等关键细节，这些仍需要等待特斯拉后续公布更完整的量产数据。从产业角度看，特斯拉此举将直接影响整个人形机器人供应链的预期，减速器、空心杯电机、灵巧手等上游环节此前已因特斯拉的订单预期出现股价和产能规划的连锁反应。需要注意的是，“正式下线”通常指进入量产工艺流程，并不等同于立即实现规模化稳定出货，周产两万台的目标也是公司设定的计划值，而非已经达成的既成事实。后续需要等待特斯拉公布具体的量产爬坡时间表、良率数据以及独立第三方对产能的验证。",
+      "duration_seconds": 130,
       "is_unverified": true,
-      "confidence_note": "两条候选均来自同一CEO表态的不同媒体转载，缺乏官方新闻稿或第二类独立信源佐证具体产能与时间表，故标记为未完全证实。",
+      "confidence_note": "该消息来自单一科技媒体转载报道，产能目标为公司方面表态，尚缺乏独立第三方资料交叉确认，标记为未完全证实。",
       "fact_status": {
         "confirmed": [
-          "Agile首席执行官公开表示计划与英伟达合作生产人形机器人"
+          "特斯拉人形机器人Optimus已下线组装"
         ],
         "claims": [
-          "计划产能最多可达2000台"
+          "马斯克提出一年内周产两万台的目标"
         ],
         "analysis": [
-          "该消息延续了人形机器人行业从演示走向量产的趋势，英伟达在产业链中扮演算力与软件供应商角色"
+          "该目标若实现将大幅领先行业现有量产规模，但目前缺乏量产爬坡的具体时间表和良率数据"
         ]
       },
       "source_ids": [
-        "2e5fe71b8eae1bd0",
-        "726836e93ac2f935"
+        "1a9673cfd6fd104d"
       ],
       "sources": [
         {
-          "id": "2e5fe71b8eae1bd0",
+          "id": "1a9673cfd6fd104d",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Germany's Agile to make up to 2,000 humanoid robots with Nvidia, CEO says - StreetInsider",
-          "summary": "Germany's Agile to make up to 2,000 humanoid robots with Nvidia, CEO says StreetInsider",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZDVEUjdwbFpHUldwS3c2VmRxZ19LWTZqUm42TVp3aDIwM1F0OVNuQVd4dy04WmVfSTNpaXdNNGwtXy1yWENVbFVNdEh3YmxzaFZGcndDd1JEQnpoZkE3VG83a0JFQjY1ekp1SkRPTnAxSDN4czY4cnJtNlFNNTY4dVlfMHVhdEo2TlJxeHVFRGlSQ04zUEtiN094WlNvS3lURXpzUEo5Q1RCcnZrZ3ItYWREQ2xTa0NZRDlyMkVzVTJOUUw3MjJR?oc=5",
-          "published_at": "2026-10-21T12:04:17+00:00",
+          "title": "Tesla Humanoid Robot Officially Rolls Off Production Line | Elon Musk Targets 20,000 Units Weekly Output Within 1 Year - 36Kr",
+          "summary": "Tesla Humanoid Robot Officially Rolls Off Production Line | Elon Musk Targets 20,000 Units Weekly Output Within 1 Year 36Kr",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wdGI2VExnYzhYRGttNGd1T3NBMXQzMUstS1FTSHUyY1l3OFIzQ1RZSjdXSF9fWUlBRWN2QURmdlY3R01LVTNKVXRfZ2ItQi14RnZN?oc=5",
+          "published_at": "2026-10-22T12:02:16+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "Agility新一代Digit 5搭载英伟达IGX Thor，AGCO宣布2027年工厂试点",
+      "english_term": "IGX Thor（英伟达面向机器人的边缘计算与人工智能平台）",
+      "summary": "Agility Robotics新一代人形机器人Digit 5将采用英伟达IGX Thor计算平台，农业机械巨头AGCO同时宣布计划2027年在堪萨斯工厂试点部署Digit。",
+      "script": "另一条值得关注的机器人新闻来自Agility Robotics。据The Next Web报道，公司新一代人形机器人Digit 5将搭载英伟达的IGX Thor计算平台。IGX Thor是英伟达面向工业与机器人场景推出的边缘计算与人工智能硬件平台，主打在设备端完成高算力的感知与决策计算，减少对云端的依赖，这对需要实时避障、实时操作的人形机器人而言，意味着更低的延迟和更强的本地推理能力。与此同时，The Robot Report披露，农业机械巨头AGCO计划从2027年开始在堪萨斯的一处农业设备生产工厂试点部署Agility的Digit机器人。这两条消息放在一起看，勾勒出人形机器人从样机验证走向工业场景实际部署的清晰路径：一方面是底层计算平台的代际升级，为更复杂的双足行走与操作任务提供算力支撑；另一方面是来自传统制造业客户的真实订单与试点计划，说明人形机器人的商业化场景正在从仓储物流向农业装备制造等更多行业延伸。需要指出的是，AGCO的部署计划时间点定在2027年，属于中长期规划，并非当前已经落地的应用，具体部署规模、任务类型目前公开信息有限。Digit 5搭载IGX Thor之后在实际行走、抓取等任务上的性能提升幅度，也还没有第三方测试数据予以验证。后续需要等待Agility公布Digit 5的具体性能基准测试结果，以及AGCO工厂试点启动后的实际应用效果。",
+      "duration_seconds": 150,
+      "is_unverified": false,
+      "confidence_note": "两条消息分别来自The Next Web与行业媒体The Robot Report，均为对公司官方表态的报道，具备一定独立来源交叉确认。",
+      "fact_status": {
+        "confirmed": [
+          "Agility Robotics计划推出搭载英伟达IGX Thor的Digit 5",
+          "AGCO宣布计划2027年在堪萨斯工厂试点部署Digit"
+        ],
+        "claims": [],
+        "analysis": [
+          "人形机器人正从样机验证阶段向传统制造业实际试点场景延伸，但具体落地规模与时间仍待观察"
+        ]
+      },
+      "source_ids": [
+        "b3888b5a1b4538df",
+        "a1404922f4965043"
+      ],
+      "sources": [
+        {
+          "id": "b3888b5a1b4538df",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Agility’s Digit 5 humanoid robot will run on Nvidia IGX Thor - The Next Web",
+          "summary": "Agility’s Digit 5 humanoid robot will run on Nvidia IGX Thor The Next Web",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1LaGJPZzd5M3JjekhEck94TWpzaUpyUDlkQzd0Z29ITVB3RVdYZ3VjSVZoY3NVOVlqTHBhd21OVS12LWY4S1JWak9Ba2lwaFhuM1owdERaLWY2YW1kNHNBYnVPVXBHQU9naXRnbnZ5LWo4RGxZNVhj?oc=5",
+          "published_at": "2026-10-22T12:06:34+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "726836e93ac2f935",
+          "id": "a1404922f4965043",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "AGCO to deploy Agility Digit humanoid in Kansas factory",
+          "summary": "The Agility pilot, which is expected to begin in 2027, will begin at an AGCO production facility for agricultural equipment. The post AGCO to deploy Agility Digit humanoid in Kansas factory appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/",
+          "published_at": "2026-10-21T13:19:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "德国Agile Robots发布基于英伟达GR00T的人形研究平台Agile ONE SN",
+      "english_term": "GR00T（英伟达面向人形机器人的通用基础模型项目）",
+      "summary": "德国机器人公司Agile Robots发布新款人形机器人研究平台Agile ONE SN，底层采用英伟达GR00T基础模型技术路线。",
+      "script": "来看一条来自欧洲的机器人产业消息。据AI Insider报道，德国公司Agile Robots发布了名为Agile ONE SN的人形机器人研究平台，这款平台构建在英伟达GR00T项目的基础之上。GR00T是英伟达面向人形机器人的通用基础模型方向的研发项目，目标是为不同形态的人形机器人提供可迁移的感知与动作生成能力，类似于给机器人提供一个可以在多种任务间迁移的“大脑”框架，而不是为每一个具体任务单独训练模型。Agile Robots选择将自家平台定位为“研究平台”，而不是直接面向商业客户的量产产品，这说明其目前阶段仍聚焦在算法验证、学术合作与技术展示层面，面向的更可能是科研机构与企业研发部门，用于测试基于基础模型的人形机器人控制方案。从产业格局看，这也反映出英伟达在人形机器人赛道上的策略：通过开放GR00T这样的基础模型框架，吸引全球范围内的机器人厂商在其生态内进行二次开发，从而巩固其在机器人计算与人工智能基础设施层面的地位。目前关于Agile ONE SN的具体硬件参数、关节自由度、续航与作业精度等细节，公开报道中披露有限，也没有独立的性能评测数据。后续需要等待该平台公布更详细的技术规格，以及首批科研或企业合作案例的实际使用反馈。",
+      "duration_seconds": 135,
+      "is_unverified": true,
+      "confidence_note": "消息来源为单一行业媒体报道，产品具体参数与性能数据尚未得到第三方验证。",
+      "fact_status": {
+        "confirmed": [
+          "Agile Robots发布Agile ONE SN人形机器人研究平台"
+        ],
+        "claims": [
+          "该平台基于英伟达GR00T项目构建"
+        ],
+        "analysis": [
+          "此举体现英伟达通过开放基础模型框架扩大其在人形机器人生态中的影响力"
+        ]
+      },
+      "source_ids": [
+        "8c9273a954e7d555"
+      ],
+      "sources": [
+        {
+          "id": "8c9273a954e7d555",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Germany's Agile to make up to 2,000 humanoid robots with Nvidia, CEO says - TradingView",
-          "summary": "Germany's Agile to make up to 2,000 humanoid robots with Nvidia, CEO says TradingView",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcmJoT2ZIZ1ZTOF9RY1JyQXB6QVg5bEZoNU1MT1pxS2w4aWNuOV9LZW5yVm9wZWYwYkZZRHBqd3ZCWEoyZHRhakdzSVFackRHbkRaSElUU2JJdmFaUUVwUjU4OXVUSEtYT1I4VHZqbTBtRGFTbnE5T01OREgydU13MGN4YkpXUlZwUklfUm9PQ1RuazZYUlU1Z3ZXUUhLUFhyTjVtSExvZFJIQllLamJWMDZFRU92c3doN0RQLU9mN0QzSnk5Tnl3aTJ1b1IzLTBkRjIwUktnQXlSUQ?oc=5",
-          "published_at": "2026-10-21T12:01:29+00:00",
+          "title": "Germany's Agile Robots Launches Agile ONE SN Humanoid Research Platform Built on Nvidia GR00T - AI Insider",
+          "summary": "Germany's Agile Robots Launches Agile ONE SN Humanoid Research Platform Built on Nvidia GR00T AI Insider",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTFVDSmMyRzQ0Nk5hYWozVVBZdm5VZlJaNGYxWWE3b1M5aU53ckJ0bmE1eDdIbGlQTDRNVVlucllKSzFicjhQc2NiVmJtY2Z3Vk5zc0FudVc1cGtkN1dCdGdicGstbWxYTnJleGRUckhkcm1xRTN2MGd5YjBKdzdDc25qNUtmaWRvc1MtT2trSDhxRUVQZ0tUd1k2a0RzYWtBd3k1ZGRjRzk0Tmc4QXZIZjJac1dMenZEYXNwSUlYR2wtaGNPMTJSZ1Bn?oc=5",
+          "published_at": "2026-10-22T11:52:58+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -65,79 +143,84 @@
     },
     {
       "category": "robotics",
-      "title": "中国空间机器人初创公司Sinxbot完成数千万美元融资，瞄准在轨服务",
-      "english_term": "on-orbit servicing（在轨服务，指为在轨卫星提供加注、维修、离轨等服务的技术）",
-      "summary": "中国空间机器人初创公司Sinxbot宣布完成数千万美元融资，业务方向是卫星在轨加注与离轨服务。这是空间机器人赛道在融资端的最新动作。",
-      "script": "接下来关注一条跨界新闻：机器人技术正在加速进入太空产业。中国空间机器人初创公司Sinxbot宣布完成了一轮数千万美元规模的融资，公司主攻方向是卫星的在轨加注和离轨服务。简单解释一下这两个概念：在轨加注，是指通过机器人技术给已经在太空运行、燃料即将耗尽的卫星补充推进剂，从而延长卫星寿命，避免整颗卫星因为燃料用尽而报废；离轨服务，则是帮助寿命到期或发生故障的卫星安全离开轨道，减少太空垃圾对其他航天器造成的碰撞风险。这两项能力背后，核心技术挑战都落在机器人学上——如何让一个航天器在太空中捕获、对接一个本身没有设计配合接口的“非合作目标”，这需要精确的轨道交会对接控制、视觉感知与机械臂操作的高度协同。太空垃圾治理和卫星延寿本身也是全球航天产业近几年增长较快的细分赛道，中国、美国和欧洲都有多家公司在布局类似业务。目前公开信息没有披露Sinxbot具体融资金额、投资方名单和技术路线细节，后续需要等待公司或投资方发布更详细的官方公告。",
-      "duration_seconds": 105,
+      "title": "学术速览：触觉与视觉融合、人机交互控制等多篇机器人新论文",
+      "english_term": "world-language-action architecture（世界-语言-动作架构）",
+      "summary": "本期arXiv机器人板块集中出现多篇聚焦人机交互控制、触觉视觉融合与标定验证的新论文。",
+      "script": "这一部分我们快速扫一遍今天arXiv机器人板块里几篇值得关注的新论文。第一篇提出了T-WLA架构，试图解决接触密集型操作任务里的一个经典矛盾：视觉策略更新速度慢，但接触状态可能瞬间发生变化，仅靠触觉反馈又无法独立判断该如何调整动作。研究团队引入共享的视觉记忆机制，让视觉分支与触觉修正分支共用同一套上下文信息，从而在视觉还没来得及重新规划时，用触觉实现快速的动作微调。第二篇论文聚焦人机交互里的模式识别问题：当人类与机器人协同作业时，人既可能处于主动引导状态，也可能处于被动跟随状态，这两种状态下机器人应该采取的控制策略完全不同。传统方法依赖人为设定的切换阈值，容易受噪声干扰，研究者提出基于元学习的识别框架，让系统自适应地判断当前交互模式。第三篇则关注无力传感器条件下的柔顺控制问题，提出了一种学习增强的观测器，试图在不依赖专用力传感器的情况下，估计人机交互中的接触力，从而实现兼顾任务跟踪与柔顺性的控制。此外还有团队提出了可验证的激光雷达-相机标定方法VeriCalib，用于解决传统标定结果“只能看残差、无法判断是否可信”的问题。这些论文目前均为新发布的预印本，尚未经过同行评审，具体结论的稳健性和实际工程适用性，仍需要等待后续评审与更大规模实验验证。",
+      "duration_seconds": 135,
       "is_unverified": true,
-      "confidence_note": "消息来自单一行业媒体SpaceNews，未见第二来源交叉确认具体融资金额与投资方，列为未完全证实。",
+      "confidence_note": "均为arXiv预印本，尚未经过同行评审，实验规模与适用范围存在局限，具体结论需等待评审结果确认。",
       "fact_status": {
         "confirmed": [
-          "Sinxbot是一家中国空间机器人初创公司，宣布完成数千万美元级别融资"
+          "多篇论文已在arXiv机器人板块公开发布"
         ],
         "claims": [
-          "公司业务方向为在轨加注与离轨服务"
+          "各论文作者分别提出的方法在其实验设置下取得了相应效果"
         ],
         "analysis": [
-          "空间机器人在轨服务是航天产业与机器人技术交叉的新兴赛道，核心难点在于非合作目标捕获与操作"
+          "这些工作反映出当前机器人学术界在多模态融合控制、自适应人机交互与标定可靠性方面的持续探索"
         ]
       },
       "source_ids": [
-        "05580ff7bcd1e8d5"
+        "98388a812af61a61",
+        "024b9c02357e3635",
+        "5e4cd95ab7c81fcb",
+        "3840ef1c03bf9051"
       ],
       "sources": [
         {
-          "id": "05580ff7bcd1e8d5",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Chinese space robotics startup Sinxbot raises tens of millions of dollars for on-orbit refueling, deorbit services - SpaceNews",
-          "summary": "Chinese space robotics startup Sinxbot raises tens of millions of dollars for on-orbit refueling, deorbit services SpaceNews",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZUQtT2JueUZwR2FJcE5OQ3JLODkyTDh3emVNaXRvcmtLT1lNTDFCbHBWV3l0UGVmUXFnc28zWnhRaVFFTWw1a0hnLXhlYm8tUHBVbnNKQTlGOGxmU2dWanV6Sm5aLUNzeXBmUW5OczZLc3BOU2xJOGpqNnVhdUhHZUtYc3VuV0dpaFFIM1YteXVtR2RLWFFERXUyRUM4OWtRQXdvb1dQNW51MVdZQ0c0RUNfaENTQ0hzaXpCNWQtYVZxNzFlQWdoZU1Hc3AwZExTclE?oc=5",
-          "published_at": "2026-10-21T11:39:02+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "跨构型灵巧抓取新方法：DexGraspFlow融合几何与运动学拓扑信息",
-      "english_term": "SE(3) flow matching（SE(3)流匹配，一种用于生成机器人末端位姿序列的生成式方法）",
-      "summary": "一篇新论文提出DexGraspFlow框架，尝试解决不同机械手之间手指结构、关节参数差异导致的跨构型灵巧抓取生成难题。",
-      "script": "来看一篇机器人操作领域的新论文，研究主题是跨构型灵巧抓取生成，英文叫cross-embodiment dexterous grasp generation。这个问题是什么意思呢？现实中不同机械手的手指数量、关节自由度、几何尺寸都不一样，一个为某款机械手训练出来的抓取策略，很难直接搬到另一款手型完全不同的机械手上使用，这给通用抓取算法的研发带来很大障碍。研究团队提出的方法叫DexGraspFlow，核心思路是用条件化的、基于连杆层级的SE(3)流匹配框架来生成抓取姿态。这里SE(3)指的是三维空间中刚体位置和姿态的数学描述，流匹配则是近年来在图像生成和机器人动作生成中逐渐流行的一类生成模型训练方法，相比传统扩散模型通常训练和采样效率更高。论文的关键创新在于，团队认为仅仅描述手指连杆之间的空间相对关系还不够，必须同时把手的运动学拓扑结构——也就是各个关节是如何连接、如何驱动的——编码进模型里，才能让生成的抓取动作在不同手型之间真正具备可迁移性。具体做法是让模型同时编码局部物体几何信息和手部连杆的几何与拓扑关系，生成跨构型都适用的抓取位姿。这项工作的意义在于，如果跨构型抓取生成能力得到验证，未来研发新机械手时可能不需要为每一款硬件都重新采集数据、重新训练抓取模型，能够显著降低灵巧操作算法的迁移成本。目前这仍是一篇新发布的预印本论文，尚未经过同行评审，论文中具体在多少种手型、多少个物体上做了验证，效果相比现有方法提升多少，都需要等待后续评审或开源代码验证。",
-      "duration_seconds": 160,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv的预印本论文，尚未经过同行评审，实验细节和效果数据需等待后续验证。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了名为DexGraspFlow的跨构型灵巧抓取生成框架"
-        ],
-        "claims": [
-          "该方法通过融合几何关系与运动学拓扑信息提升跨构型抓取生成的泛化能力"
-        ],
-        "analysis": [
-          "跨构型抓取是机械手操作领域的难点问题，若方法有效，可降低不同硬件间算法迁移的成本"
-        ]
-      },
-      "source_ids": [
-        "f92b5ac3a1c9bd4d"
-      ],
-      "sources": [
-        {
-          "id": "f92b5ac3a1c9bd4d",
+          "id": "98388a812af61a61",
           "source": "arXiv Robotics (cs.RO)",
           "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "DexGraspFlow: Topology-Aware SE(3) Flow Matching for Cross-Embodiment Dexterous Grasp Generation",
-          "summary": "arXiv:2610.26962v1 Announce Type: new Abstract: Differences in hand geometry, joint parameterization, and kinematic topology pose challenges for cross-embodiment dexterous grasp generation. However, spatial relations among links alone are insufficient to fully capture the hand's kinematic topology. We propose DexGraspFlow, a conditional link-level $\\mathrm{SE}(3)$ flow-matching framework integrating geometric relations and kinematic topology. The framework encodes local object geometry, link geometry, and current poses. A dual-stream DiT models link--link coordination and link--object interaction, while attention biases derived from kinematic-tree distances provide explicit structural information for modeling evolving geometric interactions. The model jointly learns translational and rotational velocity fields, integrates them to generate link poses, and recovers joint configurations through inverse kinematics. Additionally, inference-time palm-orientation guidance enables controllable grasp generation without retraining. Across three robotic hands and 30 object--hand pairs, DexGraspFlow achieves a 95.33\\% average simulation success rate, with an average generation latency, includi",
-          "url": "https://arxiv.org/abs/2610.26962",
-          "published_at": "2026-10-21T04:00:00+00:00",
+          "title": "T-WLA: Bridging Slow Vision and Fast Touch",
+          "summary": "arXiv:2610.28814v1 Announce Type: new Abstract: In contact-rich manipulation, contact conditions can change before a visual policy updates its action plan. Recomputing the plan through the visual policy adds latency, while tactile feedback alone does not specify how the ongoing motion should be revised for the task. We introduce T-WLA, a world-language-action architecture that uses shared visual memory to guide both action generation and tactile correction. At each visual update, the visual branch integrates the current image, task instruction, and retrieved history into a visual memory that conditions base-action generation. The same memory is cached for a lightweight tactile editor, which combines it with the active action chunk and incoming touch to predict residual corrections to unexecuted actions without rerunning the visual branch. Future-image and future-pressure prediction provide training-only supervision, encouraging the visual memory and tactile features to capture interaction dynamics relevant to action generation and correction. We evaluate T-WLA on tactile-conditioned hand-motion prediction using EgoTouch and Tachin, and on four real-world dexterous manipulation task",
+          "url": "https://arxiv.org/abs/2610.28814",
+          "published_at": "2026-10-22T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "024b9c02357e3635",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Human-Robot Interaction via Meta-Learning Based Mode Recognition and Adaptive Control",
+          "summary": "arXiv:2610.28761v1 Announce Type: new Abstract: In human-robot interaction (HRI) tasks, humans may interact with the robot in either an active guiding or passive following state, resulting in distinct control objectives for each interaction mode. Most existing approaches rely on predefined switching thresholds to distinguish interaction modes, but their performance can be sensitive to measurement noise. To address this limitation, we propose a novel framework with the following key contributions. First, a neural network (NN) trained via meta-learning is developed to recognize human intention without manually defined thresholds. By successfully incorporating force-dependent parameters from the controller, the recognition rates are improved from 90.1\\% to 99.1\\% for the passive mode and from 79.8\\% to 97.1\\% for the active mode. Second, an adaptive meta-learning controller is introduced to compensate for human disturbances and enable online adaptation to varying interaction forces. Third, a multiple-trajectory meta-learning algorithm is designed to jointly learn an environment-basis representation and force-dependent parameters, allowing the controller to deal with unmodeled dynamics",
+          "url": "https://arxiv.org/abs/2610.28761",
+          "published_at": "2026-10-22T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "5e4cd95ab7c81fcb",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Learning-Enhanced Observer for Sensorless Task-Null-Space Compliant Control",
+          "summary": "arXiv:2610.28769v1 Announce Type: new Abstract: This paper presents a novel framework integrating a robust wrench observer with a hybrid pose and force controller for physical Human-Robot Interaction (pHRI). In pHRI tasks, robots are expected to perform task-space motions robustly while remaining compliance with human disturbance, which proposes distinct control objectives. Most existing approaches focus mainly on either robustness or compliance and rely on force sensors for real-time tracking. To address these limitations, we propose a novel framework with the following key contributions. Firstly, a neural network (NN) is trained to improve the observer performance by compensating for system friction and unmodeled dynamics. Secondly, a task-null-space decomposition is applied to separate the joint velocity and reduce the effect of the human disturbance on the observer. Finally, a hybrid pose and force controller is introduced to achieve the end-effector pose and force tracking. Experimental results demonstrate that the proposed framework provides robust and accurate wrench estimation while maintaining reliable pose and force tracking performance. The proposed approach offers an ef",
+          "url": "https://arxiv.org/abs/2610.28769",
+          "published_at": "2026-10-22T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "3840ef1c03bf9051",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "VeriCalib: Verifiable Target-Based LiDAR-Camera Calibration",
+          "summary": "arXiv:2610.28791v1 Announce Type: new Abstract: Target-based extrinsic calibration estimates the rigid transform between sensors from a few observations of a known target, and its result is commonly assessed by the root-mean-square error of the fitted residuals. However, this scalar error is computed on the same observations and therefore cannot indicate whether to accept the result, re-extract, recollect or add observations. This paper presents VeriCalib, which formulates extrinsic calibration as a verifiable estimation problem and reports a calibration state. The key insight is a two-level extrinsic compensation mechanism, in which the extrinsic compensates the rigid part of each observation error at the residual level, and rotation and translation compensate each other at the parameter level. Consequently, the fitted residual can reveal neither an inconsistency between the observations and the model nor whether the estimated extrinsic is reliable in every direction. Accordingly, we assess the calibration through a structured covariance that jointly propagates the uncertainty of the camera and LiDAR board features with a known-geometry prior, and estimate its scale as a variance ",
+          "url": "https://arxiv.org/abs/2610.28791",
+          "published_at": "2026-10-22T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -145,79 +228,54 @@
     },
     {
       "category": "robotics",
-      "title": "具身智能新基准Embodied Playground：考察长程物理、策略与空间推理能力",
-      "english_term": "long-horizon reasoning（长程推理，指模型需要在多个连续步骤中保持任务状态一致性的推理能力）",
-      "summary": "新论文提出Embodied Playground基准，用于评估基础模型驱动的机器人智能体在长程任务中协调物理执行、策略规划与空间推理的能力。",
-      "script": "再来看一篇具身智能领域的基准测试论文，叫做Embodied Playground。背景是这样的：现在越来越多研究尝试把大模型，也就是基础模型，直接用作机器人的“大脑”，让它来决定机器人下一步该做什么。但是研究团队发现，真正困难的不是让模型完成单一动作，而是让它在长时间跨度、多个相互依赖的阶段里，始终保持连贯的推理和可靠的物理执行，这就是所谓的长程推理问题。比如一个需要十几个步骤才能完成的任务，模型必须记住此前完成了哪些子目标、当前状态是否满足进入下一步的条件，还要在执行出错时及时调整计划，这对模型的记忆、规划和纠错能力都是综合考验。为此，研究团队设计了Embodied Playground这个基准测试环境，专门用来评估基础模型驱动的智能体在物理执行、策略规划和空间推理这三个维度上的综合表现，要求智能体持续追踪任务进度、满足中间阶段的约束条件，并能根据执行反馈修正后续计划。这类基准测试论文的价值在于，它给整个具身智能研究社区提供了一把统一的尺子，让不同团队提出的基础模型方案可以在同一套长程任务上做公平比较，而不是各自用自定义的简单任务来证明自己方法有效。目前这仍是一篇新发布的预印本，具体包含多少个任务场景、测试了哪些现有基础模型、它们的表现如何，论文摘要中没有展开，需要等待完整论文公开和同行评审意见。",
-      "duration_seconds": 145,
+      "title": "人形遥操作新交互方式与球形移动建图里程计论文",
+      "english_term": "teleoperation（遥操作）",
+      "summary": "两篇论文分别针对人形机器人遥操作中的视野受限问题，以及球形移动建图系统的地面法向量估计问题提出新方案。",
+      "script": "再看两篇偏向具体应用场景的机器人论文。第一篇讨论的是人形机器人第一人称遥操作中的一个常见痛点：当操作者通过头显等第一人称视角远程操控机器人时，要观察机器人侧面或背后的目标，往往需要操作者自己转动身体，这既不方便，也限制了操作效率。研究团队提出一种耦合的视觉-运动重映射方法，将全景方位角的扭曲映射与上肢偏航角的逆变换配对使用，并实现了两种具体交互模式：一种叫全局缩放，一种叫焦点加上下文显示。在一项包含八名被试、总共72次试验的实验中，全局缩放模式完成任务的次数最多，而焦点加上下文模式则被更多被试在主观偏好上选择。这说明效率最优的方案不一定是用户体验最好的方案，二者之间存在权衡。第二篇论文关注球形移动三维建图系统的里程计问题，这类系统由于旋转速度快、单次扫描覆盖的地面范围有限，很难准确估计地面法向量，而这一估计结果直接影响建图与定位精度。研究者提出了两种基于RANSAC算法的方法，一种基于单次扫描的法向量评分与多步验证，另一种则结合激光雷达与惯性测量数据，利用全局三维地图进行估计，并在多个真实数据集上与地面激光扫描仪的结果进行了对比验证。这两项工作均为预印本，样本量和测试场景有限，其结论的普适性还需要更大规模、更多场景下的检验。",
+      "duration_seconds": 135,
       "is_unverified": true,
-      "confidence_note": "来自arXiv的预印本论文，尚未经过同行评审，具体任务集规模与模型测试结果需查阅完整论文。",
+      "confidence_note": "两篇均为arXiv预印本，尚未经过同行评审，实验样本量相对有限（如遥操作研究仅8名被试）。",
       "fact_status": {
         "confirmed": [
-          "论文提出了名为Embodied Playground的长程具身智能体基准测试"
+          "两篇论文已在arXiv公开发布，并提供了具体实验数据"
         ],
         "claims": [
-          "该基准用于评估基础模型智能体在物理、策略、空间三类推理上的综合表现"
+          "作者认为各自方法在实验场景下具备相应优势"
         ],
         "analysis": [
-          "长程推理是当前具身智能研究的核心难点之一，统一基准有助于不同方法间的公平比较"
+          "人形遥操作的交互效率与用户偏好之间可能存在权衡，移动建图系统的地面估计精度对定位建图整体效果有直接影响"
         ]
       },
       "source_ids": [
-        "570e7a2cdaf46881"
+        "e2174a250273bf2a",
+        "77b86651c55ba8b4"
       ],
       "sources": [
         {
-          "id": "570e7a2cdaf46881",
+          "id": "e2174a250273bf2a",
           "source": "arXiv Robotics (cs.RO)",
           "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Embodied Playground: A Long-Horizon Agentic Robotics Benchmark for Physical, Strategic, and Spatial Reasoning",
-          "summary": "arXiv:2610.27039v1 Announce Type: new Abstract: Foundation models offer a promising basis for robotic agents, but long-horizon tasks require them to sustain coherent reasoning and reliable physical execution across interdependent stages. We introduce Embodied Playground, a benchmark for evaluating how foundation-model agents coordinate physical, strategic, and spatial reasoning throughout such tasks. Agents must track task progress, satisfy intermediate constraints, and revise their plans using execution feedback as earlier actions shape subsequent decisions. The playground comprises 410 task environments spanning basic manipulation, sequential puzzles, and multi-stage household activities, with variations in planning depth, geometric constraints, and physical execution demands. We curate EP-100, a representative selection of 100 tasks across five suites and 16 task types, together with the EP-Easy and EP-Hard difficulty splits and the compact EP-20 selection. A shared protocol specifies observation and tool access, resource budgets, repeated trials, and independent checks of goal completion, task-rule compliance, and physical validity. Embodied Playground provides a unified framew",
-          "url": "https://arxiv.org/abs/2610.27039",
-          "published_at": "2026-10-21T04:00:00+00:00",
+          "title": "Warping the Workspace: Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation",
+          "summary": "arXiv:2610.28712v1 Announce Type: new Abstract: First-person humanoid teleoperation ties access to side and rear targets to operator rotation. We present coupled visual--motor remapping, pairing a panoramic azimuth warp with its inverse upper-limb yaw transform. A working prototype implements Global Zoom (GZ) and Focus+Context (F+C). In a within-subject study (N=8); 72 trials), GZ had the largest completion count (23/24; Fixed: 20/24; F+C: 21/24), whereas F+C was preferred by 6/8 participants. Therefore, completion and preference favored different mappings in this sample.",
+          "url": "https://arxiv.org/abs/2610.28712",
+          "published_at": "2026-10-22T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "通过可验证交互训练具身视觉语言模型的错误恢复能力",
-      "english_term": "VLM（Vision-Language Model，视觉语言模型，能同时理解图像和文本的大模型）",
-      "summary": "新论文提出一种强化学习式训练方法，让具身视觉语言模型在操作任务出错后，能基于验证过的动作结果重新规划，而不是依赖固定的恢复策略。",
-      "script": "另一篇值得关注的论文，解决的是机器人操作中一个很实际的问题：出错之后怎么办。论文标题直译是“通过可验证交互训练重新规划以实现错误恢复”。背景是，现在的具身视觉语言模型，也就是能同时理解图像和语言指令、并输出机器人动作的大模型，已经能完成越来越复杂的操作任务，但执行过程中难免出错，一旦出错，环境状态就可能变得和最初设定的不一样，这时候模型需要重新规划才能恢复任务。研究团队指出，现有的恢复方法要么依赖推理阶段的固定策略、不会从错误中学习，要么是从失败案例和人工标注的修正方案中学习，而不是从真正验证过的动作结果中学习，这就导致恢复策略的可靠性存疑。团队提出的解决方案，核心是让模型通过“可验证交互”来学习恢复策略，具体采用了一种叫Action-Grouped Turn-GSPO的训练方法，这是一种强化学习式的训练机制，通过对动作序列分组、并验证每组动作实际造成的环境变化是否符合预期，来给模型提供更可靠的训练信号，而不是单纯模仿人类给出的纠正示范。这个研究方向的意义在于，机器人在真实环境里部署时，完美执行几乎不可能，如何让机器人具备自我纠错能力，是从实验室演示走向实际可靠部署的关键一环。目前论文仍是预印本阶段，具体在哪些操作任务上做了测试、恢复成功率相比基线方法提升多少，需要等待完整论文和同行评审结果公布。",
-      "duration_seconds": 145,
-      "is_unverified": true,
-      "confidence_note": "来自arXiv的预印本论文，尚未经过同行评审，具体实验任务与量化结果需查阅完整论文。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了名为Action-Grouped Turn-GSPO的训练方法，用于具身视觉语言模型的错误恢复"
-        ],
-        "claims": [
-          "该方法通过可验证交互学习恢复策略，优于依赖固定策略或人工修正示范的现有方法"
-        ],
-        "analysis": [
-          "错误恢复能力是机器人操作系统走向实际可靠部署的关键环节之一"
-        ]
-      },
-      "source_ids": [
-        "784af7af77727d3e"
-      ],
-      "sources": [
+        },
         {
-          "id": "784af7af77727d3e",
+          "id": "77b86651c55ba8b4",
           "source": "arXiv Robotics (cs.RO)",
           "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Replan for Error Recovery: Training Embodied VLMs through Verifiable Interaction with Action-Grouped Turn-GSPO",
-          "summary": "arXiv:2610.27003v1 Announce Type: new Abstract: Embodied VLMs can execute increasingly complex manipulation tasks, yet execution errors can leave the environment in states that require replanning for recovery. Existing recovery methods either rely on inference-time mechanisms with fixed policies or learn from failure examples and reference corrections rather than verified action outcomes. To enable recovery learning through verifiable interaction, we introduce the Embodied Replanning for Recovery Environment (ERR-Env), which provides feedback on task progress and execution errors. We further construct ERR-Bench, a benchmark with held-out tasks spanning nominal, intermediate, and error states for evaluating recovery capability and execution reliability. We then propose Action-Grouped Turn-GSPO (AGT-GSPO), an online reinforcement learning method combining turn-level rewards for task progress and error states with action-grouped advantage estimation, and use it to train ERR-VLM, a compact 2B embodied VLM. Evaluation on ERR-Bench reveals a mismatch between task progress and execution reliability across diverse VLMs. AGT-GSPO improves ERR-VLM by 10.25 percentage points in Strict Success",
-          "url": "https://arxiv.org/abs/2610.27003",
-          "published_at": "2026-10-21T04:00:00+00:00",
+          "title": "Real-Time Ground Normal Vector Estimation for Spherical Mobile 3D Mapping using LiDAR-Inertial Odometry",
+          "summary": "arXiv:2610.28701v1 Announce Type: new Abstract: Accurate ground plane normal estimation is essential for odometry in spherical mobile mapping systems (SMMS), which face challenges from rapid rotations and limited ground coverage. We propose two RANSAC-based approaches: single-scan estimation with normal vector scoring and multi-step validation, and LiDAR-inertial odometry (LIO)-based estimation using a global 3D map. Evaluated across diverse real-world datasets against terrestrial laser scanner ground truth, results show that LIO-based estimation significantly outperforms single-scan methods in accuracy and robustness. Integrating ground normal estimates into the motion model improves pose estimation, supporting autonomous navigation in challenging and hazardous environments.",
+          "url": "https://arxiv.org/abs/2610.28701",
+          "published_at": "2026-10-22T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -225,86 +283,69 @@
     },
     {
       "category": "world",
-      "title": "美国公民Stephen Hubbard获俄罗斯释放，特朗普特使同期与普京会面",
+      "title": "美国与以色列据报筹划中期选举后对伊朗采取行动，伊朗边境地区冲突加剧",
       "english_term": null,
-      "summary": "俄罗斯总统普京宣布释放此前被关押的美国公民Stephen Hubbard，此次释放未附带交换条件，恰逢特朗普特使维特科夫赴莫斯科会谈。",
-      "script": "国际新闻方面，74岁的美国公民、前教师Stephen Hubbard被俄罗斯释放。根据多家媒体报道，俄罗斯总统普京宣布，应特朗普的请求释放了Hubbard，而且特朗普方面表示，这次释放没有附带任何“交换”条件。这一消息发生的背景，是特朗普的特使维特科夫正在莫斯科与普京举行会谈，同时在此之前，维特科夫刚刚与乌克兰总统泽连斯基会面过。已经确认的事实是：Hubbard此前作为美国公民在俄罗斯被关押多年，这次获释得到了俄方和白宫双方的公开证实。各方表态上，特朗普方面强调这是“请求”而非“交换”促成的结果，试图把此事塑造成外交善意的体现；但外部观察人士，包括前美国驻乌克兰大使赫伯斯特在内，对特朗普近期在乌克兰问题上向俄罗斯靠拢的整体姿态提出了疑问和担忧，认为需要观察这种单方面释放是否会被解读为对等让步的开端。分析判断上，这次人质获释发生在俄乌和谈特使穿梭外交的敏感节点上，很可能是双方释放善意、为后续谈判铺路的信号，但目前没有证据表明这与乌克兰战争的实质性谈判进展直接挂钩。后续需要等待克里姆林宫和白宫是否会公布更多关于此次释放背景的细节，也需要关注维特科夫此轮莫斯科之行是否会带来俄乌谈判的实质性进展。",
+      "summary": "有匿名消息源向NPR透露，美国与以色列正筹划在美国中期选举后对伊朗采取可能的军事行动，伊朗方面表示已有准备；与此同时伊朗与阿富汗、巴基斯坦交界的俾路支地区动荡加剧。",
+      "script": "来看一条需要谨慎对待的国际政治消息。NPR援引匿名消息源报道称，美国与以色列正在为美国中期选举后、即十一月初可能对伊朗采取军事行动制定计划，据称伊朗方面已表示做好了准备。这条消息目前只有NPR一家媒体基于匿名信源的报道，没有美国政府或以色列政府的公开证实，也没有第二个独立信源进行交叉确认，因此需要标记为未经证实的传闻类信息，各方后续的正式表态值得继续关注。与此同时，德国之声报道称，伊朗与阿富汗、巴基斯坦交界的俾路支地区冲突正在升级，分析人士认为，如果伊朗与外部力量之间的紧张进一步发展，可能会改变该地区武装团体的战略平衡，这一区域长期存在跨境武装活动，本身就具有复杂的历史背景。把这两条消息放在一起看，可以观察到伊朗当前面临的外部压力存在多条线索：一是来自美国、以色列方向可能的军事行动筹备传闻，二是其东部边境地区本身的安全局势恶化。需要明确区分的是，“美以筹划军事行动”目前仅为未经官方证实的消息来源说法，而“俾路支地区冲突加剧”则有相对独立的区域报道支撑，两者的证据强度并不相同。后续需要等待美国或以色列官方对军事行动传闻作出正面回应或否认，也需要持续关注伊朗边境地区的实际冲突进展报告。",
       "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "多家二级媒体BBC、NPR、DW均独立报道并确认此次释放事件，信息来源充分。",
+      "is_unverified": true,
+      "confidence_note": "军事行动筹划部分仅为NPR匿名信源报道，缺乏官方证实与独立信源交叉确认；边境冲突部分有独立区域报道支撑，证据相对更充分。",
       "fact_status": {
         "confirmed": [
-          "美国公民Stephen Hubbard被俄罗斯释放",
-          "特朗普特使维特科夫在释放消息公布前后赴莫斯科与普京会面"
+          "伊朗与阿富汗、巴基斯坦交界的俾路支地区冲突正在加剧"
         ],
         "claims": [
-          "特朗普方面表示此次释放未附带交换条件",
-          "前美国驻乌克兰大使对特朗普向俄罗斯靠拢的姿态表达担忧"
+          "有匿名消息源称美国与以色列正筹划美国中期选举后对伊朗采取军事行动，伊朗方面称已做好准备"
         ],
         "analysis": [
-          "此次释放可能是俄美释放外交善意、为俄乌谈判铺路的信号，但尚无证据表明与实质性谈判进展挂钩"
+          "若该军事行动传闻属实，可能与伊朗边境地区本就存在的安全压力叠加，但目前缺乏官方证实，需持续观察后续官方表态"
         ]
       },
       "source_ids": [
-        "5f59a46c4cbbcd8d",
-        "6e05c4e615590738",
-        "96063e5c9f9a2080",
-        "43277bd761a2b326"
+        "a1dd8d7074568106",
+        "c40e2b1950752d36",
+        "658773d4f2478f37"
       ],
       "sources": [
         {
-          "id": "5f59a46c4cbbcd8d",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-          "summary": "The 74-year-old former teacher has been released without any \"swap\" required, Trump says.",
-          "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-21T12:00:33+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "6e05c4e615590738",
+          "id": "a1dd8d7074568106",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Russia releases imprisoned U.S. citizen Stephen Hubbard following Trump's request",
-          "summary": "Russian President Vladimir Putin says he has freed an American, Stephen Hubbard, from a Russian prison following a request from President Trump.",
-          "url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
-          "published_at": "2026-10-21T10:20:50+00:00",
+          "title": "U.S. and Israel are planning for a possible attack on Iran, source tells NPR",
+          "summary": "The U.S. and Israel are preparing plans for a possible attack on Iran in early November, after the U.S. midterm elections, a person briefed on war planning told NPR. Iran said it is prepared.",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war",
+          "published_at": "2026-10-22T08:56:58+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "96063e5c9f9a2080",
+          "id": "c40e2b1950752d36",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging",
+          "summary": "The U.S. and Israel are planning for a possible post-elections attack on Iran, an anonymous source tells NPR. And, Elon Musk considers merging his companies SpaceX and Tesla.",
+          "url": "https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla",
+          "published_at": "2026-10-22T11:28:24+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "658773d4f2478f37",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Russia frees jailed American Stephen Hubbard during Witkoff talks",
-          "summary": "Russian President Vladimir Putin announced the release of Stephen Hubbard, an American taken captive by Russian forces years ago in Ukraine.",
-          "url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-21T09:42:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "43277bd761a2b326",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Former U.S. Ambassador to Ukraine on Trump's turn toward Russia",
-          "summary": "NPR's Steve Inskeep asks former U.S. Ambassador to Ukraine John Herbst about President Trump's embrace of Russia as envoy Steve Witkoff heads to Moscow after meeting Ukraine's Volodymyr Zelenskyy.",
-          "url": "https://www.npr.org/2026/10/21/nx-s1-6009376/former-u-s-ambassador-to-ukraine-on-trumps-turn-toward-russia",
-          "published_at": "2026-10-21T10:56:00+00:00",
+          "title": "Iran's Balochistan border region sees growing unrest",
+          "summary": "Violence is on the rise in Iran's border region with Afghanistan and Pakistan. The Iran war could shift the strategic balance for militant groups operating in the area.",
+          "url": "https://www.dw.com/en/iran-s-balochistan-border-region-sees-growing-unrest/a-79716399?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-22T11:48:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -312,175 +353,213 @@
     },
     {
       "category": "world",
-      "title": "欧洲多国与法国爆发生活成本抗议，法国抗议口号引发关注",
+      "title": "乌克兰局势：斯拉维扬斯克前线生活艰难，德国逮捕涉嫌为俄罗斯从事间谍活动的乌克兰籍男子",
       "english_term": null,
-      "summary": "半岛电视台报道称，生活成本抗议不仅限于欧洲，法国抗议者高呼特定口号，反映出民众对一系列民生议题的不满。",
-      "script": "转向民生与社会议题。半岛电视台的报道指出，围绕生活成本上涨的抗议活动并不只局限于欧洲，而是在更大范围内蔓延。与此同时，法国国内的抗议者喊出了一句颇具标志性的口号，这句口号目前已经成为整个抗议运动所承载的一系列民生诉求的象征。已经确认的事实是，法国近期确实出现了围绕生活成本问题的街头抗议活动，抗议者使用了特定口号来表达诉求；半岛电视台将此与欧洲以外地区同类抗议现象做了关联报道。需要说明的是，候选信息中并未提供这句口号的具体中文含义、抗议的具体规模、参与人数或政府回应，也没有给出欧洲以外具体是哪些国家出现了类似抗议，这些细节仍有待更完整的报道补充。从宏观背景看，近年来全球多地都出现了因能源价格、食品价格和整体通胀压力上升而引发的街头抗议，这类生活成本抗议往往不是单一政策问题触发，而是多重经济压力长期累积的结果。分析判断上，如果生活成本抗议确实呈现出跨地区蔓延的态势，这将是观察全球通胀压力和社会稳定性的一个重要信号，值得持续关注其后续发展，包括各国政府是否会出台针对性的民生纾困政策。",
-      "duration_seconds": 115,
-      "is_unverified": true,
-      "confidence_note": "候选信息仅为标题式摘要，缺乏具体事实细节，法国抗议口号的具体内容和含义未在候选中说明，暂按有限信息处理。",
+      "summary": "乌克兰东部城市斯拉维扬斯克持续遭受俄军攻击，居民因贫困与家庭羁绊难以撤离；同时德国逮捕一名涉嫌为俄罗斯搜集防务情报的乌克兰籍男子。",
+      "script": "乌克兰战争的影响仍在持续。德国之声的报道聚焦乌克兰东部城市斯拉维扬斯克，该地持续遭受俄罗斯军队的攻击，数千名居民依然拒绝撤离，或是难以找到撤离途径。报道指出，贫困、家庭纽带以及对宠物的牵挂，是许多人迟迟无法离开的现实原因，这从一个侧面反映出战争对普通民众日常生活造成的持续性创伤，并非只是前线军事态势的简单变化。与此同时，德国警方逮捕了一名乌克兰籍男子，怀疑其为俄罗斯搜集具有防务价值的情报。这类间谍案件近期在欧洲多国都有发生，反映出俄乌战争背景下，欧洲国家对内部安全与情报渗透的担忧正在上升。另外，前美国驻乌克兰大使威廉·泰勒在接受NPR采访时，谈到了对特朗普政府对俄罗斯态度的看法，相关讨论的背景是美国特使维特科夫近期访问莫斯科，此前不久也与乌克兰总统泽连斯基举行了会面。这些信息共同勾勒出当前俄乌战争外交斡旋与前线实际状况并行的复杂局面：一方面是美方特使在俄乌之间穿梭沟通，另一方面是前线居民仍然承受着直接的战争伤害。需要注意的是，关于特朗普政府具体外交立场的评价部分，属于受访者的个人判断，而非确凿定论的事实陈述。",
+      "duration_seconds": 120,
+      "is_unverified": false,
+      "confidence_note": "前线生活报道与间谍逮捕事件均有独立媒体直接报道支撑，前美国大使的评论部分属于个人观点陈述，已在稿件中加以区分。",
       "fact_status": {
         "confirmed": [
-          "法国近期出现了围绕生活成本问题的抗议活动"
+          "斯拉维扬斯克持续遭受俄军攻击，部分居民拒绝或难以撤离",
+          "德国逮捕一名涉嫌为俄罗斯从事间谍活动的乌克兰籍男子"
         ],
         "claims": [
-          "半岛电视台报道称此类生活成本抗议不仅限于欧洲地区"
+          "前美国驻乌克兰大使泰勒对特朗普政府对俄态度提出了个人评价"
         ],
         "analysis": [
-          "若生活成本抗议呈现跨地区蔓延趋势，可能反映全球通胀压力对社会稳定性的影响"
+          "外交斡旋与前线平民困境并存，反映出战争对不同层面造成的持续影响"
         ]
       },
       "source_ids": [
-        "d9edcf5c45abb12c",
-        "7ef07c68ebae9200"
+        "73111abf63e3c751",
+        "a30c710fabf4d0d9",
+        "a7d71b9da61a41d8"
       ],
       "sources": [
         {
-          "id": "d9edcf5c45abb12c",
-          "source": "Al Jazeera",
+          "id": "73111abf63e3c751",
+          "source": "DW Top Stories",
           "source_tier": 2,
-          "source_region": "middle-east",
+          "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Cost of living protests aren’t just happening in Europe",
-          "summary": "Cost of living protests aren’t just happening in Europe",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/cost-of-living-protests-arent-just-happening-in-europe?traffic_source=rss",
-          "published_at": "2026-10-21T10:49:44+00:00",
+          "title": "Ukraine: Life near the front line in Sloviansk",
+          "summary": "As Russian continues to attack Sloviansk in eastern Ukraine, thousands of residents refuse to leave or struggle to find a way out. For many, poverty, family ties and beloved pets make evacuation painfully difficult.",
+          "url": "https://www.dw.com/en/ukraine-life-near-the-front-line-in-sloviansk/a-79722636?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-22T11:44:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "7ef07c68ebae9200",
+          "id": "a30c710fabf4d0d9",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Germany arrests Ukrainian man suspected of spying for Russia",
+          "summary": "The suspect is thought to have gathered-defense related information for Russia.",
+          "url": "https://www.dw.com/en/germany-arrests-ukrainian-man-suspected-of-spying-for-russia/a-79732373?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-22T11:43:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "a7d71b9da61a41d8",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Former U.S. Ambassador to Ukraine William Taylor on Trump's embrace of Russia",
+          "summary": "NPR's Steve Inskeep asks former U.S. Ambassador to Ukraine William Taylor about President Trump's embrace of Russia as envoy Steve Witkoff visits Moscow after meeting Ukraine's Volodymyr Zelenskyy.",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6010509/former-u-s-ambassador-to-ukraine-william-taylor-on-trumps-embrace-of-russia",
+          "published_at": "2026-10-22T09:59:02+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "南法风暴致洪灾造成至少四人死亡",
+      "english_term": null,
+      "summary": "法国南部遭遇风暴引发洪灾，已确认至少四人死亡，其中包括在地窖中溺亡的两名女性。",
+      "script": "来看一条自然灾害相关的快讯。据BBC报道，法国南部近日遭遇强风暴，引发洪涝灾害，目前已确认至少四人死亡，其中包括在罗讷河口省一处地窖中被发现溺亡的两名女性。地窖、地下室等低洼空间在突发性强降雨中往往缺乏预警与逃生时间，是此类极端天气事件中较为常见的伤亡场景。目前关于此次风暴的具体降雨量、受灾范围、是否已启动紧急响应机制等更详细的信息，报道中披露有限。这起事件也与近期欧洲多地出现的极端降雨天气相呼应，反映出在气候变化背景下，短时强降雨对城市与乡村基础设施、尤其是地下空间排水能力提出的新挑战。后续需要关注法国当地政府对灾情的进一步通报，以及是否会有更多伤亡或损失数字被更新。",
+      "duration_seconds": 75,
+      "is_unverified": false,
+      "confidence_note": "来自BBC的直接报道，死亡人数为官方确认的初步数字，后续可能更新。",
+      "fact_status": {
+        "confirmed": [
+          "法国南部风暴引发洪灾，已致至少四人死亡，其中两人在地窖中溺亡"
+        ],
+        "claims": [],
+        "analysis": [
+          "短时强降雨对地下空间等低洼区域的风险需持续关注"
+        ]
+      },
+      "source_ids": [
+        "8332af0e7e6f93e9"
+      ],
+      "sources": [
+        {
+          "id": "8332af0e7e6f93e9",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "At least four dead after storm brings flooding to southern France",
+          "summary": "The deaths include two women found drowned in a cellar in the Bouches-du-Rhône region.",
+          "url": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-22T11:23:16+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "science",
+      "title": "法国报告首例人类感染沙蒙达病毒病例，官方称无健康风险",
+      "english_term": "Shamonda virus（沙蒙达病毒，此前被认为不会感染人类）",
+      "summary": "法国报告了全球首例有记录的人类感染沙蒙达病毒病例，此前该病毒一直被认为不具备人传人或感染人类的能力，官方表示目前不构成健康风险。",
+      "script": "一条科学与公共卫生相关的消息。据半岛电视台报道，法国报告了一例人类感染沙蒙达病毒的病例，这是目前已知的首例有记录的人类感染案例。此前，沙蒙达病毒一直被认为是不会传播给人类的病毒，主要在动物间传播。法国官方表示，这一病例目前不构成公共健康风险。从科学角度看，病毒跨物种传播能力的出现，往往会引起病毒学界的关注，因为这可能意味着病毒发生了基因层面的变异，或者此前的检测手段存在盲区，使得类似病例此前未被识别。不过，单一病例本身并不能说明该病毒已经具备持续人传人的能力，病例的发现也可能只是加强监测和检测技术进步的结果。目前报道中并未提供该患者的具体感染途径、症状严重程度，以及病毒基因序列分析的详细结果，这些信息对于判断该病毒的实际公共卫生风险至关重要。后续需要等待法国公共卫生部门或相关科研机构公布更详细的流行病学调查结果，以及是否发现更多类似病例。",
+      "duration_seconds": 95,
+      "is_unverified": false,
+      "confidence_note": "官方已确认该病例存在并表态无健康风险，但具体病毒学细节和风险评估仍有限，属于一手信源明确标注、证据相对有限的情况。",
+      "fact_status": {
+        "confirmed": [
+          "法国报告首例人类感染沙蒙达病毒病例",
+          "法国官方表示目前不构成健康风险"
+        ],
+        "claims": [],
+        "analysis": [
+          "单一病例尚不能说明病毒已具备持续人传人能力，需更多流行病学数据支持判断"
+        ]
+      },
+      "source_ids": [
+        "3759d5dd5e14390b"
+      ],
+      "sources": [
+        {
+          "id": "3759d5dd5e14390b",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Why are French protesters chanting ‘Bismillah, c’est les ténèbres’?",
-          "summary": "The slogan has come to represent a whole array of grievances that lie at the heart of the protest movement.",
-          "url": "https://www.aljazeera.com/news/2026/10/21/why-are-french-protesters-chanting-bismillah-cest-les?traffic_source=rss",
-          "published_at": "2026-10-21T10:35:34+00:00",
+          "title": "France reports first human Shamonda virus case, says no health risk",
+          "summary": "Until now, the virus was considered non-transferable to humans, making the patient the first documented human case.",
+          "url": "https://www.aljazeera.com/news/2026/10/22/france-reports-first-human-shamonda-virus-case-says-no-health-risk?traffic_source=rss",
+          "published_at": "2026-10-22T11:28:05+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "finance",
-      "title": "马斯克确认正在考虑特斯拉与SpaceX合并",
-      "english_term": null,
-      "summary": "埃隆·马斯克公开表示，特斯拉和SpaceX两家公司都已成立专门委员会，研究一项可能的超级合并方案。",
-      "script": "商业新闻方面，埃隆·马斯克公开确认，他正在考虑将特斯拉和SpaceX这两家公司合并。根据报道，两家公司内部都已经成立了专门委员会，用来研究这项可能的“超级合并”方案是否可行。已经确认的事实是，马斯克本人公开承认了这一考虑，并且提到两家公司已经启动内部评估程序。目前候选信息没有披露合并的具体方案细节，比如合并后的股权结构、对两家公司各自股东的影响、是否需要监管部门批准等关键问题都尚未公开。各方主张方面，由于特斯拉是上市公司而SpaceX是私人公司，两者业务领域也分属电动车和航天完全不同的行业，外界对于这项合并的商业逻辑存在疑问，具体是出于资本运作、业务协同还是其他战略考虑，目前没有权威信息说明。分析判断上，如果合并方案最终推进，这将是全球资本市场近年来规模和跨度都极为罕见的一次企业重组，涉及的监管审查、股东利益平衡和公司治理问题都会相当复杂，预计会引发市场和监管机构的高度关注。后续需要等待两家公司委员会的评估结果，以及是否有正式的合并提案提交董事会或监管部门。",
-      "duration_seconds": 110,
-      "is_unverified": true,
-      "confidence_note": "消息来自单一来源BBC对马斯克公开表态的报道，合并方案细节尚未公开，具有高度不确定性。",
+      "category": "world",
+      "title": "国际刑事法院获颁欧盟萨哈罗夫人权奖",
+      "english_term": "Sakharov Prize（萨哈罗夫人权与思想自由奖）",
+      "summary": "欧盟宣布将今年的萨哈罗夫人权与思想自由奖授予国际刑事法院，以表彰其在支持人权与民主方面的工作。",
+      "script": "最后一条国际新闻。欧盟宣布，今年的萨哈罗夫人权与思想自由奖授予国际刑事法院。这一奖项每年颁发给在支持人权与民主方面做出贡献的个人或组织。国际刑事法院近年来在多起国际争议事件中参与调查和司法程序，其角色本身也伴随着不同国家与阵营之间的分歧，一些国家对其管辖权和具体案件处理表达过不同立场。欧盟方面在颁奖说明中肯定了国际刑事法院在国际司法体系中的作用，但报道中并未详细列出欧盟具体援引了该法院哪些案件或工作作为获奖理由。这类奖项更多具有象征意义，用以表明欧盟在国际人权议题上的立场倾向，而非对某一具体司法争议的直接裁决。后续可以关注国际刑事法院方面对获奖的正式回应，以及颁奖仪式上可能释放的进一步信息。",
+      "duration_seconds": 75,
+      "is_unverified": false,
+      "confidence_note": "来自DW对欧盟官方公告的直接报道。",
       "fact_status": {
         "confirmed": [
-          "马斯克公开表示正在考虑特斯拉与SpaceX合并",
-          "两家公司已成立专门委员会评估该方案"
+          "欧盟将本年度萨哈罗夫人权与思想自由奖授予国际刑事法院"
         ],
         "claims": [],
         "analysis": [
-          "若合并推进，将涉及复杂的监管审查与公司治理问题，是否存在明确商业逻辑尚不清楚"
+          "该奖项具有象征性质，反映欧盟在国际人权议题上的立场"
         ]
       },
       "source_ids": [
-        "15726e7c9919a782"
+        "f386a4480052e56d"
       ],
       "sources": [
         {
-          "id": "15726e7c9919a782",
-          "source": "BBC World",
+          "id": "f386a4480052e56d",
+          "source": "DW Top Stories",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-          "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
-          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-21T08:42:49+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "health",
-      "title": "肯尼亚确认九例埃博拉病例，美国建议公民重新考虑赴肯尼亚旅行",
-      "english_term": "Ebola（埃博拉病毒，一种高致死率的出血热病毒）",
-      "summary": "肯尼亚出现九例埃博拉确诊病例，美国已建议本国公民重新考虑前往肯尼亚旅行的计划，肯尼亚政府则努力安抚民众情绪。",
-      "script": "公共卫生方面，肯尼亚目前已经确认出现九例埃博拉病例，美国已经发布旅行提示，建议本国公民重新考虑前往肯尼亚的旅行计划。埃博拉是一种高致死率的出血热病毒，主要通过接触感染者体液传播，历史上曾在非洲多国引发严重疫情，病死率在不同暴发中差异较大，但总体偏高，因此国际社会对任何新增病例都保持高度警惕。已经确认的事实是，肯尼亚境内出现了九例确诊病例，美国已就此发布旅行提示。各方主张方面，肯尼亚政府正在努力向公众和国际社会传递疫情可控的信息，试图平息外界的担忧情绪，但具体采取了哪些防控措施、病例的地理分布和传播链条是否已经查明，候选信息中没有详细说明。分析判断上，埃博拉疫情的防控关键在于早期病例追踪、密切接触者隔离和医疗资源调配，九例病例的规模目前看相对有限，但国际旅行提示的发布说明外部对局势发展仍持谨慎态度。后续需要关注肯尼亚卫生部门和世界卫生组织是否会发布更详细的疫情通报，以及病例数是否会进一步增加。",
-      "duration_seconds": 105,
-      "is_unverified": false,
-      "confidence_note": "来自BBC的报道，信息相对明确，但具体传播链条和防控细节仍有限。",
-      "fact_status": {
-        "confirmed": [
-          "肯尼亚确认出现九例埃博拉病例",
-          "美国已建议本国公民重新考虑赴肯尼亚旅行"
-        ],
-        "claims": [
-          "肯尼亚政府表示正努力安抚民众、控制局势"
-        ],
-        "analysis": [
-          "疫情规模目前相对有限，但仍需持续关注病例数变化和官方通报"
-        ]
-      },
-      "source_ids": [
-        "2894b37b24b74c3d"
-      ],
-      "sources": [
-        {
-          "id": "2894b37b24b74c3d",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Is Ebola under control in Kenya after nine cases confirmed?",
-          "summary": "The US has advised its citizens to reconsider travelling to Kenya but the government tries to reassure people.",
-          "url": "https://www.bbc.co.uk/news/articles/c693z948px0jo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-21T09:55:15+00:00",
+          "title": "EU's Sakharov Prize won by the International Criminal Court",
+          "summary": "The EU has announced the International Criminal Court as the winner of this year's Sakharov Prize. The annual prize is awarded to individuals and organizations for their work in supporting human rights and democracy.",
+          "url": "https://www.dw.com/en/eu-s-sakharov-prize-won-by-the-international-criminal-court/a-79730914?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-22T10:04:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的内容就到这里。人形机器人量产消息、空间机器人融资和具身智能几篇新论文，共同勾勒出机器人产业与学术两条线并行推进的图景；国际局势方面，俄美人质释放事件发生在俄乌和谈特使穿梭之际，后续走向值得持续关注。",
-  "editor_note": "为满足机器人时长占比45%-55%的要求，本版删去三菱电机物理AI系统一条产业新闻，机器人部分保留两条产业消息（Agile与英伟达合作、Sinxbot融资）和三篇学术论文（DexGraspFlow、Embodied Playground、错误恢复训练方法），并适当压缩各篇篇幅。机器人部分来源涵盖产业媒体与arXiv两类独立信源。国际部分以俄美人质释放为主线索（多来源交叉确认），生活成本抗议和肯尼亚埃博拉疫情因候选信息细节有限，按已有信息客观呈现。未选用部分机器人展会/奖项类候选及三菱电机条目，以保证总时长与占比平衡。",
+  "closing": "今天的内容中，人形机器人领域的量产进展与试点部署值得持续关注，特斯拉的周产能目标、Agility与AGCO的工厂试点、以及英伟达在人形机器人计算平台上的布局，都将是观察行业从样机走向规模化应用的关键窗口。同时，中东地区围绕伊朗的局势发展，以及俄乌战争的外交斡旋进展，仍需等待更多官方信息确认。",
+  "editor_note": "本期机器人部分综合了产业动态（特斯拉、Agility/AGCO、Agile Robots）与学术论文（arXiv预印本共六篇），时长占比约为全文一半；国际政治与科学类新闻优先覆盖了伊朗局势、乌克兰战争、南法洪灾、病毒病例与国际刑事法院获奖等条目。部分内容（特斯拉量产目标、美以对伊军事行动传闻、Agile Robots平台细节）因仅有单一来源或匿名信源，已标记为未经证实并在confidence_note中说明局限；所有arXiv论文均为预印本，尚未经过同行评审。",
   "model": "claude-sonnet-5",
-  "generation_usage": [
-    {
-      "input_tokens": 9533,
-      "output_tokens": 10287,
-      "total_tokens": 19820
-    },
-    {
-      "input_tokens": 12142,
-      "output_tokens": 8939,
-      "total_tokens": 21081
-    }
-  ],
   "usage": {
-    "output_tokens": 19226,
-    "total_tokens": 40901,
-    "input_tokens": 21675
+    "input_tokens": 9152,
+    "output_tokens": 9691,
+    "total_tokens": 18843
   },
-  "generated_at": "2026-10-21T12:08:54+00:00",
-  "window_start": "2026-10-20T12:08:54+00:00",
-  "candidate_count": 315,
+  "generated_at": "2026-10-22T12:12:06+00:00",
+  "window_start": "2026-10-21T12:12:06+00:00",
+  "candidate_count": 317,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
-  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1140,
-    "script_characters": 4430,
-    "topic_duration_share": 0.596,
+    "duration_seconds": 1180,
+    "script_characters": 4591,
+    "topic_duration_share": 0.581,
     "passed": true,
     "normal_target_met": true,
-    "topic_source_count": 2,
+    "topic_source_count": 3,
     "issues": []
   }
 }
