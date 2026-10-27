@@ -1,125 +1,79 @@
 {
-  "title": "晶球电台早报：约旦教堂枪击案致7死，MIT活细胞驱动软体机器人问世",
-  "subtitle": "人形机器人摔跤与四足机器人解魔方同台，国际政坛暗流涌动",
+  "title": "晶球电台早报：韩系供应链托举Atlas量产，GXO扩大人形机器人部署",
+  "subtitle": "乌克兰局部停火启动，以色列迎来关键大选；机器人产业与学术双线并进",
   "highlights": [
-    "约旦卡拉克一场葬礼上发生枪击案，造成7人死亡40人受伤",
-    "MIT研发出由活细胞供能的纸片状游泳机器人，机器人学术进展密集",
-    "法国爆发大规模抗议，德国希特勒旧居“鹰巢”发生火灾，欧洲局势紧张"
+    "波士顿动力Atlas人形机器人供应链全面韩系化，现代摩比斯领衔，万台级订单浮出水面",
+    "物流巨头GXO将Agility人形机器人Digit扩展部署至两处新场地",
+    "苏黎世联邦理工提出人形机器人攀爬梯子的AI控制框架，拓展复杂地形移动能力",
+    "乌克兰南部城市奥列什基启动局部停火，第一夫人梅拉尼娅斡旋人道通道",
+    "以色列举行2023年冲突以来首次大选，结果悬而未决"
   ],
   "stories": [
     {
-      "category": "world",
-      "title": "约旦教堂枪击案致7死40伤",
-      "english_term": null,
-      "summary": "约旦卡拉克市一座东正教堂在葬礼期间遭遇枪击，造成至少7人死亡、40人受伤。约旦国家电视台播出的画面显示三名枪手向教堂开火。",
-      "script": "我们先来关注一起发生在中东地区的恶性暴力事件。根据约旦国家电视台播出的画面，本周五，位于约旦卡拉克市的一座希腊东正教堂，在举行葬礼仪式期间遭遇枪手袭击。画面显示，三名枪手向教堂方向连续开火。目前已确认的事实是，这起枪击造成至少7人死亡，另有40人受伤。目前关于袭击者的身份、作案动机以及是否与特定宗教或政治团体有关，官方尚未给出完整说明，这也是后续需要等待约旦警方和检方进一步调查通报的关键信息。卡拉克是约旦南部一座历史悠久的城市，当地基督教社群规模不大但历史久远，这起针对教堂葬礼的袭击在约旦国内引发强烈震动。约旦当局已经介入调查，但截至目前尚未有组织或个人宣称对此事负责。这起事件也让人联想到近期欧洲多地出现的针对宗教场所和少数群体的暴力事件，显示出宗教和族群紧张在多个地区同时升温的趋势。后续需要关注约旦警方的调查进展，以及是否会有嫌疑人被逮捕或指控。",
-      "duration_seconds": 95,
-      "is_unverified": false,
-      "confidence_note": "来自NPR World对约旦国家电视台画面的转述，属于Tier 2媒体的即时报道，细节（如袭击动机）仍待官方调查确认。",
-      "fact_status": {
-        "confirmed": [
-          "约旦卡拉克一座东正教堂在葬礼期间遭枪击",
-          "造成至少7人死亡、40人受伤",
-          "约旦国家电视台播出了三名枪手开火的画面"
-        ],
-        "claims": [],
-        "analysis": [
-          "袭击动机和嫌疑人身份尚未公开，可能涉及宗教或地区紧张因素，但缺乏官方定性"
-        ]
-      },
-      "source_ids": [
-        "cd67f6fe8d76aeda"
-      ],
-      "sources": [
-        {
-          "id": "cd67f6fe8d76aeda",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
-          "summary": "Footage broadcast on Jordanian state television showed three gunmen firing shots at a Greek Orthodox church in the city of Karak on Friday.",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
-          "published_at": "2026-10-24T11:59:08+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
       "category": "robotics",
-      "title": "MIT造出靠活细胞供能的纸片状游泳机器人",
-      "english_term": "biohybrid robot（生物混合机器人，指结合活体细胞与人造材料的机器人）",
-      "summary": "MIT团队研发出一种薄如纸片的游泳机器人，依靠活体细胞提供动力驱动其运动。这类生物混合机器人为软体机器人和微型机器人的驱动方式提供了新思路。",
-      "script": "接下来是今天机器人板块的重点内容。麻省理工学院的研究团队公布了一款外形薄如纸片的游泳机器人，这款机器人最大的特点是它不依赖传统的电池或电机，而是用活体细胞作为动力来源。这类机器人在学术界被称为biohybrid robot，也就是生物混合机器人，指的是把活体生物组织或细胞与人工制造的结构结合在一起，利用细胞自身的收缩或代谢活动产生机械力。从技术原理上看，研究人员通常会在柔性基底材料上培养心肌细胞或其他可收缩的活体细胞，当这些细胞周期性收缩时，会带动薄膜结构产生类似鱼类摆尾的波动，从而推动机器人在水中前进。这种设计的优势在于能耗极低、结构柔软，并且理论上可以随着细胞代谢实现一定程度的自我维持，这是传统刚性电机驱动的机器人很难做到的。目前报道的进展处于实验室阶段的原型展示，报道中并未给出具体的速度、续航或者控制精度等量化指标，这意味着它距离实际应用，比如体内药物递送或者环境监测，还有相当长的路要走，材料的长期稳定性、细胞存活周期以及如何精确控制运动方向，都是公开报道未详细说明的问题。生物混合机器人这个方向近年来一直是软体机器人和微纳机器人交叉领域的热点，与之相关的还有用昆虫肌肉驱动的微型机器人等探索。这类研究的意义更多在于拓展机器人动力来源的边界，为未来在人体内部或者精细生态环境中工作的微型装置提供新的技术路线。后续需要关注该成果是否会发表在同行评审期刊上，以及团队是否会公布更详细的性能数据和控制方法。",
-      "duration_seconds": 155,
+      "title": "波士顿动力Atlas供应链全面韩系化，万台量产订单浮现",
+      "english_term": "supply chain（供应链）",
+      "summary": "据韩国媒体KED Global报道，波士顿动力旗下人形机器人Atlas的零部件供应链正转向以现代摩比斯（Hyundai Mobis）为核心的韩国企业体系，市场消息称订单规模可能达到万台级别。",
+      "script": "先来看人形机器人产业的一条重磅消息。据韩国财经媒体KED Global报道，波士顿动力公司旗下的人形机器人Atlas，其供应链正在经历一次全面的本土化重组——重心从过去分散的国际供应商，转向以现代摩比斯为首的韩国企业体系。现代摩比斯是现代汽车集团旗下的核心零部件厂商，长期为汽车生产底盘、电子系统和安全部件，如今被曝将主导Atlas的核心部件供应。报道还提到，市场上已经出现万台规模订单的传闻。需要说明的是，这类万台订单的说法目前仍属于行业消息，并未得到波士顿动力或现代官方的正式确认，所以这部分内容我们标记为未经证实，但考虑到背后的产业逻辑，值得持续关注。自从现代汽车集团在前几年收购波士顿动力之后，双方的供应链整合就一直被视为必然趋势。电动人形机器人要实现量产，核心瓶颈往往不在于算法，而在于能否找到稳定、低成本、可大规模复制的精密零部件供应商——比如高性能伺服电机、减速器、力矩传感器、电池包等等。把这些环节交给已经具备成熟汽车级供应链管理经验的现代摩比斯，理论上可以大幅压缩Atlas从实验室样机走向规模化生产的周期。这条消息也从侧面印证了另一条候选信息里提到的行业判断：如果人形机器人真的走向量产，上游芯片，尤其是存储芯片的需求可能会出现数量级的增长，有分析预测到2030年相关需求可能是现在的二十倍。这两条消息合在一起看，描绘出的图景是——人形机器人正从展示性原型，向着真正意义上的工业化供应链过渡。后续需要等待波士顿动力或现代官方对具体订单量和量产时间表的正式公布。",
+      "duration_seconds": 165,
       "is_unverified": true,
-      "confidence_note": "来自科技媒体Tech Explorist的转述报道，属于Tier 3来源，尚未确认是否经过同行评审期刊发表，具体技术细节和量化数据有限。",
+      "confidence_note": "核心信息来自Tier 3级别的行业新闻聚合，订单规模等关键数字缺乏波士顿动力或现代官方的独立确认，标记为未经证实。",
       "fact_status": {
         "confirmed": [
-          "MIT团队展示了一款薄片状、由活体细胞驱动的游泳机器人原型"
+          "KED Global等韩国媒体报道了Atlas供应链向韩国企业转移的趋势"
         ],
         "claims": [
-          "该机器人依靠活体细胞的收缩提供动力并实现游动"
+          "报道提及可能存在万台规模订单"
         ],
         "analysis": [
-          "该研究目前处于原型展示阶段，具体性能参数和应用前景尚待更详细披露"
+          "人形机器人量产的关键瓶颈在于零部件供应链的规模化能力，与汽车供应链整合具有逻辑一致性"
         ]
       },
       "source_ids": [
-        "65901bbd23f96840"
+        "cce1f9c177397214",
+        "479f02361dd0164a",
+        "94b4d93fe875e354"
       ],
       "sources": [
         {
-          "id": "65901bbd23f96840",
+          "id": "cce1f9c177397214",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "MIT’s paper-thin robot swims with power from living cells - Tech Explorist",
-          "summary": "MIT’s paper-thin robot swims with power from living cells Tech Explorist",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeERyeVpMT0tOT21EcEViRkpYRVdTbEhUaTZCNDc5SEVONnhReEtkZmFhRWx5dHE0aFdpVXhEQUJRVzFTZTRablJNTS0zS3pUWll3dWxiVHNQa3NYRGlvd05yS0g1aFRnZUJyajhERk9qY1A4ajQ2bHNvXzJsRTJscG90RG1CY3NaY3Y0?oc=5",
-          "published_at": "2026-10-24T10:14:01+00:00",
+          "title": "Boston Dynamics’ Atlas supply chain goes all-Korean, led by Hyundai Mobis; 10,000-unit order in sight - KED Global",
+          "summary": "Boston Dynamics’ Atlas supply chain goes all-Korean, led by Hyundai Mobis; 10,000-unit order in sight KED Global",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9iN05zVWw5NkZFNVkwbWpfNTNweWZudDIxdDhoeVo3T190WFphckF1ODBnQTU4SndjQzFYdkNFTGF6d2NjeHdwRzMtLW0yWFlOdURUdmU0YzM3TUJtaHkzN1NuMnV5MTVmQmNF?oc=5",
+          "published_at": "2026-10-27T12:00:11+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "四足机器人用脚自主解开巨型魔方",
-      "english_term": "quadruped robot（四足机器人）",
-      "summary": "苏黎世联邦理工学院机器人系统实验室展示了一款四足机器人，能够仅用自己的脚自主解开一个巨型魔方。",
-      "script": "IEEE Spectrum本周的机器人视频精选栏目里，有一个相当有趣的演示：来自苏黎世联邦理工学院机器人系统实验室的一款四足机器人，也就是quadruped robot，展示了用自己的脚自主解开一个巨型魔方的能力。这个演示看起来像是娱乐性质的展示，但背后其实涉及了多项机器人核心能力的综合考验。首先是精细操作能力，四足机器人原本的腿和脚主要是为了行走和维持平衡设计的，末端执行器的自由度和精度通常不如机械臂，要用脚去拨动魔方的每一面并完成精确旋转，对运动规划和力控制提出了很高要求。其次是感知与决策的闭环，机器人需要实时识别魔方当前的状态，也就是每个面的颜色排布，然后计算出解法步骤，再把这个步骤转化成一连串腿部动作指令，整个过程需要视觉感知、运动规划和执行控制紧密配合。从行业角度看，这类演示往往被用作检验机器人平台综合能力的一种直观方式，类似于早年工业机械臂表演叠杯子或者人形机器人表演后空翻，核心目的不是魔方本身，而是展示平台在复杂精细操作任务上的泛化能力。目前公开信息中没有提供这款机器人具体采用的算法细节、求解耗时或者成功率等量化数据，这些内容需要进一步关注实验室后续是否发布相关论文或技术报告。这类展示也从侧面反映出四足机器人的应用边界正在从单纯的移动和巡检，向更复杂的操作任务扩展。",
-      "duration_seconds": 140,
-      "is_unverified": false,
-      "confidence_note": "来自IEEE Spectrum对ETH Zurich机器人系统实验室演示视频的报道，属于机器人领域权威媒体的直接转述，但未提供详细技术参数。",
-      "fact_status": {
-        "confirmed": [
-          "ETH Zurich机器人系统实验室展示了一款四足机器人自主解开巨型魔方的视频"
-        ],
-        "claims": [],
-        "analysis": [
-          "该演示更多用于展示四足机器人在精细操作和感知决策闭环方面的综合能力，而非单纯的娱乐表演"
-        ]
-      },
-      "source_ids": [
-        "3fba56942fba0f87"
-      ],
-      "sources": [
+        },
         {
-          "id": "3fba56942fba0f87",
-          "source": "IEEE Spectrum Robotics",
-          "source_tier": 2,
+          "id": "479f02361dd0164a",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself",
-          "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! A quadruped robot autonomously solves a giant Rubik’s Cube using only its feet. [ ETH Zurich Robotics Systems Lab ] Humans effortlessly react to the world; they adeptly return a tennis shot, catch a falling cup, step aside from a passing cart, or pass a box tossed during truck unloading. These everyday actions require anticipating a moving target and reflexively responding with the whole body within about a second. Such visual reactive whole-body control remains challenging for humanoids. We present Reflex, a three-stage framework that learns these capabilities stage by stage while connecting them through a compact representation of object dynamics. [ Reflex ] Thanks, Weikai! I have long advocated for exactly this in the context of robotic laundry folding , or more broadly, other robot recognition and manipulation tasks. Why not m",
-          "url": "https://spectrum.ieee.org/video-friday-rubiks-cube-robot",
-          "published_at": "2026-10-23T15:30:02+00:00",
+          "title": "Humanoid Robots Could Need 20 Times More Memory Chips by 2030 - 24/7 Wall St.",
+          "summary": "Humanoid Robots Could Need 20 Times More Memory Chips by 2030 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdEcxaFBfamVNOWZYeF8yazVVYzNFNTNvdlhnUTIxQ0JqN3NSNE0wUWlGdThPZERXM1ZIXzNMVXpGMFdHbjZ5NVp4MC0xdWNaenhkdVNYdG1yTjM4Wnhoa3BIUGJoaWJVRTRCWmc5V3NCakpyLXp2MFRmaXdTY1R2Wk5MUjlkUWN6ZXBaRnRsTXdDN25ILVhYRW1pVDRZeXFWMlBhaHZMMEQ?oc=5",
+          "published_at": "2026-10-27T11:29:46+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "94b4d93fe875e354",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Humanoid Robots Could Need 20 Times More Memory Chips by 2030 - Yahoo Finance",
+          "summary": "Humanoid Robots Could Need 20 Times More Memory Chips by 2030 Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3NjWjRMTkdKTm9faDEtZHBHNXhQMnkwNW42RDVPTkdtUkJiN3k1aEh3OFlnTFZCTnNzS29ZY2haWVdydU5XSVR0aTFENi14YUxEM21VbU85UDkxanVTLWxFVUZScUpkS2VTZjN1YnluRHNkNElINnhkYnEwbFhuRGpiNU85X1lEaFlVWlZodlljWGZKOTZfUUZR?oc=5",
+          "published_at": "2026-10-27T11:24:22+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -127,77 +81,37 @@
     },
     {
       "category": "robotics",
-      "title": "人形机器人侧空翻表演失败引发关注",
+      "title": "物流巨头GXO扩大部署Agility人形机器人Digit",
       "english_term": "humanoid robot（人形机器人）",
-      "summary": "一款名为H2-X的人形机器人在活动现场尝试侧空翻动作时失败摔倒，事件引发对人形机器人动态平衡能力的讨论。",
-      "script": "另一条引发关注的机器人新闻，是一款名为H2-X的人形机器人在一次公开活动中尝试表演侧空翻动作时失败摔倒。这类高难度动态动作，在机器人控制领域属于对平衡控制和运动规划能力的极限测试。人形机器人要完成侧空翻，需要在短时间内完成起跳、空中姿态调整、落地缓冲等一系列动作，每一个环节都依赖精确的惯性测量、关节力矩控制以及实时的姿态反馈调整，任何一个环节出现偏差，都可能导致动作失败甚至摔倒。从行业角度看，类似的高难度动态动作表演，近年来已经成为多家人形机器人公司展示技术实力的常见方式，但公开报道中很少详细披露这些动作背后的失败率和调试过程，往往只有成功的演示视频被广泛传播，这次摔倒事件反而提供了一个难得的观察动态平衡控制真实水平的窗口。需要说明的是，目前公开信息中并未给出H2-X机器人的具体研发公司、失败的具体技术原因分析，也没有官方说明后续是否会公布调试细节。摔倒本身并不意味着技术路线存在根本缺陷，动态动作的调试过程本身就包含大量试错，但这类公开场合的失败也从侧面提醒业内，人形机器人在非结构化、高动态场景下的鲁棒性仍然是一个需要持续打磨的方向。后续需要关注该机器人厂商是否会对失败原因做出说明，以及是否会有改进后的版本重新进行类似演示。",
-      "duration_seconds": 135,
-      "is_unverified": true,
-      "confidence_note": "来自KuCoin转述的单一来源报道，细节有限，机器人厂商和失败原因均未经独立信源交叉确认。",
+      "summary": "物流公司GXO Logistics计划将Agility Robotics的人形机器人Digit扩展部署至两处新的运营场地，此前该公司已在多个仓库测试过不同厂商的人形机器人。",
+      "script": "再看一条人形机器人落地应用的消息。据The Robot Report报道，物流巨头GXO Logistics宣布，将把Agility Robotics公司研发的人形机器人Digit，扩展部署到两处新的运营场地。GXO是全球规模领先的合同物流服务商，此前已经在多个仓库环境中测试过来自不同厂商的人形机器人，这次是对Agility产品线的进一步加码。Digit这款机器人主打的应用场景是仓库内的搬运与分拣作业，比如从传送带上取下包裹、将货物从一个容器转移到另一个容器，这类重复性强、对双足行走和手部抓取都有一定要求的工作。相比机械臂固定在产线上的传统自动化方式，人形机器人的优势在于不需要对现有仓库布局做大规模改造，可以直接利用为人类工人设计的通道、货架和工位。不过这也意味着它对行走稳定性、物体识别精度和实时避障能力提出了更高要求。GXO此前采取的是多供应商测试的策略，这次选择扩大Digit的部署规模，一定程度上反映出实际运营数据给出了积极反馈。对于整个人形机器人产业而言，物流仓储被普遍认为是最容易规模化落地的场景之一，因为任务相对结构化、环境相对可控，风险敞口比起家庭服务或者医疗护理要小很多。这条消息也和前面提到的Atlas供应链韩国化构成呼应——一边是硬件制造端在为量产做准备，一边是应用端在真实场景里加大试用规模，整个人形机器人赛道正在从概念验证阶段向商业化部署阶段过渡。后续需要等待GXO公布具体部署效果数据和进一步扩展计划。",
+      "duration_seconds": 160,
+      "is_unverified": false,
+      "confidence_note": "来自专业机器人产业媒体The Robot Report的直接报道，信息来源单一但属于行业权威一手信源。",
       "fact_status": {
         "confirmed": [
-          "一款名为H2-X的人形机器人在活动现场尝试侧空翻时摔倒"
+          "GXO Logistics计划在两处新场地部署Agility Robotics的Digit人形机器人"
         ],
         "claims": [],
         "analysis": [
-          "该事件反映出人形机器人在高难度动态动作上的平衡控制仍存在风险和不确定性"
+          "物流仓储被视为人形机器人最易规模化落地的场景之一"
         ]
       },
       "source_ids": [
-        "63563cc8542e789c"
+        "113acecb3baa097f"
       ],
       "sources": [
         {
-          "id": "63563cc8542e789c",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "H2-X Humanoid Robot Stumbles During Side Flip at Event - KuCoin",
-          "summary": "H2-X Humanoid Robot Stumbles During Side Flip at Event KuCoin",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUTR4NXVWX2NXMUVzZ25VdDBJYVozUnp1Z1Z2TlV3a3g0azF0UFZwUkowUFYzblhrMUcyaVItV21DOV9LLUR0c2s4SGJ5Y0pyRHVGcTZLWkw4YWZkVVFMTVVfV1QyZElrM2dVbldoVmN2N0Y1dHdsUXFpM1BZLWJQblZ4MlFhZXFIVHV4SEVhZVJ5QQ?oc=5",
-          "published_at": "2026-10-24T10:25:11+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "Generative Bionics将在意大利建设物理AI数据工厂",
-      "english_term": "Physical AI Data Factory（物理人工智能数据工厂）",
-      "summary": "机器人公司Generative Bionics宣布将在意大利建立“物理AI数据工厂”，旨在确保人形机器人训练所需的数据在欧洲本土生成，推动欧洲机器人产业自主性。",
-      "script": "在机器人产业端，The Robot Report报道称，公司Generative Bionics计划在意大利建立一座“物理AI数据工厂”，英文是Physical AI Data Factory。这个项目的核心目标，是确保训练人形机器人所需要的数据能够在欧洲本土生成，而不是依赖海外的数据采集和处理体系，报道中将其表述为推动“欧洲机器人主权”的举措。这里涉及的背景是，近年来人形机器人和具身智能的快速发展，高度依赖大规模的真实世界交互数据来训练感知、操作和决策模型，这类数据通常需要通过真实机器人在多样化场景中执行任务来采集，成本高、周期长，而目前全球范围内主导这类大规模数据采集和模型训练能力的公司大多集中在美国和中国。欧洲在人形机器人硬件制造上有一定基础，但在大规模具身智能训练数据的积累上相对滞后，这也是欧盟及相关企业近期频繁提及“机器人主权”和“AI主权”概念的产业背景。Generative Bionics的这一布局，意味着本土企业希望通过建设专门的数据采集和处理设施，补齐这块短板，减少对外部数据供应链的依赖。不过目前公开报道并未透露这座数据工厂的具体规模、投资金额、合作的机器人硬件厂商，以及预计投入运营的时间表，这些都是后续需要关注的信息。从更大的行业视角看，这类数据基础设施的建设，反映出具身智能竞争正在从单纯的算法和硬件比拼，延伸到数据采集能力和产业链自主性的较量。",
-      "duration_seconds": 150,
-      "is_unverified": false,
-      "confidence_note": "来自The Robot Report的直接报道，属于机器人行业专业媒体，但具体项目规模和时间表等细节尚未披露。",
-      "fact_status": {
-        "confirmed": [
-          "Generative Bionics宣布将在意大利建设一座物理AI数据工厂"
-        ],
-        "claims": [
-          "该项目旨在推动欧洲机器人数据和人形机器人产业的自主性"
-        ],
-        "analysis": [
-          "项目具体规模和运营时间表尚不明确，反映出欧洲在具身智能数据基础设施上的补短板努力"
-        ]
-      },
-      "source_ids": [
-        "a1f41f665586b79b"
-      ],
-      "sources": [
-        {
-          "id": "a1f41f665586b79b",
+          "id": "113acecb3baa097f",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Generative Bionics to launch Physical AI Data Factory in Italy",
-          "summary": "Generative Bionics says it hopes to advance European robotics sovereignty by ensuring that humanoid data is are generated on the continent. The post Generative Bionics to launch Physical AI Data Factory in Italy appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/generative-bionics-to-launch-physical-ai-data-factory-in-italy/",
-          "published_at": "2026-10-23T18:56:44+00:00",
+          "title": "Agility and GXO Logistics plan expanded deployment of Digit humanoid",
+          "summary": "GXO Logistics, which has tested humanoid robots from multiple companies, will deploy Agility's Digit at two more sites. The post Agility and GXO Logistics plan expanded deployment of Digit humanoid appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/",
+          "published_at": "2026-10-26T14:05:21+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -205,181 +119,327 @@
     },
     {
       "category": "robotics",
-      "title": "宾夕法尼亚州送货机器人让行规定引争议",
-      "english_term": "delivery robot（配送机器人）",
-      "summary": "宾夕法尼亚州法律要求配送机器人为行人让行，但一名抗议者却因阻拦机器人而面临逮捕，引发对机器人路权与公共空间规则的讨论。",
-      "script": "一则来自美国本土的机器人治理新闻值得关注。根据报道，宾夕法尼亚州目前有法律明确规定，配送机器人，也就是delivery robot，在人行道上行驶时必须为行人让行。但近期发生的一起事件是，一名抗议者因为阻拦一台配送机器人的行驶，反而面临被逮捕的处境，这一反差引发了不少讨论。这起事件触及的核心问题，是当机器人被正式纳入公共空间的交通参与者之后，相关法律责任和路权规则应该如何界定。配送机器人通常体型较小，依靠轮式底盘在人行道上低速行驶，配备摄像头和多种传感器用于识别行人和障碍物，并按照预设规则进行避让和停止。宾夕法尼亚州要求机器人为行人让行，本意是在保障行人优先权的前提下为机器人的合法上路提供法律框架，但这次事件显示，当有人主动用身体或行为阻挡机器人正常运行时，现有法律似乎更倾向于保护机器人一方的通行秩序，而不是单纯站在抗议者一边，这也反映出当前机器人相关立法在实际执行层面还存在一些需要厘清的灰色地带。目前公开报道并未详细说明这名抗议者具体的诉求是什么，是出于对机器人抢占行人路权的不满，还是另有其他社会议题层面的抗议动机，这些背景信息还有待进一步披露。从行业角度看，随着越来越多城市允许配送机器人在人行道和非机动车道上运行，类似的路权和责任纠纷预计还会继续出现，这也是各地监管机构在完善机器人相关法规时需要持续面对的现实问题。",
+      "title": "苏黎世联邦理工提出人形机器人攀爬梯子AI框架",
+      "english_term": "locomotion（移动控制）",
+      "summary": "苏黎世联邦理工学院（ETH Zurich）研究团队开发出一套AI控制框架，使人形机器人能够完成攀爬梯子这类高难度动作，拓展了双足机器人在非平面复杂地形中的移动能力。",
+      "script": "来看一条机器人学术进展。据报道，苏黎世联邦理工学院的工程师团队开发出一套新的人工智能控制框架，让人形机器人具备攀爬梯子的能力。这个研究要解决的问题是：目前大多数人形机器人的移动控制，无论是行走还是爬楼梯，主要针对的是相对平坦、规则的地形，而攀爬梯子这种动作涉及手脚协同、重心大幅度转移、以及对非连续支撑点的精确抓握和蹬踏，对运动控制系统的要求要苛刻得多。梯子的横档间距固定但抓握点有限，机器人必须同时规划四肢的落点顺序，还要在身体几乎垂直悬空的状态下保持平衡，这和正常直立行走时的动力学模型完全不同。研究团队采用的思路是构建一个AI驱动的控制框架，很可能借助了强化学习在仿真环境中训练大量攀爬场景，再把训练好的策略迁移到真实机器人上，这也是近几年机器人运动控制领域的主流方法论，通常被称为仿真到现实的迁移。这类研究的意义在于，拓展了人形机器人能够通过的地形种类——在灾害救援、工业设施巡检等场景中，梯子、爬梯、狭窄竖井是非常常见的通行结构，如果机器人只能在平地和楼梯上行走，应用范围会受到很大限制。不过目前的报道信息比较简略，具体是哪种机器人平台、训练方法的技术细节、以及在真实梯子上的成功率等关键数据还不清楚，这项成果的来源属于行业资讯聚合类报道，后续需要等待该研究的正式论文或者苏黎世联邦理工官方渠道披露更完整的技术细节和实验数据。",
       "duration_seconds": 145,
       "is_unverified": true,
-      "confidence_note": "来自Fox News的单一来源报道，抗议者具体诉求和事件完整背景尚未得到其他信源交叉确认。",
+      "confidence_note": "来自Tier 3级别的行业新闻聚合报道，缺乏论文原文或官方实验室的直接确认，具体技术细节和实验数据有限。",
       "fact_status": {
         "confirmed": [
-          "宾夕法尼亚州法律要求配送机器人为行人让行",
-          "一名抗议者因阻拦配送机器人而面临逮捕"
+          "有报道称苏黎世联邦理工团队开发了人形机器人攀爬梯子的AI控制框架"
         ],
         "claims": [],
         "analysis": [
-          "事件反映出机器人作为公共空间交通参与者，其路权与责任规则在实际执行中仍存在争议和模糊地带"
+          "此类研究通常采用仿真训练加现实迁移的方法论，拓展机器人可通过地形类型具有实际应用价值"
         ]
       },
       "source_ids": [
-        "c1cf95b271f5c542"
+        "9763da6551f03ea7"
       ],
       "sources": [
         {
-          "id": "c1cf95b271f5c542",
+          "id": "9763da6551f03ea7",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Pennsylvania law requires delivery robots to yield to pedestrians, yet protester still faced arrest - Fox News",
-          "summary": "Pennsylvania law requires delivery robots to yield to pedestrians, yet protester still faced arrest Fox News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRkxROU1pQlpMS1ZGNEpOLVFUX01OcUFhSU5JaGZJRkU2Vl9USW9CQXpaTS1oazFkQXd0czlKTVVRaWhoVDBmR0pqYVlOZkhrNXBaMVQxQWR0c1NlU0tXNzI1c3dVbFFjRDJlak00VDYwcEg2SG1vaTg4ZzZPbDl0TExsNlJfTGhrX0FSUzl4T3NMMTh6LS1tTVdoMGFoYzREV3RjUVpzLUY3dWc5Z1daYtIBtgFBVV95cUxQSzJFNDBwRHItbXFxbW54WUEwZERwV25UTnM4TFVndG9YYUs1TTFtUHBKMW1zNEJuRG9sTEZVUGpEMEhGU0praFFBUWRpeXVmeUFIZmRvNkwwc285TC1sTzJ3UDNnWjlVTmI4THpEV0JFOWxLcjZoOFdWSll4S3BUTlY5ZWo2ZzRSZHN3QXFLRWNUWUNZUjdaUkFlV3p4TW55WTgxYXRVazhoT25KbjBnV0RyVl9ZUQ?oc=5",
-          "published_at": "2026-10-24T10:46:22+00:00",
+          "title": "Eth Zurich Engineers AI framework for humanoid robot ladder climbing - Mjengo Hub",
+          "summary": "Eth Zurich Engineers AI framework for humanoid robot ladder climbing Mjengo Hub",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMk41YXlaMGNMQnBGeDQ0eDhPa19xeU8tdmVjRG5SSC1hZjRSbkJfdFliV0xqVjlIM2NoNUV4WnlMS1NsVFhiMFdaQWRUd3VDUGgtRUppcWo3MktweVVOaXVRTTNoek5ud3M5TWEtckxjVlBOdG9SRFNobU9QeU5nVmtJN0lFem90aGo4elNEQ3c3cGk0OVptNVBNVkNNdklfX21MVnMxRWhGYUZNLUIwWUwyWFhOdUNEVmxIbmZwaUhZNU93UDFN?oc=5",
+          "published_at": "2026-10-27T11:59:01+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "world",
-      "title": "法国爆发大规模抗议，警方高度戒备",
-      "english_term": null,
-      "summary": "法国各大城市爆发新一轮大规模抗议活动，政府部署约7万名警力应对，巴黎附近一起致命枪击事件进一步加剧了紧张局势。",
-      "script": "我们把目光转向欧洲。法国目前正经历新一轮大规模抗议浪潮，据报道，法国政府已经部署了约七万名警察在全国多个城市应对示威活动，这一数字本身就说明了当局对局势紧张程度的判断。与此同时，巴黎附近发生的一起致命枪击事件，被形容为带有种族主义色彩的袭击，造成一人死亡，这起事件进一步加剧了社会紧张氛围。另据报道，当局已经禁止了部分城市原计划举行的游行活动，这一决定引发了人权组织的强烈不满，他们认为这种做法可能侵犯了集会自由的权利。目前已经确认的信息是，法国多地确实爆发了抗议活动，警方部署了大规模警力，巴黎附近发生了一起造成一人死亡的枪击案，部分游行被官方叫停。而关于这起枪击案是否确属种族主义动机的袭击，以及抗议活动背后更深层的社会诉求，不同信源和监测机构给出的描述和定性存在差异，这些都属于各方主张层面的内容，需要结合后续更详细的调查结果来判断。欧洲多个监测机构近期也报告称，针对穆斯林群体的种族歧视事件在欧洲呈上升趋势，这为理解当前法国国内的紧张氛围提供了一个更宏观的背景。后续需要关注法国当局对这起枪击案的调查结论，以及周末大规模抗议是否会进一步升级或趋于平息。",
-      "duration_seconds": 125,
+      "category": "robotics",
+      "title": "自主重型设备公司Bedrock Robotics融资逼近10亿美元",
+      "english_term": "autonomous heavy equipment（自主重型设备）",
+      "summary": "Bedrock Robotics获得6亿美元新一轮融资，公司总融资额逼近10亿美元，用于扩大自主重型工程机械的生产部署，应对建筑行业劳动力短缺。",
+      "script": "来看一条机器人产业融资消息。据The Robot Report报道，专注于自主重型工程设备的公司Bedrock Robotics完成了6亿美元新一轮融资，公司累计融资总额正逼近10亿美元。Bedrock Robotics的主营方向是给推土机、挖掘机这类工程机械加装自动驾驶系统，核心逻辑类似于自动驾驶卡车，但应用场景换成了建筑工地。这类重型设备的自主化改造，技术上需要解决的问题包括在非结构化、经常变化的工地环境中进行精确定位、识别作业目标物料、规划挖掘或推土路径，并且要应对工地上扬尘、泥泞等恶劣感知条件。公司给出的商业逻辑是应对建筑行业长期存在的劳动力短缺问题——在很多地区，熟练的重型设备操作员招募困难，人力成本持续上升，自主化设备可以提高单个工地的作业效率，并减少对特定技能工人的依赖。这笔接近10亿美元的融资规模，说明资本市场对工程机械自动化赛道的信心正在增强，这和另一条候选消息里提到的太阳能电站自主打桩机Xpanner也形成呼应——越来越多初创公司瞄准建筑施工这一相对小众但需求明确的自动化细分市场，而不是扎堆在仓储物流或者人形机器人这类热门赛道。相较于人形机器人，这类工程机械自动化改造往往更容易找到清晰的商业闭环，因为客户是明确的建筑承包商，作业场景相对固定，投资回报计算也更直接。后续需要等待公司公布具体的设备部署规模和客户合同细节。",
+      "duration_seconds": 145,
       "is_unverified": false,
-      "confidence_note": "综合DW和Al Jazeera两个独立Tier 2来源的报道，关于警力部署和游行被禁等基本事实有交叉确认，但枪击案的动机定性属于各方主张。",
+      "confidence_note": "来自专业机器人产业媒体The Robot Report的直接报道，具备明确融资金额信息。",
       "fact_status": {
         "confirmed": [
-          "法国政府部署约7万名警力应对全国性抗议活动",
-          "巴黎附近发生一起枪击事件造成一人死亡",
-          "部分城市的游行活动被当局禁止"
-        ],
-        "claims": [
-          "枪击事件被部分信源描述为带有种族主义色彩的恐怖袭击",
-          "人权组织认为禁止游行侵犯集会自由"
-        ],
-        "analysis": [
-          "欧洲范围内针对少数群体的仇恨犯罪呈上升趋势，可能是当前法国社会紧张氛围的更大背景因素"
-        ]
-      },
-      "source_ids": [
-        "bd58b3f288963a67",
-        "bb1f2e2578d5553d",
-        "7bc1fb5c0a5a9a0f"
-      ],
-      "sources": [
-        {
-          "id": "bd58b3f288963a67",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "France braces for another day of mass protests as security on high alert",
-          "summary": "Several planned marches in major cities in France have been banned by authorities, provoking an uproar by rights groups.",
-          "url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert?traffic_source=rss",
-          "published_at": "2026-10-24T10:04:25+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "bb1f2e2578d5553d",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "France protests: More violence feared amid renewed demonstrations",
-          "summary": "France is deploying some 70,000 police officers as fresh nationwide protests begin. A deadly shooting near Paris has additionally fueled tensions. DW has the latest.",
-          "url": "https://www.dw.com/en/france-protests-more-violence-feared-amid-renewed-demonstrations/live-79748223?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-24T06:34:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "7bc1fb5c0a5a9a0f",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Deadly ‘racist’ attack in France: Are hate crimes rising in Europe?",
-          "summary": "Monitoring group reports more Muslims in Europe face racial discrimination as 'terrorist' attack kills one in France.",
-          "url": "https://www.aljazeera.com/news/2026/10/24/deadly-racist-attack-in-france-are-hate-crimes-rising-in-europe?traffic_source=rss",
-          "published_at": "2026-10-24T10:47:07+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "希特勒旧居“鹰巢”发生火灾，警方拘留嫌疑人",
-      "english_term": null,
-      "summary": "德国阿尔卑斯山区希特勒旧居“鹰巢”发生大火，约200名消防人员参与扑救，警方已拘留一名可疑人员。",
-      "script": "一则带有历史象征意味的新闻：德国阿尔卑斯山区的希特勒旧居“鹰巢”发生火灾。据报道，大约200名消防及应急人员被派往现场扑救这场大火，目前已确认的信息是，这场火灾对建筑造成了较大程度的破坏，所幸没有人员伤亡报告。德国警方已经以“可疑人员”的名义拘留了一名嫌疑人，但关于其具体身份、动机，以及是否与纵火行为直接相关，警方尚未公布详细信息。鹰巢是二战期间纳粹德国为希特勒修建的山间别墅，战后一直作为历史遗迹受到关注和管理，此次发生火灾引发了外界对这处具有特殊历史意义建筑未来保护和修复的讨论。与此同时，德国国内政治也在经历另一场聚焦时刻，总理默茨在基社盟党代会闭幕时发表讲话，呼吁执政联盟保持团结，这一表态的背景是其所在的执政联盟近期正面临一定压力。这两则看似独立的新闻被德国媒体放在同一时间线报道，一方面提醒着历史遗迹保护在当下德国社会中的特殊敏感性，另一方面也反映出德国国内政治联盟在多重议题下的稳定性正受到关注。后续需要关注德国警方对纵火嫌疑人调查的进一步结论，以及默茨政府在联盟内部整合上的实际进展。",
-      "duration_seconds": 115,
-      "is_unverified": false,
-      "confidence_note": "综合BBC World和Al Jazeera两个独立Tier 2来源报道，火灾及警方拘留嫌疑人的基本事实得到交叉确认。",
-      "fact_status": {
-        "confirmed": [
-          "德国希特勒旧居鹰巢发生大火",
-          "约200名应急人员参与扑救",
-          "警方已拘留一名可疑人员"
+          "Bedrock Robotics完成6亿美元新一轮融资，总融资额接近10亿美元"
         ],
         "claims": [],
         "analysis": [
-          "纵火动机及嫌疑人身份尚未公开，案件定性有待警方后续调查结果"
+          "建筑行业自动化正成为资本关注的细分赛道，商业逻辑比部分热门赛道更清晰"
         ]
       },
       "source_ids": [
-        "0278c96c738f19b1",
-        "59a22e88391ffa07",
-        "d8388650d510c918"
+        "225b648e4dd75017"
       ],
       "sources": [
         {
-          "id": "0278c96c738f19b1",
+          "id": "225b648e4dd75017",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
+          "summary": "Bedrock Robotics has secured $600 million to scale autonomous heavy equipment and combat construction labor shortages. The post Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
+          "published_at": "2026-10-26T21:15:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "机器人学术速览：从避障到灵巧手的多篇新论文",
+      "english_term": "SLAM（同步定位与建图）",
+      "summary": "本周arXiv机器人板块公布多篇新论文，涵盖视觉SLAM抗强光干扰、自动驾驶避障可行性保证、模块化多指灵巧手平台以及拥堵环境下的去中心化导航控制。",
+      "script": "快速扫一眼最新的机器人学术预印本进展。第一篇来自视觉SLAM，也就是同步定位与建图领域，研究者提出了应对剧烈光照变化的方法：当场景光线突然变强或变弱时，自动曝光策略跟不上变化速度，图像容易过曝，导致SLAM系统赖以定位的视觉特征点丢失。研究团队提出了自适应多重曝光策略，通过主动采集一组不同曝光参数的图像组合，在保留场景动态范围的同时，把这组多曝光序列直接作为约束条件融入SLAM的优化过程，从而提升强光变化场景下的跟踪稳定性。第二篇关注自动驾驶车辆在交叉路口和环岛这类复杂场景下的避障规划，试图同时满足两个经常矛盾的目标：既要在不确定性存在的情况下严格保证不发生碰撞，又要保证规划计算能在实时性要求下给出可行解。研究提出了一种考虑不确定性的新型规划管线，试图弥补现有方法在安全性和实时可行性之间难以兼顾的缺陷。第三篇是关于灵巧手的平台型研究，团队设计了一套名为ORBIT的模块化多指机械手，核心创新是一种旋转指节机构，让各手指能够沿轨道移动重新配置，从而系统性地比较不同手指排布方式对抓取能力的影响，为灵巧手的形态学设计提供了实验平台。第四篇研究拥堵环境下的去中心化安全导航，提出了一种受神经形态启发的决策动力学方法，让多个智能体在没有通信协调的情况下，仅依靠局部交互就能实现无死锁、安全且可扩展的通行。这几项研究都还处于预印本阶段，尚未经过同行评审，具体实验效果和局限性需要等待正式发表后进一步评估。",
+      "duration_seconds": 155,
+      "is_unverified": true,
+      "confidence_note": "所有内容均来自arXiv预印本，尚未经过同行评审，实验结果和结论的稳健性有待进一步验证。",
+      "fact_status": {
+        "confirmed": [
+          "这四篇论文均已在arXiv机器人板块公开发布"
+        ],
+        "claims": [
+          "论文作者报告了各自方法在特定实验场景下的性能提升"
+        ],
+        "analysis": [
+          "这些研究分别针对视觉定位鲁棒性、规划安全性与实时性平衡、灵巧手形态学、多智能体去中心化导航等机器人核心子领域的具体痛点"
+        ]
+      },
+      "source_ids": [
+        "a332696c51ea96af",
+        "29abb1cbf39ad3f3",
+        "60e9219cae702463",
+        "c8c37b1de4e3cb12"
+      ],
+      "sources": [
+        {
+          "id": "a332696c51ea96af",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Bracketing Shows the Way: Adaptive Multi-Exposure Policy as Input for Robust Visual SLAM",
+          "summary": "arXiv:2610.33174v1 Announce Type: new Abstract: Rapid illumination transitions can disturb Visual SLAM (VSLAM) by saturating images before the Automatic Exposure (AE) policy adapts, removing the visual correspondences needed to maintain tracking. Our proposed methods mitigate this disturbance at two levels: B-Adapt acquires adaptive exposure brackets to cover the scene dynamic range while promoting photometric overlap, and BVSLAM directly uses the multi-exposure sequence as constraints in a factor graph state estimator without relying on High Dynamic Range (HDR) merging. We evaluate both methods against state-of-the-art approaches in nominal environments and during a repeated tunnel-exit transition at an emulated vehicle speed of 32 m s-1. In the tunnel, combining our B-Adapt with BVSLAM reduces the state estimation error by 78 % compared with AE images. These results suggest that bracketing efficiently improves visual pose estimation robustness to rapid illumination disturbances while retaining low error under nominal conditions. Our code is available at https://github.com/norlab-ulaval/bracketing-shows-the-way.",
+          "url": "https://arxiv.org/abs/2610.33174",
+          "published_at": "2026-10-27T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "29abb1cbf39ad3f3",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Interpretable Collision Avoidance and Feasibility Guarantees through an Uncertainty Aware Pipeline",
+          "summary": "arXiv:2610.33186v1 Announce Type: new Abstract: Autonomous vehicles (AVs) operating in dynamic, challenging conditions such as intersections and roundabouts must guarantee collision avoidance under uncertainty while maintaining real-time feasibility. Most existing planners struggle to simultaneously guarantee both requirements. Chance-constrained formulations embed safety constraints directly in the optimization but become infeasible as uncertainty compounds; deterministic planners provide feasible solutions but fail to address the uncertainty that causes collisions; end-to-end learned policies provide neither guarantee in an interpretable form. We present a modular perception-prediction-planning pipeline that closes this gap by propagating uncertainty as structured, interpretable quantities across module boundaries. Rather than embedding probabilistic risk directly in the optimization, our pipeline resolves collision probabilities upstream and constructs convex safe sets within which the planner provides a guaranteed feasible solution at every cycle -- decoupling the safety guarantee from solver feasibility. Across Monte Carlo trials in a four-way unsignalized intersection, our pi",
+          "url": "https://arxiv.org/abs/2610.33186",
+          "published_at": "2026-10-27T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "60e9219cae702463",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "ORBIT: A Modular Multi-finger Robotic Hand Platform with Rotational Finger Reconfiguration",
+          "summary": "arXiv:2610.33241v1 Announce Type: new Abstract: Despite the popularity of multi-fingered robotic hands for dexterous manipulation, there is no systematic platform to compare different hand morphologies against one another. We present ORBIT (Orbital Reconfigurable Base-actuated Integrated Theta-motion Hand), a modular platform designed to enable principled exploration of multi-fingered hand morphology. The core contribution of ORBIT is a rotating knuckle mechanism, where independent fingers travel around a cylindrical palm via a belt drive. This enables ORBIT to perform quick recon- figuration (< 1 s) of finger layout without hand disassembly. ORBITs a robust system, with finger average angular velocity of 1.57 rad / s1 and a root finger force resistance of 50 N. Using a three fingers instantiation of ORBIT, we demonstrate an initial pilot grasping study, comparing anthropomorphic, isometric, and Barrett-style finger layouts across eleven objects of varied size, shape, and texture. We further demonstrate how ORBITs nonanthropomorphic orbital DOF enables the achievement of tasks that would be difficult to perform with fixed-knuckle designs, such as cube face reorientation, lid thread",
+          "url": "https://arxiv.org/abs/2610.33241",
+          "published_at": "2026-10-27T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "c8c37b1de4e3cb12",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Neuromorphic Decision Dynamics for Deadlock-free Safe Navigation in Congested Environments",
+          "summary": "arXiv:2610.33271v1 Announce Type: new Abstract: Safe navigation in congested environments requires both collision avoidance and coordinated passage. We introduce neuromorphic decision dynamics (NDD), a decentralized, event-based controller, that provides navigation in congested spaces with guarantees on safety, liveness, robustness, and scalability. NDD makes safe-and-live deconfliction a controllable, locally tunable emergent property of local agent interactions, without requiring communication, preassigned priorities, models of neighbors' objectives or future actions, or estimates of group size or global network properties. By design, NDD couples the dynamics of internal decision and attention states with changing physical states and locally observed relative motion. Each agent continuously modulates its speed along its prescribed path, responding as soon and as much as conflict resolution requires. Agents self-organize into disjoint, locally engaged groups that resolve conflicts concurrently. When any group's conflict becomes safety-critical, decision-action feedback destabilizes collective indecision, and coordinated conflict-resolution emerges that stabilizes a safe traversal ",
+          "url": "https://arxiv.org/abs/2610.33271",
+          "published_at": "2026-10-27T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "乌克兰南部城市局部停火启动，人道通道开放",
+      "english_term": null,
+      "summary": "乌克兰南部城市奥列什基的局部停火已经生效，旨在让人道救援物资进入、平民撤离，白宫方面表示该安排由美国第一夫人梅拉尼娅·特朗普斡旋促成，但基辅同时遭遇导弹袭击。",
+      "script": "转向国际局势。据BBC和NPR报道，乌克兰南部城市奥列什基的一项局部停火已于当地时间周二清晨生效。这座城市的居民此前一度要靠挖野菜充饥维生，可见围困状况之严峻。此次停火安排的目的是打开一条人道主义通道，让救援物资运进城内，同时允许平民撤离。白宫方面表示，这次停火是由美国第一夫人梅拉尼娅·特朗普出面斡旋促成的，这是一个比较罕见的外交角色安排。需要说明的是，这属于白宫单方面的说法，目前我们还没有看到俄乌双方官方对斡旋过程的对等确认，所以这部分内容我们归入各方主张。与此同时，据报道，就在停火在南部生效的同时，首都基辅遭遇了新一轮导弹袭击，这说明整体战事并未因局部停火而全面降温，停火目前仅限于奥列什基一地，具有明确的人道主义性质和地理范围限制，并不等同于全面停火或和平协议。这种局部的、以人道救援为目的的临时停火安排，在旷日持久的冲突中并不罕见，通常是在双方都存在现实需求——比如一方需要撤离平民、另一方需要避免人道灾难的国际压力——的情况下才能达成。但由于缺乏约束力和监督机制，这类局部停火的持续时间和执行效果往往存在不确定性。后续需要观察停火是否能够按计划完成人道物资运送和人员撤离，以及基辅等其他地区的军事行动是否会进一步升级。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "停火生效及基辅遭袭为BBC、NPR两家独立二级信源共同报道确认；关于斡旋过程的具体说法来自白宫单方面表态，列为各方主张。",
+      "fact_status": {
+        "confirmed": [
+          "奥列什基局部停火已生效，旨在开放人道通道",
+          "基辅同时遭遇新一轮导弹袭击"
+        ],
+        "claims": [
+          "白宫方面称此次停火安排由梅拉尼娅·特朗普斡旋促成"
+        ],
+        "analysis": [
+          "局部停火具有明确人道目的和地理范围限制，不代表冲突整体降温"
+        ]
+      },
+      "source_ids": [
+        "91e3e825a444cf6b",
+        "bd06d274b87145ea"
+      ],
+      "sources": [
+        {
+          "id": "91e3e825a444cf6b",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
-          "summary": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
-          "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-24T11:23:59+00:00",
+          "title": "Truce begins in Ukraine city where residents ate weeds to survive",
+          "summary": "The Oleshky ceasefire, which the White House said was secured by US First Lady Melania Trump, is meant to allow aid to get in and civilians to get out.",
+          "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-27T11:53:57+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "59a22e88391ffa07",
+          "id": "bd06d274b87145ea",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
+          "summary": "A localized ceasefire between Ukraine and Russia took effect early Tuesday ahead of a humanitarian mission brokered by U.S. first lady Melania Trump, as missile attacks resumed in Kyiv.",
+          "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+          "published_at": "2026-10-27T05:26:58+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "以色列举行2023年冲突以来首次大选，结果悬而未决",
+      "english_term": null,
+      "summary": "以色列正在举行自2023年哈马斯袭击引发地区连锁冲突以来的首次大选，民调显示内塔尼亚胡与艾森科特阵营之间竞争胶着，一名前巴解组织官员称两人组阁联盟并非没有可能。",
+      "script": "再看中东局势。据NPR和半岛电视台报道，以色列正在举行2023年哈马斯主导的袭击事件引发地区连锁冲突以来的首次全国大选。这次选举被外界视为高风险选举，选举结果可能直接影响以色列未来的内外政策走向，包括对加沙的安全政策、与周边国家的关系等。根据候选信息，目前选情胶着，民调在现任总理内塔尼亚胡和另一位重要政治人物艾森科特之间出现分化，双方支持率接近。一位前巴勒斯坦解放组织官员对半岛电视台表示，尽管两人目前在竞选中处于对立位置，但内塔尼亚胡与艾森科特组成联合政府的可能性并非完全不存在，这属于分析人士的个人判断，而非已经发生的事实，这里我们将其列为各方主张和分析判断，而不是确认事实。目前可以确认的事实只有投票本身正在进行，具体结果仍未公布。这次选举之所以受到高度关注，是因为它是自2023年那场改变地区安全格局的冲突之后，以色列选民第一次通过投票对现任政府和整体安全路线做出集体表态，选举结果将在很大程度上决定未来以色列在地区冲突、人质问题、以及与周边阿拉伯国家关系上的政策方向。由于候选人数众多、小党派议席分配复杂，以色列大选后组阁谈判往往耗时较长，最终执政联盟的构成可能需要数周甚至更长时间才能明朗。后续需要等待正式计票结果和各党派组阁谈判的进展。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "选举正在进行为NPR、半岛电视台两家独立信源确认的事实；关于组阁可能性的说法来自半岛电视台采访的个人观点，列为分析判断。",
+      "fact_status": {
+        "confirmed": [
+          "以色列正举行2023年冲突以来首次大选",
+          "投票结果尚未公布"
+        ],
+        "claims": [
+          "一名前巴解组织官员认为内塔尼亚胡与艾森科特组阁联盟并非不可能"
+        ],
+        "analysis": [
+          "选举结果将影响以色列未来安全政策与地区关系走向，组阁谈判可能需要较长时间"
+        ]
+      },
+      "source_ids": [
+        "0dc770e9526138c8",
+        "30f38ac546460e0c",
+        "1b62430d5b2dbc4e"
+      ],
+      "sources": [
+        {
+          "id": "0dc770e9526138c8",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Democrats have a midterm edge, poll shows. And, Israelis vote in high-stakes election",
+          "summary": "Democrats are still holding a slight edge with Election Day a week away, according to a new NPR/PBS News/Marist poll. And, Israelis are casting their votes in an election that could change leadership.",
+          "url": "https://www.npr.org/2026/10/27/g-s1-150052/up-first-newsletter-midterms-polling-data-voter-fraud-israel-prime-minister-elections",
+          "published_at": "2026-10-27T11:39:52+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "30f38ac546460e0c",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "A quick guide to Israel's high-stakes elections",
+          "summary": "Israel is holding its first elections since the Hamas-led attacks of 2023 triggered a chain of conflicts across the region — a quick guide the key players, issues and when to expect a result.",
+          "url": "https://www.npr.org/2026/10/27/g-s1-149944/israel-election-guide",
+          "published_at": "2026-10-27T04:54:30+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "1b62430d5b2dbc4e",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "German police detain suspect after fire engulfs Hitler’s Eagle’s Nest",
-          "summary": "No injuries were reported at the building, while police said a ‘suspicious person’ had been taken into custody.",
-          "url": "https://www.aljazeera.com/news/2026/10/24/german-police-detain-suspect-after-fire-engulfs-hitlers-eagles-nest?traffic_source=rss",
-          "published_at": "2026-10-24T11:01:05+00:00",
+          "title": "Former PLO official says Netanyahu-Eisenkot coalition could be possible",
+          "summary": "Former PLO official says Israel’s election outcome remains uncertain, with polls divided between Netanyahu and Eisenkot.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/former-plo-official-says-netanyahu-eisenkot-coalition-could-be-possible?traffic_source=rss",
+          "published_at": "2026-10-27T11:19:46+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
-        },
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "前FBI局长科米第三次面临联邦指控",
+      "english_term": null,
+      "summary": "美国前联邦调查局局长詹姆斯·科米第三次遭遇联邦层面的刑事指控，其律师团队表示案件源于2016年向《纽约时报》披露机密信息的指控。",
+      "script": "来看一条美国国内政治新闻。据BBC报道，美国前联邦调查局局长詹姆斯·科米第三次面临联邦层面的刑事指控。根据他的律师团队披露的信息，这起案件源于指控科米在2016年向《纽约时报》披露机密信息。需要说明的是，具体指控内容和案件进展的细节，目前主要来自科米律师团队的单方面说法，检方的正式指控文件细节在候选信息中并未完整呈现，我们将律师方的说法列为各方主张，确认事实仅限于科米本人第三次面临联邦指控这一行为本身。科米作为美国政治中一个长期处于风口浪尖的人物，自他在2017年被时任总统特朗普解除联邦调查局局长职务以来，围绕他的法律争议就从未间断，这背后牵涉的是美国司法部门与政治任命官员之间长期存在的张力，也和美国当前整体政治极化的大背景密切相关。由于案件涉及机密信息披露这样的敏感指控，而相关事件又发生在近十年前，案件本身的审理焦点很可能会集中在证据链的时效性、机密信息认定标准等法律技术问题上。目前候选信息没有提供检方具体指控条款、科米本人的正式回应内容等关键细节，所以我们在这里只做简要记录。后续需要等待检方公布正式起诉文件细节，以及科米本人或其律师团队的正式回应。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "事件本身由BBC单一信源报道，关于指控具体依据的说法来自科米律师团队单方面表态，列为各方主张；候选信息中细节有限。",
+      "fact_status": {
+        "confirmed": [
+          "詹姆斯·科米第三次面临联邦层面的刑事指控"
+        ],
+        "claims": [
+          "科米律师团队称案件源于2016年向《纽约时报》披露机密信息的指控"
+        ],
+        "analysis": [
+          "案件背后反映美国司法与政治任命官员之间长期存在的张力"
+        ]
+      },
+      "source_ids": [
+        "6bb2b39dc1f0b7ba"
+      ],
+      "sources": [
         {
-          "id": "d8388650d510c918",
-          "source": "DW Top Stories",
+          "id": "6bb2b39dc1f0b7ba",
+          "source": "BBC World",
           "source_tier": 2,
-          "source_region": "eu",
+          "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Germany news: Merz calls for unity at CSU party conference",
-          "summary": "With his coalition under pressure, Merz delivered an address at the close of the CSU conference in Munich. Meanwhile, fire has largely destroyed Hitler's former Eagle's Nest retreat. DW has more",
-          "url": "https://www.dw.com/en/germany-news-merz-calls-for-unity-at-csu-party-conference/live-79749353?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-24T10:10:00+00:00",
+          "title": "Ex-FBI chief James Comey faces federal charges for third time",
+          "summary": "Comey's lawyers say the case stems from alleged disclosure of classified information to the New York Times in 2016.",
+          "url": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-27T11:44:54+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -387,131 +447,64 @@
     },
     {
       "category": "health",
-      "title": "肯尼亚埃博拉疫情出现第二例死亡病例",
-      "english_term": "Ebola（埃博拉病毒病）",
-      "summary": "一名65岁女性成为肯尼亚本轮埃博拉疫情中第二例死亡病例，她是首例死亡患者的近亲，当局正调查肯尼亚与尼日利亚病例间是否存在传播链关联。",
-      "script": "公共卫生方面，非洲的埃博拉疫情动态值得关注。据报道，一名65岁的女性成为肯尼亚本轮埃博拉疫情中第二例死亡病例，她是该国首例死亡患者的近亲，而首例患者此前曾从刚果民主共和国旅行而来。这意味着，这起疫情目前已经出现了一定程度的家庭内传播迹象。与此同时，另一则相关报道显示，尼日利亚本周也记录了本轮疫情中的首例埃博拉确诊病例，卫生当局正在调查肯尼亚和尼日利亚的病例之间是否存在人员交叉或传播链关联。已经确认的事实是，本轮埃博拉疫情的源头在刚果民主共和国，随后已扩散至包括肯尼亚、尼日利亚在内的非洲多个国家，肯尼亚已经出现两例死亡，尼日利亚出现首例确诊。至于肯尼亚和尼日利亚病例之间是否存在直接的流行病学关联，目前仍处于调查阶段，尚无定论。埃博拉病毒病以其较高的致死率和通过体液接触传播的特性而被持续监测，一旦出现跨境传播链，意味着疫情防控的难度会显著增加，需要多国卫生部门协同开展接触者追踪工作。后续需要关注世界卫生组织及相关国家卫生部门是否会公布更详细的病例溯源结果，以及疫情是否会进一步扩散至更多国家。",
-      "duration_seconds": 115,
+      "title": "刚果民主共和国埃博拉疫情已超万例，尚无获批疫苗",
+      "english_term": "Bundibugyo virus（本迪布焦病毒）",
+      "summary": "刚果民主共和国报告埃博拉病例已超过1万例，死亡人数接近4900人，且疫情已向境外扩散，而此次疫情涉及的本迪布焦病毒目前尚无获批疫苗或特效治疗手段。",
+      "script": "关注一条值得持续追踪的公共卫生消息。据DW报道，刚果民主共和国报告的埃博拉病例已经超过1万例，死亡人数接近4900人，疫情还已经扩散到境外。这次疫情的特殊之处在于，致病病毒是本迪布焦病毒，这是埃博拉病毒家族中的一个分支，而目前针对这一特定病毒分支，全球范围内尚没有获批的疫苗，也没有针对性的特效治疗手段，这和近些年针对扎伊尔型埃博拉病毒已经有获批疫苗的情况形成鲜明对比，也大大增加了此次疫情防控的难度。埃博拉病毒病是一种高致死率的出血热传染病，主要通过接触感染者体液传播，疫情防控高度依赖早期病例识别、接触者追踪隔离以及医护人员防护。由于本迪布焦病毒缺乏现成的疫苗储备，公共卫生应对手段被迫更多依赖传统的隔离和支持性治疗，这意味着疫情的控制速度和效果可能不如以往应对扎伊尔型埃博拉疫情时理想。疫情已经扩散至境外这一事实也值得关注，意味着跨境传播链条已经形成，对区域公共卫生系统构成额外压力。刚果民主共和国近年来已经多次经历埃博拉疫情，该国公共卫生系统和国际卫生组织在病例监测和应对流程上已有一定经验积累，但病毒分支的差异使得既有的疫苗研发成果无法直接套用。后续需要等待世界卫生组织等国际机构对疫情扩散范围的进一步通报，以及针对本迪布焦病毒疫苗研发的最新进展。",
+      "duration_seconds": 135,
       "is_unverified": false,
-      "confidence_note": "综合BBC World与NPR World两个独立Tier 2来源报道，肯尼亚死亡病例及尼日利亚首例病例的基本事实得到交叉确认，病例间关联仍在调查中。",
+      "confidence_note": "数据来自DW引用的官方疫情通报，为单一二级信源，但属于对官方统计数字的转述。",
       "fact_status": {
         "confirmed": [
-          "肯尼亚一名65岁女性成为本轮疫情第二例死亡病例",
-          "尼日利亚本周记录首例埃博拉确诊病例",
-          "疫情源头在刚果民主共和国"
+          "刚果民主共和国报告埃博拉病例超过1万例，死亡人数近4900人",
+          "疫情已扩散至境外",
+          "本迪布焦病毒目前无获批疫苗或特效治疗"
         ],
         "claims": [],
         "analysis": [
-          "肯尼亚与尼日利亚病例之间是否存在传播链关联尚待调查，一旦确认将意味着疫情出现跨境传播"
+          "缺乏疫苗储备将增加此次疫情防控难度，防控手段更依赖传统隔离与支持性治疗"
         ]
       },
       "source_ids": [
-        "b26ccad185d4dec2",
-        "95ad8d11abcf5dd6"
+        "3d2803342f7f4036"
       ],
       "sources": [
         {
-          "id": "b26ccad185d4dec2",
-          "source": "BBC World",
+          "id": "3d2803342f7f4036",
+          "source": "DW Top Stories",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
-          "summary": "She was a close family member of the first victim, a man who had travelled from the Democratic Republic of Congo.",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-24T09:46:53+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "95ad8d11abcf5dd6",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths",
-          "summary": "Nigeria this week recorded its first case of Ebola in the current outbreak, which has spread from the epicenter in Congo to several other African countries.",
-          "url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
-          "published_at": "2026-10-23T12:41:39+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "science",
-      "title": "NASA天鹅座（Swift）观测卫星结束科学任务",
-      "english_term": "Swift Observatory（斯威夫特天文台）",
-      "summary": "NASA的尼尔·盖伦斯·斯威夫特天文台因轨道高度下降、大气阻力增大，已正式结束科学观测任务，但留下了丰富的科学遗产。",
-      "script": "最后关注一则航天科学新闻。NASA宣布，尼尔·盖伦斯·斯威夫特天文台已经正式结束其科学观测任务。目前已确认的信息是，这颗卫星目前运行在距离地球表面不到171英里，也就是大约275公里的轨道高度，在这个高度上，大气阻力明显增强，导致卫星上的望远镜难以继续稳定地指向既定的天文观测目标。据NASA介绍，Swift在今年10月20日完成了它的最后一次观测。Swift天文台自发射以来，长期承担对伽马射线暴等高能天体物理现象的监测任务，伽马射线暴是宇宙中已知能量释放最剧烈的爆发事件之一，通常与大质量恒星死亡或中子星并合等极端天体物理过程相关。通过对这些瞬变事件进行快速响应观测，Swift在过去的任务周期里为天文学界积累了大量宝贵数据，NASA将其形容为留下了“科学的丰收”。随着轨道高度的持续下降，这颗卫星预计将在未来某个时间点再入大气层。这一事件也是航天器生命周期管理中的常见情形：当卫星燃料耗尽或轨道因大气阻力自然衰减到无法维持科学观测要求时，任务团队通常会选择正式结束科学运行，转入轨道衰减的被动监测阶段。后续需要关注NASA是否会公布Swift卫星最终再入大气层的具体时间窗口。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "来自NASA官方发布的一手信息，属于Tier 1权威来源。",
-      "fact_status": {
-        "confirmed": [
-          "Swift天文台因轨道高度下降、大气阻力增大已结束科学观测任务",
-          "该卫星于10月20日完成最后一次观测"
-        ],
-        "claims": [],
-        "analysis": [
-          "卫星预计未来会因轨道持续衰减而再入大气层，具体时间尚未公布"
-        ]
-      },
-      "source_ids": [
-        "7732eccd82d32c55"
-      ],
-      "sources": [
-        {
-          "id": "7732eccd82d32c55",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "science",
-          "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
-          "summary": "NASA’s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth’s surface. The greater atmospheric drag at this height prevents the satellite’s telescopes from steadily gazing at their astronomical targets. Swift conducted its final observation on Oct. 20. It is expected to […]",
-          "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
-          "published_at": "2026-10-23T21:51:19+00:00",
+          "title": "DR Congo reports over 10,000 Ebola cases as the outbreak spreads abroad, with no approved vaccine or specific treatment for the Bundibugyo virus",
+          "summary": "DR Congo has reported more than 10,000 Ebola cases and nearly 4,900 deaths. The outbreak involves a virus for which there is no approved vaccine or specific treatment, complicating efforts to contain its spread.",
+          "url": "https://www.dw.com/en/dr-congo-reports-over-10-000-ebola-cases-as-the-outbreak-spreads-abroad-with-no-approved-vaccine-or-specific-treatment-for-the-bundibugyo-virus/a-79773667?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-27T11:15:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的内容中，机器人领域呈现出从实验室前沿探索到产业数据基础设施建设、再到街头治理争议的多层次图景，国际局势方面约旦枪击案、法国抗议和德国历史遗迹火灾则提醒着社会稳定与历史记忆仍在被持续考验。后续值得继续关注约旦枪案调查结果、法国抗议走向，以及更多机器人学术成果是否会经过同行评审正式发表。",
-  "editor_note": "本期机器人部分综合了The Robot Report、IEEE Spectrum等Tier 2专业来源与多条Tier 3网络热点线索，其中H2-X人形机器人摔倒、宾州配送机器人事件均为单一Tier 3来源，已标记为未核实并说明证据局限；MIT活细胞驱动机器人报道同样标记为未核实，因缺少同行评审确认。本次修订移除了单一来源的Microduck桌面机器人事件以控制机器人板块总时长占比，使其落在45%–55%区间内。国际新闻部分优先选择了有Tier 2多来源交叉确认的事件（鹰巢火灾、法国抗议、肯尼亚埃博拉），部分如塞尔维亚大选、巴西大选等因属于未来事件预告或背景性报道，重要性低于已选事件故未纳入。",
+  "closing": "今天值得继续关注的是：波士顿动力Atlas供应链韩国化的具体订单规模是否会得到官方证实，GXO与Agility的人形机器人部署效果数据何时公布，乌克兰局部停火的人道通道执行情况，以及以色列大选最终计票结果和组阁进展。",
+  "editor_note": "本期机器人部分合并了产业融资与部署动态、学术预印本综述以及一条未经证实的供应链热点，时长占比按六个相关story的秒数合计约占全文48%。涉及Atlas供应链规模、苏黎世联邦理工攀爬研究的候选信息均来自Tier 3聚合报道，缺乏官方或论文原文佐证，已标记为未经证实并说明局限。国际新闻部分对白宫斡旋说法、以色列组阁可能性等均做了事实与主张的区分处理。candidate中体育类（如Ballon d'Or、板球赛事、梅西相关言论）、NASA常规图片类内容因重要性或信息完整度有限未纳入正文。",
   "model": "claude-sonnet-5",
-  "generation_usage": [
-    {
-      "input_tokens": 8768,
-      "output_tokens": 11260,
-      "total_tokens": 20028
-    },
-    {
-      "input_tokens": 13087,
-      "output_tokens": 9820,
-      "total_tokens": 22907
-    }
-  ],
   "usage": {
-    "total_tokens": 42935,
-    "output_tokens": 21080,
-    "input_tokens": 21855
+    "input_tokens": 9509,
+    "output_tokens": 9867,
+    "total_tokens": 19376
   },
-  "generated_at": "2026-10-24T12:05:15+00:00",
-  "window_start": "2026-10-23T12:05:15+00:00",
-  "candidate_count": 181,
+  "generated_at": "2026-10-27T12:08:10+00:00",
+  "window_start": "2026-10-26T12:08:10+00:00",
+  "candidate_count": 404,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
-  "automatically_repaired": true,
   "quality": {
     "duration_seconds": 1300,
-    "script_characters": 5088,
-    "topic_duration_share": 0.558,
+    "script_characters": 5061,
+    "topic_duration_share": 0.592,
     "passed": true,
     "normal_target_met": true,
     "topic_source_count": 3,
