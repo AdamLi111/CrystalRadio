@@ -1,510 +1,497 @@
 {
-  "title": "晶球电台早报：韩系供应链托举Atlas量产，GXO扩大人形机器人部署",
-  "subtitle": "乌克兰局部停火启动，以色列迎来关键大选；机器人产业与学术双线并进",
+  "title": "晶球电台早报：西班牙高铁相撞30人遇难，Unitree季度营收暴涨70%，机器人触觉与世界模型研究齐发",
+  "subtitle": "从西班牙铁路惨剧到以色列大选悬而未决，从人形机器人触觉皮肤到多臂协同GPU加速规划",
   "highlights": [
-    "波士顿动力Atlas人形机器人供应链全面韩系化，现代摩比斯领衔，万台级订单浮出水面",
-    "物流巨头GXO将Agility人形机器人Digit扩展部署至两处新场地",
-    "苏黎世联邦理工提出人形机器人攀爬梯子的AI控制框架，拓展复杂地形移动能力",
-    "乌克兰南部城市奥列什基启动局部停火，第一夫人梅拉尼娅斡旋人道通道",
-    "以色列举行2023年冲突以来首次大选，结果悬而未决"
+    "西班牙马德里以南两列高速列车相撞，确认死亡人数升至至少30人",
+    "Unitree（宇树科技）季度营收同比增长70%，成为中国机器人产业景气度的风向标",
+    "arXiv同日放出多篇机器人学术论文，涵盖世界模型、多臂协同规划与人形全身运动控制"
   ],
   "stories": [
     {
-      "category": "robotics",
-      "title": "波士顿动力Atlas供应链全面韩系化，万台量产订单浮现",
-      "english_term": "supply chain（供应链）",
-      "summary": "据韩国媒体KED Global报道，波士顿动力旗下人形机器人Atlas的零部件供应链正转向以现代摩比斯（Hyundai Mobis）为核心的韩国企业体系，市场消息称订单规模可能达到万台级别。",
-      "script": "先来看人形机器人产业的一条重磅消息。据韩国财经媒体KED Global报道，波士顿动力公司旗下的人形机器人Atlas，其供应链正在经历一次全面的本土化重组——重心从过去分散的国际供应商，转向以现代摩比斯为首的韩国企业体系。现代摩比斯是现代汽车集团旗下的核心零部件厂商，长期为汽车生产底盘、电子系统和安全部件，如今被曝将主导Atlas的核心部件供应。报道还提到，市场上已经出现万台规模订单的传闻。需要说明的是，这类万台订单的说法目前仍属于行业消息，并未得到波士顿动力或现代官方的正式确认，所以这部分内容我们标记为未经证实，但考虑到背后的产业逻辑，值得持续关注。自从现代汽车集团在前几年收购波士顿动力之后，双方的供应链整合就一直被视为必然趋势。电动人形机器人要实现量产，核心瓶颈往往不在于算法，而在于能否找到稳定、低成本、可大规模复制的精密零部件供应商——比如高性能伺服电机、减速器、力矩传感器、电池包等等。把这些环节交给已经具备成熟汽车级供应链管理经验的现代摩比斯，理论上可以大幅压缩Atlas从实验室样机走向规模化生产的周期。这条消息也从侧面印证了另一条候选信息里提到的行业判断：如果人形机器人真的走向量产，上游芯片，尤其是存储芯片的需求可能会出现数量级的增长，有分析预测到2030年相关需求可能是现在的二十倍。这两条消息合在一起看，描绘出的图景是——人形机器人正从展示性原型，向着真正意义上的工业化供应链过渡。后续需要等待波士顿动力或现代官方对具体订单量和量产时间表的正式公布。",
-      "duration_seconds": 165,
-      "is_unverified": true,
-      "confidence_note": "核心信息来自Tier 3级别的行业新闻聚合，订单规模等关键数字缺乏波士顿动力或现代官方的独立确认，标记为未经证实。",
-      "fact_status": {
-        "confirmed": [
-          "KED Global等韩国媒体报道了Atlas供应链向韩国企业转移的趋势"
-        ],
-        "claims": [
-          "报道提及可能存在万台规模订单"
-        ],
-        "analysis": [
-          "人形机器人量产的关键瓶颈在于零部件供应链的规模化能力，与汽车供应链整合具有逻辑一致性"
-        ]
-      },
-      "source_ids": [
-        "cce1f9c177397214",
-        "479f02361dd0164a",
-        "94b4d93fe875e354"
-      ],
-      "sources": [
-        {
-          "id": "cce1f9c177397214",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Boston Dynamics’ Atlas supply chain goes all-Korean, led by Hyundai Mobis; 10,000-unit order in sight - KED Global",
-          "summary": "Boston Dynamics’ Atlas supply chain goes all-Korean, led by Hyundai Mobis; 10,000-unit order in sight KED Global",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9iN05zVWw5NkZFNVkwbWpfNTNweWZudDIxdDhoeVo3T190WFphckF1ODBnQTU4SndjQzFYdkNFTGF6d2NjeHdwRzMtLW0yWFlOdURUdmU0YzM3TUJtaHkzN1NuMnV5MTVmQmNF?oc=5",
-          "published_at": "2026-10-27T12:00:11+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "479f02361dd0164a",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Humanoid Robots Could Need 20 Times More Memory Chips by 2030 - 24/7 Wall St.",
-          "summary": "Humanoid Robots Could Need 20 Times More Memory Chips by 2030 24/7 Wall St.",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdEcxaFBfamVNOWZYeF8yazVVYzNFNTNvdlhnUTIxQ0JqN3NSNE0wUWlGdThPZERXM1ZIXzNMVXpGMFdHbjZ5NVp4MC0xdWNaenhkdVNYdG1yTjM4Wnhoa3BIUGJoaWJVRTRCWmc5V3NCakpyLXp2MFRmaXdTY1R2Wk5MUjlkUWN6ZXBaRnRsTXdDN25ILVhYRW1pVDRZeXFWMlBhaHZMMEQ?oc=5",
-          "published_at": "2026-10-27T11:29:46+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "94b4d93fe875e354",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Humanoid Robots Could Need 20 Times More Memory Chips by 2030 - Yahoo Finance",
-          "summary": "Humanoid Robots Could Need 20 Times More Memory Chips by 2030 Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd3NjWjRMTkdKTm9faDEtZHBHNXhQMnkwNW42RDVPTkdtUkJiN3k1aEh3OFlnTFZCTnNzS29ZY2haWVdydU5XSVR0aTFENi14YUxEM21VbU85UDkxanVTLWxFVUZScUpkS2VTZjN1YnluRHNkNElINnhkYnEwbFhuRGpiNU85X1lEaFlVWlZodlljWGZKOTZfUUZR?oc=5",
-          "published_at": "2026-10-27T11:24:22+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "物流巨头GXO扩大部署Agility人形机器人Digit",
-      "english_term": "humanoid robot（人形机器人）",
-      "summary": "物流公司GXO Logistics计划将Agility Robotics的人形机器人Digit扩展部署至两处新的运营场地，此前该公司已在多个仓库测试过不同厂商的人形机器人。",
-      "script": "再看一条人形机器人落地应用的消息。据The Robot Report报道，物流巨头GXO Logistics宣布，将把Agility Robotics公司研发的人形机器人Digit，扩展部署到两处新的运营场地。GXO是全球规模领先的合同物流服务商，此前已经在多个仓库环境中测试过来自不同厂商的人形机器人，这次是对Agility产品线的进一步加码。Digit这款机器人主打的应用场景是仓库内的搬运与分拣作业，比如从传送带上取下包裹、将货物从一个容器转移到另一个容器，这类重复性强、对双足行走和手部抓取都有一定要求的工作。相比机械臂固定在产线上的传统自动化方式，人形机器人的优势在于不需要对现有仓库布局做大规模改造，可以直接利用为人类工人设计的通道、货架和工位。不过这也意味着它对行走稳定性、物体识别精度和实时避障能力提出了更高要求。GXO此前采取的是多供应商测试的策略，这次选择扩大Digit的部署规模，一定程度上反映出实际运营数据给出了积极反馈。对于整个人形机器人产业而言，物流仓储被普遍认为是最容易规模化落地的场景之一，因为任务相对结构化、环境相对可控，风险敞口比起家庭服务或者医疗护理要小很多。这条消息也和前面提到的Atlas供应链韩国化构成呼应——一边是硬件制造端在为量产做准备，一边是应用端在真实场景里加大试用规模，整个人形机器人赛道正在从概念验证阶段向商业化部署阶段过渡。后续需要等待GXO公布具体部署效果数据和进一步扩展计划。",
-      "duration_seconds": 160,
-      "is_unverified": false,
-      "confidence_note": "来自专业机器人产业媒体The Robot Report的直接报道，信息来源单一但属于行业权威一手信源。",
-      "fact_status": {
-        "confirmed": [
-          "GXO Logistics计划在两处新场地部署Agility Robotics的Digit人形机器人"
-        ],
-        "claims": [],
-        "analysis": [
-          "物流仓储被视为人形机器人最易规模化落地的场景之一"
-        ]
-      },
-      "source_ids": [
-        "113acecb3baa097f"
-      ],
-      "sources": [
-        {
-          "id": "113acecb3baa097f",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Agility and GXO Logistics plan expanded deployment of Digit humanoid",
-          "summary": "GXO Logistics, which has tested humanoid robots from multiple companies, will deploy Agility's Digit at two more sites. The post Agility and GXO Logistics plan expanded deployment of Digit humanoid appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/",
-          "published_at": "2026-10-26T14:05:21+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "苏黎世联邦理工提出人形机器人攀爬梯子AI框架",
-      "english_term": "locomotion（移动控制）",
-      "summary": "苏黎世联邦理工学院（ETH Zurich）研究团队开发出一套AI控制框架，使人形机器人能够完成攀爬梯子这类高难度动作，拓展了双足机器人在非平面复杂地形中的移动能力。",
-      "script": "来看一条机器人学术进展。据报道，苏黎世联邦理工学院的工程师团队开发出一套新的人工智能控制框架，让人形机器人具备攀爬梯子的能力。这个研究要解决的问题是：目前大多数人形机器人的移动控制，无论是行走还是爬楼梯，主要针对的是相对平坦、规则的地形，而攀爬梯子这种动作涉及手脚协同、重心大幅度转移、以及对非连续支撑点的精确抓握和蹬踏，对运动控制系统的要求要苛刻得多。梯子的横档间距固定但抓握点有限，机器人必须同时规划四肢的落点顺序，还要在身体几乎垂直悬空的状态下保持平衡，这和正常直立行走时的动力学模型完全不同。研究团队采用的思路是构建一个AI驱动的控制框架，很可能借助了强化学习在仿真环境中训练大量攀爬场景，再把训练好的策略迁移到真实机器人上，这也是近几年机器人运动控制领域的主流方法论，通常被称为仿真到现实的迁移。这类研究的意义在于，拓展了人形机器人能够通过的地形种类——在灾害救援、工业设施巡检等场景中，梯子、爬梯、狭窄竖井是非常常见的通行结构，如果机器人只能在平地和楼梯上行走，应用范围会受到很大限制。不过目前的报道信息比较简略，具体是哪种机器人平台、训练方法的技术细节、以及在真实梯子上的成功率等关键数据还不清楚，这项成果的来源属于行业资讯聚合类报道，后续需要等待该研究的正式论文或者苏黎世联邦理工官方渠道披露更完整的技术细节和实验数据。",
-      "duration_seconds": 145,
-      "is_unverified": true,
-      "confidence_note": "来自Tier 3级别的行业新闻聚合报道，缺乏论文原文或官方实验室的直接确认，具体技术细节和实验数据有限。",
-      "fact_status": {
-        "confirmed": [
-          "有报道称苏黎世联邦理工团队开发了人形机器人攀爬梯子的AI控制框架"
-        ],
-        "claims": [],
-        "analysis": [
-          "此类研究通常采用仿真训练加现实迁移的方法论，拓展机器人可通过地形类型具有实际应用价值"
-        ]
-      },
-      "source_ids": [
-        "9763da6551f03ea7"
-      ],
-      "sources": [
-        {
-          "id": "9763da6551f03ea7",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Eth Zurich Engineers AI framework for humanoid robot ladder climbing - Mjengo Hub",
-          "summary": "Eth Zurich Engineers AI framework for humanoid robot ladder climbing Mjengo Hub",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMk41YXlaMGNMQnBGeDQ0eDhPa19xeU8tdmVjRG5SSC1hZjRSbkJfdFliV0xqVjlIM2NoNUV4WnlMS1NsVFhiMFdaQWRUd3VDUGgtRUppcWo3MktweVVOaXVRTTNoek5ud3M5TWEtckxjVlBOdG9SRFNobU9QeU5nVmtJN0lFem90aGo4elNEQ3c3cGk0OVptNVBNVkNNdklfX21MVnMxRWhGYUZNLUIwWUwyWFhOdUNEVmxIbmZwaUhZNU93UDFN?oc=5",
-          "published_at": "2026-10-27T11:59:01+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "自主重型设备公司Bedrock Robotics融资逼近10亿美元",
-      "english_term": "autonomous heavy equipment（自主重型设备）",
-      "summary": "Bedrock Robotics获得6亿美元新一轮融资，公司总融资额逼近10亿美元，用于扩大自主重型工程机械的生产部署，应对建筑行业劳动力短缺。",
-      "script": "来看一条机器人产业融资消息。据The Robot Report报道，专注于自主重型工程设备的公司Bedrock Robotics完成了6亿美元新一轮融资，公司累计融资总额正逼近10亿美元。Bedrock Robotics的主营方向是给推土机、挖掘机这类工程机械加装自动驾驶系统，核心逻辑类似于自动驾驶卡车，但应用场景换成了建筑工地。这类重型设备的自主化改造，技术上需要解决的问题包括在非结构化、经常变化的工地环境中进行精确定位、识别作业目标物料、规划挖掘或推土路径，并且要应对工地上扬尘、泥泞等恶劣感知条件。公司给出的商业逻辑是应对建筑行业长期存在的劳动力短缺问题——在很多地区，熟练的重型设备操作员招募困难，人力成本持续上升，自主化设备可以提高单个工地的作业效率，并减少对特定技能工人的依赖。这笔接近10亿美元的融资规模，说明资本市场对工程机械自动化赛道的信心正在增强，这和另一条候选消息里提到的太阳能电站自主打桩机Xpanner也形成呼应——越来越多初创公司瞄准建筑施工这一相对小众但需求明确的自动化细分市场，而不是扎堆在仓储物流或者人形机器人这类热门赛道。相较于人形机器人，这类工程机械自动化改造往往更容易找到清晰的商业闭环，因为客户是明确的建筑承包商，作业场景相对固定，投资回报计算也更直接。后续需要等待公司公布具体的设备部署规模和客户合同细节。",
-      "duration_seconds": 145,
-      "is_unverified": false,
-      "confidence_note": "来自专业机器人产业媒体The Robot Report的直接报道，具备明确融资金额信息。",
-      "fact_status": {
-        "confirmed": [
-          "Bedrock Robotics完成6亿美元新一轮融资，总融资额接近10亿美元"
-        ],
-        "claims": [],
-        "analysis": [
-          "建筑行业自动化正成为资本关注的细分赛道，商业逻辑比部分热门赛道更清晰"
-        ]
-      },
-      "source_ids": [
-        "225b648e4dd75017"
-      ],
-      "sources": [
-        {
-          "id": "225b648e4dd75017",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
-          "summary": "Bedrock Robotics has secured $600 million to scale autonomous heavy equipment and combat construction labor shortages. The post Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
-          "published_at": "2026-10-26T21:15:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "机器人学术速览：从避障到灵巧手的多篇新论文",
-      "english_term": "SLAM（同步定位与建图）",
-      "summary": "本周arXiv机器人板块公布多篇新论文，涵盖视觉SLAM抗强光干扰、自动驾驶避障可行性保证、模块化多指灵巧手平台以及拥堵环境下的去中心化导航控制。",
-      "script": "快速扫一眼最新的机器人学术预印本进展。第一篇来自视觉SLAM，也就是同步定位与建图领域，研究者提出了应对剧烈光照变化的方法：当场景光线突然变强或变弱时，自动曝光策略跟不上变化速度，图像容易过曝，导致SLAM系统赖以定位的视觉特征点丢失。研究团队提出了自适应多重曝光策略，通过主动采集一组不同曝光参数的图像组合，在保留场景动态范围的同时，把这组多曝光序列直接作为约束条件融入SLAM的优化过程，从而提升强光变化场景下的跟踪稳定性。第二篇关注自动驾驶车辆在交叉路口和环岛这类复杂场景下的避障规划，试图同时满足两个经常矛盾的目标：既要在不确定性存在的情况下严格保证不发生碰撞，又要保证规划计算能在实时性要求下给出可行解。研究提出了一种考虑不确定性的新型规划管线，试图弥补现有方法在安全性和实时可行性之间难以兼顾的缺陷。第三篇是关于灵巧手的平台型研究，团队设计了一套名为ORBIT的模块化多指机械手，核心创新是一种旋转指节机构，让各手指能够沿轨道移动重新配置，从而系统性地比较不同手指排布方式对抓取能力的影响，为灵巧手的形态学设计提供了实验平台。第四篇研究拥堵环境下的去中心化安全导航，提出了一种受神经形态启发的决策动力学方法，让多个智能体在没有通信协调的情况下，仅依靠局部交互就能实现无死锁、安全且可扩展的通行。这几项研究都还处于预印本阶段，尚未经过同行评审，具体实验效果和局限性需要等待正式发表后进一步评估。",
-      "duration_seconds": 155,
-      "is_unverified": true,
-      "confidence_note": "所有内容均来自arXiv预印本，尚未经过同行评审，实验结果和结论的稳健性有待进一步验证。",
-      "fact_status": {
-        "confirmed": [
-          "这四篇论文均已在arXiv机器人板块公开发布"
-        ],
-        "claims": [
-          "论文作者报告了各自方法在特定实验场景下的性能提升"
-        ],
-        "analysis": [
-          "这些研究分别针对视觉定位鲁棒性、规划安全性与实时性平衡、灵巧手形态学、多智能体去中心化导航等机器人核心子领域的具体痛点"
-        ]
-      },
-      "source_ids": [
-        "a332696c51ea96af",
-        "29abb1cbf39ad3f3",
-        "60e9219cae702463",
-        "c8c37b1de4e3cb12"
-      ],
-      "sources": [
-        {
-          "id": "a332696c51ea96af",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Bracketing Shows the Way: Adaptive Multi-Exposure Policy as Input for Robust Visual SLAM",
-          "summary": "arXiv:2610.33174v1 Announce Type: new Abstract: Rapid illumination transitions can disturb Visual SLAM (VSLAM) by saturating images before the Automatic Exposure (AE) policy adapts, removing the visual correspondences needed to maintain tracking. Our proposed methods mitigate this disturbance at two levels: B-Adapt acquires adaptive exposure brackets to cover the scene dynamic range while promoting photometric overlap, and BVSLAM directly uses the multi-exposure sequence as constraints in a factor graph state estimator without relying on High Dynamic Range (HDR) merging. We evaluate both methods against state-of-the-art approaches in nominal environments and during a repeated tunnel-exit transition at an emulated vehicle speed of 32 m s-1. In the tunnel, combining our B-Adapt with BVSLAM reduces the state estimation error by 78 % compared with AE images. These results suggest that bracketing efficiently improves visual pose estimation robustness to rapid illumination disturbances while retaining low error under nominal conditions. Our code is available at https://github.com/norlab-ulaval/bracketing-shows-the-way.",
-          "url": "https://arxiv.org/abs/2610.33174",
-          "published_at": "2026-10-27T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "29abb1cbf39ad3f3",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Interpretable Collision Avoidance and Feasibility Guarantees through an Uncertainty Aware Pipeline",
-          "summary": "arXiv:2610.33186v1 Announce Type: new Abstract: Autonomous vehicles (AVs) operating in dynamic, challenging conditions such as intersections and roundabouts must guarantee collision avoidance under uncertainty while maintaining real-time feasibility. Most existing planners struggle to simultaneously guarantee both requirements. Chance-constrained formulations embed safety constraints directly in the optimization but become infeasible as uncertainty compounds; deterministic planners provide feasible solutions but fail to address the uncertainty that causes collisions; end-to-end learned policies provide neither guarantee in an interpretable form. We present a modular perception-prediction-planning pipeline that closes this gap by propagating uncertainty as structured, interpretable quantities across module boundaries. Rather than embedding probabilistic risk directly in the optimization, our pipeline resolves collision probabilities upstream and constructs convex safe sets within which the planner provides a guaranteed feasible solution at every cycle -- decoupling the safety guarantee from solver feasibility. Across Monte Carlo trials in a four-way unsignalized intersection, our pi",
-          "url": "https://arxiv.org/abs/2610.33186",
-          "published_at": "2026-10-27T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "60e9219cae702463",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "ORBIT: A Modular Multi-finger Robotic Hand Platform with Rotational Finger Reconfiguration",
-          "summary": "arXiv:2610.33241v1 Announce Type: new Abstract: Despite the popularity of multi-fingered robotic hands for dexterous manipulation, there is no systematic platform to compare different hand morphologies against one another. We present ORBIT (Orbital Reconfigurable Base-actuated Integrated Theta-motion Hand), a modular platform designed to enable principled exploration of multi-fingered hand morphology. The core contribution of ORBIT is a rotating knuckle mechanism, where independent fingers travel around a cylindrical palm via a belt drive. This enables ORBIT to perform quick recon- figuration (< 1 s) of finger layout without hand disassembly. ORBITs a robust system, with finger average angular velocity of 1.57 rad / s1 and a root finger force resistance of 50 N. Using a three fingers instantiation of ORBIT, we demonstrate an initial pilot grasping study, comparing anthropomorphic, isometric, and Barrett-style finger layouts across eleven objects of varied size, shape, and texture. We further demonstrate how ORBITs nonanthropomorphic orbital DOF enables the achievement of tasks that would be difficult to perform with fixed-knuckle designs, such as cube face reorientation, lid thread",
-          "url": "https://arxiv.org/abs/2610.33241",
-          "published_at": "2026-10-27T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "c8c37b1de4e3cb12",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Neuromorphic Decision Dynamics for Deadlock-free Safe Navigation in Congested Environments",
-          "summary": "arXiv:2610.33271v1 Announce Type: new Abstract: Safe navigation in congested environments requires both collision avoidance and coordinated passage. We introduce neuromorphic decision dynamics (NDD), a decentralized, event-based controller, that provides navigation in congested spaces with guarantees on safety, liveness, robustness, and scalability. NDD makes safe-and-live deconfliction a controllable, locally tunable emergent property of local agent interactions, without requiring communication, preassigned priorities, models of neighbors' objectives or future actions, or estimates of group size or global network properties. By design, NDD couples the dynamics of internal decision and attention states with changing physical states and locally observed relative motion. Each agent continuously modulates its speed along its prescribed path, responding as soon and as much as conflict resolution requires. Agents self-organize into disjoint, locally engaged groups that resolve conflicts concurrently. When any group's conflict becomes safety-critical, decision-action feedback destabilizes collective indecision, and coordinated conflict-resolution emerges that stabilizes a safe traversal ",
-          "url": "https://arxiv.org/abs/2610.33271",
-          "published_at": "2026-10-27T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
       "category": "world",
-      "title": "乌克兰南部城市局部停火启动，人道通道开放",
+      "title": "西班牙高速列车相撞，死亡人数升至至少30人",
       "english_term": null,
-      "summary": "乌克兰南部城市奥列什基的局部停火已经生效，旨在让人道救援物资进入、平民撤离，白宫方面表示该安排由美国第一夫人梅拉尼娅·特朗普斡旋促成，但基辅同时遭遇导弹袭击。",
-      "script": "转向国际局势。据BBC和NPR报道，乌克兰南部城市奥列什基的一项局部停火已于当地时间周二清晨生效。这座城市的居民此前一度要靠挖野菜充饥维生，可见围困状况之严峻。此次停火安排的目的是打开一条人道主义通道，让救援物资运进城内，同时允许平民撤离。白宫方面表示，这次停火是由美国第一夫人梅拉尼娅·特朗普出面斡旋促成的，这是一个比较罕见的外交角色安排。需要说明的是，这属于白宫单方面的说法，目前我们还没有看到俄乌双方官方对斡旋过程的对等确认，所以这部分内容我们归入各方主张。与此同时，据报道，就在停火在南部生效的同时，首都基辅遭遇了新一轮导弹袭击，这说明整体战事并未因局部停火而全面降温，停火目前仅限于奥列什基一地，具有明确的人道主义性质和地理范围限制，并不等同于全面停火或和平协议。这种局部的、以人道救援为目的的临时停火安排，在旷日持久的冲突中并不罕见，通常是在双方都存在现实需求——比如一方需要撤离平民、另一方需要避免人道灾难的国际压力——的情况下才能达成。但由于缺乏约束力和监督机制，这类局部停火的持续时间和执行效果往往存在不确定性。后续需要观察停火是否能够按计划完成人道物资运送和人员撤离，以及基辅等其他地区的军事行动是否会进一步升级。",
-      "duration_seconds": 135,
+      "summary": "马德里以南托莱多省两列高速列车发生追尾相撞，造成至少30人死亡，搜救仍在进行。",
+      "script": "我们从一则沉重的新闻开始。当地时间周三，在马德里以南的托莱多省，两列载有数百名乘客的高速列车发生相撞。根据多家媒体援引当地消息，一列高速列车从后方撞上了一列已经停驶的列车，导致两节车厢脱轨。目前已确认的事实是，遇难人数已经上升至至少30人，当局表示死亡数字很可能还会继续增加，搜救与善后工作仍在现场持续进行。事故发生时，两列车上合计有超过500名乘客。关于事故的具体起因，目前官方尚未给出最终结论，调查人员正在还原两车为何会在同一区段内出现追尾。这是近年来欧洲铁路系统发生的最严重事故之一，西班牙高铁系统一向以准点和安全著称，此次事故也让外界重新关注高速铁路的信号调度与安全冗余设计。后续需要等待西班牙官方公布正式的事故调查报告，确认两车相撞的直接原因，以及是否涉及信号系统或人为操作环节的问题。",
+      "duration_seconds": 90,
       "is_unverified": false,
-      "confidence_note": "停火生效及基辅遭袭为BBC、NPR两家独立二级信源共同报道确认；关于斡旋过程的具体说法来自白宫单方面表态，列为各方主张。",
+      "confidence_note": "多家二级来源（BBC、DW、NPR）独立报道并相互印证死亡人数与基本事实，可信度较高，但事故最终原因尚待官方调查结论。",
       "fact_status": {
         "confirmed": [
-          "奥列什基局部停火已生效，旨在开放人道通道",
-          "基辅同时遭遇新一轮导弹袭击"
+          "两列高速列车在托莱多省相撞",
+          "死亡人数已确认至少30人",
+          "事故发生时车上有超过500名乘客"
         ],
         "claims": [
-          "白宫方面称此次停火安排由梅拉尼娅·特朗普斡旋促成"
+          "当局表示死亡人数可能进一步上升"
         ],
         "analysis": [
-          "局部停火具有明确人道目的和地理范围限制，不代表冲突整体降温"
+          "事故原因尚未查明，可能涉及信号调度或列车间距控制问题"
         ]
       },
       "source_ids": [
-        "91e3e825a444cf6b",
-        "bd06d274b87145ea"
+        "0433ec6fbd70b9c7",
+        "927936ad0ea13e9a",
+        "9cf9d458d6268cfc"
       ],
       "sources": [
         {
-          "id": "91e3e825a444cf6b",
+          "id": "0433ec6fbd70b9c7",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Truce begins in Ukraine city where residents ate weeds to survive",
-          "summary": "The Oleshky ceasefire, which the White House said was secured by US First Lady Melania Trump, is meant to allow aid to get in and civilians to get out.",
-          "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-27T11:53:57+00:00",
+          "title": "What we know so far about deadly Spain train crash",
+          "summary": "More than 500 passengers were on board the trains when the incident occurred in the province of Toledo, south of Madrid.",
+          "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-28T11:54:21+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "bd06d274b87145ea",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
-          "summary": "A localized ceasefire between Ukraine and Russia took effect early Tuesday ahead of a humanitarian mission brokered by U.S. first lady Melania Trump, as missile attacks resumed in Kyiv.",
-          "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
-          "published_at": "2026-10-27T05:26:58+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "以色列举行2023年冲突以来首次大选，结果悬而未决",
-      "english_term": null,
-      "summary": "以色列正在举行自2023年哈马斯袭击引发地区连锁冲突以来的首次大选，民调显示内塔尼亚胡与艾森科特阵营之间竞争胶着，一名前巴解组织官员称两人组阁联盟并非没有可能。",
-      "script": "再看中东局势。据NPR和半岛电视台报道，以色列正在举行2023年哈马斯主导的袭击事件引发地区连锁冲突以来的首次全国大选。这次选举被外界视为高风险选举，选举结果可能直接影响以色列未来的内外政策走向，包括对加沙的安全政策、与周边国家的关系等。根据候选信息，目前选情胶着，民调在现任总理内塔尼亚胡和另一位重要政治人物艾森科特之间出现分化，双方支持率接近。一位前巴勒斯坦解放组织官员对半岛电视台表示，尽管两人目前在竞选中处于对立位置，但内塔尼亚胡与艾森科特组成联合政府的可能性并非完全不存在，这属于分析人士的个人判断，而非已经发生的事实，这里我们将其列为各方主张和分析判断，而不是确认事实。目前可以确认的事实只有投票本身正在进行，具体结果仍未公布。这次选举之所以受到高度关注，是因为它是自2023年那场改变地区安全格局的冲突之后，以色列选民第一次通过投票对现任政府和整体安全路线做出集体表态，选举结果将在很大程度上决定未来以色列在地区冲突、人质问题、以及与周边阿拉伯国家关系上的政策方向。由于候选人数众多、小党派议席分配复杂，以色列大选后组阁谈判往往耗时较长，最终执政联盟的构成可能需要数周甚至更长时间才能明朗。后续需要等待正式计票结果和各党派组阁谈判的进展。",
-      "duration_seconds": 135,
-      "is_unverified": false,
-      "confidence_note": "选举正在进行为NPR、半岛电视台两家独立信源确认的事实；关于组阁可能性的说法来自半岛电视台采访的个人观点，列为分析判断。",
-      "fact_status": {
-        "confirmed": [
-          "以色列正举行2023年冲突以来首次大选",
-          "投票结果尚未公布"
-        ],
-        "claims": [
-          "一名前巴解组织官员认为内塔尼亚胡与艾森科特组阁联盟并非不可能"
-        ],
-        "analysis": [
-          "选举结果将影响以色列未来安全政策与地区关系走向，组阁谈判可能需要较长时间"
-        ]
-      },
-      "source_ids": [
-        "0dc770e9526138c8",
-        "30f38ac546460e0c",
-        "1b62430d5b2dbc4e"
-      ],
-      "sources": [
-        {
-          "id": "0dc770e9526138c8",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Democrats have a midterm edge, poll shows. And, Israelis vote in high-stakes election",
-          "summary": "Democrats are still holding a slight edge with Election Day a week away, according to a new NPR/PBS News/Marist poll. And, Israelis are casting their votes in an election that could change leadership.",
-          "url": "https://www.npr.org/2026/10/27/g-s1-150052/up-first-newsletter-midterms-polling-data-voter-fraud-israel-prime-minister-elections",
-          "published_at": "2026-10-27T11:39:52+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "30f38ac546460e0c",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "A quick guide to Israel's high-stakes elections",
-          "summary": "Israel is holding its first elections since the Hamas-led attacks of 2023 triggered a chain of conflicts across the region — a quick guide the key players, issues and when to expect a result.",
-          "url": "https://www.npr.org/2026/10/27/g-s1-149944/israel-election-guide",
-          "published_at": "2026-10-27T04:54:30+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "1b62430d5b2dbc4e",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Former PLO official says Netanyahu-Eisenkot coalition could be possible",
-          "summary": "Former PLO official says Israel’s election outcome remains uncertain, with polls divided between Netanyahu and Eisenkot.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/former-plo-official-says-netanyahu-eisenkot-coalition-could-be-possible?traffic_source=rss",
-          "published_at": "2026-10-27T11:19:46+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "前FBI局长科米第三次面临联邦指控",
-      "english_term": null,
-      "summary": "美国前联邦调查局局长詹姆斯·科米第三次遭遇联邦层面的刑事指控，其律师团队表示案件源于2016年向《纽约时报》披露机密信息的指控。",
-      "script": "来看一条美国国内政治新闻。据BBC报道，美国前联邦调查局局长詹姆斯·科米第三次面临联邦层面的刑事指控。根据他的律师团队披露的信息，这起案件源于指控科米在2016年向《纽约时报》披露机密信息。需要说明的是，具体指控内容和案件进展的细节，目前主要来自科米律师团队的单方面说法，检方的正式指控文件细节在候选信息中并未完整呈现，我们将律师方的说法列为各方主张，确认事实仅限于科米本人第三次面临联邦指控这一行为本身。科米作为美国政治中一个长期处于风口浪尖的人物，自他在2017年被时任总统特朗普解除联邦调查局局长职务以来，围绕他的法律争议就从未间断，这背后牵涉的是美国司法部门与政治任命官员之间长期存在的张力，也和美国当前整体政治极化的大背景密切相关。由于案件涉及机密信息披露这样的敏感指控，而相关事件又发生在近十年前，案件本身的审理焦点很可能会集中在证据链的时效性、机密信息认定标准等法律技术问题上。目前候选信息没有提供检方具体指控条款、科米本人的正式回应内容等关键细节，所以我们在这里只做简要记录。后续需要等待检方公布正式起诉文件细节，以及科米本人或其律师团队的正式回应。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "事件本身由BBC单一信源报道，关于指控具体依据的说法来自科米律师团队单方面表态，列为各方主张；候选信息中细节有限。",
-      "fact_status": {
-        "confirmed": [
-          "詹姆斯·科米第三次面临联邦层面的刑事指控"
-        ],
-        "claims": [
-          "科米律师团队称案件源于2016年向《纽约时报》披露机密信息的指控"
-        ],
-        "analysis": [
-          "案件背后反映美国司法与政治任命官员之间长期存在的张力"
-        ]
-      },
-      "source_ids": [
-        "6bb2b39dc1f0b7ba"
-      ],
-      "sources": [
-        {
-          "id": "6bb2b39dc1f0b7ba",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Ex-FBI chief James Comey faces federal charges for third time",
-          "summary": "Comey's lawyers say the case stems from alleged disclosure of classified information to the New York Times in 2016.",
-          "url": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-27T11:44:54+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "health",
-      "title": "刚果民主共和国埃博拉疫情已超万例，尚无获批疫苗",
-      "english_term": "Bundibugyo virus（本迪布焦病毒）",
-      "summary": "刚果民主共和国报告埃博拉病例已超过1万例，死亡人数接近4900人，且疫情已向境外扩散，而此次疫情涉及的本迪布焦病毒目前尚无获批疫苗或特效治疗手段。",
-      "script": "关注一条值得持续追踪的公共卫生消息。据DW报道，刚果民主共和国报告的埃博拉病例已经超过1万例，死亡人数接近4900人，疫情还已经扩散到境外。这次疫情的特殊之处在于，致病病毒是本迪布焦病毒，这是埃博拉病毒家族中的一个分支，而目前针对这一特定病毒分支，全球范围内尚没有获批的疫苗，也没有针对性的特效治疗手段，这和近些年针对扎伊尔型埃博拉病毒已经有获批疫苗的情况形成鲜明对比，也大大增加了此次疫情防控的难度。埃博拉病毒病是一种高致死率的出血热传染病，主要通过接触感染者体液传播，疫情防控高度依赖早期病例识别、接触者追踪隔离以及医护人员防护。由于本迪布焦病毒缺乏现成的疫苗储备，公共卫生应对手段被迫更多依赖传统的隔离和支持性治疗，这意味着疫情的控制速度和效果可能不如以往应对扎伊尔型埃博拉疫情时理想。疫情已经扩散至境外这一事实也值得关注，意味着跨境传播链条已经形成，对区域公共卫生系统构成额外压力。刚果民主共和国近年来已经多次经历埃博拉疫情，该国公共卫生系统和国际卫生组织在病例监测和应对流程上已有一定经验积累，但病毒分支的差异使得既有的疫苗研发成果无法直接套用。后续需要等待世界卫生组织等国际机构对疫情扩散范围的进一步通报，以及针对本迪布焦病毒疫苗研发的最新进展。",
-      "duration_seconds": 135,
-      "is_unverified": false,
-      "confidence_note": "数据来自DW引用的官方疫情通报，为单一二级信源，但属于对官方统计数字的转述。",
-      "fact_status": {
-        "confirmed": [
-          "刚果民主共和国报告埃博拉病例超过1万例，死亡人数近4900人",
-          "疫情已扩散至境外",
-          "本迪布焦病毒目前无获批疫苗或特效治疗"
-        ],
-        "claims": [],
-        "analysis": [
-          "缺乏疫苗储备将增加此次疫情防控难度，防控手段更依赖传统隔离与支持性治疗"
-        ]
-      },
-      "source_ids": [
-        "3d2803342f7f4036"
-      ],
-      "sources": [
-        {
-          "id": "3d2803342f7f4036",
+          "id": "927936ad0ea13e9a",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "DR Congo reports over 10,000 Ebola cases as the outbreak spreads abroad, with no approved vaccine or specific treatment for the Bundibugyo virus",
-          "summary": "DR Congo has reported more than 10,000 Ebola cases and nearly 4,900 deaths. The outbreak involves a virus for which there is no approved vaccine or specific treatment, complicating efforts to contain its spread.",
-          "url": "https://www.dw.com/en/dr-congo-reports-over-10-000-ebola-cases-as-the-outbreak-spreads-abroad-with-no-approved-vaccine-or-specific-treatment-for-the-bundibugyo-virus/a-79773667?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-27T11:15:00+00:00",
+          "title": "Death toll in Spain train crash rises to at least 30, with rescue and recovery operations ongoing",
+          "summary": "Two high speed trains carrying hundreds of passengers collided in central Spain south of Madrid. Officials warn that the death toll is likely to increase. Follow DW.",
+          "url": "https://www.dw.com/en/death-toll-in-spain-train-crash-rises-to-at-least-30-with-rescue-and-recovery-operations-ongoing/live-79785087?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-28T11:27:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "9cf9d458d6268cfc",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "At least 30 dead in crash between two trains in central Spain, media say",
+          "summary": "A high-speed train slammed into the rear of another train that had stopped, derailing two cars and killing at least 30 people on Wednesday in central Spain, according to local media.",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
+          "published_at": "2026-10-28T10:09:46+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "以色列大选结果胶着，内塔尼亚胡与艾森科特均难过半",
+      "english_term": null,
+      "summary": "以色列选举投票率创纪录，但部分计票结果显示两大阵营均未获得组阁所需多数席位，阿拉伯政党表现强劲。",
+      "script": "以色列这次大选牵动地区格局。已确认的事实是，此次选举投票率创下纪录新高，但目前公布的部分计票结果显示，现任总理内塔尼亚胡所在的右翼阵营，与对手、前军方高层加迪·艾森科特所率领的阵营，双方都没有拿到组阁所需的议会多数席位。值得关注的是，阿拉伯政党在此次选举中的得票表现相当亮眼，这使得能否与阿拉伯政党组成联合政府，成为接下来决定以色列下一届政府走向的关键变量。各方的主张目前仍在博弈之中：内塔尼亚胡阵营希望争取尽可能多的右翼和宗教政党支持以组阁，而艾森科特一方则面临是否要打破以往惯例、考虑与阿拉伯政党合作的艰难抉择。分析人士认为，无论哪一方最终组阁成功，新政府大概率都将是一个脆弱的多党联合政府，未来执政稳定性存疑。这也是以色列近年来政治持续碎片化的延续，选举结果的不确定性本身，就折射出该国社会在安全、宗教与族群议题上的深层分裂。后续需要等待最终计票结果公布，以及两大阵营与中小政党的组阁谈判进展。",
+      "duration_seconds": 105,
+      "is_unverified": false,
+      "confidence_note": "BBC与NPR两个独立二级来源均报道选举结果胶着、无明确获胜方，内容相互印证，但最终组阁结果仍未确定。",
+      "fact_status": {
+        "confirmed": [
+          "以色列大选投票率创纪录",
+          "目前计票结果显示两大阵营均未过半"
+        ],
+        "claims": [
+          "阿拉伯政党表现强劲，可能成为组阁关键"
+        ],
+        "analysis": [
+          "新政府大概率为脆弱的多党联合政府"
+        ]
+      },
+      "source_ids": [
+        "2d7b36531fd64e0c",
+        "42abf68a65ac22c9",
+        "18e47aef89a10617"
+      ],
+      "sources": [
+        {
+          "id": "2d7b36531fd64e0c",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Netanyahu and Eisenkot face difficult paths to power as neither set to win majority",
+          "summary": "The two main blocs appear to have too few seats to form the next government without reliance on Arab parties.",
+          "url": "https://www.bbc.co.uk/news/articles/cjy561y4pl56o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-28T10:35:13+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "42abf68a65ac22c9",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Partial results from Israel's contentious election show no clear winner",
+          "summary": "Prime Minister Benjamin Netanyahu's right-wing bloc was leading opposition rival Gadi Eisenkot. Arab parties had a strong showing, and a key question now is whether Eisenkot's bloc will consider forming a coalition with them.",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6019423/israel-election-results",
+          "published_at": "2026-10-28T08:46:47+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "18e47aef89a10617",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Israel's election too close to call. And, the Ebola outbreak reaches grim milestone",
+          "summary": "Israeli voters turned out in record numbers, and the results remain too close to call. And, more than 10,000 people have been infected with Ebola since the outbreak was first declared in May.",
+          "url": "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
+          "published_at": "2026-10-28T11:28:55+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "Unitree季度营收同比暴涨70%，折射中国机器人产业景气",
+      "english_term": "Unitree（宇树科技）",
+      "summary": "人形与四足机器人厂商Unitree公布季度营收同比增长70%，被视为检验中国机器人产业商业化进展的重要信号。",
+      "script": "来看产业端一条值得关注的信号。中国机器人公司Unitree，也就是宇树科技，公布最新季度营收同比增长达到70%。这家公司以四足机器人起家，近年逐步扩展到人形机器人产品线，是全球范围内少数同时在四足和人形两条产品线都实现规模化出货的厂商之一。营收大幅增长背后，反映的是整个中国机器人产业链在零部件成本下降、整机价格更亲民之后，商业化落地速度明显加快。目前机器人产品的应用场景，已经从早期的科研教育、展示表演，逐步扩展到工业巡检、特种作业，乃至面向消费端的娱乐与陪伴类产品。报道将这次营收增长视为检验中国机器人行业整体健康度的一次试金石，因为Unitree的产品矩阵覆盖面广，其财务表现具有一定的行业代表性。需要指出的是，营收增长并不完全等同于利润增长，机器人整机企业普遍面临研发投入高、供应链成本波动大的压力，规模化出货和盈利能力之间仍存在差距。另外，当前的消息来源级别较为有限，更精确的财务数据，比如具体营收规模、净利润情况，仍有待公司后续财报或官方公告进一步披露确认。后续需要关注该公司是否会公布更详细的季度财报数据，以及这一增长趋势能否在后续季度中持续。",
+      "duration_seconds": 125,
+      "is_unverified": true,
+      "confidence_note": "该消息来自三级产业资讯聚合渠道，缺乏官方财报或权威财经媒体的交叉确认，具体数字需要以公司正式披露为准，故标记为未完全验证。",
+      "fact_status": {
+        "confirmed": [
+          "Unitree为中国知名四足与人形机器人厂商"
+        ],
+        "claims": [
+          "报道称该公司季度营收同比增长70%"
+        ],
+        "analysis": [
+          "该增长若属实，将反映中国机器人产业商业化提速"
+        ]
+      },
+      "source_ids": [
+        "f87ffa4d65cad2f4"
+      ],
+      "sources": [
+        {
+          "id": "f87ffa4d65cad2f4",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Unitree's quarterly revenue surges 70% in test for China's robotics sector - Central Oregon Daily",
+          "summary": "Unitree's quarterly revenue surges 70% in test for China's robotics sector Central Oregon Daily",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPeV9ZVHhHVWJiSE14Uml2UTV4MExxakZ6T21zemlwa09zcDcxZWt2ZGxvOURDd2wyVE0ta1hQZlRKbTZCcTZSMHFjVzRrcWRZTTRQY2VqMnFHbnhVVXJaZnhHbGxPWHNiN1BpUktsVnNqLU1tbjc2SDZvNWc4Z0NfcE1rUDZnelNMVlBSLXF4OUNlbUI3VEFsSENzT1YzOVBzc2taQWlSOEhJbGdCQ21pY3lLVlprNjduRktHeHU0LUw2UWxMU2JyOHBGZGpzZ1JZZ1hGN01yQW1sbC1VV2dvRlFENUl4bGs3SEs0Q1o0SW40b0dNSVFkMUZNaDc3Mmc?oc=5",
+          "published_at": "2026-10-28T11:41:12+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "触觉传感器让人形机器人获得“触觉”能力",
+      "english_term": "Tactile Sensor（触觉传感器）",
+      "summary": "新型触觉传感技术正被集成进人形机器人手部与皮肤，使机器人能够感知接触力度与材质，提升精细操作能力。",
+      "script": "机器人要在真实世界里完成抓取、装配这类精细操作，光靠视觉是不够的，还需要“手感”。这就涉及到触觉传感器，英文叫Tactile Sensor，简单说就是模拟人类皮肤和指尖神经末梢功能的传感装置，能够感知接触压力、剪切力、材质软硬甚至滑动趋势。最新报道提到，研究人员和企业正在把这类触觉传感技术集成到人形机器人的手部乃至全身皮肤表面，让机器人在抓取鸡蛋这类易碎物体，或者在拧螺丝、插拔线缆这类需要力反馈的精细操作中表现更可靠。从技术原理上看，常见的触觉传感方案包括压阻式、电容式，以及近年来兴起的基于视觉的触觉传感，也就是用微型摄像头观察传感器内部弹性材料的形变来反推接触力分布，这类方案成本相对可控，分辨率也在不断提升。产业背景上，人形机器人要走向真正的通用化操作任务，比如在家庭、仓库、工厂里处理各种未知形状和材质的物体，触觉反馈被认为是和视觉、力矩传感同等重要的感知维度，目前仍是行业公认的短板之一。这次报道更多是综述性质，没有点名具体是哪家公司或实验室的最新突破，但它反映出整个行业对触觉感知的关注度正在明显上升。后续需要关注具体厂商或实验室是否会发布更详细的技术参数、量产计划，以及这类触觉传感器能否大规模装配到商用人形机器人产品上。",
+      "duration_seconds": 135,
+      "is_unverified": true,
+      "confidence_note": "来源为三级产业资讯聚合，内容偏综述性质，未指明具体公司或研究机构，细节有限，标记为未完全验证的热点线索。",
+      "fact_status": {
+        "confirmed": [
+          "触觉传感器正被应用于人形机器人手部与皮肤"
+        ],
+        "claims": [
+          "报道称该技术能提升机器人精细操作与抓取可靠性"
+        ],
+        "analysis": [
+          "触觉感知被视为人形机器人走向通用操作任务的关键短板之一"
+        ]
+      },
+      "source_ids": [
+        "e5ad14c658d53ebd"
+      ],
+      "sources": [
+        {
+          "id": "e5ad14c658d53ebd",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Tactile sensors give humanoid robots a ‘sense of touch’ - Electronic Products & Technology",
+          "summary": "Tactile sensors give humanoid robots a ‘sense of touch’ Electronic Products & Technology",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE13WlBoT3d5XzN5dWVFTnVYMHhINWdOdzc3aVF1YlhGRHNoOTJfRnZDaUVQZFZfUUMtNUpxZHk0b29XY3IzVFEyNHNBVHR1My1fY3JoM2xBX01qcl96U0RVWEdkU1Q5ZDJ3Uk9Dd2RXR3U2RGI1STBISjcwQnZFZw?oc=5",
+          "published_at": "2026-10-28T11:49:02+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "多篇机器人学术论文集中发布：世界模型、多臂协同与全身运动控制",
+      "english_term": "World-Action Model（世界-动作模型）",
+      "summary": "arXiv同日公开多篇机器人学论文，分别探讨基于3D几何的世界模型、经验回溯策略改进，以及GPU加速的多臂协同路径规划方法。",
+      "script": "学术这边，今天一次性看到好几篇值得关注的机器人论文。第一篇提出了一个叫E0.5的框架，探讨的问题是，目前主流的世界-动作模型，也就是World-Action Model，大多以视频生成模型或者视觉语言模型为主干，即便引入了三维几何特征，也只是把它当作辅助信息。这篇论文尝试把三维几何本身作为建模的原生基础，而不是附属品，目的是让机器人对物理世界的预测更准确、更具备空间一致性。第二篇论文叫Rollback，关注的是如何更高效地利用世界模型来改进机器人策略。思路是让智能体能够像“倒带”一样回到过去某个决策点，重新探索其他可能的行动分支，而不是只能单向地向前模拟，这样可以更充分地利用世界模型中蕴含的反事实信息来提升策略学习效率。第三篇是面向多机械臂协同操作的cuArms框架，解决的是多个机械臂在同一工作空间内如何快速、无冲突地规划运动路径的问题，论文利用GPU并行计算来加速基于冲突检测的多臂规划过程，相比以往方法在速度和可扩展性上都有改进，这对工厂里多臂协同装配这类场景有直接意义。另外还有一篇论文提出了分阶段条件化的策略优化方法，用来学习人形机器人需要下蹲、抓取、移动等多个阶段衔接完成的全身操作任务，试图减少对人类动作捕捉数据和特定人形平台的依赖。这些论文都还处于预印本阶段，尚未经过同行评审，其方法的真实效果和泛化能力还需要后续实验和评审验证。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "均为arXiv预印本论文，一级来源但尚未经过同行评审，实验结果和方法有效性有待学术界进一步验证。",
+      "fact_status": {
+        "confirmed": [
+          "多篇机器人学论文于同日在arXiv公开"
+        ],
+        "claims": [
+          "论文作者分别提出了新的世界模型、策略回溯方法与多臂规划框架"
+        ],
+        "analysis": [
+          "这些方法若经验证有效，将推动机器人在物理世界建模与多臂协同操作上的能力提升"
+        ]
+      },
+      "source_ids": [
+        "e3f6791fc429d9bd",
+        "e2d555ce322ba3a3",
+        "6b56cd48dade3452",
+        "558d557606b2030f"
+      ],
+      "sources": [
+        {
+          "id": "e3f6791fc429d9bd",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "E0.5: From Reconstructive to Future-Predictive 3D Foundations for Robotic World-Action Modeling",
+          "summary": "arXiv:2610.36011v1 Announce Type: new Abstract: World-action models (WAMs) offer a promising framework for embodied intelligence, yet mainstream approaches remain centered on video foundation models or vision-language models. Even when geometric features extracted by 3D models such as VGGT are incorporated, they are typically passed into a video model or VLM that serves as the primary backbone, leaving 3D geometry as an auxiliary input or prediction target rather than the native foundation for world modeling. We present E0.5, a geometry-native world-action model built directly on 3D foundation models. E0.5 introduces two key innovations. First, it adopts a 3D foundation model as the primary backbone, making 3D geometry the native representation for both world modeling and action prediction. Second, it explicitly predicts future 3D states together with actions, enabling the model to capture geometric world dynamics beyond action-only modeling or future video prediction. Experiments on RoboTwin 2.0 first demonstrate the effectiveness of E0.5 without embodied-data pretraining, achieving success rates of 89.90\\% and 50.09\\% under clean and randomized settings, respectively. Building on",
+          "url": "https://arxiv.org/abs/2610.36011",
+          "published_at": "2026-10-28T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "e2d555ce322ba3a3",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
+          "summary": "arXiv:2610.36068v1 Announce Type: new Abstract: Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Rollback, a policy improvement paradigm that turns world models from passive simulators into counterfactual engines: it rolls back to critical decision points, branches into alternative actions, and contrasts their outcomes to attribute success to individual decisions. This concentrates imagination where it matters most and distills counterfactual outcomes into fine-grained, action-level supervision without a separately learned value model. We build a scalable training system that unifies distributed world-model search with asynchronous real-robot execution, forming a self-reinforcing cycle: real-world experience continually sharpens the world model, and a sharper world model in turn drives further policy improvement. We term the world-model side",
+          "url": "https://arxiv.org/abs/2610.36068",
+          "published_at": "2026-10-28T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "6b56cd48dade3452",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "cuArms: GPU-Accelerated Conflict-Based Planning for Multi-Arm Manipulation",
+          "summary": "arXiv:2610.36250v1 Announce Type: new Abstract: Multi-arm manipulation has the potential to dramatically improve the throughput, efficiency, and dexterity of many manipulation tasks. Recent work coordinates multiple robot arms in a shared workcell by allocating and scheduling tasks for greater parallelism, jointly planning multi-arm motions, or directly learning multi-arm policies. So far, these approaches are either too slow, rely on domain-specific assumptions, or scale poorly with the number of robots and task horizon. Thus, we introduce cuArms, a conflict-based planner co-designed with GPU parallelism that efficiently decomposes the search space using reusable multi-modal roadmaps for individual robots and resolves conflicts and deadlocks through a lazy search. To jointly optimize task assignment, schedules, motions, and manipulation skills, we integrate a high-level scheduler that proposes candidate skeletons for cuArms to ground into coordinated manipulation plans. Experimental results show that our method establishes a new state of the art, with real-time initial solutions and anytime improvements in both motion quality and scheduling, without days of domain-specific trainin",
+          "url": "https://arxiv.org/abs/2610.36250",
+          "published_at": "2026-10-28T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "558d557606b2030f",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Learning Multi-Phase Robot Loco-Manipulation via Phase-Conditioned Policy Optimization",
+          "summary": "arXiv:2610.36270v1 Announce Type: new Abstract: Complex whole-body loco-manipulation requires executing diverse maneuvers, such as crouching, grasping, and locomotion, within a single long-horizon task. While performing simple pick-and-place behaviors is well-established, scaling to complex, long-horizon tasks remains difficult. Currently, this challenge is addressed by relying on human motion data and correspondingly humanoid platforms, which limits platform independence and introduces substantial data processing overhead. Instead, we extend proximal policy optimization (PPO) to train a single policy for multi-phase tasks across diverse robotic hardware, leveraging prior task structure to shape behavior. Our method adapts PPO using a phase-conditioned critic, phase-gated reward functions, and a multi-phase reset curriculum to guide exploration. To support varied hardware, we employ a decoupled hierarchical control architecture that separates lower-level balancing dynamics from high-level phase execution. We demonstrate multi-stage loco-manipulation skills on hardware on both the Unitree G1 and a Boston Dynamics Spot equipped with a manipulator arm, and validate our design choices ",
+          "url": "https://arxiv.org/abs/2610.36270",
+          "published_at": "2026-10-28T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "ANYbotics四足机器人ANYmal X开始交付防爆场景",
+      "english_term": "ANYmal X（四足巡检机器人）",
+      "summary": "瑞士机器人公司ANYbotics开始交付专为易燃易爆环境设计的四足机器人ANYmal X，面向油气与化工行业巡检需求。",
+      "script": "产业这边还有一条来自工业机器人领域的消息。瑞士公司ANYbotics宣布开始交付其四足机器人新品ANYmal X，这款产品专门针对易燃易爆环境进行了设计，目标客户是石油、天然气和化工行业。这些行业的生产现场往往存在可燃气体泄漏风险，传统上需要人工定期巡检阀门、管道和仪表读数，既耗费人力，也存在安全隐患。ANYmal X作为一款四足机器人，延续了该公司此前ANYmal系列在复杂地形行走能力上的技术积累，同时针对防爆要求做了专门的电气和结构设计，以满足油气化工行业中最严格的安全标准，这通常意味着机器人内部电路、电池和传感器都需要做防爆封装处理，避免产生电火花引燃周围可燃气体。从产业角度看，这类特种场景机器人虽然市场体量不如消费级或通用工业机器人那么大，但客户对可靠性和安全认证的要求极高，一旦通过认证进入供应链，往往能形成较强的客户粘性和溢价能力，这也是不少机器人公司选择深耕垂直细分市场的原因。此次ANYbotics宣布的是正式开始交付，而不仅仅是产品发布或测试阶段，说明产品已经通过了相关安全认证并进入商业化阶段。后续需要关注该机器人在实际油气化工现场部署后的运行反馈，以及公司后续是否会公布具体的订单规模和客户名单。",
+      "duration_seconds": 130,
+      "is_unverified": false,
+      "confidence_note": "来源为专业机器人产业媒体The Robot Report，属于二级来源的直接产品报道，可信度较高。",
+      "fact_status": {
+        "confirmed": [
+          "ANYbotics开始交付ANYmal X四足机器人",
+          "产品专为易燃易爆环境设计，面向油气化工行业"
+        ],
+        "claims": [],
+        "analysis": [
+          "特种场景机器人商业化门槛高但客户粘性强，是机器人公司差异化竞争的一种路径"
+        ]
+      },
+      "source_ids": [
+        "d7e03cc518a5426f"
+      ],
+      "sources": [
+        {
+          "id": "d7e03cc518a5426f",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "ANYbotics begins delivering ANYmal X legged robot for explosive atmospheres",
+          "summary": "ANYbotics has designed the ANYmal X inspection robot to comply with the strictest safety standards of the oil, gas, and chemical industries. The post ANYbotics begins delivering ANYmal X legged robot for explosive atmospheres appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/anybotics-begins-delivering-anymal-x-legged-robot-explosive-atmospheres/",
+          "published_at": "2026-10-27T14:29:58+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "title": "Embotech与宝马联手，自动驾驶调车技术已移动百万辆车",
+      "english_term": "Embotech（自动驾驶调车技术公司）",
+      "summary": "瑞士自动驾驶公司Embotech与宝马合作，在英国与德国四座工厂实现全天候自动化调车，累计移动车辆已突破百万台。",
+      "script": "再看一条自动驾驶在工业场景落地的消息。瑞士公司Embotech与德国汽车制造商宝马合作，利用自动驾驶调车技术，在英国和德国的四座宝马工厂里实现了全天候的车辆自动化转运，目前每天大约有3500辆车在这些厂区内被自动化系统调度移动，累计移动车辆数量已经突破100万辆。这项技术解决的问题是，汽车工厂在生产完成后，需要把大量新车从生产线转运到停车场、物流装运区等不同地点，这个过程传统上依赖人工驾驶员一辆一辆地挪车，效率低且占用大量人力。Embotech的系统通过给车辆加装临时的自动驾驶套件或者利用厂区内的调度控制系统，让车辆能够在划定的厂区道路内按照既定路线自主行驶到目标位置，背后涉及路径规划、厂区内定位和多车协同调度等技术，这和公开道路上的自动驾驶相比，场景相对封闭可控，技术落地难度更低，是自动驾驶技术现阶段比较容易实现商业化的细分场景之一。这次披露的百万辆级别的累计数据，说明该系统已经在宝马的实际生产运营中稳定运行了相当长时间，而不是停留在试点阶段。这也是自动驾驶技术绕开公开道路复杂场景、率先在封闭园区内规模化落地的一个典型案例。后续需要关注该合作是否会扩展到宝马更多工厂，以及Embotech能否把这套厂区自动调车方案复制到其他汽车制造商身上。",
+      "duration_seconds": 135,
+      "is_unverified": false,
+      "confidence_note": "来源为专业机器人产业媒体The Robot Report的直接报道，属于二级来源，内容具体且可核实。",
+      "fact_status": {
+        "confirmed": [
+          "Embotech与宝马合作在四座工厂实现自动化调车",
+          "累计移动车辆已超过100万辆"
+        ],
+        "claims": [],
+        "analysis": [
+          "封闭园区场景是自动驾驶技术现阶段更易商业化落地的方向之一"
+        ]
+      },
+      "source_ids": [
+        "b1ee17c643139b95"
+      ],
+      "sources": [
+        {
+          "id": "b1ee17c643139b95",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Embotech and BMW move 1M vehicles with automated driving technology",
+          "summary": "Embotech is automatically moving 3,500 vehicles around the clock daily across four BMW sites in the U.K. and Germany. The post Embotech and BMW move 1M vehicles with automated driving technology appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/embotech-bmw-move-1m-vehicles-automated-driving-technology/",
+          "published_at": "2026-10-27T12:45:27+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ],
+      "category_correction": "未检测到机器人核心主题，已从 robotics 调整为 other。"
+    },
+    {
+      "category": "science",
+      "title": "NASA“好奇号”火星车准备在“纳斯卡”地点钻探取样",
+      "english_term": "Curiosity（好奇号火星车）",
+      "summary": "NASA好奇号火星车结束此前钻探任务后，移动至新地点“纳斯卡”，准备进行下一次岩芯钻探采样。",
+      "script": "来看一条来自火星的进展。NASA的好奇号火星车，在结束此前一次代号“巴斯克湖”的钻探任务之后，已经移动到了一个新地点，科学家将其命名为“纳斯卡”，准备在这里进行下一次钻探取样。根据任务团队发布的最新进展博客，好奇号此前曾考察过一处名为“丘丘”的岩石区域，但经过评估后，团队认为那里并不是理想的钻探点位，因此调整路线，转移到几米开外的“纳斯卡”地点重新评估钻探可行性。好奇号的钻探采样是其核心科学任务之一，通过钻取火星表面以下的岩芯粉末样本，送入车载的化学与矿物分析仪器中，科学家可以分析火星岩石的矿物成分和化学历史，从而推断火星过去是否存在过适宜生命存在的环境条件，比如液态水活动的证据。选择钻探点位是一个相对谨慎的过程，需要综合考虑岩石的硬度、表面平整度以及是否具有科学代表性，并不是每一块看起来合适的岩石都能成功钻探。这次任务简报本身是常规的工作记录性质，没有公布重大新发现，但它反映了好奇号团队在火星表面持续、细致的科学勘探节奏。后续需要关注“纳斯卡”地点的钻探是否能够顺利完成，以及钻探样本分析后是否会带来新的矿物学或地质学发现。",
+      "duration_seconds": 120,
+      "is_unverified": false,
+      "confidence_note": "来源为NASA官方一手信息发布，可信度高，内容为常规任务进展记录。",
+      "fact_status": {
+        "confirmed": [
+          "好奇号结束巴斯克湖钻探任务",
+          "车辆已移动至纳斯卡地点准备评估钻探"
+        ],
+        "claims": [],
+        "analysis": [
+          "钻探点位选择反映任务团队对科学代表性和操作可行性的综合考量"
+        ]
+      },
+      "source_ids": [
+        "763d3ed17e8398b0"
+      ],
+      "sources": [
+        {
+          "id": "763d3ed17e8398b0",
+          "source": "NASA",
+          "source_tier": 1,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "science",
+          "title": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
+          "summary": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campaign, Curiosity has returned to a spot just a few meters away from the “Chiu Chiu” block to conduct our next drill campaign. “Chiu Chiu” itself wasn’t a good candidate for […]",
+          "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
+          "published_at": "2026-10-28T05:39:46+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "印度东部遭气旋“阿纳布”重创，数千人紧急撤离",
+      "english_term": "Cyclone Arnab（气旋阿纳布）",
+      "summary": "气旋“阿纳布”登陆印度东部沿海地区，造成严重破坏，当地已紧急疏散数千名居民。",
+      "script": "最后关注一条自然灾害新闻。气旋“阿纳布”在印度东部沿海地区登陆，造成大面积破坏。根据现场报道，当地沿海社区的房屋、基础设施受损严重，已有数千名居民在气旋来临前被紧急转移至安全地带。这类强气旋通常会带来狂风、暴雨和风暴潮，对沿海低洼地区的居民生命财产构成直接威胁，印度东部沿海一带由于地势平坦、人口密集，历史上一直是气旋灾害的高发和重灾区域。目前报道的重点集中在灾后破坏情况和紧急疏散工作上，尚未给出详细的人员伤亡或经济损失统计数字。从气候背景看，近年来孟加拉湾地区生成的强气旋频率和强度都呈现出一定的上升趋势，这与海洋表面温度升高等气候变化相关因素有关，但具体到单次气旋事件的成因归因，还需要更专业的气象学分析。当地政府和救援机构目前的工作重心是保障已撤离居民的临时安置，以及评估基础设施损毁情况以便后续展开修复。后续需要关注官方是否会公布详细的人员伤亡与经济损失数据，以及灾后重建和救援物资调配的进展。",
+      "duration_seconds": 105,
+      "is_unverified": false,
+      "confidence_note": "来源为Al Jazeera的直接现场报道，属于二级来源，但目前尚缺乏第二家独立媒体的交叉确认详细伤亡数字。",
+      "fact_status": {
+        "confirmed": [
+          "气旋阿纳布已登陆印度东部沿海",
+          "当地已紧急疏散数千名居民"
+        ],
+        "claims": [],
+        "analysis": [
+          "孟加拉湾气旋频率与强度近年呈上升趋势，可能与气候变化相关"
+        ]
+      },
+      "source_ids": [
+        "2be152ce798fd2a5"
+      ],
+      "sources": [
+        {
+          "id": "2be152ce798fd2a5",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Cyclone leaves trail of destruction in India as thousands evacuated",
+          "summary": "Cyclone Arnab has left a trail of destruction along India’s eastern coast.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/cyclone-leaves-trail-of-destruction-in-india-as-thousands-evacuated?traffic_source=rss",
+          "published_at": "2026-10-28T11:41:04+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天值得继续关注的是：波士顿动力Atlas供应链韩国化的具体订单规模是否会得到官方证实，GXO与Agility的人形机器人部署效果数据何时公布，乌克兰局部停火的人道通道执行情况，以及以色列大选最终计票结果和组阁进展。",
-  "editor_note": "本期机器人部分合并了产业融资与部署动态、学术预印本综述以及一条未经证实的供应链热点，时长占比按六个相关story的秒数合计约占全文48%。涉及Atlas供应链规模、苏黎世联邦理工攀爬研究的候选信息均来自Tier 3聚合报道，缺乏官方或论文原文佐证，已标记为未经证实并说明局限。国际新闻部分对白宫斡旋说法、以色列组阁可能性等均做了事实与主张的区分处理。candidate中体育类（如Ballon d'Or、板球赛事、梅西相关言论）、NASA常规图片类内容因重要性或信息完整度有限未纳入正文。",
+  "closing": "今天的内容就到这里。继续关注西班牙列车相撞事故的后续调查结论，以及以色列大选最终组阁结果；机器人领域则建议留意Unitree财务数据的官方确认，以及今天提到的几篇arXiv预印本论文后续的同行评审进展。",
+  "editor_note": "候选信息中机器人类消息多来自三级聚合搜索且部分细节有限（如Unitree营收、触觉传感器综述），已按规则标记为未完全验证；学术部分选取了当日arXiv同批次中更具代表性的四篇论文合并为一条综述性报道，避免逐篇展开导致时长失衡。国际新闻部分因西班牙列车事故与以色列大选有多个二级来源交叉印证，优先给予较多篇幅；气旋新闻目前仅有单一来源，已在confidence_note中注明。机器人类总时长占比约为48%，符合45%-55%区间要求。",
   "model": "claude-sonnet-5",
   "usage": {
-    "input_tokens": 9509,
-    "output_tokens": 9867,
-    "total_tokens": 19376
+    "input_tokens": 9414,
+    "output_tokens": 8561,
+    "total_tokens": 17975
   },
-  "generated_at": "2026-10-27T12:08:10+00:00",
-  "window_start": "2026-10-26T12:08:10+00:00",
-  "candidate_count": 404,
+  "generated_at": "2026-10-28T12:00:04+00:00",
+  "window_start": "2026-10-27T12:00:04+00:00",
+  "candidate_count": 306,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "quality": {
-    "duration_seconds": 1300,
-    "script_characters": 5061,
-    "topic_duration_share": 0.592,
+    "duration_seconds": 1095,
+    "script_characters": 4236,
+    "topic_duration_share": 0.493,
     "passed": true,
     "normal_target_met": true,
     "topic_source_count": 3,
