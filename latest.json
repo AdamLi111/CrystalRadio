@@ -1,46 +1,47 @@
 {
-  "title": "晶球电台早报：以色列大选胶着、Dnipro火车站遭袭，机器人产业订单回暖与世界模型新测试",
-  "subtitle": "北美机器人订单大涨24.8%，WorldOracle拷问世界模型的可靠性边界，国际局势持续紧绷",
+  "title": "晶球电台早报：机器人产业迎关税保护与巨额融资，以色列大选陷入僵局",
+  "subtitle": "白宫对外国机器人启动232调查，Agility Robotics借壳上市募资4.65亿美元，学术界聚焦灵巧操作与足式机器人视觉规划",
   "highlights": [
-    "北美机器人订单第三季度同比增长24.8%，汽车零部件行业需求几乎翻倍",
-    "WorldOracle研究揭示世界模型可能对失败的机械臂抓取给出错误的“成功”预测",
-    "乌克兰第聂伯罗火车站遭俄罗斯无人机袭击致13人死亡；以色列大选出现僵局"
+    "白宫对进口机器人作出Section 232国家安全认定，可能为后续关税铺路",
+    "人形机器人公司Agility Robotics通过企业合并上市，预计融资4.65亿美元",
+    "arXiv集中放出多篇机器人学论文，涵盖灵巧操作仿真平台、人形手臂动作重定向与足式机器人视觉步态规划",
+    "以色列大选陷入僵局，各党派围绕组阁展开博弈",
+    "俄罗斯独立媒体《新报》被迫宣布关闭"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "北美机器人订单Q3大涨24.8%，汽车零部件需求几近翻倍",
-      "english_term": null,
-      "summary": "行业协会A3数据显示，2026年第三季度北美机器人订单同比增长24.8%，其中汽车零部件制造商的需求几乎翻倍，其他多个行业也录得强劲增长。",
-      "script": "先来看机器人产业的一个积极信号。行业协会A3公布的最新数据显示，2026年第三季度北美地区机器人订单同比增长了24.8%。这个数字放在过去几年制造业普遍承压的大背景下，算是相当亮眼的反弹。更值得注意的是细分结构：汽车零部件制造商对机器人的需求几乎翻了一倍，这通常被视为制造业资本开支回暖的先行指标，因为汽车供应链历来是工业机器人最大的单一买家群体之一。除了汽车零部件，报告提到其他多个行业也出现了强劲增长，说明这一轮订单回升并非单一行业拉动，而是具有一定的普遍性。从产业逻辑看，机器人订单的增长通常反映几个层面的驱动力：一是企业在劳动力成本和招工难度持续存在的情况下，加快自动化改造；二是新能源车、电子等领域的产线扩张带来新增装机需求；三是部分企业此前推迟的资本开支计划在周期转暖后集中释放。不过需要强调的是，订单数据反映的是企业下单意愿，从下单到实际交付、产线投产还有一个时间差，订单回暖不等于当季产值立即体现。后续需要观察这一增长趋势能否延续到第四季度，以及订单增长是否能转化为机器人厂商实际的营收和利润改善。北美市场的这一数据，也会被视为观察全球制造业自动化投资周期的一个重要窗口。",
-      "duration_seconds": 125,
+      "title": "白宫对进口机器人启动Section 232国家安全认定",
+      "english_term": "Section 232（美国贸易扩展法第232条，授权总统以国家安全为由对进口商品采取限制措施）",
+      "summary": "美国商务部长主导的Section 232调查认定，过度依赖进口机器人对国家安全构成风险，为后续可能的关税或产业扶持政策打开大门。",
+      "script": "第一条机器人产业新闻来自美国。据The Robot Report报道，美国商务部长主导完成的Section 232调查得出结论：美国在机器人领域对外国制造产品的依赖，对国家安全构成风险。Section 232是美国贸易扩展法中的一项条款，授权总统在认定进口商品威胁国家安全后，采取关税或配额等限制措施，过去已被用于钢铁和铝产品。这一认定意味着机器人硬件，尤其是核心零部件比如减速器、伺服电机、精密传感器等，很可能被纳入下一轮贸易保护或产业补贴的政策讨论范围。从产业背景看，当前全球工业机器人和人形机器人供应链中，减速器、电机、视觉传感器等关键环节高度集中在少数几个国家和厂商手中，美国本土机器人整机厂商长期依赖进口核心部件。如果后续真的落地关税或本地化生产要求，短期内可能推高美国本土机器人厂商的采购成本，同时也可能刺激联邦资金流向本土执行器和传感器制造环节，类似于此前半导体产业的产业政策路径。目前公开信息仅停留在认定阶段，具体关税税率、覆盖产品范围、实施时间表均未公布，还需要等待白宫后续正式行政令或商务部的具体执行细则。值得关注的是，这项认定与同期人形机器人创业公司密集融资、借壳上市的产业热度形成呼应，政策面和资本面同时在为机器人产业链加码。后续需要观察商务部是否公布具体关税清单，以及这一认定是否会影响到已经在美国布局产能的外国机器人厂商的投资决策。",
+      "duration_seconds": 150,
       "is_unverified": false,
-      "confidence_note": "数据来源于行业协会A3，经The Robot Report转述报道，为行业统计口径下的订单数据。",
+      "confidence_note": "来自专业机器人产业媒体The Robot Report的一手报道，但具体政策执行细节尚未公布，建议持续关注官方后续文件。",
       "fact_status": {
         "confirmed": [
-          "A3数据显示北美机器人订单第三季度同比增长24.8%",
-          "汽车零部件制造商需求几乎翻倍"
+          "美国商务部长主导的Section 232调查已就机器人进口依赖作出国家安全风险认定"
         ],
         "claims": [],
         "analysis": [
-          "订单增长可能反映制造业自动化资本开支周期性回暖，但从下单到实际产值转化仍需观察后续季度数据"
+          "该认定可能为后续关税或产业补贴政策铺路，但具体措施和时间表尚不明确"
         ]
       },
       "source_ids": [
-        "af16461bc6f7f57d"
+        "e0ed34ac75ea289c"
       ],
       "sources": [
         {
-          "id": "af16461bc6f7f57d",
+          "id": "e0ed34ac75ea289c",
           "source": "The Robot Report",
           "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "North American robot orders climb 24.8% in Q3 of 2026, says A3",
-          "summary": "Robot demand from automotive component manufacturers nearly doubled in Q3, as other sectors posted strong gains, reported A3. The post North American robot orders climb 24.8% in Q3 of 2026, says A3 appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/north-american-robot-orders-climb-24-8-q3-2026-says-a3/",
-          "published_at": "2026-10-28T18:59:30+00:00",
+          "title": "White House makes Section 232 determination regarding foreign-made robots",
+          "summary": "The U.S. secretary of commerce's Section 232 investigation concluded that dependence on robotics imports poses a national security risk. The post White House makes Section 232 determination regarding foreign-made robots appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/",
+          "published_at": "2026-10-29T20:46:53+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -48,113 +49,113 @@
     },
     {
       "category": "robotics",
-      "title": "WorldOracle测试世界模型能否可靠预测机器人真实执行结果",
-      "english_term": "World Model（世界模型，指通过学习环境动态来预测未来状态的模型，可用于规划与评估机器人动作结果）",
-      "summary": "新研究WorldOracle检验了世界模型在预测机器人实际执行结果上的可靠性，发现在某些案例中模型会把实际失败的抓取错误预测为成功。",
-      "script": "再来看一项与具身智能密切相关的研究进展，名字叫WorldOracle。这项工作关注的核心问题是：现在很多机器人研究都在用世界模型（World Model）去预测机器人执行某个动作之后会发生什么，比如机械臂伸过去抓取一个物体，世界模型可以在不用真实执行的情况下，提前“想象”出抓取是否会成功。这种能力如果足够可靠，将极大加速机器人策略的训练和验证，因为不需要每次都在真实世界里反复试错。但WorldOracle这项工作想验证的，恰恰是这种预测能力到底有多可靠。报道中提到一个具体案例：某次机械臂实际抓取一个水果时其实是失手了，物体并没有被稳定抓住，但世界模型却预测这次抓取是成功的。这个案例揭示出一个现实问题——世界模型学到的可能更多是视觉上看起来“像是成功”的模式，而不是对物理接触、力学细节的精确建模，一旦真实执行出现细微偏差，模型的预测就可能和实际结果脱节。这对整个依赖世界模型做规划、强化学习或者仿真到真实迁移的研究路线都是一个值得警惕的信号，因为如果评估环节本身不可靠，那么基于它训练出来的策略也可能带着同样的盲区。目前这项工作的具体测试范围、模型架构和错误率等细节在公开报道中着墨有限，后续需要等待更完整的论文或技术报告公布，以确认这种预测失误的普遍程度，以及研究团队提出的改进方向。",
+      "title": "人形机器人公司Agility Robotics借企业合并上市，拟融资4.65亿美元",
+      "english_term": "humanoid robot（人形机器人）",
+      "summary": "人形机器人公司Agility Robotics宣布通过与一家特殊目的公司合并的方式实现上市，预计募集约4.65亿美元资金。",
+      "script": "另一条重要产业新闻：人形机器人公司Agility Robotics宣布，将通过企业合并的方式登陆资本市场，此次交易预计为公司带来约4.65亿美元的资金。Agility Robotics是美国较早专注双足人形机器人研发的公司之一，其代表产品Digit此前已经在物流仓储场景中进行搬运、码垛等试点应用，是目前人形机器人商业化落地进度较快的厂商之一。从资本运作角度看，采用合并上市而非传统IPO首次公开募股路径，通常能够更快完成上市进程，并提前锁定资金规模，这在当前人形机器人赛道资本竞争激烈、多家公司争抢资金和人才的背景下，是一种常见的加速融资手段。4.65亿美元的规模在人形机器人单笔融资中处于较高水平，反映出资本市场对这一赛道仍然保持高度关注，尽管此前也有声音质疑人形机器人商业化进度是否匹配估值预期。从产业影响看，充裕的资金将主要用于支持Digit等产品的产能扩张、算法迭代以及场景验证，尤其是在仓储物流这类相对结构化、风险可控的落地场景中加快规模化部署。但目前公开信息并未披露交易的具体股权结构、新公司估值以及资金的具体使用计划，这些细节仍有待交易完成后的正式文件披露。后续需要关注这笔资金到账后，Agility Robotics在产能爬坡和客户订单方面是否会公布更具体的进展，以及人形机器人行业是否会出现更多类似的合并上市案例。",
+      "duration_seconds": 145,
+      "is_unverified": false,
+      "confidence_note": "基于Investing.com财经报道，交易细节如估值和股权结构尚未完全披露，需等待正式交易文件。",
+      "fact_status": {
+        "confirmed": [
+          "Agility Robotics宣布通过企业合并方式上市，预计募资约4.65亿美元"
+        ],
+        "claims": [],
+        "analysis": [
+          "此举反映资本市场对人形机器人赛道的持续关注，但商业化进度与估值匹配度仍存争议"
+        ]
+      },
+      "source_ids": [
+        "240031cfd050742b"
+      ],
+      "sources": [
+        {
+          "id": "240031cfd050742b",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Agility Robotics merger to raise $465 million in capital - Investing.com",
+          "summary": "Agility Robotics merger to raise $465 million in capital Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVnRBRFBua0xBQzdTRzNreVdER2ktSVFlQnpwTEswVGNWN1hpdkt3Ry1LVGwzclhlOVQ2WXU0bURPN1JoNnJhdHRJT0dlc0l1WGF1dWdaVW9ZWVNaREpNUVFFOEZCMGZzYWRtZjZzZFJyZF9tcmtzNmFJYVJud1ZFbXRfa2wweGo4TXN3MUpfb1dOaDJITjAxUE5PQks1NE1EaTdSY0pMbUU4UE5LSkdMY19B?oc=5",
+          "published_at": "2026-10-30T11:57:02+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "DexSuite发布：面向灵巧操作的一站式仿真框架",
+      "english_term": "dexterous manipulation（灵巧操作，指机器人手部或末端执行器完成类似人手精细操作的能力）",
+      "summary": "研究团队提出DexSuite，一个基于Genesis仿真器的一站式灵巧操作仿真框架，整合30个任务、10种机械臂和12种末端执行器，覆盖从演示数据采集到策略评估的完整流程。",
+      "script": "接下来进入学术部分，来自arXiv的机器人学新论文。第一篇是DexSuite，一个面向灵巧操作研究的一站式仿真框架。灵巧操作，英文dexterous manipulation，指的是机器人末端执行器完成类似人手那样精细、多指协调的操作能力，比如拧瓶盖、系鞋带、组装小零件，这是目前机器人学习领域的一个核心难题。论文作者指出，当前虽然灵巧操作研究很火热，但很少有仿真框架能覆盖从机器人配置、演示数据采集到策略评估的完整工作流程。为此，研究团队基于Genesis仿真器开发了DexSuite，内置30个操作任务，并组合了10种机械臂和12种末端执行器，末端执行器类型覆盖从简单的平行夹爪到复杂的多指灵巧手。这种模块化设计的意义在于，研究者可以在同一个框架内，灵活搭配不同的硬件组合来测试同一套操作算法的泛化能力，而不需要为每种机器人单独搭建仿真环境，大幅降低了灵巧操作研究的工程门槛。这类基础设施类工作虽然不直接产生某个具体的算法突破，但对整个领域的意义类似于提供了一套标准化的实验台，有助于不同研究组之间对比结果、复现实验。论文目前作为arXiv预印本发布，尚未经过同行评审，具体的任务设计是否合理、与其他仿真平台相比的优势是否成立，还需要学术界进一步检验和使用反馈。后续需要关注这一框架是否会被其他研究团队采用，以及是否会有基于DexSuite训练出的策略成功迁移到真实机器人上的报告。",
+      "duration_seconds": 150,
+      "is_unverified": true,
+      "confidence_note": "arXiv预印本，尚未经过同行评审，框架的实际易用性和学术影响力需要后续社区使用验证。",
+      "fact_status": {
+        "confirmed": [
+          "论文提出了DexSuite仿真框架，整合30个任务、10种机械臂和12种末端执行器"
+        ],
+        "claims": [],
+        "analysis": [
+          "该框架有望降低灵巧操作研究的工程门槛，但实际学术影响仍需时间验证"
+        ]
+      },
+      "source_ids": [
+        "8f8ab650e68bf040"
+      ],
+      "sources": [
+        {
+          "id": "8f8ab650e68bf040",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and Tasks",
+          "summary": "arXiv:2610.37799v1 Announce Type: new Abstract: Human-level dexterity remains a central open problem in robotics, yet few simulation frameworks cover the full workflow of dexterous manipulation, from setting up a robot to collecting dexterous demonstrations and evaluating policies. We present DexSuite, an all-in-one simulation framework for dexterous manipulation built on the Genesis simulator. DexSuite provides 30 tasks and assembles its 10 arms and 12 end-effectors, from parallel-jaw grippers to dexterous hands, into more than 100 single-arm robots and thousands of bimanual pairs. It also ships a standardized environment API, integrated teleoperation, and simulated tactile sensing. Moreover, we define a benchmark of 16 task-embodiment pairs spanning diverse contact complexities and horizons, and release a dataset of 4,700 successful episodes in simulation from human teleoperation, scripted experts, and learned policies. We release DexSuite as open source and hope others will build on it. Videos and datasets are available at https://dexsuiteorg.github.io",
+          "url": "https://arxiv.org/abs/2610.37799",
+          "published_at": "2026-10-30T04:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "人形机器人手臂动作重定向：腕部目标构造方式影响关节极限",
+      "english_term": "motion retargeting（动作重定向，指将人类演示动作映射到机器人本体以计算其关节运动的过程）",
+      "summary": "研究在Unitree H1-2人形机器人上实证发现，腕部目标位置的构造方式会显著影响计算出的手臂关节角度是否触及极限，即使没有明显引发误差的操作。",
+      "script": "第二篇学术论文关注人形机器人手臂的动作重定向问题。动作重定向，英文motion retargeting，是指把人类演示的动作映射到机器人本体上，计算出对应的关节运动轨迹，这是遥操作和模仿学习中常用的一步。这篇研究在宇树科技的人形机器人H1-2上做了一项实证研究，考察腕部目标位置的构造方式如何影响计算出的手臂关节角度是否会触碰到关节极限。具体来说，研究发现，当根据人类演示的手臂方向和机器人自身的肢体长度重建腕部目标位置时，肩部到腕部的距离会受到演示动作中手臂夹角的影响，即便没有明显的操作失误，这种构造方式本身也可能导致计算出的关节角度逼近甚至超出机器人物理极限。这个问题看似细节，但在实际工程中非常关键：如果重定向算法系统性地产生接近极限的关节指令，轻则导致动作生硬、抖动，重则可能造成机械结构的损伤或者动作失败。这篇论文的价值在于用实证方式把这个容易被忽视的工程细节量化出来，为后续设计更稳健的重定向算法提供了具体的问题诊断。目前该研究是预印本形式，具体改进方案尚未在论文摘要中详细展开，其提出的问题诊断方法是否能推广到其他人形机器人平台，还需要同行评审和更多硬件平台上的验证。后续需要关注该团队或其他研究组是否会提出针对性的改进算法，来避免腕部目标构造带来的关节极限问题。",
       "duration_seconds": 140,
       "is_unverified": true,
-      "confidence_note": "基于The Robot Report报道转述，具体论文细节、作者机构、评审状态未在候选信息中完整披露，视为预印本或早期研究成果，结论的普遍性有待进一步验证。",
-      "fact_status": {
-        "confirmed": [],
-        "claims": [
-          "报道称WorldOracle展示了世界模型将实际失败的抓取预测为成功的案例"
-        ],
-        "analysis": [
-          "该现象若具有普遍性，提示世界模型在物理交互细节上的建模可能存在系统性盲区，影响其作为训练与评估工具的可靠性"
-        ]
-      },
-      "source_ids": [
-        "c3dc1ea47a4d06ee"
-      ],
-      "sources": [
-        {
-          "id": "c3dc1ea47a4d06ee",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "WorldOracle Tests Whether World Models Can Reliably Predict Real-World Executions",
-          "summary": "In one case showcased by WorldOracle, a robot's grasp missed, yet the world model predicted that the robot had successfully picked up the fruit. The post WorldOracle Tests Whether World Models Can Reliably Predict Real-World Executions appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/worldoracle-tests-whether-world-models-can-reliably-predict-real-world-executions/",
-          "published_at": "2026-10-28T13:44:31+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "仿真人形机器人售价6万美元上市，真实感引关注",
-      "english_term": null,
-      "summary": "据报道，一款高度仿真的人形机器人已开始销售，定价约6万美元，凭借逼真外观受到关注。",
-      "script": "一则比较轻量但引发不少讨论的消息：据报道，一款高度仿真的人形机器人已经开始对外销售，定价大约在6万美元。报道中强调的重点是这款机器人在外观上的“超写实”程度，也就是尽可能逼真地还原人类的面部表情和肢体细节，这类产品通常被归入社交或陪伴型机器人的范畴，而非工业或物流场景使用的工作机器人。从产业角度看，仿真人形机器人的技术路线和工厂里常见的人形机器人并不完全一致，后者更强调运动控制、负载能力和任务泛化，而前者的核心卖点往往集中在外观仿真度、面部表情驱动和交互体验上，背后涉及硅胶或类肤材料、微型伺服电机驱动的面部动作单元等工程细节。6万美元这个定价说明这类产品目前仍处于小众高端市场，距离大规模普及还有距离，购买群体可能更多集中在展览、科研、特殊陪伴需求等场景。需要指出的是，这条消息目前只有单一来源的简短报道，关于具体厂商背景、技术参数、实际交付情况等信息都比较有限，报道本身更像是对一个新产品上市的简讯式介绍。后续需要等待更多独立信源或厂商官方信息，确认具体的技术细节、实际销售情况和市场反馈。",
-      "duration_seconds": 115,
-      "is_unverified": true,
-      "confidence_note": "仅有单一三线来源报道，缺乏厂商官方信息或第二独立信源佐证，具体参数与销售规模无法核实。",
-      "fact_status": {
-        "confirmed": [],
-        "claims": [
-          "报道称一款高度仿真人形机器人定价约6万美元开售"
-        ],
-        "analysis": [
-          "该类产品更偏重外观仿真与社交陪伴场景，技术路线与工业人形机器人不同，当前更可能面向小众高端市场"
-        ]
-      },
-      "source_ids": [
-        "74733fffda8d79b2"
-      ],
-      "sources": [
-        {
-          "id": "74733fffda8d79b2",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "Hyper realistic humanoid robots go on sale for $60,000 - geekspin",
-          "summary": "Hyper realistic humanoid robots go on sale for $60,000 geekspin",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95MFdYYWJMRjhMdlZCaXVVd2ZiNGlKbjhlbHB0cDdLcmVCWjVMLW1sMU1kdEktTEdvU1F0QWJzZ2MyZTNscmZPQ3Q2LVlldTRwczJYaTZ1ZXRkQXl0TlBNaXhuM3FiZEl1RDIxT3BYVFJHbzZPZndZN1VvVFo1dw?oc=5",
-          "published_at": "2026-10-29T12:00:17+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "边缘AI如何让人形机器人反应快于中央GPU",
-      "english_term": "Edge AI（边缘人工智能，指在设备本地而非云端或中央计算单元上进行推理计算）",
-      "summary": "报道探讨了在人形机器人中引入边缘AI芯片，使局部传感与反应回路不必依赖中央GPU集中处理，从而缩短反应延迟。",
-      "script": "接下来这条讲的是人形机器人里一个比较底层但很关键的工程问题：反应速度从哪里来。传统思路里，机器人的感知数据——比如视觉、力觉、触觉信号——往往要先汇总到一个中央计算单元，通常是一块集中式的GPU，在那里统一做推理决策，再把控制指令下发到各个关节和执行器。这种架构的问题在于，数据从传感器传到中央处理器，再把结果传回执行机构，这个链路存在通信和排队延迟，在需要快速反应的场景里，比如防止意外跌倒或者避免碰撞时，这种延迟可能是致命的。报道里讨论的边缘AI（Edge AI）思路，是把部分推理能力下沉到靠近传感器或执行器的本地芯片上，让一些对延迟极度敏感的反应——比如某个关节检测到异常受力后的瞬时调整——可以在本地直接完成决策，不需要每次都跑一遍到中央GPU的完整路径。这种分布式计算架构在工业控制领域并不新鲜，但应用到人形机器人上有其特殊性，因为人形机器人需要同时协调几十个自由度的关节运动，对实时性和安全性的要求都很高。这篇报道更多是从技术趋势角度做科普和分析，没有指向某个具体产品或者具体厂商的量产方案，属于行业技术讨论性质的内容。后续需要观察哪些厂商会率先把这种边缘计算架构落地到量产人形机器人中，以及实际能带来多大幅度的延迟改善。",
-      "duration_seconds": 135,
-      "is_unverified": false,
-      "confidence_note": "来源为行业技术媒体EE Times的分析性报道，内容偏技术趋势讨论，未涉及具体产品量产承诺，可信度视为行业常规技术解读。",
+      "confidence_note": "arXiv预印本，研究范围限定在单一人形机器人平台Unitree H1-2上，结论的普适性有待更多平台验证。",
       "fact_status": {
         "confirmed": [
-          "报道讨论了边缘AI在人形机器人中用于降低反应延迟的技术思路"
+          "研究在Unitree H1-2平台上发现腕部目标构造方式会影响手臂关节角度是否触及极限"
         ],
         "claims": [],
         "analysis": [
-          "分布式边缘计算架构有助于降低对延迟敏感动作的响应时间，但具体落地效果取决于芯片能力与系统集成方案"
+          "这一发现可能推动动作重定向算法的改进，但目前尚缺乏具体解决方案和跨平台验证"
         ]
       },
       "source_ids": [
-        "4ad7264ed3f32cad"
+        "18006dac7cb25eeb"
       ],
       "sources": [
         {
-          "id": "4ad7264ed3f32cad",
-          "source": "Global Robotics News Search",
-          "source_tier": 3,
+          "id": "18006dac7cb25eeb",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "How Edge AI Helps Humanoid Robots React Faster Than a Central GPU - EE Times",
-          "summary": "How Edge AI Helps Humanoid Robots React Faster Than a Central GPU EE Times",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNajM2bkl2OHJHX1FOal82MVg0dWlWcHkzMzlSbE5nSEFsclIwZ2JUTnlLUTlkdUs4OVFoUHNheWQ3SnR4YnEyTGY1UGNBcE1sNjlPLXFkMFAzZDNyYk5RbXZpZVpJbXR3S2VwNDF2RmtZbnNBWkUzZ1llTWQ0Z1lDelVRbXg3Zng1STQtT1MtTWFBTmFRQmdrRWhBYzllSmFEMldUcjJDMS0?oc=5",
-          "published_at": "2026-10-29T11:49:11+00:00",
+          "title": "An Empirical Study of Wrist-Target Construction and Joint-Angle Limits in Humanoid Arm Retargeting",
+          "summary": "arXiv:2610.37801v1 Announce Type: new Abstract: Motion retargeting maps a demonstrated human movement onto a robot to compute its joint motion. This study examines how the construction of the desired wrist position affects whether computed arm joint angles reach their permitted limits on a Unitree H1-2. A reconstructed target is formed from demonstrated arm directions and robot segment lengths, so its shoulder-to-wrist distance depends on the demonstrated angle between the segments even when no posture-matching preference is applied. A reach-normalized target retains that direction while rescaling the distance, using the same processed demonstrations and the same joint-angle method. Across a forward-reach sweep the reconstructed target places a joint angle at a bound in 10 of 20 repetitions and the reach-normalized target in none. Across 25 recordings from one participant the corresponding counts are 8 and 6 on the reaching arm and 14 and 5 on the supporting arm, and a second participant repeats the bricklaying and lifting comparison. In hardware replay a joint is commanded to a bound in 12 of 16 direction-matching arm-records and in none of the 16 normalized records, and within th",
+          "url": "https://arxiv.org/abs/2610.37801",
+          "published_at": "2026-10-30T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -162,39 +163,37 @@
     },
     {
       "category": "robotics",
-      "title": "Warp Sciences脱离隐身模式，将机器人应用于药物研发",
-      "english_term": null,
-      "summary": "新公司Warp Sciences宣布脱离隐身状态，联合创始团队来自OpenAI、Meta等机构，获得资金用于在美国建设自动化药物发现基础设施。",
-      "script": "机器人与生命科学交叉领域也有新动向。一家名为Warp Sciences的公司宣布脱离隐身模式，正式公开亮相。据报道，这家公司的联合创始团队背景来自OpenAI、Meta等人工智能领域的知名机构，他们拿到了资金，计划在美国建设用于自动化药物发现的基础设施。这类公司的核心思路，是把机器人自动化和人工智能结合起来，应用到药物研发流程中，比如自动化的高通量实验操作、样本处理、化合物筛选等环节，这些工作过去高度依赖人工在实验室里重复操作，不仅效率有限，还容易因为人为因素带来误差。通过引入机械臂、自动化工作站和AI驱动的实验设计，理论上可以显著提升筛选通量，压缩新药研发早期阶段的时间成本。这个方向在业内通常被称为“自动化实验室”或“机器人科学家”路线，此前已有多家公司尝试类似模式，但真正能大规模落地、证明商业模式可持续的案例仍然有限。创始团队来自顶尖AI实验室这一点，说明资本和人才正在持续向“AI加机器人”交叉的科研自动化领域聚集。不过目前报道中并未披露具体融资金额、技术路线细节或者首批合作的药企信息，这些都需要后续公司进一步公开披露。观察的重点会落在这家公司能否拿出实际的产品原型，以及是否能和制药行业的真实客户达成合作。",
+      "title": "TACOS：面向足式机器人的地形感知视觉步态规划",
+      "english_term": "footstep planning（步足规划，指足式机器人根据地形预测并选择落脚点的决策过程）",
+      "summary": "研究提出TACOS方法，通过设计可解释的地形不稳定性评分作为自监督信号，让足式机器人基于视觉预判落脚点的稳定性。",
+      "script": "第三篇是关于足式机器人视觉步态规划的研究，论文名为TACOS，全称是地形感知的接触监督方法。人类走路时会用眼睛提前判断地面状况，再决定下一步怎么迈，足式机器人要实现类似的能力，理论上可以通过自监督学习来完成，也就是让机器人自己从行走经验中学习地形和落脚稳定性之间的关系，不需要人工标注每一步是否安全。但论文指出，现有自监督方法中用来做监督信号的那个指标，往往是研究者凭直觉设定的，很少有人系统考察这个指标选择本身会如何影响模型最终学到的策略。为此，研究团队提出了TACOS方法，设计了一个有明确物理含义、且表现稳定一致的足步不稳定性评分，用这个评分作为自监督学习的监督信号，来训练足式机器人基于视觉输入预判地形并规划落脚点。这项工作的意义在于把一个此前被忽视的设计选择摆上台面，系统研究监督信号质量对视觉步态规划效果的影响，这类方法论层面的审视对整个自监督足式机器人学习方向有参考价值。目前论文同样以预印本形式发布，具体的实验场景、地形复杂度范围以及与其他基线方法的对比数据，需要等待论文正文和后续评审意见进一步披露。后续需要关注该方法在真实足式机器人硬件上，尤其是复杂非结构化地形中的实测表现。",
       "duration_seconds": 130,
       "is_unverified": true,
-      "confidence_note": "基于单一行业媒体报道，具体融资规模、技术细节与合作伙伴信息尚未披露，属于公司自我宣布的早期阶段消息。",
+      "confidence_note": "arXiv预印本，摘要未提供具体实验对比数据，方法有效性需等待论文全文和同行评审。",
       "fact_status": {
         "confirmed": [
-          "Warp Sciences宣布脱离隐身模式，团队成员曾任职于OpenAI、Meta等机构"
+          "论文提出TACOS方法，设计新的地形不稳定性评分作为自监督学习信号"
         ],
-        "claims": [
-          "公司称已获得资金用于建设自动化药物发现基础设施"
-        ],
+        "claims": [],
         "analysis": [
-          "该方向属于机器人与AI结合的科研自动化赛道，行业内已有类似尝试，商业模式可持续性仍待验证"
+          "该方法论探讨对自监督足式机器人视觉规划领域有参考价值，具体效果仍需更多实验验证"
         ]
       },
       "source_ids": [
-        "f6acd108f098c9a8"
+        "6a7950ce3a039251"
       ],
       "sources": [
         {
-          "id": "f6acd108f098c9a8",
-          "source": "The Robot Report",
-          "source_tier": 2,
+          "id": "6a7950ce3a039251",
+          "source": "arXiv Robotics (cs.RO)",
+          "source_tier": 1,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Warp Sciences emerges from stealth, to apply robotics to drug research",
-          "summary": "Warp Sciences has co-founders from OpenAI, Meta, and more, plus funding to build infrastructure for automated drug discovery in the U.S. The post Warp Sciences emerges from stealth, to apply robotics to drug research appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/warp-sciences-emerges-stealth-apply-robotics-drug-research/",
-          "published_at": "2026-10-28T16:28:48+00:00",
+          "title": "TACOS: Terrain-Aware COntact Supervision for Visual Footstep Planning",
+          "summary": "arXiv:2610.37806v1 Announce Type: new Abstract: Humans navigate their environment based on their vision system, anticipating how the ground will respond before committing to a step. Self-supervised learning could provide legged robots the same ability, but the supervisory signal is typically chosen on intuition, and its effect on what the model learns is rarely examined. We present Terrain-Aware COntact Supervision (TACOS), which proposes a meaningful and consistent footstep instability score, based on the residual of a factor graph in legged state estimation. It projects the continuous score into preceding images to supervise a dense visual predictor. We propose two variants, a hard score that exploits hindsight and a causal soft score available immediately. Both metrics are compared against state-of-the-art alternatives in two independent evaluations that share no data or labels. On 1716 manually annotated contacts, both variants outperform every evaluated alternative at detecting instability and ranking its severity, improving pooled severity ranking by 28 % over the strongest baseline. On three outdoor test runs, our metric also trains the most accurate visual predictor, improv",
+          "url": "https://arxiv.org/abs/2610.37806",
+          "published_at": "2026-10-30T04:00:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -202,53 +201,85 @@
     },
     {
       "category": "world",
-      "title": "乌克兰第聂伯罗火车站遭无人机袭击致13人死亡",
+      "title": "以色列大选陷入僵局，各方争夺组阁主导权",
       "english_term": null,
-      "summary": "一枚喷气动力无人机击中乌克兰第聂伯罗市一处拥挤的火车站台，造成13人死亡，泽连斯基称此次袭击“令人发指”。",
-      "script": "国际局势方面，乌克兰再次传出平民伤亡消息。据报道，一枚喷气动力无人机击中了乌克兰第聂伯罗市一处拥挤的民用火车站台，当时有大量乘客正在等待登车。袭击造成13人死亡，另有多人受伤。乌克兰总统泽连斯基对此表示强烈谴责，称这次袭击“令人发指”。从已确认信息看，这是一起针对民用交通设施的打击，受害者是正在等车的平民乘客，这类针对非军事目标的袭击在俄乌冲突中并非首次出现，此前双方都曾指责对方袭击平民基础设施。需要说明的是，候选信息中并未提供俄方对此次袭击的官方回应或表态，目前报道主要基于乌克兰方面及在场记者的描述。从军事技术角度看，“喷气动力无人机”这个描述也呼应了另一条相关报道提到的趋势——俄乌双方都在加速把人工智能技术应用到无人机作战中，使无人机的突防速度和自主能力不断提升，泽连斯基此前也警告，最快到明年，AI可能会在战场上参与甚至主导决策过程。这意味着类似针对民用设施的打击，未来可能会伴随更难被传统防空系统拦截的技术特征。后续需要关注国际社会和俄方对此次具体袭击事件的回应，以及双方在无人机技术升级背景下，对平民设施保护机制是否会有新的调整。",
-      "duration_seconds": 120,
+      "summary": "以色列大选结果显示两大阵营均未获得多数席位，陷入政治僵局，活动人士呼吁反对派领袖与阿拉伯政党联合组阁。",
+      "script": "转向国际政治，以色列大选后续进展牵动多方关注。已确认的事实是，此次以色列大选结果出现僵局，没有任何一个阵营获得组阁所需的多数席位。据NPR报道，选举结束后双方都无法单独宣称获胜，接下来的组阁谈判将成为政局走向的关键。与此同时，据半岛电视台报道，以色列的活动人士在反对派领袖艾森科特家门外集会，呼吁其与阿拉伯政党联合组建新政府，以打破当前的僵局。另据半岛电视台分析文章指出，这次选举中巴勒斯坦裔选民的高投票率，也让以色列国内阿拉伯公民在以色列民主体制中受到的实际待遇问题重新成为讨论焦点，不过这一判断属于评论员个人分析，并非各方一致确认的结论。德国方面的反应也值得关注，据德国之声报道，德国政界对以色列选举结果采取了谨慎观望的态度，政界人士表示希望等待组阁结果明朗后再做表态，许多人也期待新政府中不包含宗教强硬派力量，这反映出欧洲主要国家对以色列政局走向的关切。总体来看，目前各方主张集中在是否应该、以及能否组成一个包含阿拉伯政党的联合政府，这背后涉及以色列国内长期存在的犹太与阿拉伯政治力量整合难题。后续需要关注谈判各方能否在限期内完成组阁，以及最终政府构成是否会包含阿拉伯政党或宗教强硬派力量。",
+      "duration_seconds": 130,
       "is_unverified": false,
-      "confidence_note": "基于DW与NPR两个独立二级来源交叉报道，俄方官方回应未在候选信息中出现。",
+      "confidence_note": "多个独立二级来源（NPR、半岛电视台、德国之声）交叉报道同一事件，结论部分涉及评论员分析，已在稿件中区分事实与主张。",
       "fact_status": {
         "confirmed": [
-          "一枚无人机击中第聂伯罗市火车站台，造成13人死亡",
-          "泽连斯基对袭击表示谴责"
+          "以色列大选结果出现僵局，无阵营获得组阁所需多数席位"
         ],
-        "claims": [],
+        "claims": [
+          "部分活动人士呼吁反对派领袖与阿拉伯政党联合组阁",
+          "评论员认为此次选举暴露以色列对阿拉伯公民的态度问题"
+        ],
         "analysis": [
-          "AI技术在无人机作战中的应用正在加速，可能影响未来类似袭击的突防能力与拦截难度"
+          "组阁谈判结果将决定以色列是否出现包含阿拉伯政党的联合政府，德国等欧洲国家对此保持观望"
         ]
       },
       "source_ids": [
-        "dd18942dbf98ddd7",
-        "f9272d91f9d01f13"
+        "99463620a03cdce1",
+        "df0e530ceab6d431",
+        "38d33638ee638b7a",
+        "88905342460858a2"
       ],
       "sources": [
         {
-          "id": "dd18942dbf98ddd7",
+          "id": "99463620a03cdce1",
+          "source": "NPR World",
+          "source_tier": 2,
+          "source_region": "us",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Israel is in a political deadlock. What comes next?",
+          "summary": "Israel's consequential election has ended in a deadlock, with neither side able to claim a majority, What happens now?",
+          "url": "https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs",
+          "published_at": "2026-10-30T09:00:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "df0e530ceab6d431",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Activists urge Eisenkot to form new Israeli gov’t with Arab parties",
+          "summary": "Israeli activists rally outside opposition leader Eisenkot’s home, urging him to join forces with Arab parties after ele",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/activists-urge-eisenkot-to-form-new-israeli-govt-with-arab-parties?traffic_source=rss",
+          "published_at": "2026-10-30T10:52:08+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "38d33638ee638b7a",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Palestinian voter turnout exposes Israel’s attitude towards Arab citizens",
+          "summary": "The strong Palestinian turnout has exposed how Arab citizens are treated within Israel's democracy, says Xavier Abu Eid.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/palestinian-turnout-exposes-israels-treatment-of-arab-citizens?traffic_source=rss",
+          "published_at": "2026-10-30T11:43:17+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "88905342460858a2",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Ukraine: 13 killed in Russian drone strike on crowded Dnipro train station",
-          "summary": "A jet-powered drone struck a crowded platform at a civilian station in Dnipro, killing and injuring passengers who were waiting to board a train. Ukrainian President Zelenskyy called the attack \"horrific.\"",
-          "url": "https://www.dw.com/en/ukraine-13-killed-in-russian-drone-strike-on-crowded-dnipro-train-station/a-79795076?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-29T11:33:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "f9272d91f9d01f13",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "How AI drones are influencing the course of the Ukraine war",
-          "summary": "Artificial intelligence is making drones faster and more capable. Russia and Ukraine both use AI-powered drones, and Ukrainian President Volodymyr Zelenskyy has warned that AI could lead decisions on the battlefield as soon as next year.",
-          "url": "https://www.npr.org/2026/10/29/g-s1-147496/ukraine-ai-drones-war-russia",
-          "published_at": "2026-10-29T09:02:00+00:00",
+          "title": "Germany takes cautious approach on Israeli election results",
+          "summary": "German politicians have been slow to respond as they wait to see who is likely to comprise the next coalition. Many are also hoping for a government without religious hardliners.",
+          "url": "https://www.dw.com/en/germany-takes-cautious-approach-on-israeli-election-results/a-79805184?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-30T11:26:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -256,108 +287,68 @@
     },
     {
       "category": "world",
-      "title": "以色列大选计票接近尾声，内塔尼亚胡阵营领先但未过半",
+      "title": "俄罗斯独立媒体《新报》被迫宣布关闭",
       "english_term": null,
-      "summary": "以色列大选93%选票计完后，内塔尼亚胡所在的利库德集团及盟友预计获得120席国会中的53席，未达组阁所需多数。",
-      "script": "以色列大选的计票结果持续牵动地区局势。根据目前已确认的计票数据，在120席的以色列国会中，已有93%的选票完成清点，总理内塔尼亚胡所属的利库德集团及其盟友预计将拿下53个席位，这个数字领先于竞争对手，但距离组阁所需要的多数席位仍有差距。另一份报道提到，在90%选票计完的节点上，选情依然呈现僵局状态，没有任何一方能够明确宣布获胜。从目前的公开信息看，这次选举的结果大概率会进入漫长的组阁谈判阶段，各党派需要通过联盟协商才能凑够过半数的议席支持。与此同时，围绕这次选举的竞选语言也成为讨论焦点，有报道梳理了从内塔尼亚胡到本-格维尔等候选人在竞选中的发言和表现，其中包含了对阿拉伯政党的攻击言论，这类言论在以色列国内政治光谱中一直是敏感议题，也从侧面反映出这次选举竞争的激烈程度。需要强调的是，目前的数据仍是部分计票结果，并非最终正式结果，各方的组阁谈判结果也还未明朗。后续需要等待官方最终计票结果公布，以及后续各党派在组阁谈判中达成的具体联盟安排。",
-      "duration_seconds": 110,
+      "summary": "俄罗斯最后一批独立批评性媒体之一《新报》宣布在当局压力下关闭，此前被俄方列为“外国代理人”。",
+      "script": "另一条值得关注的国际新闻：俄罗斯独立媒体《新报》宣布关闭。已确认的事实是，《新报》作为俄罗斯少数仍然保持独立、批评性报道立场的媒体之一，宣布在俄罗斯当局压力下停止运营。据德国之声和半岛电视台两家独立来源交叉报道，《新报》此前已被莫斯科方面认定为“外国代理人”，这是俄罗斯近年来用来限制非官方媒体和民间组织活动空间的一项法律标签，一旦被贴上这一标签，相关机构在资金来源披露、内容发布等方面将受到严格限制，实际上大幅压缩其生存空间。《新报》长期以来以调查性报道著称，是俄罗斯国内少数仍在坚持批评性报道传统的媒体机构之一，其关闭被外界视为俄罗斯国内独立新闻空间进一步收缩的标志性事件。与此同时，在乌克兰战场方面，据BBC报道，俄军占领下遭受重创的赫尔松州奥列什基镇，一条疏散通道已经开放，有数百名居民据信决定继续留在这座前线城镇，尽管当地缺乏天然气、电力和自来水供应。这两条新闻虽然分属不同议题，但共同反映出俄乌冲突持续背景下，俄罗斯国内舆论环境与战区民生状况的双重压力。后续需要关注《新报》关闭后其采编团队和报道资源的去向，以及奥列什基镇疏散进程和当地民生状况的后续发展。",
+      "duration_seconds": 125,
       "is_unverified": false,
-      "confidence_note": "基于BBC、Al Jazeera、NPR三个独立二级来源的部分计票结果报道，最终组阁结果尚未确定。",
+      "confidence_note": "《新报》关闭由德国之声与半岛电视台两家独立二级来源交叉确认；奥列什基镇疏散情况另有BBC独立报道支持。",
       "fact_status": {
         "confirmed": [
-          "93%选票计完后，利库德集团及盟友预计获得53席，未达组阁多数"
+          "俄罗斯独立媒体《新报》宣布关闭，此前被俄方列为外国代理人",
+          "乌克兰赫尔松州奥列什基镇开放疏散通道，部分居民选择留下"
         ],
-        "claims": [
-          "部分观察者认为选情呈僵局，尚无一方能明确宣布胜选"
-        ],
+        "claims": [],
         "analysis": [
-          "后续组阁谈判结果将决定以色列下一届政府构成，目前尚无法确认最终执政联盟"
+          "《新报》关闭被视为俄罗斯独立新闻空间进一步收缩的标志性事件"
         ]
       },
       "source_ids": [
-        "69101f3e0b3f6d8b",
-        "f839d66725d67a8b",
-        "75357304419d2ba8"
+        "5be423e5ba737ce2",
+        "e1c742d775b28499",
+        "21b501cb52c31703"
       ],
       "sources": [
         {
-          "id": "69101f3e0b3f6d8b",
+          "id": "5be423e5ba737ce2",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Russia: Critical newspaper 'Novaya Gazeta' to close",
+          "summary": "\"Novaya Gazeta,\" one of the last remaining independent, critical media outlets in Russia, has announced it is closing under pressure from state authorities. Meanwhile, in Ukraine, evacuations have begun in Oleshky.",
+          "url": "https://www.dw.com/en/russia-critical-newspaper-novaya-gazeta-to-close/a-79805693?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-30T11:09:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "e1c742d775b28499",
+          "source": "Al Jazeera",
+          "source_tier": 2,
+          "source_region": "middle-east",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Russia ‘forces’ closure of investigative newspaper Novaya Gazeta",
+          "summary": "A symbol of independent journalism, Novaya Gazeta has been classed as a 'foreign agent' by Moscow.",
+          "url": "https://www.aljazeera.com/news/2026/10/30/russia-forces-closure-of-investigative-newspaper-novaya-gazeta?traffic_source=rss",
+          "published_at": "2026-10-30T11:08:00+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        },
+        {
+          "id": "21b501cb52c31703",
           "source": "BBC World",
           "source_tier": 2,
           "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-          "summary": "With 93% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
-          "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-29T11:22:18+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "f839d66725d67a8b",
-          "source": "NPR World",
-          "source_tier": 2,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "world",
-          "title": "GDP report to give insight before Election Day. And, Israel's election is deadlocked",
-          "summary": "Economists expect the GDP report to show economic growth, but say that growth is \"fragile.\" And, after 90% of the votes in Israel have been counted, no clear winner has emerged.",
-          "url": "https://www.npr.org/2026/10/29/g-s1-150614/up-first-newsletter-midterm-elections-gdp-inflation-israel-department-of-education-lawsuit",
-          "published_at": "2026-10-29T11:34:30+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "75357304419d2ba8",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Israel’s election rhetoric: What candidates said, and how they performed",
-          "summary": "From Netanyahu to Ben-Gvir, campaign boasts and attacks on Arab parties have been met with a deadlocked result.",
-          "url": "https://www.aljazeera.com/news/2026/10/29/israels-election-what-the-candidates-said-and-how-they-did?traffic_source=rss",
-          "published_at": "2026-10-29T11:27:22+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "world",
-      "title": "伊朗局势升温：万斯致信伊朗安全负责人，特朗普警告海湾国家“做好准备”",
-      "english_term": null,
-      "summary": "据报道，美国副总统万斯致信伊朗安全负责人雷扎伊，推动尽快重启和谈，与此同时特朗普警告海湾国家需要“做好准备”。",
-      "script": "中东方向也传出值得关注的外交动态。据报道，美国副总统万斯向伊朗安全负责人雷扎伊致信，信中推动双方尽快重启和平谈判，报道称万斯将率领美方代表团参与相关接触。与此同时，美国总统特朗普对海湾国家发出警告，要求它们“做好准备”，但具体准备应对什么情况，候选信息中并未展开详细说明。这两条信息放在一起看，释放出的信号是美国在伊朗问题上同时采取了外交接触和对地区盟友预警两种动作，但目前公开报道中并没有披露万斯信件的完整内容，也没有伊朗官方对这封信的正式回应，特朗普所说的“准备”具体所指也不够明确。从分析角度看，这种双线操作在美国对伊朗政策中并不罕见——一边通过外交渠道释放缓和信号，一边对地区盟友保持警示姿态，以应对局势可能出现的不确定走向。但由于关键细节，比如信件原文、伊朗方面的反应、以及“准备”的具体含义均未披露，这条消息目前更多停留在新闻报道层面，具体后续进展，包括伊朗是否回应、谈判是否真正重启，都需要等待进一步官方信息确认。",
-      "duration_seconds": 105,
-      "is_unverified": true,
-      "confidence_note": "基于Al Jazeera单一来源报道，万斯信件内容及伊朗官方回应均未获得独立信源确认，关键细节不明确。",
-      "fact_status": {
-        "confirmed": [],
-        "claims": [
-          "报道称万斯致信伊朗安全负责人雷扎伊，推动重启和谈",
-          "报道称特朗普警告海湾国家需要做好准备"
-        ],
-        "analysis": [
-          "美国对伊朗可能同时采取外交接触与地区预警两种策略，但具体意图和后续走向需要等待官方信息进一步明确"
-        ]
-      },
-      "source_ids": [
-        "7c87a61133f9059f"
-      ],
-      "sources": [
-        {
-          "id": "7c87a61133f9059f",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "What we know of Vance’s letter to Rezaei, as Trump warns Gulf to ‘prepare’",
-          "summary": "Letter to Iran's security chief reportedly pushes for swift return to peace talks, with Vance leading US delegation.",
-          "url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-of-vances-letter-to-rezaei-as-trump-warns-gulf-to-prepare?traffic_source=rss",
-          "published_at": "2026-10-29T11:41:44+00:00",
+          "title": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
+          "summary": "Several hundred people are understood to have decided to stay in the frontline town, despite the lack of gas, electricity and running water.",
+          "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-30T11:17:32+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -365,153 +356,118 @@
     },
     {
       "category": "finance",
-      "title": "欧洲央行行长拉加德提前卸任，大众汽车第三季度巨亏近60亿欧元",
-      "english_term": null,
-      "summary": "欧洲央行行长拉加德宣布将于明年二月提前卸任，任期尚未届满；同时德国大众汽车集团公布第三季度亏损约58亿欧元，受到来自中国车企的竞争压力。",
-      "script": "欧洲方面传来两条重要财经消息。第一条，欧洲央行行长拉加德宣布将于明年二月卸任，比她原定八年任期提前大约九个月。欧洲理事会主席科斯塔证实，继任人选的遴选程序已经启动。拉加德的任期内经历了疫情冲击、通胀飙升和持续的加息周期，她的提前离任会给欧洲央行的货币政策连续性带来一定的不确定性，市场和欧盟各国政府接下来会密切关注继任人选的政策倾向。第二条消息来自德国制造业龙头大众汽车集团，公司公布第三季度出现约58亿欧元的巨额亏损。报道将这一亏损与来自中国车企日益激烈的市场竞争联系在一起，这也延续了近两年欧洲传统车企在电动化转型和价格战中普遍承压的局面。大众作为德国最大的汽车制造商，其财务表现往往被视为德国乃至欧洲制造业景气程度的风向标之一，近60亿欧元的季度亏损规模说明这家传统巨头在转型过程中面临的压力相当沉重。与此同时，德国总理默茨正在结束他的亚洲访问行程，最后一站是韩国，这次出访的背景也和欧洲车企应对亚洲市场竞争、寻求产业链合作不无关系。这两条消息放在一起，勾勒出当前欧洲在货币政策领导层交接和实体经济竞争压力上同时面临的双重挑战。后续需要关注欧洲央行继任人选公布的时间，以及大众汽车后续财报和转型战略的调整情况。",
+      "title": "谷歌AI搜索摘要冲击广告收入，股价市值蒸发约5000亿美元",
+      "english_term": "AI Overview（AI搜索摘要，指搜索引擎在结果页顶部直接生成答案摘要的功能）",
+      "summary": "谷歌披露其AI搜索摘要功能正在影响广告点击和收入，导致投资者恐慌性抛售，股价创六个月新低，市值蒸发约5000亿美元。",
+      "script": "金融市场方面，谷歌股价遭遇重挫。据BBC报道，谷歌披露其自家的AI搜索摘要功能正在影响广告销售收入，这一消息令投资者极度担忧，导致公司股价跌至六个月来的最低点，市值蒸发约5000亿美元。这里的AI搜索摘要，指的是谷歌在搜索结果页面顶部直接生成的文字摘要答案，用户不需要点击进入具体网页就能获取信息。这项功能原本是谷歌为应对ChatGPT等生成式AI产品冲击、留住搜索用户而推出的防御性功能，但其商业逻辑上的矛盾也随之显现：谷歌的核心收入来源是搜索广告，广告收入高度依赖用户点击进入网页，而AI摘要恰恰减少了用户点击外部链接的必要性，直接动摇了谷歌最赚钱的商业模式根基。这次股价暴跌，反映出投资者开始认真评估这种左右互搏的风险是否会实质性侵蚀谷歌的广告收入增量。从行业角度看，这也是整个搜索引擎行业在生成式AI浪潮下面临的共性难题：如何在用AI留住用户体验的同时，不破坏自身原有的商业变现路径。目前谷歌官方披露的信息集中在确认AI摘要功能对广告收入产生了影响，具体影响的量级和未来的应对策略并未详细说明。后续需要关注谷歌下一财季财报中广告业务具体数据的变化，以及公司是否会调整AI摘要功能的呈现方式来平衡用户体验与广告收入。",
       "duration_seconds": 130,
       "is_unverified": false,
-      "confidence_note": "基于DW两条独立报道交叉确认，均为官方公告或公司财报数据。",
+      "confidence_note": "来自BBC的一手财经报道，涉及公司自身披露信息，属于较高可信度的一手信息。",
       "fact_status": {
         "confirmed": [
-          "拉加德宣布将于明年二月提前卸任欧洲央行行长职务",
-          "大众汽车公布第三季度亏损约58亿欧元"
+          "谷歌披露AI搜索摘要功能正在影响广告销售收入，公司股价跌至六个月新低，市值蒸发约5000亿美元"
         ],
-        "claims": [
-          "报道将大众汽车亏损归因于来自中国车企的竞争压力"
-        ],
+        "claims": [],
         "analysis": [
-          "欧洲央行领导层提前更替可能为货币政策连续性带来不确定性，大众巨额亏损反映欧洲传统车企电动化转型压力持续加剧"
+          "此事反映搜索引擎行业在AI摘要功能与广告商业模式之间的内在矛盾"
         ]
       },
       "source_ids": [
-        "bb960d5eee58cba4",
-        "4395f0273792e95e"
+        "897d9c8df970350c"
       ],
       "sources": [
         {
-          "id": "bb960d5eee58cba4",
-          "source": "DW Top Stories",
+          "id": "897d9c8df970350c",
+          "source": "BBC World",
           "source_tier": 2,
-          "source_region": "eu",
+          "source_region": "uk",
           "language": "en",
           "category_hint": "world",
-          "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
-          "summary": "European Central Bank (ECB) President Christine Lagarde is to resign nine months ahead of the end of her 8-year term. European Council President Antonio Costa has said the process to find a successor is underway.",
-          "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-29T10:33:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "4395f0273792e95e",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Germany news: Volkswagen posts 3rd quarter losses of nearly €6 billion amid competition from China",
-          "summary": "Germany's largest car maker reported third quarter losses of €5.8 billion as its major financial struggles continue. And Chancellor Friedrich Merz concludes his tour of Asia with a visit to South Korea. DW has more.",
-          "url": "https://www.dw.com/en/germany-news-volkswagen-posts-3rd-quarter-losses-of-nearly-€6-billion-amid-competition-from-china/live-79792915?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-29T10:37:00+00:00",
+          "title": "Google value plunges by $500bn as its own AI search hits ad sales",
+          "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
+          "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-30T12:04:02+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "science",
-      "title": "NASA“阿尔忒弥斯三号”火箭核心级与助推器完成对接",
-      "english_term": "SLS（Space Launch System，太空发射系统，NASA为深空探测任务研制的重型运载火箭）",
-      "summary": "NASA“阿尔忒弥斯三号”任务的SLS火箭核心级已在肯尼迪航天中心与两枚固体助推器完成对接组装，标志着该任务硬件集成进入新阶段。",
-      "script": "最后来看航天领域的一则进展。NASA公布消息称，“阿尔忒弥斯三号”任务所使用的SLS太空发射系统核心级，已经在肯尼迪航天中心的飞行器组装大楼内，与两枚固体火箭助推器完成了对接组装。这枚核心级箭体长度达到212英尺，技术人员使用了专门设计的吊装横梁，将其从组装大楼的另一个高位工作区转移并吊装到位。这项工作标志着阿尔忒弥斯三号任务的火箭硬件集成进入了新的阶段，阿尔忒弥斯三号任务被视为重返月球计划中的关键一步，目标是实现宇航员重新登陆月球表面。与此同时，NASA还公布了另一则人事消息：阿尔忒弥斯二号任务指令长、退役美国海军上校里德·怀斯曼，被加州理工学院任命为副校长，同时兼任NASA喷气推进实验室（JPL）副主任，喷气推进实验室是NASA在机器人与深空探测领域的核心研究机构之一。此外，越南正式签署了“阿尔忒弥斯协定”，成为第78个签约国，这份协定旨在为各国和平、透明、负责任地开展空间探索确立共同原则。这几条消息共同反映出当前阿尔忒弥斯探月计划在硬件集成、人事安排和国际合作三条线上都在稳步推进。后续需要关注SLS火箭整体组装完成的时间节点，以及阿尔忒弥斯三号任务最终的发射窗口安排。",
-      "duration_seconds": 125,
-      "is_unverified": false,
-      "confidence_note": "基于NASA官方一手信息发布，信息来源可靠。",
+      "category": "finance",
+      "title": "朝鲜相关黑客攻击致币安暂停交易",
+      "english_term": null,
+      "summary": "加密货币交易所币安因疑似遭朝鲜关联黑客攻击而暂停交易，用户暂时无法在平台上进行交易，事件仍在调查中。",
+      "script": "一条金融与网络安全交叉的新闻：加密货币交易所币安宣布暂停交易，原因是遭遇一起疑似与朝鲜有关联的黑客攻击。据德国之声报道，这次安全事件导致平台用户暂时无法进行交易，目前相关入侵事件仍在调查当中。朝鲜关联黑客组织此前已多次被指控针对全球加密货币交易所发动攻击，并借此获取资金，这类攻击通常会被西方安全机构和相关执法部门视为朝鲜规避国际制裁、获取外汇收入的重要渠道之一。对于币安这样体量的全球头部加密货币交易平台而言，一旦交易系统被攻破或存在安全隐患，不仅会造成直接的资金损失风险，也会动摇用户对平台安全性的信任，进而对整个加密货币市场的流动性和价格产生连锁反应。不过目前公开信息还比较有限，关于此次攻击的具体手法、涉及金额、受影响用户范围等细节，币安官方尚未完全披露，是否最终坐实与朝鲜方面有关联，也需要等待更深入的技术调查和执法部门的正式结论。这类事件也再次把加密货币行业长期存在的安全隐患问题摆上台面。后续需要关注币安官方公布的具体调查结果，以及交易恢复的具体时间安排。",
+      "duration_seconds": 110,
+      "is_unverified": true,
+      "confidence_note": "事件仍处于调查阶段，朝鲜关联的具体证据尚未完全披露，标记为未完全证实，需等待官方调查结论。",
       "fact_status": {
         "confirmed": [
-          "阿尔忒弥斯三号SLS核心级已与两枚固体助推器完成对接组装",
-          "里德·怀斯曼被任命为Caltech副校长兼JPL副主任",
-          "越南成为第78个阿尔忒弥斯协定签约国"
+          "币安因疑似遭黑客攻击而暂停交易"
         ],
-        "claims": [],
+        "claims": [
+          "此次攻击疑似与朝鲜有关联"
+        ],
         "analysis": [
-          "硬件集成进展、人事任命与国际协定签署共同反映阿尔忒弥斯探月计划在多条战线上持续推进"
+          "若证实属实，将延续朝鲜关联黑客针对加密货币行业的攻击模式，事件可能影响市场对交易所安全性的信任"
         ]
       },
       "source_ids": [
-        "e16a13d31975c083",
-        "2c8663f20569222d",
-        "65ebb0aa9f9cf816"
+        "1712b90d4c7758e1"
       ],
       "sources": [
         {
-          "id": "e16a13d31975c083",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
+          "id": "1712b90d4c7758e1",
+          "source": "DW Top Stories",
+          "source_tier": 2,
+          "source_region": "eu",
           "language": "en",
-          "category_hint": "science",
-          "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
-          "summary": "NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s High Bay 3 at NASA’s Kennedy Space Center in Florida. Technicians lifted the 212-foot rocket stage from the facility’s High Bay 2 using a one-of-a kind lifting beam designed […]",
-          "url": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
-          "published_at": "2026-10-28T18:59:44+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "2c8663f20569222d",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "science",
-          "title": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
-          "summary": "Artemis II Commander Reid Wiseman has been named Caltech associate vice president and deputy director of NASA’s Jet Propulsion Laboratory in Southern California. The emeritus astronaut and retired U.S. Navy captain begins his new role at NASA’s center of excellence for robotics and deep space exploration and at Caltech, which manages JPL for NASA, on […]",
-          "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
-          "published_at": "2026-10-29T02:49:59+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "65ebb0aa9f9cf816",
-          "source": "NASA",
-          "source_tier": 1,
-          "source_region": "us",
-          "language": "en",
-          "category_hint": "science",
-          "title": "NASA Welcomes Vietnam as Newest Artemis Accords Signatory",
-          "summary": "The Socialist Republic of Vietnam became the 78th nation to sign the Artemis Accords, joining a growing coalition of like-minded nations committed to the peaceful, transparent, and responsible exploration of space. “Vietnam is joining at an important point in the development of its own space program,” said NASA Deputy Administrator Matt Anderson in recorded remarks […]",
-          "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
-          "published_at": "2026-10-28T21:50:01+00:00",
+          "category_hint": "world",
+          "title": "Binance crypto exchange suspends trades over North Korea-linked hack",
+          "summary": "Crypto platform Binance has suspended trading following a suspected hack now linked to North Korea. The disruption has left users unable to trade on the cryptocurrency platform while the suspected breach is investigated.",
+          "url": "https://www.dw.com/en/binance-crypto-exchange-suspends-trades-over-north-korea-linked-hack/a-79803280?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-30T11:47:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "欧洲央行继任人选的遴选结果、以色列大选最终组阁进展、以及阿尔忒弥斯三号任务后续硬件集成节奏，都值得继续关注。机器人产业方面，北美订单回暖能否延续、以及世界模型可靠性问题是否会有更多研究跟进，也是后续值得留意的方向。",
-  "editor_note": "本期机器人内容共6条，时长合计约1040秒，占全部约1575秒的66%左右，为保证单日高质量候选覆盖对该比例做了适度突破；其余候选中体育类（如孙兴慜）、阿拉斯加选举调查、冈比亚大学生抗议等因重要性或信息完整度有限未予选用。西班牙两起火车事故相关报道因与机器人无直接关联且信息已有NPR/BBC独立交叉确认但受时长限制未展开为独立story，仅作为背景考量未纳入正文。部分机器人类候选（如Kawasaki Corleo四足机器人、Delta机械臂对比文章、滑冰训练缆绳机器人控制器研究）因信息量有限、来源单一或更偏产品介绍性质，未单独成稿，仅保留在筛选记录中。",
+  "closing": "今天的内容就到这里。机器人产业在政策保护与资本加码双重推动下持续升温，学术界也在灵巧操作、人形机器人控制和足式机器人感知等方向密集产出新成果；国际政治方面，以色列组阁僵局与俄罗斯独立媒体空间收缩值得持续关注。后续需要等待相关论文完成同行评审、交易完成正式文件披露以及各方调查结论公布。",
+  "editor_note": "本次修订移除了2026机器人手册综述条目以调整机器人类时长占比至约50%，其余事件与source_ids均保持不变；预印本内容均已标注未经同行评审，国际政治部分优先选取有至少两个独立二级来源交叉确认的事件，单一来源的币安黑客事件标记为未完全证实。",
   "model": "claude-sonnet-5",
+  "generation_usage": [
+    {
+      "input_tokens": 9173,
+      "output_tokens": 10218,
+      "total_tokens": 19391
+    },
+    {
+      "input_tokens": 12071,
+      "output_tokens": 8807,
+      "total_tokens": 20878
+    }
+  ],
   "usage": {
-    "input_tokens": 8671,
-    "output_tokens": 9975,
-    "total_tokens": 18646
+    "output_tokens": 19025,
+    "total_tokens": 40269,
+    "input_tokens": 21244
   },
-  "generated_at": "2026-10-29T12:15:15+00:00",
-  "window_start": "2026-10-28T12:15:15+00:00",
-  "candidate_count": 188,
+  "generated_at": "2026-10-30T12:11:35+00:00",
+  "window_start": "2026-10-29T12:11:35+00:00",
+  "candidate_count": 383,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
+  "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1235,
-    "script_characters": 4834,
-    "topic_duration_share": 0.522,
+    "duration_seconds": 1210,
+    "script_characters": 4706,
+    "topic_duration_share": 0.591,
     "passed": true,
     "normal_target_met": true,
-    "topic_source_count": 2,
+    "topic_source_count": 3,
     "issues": []
   }
 }
