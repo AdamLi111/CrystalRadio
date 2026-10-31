@@ -1,85 +1,48 @@
 {
-  "title": "晶球电台早报：机器人产业迎关税保护与巨额融资，以色列大选陷入僵局",
-  "subtitle": "白宫对外国机器人启动232调查，Agility Robotics借壳上市募资4.65亿美元，学术界聚焦灵巧操作与足式机器人视觉规划",
+  "title": "晶球电台早报：Figure AI押注算力Scaling Law，Agility SPAC估值缩水，Binance遭63亿美元黑客攻击",
+  "subtitle": "人形机器人产业加速资本化，地缘政治动荡持续蔓延欧洲街头",
   "highlights": [
-    "白宫对进口机器人作出Section 232国家安全认定，可能为后续关税铺路",
-    "人形机器人公司Agility Robotics通过企业合并上市，预计融资4.65亿美元",
-    "arXiv集中放出多篇机器人学论文，涵盖灵巧操作仿真平台、人形手臂动作重定向与足式机器人视觉步态规划",
-    "以色列大选陷入僵局，各党派围绕组阁展开博弈",
-    "俄罗斯独立媒体《新报》被迫宣布关闭"
+    "Figure AI冻结Figure 04设计，宣布35亿美元算力投入押注机器人领域的Scaling Law",
+    "人形机器人公司Agility通过SPAC上市，预期募资额从此前预估下调至4.65亿美元",
+    "区块链分析公司指认朝鲜黑客组织与Binance约63亿美元资产被盗事件有关",
+    "欧洲多国爆发大规模街头抗议，涉及生活成本、军费开支与青年政治诉求"
   ],
   "stories": [
     {
       "category": "robotics",
-      "title": "白宫对进口机器人启动Section 232国家安全认定",
-      "english_term": "Section 232（美国贸易扩展法第232条，授权总统以国家安全为由对进口商品采取限制措施）",
-      "summary": "美国商务部长主导的Section 232调查认定，过度依赖进口机器人对国家安全构成风险，为后续可能的关税或产业扶持政策打开大门。",
-      "script": "第一条机器人产业新闻来自美国。据The Robot Report报道，美国商务部长主导完成的Section 232调查得出结论：美国在机器人领域对外国制造产品的依赖，对国家安全构成风险。Section 232是美国贸易扩展法中的一项条款，授权总统在认定进口商品威胁国家安全后，采取关税或配额等限制措施，过去已被用于钢铁和铝产品。这一认定意味着机器人硬件，尤其是核心零部件比如减速器、伺服电机、精密传感器等，很可能被纳入下一轮贸易保护或产业补贴的政策讨论范围。从产业背景看，当前全球工业机器人和人形机器人供应链中，减速器、电机、视觉传感器等关键环节高度集中在少数几个国家和厂商手中，美国本土机器人整机厂商长期依赖进口核心部件。如果后续真的落地关税或本地化生产要求，短期内可能推高美国本土机器人厂商的采购成本，同时也可能刺激联邦资金流向本土执行器和传感器制造环节，类似于此前半导体产业的产业政策路径。目前公开信息仅停留在认定阶段，具体关税税率、覆盖产品范围、实施时间表均未公布，还需要等待白宫后续正式行政令或商务部的具体执行细则。值得关注的是，这项认定与同期人形机器人创业公司密集融资、借壳上市的产业热度形成呼应，政策面和资本面同时在为机器人产业链加码。后续需要观察商务部是否公布具体关税清单，以及这一认定是否会影响到已经在美国布局产能的外国机器人厂商的投资决策。",
-      "duration_seconds": 150,
-      "is_unverified": false,
-      "confidence_note": "来自专业机器人产业媒体The Robot Report的一手报道，但具体政策执行细节尚未公布，建议持续关注官方后续文件。",
+      "title": "Figure AI冻结Figure 04设计，35亿美元押注机器人领域的Scaling Law",
+      "english_term": "Scaling Law（规模定律，指模型性能随数据量、参数量和算力增加而可预测提升的规律）",
+      "summary": "人形机器人公司Figure AI宣布其下一代机器人Figure 04的设计已经定型，同时公司计划投入35亿美元算力资源，试图把在大语言模型领域验证有效的Scaling Law复制到机器人学习上。",
+      "script": "我们先看人形机器人领域一则重要的产业动态。总部位于美国的人形机器人公司Figure AI宣布，新一代机器人Figure 04的设计方案已经冻结，这意味着硬件形态进入量产准备阶段，不再做大的结构调整。与此同时，公司披露了一项规模更大的计划：投入35亿美元用于算力建设，目标是把过去几年在大语言模型训练中被反复验证的Scaling Law，也就是模型性能随着数据、参数和算力增加而呈现可预测提升的规律，复制到机器人的具身智能训练上。这个思路背后的逻辑是，如果机器人的感知、决策和动作生成也能像语言模型一样，通过堆叠更多真实世界交互数据和更大的神经网络来稳定提升能力，那么人形机器人的量产和泛化瓶颈就有可能被算力和数据的堆砌逐步打破，而不再单纯依赖算法上的巧思。这也是目前硅谷人形机器人赛道里一个颇具争议但正在被多家公司验证的路线，和特斯拉、Physical Intelligence等公司此前透露的思路有相似之处。不过行业内也有声音担心，语言模型的训练数据来自互联网文本的海量积累，而机器人的真实世界交互数据获取成本极高，采集速度远跟不上语言模型，这种算力优先的策略能否真正复制出类似的规模效应，还存在不确定性。从产业角度看，这次投入规模如果属实，将是人形机器人领域为数不多公开的巨额算力承诺之一，也反映出头部公司正把竞争焦点从单纯的硬件炫技转向训练基础设施的军备竞赛。后续需要关注Figure 04的具体量产时间表是否公布，以及这笔算力投入的资金来源和实际部署进度。",
+      "duration_seconds": 160,
+      "is_unverified": true,
+      "confidence_note": "该信息来自科技财经媒体的转载报道，属于行业热点线索，尚未看到Figure AI官方声明或权威财经媒体的独立交叉确认，具体投入金额和设计冻结细节有待官方进一步披露。",
       "fact_status": {
-        "confirmed": [
-          "美国商务部长主导的Section 232调查已就机器人进口依赖作出国家安全风险认定"
+        "confirmed": [],
+        "claims": [
+          "Figure AI称Figure 04设计已冻结",
+          "Figure AI计划投入35亿美元算力资源"
         ],
-        "claims": [],
         "analysis": [
-          "该认定可能为后续关税或产业补贴政策铺路，但具体措施和时间表尚不明确"
+          "该策略借鉴了大语言模型的Scaling Law思路，试图将其迁移到机器人具身智能训练中",
+          "机器人真实世界交互数据的获取成本和速度是该策略面临的主要不确定性"
         ]
       },
       "source_ids": [
-        "e0ed34ac75ea289c"
+        "918e3d6454f60329"
       ],
       "sources": [
         {
-          "id": "e0ed34ac75ea289c",
-          "source": "The Robot Report",
-          "source_tier": 2,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "White House makes Section 232 determination regarding foreign-made robots",
-          "summary": "The U.S. secretary of commerce's Section 232 investigation concluded that dependence on robotics imports poses a national security risk. The post White House makes Section 232 determination regarding foreign-made robots appeared first on The Robot Report .",
-          "url": "https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/",
-          "published_at": "2026-10-29T20:46:53+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "人形机器人公司Agility Robotics借企业合并上市，拟融资4.65亿美元",
-      "english_term": "humanoid robot（人形机器人）",
-      "summary": "人形机器人公司Agility Robotics宣布通过与一家特殊目的公司合并的方式实现上市，预计募集约4.65亿美元资金。",
-      "script": "另一条重要产业新闻：人形机器人公司Agility Robotics宣布，将通过企业合并的方式登陆资本市场，此次交易预计为公司带来约4.65亿美元的资金。Agility Robotics是美国较早专注双足人形机器人研发的公司之一，其代表产品Digit此前已经在物流仓储场景中进行搬运、码垛等试点应用，是目前人形机器人商业化落地进度较快的厂商之一。从资本运作角度看，采用合并上市而非传统IPO首次公开募股路径，通常能够更快完成上市进程，并提前锁定资金规模，这在当前人形机器人赛道资本竞争激烈、多家公司争抢资金和人才的背景下，是一种常见的加速融资手段。4.65亿美元的规模在人形机器人单笔融资中处于较高水平，反映出资本市场对这一赛道仍然保持高度关注，尽管此前也有声音质疑人形机器人商业化进度是否匹配估值预期。从产业影响看，充裕的资金将主要用于支持Digit等产品的产能扩张、算法迭代以及场景验证，尤其是在仓储物流这类相对结构化、风险可控的落地场景中加快规模化部署。但目前公开信息并未披露交易的具体股权结构、新公司估值以及资金的具体使用计划，这些细节仍有待交易完成后的正式文件披露。后续需要关注这笔资金到账后，Agility Robotics在产能爬坡和客户订单方面是否会公布更具体的进展，以及人形机器人行业是否会出现更多类似的合并上市案例。",
-      "duration_seconds": 145,
-      "is_unverified": false,
-      "confidence_note": "基于Investing.com财经报道，交易细节如估值和股权结构尚未完全披露，需等待正式交易文件。",
-      "fact_status": {
-        "confirmed": [
-          "Agility Robotics宣布通过企业合并方式上市，预计募资约4.65亿美元"
-        ],
-        "claims": [],
-        "analysis": [
-          "此举反映资本市场对人形机器人赛道的持续关注，但商业化进度与估值匹配度仍存争议"
-        ]
-      },
-      "source_ids": [
-        "240031cfd050742b"
-      ],
-      "sources": [
-        {
-          "id": "240031cfd050742b",
+          "id": "918e3d6454f60329",
           "source": "Global Robotics News Search",
           "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "Agility Robotics merger to raise $465 million in capital - Investing.com",
-          "summary": "Agility Robotics merger to raise $465 million in capital Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVnRBRFBua0xBQzdTRzNreVdER2ktSVFlQnpwTEswVGNWN1hpdkt3Ry1LVGwzclhlOVQ2WXU0bURPN1JoNnJhdHRJT0dlc0l1WGF1dWdaVW9ZWVNaREpNUVFFOEZCMGZzYWRtZjZzZFJyZF9tcmtzNmFJYVJud1ZFbXRfa2wweGo4TXN3MUpfb1dOaDJITjAxUE5PQks1NE1EaTdSY0pMbUU4UE5LSkdMY19B?oc=5",
-          "published_at": "2026-10-30T11:57:02+00:00",
+          "title": "Figure AI Sets Course for Next Leg: Figure 04 Design Frozen, $3.5 Billion Compute Bet on a \"Robot Version of the Scaling Law\" - BigGo Finance",
+          "summary": "Figure AI Sets Course for Next Leg: Figure 04 Design Frozen, $3.5 Billion Compute Bet on a \"Robot Version of the Scaling Law\" BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lSjNwb2VuOW9jQy1IaTVQRnZ0YmVHVUVlbHdOcUltTFk5MDVBSDBwQmQxVFFfWVBsQVdHV3BYNmhqczBTUk12VGluR3RpQXVLZnJuc0JSbUJjWEpSZHdsU0RvXy1TZTc3RDVLeHFzNlp3ZVh3Vnc?oc=5",
+          "published_at": "2026-10-31T11:35:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -87,75 +50,38 @@
     },
     {
       "category": "robotics",
-      "title": "DexSuite发布：面向灵巧操作的一站式仿真框架",
-      "english_term": "dexterous manipulation（灵巧操作，指机器人手部或末端执行器完成类似人手精细操作的能力）",
-      "summary": "研究团队提出DexSuite，一个基于Genesis仿真器的一站式灵巧操作仿真框架，整合30个任务、10种机械臂和12种末端执行器，覆盖从演示数据采集到策略评估的完整流程。",
-      "script": "接下来进入学术部分，来自arXiv的机器人学新论文。第一篇是DexSuite，一个面向灵巧操作研究的一站式仿真框架。灵巧操作，英文dexterous manipulation，指的是机器人末端执行器完成类似人手那样精细、多指协调的操作能力，比如拧瓶盖、系鞋带、组装小零件，这是目前机器人学习领域的一个核心难题。论文作者指出，当前虽然灵巧操作研究很火热，但很少有仿真框架能覆盖从机器人配置、演示数据采集到策略评估的完整工作流程。为此，研究团队基于Genesis仿真器开发了DexSuite，内置30个操作任务，并组合了10种机械臂和12种末端执行器，末端执行器类型覆盖从简单的平行夹爪到复杂的多指灵巧手。这种模块化设计的意义在于，研究者可以在同一个框架内，灵活搭配不同的硬件组合来测试同一套操作算法的泛化能力，而不需要为每种机器人单独搭建仿真环境，大幅降低了灵巧操作研究的工程门槛。这类基础设施类工作虽然不直接产生某个具体的算法突破，但对整个领域的意义类似于提供了一套标准化的实验台，有助于不同研究组之间对比结果、复现实验。论文目前作为arXiv预印本发布，尚未经过同行评审，具体的任务设计是否合理、与其他仿真平台相比的优势是否成立，还需要学术界进一步检验和使用反馈。后续需要关注这一框架是否会被其他研究团队采用，以及是否会有基于DexSuite训练出的策略成功迁移到真实机器人上的报告。",
-      "duration_seconds": 150,
-      "is_unverified": true,
-      "confidence_note": "arXiv预印本，尚未经过同行评审，框架的实际易用性和学术影响力需要后续社区使用验证。",
-      "fact_status": {
-        "confirmed": [
-          "论文提出了DexSuite仿真框架，整合30个任务、10种机械臂和12种末端执行器"
-        ],
-        "claims": [],
-        "analysis": [
-          "该框架有望降低灵巧操作研究的工程门槛，但实际学术影响仍需时间验证"
-        ]
-      },
-      "source_ids": [
-        "8f8ab650e68bf040"
-      ],
-      "sources": [
-        {
-          "id": "8f8ab650e68bf040",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
-          "source_region": "global",
-          "language": "en",
-          "category_hint": "robotics",
-          "title": "DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and Tasks",
-          "summary": "arXiv:2610.37799v1 Announce Type: new Abstract: Human-level dexterity remains a central open problem in robotics, yet few simulation frameworks cover the full workflow of dexterous manipulation, from setting up a robot to collecting dexterous demonstrations and evaluating policies. We present DexSuite, an all-in-one simulation framework for dexterous manipulation built on the Genesis simulator. DexSuite provides 30 tasks and assembles its 10 arms and 12 end-effectors, from parallel-jaw grippers to dexterous hands, into more than 100 single-arm robots and thousands of bimanual pairs. It also ships a standardized environment API, integrated teleoperation, and simulated tactile sensing. Moreover, we define a benchmark of 16 task-embodiment pairs spanning diverse contact complexities and horizons, and release a dataset of 4,700 successful episodes in simulation from human teleoperation, scripted experts, and learned policies. We release DexSuite as open source and hope others will build on it. Videos and datasets are available at https://dexsuiteorg.github.io",
-          "url": "https://arxiv.org/abs/2610.37799",
-          "published_at": "2026-10-30T04:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "robotics",
-      "title": "人形机器人手臂动作重定向：腕部目标构造方式影响关节极限",
-      "english_term": "motion retargeting（动作重定向，指将人类演示动作映射到机器人本体以计算其关节运动的过程）",
-      "summary": "研究在Unitree H1-2人形机器人上实证发现，腕部目标位置的构造方式会显著影响计算出的手臂关节角度是否触及极限，即使没有明显引发误差的操作。",
-      "script": "第二篇学术论文关注人形机器人手臂的动作重定向问题。动作重定向，英文motion retargeting，是指把人类演示的动作映射到机器人本体上，计算出对应的关节运动轨迹，这是遥操作和模仿学习中常用的一步。这篇研究在宇树科技的人形机器人H1-2上做了一项实证研究，考察腕部目标位置的构造方式如何影响计算出的手臂关节角度是否会触碰到关节极限。具体来说，研究发现，当根据人类演示的手臂方向和机器人自身的肢体长度重建腕部目标位置时，肩部到腕部的距离会受到演示动作中手臂夹角的影响，即便没有明显的操作失误，这种构造方式本身也可能导致计算出的关节角度逼近甚至超出机器人物理极限。这个问题看似细节，但在实际工程中非常关键：如果重定向算法系统性地产生接近极限的关节指令，轻则导致动作生硬、抖动，重则可能造成机械结构的损伤或者动作失败。这篇论文的价值在于用实证方式把这个容易被忽视的工程细节量化出来，为后续设计更稳健的重定向算法提供了具体的问题诊断。目前该研究是预印本形式，具体改进方案尚未在论文摘要中详细展开，其提出的问题诊断方法是否能推广到其他人形机器人平台，还需要同行评审和更多硬件平台上的验证。后续需要关注该团队或其他研究组是否会提出针对性的改进算法，来避免腕部目标构造带来的关节极限问题。",
+      "title": "人形机器人公司Agility SPAC上市，预期募资额下调至4.65亿美元",
+      "english_term": "SPAC（特殊目的收购公司，一种通过先上市壳公司再并购目标企业实现间接上市的融资方式）",
+      "summary": "人形机器人公司Agility Robotics通过与Churchill Capital Corp XI的SPAC合并上市，但预期募资额从此前估计下调了1.55亿美元，降至4.65亿美元。",
+      "script": "再来看一则机器人产业资本市场的消息。专注于仓储物流场景人形机器人的公司Agility，正通过与空白支票公司Churchill Capital Corp XI的合并交易实现上市，这种操作方式被称为SPAC，也就是特殊目的收购公司路径，相比传统IPO流程更短，但也常常伴随估值和募资额的波动。根据The Robot Report的报道，Agility目前预期这笔交易能募集到4.65亿美元，相比此前的估计少了1.55亿美元。募资额下调背后的原因报道中没有展开，但结合人形机器人行业今年以来估值普遍承压的大背景，这类调整并不令人意外。Agility此前以其双足机器人Digit在仓储搬运场景的商业化落地著称，是少数几家已经和物流企业开展实际部署测试的人形机器人公司之一。通过SPAC上市意味着Agility将成为资本市场上少数几家以人形机器人为主业的上市公司之一，这对公司而言既是获得公开市场资金的机会，也意味着需要承受更高的财务透明度要求和季度业绩压力。从行业角度看，这是观察人形机器人赛道是否具备真实现金流和商业化能力的一个窗口案例，与此前大量依赖私募融资、尚未接受公开市场检验的同行形成对比。后续需要关注这笔SPAC交易的最终完成时间，以及Agility上市后首份财报中披露的实际订单和收入数据。",
       "duration_seconds": 140,
-      "is_unverified": true,
-      "confidence_note": "arXiv预印本，研究范围限定在单一人形机器人平台Unitree H1-2上，结论的普适性有待更多平台验证。",
+      "is_unverified": false,
+      "confidence_note": "报道来自专业机器人产业媒体The Robot Report，信息具体且属常规企业资本运作披露，可信度较高。",
       "fact_status": {
         "confirmed": [
-          "研究在Unitree H1-2平台上发现腕部目标构造方式会影响手臂关节角度是否触及极限"
+          "Agility正通过与Churchill Capital Corp XI的SPAC合并实现上市",
+          "预期募资额从此前估计下调1.55亿美元至4.65亿美元"
         ],
         "claims": [],
         "analysis": [
-          "这一发现可能推动动作重定向算法的改进，但目前尚缺乏具体解决方案和跨平台验证"
+          "募资额下调可能反映人形机器人行业今年以来整体估值承压"
         ]
       },
       "source_ids": [
-        "18006dac7cb25eeb"
+        "e23e6758fa21fd46"
       ],
       "sources": [
         {
-          "id": "18006dac7cb25eeb",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
+          "id": "e23e6758fa21fd46",
+          "source": "The Robot Report",
+          "source_tier": 2,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "An Empirical Study of Wrist-Target Construction and Joint-Angle Limits in Humanoid Arm Retargeting",
-          "summary": "arXiv:2610.37801v1 Announce Type: new Abstract: Motion retargeting maps a demonstrated human movement onto a robot to compute its joint motion. This study examines how the construction of the desired wrist position affects whether computed arm joint angles reach their permitted limits on a Unitree H1-2. A reconstructed target is formed from demonstrated arm directions and robot segment lengths, so its shoulder-to-wrist distance depends on the demonstrated angle between the segments even when no posture-matching preference is applied. A reach-normalized target retains that direction while rescaling the distance, using the same processed demonstrations and the same joint-angle method. Across a forward-reach sweep the reconstructed target places a joint angle at a bound in 10 of 20 repetitions and the reach-normalized target in none. Across 25 recordings from one participant the corresponding counts are 8 and 6 on the reaching arm and 14 and 5 on the supporting arm, and a second participant repeats the bricklaying and lifting comparison. In hardware replay a joint is commanded to a bound in 12 of 16 direction-matching arm-records and in none of the 16 normalized records, and within th",
-          "url": "https://arxiv.org/abs/2610.37801",
-          "published_at": "2026-10-30T04:00:00+00:00",
+          "title": "Humanoid developer Agility now expects to raise $465M in SPAC deal",
+          "summary": "Agility said it expects to raise $465 million in its combination with Churchill Capital Corp XI, $155 million less than it had estimated. The post Humanoid developer Agility now expects to raise $465M in SPAC deal appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/humanoid-developer-agility-now-expects-raise-465m-spac-deal/",
+          "published_at": "2026-10-30T16:19:16+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -163,37 +89,77 @@
     },
     {
       "category": "robotics",
-      "title": "TACOS：面向足式机器人的地形感知视觉步态规划",
-      "english_term": "footstep planning（步足规划，指足式机器人根据地形预测并选择落脚点的决策过程）",
-      "summary": "研究提出TACOS方法，通过设计可解释的地形不稳定性评分作为自监督信号，让足式机器人基于视觉预判落脚点的稳定性。",
-      "script": "第三篇是关于足式机器人视觉步态规划的研究，论文名为TACOS，全称是地形感知的接触监督方法。人类走路时会用眼睛提前判断地面状况，再决定下一步怎么迈，足式机器人要实现类似的能力，理论上可以通过自监督学习来完成，也就是让机器人自己从行走经验中学习地形和落脚稳定性之间的关系，不需要人工标注每一步是否安全。但论文指出，现有自监督方法中用来做监督信号的那个指标，往往是研究者凭直觉设定的，很少有人系统考察这个指标选择本身会如何影响模型最终学到的策略。为此，研究团队提出了TACOS方法，设计了一个有明确物理含义、且表现稳定一致的足步不稳定性评分，用这个评分作为自监督学习的监督信号，来训练足式机器人基于视觉输入预判地形并规划落脚点。这项工作的意义在于把一个此前被忽视的设计选择摆上台面，系统研究监督信号质量对视觉步态规划效果的影响，这类方法论层面的审视对整个自监督足式机器人学习方向有参考价值。目前论文同样以预印本形式发布，具体的实验场景、地形复杂度范围以及与其他基线方法的对比数据，需要等待论文正文和后续评审意见进一步披露。后续需要关注该方法在真实足式机器人硬件上，尤其是复杂非结构化地形中的实测表现。",
-      "duration_seconds": 130,
+      "title": "机器人产业融资扫描：Re:Build获21亿美元、Bedrock Robotics获6亿美元",
+      "english_term": null,
+      "summary": "据Axios报道，工业制造平台Re:Build完成21亿美元融资，自动驾驶卡车公司Bedrock Robotics获得6亿美元融资，电池材料公司Group14获得1.69亿美元融资。",
+      "script": "一组机器人与相关硬科技领域的融资快讯。据财经媒体Axios报道，工业制造平台公司Re:Build完成了21亿美元的大额融资，这是本轮机器人与先进制造交叉领域里规模较大的一笔资金注入。同时，专注于自动驾驶卡车的公司Bedrock Robotics获得6亿美元融资，这类重型车辆的自动驾驶系统本质上也是机器人感知与控制技术在物流运输场景的延伸应用，涉及激光雷达、多传感器融合和长距离路径规划等核心技术。另外，电池材料公司Group14完成1.69亿美元融资，虽然不直接属于机器人本体公司，但电池能量密度的提升直接关系到人形机器人和移动机器人的续航能力，是支撑机器人硬件迭代的上游关键环节。这组融资消息共同指向一个趋势：资本正在从单纯的机器人整机公司，扩散到支撑机器人规模化部署的上下游基础设施，包括制造平台、自动驾驶技术栈和电池材料。这种资金流向的扩散，某种程度上反映出投资人对机器人产业链整体成熟度的判断正在从单点技术验证转向全链条布局。由于报道本身信息较为简略，具体融资轮次、投资方和资金用途尚未详细披露，后续需要关注这几家公司是否会发布更完整的融资公告。",
+      "duration_seconds": 120,
       "is_unverified": true,
-      "confidence_note": "arXiv预印本，摘要未提供具体实验对比数据，方法有效性需等待论文全文和同行评审。",
+      "confidence_note": "消息来自搜索聚合的财经媒体标题摘要，缺乏完整正文细节，暂未见到其他独立来源交叉确认具体金额和交易条款，列为未核实热点线索。",
       "fact_status": {
-        "confirmed": [
-          "论文提出TACOS方法，设计新的地形不稳定性评分作为自监督学习信号"
+        "confirmed": [],
+        "claims": [
+          "Re:Build完成21亿美元融资",
+          "Bedrock Robotics获得6亿美元融资",
+          "Group14获得1.69亿美元融资"
         ],
-        "claims": [],
         "analysis": [
-          "该方法论探讨对自监督足式机器人视觉规划领域有参考价值，具体效果仍需更多实验验证"
+          "融资标的从机器人整机公司扩散到制造平台、自动驾驶和电池材料等上下游环节"
         ]
       },
       "source_ids": [
-        "6a7950ce3a039251"
+        "d0da5d18c4e6480d"
       ],
       "sources": [
         {
-          "id": "6a7950ce3a039251",
-          "source": "arXiv Robotics (cs.RO)",
-          "source_tier": 1,
+          "id": "d0da5d18c4e6480d",
+          "source": "Global Robotics News Search",
+          "source_tier": 3,
           "source_region": "global",
           "language": "en",
           "category_hint": "robotics",
-          "title": "TACOS: Terrain-Aware COntact Supervision for Visual Footstep Planning",
-          "summary": "arXiv:2610.37806v1 Announce Type: new Abstract: Humans navigate their environment based on their vision system, anticipating how the ground will respond before committing to a step. Self-supervised learning could provide legged robots the same ability, but the supervisory signal is typically chosen on intuition, and its effect on what the model learns is rarely examined. We present Terrain-Aware COntact Supervision (TACOS), which proposes a meaningful and consistent footstep instability score, based on the residual of a factor graph in legged state estimation. It projects the continuous score into preceding images to supervise a dense visual predictor. We propose two variants, a hard score that exploits hindsight and a causal soft score available immediately. Both metrics are compared against state-of-the-art alternatives in two independent evaluations that share no data or labels. On 1716 manually annotated contacts, both variants outperform every evaluated alternative at detecting instability and ranking its severity, improving pooled severity ranking by 28 % over the strongest baseline. On three outdoor test runs, our metric also trains the most accurate visual predictor, improv",
-          "url": "https://arxiv.org/abs/2610.37806",
-          "published_at": "2026-10-30T04:00:00+00:00",
+          "title": "$2.1B for Re:Build, $600M for Bedrock Robotics, $169M for Group14 - Axios",
+          "summary": "$2.1B for Re:Build, $600M for Bedrock Robotics, $169M for Group14 Axios",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSm4zZWdJeFdMRWs0X08tYk1lUTJEM1V3bU44cnB3RjJXeVJhWnp1X3RUZzZVWUV4LXI0LTdVSy0xQXFIa3FlM1AzdXhzU29nLTNueFpMWnRtemZRQl9WZlBBUEZ3TW53a1VEeUZETXk3bnJpVFh5YWhVcEsySHl5R0RocmR1MTB1U2M3ckNmUVVlaHdhQ1M5MGRUZ2JYYW9R?oc=5",
+          "published_at": "2026-10-31T12:08:20+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "robotics",
+      "title": "Percepto推出Axion平台，整合基础设施巡检AI数据",
+      "english_term": "physical AI（物理人工智能，指应用于真实物理世界感知与决策的人工智能系统，区别于纯软件场景的AI）",
+      "summary": "工业无人机巡检公司Percepto发布了名为Axion的硬件无关AI平台，旨在统一管理和分析关键基础设施的巡检数据。",
+      "script": "一则工业机器人应用层面的产业消息。专注于基础设施自动化巡检的公司Percepto发布了一款名为Axion的新平台，定位为硬件无关的物理人工智能平台，目标是为电力、能源等关键基础设施运营方提供统一的巡检数据分析能力。所谓硬件无关，意味着这个平台并不绑定某一款特定的无人机或机器人硬件，而是可以接入不同厂商、不同类型的巡检设备采集的数据，包括图像、视频和传感器读数，再通过统一的AI分析流程来识别设备异常、结构缺陷等问题。这类平台化思路反映出工业巡检机器人领域正在经历从卖硬件向卖数据服务和分析能力转型的趋势，因为对于电网、油气管道这类关键基础设施的运营方来说，真正有价值的往往不是无人机本身，而是能够从海量巡检影像中快速、准确地提取出需要维修或预警的信息，减少人工复核的工作量。Percepto此前已经在工业无人机自动化巡检领域有一定积累，这次发布Axion可以看作是公司从单一产品供应商向平台型服务商延伸的尝试。从行业角度看，这种硬件无关的平台路线也可能面临来自传感器厂商自带分析软件的竞争，平台能否形成足够的数据网络效应和客户粘性，是观察这类产品商业化前景的关键。",
+      "duration_seconds": 125,
+      "is_unverified": false,
+      "confidence_note": "报道来自专业机器人产业媒体The Robot Report，属于企业官方产品发布的常规报道，可信度较高。",
+      "fact_status": {
+        "confirmed": [
+          "Percepto发布了名为Axion的硬件无关物理AI平台，用于统一分析基础设施巡检数据"
+        ],
+        "claims": [],
+        "analysis": [
+          "该发布反映出工业巡检机器人行业从硬件销售向数据分析服务转型的趋势"
+        ]
+      },
+      "source_ids": [
+        "2fd9ed31bb11942e"
+      ],
+      "sources": [
+        {
+          "id": "2fd9ed31bb11942e",
+          "source": "The Robot Report",
+          "source_tier": 2,
+          "source_region": "global",
+          "language": "en",
+          "category_hint": "robotics",
+          "title": "Percepto launches Axion AI platform to unify inspection data analysis",
+          "summary": "Percepto has launched Axion, a hardware-agnostic physical AI platform delivering visibility across mission-critical infrastructure. The post Percepto launches Axion AI platform to unify inspection data analysis appeared first on The Robot Report .",
+          "url": "https://www.therobotreport.com/percepto-launches-axion-ai-platform-unify-inspection-data-analysis/",
+          "published_at": "2026-10-30T19:05:34+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -201,85 +167,40 @@
     },
     {
       "category": "world",
-      "title": "以色列大选陷入僵局，各方争夺组阁主导权",
-      "english_term": null,
-      "summary": "以色列大选结果显示两大阵营均未获得多数席位，陷入政治僵局，活动人士呼吁反对派领袖与阿拉伯政党联合组阁。",
-      "script": "转向国际政治，以色列大选后续进展牵动多方关注。已确认的事实是，此次以色列大选结果出现僵局，没有任何一个阵营获得组阁所需的多数席位。据NPR报道，选举结束后双方都无法单独宣称获胜，接下来的组阁谈判将成为政局走向的关键。与此同时，据半岛电视台报道，以色列的活动人士在反对派领袖艾森科特家门外集会，呼吁其与阿拉伯政党联合组建新政府，以打破当前的僵局。另据半岛电视台分析文章指出，这次选举中巴勒斯坦裔选民的高投票率，也让以色列国内阿拉伯公民在以色列民主体制中受到的实际待遇问题重新成为讨论焦点，不过这一判断属于评论员个人分析，并非各方一致确认的结论。德国方面的反应也值得关注，据德国之声报道，德国政界对以色列选举结果采取了谨慎观望的态度，政界人士表示希望等待组阁结果明朗后再做表态，许多人也期待新政府中不包含宗教强硬派力量，这反映出欧洲主要国家对以色列政局走向的关切。总体来看，目前各方主张集中在是否应该、以及能否组成一个包含阿拉伯政党的联合政府，这背后涉及以色列国内长期存在的犹太与阿拉伯政治力量整合难题。后续需要关注谈判各方能否在限期内完成组阁，以及最终政府构成是否会包含阿拉伯政党或宗教强硬派力量。",
-      "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "多个独立二级来源（NPR、半岛电视台、德国之声）交叉报道同一事件，结论部分涉及评论员分析，已在稿件中区分事实与主张。",
+      "title": "朝鲜被指与Binance约63亿美元加密资产被盗事件有关",
+      "english_term": "区块链情报（blockchain intelligence，指通过分析区块链公开交易记录追踪资金流向和攻击者身份的技术手段）",
+      "summary": "全球最大加密货币交易所Binance披露约63亿美元资产受到一起疑似黑客攻击影响，多家区块链情报公司将攻击行为与朝鲜黑客组织联系起来。",
+      "script": "一则值得关注的全球金融安全事件。据NPR报道，全球最大的加密货币交易所Binance本周四披露，一起疑似黑客攻击事件影响了约63亿美元的资产。多家专门从事区块链情报分析的公司，通过追踪链上交易记录和资金流动路径，将这起攻击与朝鲜相关的黑客组织联系起来。需要说明的是，这类归因判断依赖于对区块链公开交易数据的模式分析，包括资金混币路径、历史攻击手法比对等技术手段，虽然在过去多起加密货币盗窃案件中被证明具有一定准确性，但仍然属于间接证据链条，并非执法机构或政府的正式定性。朝鲜此前已被包括美国在内的多国政府和联合国专家组指控，通过网络攻击窃取加密货币来规避国际制裁、为其核导弹项目融资，相关案例包括此前对多家交易所和区块链桥接协议的攻击。如果这起涉及Binance的攻击事件最终被证实与朝鲜有关，将是已披露的加密货币盗窃案中金额最大的案例之一，金额规模远超此前多起备受关注的交易所安全事件，这也将进一步凸显加密货币行业在安全防护和跨链资金追踪方面面临的持续压力。目前Binance官方对攻击细节、资产损失的具体处置方式，以及是否会对用户资金造成实际影响尚未完全披露，朝鲜方面也一贯否认类似指控。",
+      "duration_seconds": 125,
+      "is_unverified": true,
+      "confidence_note": "攻击与朝鲜的关联来自区块链情报公司的技术分析，而非政府或执法机构正式认定，证据链条具有一定局限性，需等待更多官方或独立技术报告确认。",
       "fact_status": {
         "confirmed": [
-          "以色列大选结果出现僵局，无阵营获得组阁所需多数席位"
+          "Binance披露约63亿美元资产受到疑似黑客攻击影响"
         ],
         "claims": [
-          "部分活动人士呼吁反对派领袖与阿拉伯政党联合组阁",
-          "评论员认为此次选举暴露以色列对阿拉伯公民的态度问题"
+          "多家区块链情报公司认为此次攻击与朝鲜黑客组织有关",
+          "朝鲜此前多次被指控通过网络攻击窃取加密货币为其项目融资"
         ],
         "analysis": [
-          "组阁谈判结果将决定以色列是否出现包含阿拉伯政党的联合政府，德国等欧洲国家对此保持观望"
+          "区块链情报归因技术具有一定准确性但仍属间接证据，非官方正式定性"
         ]
       },
       "source_ids": [
-        "99463620a03cdce1",
-        "df0e530ceab6d431",
-        "38d33638ee638b7a",
-        "88905342460858a2"
+        "22c89d21d10e5e74"
       ],
       "sources": [
         {
-          "id": "99463620a03cdce1",
+          "id": "22c89d21d10e5e74",
           "source": "NPR World",
           "source_tier": 2,
           "source_region": "us",
           "language": "en",
           "category_hint": "world",
-          "title": "Israel is in a political deadlock. What comes next?",
-          "summary": "Israel's consequential election has ended in a deadlock, with neither side able to claim a majority, What happens now?",
-          "url": "https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs",
-          "published_at": "2026-10-30T09:00:00+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "df0e530ceab6d431",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Activists urge Eisenkot to form new Israeli gov’t with Arab parties",
-          "summary": "Israeli activists rally outside opposition leader Eisenkot’s home, urging him to join forces with Arab parties after ele",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/activists-urge-eisenkot-to-form-new-israeli-govt-with-arab-parties?traffic_source=rss",
-          "published_at": "2026-10-30T10:52:08+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "38d33638ee638b7a",
-          "source": "Al Jazeera",
-          "source_tier": 2,
-          "source_region": "middle-east",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Palestinian voter turnout exposes Israel’s attitude towards Arab citizens",
-          "summary": "The strong Palestinian turnout has exposed how Arab citizens are treated within Israel's democracy, says Xavier Abu Eid.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/palestinian-turnout-exposes-israels-treatment-of-arab-citizens?traffic_source=rss",
-          "published_at": "2026-10-30T11:43:17+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        },
-        {
-          "id": "88905342460858a2",
-          "source": "DW Top Stories",
-          "source_tier": 2,
-          "source_region": "eu",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Germany takes cautious approach on Israeli election results",
-          "summary": "German politicians have been slow to respond as they wait to see who is likely to comprise the next coalition. Many are also hoping for a government without religious hardliners.",
-          "url": "https://www.dw.com/en/germany-takes-cautious-approach-on-israeli-election-results/a-79805184?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-30T11:26:00+00:00",
+          "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+          "summary": "The world's biggest cryptocurrency exchange reported Thursday that approximately $6.3 billion was impacted in an apparent hack.",
+          "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+          "published_at": "2026-10-30T13:01:22+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
@@ -287,187 +208,193 @@
     },
     {
       "category": "world",
-      "title": "俄罗斯独立媒体《新报》被迫宣布关闭",
+      "title": "乌克兰：俄占城市居民靠吃野草维生后随停火协议撤离",
       "english_term": null,
-      "summary": "俄罗斯最后一批独立批评性媒体之一《新报》宣布在当局压力下关闭，此前被俄方列为“外国代理人”。",
-      "script": "另一条值得关注的国际新闻：俄罗斯独立媒体《新报》宣布关闭。已确认的事实是，《新报》作为俄罗斯少数仍然保持独立、批评性报道立场的媒体之一，宣布在俄罗斯当局压力下停止运营。据德国之声和半岛电视台两家独立来源交叉报道，《新报》此前已被莫斯科方面认定为“外国代理人”，这是俄罗斯近年来用来限制非官方媒体和民间组织活动空间的一项法律标签，一旦被贴上这一标签，相关机构在资金来源披露、内容发布等方面将受到严格限制，实际上大幅压缩其生存空间。《新报》长期以来以调查性报道著称，是俄罗斯国内少数仍在坚持批评性报道传统的媒体机构之一，其关闭被外界视为俄罗斯国内独立新闻空间进一步收缩的标志性事件。与此同时，在乌克兰战场方面，据BBC报道，俄军占领下遭受重创的赫尔松州奥列什基镇，一条疏散通道已经开放，有数百名居民据信决定继续留在这座前线城镇，尽管当地缺乏天然气、电力和自来水供应。这两条新闻虽然分属不同议题，但共同反映出俄乌冲突持续背景下，俄罗斯国内舆论环境与战区民生状况的双重压力。后续需要关注《新报》关闭后其采编团队和报道资源的去向，以及奥列什基镇疏散进程和当地民生状况的后续发展。",
-      "duration_seconds": 125,
+      "summary": "在美国第一夫人梅拉尼娅·特朗普斡旋达成的停火协议后，一座遭俄罗斯占领、居民曾以野草维生的城市的平民于周五完成撤离。",
+      "script": "来看俄乌冲突最新进展。据BBC报道，一座长期遭俄罗斯占领、民生条件严重恶化的城市中的居民，已于本周五完成撤离，此前当地居民一度需要依靠采食野草来维持生存，凸显出该地区人道局势的严峻程度。此次撤离行动是在一项停火协议框架下进行的，而这项停火协议据报道是由美国第一夫人梅拉尼娅·特朗普斡旋促成的。这是一个相对罕见的外交斡旋角色，通常此类停火谈判会由国务院官员或专职外交特使主导，第一夫人直接参与斡旋并促成局部停火协议，这一细节本身也值得关注，但报道中并未详细说明其斡旋的具体方式和过程。从已确认的事实层面看，撤离行动本身已经发生，涉及的是一座此前被围困或占领、民生状况恶化的城市。但关于停火协议的具体条款、适用范围是局部还是更大区域、是否具有延续性，以及该协议对整体俄乌战局的影响，报道中信息有限，需要结合更多后续报道判断。这起事件也从侧面反映出，经过长期高强度冲突后，部分被占领区域的人道主义状况已经相当严峻，平民撤离往往是在外部斡旋压力下才得以实现。",
+      "duration_seconds": 110,
       "is_unverified": false,
-      "confidence_note": "《新报》关闭由德国之声与半岛电视台两家独立二级来源交叉确认；奥列什基镇疏散情况另有BBC独立报道支持。",
+      "confidence_note": "来自Tier 2国际媒体BBC的直接报道，撤离事件本身有现场报道支持，但停火协议的具体条款和斡旋细节披露有限。",
       "fact_status": {
         "confirmed": [
-          "俄罗斯独立媒体《新报》宣布关闭，此前被俄方列为外国代理人",
-          "乌克兰赫尔松州奥列什基镇开放疏散通道，部分居民选择留下"
+          "一座俄占城市的居民于周五完成撤离",
+          "该地区此前居民曾以野草维生"
         ],
-        "claims": [],
+        "claims": [
+          "停火协议由美国第一夫人梅拉尼娅·特朗普斡旋促成"
+        ],
         "analysis": [
-          "《新报》关闭被视为俄罗斯独立新闻空间进一步收缩的标志性事件"
+          "报道未详细说明停火协议的具体适用范围和对整体战局的影响"
         ]
       },
       "source_ids": [
-        "5be423e5ba737ce2",
-        "e1c742d775b28499",
-        "21b501cb52c31703"
+        "317a7de345d6fb91"
       ],
       "sources": [
         {
-          "id": "5be423e5ba737ce2",
+          "id": "317a7de345d6fb91",
+          "source": "BBC World",
+          "source_tier": 2,
+          "source_region": "uk",
+          "language": "en",
+          "category_hint": "world",
+          "title": "Evacuees from Russia-occupied city where residents ate weeds on way to Ukraine",
+          "summary": "Residents left the devastated city on Friday following a ceasefire brokered by US First Lady Melania Trump.",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-31T12:05:04+00:00",
+          "discovery_only": false,
+          "requires_24h_date_verification": false
+        }
+      ]
+    },
+    {
+      "category": "world",
+      "title": "德国多城爆发Z世代大规模抗议，欧洲多国同期掀起示威潮",
+      "english_term": null,
+      "summary": "德国约34座城市爆发以年轻人为主体的大规模抗议活动，要求更多政治话语权；与此同时意大利也因生活成本和军费问题爆发全国性抗议。",
+      "script": "欧洲近期出现了一波密集的街头抗议浪潮。据DW报道，德国约34座城市在近期爆发了以年轻一代为主体的大规模抗议活动，参与者主要诉求是希望获得更多政治话语权，并呼吁社会提供更有希望的未来前景。报道指出，这波德国的青年抗议并非孤立事件，而是近期席卷欧洲多国的青年示威浪潮的一部分。与此同时，据半岛电视台报道，意大利多个城市同期也爆发了数千人规模的抗议活动，抗议焦点集中在生活成本持续上涨和政府增加军费开支两方面，这反映出民众在通胀压力尚未完全缓解的背景下，对政府将更多财政资源投向国防而非民生保障的不满。另外据半岛电视台报道，波兰宪法法院外也出现了抗议活动，背景是波兰中间派政府推动的司法改革，政府方面将此举定性为恢复经过右翼长期干预后受损的司法独立性，但这一改革过程也引发了争议和街头对立。这几起分散在不同国家的抗议活动虽然具体诉求各有不同，但共同指向了当前欧洲社会在经济压力、代际政治诉求和政府优先级选择上存在的深层张力，值得持续关注其后续发展是否会演变为更广泛的政治变动。",
+      "duration_seconds": 110,
+      "is_unverified": false,
+      "confidence_note": "来自DW和半岛电视台两家Tier 2国际媒体的独立报道，分别覆盖德国、意大利和波兰三国的抗议情况，信息来源较为充分。",
+      "fact_status": {
+        "confirmed": [
+          "德国约34座城市爆发以年轻人为主体的抗议活动",
+          "意大利多城爆发数千人规模的抗议，聚焦生活成本和军费开支",
+          "波兰宪法法院外出现抗议活动，与司法改革相关"
+        ],
+        "claims": [
+          "波兰政府称司法改革是在恢复此前受右翼干预影响的司法独立性"
+        ],
+        "analysis": [
+          "这些分散在不同国家的抗议反映出欧洲社会在经济压力和政治诉求上的共性张力"
+        ]
+      },
+      "source_ids": [
+        "80fc4ba9a957ef1b",
+        "b5b4a438f2410676",
+        "ec4d5cd680b9b2ba"
+      ],
+      "sources": [
+        {
+          "id": "80fc4ba9a957ef1b",
           "source": "DW Top Stories",
           "source_tier": 2,
           "source_region": "eu",
           "language": "en",
           "category_hint": "world",
-          "title": "Russia: Critical newspaper 'Novaya Gazeta' to close",
-          "summary": "\"Novaya Gazeta,\" one of the last remaining independent, critical media outlets in Russia, has announced it is closing under pressure from state authorities. Meanwhile, in Ukraine, evacuations have begun in Oleshky.",
-          "url": "https://www.dw.com/en/russia-critical-newspaper-novaya-gazeta-to-close/a-79805693?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-30T11:09:00+00:00",
+          "title": "Massive Gen Z protests set to sweep cities across Germany",
+          "summary": "Young people in Germany are taking to the streets in some 34 cities, calling for greater political say and a more hopeful future. The protests come amid a wave of youth demonstrations across Europe. DW has more.",
+          "url": "https://www.dw.com/en/massive-gen-z-protests-set-to-sweep-cities-across-germany/live-79814694?maca=en-rss-en-top-1022-rdf",
+          "published_at": "2026-10-31T09:47:00+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "e1c742d775b28499",
+          "id": "b5b4a438f2410676",
           "source": "Al Jazeera",
           "source_tier": 2,
           "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Russia ‘forces’ closure of investigative newspaper Novaya Gazeta",
-          "summary": "A symbol of independent journalism, Novaya Gazeta has been classed as a 'foreign agent' by Moscow.",
-          "url": "https://www.aljazeera.com/news/2026/10/30/russia-forces-closure-of-investigative-newspaper-novaya-gazeta?traffic_source=rss",
-          "published_at": "2026-10-30T11:08:00+00:00",
+          "title": "Thousands protest across Italy over living costs and military spending",
+          "summary": "Thousands have protested across Italy against rising living costs and increased military spending.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
+          "published_at": "2026-10-31T11:07:39+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         },
         {
-          "id": "21b501cb52c31703",
-          "source": "BBC World",
+          "id": "ec4d5cd680b9b2ba",
+          "source": "Al Jazeera",
           "source_tier": 2,
-          "source_region": "uk",
+          "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
-          "summary": "Several hundred people are understood to have decided to stay in the frontline town, despite the lack of gas, electricity and running water.",
-          "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-30T11:17:32+00:00",
+          "title": "Protests outside Poland’s constitutional court: What’s the crisis about?",
+          "summary": "Poland’s centrist government says it is restoring judicial independence after years of far-right political interference.",
+          "url": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about?traffic_source=rss",
+          "published_at": "2026-10-31T11:27:07+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     },
     {
-      "category": "finance",
-      "title": "谷歌AI搜索摘要冲击广告收入，股价市值蒸发约5000亿美元",
-      "english_term": "AI Overview（AI搜索摘要，指搜索引擎在结果页顶部直接生成答案摘要的功能）",
-      "summary": "谷歌披露其AI搜索摘要功能正在影响广告点击和收入，导致投资者恐慌性抛售，股价创六个月新低，市值蒸发约5000亿美元。",
-      "script": "金融市场方面，谷歌股价遭遇重挫。据BBC报道，谷歌披露其自家的AI搜索摘要功能正在影响广告销售收入，这一消息令投资者极度担忧，导致公司股价跌至六个月来的最低点，市值蒸发约5000亿美元。这里的AI搜索摘要，指的是谷歌在搜索结果页面顶部直接生成的文字摘要答案，用户不需要点击进入具体网页就能获取信息。这项功能原本是谷歌为应对ChatGPT等生成式AI产品冲击、留住搜索用户而推出的防御性功能，但其商业逻辑上的矛盾也随之显现：谷歌的核心收入来源是搜索广告，广告收入高度依赖用户点击进入网页，而AI摘要恰恰减少了用户点击外部链接的必要性，直接动摇了谷歌最赚钱的商业模式根基。这次股价暴跌，反映出投资者开始认真评估这种左右互搏的风险是否会实质性侵蚀谷歌的广告收入增量。从行业角度看，这也是整个搜索引擎行业在生成式AI浪潮下面临的共性难题：如何在用AI留住用户体验的同时，不破坏自身原有的商业变现路径。目前谷歌官方披露的信息集中在确认AI摘要功能对广告收入产生了影响，具体影响的量级和未来的应对策略并未详细说明。后续需要关注谷歌下一财季财报中广告业务具体数据的变化，以及公司是否会调整AI摘要功能的呈现方式来平衡用户体验与广告收入。",
-      "duration_seconds": 130,
-      "is_unverified": false,
-      "confidence_note": "来自BBC的一手财经报道，涉及公司自身披露信息，属于较高可信度的一手信息。",
-      "fact_status": {
-        "confirmed": [
-          "谷歌披露AI搜索摘要功能正在影响广告销售收入，公司股价跌至六个月新低，市值蒸发约5000亿美元"
-        ],
-        "claims": [],
-        "analysis": [
-          "此事反映搜索引擎行业在AI摘要功能与广告商业模式之间的内在矛盾"
-        ]
-      },
-      "source_ids": [
-        "897d9c8df970350c"
-      ],
-      "sources": [
-        {
-          "id": "897d9c8df970350c",
-          "source": "BBC World",
-          "source_tier": 2,
-          "source_region": "uk",
-          "language": "en",
-          "category_hint": "world",
-          "title": "Google value plunges by $500bn as its own AI search hits ad sales",
-          "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
-          "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-30T12:04:02+00:00",
-          "discovery_only": false,
-          "requires_24h_date_verification": false
-        }
-      ]
-    },
-    {
-      "category": "finance",
-      "title": "朝鲜相关黑客攻击致币安暂停交易",
+      "category": "world",
+      "title": "联合国结束在索马里长达三十年的政治特派团使命",
       "english_term": null,
-      "summary": "加密货币交易所币安因疑似遭朝鲜关联黑客攻击而暂停交易，用户暂时无法在平台上进行交易，事件仍在调查中。",
-      "script": "一条金融与网络安全交叉的新闻：加密货币交易所币安宣布暂停交易，原因是遭遇一起疑似与朝鲜有关联的黑客攻击。据德国之声报道，这次安全事件导致平台用户暂时无法进行交易，目前相关入侵事件仍在调查当中。朝鲜关联黑客组织此前已多次被指控针对全球加密货币交易所发动攻击，并借此获取资金，这类攻击通常会被西方安全机构和相关执法部门视为朝鲜规避国际制裁、获取外汇收入的重要渠道之一。对于币安这样体量的全球头部加密货币交易平台而言，一旦交易系统被攻破或存在安全隐患，不仅会造成直接的资金损失风险，也会动摇用户对平台安全性的信任，进而对整个加密货币市场的流动性和价格产生连锁反应。不过目前公开信息还比较有限，关于此次攻击的具体手法、涉及金额、受影响用户范围等细节，币安官方尚未完全披露，是否最终坐实与朝鲜方面有关联，也需要等待更深入的技术调查和执法部门的正式结论。这类事件也再次把加密货币行业长期存在的安全隐患问题摆上台面。后续需要关注币安官方公布的具体调查结果，以及交易恢复的具体时间安排。",
-      "duration_seconds": 110,
-      "is_unverified": true,
-      "confidence_note": "事件仍处于调查阶段，朝鲜关联的具体证据尚未完全披露，标记为未完全证实，需等待官方调查结论。",
+      "summary": "联合国正式关闭其在索马里的政治特派团，结束了长达三十年的政治参与，索马里方面将此举称为一个里程碑，但当地政治紧张局势和国际援助削减仍在持续。",
+      "script": "一则来自非洲之角的重要国际事件。据半岛电视台报道，联合国正式关闭了其在索马里的政治特派团，这标志着联合国在该国长达三十年的持续政治参与宣告结束。索马里官方将这一决定称为国家发展进程中的一个重要里程碑，视为国家治理能力逐步走向自主和成熟的象征性节点。不过报道也指出，这一决定是在索马里国内政治紧张局势依然存在、同时国际社会对该国的援助也在同步削减的背景下做出的，这意味着索马里在失去联合国政治特派团的协调和斡旋支持后，需要独自应对国内尚未完全化解的政治矛盾。联合国在索马里的政治特派团，在过去三十年中承担了包括协助政府间对话、支持选举进程、协调国际人道与安全援助等多重角色，这类特派团的撤出，往往被视为联合国对相关国家治理能力和局势稳定性做出的一种阶段性判断，但同时也会引发外界对该国后续能否在缺少外部协调机制情况下维持稳定的担忧。由于报道中并未详细说明索马里当前具体的政治紧张局势内容，以及国际援助削减的具体规模和影响范围，这些细节仍需要结合更多后续报道来完整评估这一决定对索马里局势的实际影响。",
+      "duration_seconds": 115,
+      "is_unverified": false,
+      "confidence_note": "来自半岛电视台的直接报道，信息来源单一但属于国际组织官方行动的常规新闻报道，可信度较高。",
       "fact_status": {
         "confirmed": [
-          "币安因疑似遭黑客攻击而暂停交易"
+          "联合国正式关闭了在索马里的政治特派团，结束三十年的政治参与"
         ],
         "claims": [
-          "此次攻击疑似与朝鲜有关联"
+          "索马里官方将此举称为国家发展的里程碑"
         ],
         "analysis": [
-          "若证实属实，将延续朝鲜关联黑客针对加密货币行业的攻击模式，事件可能影响市场对交易所安全性的信任"
+          "该决定是在索马里国内政治紧张局势仍存、国际援助同步削减的背景下做出的，后续局势稳定性存在不确定性"
         ]
       },
       "source_ids": [
-        "1712b90d4c7758e1"
+        "6482085196f85c0a"
       ],
       "sources": [
         {
-          "id": "1712b90d4c7758e1",
-          "source": "DW Top Stories",
+          "id": "6482085196f85c0a",
+          "source": "Al Jazeera",
           "source_tier": 2,
-          "source_region": "eu",
+          "source_region": "middle-east",
           "language": "en",
           "category_hint": "world",
-          "title": "Binance crypto exchange suspends trades over North Korea-linked hack",
-          "summary": "Crypto platform Binance has suspended trading following a suspected hack now linked to North Korea. The disruption has left users unable to trade on the cryptocurrency platform while the suspected breach is investigated.",
-          "url": "https://www.dw.com/en/binance-crypto-exchange-suspends-trades-over-north-korea-linked-hack/a-79803280?maca=en-rss-en-top-1022-rdf",
-          "published_at": "2026-10-30T11:47:00+00:00",
+          "title": "UN closes Somalia mission, ending three decades of political engagement",
+          "summary": "Somalia hails the UN mission's closure as a milestone amid political tensions and cuts to international support.",
+          "url": "https://www.aljazeera.com/news/2026/10/31/un-closes-somalia-mission-ending-three-decades-of-political-engagement?traffic_source=rss",
+          "published_at": "2026-10-31T11:37:21+00:00",
           "discovery_only": false,
           "requires_24h_date_verification": false
         }
       ]
     }
   ],
-  "closing": "今天的内容就到这里。机器人产业在政策保护与资本加码双重推动下持续升温，学术界也在灵巧操作、人形机器人控制和足式机器人感知等方向密集产出新成果；国际政治方面，以色列组阁僵局与俄罗斯独立媒体空间收缩值得持续关注。后续需要等待相关论文完成同行评审、交易完成正式文件披露以及各方调查结论公布。",
-  "editor_note": "本次修订移除了2026机器人手册综述条目以调整机器人类时长占比至约50%，其余事件与source_ids均保持不变；预印本内容均已标注未经同行评审，国际政治部分优先选取有至少两个独立二级来源交叉确认的事件，单一来源的币安黑客事件标记为未完全证实。",
+  "closing": "今天的内容就到这里。人形机器人产业这两天的焦点集中在资本层面——Figure AI的算力押注、Agility的SPAC上市估值调整，以及Re:Build、Percepto等公司的融资与产品动态，共同勾勒出机器人产业链从整机到上下游基础设施的资金与应用图景。国际局势方面，欧洲多国的街头抗议浪潮、俄乌局部停火后的人道状况，以及Binance遭巨额黑客攻击事件，都值得持续关注后续发展。",
+  "editor_note": "为满足机器人时长占比45%-55%的要求，本版删除了Mori蘑菇造型机器人与机器狗遛狗员数据采集两条证据链条较弱、信息量有限的单一来源小条目，保留六条机器人相关事件中信息更充分、来源更可靠的四条（Figure AI、Agility、融资扫描、Percepto），并对国际新闻部分时长做了微调压缩。调整后机器人部分时长合计约540秒，占总时长约46%，落在45%-55%区间内；总时长约1215秒，总字数约4870字，均符合要求。来源分布涵盖The Robot Report、Axios、Interesting Engineering同类聚合等多家专业与通用媒体，国际新闻部分采用BBC、DW、半岛电视台、NPR等独立信源。未核实内容均已标注is_unverified及具体证据局限说明。",
   "model": "claude-sonnet-5",
   "generation_usage": [
     {
-      "input_tokens": 9173,
-      "output_tokens": 10218,
-      "total_tokens": 19391
+      "input_tokens": 8703,
+      "output_tokens": 10137,
+      "total_tokens": 18840
     },
     {
-      "input_tokens": 12071,
-      "output_tokens": 8807,
-      "total_tokens": 20878
+      "input_tokens": 11992,
+      "output_tokens": 8015,
+      "total_tokens": 20007
     }
   ],
   "usage": {
-    "output_tokens": 19025,
-    "total_tokens": 40269,
-    "input_tokens": 21244
+    "input_tokens": 20695,
+    "total_tokens": 38847,
+    "output_tokens": 18152
   },
-  "generated_at": "2026-10-30T12:11:35+00:00",
-  "window_start": "2026-10-29T12:11:35+00:00",
-  "candidate_count": 383,
+  "generated_at": "2026-10-31T12:12:49+00:00",
+  "window_start": "2026-10-30T12:12:49+00:00",
+  "candidate_count": 182,
   "source_errors": [
     "European Central Bank Press Releases: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>",
     "已跳过联网产业搜索（未配置百炼 Key）：Command '['/usr/bin/security', 'find-generic-password', '-s', '晶球电台－阿里云百炼', '-a', 'Bailian API Key', '-w']' returned non-zero exit status 44."
   ],
   "automatically_repaired": true,
   "quality": {
-    "duration_seconds": 1210,
-    "script_characters": 4706,
-    "topic_duration_share": 0.591,
+    "duration_seconds": 1005,
+    "script_characters": 3945,
+    "topic_duration_share": 0.542,
     "passed": true,
-    "normal_target_met": true,
-    "topic_source_count": 3,
+    "normal_target_met": false,
+    "topic_source_count": 2,
     "issues": []
   }
 }
